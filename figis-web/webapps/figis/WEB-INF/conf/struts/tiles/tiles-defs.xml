@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- error page -->
+	<definition name="struts.error" extends="jsp.html">
+		<put name="title" value="error" type="string"/>
+		<put name="content" value="/shared/error.jsp"/>
+		<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- failure page -->
+	<definition name="struts.failure" extends="jsp.html">
+		<put name="title" value="failure" type="string"/>
+		<put name="content" value="/shared/failure.jsp"/>
+				<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- error skeleton -->
+	<definition name="Body" extends="editWrapper">
+		<put name="imgSrc" value="/figis/website/assets/images/templates/firms/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<putList name="css">
+			<add value="/figis/website/css/fi.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- login page -->
+	<definition name="FIsystem.login" extends="jsp.html">
+		<put name="context" value="/fi/" type="string"/>
+		<put name="siteName" value="FI" type="string"/>
+		<put name="title" value="login" type="string"/>
+		<put name="content" value="/login/login_form.jsp" type="page"/>
+		<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+	<definition name="FIRMSsystem.login" extends="jsp.html">
+		<put name="context" value="/figis/" type="string"/>
+		<put name="siteName" value="FIRMS" type="string"/>
+		<put name="title" value="login" type="string"/>
+		<put name="content" value="/login/login_form.jsp" type="page"/>
+		<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- change password -->
+	<definition name="system.password" extends="jsp.html">
+		<put name="context" value="/fi/" type="string"/>
+		<put name="title" value="password.change" type="string"/>
+		<put name="content" value="/login/password_form.jsp" type="page"/>
+		<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- changed password -->
+	<definition name="system.pass" extends="jsp.html">
+		<put name="context" value="/fi/" type="string"/>
+		<put name="title" value="password.changed" type="string"/>
+		<put name="content" value="/login/password_changed.jsp" type="page"/>
+		<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+	</definition>
+</tiles-definitions>

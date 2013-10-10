@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<!-- This is the Struts configuration file for the Tiles-documentation application -->
+<struts-config>
+	<!-- ========== Form Beans =============================== -->
+	<form-beans>
+		<form-bean name="Upload" type="org.apache.struts.action.DynaActionForm">
+			<!-- The action to take: year -->
+			<form-property name="year" type="java.lang.String"/>
+			<!-- The action to take: "[upload|validate|store|create|clone|setkeys]" -->
+			<form-property name="action" type="java.lang.String"/>
+			<!-- The domain for the action: "[create|clone]" -->
+			<form-property name="dom" type="java.lang.String"/>
+			<!-- The template file to use: "[create]" -->
+			<form-property name="template" type="java.lang.String"/>
+			<!-- The FID of the parent -->
+			<form-property name="fid" type="java.lang.Integer"/>
+			<!-- The observation ID to clone: "[clone]" -->
+			<form-property name="oid" type="java.lang.Integer"/>
+			<!-- The XML lang to clone: "[clone]" -->
+			<form-property name="lang" type="java.lang.String"/>
+			<!-- The option to clone a draft: "[clone]" -->
+			<form-property name="draft" type="java.lang.String"/>
+			<!-- the ID of the collection to load against -->
+			<form-property name="collectionid" type="java.lang.Integer"/>
+			<!-- the ID of the corporate cover page to create against  -->
+			<form-property name="coverpageid" type="java.lang.Integer"/>
+			<!-- the set of available corporate cover pages for the selected collection  -->
+			<form-property name="coverpages" type="java.util.Set"/>
+			<!-- the user identified from the FAO context -->
+			<form-property name="upload_user" type="org.fao.fi.figis.util.context.FAOUser"/>
+			<!-- A list of files to upload (ie. a stack of html-form file fields all with the same name)
+				The code does not have a fixed limit but this declaration does -->
+			<form-property name="file_list" type="org.apache.struts.upload.FormFile[]" size="20"/>
+			<!-- the path of the upload temporary directory (set by server in upload action, used by the others) -->
+			<form-property name="upload_dir" type="java.lang.String"/>
+			<!-- the XML file to be ident-copied, validated or stored -->
+			<form-property name="file_for_action" type="java.lang.String"/>
+			<!-- Set by the server. A list of files and directories currently under the upload directory -->
+			<form-property name="upload_dir_list" type="java.util.List"/>
+			<!-- Initially set by the server. A list of clone/create key names -->
+			<form-property name="key_names" type="java.util.List"/>
+			<!-- Initially set by the server. A list of clone/create key values -->
+			<form-property name="key_values" type="java.util.List"/>
+			<!-- Initially set by the server. A list of clone/create key types -->
+			<form-property name="key_types" type="java.util.List"/>
+			<!-- The result of a validation pass -->
+			<form-property name="validation_result" type="org.fao.fi.figis.fs.common.data.object.ValidationResult"/>
+			<!-- The result of a store action -->
+			<form-property name="saved_observation" type="org.fao.fi.figis.fs.common.data.object.FsObservation"/>
+		</form-bean>
+	</form-beans>
+	<!-- =================== Global forwards ================================ -->
+	<global-forwards>
+		<forward name="exception" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="error" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="no_template" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="failure" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user not found -->
+		<forward name="notfound" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user needs to login -->
+		<forward name="notloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FInotloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FIRMSnotloggedin" path="/FIRMSLogin.do" contextRelative="true" redirect="false"/>
+		<forward name="manage" path="/Manage.do" redirect="true" module="/manage"/>
+		<forward name="edit" path="/Edit.do" redirect="true" module="/edit"/>
+		<forward name="viewHTML" path="/ViewHTML.do" redirect="true" module="/website"/>
+		<forward name="viewXML" path="/ViewXML.do" redirect="true" module="/website"/>
+	</global-forwards>
+	<!-- ========== Action Mapping Definitions =============================== -->
+	<action-mappings>
+		<!-- to switch modules -->
+		<action path="/switch" type="org.apache.struts.actions.SwitchAction"/>
+		<!-- ================================= -->
+		<!-- the upload action-->
+		<action path="/CreateAction" name="Upload"
+			type="org.fao.fi.figis.fs.common.upload.FsUploadAction">
+			<forward name="create_done" path="/Create_step2.do"/>
+			<forward name="clone_done" path="/Create_step2.do"/>
+			<forward name="set_keys_done" path="/Upload_step3.do"/>
+		</action>
+
+		<!-- ================================= -->
+		<!-- the upload action-->
+		<action path="/UploadAction" name="Upload" type="org.fao.fi.figis.fs.common.upload.FsUploadAction">
+			<forward name="upload_done" path="/Upload_step2.do"/>
+			<forward name="delete_done" path="/Upload_step2.do"/>
+			<forward name="delete_all_done" path="/Upload.do"/>
+			<forward name="copy_id_done" path="/Upload_step2.do"/>
+			<forward name="validate_done" path="/Upload_step3.do"/>
+			<forward name="store_done" path="/Upload_step4.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the main upload page -->
+		<action path="/Upload" name="Upload"
+			type="org.apache.struts.actions.ForwardAction"
+			parameter="factsheet.upload"/>
+		<!-- ================================= -->
+		<!-- the create page -->
+		<action path="/Create" name="Upload"
+			type="org.apache.struts.actions.ForwardAction"
+			parameter="factsheet.create"/>
+		<!-- ================================= -->
+		<!-- some action chaining for create and clone -->
+		<action path="/CUpload" name="Upload"
+			type="org.apache.struts.actions.ForwardAction"
+			parameter="/upload/cupload.jsp"/>
+		<!-- ================================= -->
+		<!-- some action chaining for create and clone -->
+		<action path="/Validate" name="Upload"
+			type="org.apache.struts.actions.ForwardAction"
+			parameter="/upload/validate.jsp"/>
+		<!-- ================================= -->
+		<!-- uploaded -->
+		<action path="/Upload_step2" name="Upload" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.upload2"/>
+		<!-- ================================= -->
+		<!-- created -->
+		<action path="/Create_step2" name="Upload" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.create2"/>
+		<!-- ================================= -->
+		<!-- validated -->
+		<action path="/Upload_step3" name="Upload" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.upload3"/>
+		<!-- ================================= -->
+		<!-- saved -->
+		<action path="/Upload_step4" name="Upload" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.upload4"/>
+		<!-- ================================= -->
+	</action-mappings>
+	<!-- ================================= -->
+	<!-- controller parameters -->
+	<controller contentType="UTF-8" locale="true"/>
+	<!-- ========== Associated Messages Ressource settings =================== -->
+<message-resources key="shared" parameter="org.fao.fi.figis.bundle.shared.SharedResources"
+	factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+		<message-resources key="upload" parameter="org.fao.fi.figis.bundle.upload.UploadResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<!-- ========== TilesPlugin settings ===================================== -->
+	<!-- You should declare this plugin if you want to use Tiles with an XML definition file. -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" id="upld">
+		<!-- Path to XML definition file -->
+		<set-property property="definitions-config" value="/WEB-INF/conf/struts/tiles/tiles-upload-defs.xml, /WEB-INF/conf/struts/tiles/tiles-shared-defs.xml"/>
+		<!-- 2 is max debug -->
+		<set-property property="definitions-debug" value="2"/>
+		<!-- Set Module-awareness to true. means you can have multiple tiles definitions -->
+		<set-property property="moduleAware" value="true"/>
+	</plug-in>
+</struts-config>

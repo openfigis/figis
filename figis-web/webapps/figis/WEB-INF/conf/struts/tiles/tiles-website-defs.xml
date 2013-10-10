@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- empty but needed to avoid errors as it is declared in shared tiles for other modules -->
+	<definition name="Body" path="/website/master.jsp"/>
+	<definition name="FIRMSResource.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<!--SC-->
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="resource.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/resource/jstl_firmsResource.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+			<add value="/figis/scripts/FigisMapObj.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="FIRMSFishery.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<!--SC-->
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="fishery.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/fishery/jstl_firmsFishery.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/fishery/styleFishery.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+			<add value="/figis/scripts/FigisMapObj.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="FIRMSTopic.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<!--SC-->
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/topic/xsl/topic.xsl" type="string"/>
+		<put name="meta" value="165000" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="FIRMSOrganization.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<!--SC-->
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="organization" type="string"/>
+		<put name="xsl" value="webapps/figis/organization/format/jsp_organization.xsl" type="string"/>
+		<put name="meta" value="104000" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="firms.search.result" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="search.result" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/css/state-trend.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tabs/tabcontent.js" type="string"/>
+		</putList>
+	</definition>
+	<!--STF-->
+	<definition name="STFOrg.html" path="/shared/transform_xml.jsp" extends="STFBody">
+		<put name="output" value="STFOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="org" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="org" type="string"/>
+		<!--<putList name="localCss">
+			<add value="/fi/figis/org/format/org.css" type="string"/>
+		</putList>-->
+	</definition>
+	<definition name="STFResource.html" path="/shared/transform_xml.jsp" extends="STFBody">
+		<!--SC-->
+		<put name="output" value="STFOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="resource.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/resource/jstl_firmsResource.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="STFFishery.html" path="/shared/transform_xml.jsp" extends="STFBody">
+		<!--SC-->
+		<put name="output" value="STFOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="fishery.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/fishery/jstl_firmsFishery.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/fishery/styleFishery.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="browser.stf.list" extends="stf.jsp.html">
+		<put name="servlet" value="/servlet/TabStockResGlobal?xp_site=STF&amp;tb_ds=StockResGlobal&amp;tb_mode=TABLE&amp;tb_act=SELECT&amp;tb_grp=STOCKRESGLOBAL" type="string"/>
+		<put name="title" value="stfbrowser.title" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/selector/assets/styles/panel.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<!--<add value="/figis/scripts/rollover.js" type="string"/>-->
+			<!--<add value="window.name = 'main_window'" type="string"/>-->
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/fi/figis/scripts/menu.js" type="string"/>
+			<add value="/fi/figis/scripts/opUpdate.js" type="string"/>
+			<add value="/fi/figis/scripts/more-text.js" type="string"/>
+			<add value="/fi/figis/scripts/rollover.js" type="string"/>
+			<add value="/fi/figis/scripts/triggerform.js" type="string"/>
+			<add value="/fi/figis/scripts/anchor.js" type="string"/>
+		</putList>
+	</definition>
+	<!--GFCM-->
+	<definition name="GFCMOrg.html" path="/shared/transform_xml.jsp" extends="GFCMBody">
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="org" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="org" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/org/format/org.css" type="string"/>
+		</putList>
+	</definition>
+	<definition name="GFCMOrganization.html" path="/shared/transform_xml.jsp" extends="GFCMBody">
+		<!--SC-->
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="organization" type="string"/>
+		<put name="xsl" value="webapps/figis/organization/format/jsp_organization.xsl" type="string"/>
+		<put name="meta" value="104000" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="GFCMtopic.html" path="/shared/transform_xml.jsp" extends="GFCMBody">
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/topic/xsl/topic.xsl" type="string"/>
+		<put name="meta" value="168000" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+		<!--<putList name="localCss">
+			<add value="/figis/topic/css/topic.css" type="string"/>
+		</putList>-->
+	</definition>
+	<definition name="GFCMResource.html" path="/shared/transform_xml.jsp" extends="GFCMBody">
+		<!--SC-->
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="resource.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/resource/jstl_firmsResource.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+			<add value="/figis/scripts/FigisMapObj.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="gfcm.search.result" path="/shared/transform_xml.jsp" extends="GFCMBody">
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="search.result" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/css/state-trend.css" type="string"/>
+			<add value="/figis/scripts/tabs/tabcontentGFCM.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tabs/tabcontent.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="gfcm.news.search" extends="gfcm.jsp.html">
+		<put name="title" value="gfcmNews.search" type="string"/>
+		<put name="content" value="/website/jsp/gfcm/GFCMSearchNews.jsp" type="page"/>
+	</definition>
+	<definition name="gfcm.meetings.search" extends="gfcm.jsp.html">
+		<put name="title" value="gfcmMeetings.search" type="string"/>
+		<put name="content" value="/website/jsp/gfcm/GFCMSearchMeetings.jsp" type="page"/>
+	</definition>
+	<definition name="gfcm.publications.search" extends="gfcm.jsp.html">
+		<put name="title" value="gfcmPublications.search" type="string"/>
+		<put name="content" value="/website/jsp/gfcm/GFCMSearchPublications.jsp" type="page"/>
+	</definition>
+	<!--Nansen-->
+	<definition name="NANSENOrg.html" path="/shared/transform_xml.jsp" extends="NANSENBody">
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="org" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="org" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/org/format/org.css" type="string"/>
+		</putList>
+	</definition>
+	<definition name="NANSENOrganization.html" path="/shared/transform_xml.jsp" extends="NANSENBody">
+		<!--SC-->
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="organization" type="string"/>
+		<put name="xsl" value="webapps/figis/organization/format/jsp_organization.xsl" type="string"/>
+		<put name="meta" value="104000" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="NANSENtopic.html" path="/shared/transform_xml.jsp" extends="NANSENBody">
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/topic/xsl/topic.xsl" type="string"/>
+		<put name="meta" value="169000" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+		<!--<putList name="localCss">
+			<add value="/figis/topic/css/topic.css" type="string"/>
+		</putList>-->
+	</definition>
+	<definition name="NANSENResource.html" path="/shared/transform_xml.jsp" extends="NANSENBody">
+		<!--SC-->
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="resource.title" type="string"/>
+		<put name="xsl" value="webapps/figis/firms/format/resource/jstl_firmsResource.xsl" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/format/resource/styleResource.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/save_html.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/print.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="nansen.search.result" path="/shared/transform_xml.jsp" extends="NANSENBody">
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="search.result" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/css/state-trend.css" type="string"/>
+			<add value="/figis/scripts/tabs/tabcontentNansen.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tabs/tabcontent.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="nansen.news.search" extends="nansen.jsp.html">
+		<put name="title" value="nansenNews.search" type="string"/>
+		<put name="content" value="/website/jsp/nansen/NansenSearchNews.jsp" type="page"/>
+	</definition>
+	<definition name="nansen.meetings.search" extends="nansen.jsp.html">
+		<put name="title" value="nansenMeetings.search" type="string"/>
+		<put name="content" value="/website/jsp/nansen/NansenSearchMeetings.jsp" type="page"/>
+	</definition>
+	<definition name="nansen.publications.search" extends="nansen.jsp.html">
+		<put name="title" value="nansenPublications.search" type="string"/>
+		<put name="content" value="/website/jsp/nansen/NansenSearchPublications.jsp" type="page"/>
+	</definition>
+	<!--EafNet-->
+	<definition name="EAFNETeaftool.html" path="/shared/transform_xml.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="eaftool" type="string"/>
+		<!--
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		-->
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/eaftool/format/eaftool.xslt" type="string"/>
+		<put name="meta" value="eaftool" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/eaftool/format/eaftool.css" type="string"/>
+		</putList>
+	</definition>
+	<definition name="EAFNETOrganization.html" path="/shared/transform_xml.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="organization" type="string"/>
+		<put name="xsl" value="webapps/figis/organization/format/jsp_organization.xsl" type="string"/>
+		<put name="meta" value="104000" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="EAFNETtopic.html" path="/shared/transform_xml.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/topic/xsl/topic.xsl" type="string"/>
+		<put name="meta" value="170000" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- search for eaftool fs -->
+	<definition name="eafnet.eaftool.search" extends="eafnet.jsp.html">
+		<put name="content" value="/website/jsp/eafnet/eaftool_search.jsp" type="page"/>
+		<put name="title" value="eaftool.search" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!--
+	<definition name="eafnet.search.result" path="/shared/transform_xml.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="search.result" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/scripts/tabs/tabcontentEafNet.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tabs/tabcontent.js" type="string"/>
+		</putList>
+	</definition>
+	-->
+	<definition name="eafnet.news.search" extends="eafnet.jsp.html">
+		<put name="title" value="eafnetNews.search" type="string"/>
+		<put name="content" value="/website/jsp/eafnet/EafnetSearchNews.jsp" type="page"/>
+	</definition>
+	<definition name="eafnet.meetings.search" extends="eafnet.jsp.html">
+		<put name="title" value="eafnetMeetings.search" type="string"/>
+		<put name="content" value="/website/jsp/eafnet/EafnetSearchMeetings.jsp" type="page"/>
+	</definition>
+	<definition name="eafnet.publications.search" extends="eafnet.jsp.html">
+		<put name="title" value="eafnetPublications.search" type="string"/>
+		<put name="content" value="/website/jsp/eafnet/EafnetSearchPublications.jsp" type="page"/>
+	</definition>
+	<definition name="eafnet.search.result" path="/shared/transform_xml.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="eafnetFS.search" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/website/css/eafnet_search.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+			<add value="/figis/scripts/save_html.js" type="string"/>
+		</putList>
+	</definition>
+	<!--FIRMS-->
+	<definition name="FIRMSOrg.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="org" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="org" type="string"/>
+		<putList name="localCss">
+			<!--<add value="/fi/figis/common/format/style.css" type="string"/>-->
+			<add value="/fi/figis/org/format/org.css" type="string"/>
+			<!--<add value="/fi/figis/org/format/rfb.css" type="string"/>-->
+		</putList>
+	</definition>
+	<definition name="FIRMSCollection.html" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="collection" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="collection" type="string"/>
+		<!--<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>-->
+	</definition>
+	<!-- search for marine resources -->
+	<definition name="searchall.list" extends="firms.jsp.html">
+		<put name="title" value="firmsFS.searchall" type="string"/>
+		<put name="content" value="/website/jsp/firms/searchall_list.jsp" type="page"/>
+		<!--<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>-->
+		<putList name="localScripts">
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- search for fishery -->
+	<definition name="search.fishery.list" extends="firms.jsp.html">
+		<put name="title" value="firmsFS.searchFishery" type="string"/>
+		<put name="content" value="/website/jsp/firms/search_fishery.jsp" type="page"/>
+		<!--<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>-->
+		<putList name="localScripts">
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- browser -->
+	<definition name="browser.list" extends="firms.jsp.html">
+		<put name="title" value="firmsbrowser.title" type="string"/>
+		<put name="servlet" value="/servlet/TabStockRes?xp_site=FIRMS&amp;tb_ds=StockRes&amp;tb_mode=TABLE&amp;tb_act=SELECT&amp;tb_grp=STOCKRES" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/selector/assets/styles/panel.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/fi/figis/scripts/menu.js" type="string"/>
+			<add value="/fi/figis/scripts/opUpdate.js" type="string"/>
+			<add value="/fi/figis/scripts/more-text.js" type="string"/>
+			<add value="/fi/figis/scripts/rollover.js" type="string"/>
+			<add value="/fi/figis/scripts/triggerform.js" type="string"/>
+			<add value="/fi/figis/scripts/anchor.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="browserFishery.list" extends="firms.jsp.html">
+		<put name="servlet" value="/servlet/TabStockRes?xp_site=FIRMS&amp;tb_ds=Fishery&amp;tb_mode=TABLE&amp;tb_act=SELECT&amp;tb_grp=FISHERY" type="string"/>
+		<put name="title" value="firmsbrowser.title" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/selector/assets/styles/panel.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<!--<add value="/figis/scripts/rollover.js" type="string"/>-->
+			<!--<add value="window.name = 'main_window'" type="string"/>-->
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/fi/figis/scripts/menu.js" type="string"/>
+			<add value="/fi/figis/scripts/opUpdate.js" type="string"/>
+			<add value="/fi/figis/scripts/more-text.js" type="string"/>
+			<add value="/fi/figis/scripts/rollover.js" type="string"/>
+			<add value="/fi/figis/scripts/triggerform.js" type="string"/>
+			<add value="/fi/figis/scripts/anchor.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="selector.list" extends="firms.jsp.html">
+		<put name="servlet" value="/servlet/TabSelector?tb_ds=StockRes&amp;tb_mode=TABLE&amp;tb_act=SELECT&amp;tb_grp=STOCKRES" type="string"/>
+		<put name="title" value="firmsbrowser.title" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/selector/assets/styles/panel.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<!--<add value="/figis/scripts/rollover.js" type="string"/>-->
+			<!--<add value="window.name = 'main_window'" type="string"/>-->
+			<add value="/figis/tseries/scripts/tseries_check.js" type="string"/>
+			<add value="/fi/figis/scripts/menu.js" type="string"/>
+			<add value="/fi/figis/scripts/opUpdate.js" type="string"/>
+			<add value="/fi/figis/scripts/more-text.js" type="string"/>
+			<add value="/fi/figis/scripts/rollover.js" type="string"/>
+			<add value="/fi/figis/scripts/triggerform.js" type="string"/>
+			<add value="/fi/figis/scripts/anchor.js" type="string"/>
+		</putList>
+	</definition>
+	<definition name="resultFIRMS1.list" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<!--<definition name="resultFIRMS1.list" extends="firms.jsp.html">-->
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<!--<put name="servlet" value="/servlet/FsSearchServlet?" type="string"/>-->
+		<!--<put name="toolbar" value="/shared/srch_toolbar.jsp" type="page"/>-->
+		<put name="title" value="firmsFS.summary" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/css/search.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+			<add value="/figis/scripts/save_html.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- search for status and trend summaries -->
+	<definition name="search.list" extends="firms.jsp.html">
+		<put name="content" value="/website/jsp/firms/search_list.jsp" type="page"/>
+		<put name="title" value="stateTrend.search" type="string"/>
+		<!--SC-->
+		<!--<putList name="localCss">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>-->
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- retrieve list of status and trend summaries -->
+	<definition name="result.list" path="/shared/transform_xml.jsp" extends="FIRMSBody">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<!--<put name="toolbar" value="/shared/srch_toolbar.jsp" type="page"/>-->
+		<put name="title" value="stateTrend.summary" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/firms/css/state-trend.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+			<add value="/figis/scripts/save_html.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- ========================================== -->
+	<!-- FI stuff here down -->
+	<!-- ========================================== -->
+	<!-- topic factsheets -->
+	<definition name="FItopic.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/topic/xsl/topic.xsl" type="string"/>
+		<put name="meta" value="165000" type="string"/>
+		<!--	<putList name="localCss">
+			<add value="/figis/topic/css/topic.css" type="string"/>
+		</putList>-->
+	</definition>
+	<!-- organization factsheets -->
+	<definition name="FIorganization.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="organization" type="string"/>
+		<!--put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/-->
+		<put name="xsl" value="webapps/figis/organization/format/jsp_organization.xsl" type="string"/>
+		<put name="meta" value="organization" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- facp factsheets -->
+	<definition name="FIfacp.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="facp" type="string"/>
+		<!--put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/-->
+		<put name="xsl" value="webapps/figis/facp/format/jsp_facp.xsl" type="string"/>
+		<put name="meta" value="facp" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- naso factsheets -->
+	<definition name="FInaso.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="naso" type="string"/>
+		<!--put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/-->
+		<put name="xsl" value="webapps/figis/naso/format/jsp_naso.xsl" type="string"/>
+		<put name="meta" value="naso" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- species factsheets -->
+	<definition name="FIspecies.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="species" type="string"/>
+		<put name="xsl" value="webapps/figis/species/format/jsp_species.xsl" type="string"/>
+		<put name="meta" value="species" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/species/format/style.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/FigisMapObj.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- species distribution maps -->
+	<definition name="FIspeciesdistmap.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="speciesdistmap" type="string"/>
+		<!--<put name="xsl" value="webapps/figis/species/format/jsp_species.xsl" type="string"/>-->
+		<put name="meta" value="species" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/GIS.js" type="string"/>
+			<add value="/figis/scripts/openlayers/OpenLayers.js" type="string"/>
+			<add value="/figis/scripts/openlayers/lib/OpenLayers/Control/LoadingPanel.js" type="string"/>
+		</putList>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/species/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- geartype factsheets -->
+	<definition name="FIgeartype.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="geartype" type="string"/>
+		<put name="xsl" value="webapps/figis/geartype/format/jsp_geartype.xsl" type="string"/>
+		<put name="meta" value="geartype" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<!--<add value="/fi/figis/tech/format/gear.css" type="string"/>-->
+		</putList>
+	</definition>
+	<!-- vesseltype factsheets -->
+	<definition name="FIvesseltype.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="vesseltype" type="string"/>
+		<put name="xsl" value="webapps/figis/vesseltype/format/jsp_vesseltype.xsl" type="string"/>
+		<put name="meta" value="vesseltype" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<!--<add value="/fi/figis/tech/format/vessel.css" type="string"/>-->
+		</putList>
+	</definition>
+	<!-- fishtech factsheets -->
+	<definition name="FIfishtech.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="fishtech" type="string"/>
+		<put name="xsl" value="webapps/figis/fishtech/format/jsp_fishtech.xsl" type="string"/>
+		<put name="meta" value="fishtech" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<!--<add value="/fi/figis/tech/format/fishtech.css" type="string"/>-->
+		</putList>
+	</definition>
+	<!-- introduced species factsheets -->
+	<definition name="FIintrosp.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="introsp" type="string"/>
+		<put name="xsl" value="webapps/figis/introsp/format/jsp_introsp.xsl" type="string"/>
+		<put name="meta" value="introsp" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/introsp/format/introsp.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- area factsheets -->
+	<definition name="FIarea.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="area" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/area/format/area.xslt" type="string"/>
+		<put name="meta" value="area" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/area/format/area.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- collection factsheets -->
+	<definition name="FIcollection.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="collection" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="collection" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/collection/format/collection.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- early version country factsheets -->
+	<definition name="FIcountry.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="countrysector" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/country/format/country.xsl" type="string"/>
+		<put name="meta" value="country" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/country/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- countrysector factsheets -->
+	<definition name="FIcountrysector.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="countrysector" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/countrysector/format/countrysector.xslt" type="string"/>
+		<put name="meta" value="countrysector" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<!--<add value="/fi/figis/countrysector/format/countrysector.css" type="string"/>-->
+			<add value="/fi/figis/countrysector/format/aquaculture.css" type="string"/>
+			<add value="/fi/figis/countrysector/format/fisheries.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- culturespecies factsheets -->
+	<definition name="FIculturespecies.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="culturespecies" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="culturespecies" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/culturespecies/format/culturespecies.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- equipment factsheets -->
+	<definition name="FIequipment.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="equipment" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/equipment/format/equipment.xsl" type="string"/>
+		<put name="meta" value="equipment" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/equipment/format/style.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- legalframework factsheets -->
+	<definition name="FIlegalframework.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="legalframework" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="legalframework" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/legalframework/format/legalframework.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- ontology factsheets -->
+	<definition name="FIontology.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="ontology" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/ontology/format/ontology.xslt" type="string"/>
+		<put name="meta" value="ontology" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/ontology/format/ontology.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- org factsheets -->
+	<definition name="FIOrg.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="org" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="org" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/org/format/org.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- static topic factsheets (vmls programme only so far) -->
+	<definition name="FIstatictopic.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="topic" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="topic" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/topic/format/topic.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- vmsprogramme factsheets -->
+	<definition name="FIvmsprogramme.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="vmsprogramme" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/common/format/copyfile.xslt" type="string"/>
+		<put name="meta" value="vmsprogramme" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/vmsprogramme/format/vmsprogramme.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- PSM factsheets -->
+	<definition name="FIPsm.html" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="portstatemeasures" type="string"/>
+		<put name="xsl" value="webapps/figis/wwwroot/fi/figis/psm/format/psm.xsl" type="string"/>
+		<put name="meta" value="psm" type="string"/>
+		<putList name="localCss">
+			<add value="/fi/figis/common/format/style.css" type="string"/>
+			<add value="/fi/figis/psm/format/psm.css" type="string"/>
+			<add value="/figis/website/css/FigisMap.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/FigisMapObj.js" type="string"/>
+			<add value="/figis/scripts/fscommon.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- search for fi factsheets -->
+	<definition name="fi.search" extends="fi.jsp.html">
+		<put name="title" value="fi.search" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/rollover.js" type="string"/>
+			<add value="/figis/scripts/checkSubmit.js" type="string"/>
+		</putList>
+		<putList name="contentList">
+			<add id="psm" value="/website/jsp/fi/psm_search.jsp" type="string"/>
+			<add id="species" value="/website/jsp/fi/species_search.jsp" type="string"/>
+			<add id="vesseltype" value="/website/jsp/fi/vesseltype_search.jsp" type="string"/>
+			<add id="geartype" value="/website/jsp/fi/geartype_search.jsp" type="string"/>
+			<add id="fishtech" value="/website/jsp/fi/fishtech_search.jsp" type="string"/>
+			<add id="equipment" value="/website/jsp/fi/equipment_search.jsp" type="string"/>
+			<add id="distmap" value="/website/jsp/fi/distmap_search.jsp" type="string"/>
+			<add id="introsp" value="/website/jsp/fi/introsp_search.jsp" type="string"/>
+			<add id="topic" value="/website/jsp/fi/topic_search.jsp" type="string"/>
+			<add id="vmsprogramme" value="/website/jsp/fi/vmsprogramme_search.jsp" type="string"/>
+			<add id="org" value="/website/jsp/fi/org_search.jsp" type="string"/>
+			<add id="countrysector" value="/website/jsp/fi/countrysector_search.jsp" type="string"/>
+			<add id="country" value="/website/jsp/fi/country_search.jsp" type="string"/>
+			<add id="naso" value="/website/jsp/fi/naso_search.jsp" type="string"/>
+			<add id="facp" value="/website/jsp/fi/facp_search.jsp" type="string"/>
+			<add id="culturespecies" value="/website/jsp/fi/culturespecies_search.jsp" type="string"/>
+			<add id="ontology" value="/website/jsp/fi/ontology_search.jsp" type="string"/>
+			<add id="area" value="/website/jsp/fi/area_search.jsp" type="string"/>
+			<add id="legalframework" value="/website/jsp/fi/legalframework_search.jsp" type="string"/>
+			<add id="all" value="/website/jsp/fi/all_search.jsp" type="string"/>
+			<add id="rfb" value="/website/jsp/fi/rfb_search.jsp" type="string"/>
+			<add id="publ" value="/website/jsp/fi/publ_search.jsp" type="string"/>
+			<add id="meeting" value="/website/jsp/fi/meeting_search.jsp" type="string"/>
+			<add id="faolex" value="/website/jsp/fi/faolex_search.jsp" type="string"/>
+			<add id="factsheets" value="/website/jsp/fi/factsheets_search.jsp" type="string"/>
+			<add id="library" value="/website/jsp/fi/library_search.jsp" type="string"/>
+			<add id="advanced" value="/website/jsp/fi/advanced_search.jsp" type="string"/>
+			<add id="nasomaps" value="/website/jsp/fi/nasomaps_search.jsp" type="string"/>
+			<add id="eaftool" value="/website/jsp/fi/eaftool_search.jsp" type="string"/>
+		</putList>
+		<putList name="localCss">
+			<add value="/figis/shared/css/search.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- retrieve list of fi search results -->
+	<definition name="fi.search.result" path="/shared/transform_xml.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/xslcontent.jsp" type="page"/>
+		<put name="title" value="search.result" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/scripts/tabs/tabcontent.css" type="string"/>
+		</putList>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tabs/tabcontent.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- retrieve fi sitemap -->
+	<definition name="fi.sitemap" extends="fi.jsp.html">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve firms sitemap -->
+	<definition name="firms.sitemap" extends="firms.jsp.html">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve gfcm sitemap -->
+	<definition name="gfcm.sitemap" extends="gfcm.jsp.html">
+		<put name="output" value="GFCMOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve nansen sitemap -->
+	<definition name="nansen.sitemap" extends="nansen.jsp.html">
+		<put name="output" value="NANSENOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve eafnet sitemap -->
+	<definition name="eafnet.sitemap" extends="eafnet.jsp.html">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve stf sitemap -->
+	<definition name="stf.sitemap" extends="stf.jsp.html">
+		<put name="output" value="STFOutput" type="definition"/>
+		<put name="content" value="/shared/sitemap.jsp" type="page"/>
+		<put name="title" value="sitemap" type="string"/>
+	</definition>
+	<!-- retrieve google results -->
+	<definition name="fi.google" extends="fi.jsp.html">
+		<put name="output" value="FIOutput" type="definition"/>
+		<put name="content" value="/website/jsp/fi/fi_google_result.jsp" type="page"/>
+		<put name="title" value="google results" type="string"/>
+	</definition>
+	<!-- ========================================== -->
+</tiles-definitions>

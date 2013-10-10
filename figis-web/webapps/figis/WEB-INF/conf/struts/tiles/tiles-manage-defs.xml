@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- observation management outer skeleton -->
+	<definition name="Body" extends="editWrapper">
+		<put name="editWrapper" value="editWrapper" type="definition"/>
+		<put name="menu" value="/manage/manage_menu.jsp" type="page"/>
+		<put name="content" value="content" type="definition"/>
+		<put name="onload" value="var cook = readCookie('anchor_man'); if (cook) {window.location.href = window.location.href + '#' + cook;window.scrollBy(0,-100);} enableSubmit();" type="string"/>
+		<!-- var cook = readCookie('currColl'); if (cook) {var cook2 = readCookie('collSize'); showHideColl(cook,cook2,true);};//eraseCookie('anchor_man');};-->
+		<put name="imgSrc" value="/figis/website/assets/images/templates/fi/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<putList name="localCss">
+			<add value="/figis/website/css/fi.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- observation management content -->
+	<definition name="content" path="/manage/manage_panel.jsp">
+		<put name="pageTitle" value="manage.page.title" type="string"/>
+	</definition>
+	<!-- observation management controller -->
+	<definition name="factsheet.manage.coll" path="/manage/manage.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="title" value="manage" type="string"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/manage.js" type="string"/>
+		</putList>
+	</definition>
+</tiles-definitions>

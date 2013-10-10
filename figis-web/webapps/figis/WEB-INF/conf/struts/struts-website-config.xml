@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<!-- This is the Struts configuration file for the Tiles-documentation application -->
+<struts-config>
+	<!-- ========== Form Beans =============================== -->
+	<form-beans>
+		<!-- bean to allow multi-threaded queries -->
+		<form-bean name="MultiQueryForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="query" type="java.lang.String[]"/>
+			<form-property name="humanQuery" type="java.lang.String"/>
+			<form-property name="result" type="java.util.List"/>
+			<form-property name="xsl" type="java.lang.String"/>
+		</form-bean>
+		<!-- form to login to the system -->
+		<form-bean name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginActionForm"/>
+		<!-- bean to change locale -->
+		<form-bean name="NewLang" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="language" type="java.lang.String"/>
+			<form-property name="country" type="java.lang.String"/>
+			<form-property name="page" type="java.lang.String"/>
+		</form-bean>
+		<!-- form to login to the system -->
+		<form-bean name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginActionForm"/>
+		<!-- form that is used by the observation (factsheet) retrieval action for singles and lists -->
+		<form-bean name="Factsheet" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="action" type="java.lang.String"/>
+			<form-property name="metaid" type="java.lang.Integer"/>
+			<form-property name="oid" type="java.lang.Integer"/>
+			<form-property name="fid" type="java.lang.Integer"/>
+			<form-property name="draft" type="java.lang.Boolean" initial="false"/>
+			<form-property name="observation" type="org.fao.fi.figis.fs.common.data.object.FsObservation"/>
+			<form-property name="filter" type="java.lang.String"/>
+			<form-property name="collectionid" type="java.lang.Integer"/>
+			<form-property name="observation_list" type="java.util.List"/>
+			<form-property name="DOMDocument" type="org.w3c.dom.Document"/>
+			<form-property name="dataset" type="java.lang.String"/>
+			<form-property name="xml" type="java.lang.String"/>
+			<form-property name="dom" type="java.lang.String"/>
+			<form-property name="notcached" type="java.lang.Boolean" initial="false"/>
+			<form-property name="inputxml" type="java.lang.Boolean" initial="false"/>
+			<form-property name="view" type="java.lang.String"/>
+			<form-property name="factsheet" type="org.fao.fi.figis.fs.common.data.object.Factsheet"/>
+			<!-- the preferred output language - 2-character ISO code -->
+			<form-property name="lang" type="java.lang.String"/>
+			<!-- to bypass the login mechanism -->
+			<form-property name="bypasslogin" type="java.lang.Boolean" initial="false"/>
+		</form-bean>
+		<form-bean name="SearchForm" type="org.apache.struts.action.DynaActionForm">
+			<!-- no limit results -->
+			<form-property name="nolimit" type="java.lang.String"/>
+			<!-- future-proofing -->
+			<form-property name="draft" type="java.lang.String"/>
+			<!-- aloow users to turn synonym expansion on & off -->
+			<form-property name="syn" type="java.lang.String"/>
+			<!-- A list of datasets to use (Meta IDs or names) -->
+			<form-property name="dslist" type="java.lang.String[]" size="25"/>
+			<!-- the output control file name -->
+			<form-property name="octrl" type="java.lang.String"/>
+			<!-- the logical operation to use between keywords (and|or - default == or) -->
+			<form-property name="logop" type="java.lang.String"/>
+			<!-- the preferred output language - 2-character ISO code -->
+			<form-property name="lang" type="java.lang.String"/>
+			<!-- the list XSL path - this overrides the value from the control instance -->
+			<form-property name="lixsl" type="java.lang.String"/>
+			<!-- (not used yet) the main XSL path - this overrides the value from the control instance -->
+			<form-property name="xsl" type="java.lang.String"/>
+			<!-- the domain name (not sure if this is required) -->
+			<form-property name="dom" type="java.lang.String"/>
+			<!-- A list of keyword names (The code does not have a fixed limit but this declaration does) -->
+			<form-property name="kw" type="java.lang.String[]" size="25"/>
+			<!-- A list of keyword values (the code stops processing at the first empty one) -->
+			<form-property name="kv" type="java.lang.String[]" size="25"/>
+			<!-- A list of keyword languages -->
+			<form-property name="kl" type="java.lang.String[]" size="25"/>
+			<!-- the search result Document -->
+			<form-property name="xml" type="org.w3c.dom.Document"/>
+			<!-- the search result Document -->
+			<form-property name="refxml" type="java.lang.String"/>
+			<!-- A Map of parameters from the output control file -->
+			<form-property name="params" type="java.util.Map"/>
+			<!--for multi-languages-->
+			<form-property name="search_string" type="java.lang.String"/>
+		</form-bean>
+	</form-beans>
+	<!-- =================== Global forwards ================================ -->
+	<global-forwards>
+		<forward name="exception" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="error" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="failure" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user not found -->
+		<forward name="notfound" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user needs to login -->
+		<forward name="notloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="badsession" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FInotloggedin" path="/FILogin.do" contextRelative="true" redirect="true"/>
+		<forward name="FIRMSnotloggedin" path="/FIRMSLogin.do" contextRelative="true" redirect="false"/>
+		<forward name="upload" path="/Upload.do" redirect="true" module="/upload"/>
+		<forward name="manage" path="/Manage.do" redirect="true" module="/manage"/>
+		<forward name="edit" path="/Edit.do" redirect="true" module="/edit"/>
+		<forward name="refSpecies" path="/SpeciesListAction.do" redirect="true" module="/edit"/>
+		<forward name="refWaterArea" path="/WaterAreaListAction.do" redirect="true" module="/edit"/>
+		<forward name="refResource" path="/ResourceListAction.do" redirect="true" module="/edit"/>
+		<forward name="refKor" path="/KorListAction.do" redirect="true" module="/edit"/>
+	</global-forwards>
+	<!-- ========== Action Mapping Definitions =============================== -->
+	<action-mappings>
+		<action path="/FILoginAction" name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginAction">
+			<!-- successful login, return to page -->
+			<forward name="success" path="/FILoginSuccess.do"/>
+			<forward name="failure" path="/Error.do"/>
+		</action>
+		<action path="/FILoginSuccess" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="/login/FI_redirect.jsp"/>
+		<!-- change language -->
+		<action path="/SwapLang" name="NewLang" type="org.apache.struts.actions.LocaleAction"/>
+		<!-- to switch modules -->
+		<action path="/switch" type="org.apache.struts.actions.SwitchAction"/>
+		<!-- the action to build a page that allows status and trends searches -->
+		<action path="/FIRMSSearchPanel" type="org.apache.struts.actions.ForwardAction" parameter="search.list"/>
+		<!--to remove as soon as possible-->
+		<action path="/homeGFCM" type="org.apache.struts.actions.ForwardAction" parameter="homeGFCM"/>
+		<!-- ================================= -->
+		<!-- the action to build a page that allows marine resources searches -->
+		<action path="/FIRMSSearchAllPanel" type="org.apache.struts.actions.ForwardAction" parameter="searchall.list"/>
+		<action path="/FIRMSSearchFisheryPanel" type="org.apache.struts.actions.ForwardAction" parameter="search.fishery.list"/>
+		<action path="/FIRMSBrowser" type="org.apache.struts.actions.ForwardAction" parameter="browser.list"/>
+		<action path="/FIRMSBrowserFishery" type="org.apache.struts.actions.ForwardAction" parameter="browserFishery.list"/>
+		<action path="/FIRMSSelector" type="org.apache.struts.actions.ForwardAction" parameter="selector.list"/>
+		<!-- ================================= -->
+		<!-- the action to build a page that subscribe 
+		<action path="/Subscribe" type="org.apache.struts.actions.ForwardAction" parameter="subscription"/>-->
+		<!-- ================================= -->
+		<!-- the action to view fetched status and trends search data from the database -->
+		<action path="/FIRMSSTSearch" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIRMSSTSearchResult.do"/>
+		</action>
+		<action path="/FIRMSSearch" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIRMSSearchResult.do"/>
+		</action>
+		<action path="/FIRMSFisherySearch" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIRMSFisherySearchResult.do"/>
+		</action>
+		<action path="/FIRMSLoginAction" name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginAction">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIRMSLoginSuccess.do"/>
+		</action>
+		<action path="/FIRMSLoginSuccess" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="/login/CPFIRMS.jsp"/>
+		<!-- ================================= -->
+		<!-- the result returned from a status and trends search -->
+		<action path="/FIRMSSTSearchResult" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="result.list" scope="request"/>
+		<action path="/FIRMSSearchResult" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="resultFIRMS1.list" scope="request"/>
+		<action path="/FIRMSFisherySearchResult" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="resultFIRMS1.list" scope="request"/>
+		<!-- ================================= -->
+		<!-- ============SC18062006===================== -->
+		<action path="/RetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="resource" path="/FIRMSResource.do"/>
+			<forward name="fishery" path="/FIRMSFishery.do"/>
+			<forward name="staticxml.org" path="/FIRMSOrg.do"/>
+			<forward name="staticxml.collection" path="/FIRMSCollection.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- ================================= -->
+		<action path="/STFRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="staticxml.org" path="/STFOrg.do"/>
+			<forward name="resource" path="/STFResource.do"/>
+			<forward name="fishery" path="/STFFishery.do"/>
+		</action>
+		<action path="/STFSearchNems" type="org.apache.struts.actions.ForwardAction" parameter="stf.nems.search"/>
+		<action path="/STFSearchPublications" type="org.apache.struts.actions.ForwardAction" parameter="stf.publications.search"/>
+		<!-- ================================= -->
+		<action path="/STFOrg" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="STFOrg.html" scope="request"/>
+		<action path="/STFFishery" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="STFFishery.html" scope="request"/>
+		<action path="/STFResource" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="STFResource.html" scope="request"/>
+		<action path="/STFBrowser" type="org.apache.struts.actions.ForwardAction" parameter="browser.stf.list"/>
+		<!-- ================================= -->
+		<!-- ================================= -->
+		<action path="/GFCMRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="staticxml.org" path="/GFCMOrg.do"/>
+			<forward name="organization" path="/GFCMOrganization.do"/>
+			<forward name="resource" path="/GFCMResource.do"/>
+			<forward name="topic" path="/GFCMTopic.do"/>
+		</action>
+		<action path="/GFCMNewsSearch" type="org.apache.struts.actions.ForwardAction" parameter="gfcm.news.search"/>
+		<action path="/GFCMMeetingsSearch" type="org.apache.struts.actions.ForwardAction" parameter="gfcm.meetings.search"/>
+		<action path="/GFCMPublicationsSearch" type="org.apache.struts.actions.ForwardAction" parameter="gfcm.publications.search"/>
+		<action path="/GFCMOrganization" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="GFCMOrganization.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/GFCMOrg" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="GFCMOrg.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/GFCMResource" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="GFCMResource.html" scope="request"/>
+		<action path="/GFCMTopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="GFCMtopic.html" scope="request"/>
+		<!-- ================================= -->
+		<!-- ================================= -->
+		<action path="/NANSENRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="staticxml.org" path="/NANSENOrg.do"/>
+			<forward name="resource" path="/NANSENResource.do"/>
+			<forward name="organization" path="/NANSENOrganization.do"/>
+			<forward name="topic" path="/NANSENTopic.do"/>
+		</action>
+		<action path="/NANSENNewsSearch" type="org.apache.struts.actions.ForwardAction" parameter="nansen.news.search"/>
+		<action path="/NANSENMeetingsSearch" type="org.apache.struts.actions.ForwardAction" parameter="nansen.meetings.search"/>
+		<action path="/NANSENPublicationsSearch" type="org.apache.struts.actions.ForwardAction" parameter="nansen.publications.search"/>
+		<action path="/NANSENOrganization" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="NANSENOrganization.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/NANSENOrg" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="NANSENOrg.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/NANSENResource" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="NANSENResource.html" scope="request"/>
+		<action path="/NANSENTopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="NANSENtopic.html" scope="request"/>
+		<!-- ================================= -->
+		<!-- ================================= -->
+		<action path="/EAFNETRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="staticxml.eaftool" path="/EAFNETEaftool.do"/>
+			<forward name="organization" path="/EAFNETOrganization.do"/>
+			<forward name="topic" path="/EAFNETTopic.do"/>
+		</action>
+		<action path="/EAFNETNewsSearch" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.news.search"/>
+		<action path="/EAFNETMeetingsSearch" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.meetings.search"/>
+		<action path="/EAFNETPublicationsSearch" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.publications.search"/>
+		<action path="/EAFNETOrganization" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="EAFNETorganization.html" scope="request"/>
+		<action path="/EAFNETEaftool" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="EAFNETeaftool.html" scope="request"/>
+		<action path="/EAFNETTopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="EAFNETtopic.html" scope="request"/>
+		<action path="/EAFNETSearch" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.eaftool.search"/>
+		<action path="/EAFNETSearchAction" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<forward name="success" path="/EAFNETSearchResult.do"/>
+		</action>
+		<action path="/EAFNETSearchResult" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- ================================= -->
+		<action path="/FIRMSRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="resource" path="/FIRMSResource.do"/>
+			<forward name="fishery" path="/FIRMSFishery.do"/>
+			<forward name="topic" path="/FIRMSTopic.do"/>
+			<forward name="organization" path="/FIRMSOrganization.do"/>
+			<forward name="staticxml.org" path="/FIRMSOrg.do"/>
+			<forward name="staticxml.collection" path="/FIRMSCollection.do"/>
+		</action>
+		<!-- ================================= -->
+		<action path="/FIRMSOrg" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSOrg.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/FIRMSCollection" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSCollection.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/FIRMSResource" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSResource.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/FIRMSFishery" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSFishery.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/FIRMSTopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSTopic.html" scope="request"/>
+		<!-- ================================= -->
+		<action path="/FIRMSOrganization" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSOrganization.html" scope="request"/>
+		<!-- ================================= -->
+		<!-- the action to fetch associated observations to an object -->
+		<action path="/RetrieveCurrentObs" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<!-- success -->
+			<forward name="success" path="/ViewCurrentObs.do"/>
+		</action>
+		<!-- ================================= -->
+		<action path="/ViewCurrentObs" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="/website/jsp/firms/SecObs_html.jsp" scope="request"/>
+		<!-- ================================= -->
+		<!-- FI actions from here down -->
+		<!-- ================================= -->
+		<!-- the action to build a page that allows factsheet searches -->
+		<action path="/FISearch" type="org.apache.struts.actions.ForwardAction" parameter="fi.search" scope="request"/>
+		<!-- ================================= -->
+		<!-- the action to search fi data from the database -->
+		<action path="/FISearchAction" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<!-- successful search , go to results page -->
+			<forward name="success" path="/FISearchResult.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the result returned from an fi search -->
+		<action path="/FISearchResult" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="fi.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- the action to search fi data from the database and just return XML -->
+		<action path="/SearchActionXML" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSearchAction" scope="request">
+			<!-- successful search, display xml -->
+			<forward name="success" path="/ViewSearchXML.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the action to search all factsheets data from the database and just return XML -->
+		<action path="/FullSearchActionXML" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsFullSearchAction" scope="request">
+			<!-- successful search, display xml -->
+			<forward name="success" path="/ViewSearchXML.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the action to search all factsheets data from the database and just return XML -->
+		<action path="/SitemapXMLAction" name="SearchForm" type="org.fao.fi.figis.fs.common.search.FsSitemapSearchAction" scope="request">
+			<!-- successful search, display xml -->
+			<forward name="success" path="/ViewSearchXML.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the result returned from an fi search -->
+		<action path="/ViewSearchXML" name="SearchForm" type="org.apache.struts.actions.ForwardAction" parameter="/shared/factsheet_xml.jsp" scope="request"/>
+		<!-- ================================= -->
+		<!-- action used by XSL to get XML back from queries, but using the multQuery class -->
+		<action path="/XMLQuery" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/XMLResult.do"/>
+		</action>
+		<action path="/XMLResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="/shared/factsheet_xml.jsp" scope="request"/>
+		<!-- ================================= -->
+		<!-- mult threaded queries -->
+		<action path="/MultiQueryAction" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/MultiQueryResult.do"/>
+		</action>
+		<action path="/MultiQueryResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="fi.search.result" scope="request"/>
+		<!-- ==============MultiQuey GFCM=================== -->
+		<action path="/GFCMMultiQueryAction" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/GFCMMultiQueryResult.do"/>
+		</action>
+		<action path="/GFCMMultiQueryResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="gfcm.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- ==============MultiQuey NANSEN=================== -->
+		<action path="/NANSENMultiQueryAction" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/NANSENMultiQueryResult.do"/>
+		</action>
+		<action path="/NANSENMultiQueryResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="nansen.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- ==============MultiQuey FIRMS=================== -->
+		<action path="/FIRMSMultiQueryAction" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/FIRMSMultiQueryResult.do"/>
+		</action>
+		<action path="/FIRMSMultiQueryResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="firms.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- ==============MultiQuey EAFNET=================== -->
+		<action path="/EAFNETMultiQueryAction" name="MultiQueryForm" type="org.fao.fi.figis.fs.common.multiquery.MultiQueryAction" scope="request">
+			<forward name="success" path="/EAFNETMultiQueryResult.do"/>
+		</action>
+		<action path="/EAFNETMultiQueryResult" name="MultiQueryForm" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.search.result" scope="request"/>
+		<!-- ================================= -->
+		<!-- view the FI site map -->
+		<action path="/FISiteMap" type="org.apache.struts.actions.ForwardAction" parameter="fi.sitemap"/>
+		<!-- view the FIRMS site map -->
+		<action path="/FIRMSSiteMap" type="org.apache.struts.actions.ForwardAction" parameter="firms.sitemap"/>
+		<!-- view the GFCM site map -->
+		<action path="/GFCMSiteMap" type="org.apache.struts.actions.ForwardAction" parameter="gfcm.sitemap"/>
+		<!-- view the NANSEN site map -->
+		<action path="/NANSENSiteMap" type="org.apache.struts.actions.ForwardAction" parameter="nansen.sitemap"/>
+		<!-- view the STF site map -->
+		<action path="/STFSiteMap" type="org.apache.struts.actions.ForwardAction" parameter="stf.sitemap"/>
+		<!-- view the EAFNET site map -->
+		<action path="/EAFNETSiteMap" type="org.apache.struts.actions.ForwardAction" parameter="eafnet.sitemap"/>
+		<!-- ================================= -->
+		<!-- the action to fetch factsheet data from the database -->
+		<action path="/FIRetrieveAction" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<!-- successful action -->
+			<forward name="topic" path="/FITopic.do"/>
+			<forward name="organization" path="/FIOrganization.do"/>
+			<forward name="species" path="/FISpecies.do"/>
+			<forward name="geartype" path="/FIGeartype.do"/>
+			<!--<forward name="speciesdistmap" path="/FISpeciesDistMap.do"/>-->
+			<forward name="vesseltype" path="/FIVesseltype.do"/>
+			<forward name="introsp" path="/FIIntrosp.do"/>
+			<forward name="fishtech" path="/FIFishtech.do"/>
+			<forward name="facp" path="/FIFacp.do"/>
+			<forward name="naso" path="/FINaso.do"/>
+			<forward name="staticxml.area" path="/FIArea.do"/>
+			<forward name="staticxml.collection" path="/FICollection.do"/>
+			<forward name="staticxml.country" path="/FICountry.do"/>
+			<forward name="staticxml.countrysector" path="/FICountrySector.do"/>
+			<forward name="staticxml.culturespecies" path="/FICultureSpecies.do"/>
+			<forward name="staticxml.equipment" path="/FIEquipment.do"/>
+			<forward name="staticxml.legalframework" path="/FILegalFramework.do"/>
+			<forward name="staticxml.ontology" path="/FIOntology.do"/>
+			<forward name="staticxml.org" path="/FIOrg.do"/>
+			<forward name="staticxml.vmstopic" path="/FIStaticTopic.do"/>
+			<forward name="staticxml.vmsprogramme" path="/FIVmsProgramme.do"/>
+			<forward name="staticxml.psm" path="/FIPsm.do"/>
+			<forward name="staticxml.eaftool" path="/FIEafTool.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- dynamic action paths -->
+		<action path="/FISpecies" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIspecies.html" scope="request"/>
+		<!--<action path="/FISpeciesDistMap" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIspeciesdistmap.html" scope="request"/>-->
+		<action path="/FIGeartype" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIgeartype.html" scope="request"/>
+		<action path="/FIVesseltype" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIvesseltype.html" scope="request"/>
+		<action path="/FIIntrosp" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIintrosp.html" scope="request"/>
+		<action path="/FIFishtech" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIfishtech.html" scope="request"/>
+		<action path="/FITopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FItopic.html" scope="request"/>
+		<action path="/FIFacp" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIfacp.html" scope="request"/>
+		<action path="/FINaso" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FInaso.html" scope="request"/>
+		<action path="/FIOrganization" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIorganization.html" scope="request"/>
+		<!-- ================================= -->
+		<!-- static action paths -->
+		<action path="/FIArea" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIarea.html" scope="request"/>
+		<action path="/FICollection" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIcollection.html" scope="request"/>
+		<action path="/FICountry" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIcountry.html" scope="request"/>
+		<action path="/FICountrySector" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIcountrysector.html" scope="request"/>
+		<action path="/FICultureSpecies" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIculturespecies.html" scope="request"/>
+		<action path="/FIEquipment" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIequipment.html" scope="request"/>
+		<action path="/FILegalFramework" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIlegalframework.html" scope="request"/>
+		<action path="/FIOntology" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIontology.html" scope="request"/>
+		<action path="/FIOrg" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIOrg.html" scope="request"/>
+		<action path="/FIStaticTopic" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIstatictopic.html" scope="request"/>
+		<action path="/FIVmsProgramme" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIvmsprogramme.html" scope="request"/>
+		<action path="/FIPsm" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIPsm.html" scope="request"/>
+		<action path="/FIEafTool" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="FIeaftool.html" scope="request"/>
+		<!-- ================================= -->
+		<!-- the generic action to fetch factsheet data from the database and view as XML -->
+		<action path="/RetrieveXML" name="Factsheet" type="org.fao.fi.figis.fs.common.retrieve.FsRetrieveAction" scope="request">
+			<forward name="resource" path="/ViewXML.do"/>
+			<forward name="fishery" path="/ViewXML.do"/>
+			<forward name="topic" path="/ViewXML.do"/>
+			<forward name="organization" path="/ViewXML.do"/>
+			<forward name="species" path="/ViewXML.do"/>
+			<forward name="geartype" path="/ViewXML.do"/>
+			<forward name="vesseltype" path="/ViewXML.do"/>
+			<forward name="introsp" path="/ViewXML.do"/>
+			<forward name="fishtech" path="/ViewXML.do"/>
+			<forward name="facp" path="/ViewXML.do"/>
+			<forward name="naso" path="/ViewXML.do"/>
+			<forward name="staticxml.area" path="/ViewXML.do"/>
+			<forward name="staticxml.collection" path="/ViewXML.do"/>
+			<forward name="staticxml.country" path="/ViewXML.do"/>
+			<forward name="staticxml.countrysector" path="/ViewXML.do"/>
+			<forward name="staticxml.culturespecies" path="/ViewXML.do"/>
+			<forward name="staticxml.equipment" path="/ViewXML.do"/>
+			<forward name="staticxml.legalframework" path="/ViewXML.do"/>
+			<forward name="staticxml.ontology" path="/ViewXML.do"/>
+			<forward name="staticxml.org" path="/ViewXML.do"/>
+			<forward name="staticxml.vmstopic" path="/ViewXML.do"/>
+			<forward name="staticxml.vmsprogramme" path="/ViewXML.do"/>
+			<forward name="staticxml.psm" path="/ViewXML.do"/>
+			<forward name="staticxml.eaftool" path="/ViewXML.do"/>
+		</action>
+		<!-- ================================= -->
+		<action path="/ViewXML" name="Factsheet" type="org.apache.struts.actions.ForwardAction" parameter="/shared/factsheet_xml.jsp" scope="request"/>
+		<!-- ================================= -->
+		<!-- view the FI google results -->
+		<action path="/FIGoogle" type="org.apache.struts.actions.ForwardAction" parameter="fi.google"/>
+	</action-mappings>
+	<!-- ================================= -->
+	<!-- controller parameters -->
+	<controller contentType="UTF-8" locale="true"/>
+	<!-- ========== Associated Messages Ressource settings =================== -->
+	<message-resources key="shared" parameter="org.fao.fi.figis.bundle.shared.SharedResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="fi" parameter="org.fao.fi.figis.bundle.website.FiResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="country" parameter="org.fao.fi.figis.bundle.website.CountryResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="firms" parameter="org.fao.fi.figis.bundle.website.FirmsResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="website" parameter="org.fao.fi.figis.bundle.website.WebsiteResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="gfcm" parameter="org.fao.fi.figis.bundle.website.GfcmResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="nansen" parameter="org.fao.fi.figis.bundle.website.NansenResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="stf" parameter="org.fao.fi.figis.bundle.website.StfResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="eafnet" parameter="org.fao.fi.figis.bundle.website.EafnetResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<!-- ========== TilesPlugin settings ===================================== -->
+	<!-- You should declare this plugin if you want to use Tiles with an XML definition file. -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" id="frms">
+		<!-- Path to XML definition file -->
+		<set-property property="definitions-config" value="/WEB-INF/conf/struts/tiles/tiles-website-defs.xml, /WEB-INF/conf/struts/tiles/tiles-shared-defs.xml"/>
+		<!-- Set Module-awareness to true. means you can have multiple tiles definitions -->
+		<set-property property="moduleAware" value="true"/>
+		<!-- 2 is max debug -->
+		<set-property property="definitions-debug" value="2"/>
+	</plug-in>
+</struts-config>

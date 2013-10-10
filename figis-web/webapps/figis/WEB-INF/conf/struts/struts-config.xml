@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<!-- This is the Struts configuration file for the base config. All it does is error handling and module switching -->
+<struts-config>
+	<form-beans>
+		<!-- change the locale object -->
+		<form-bean name="NewLang" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="language" type="java.lang.String"/>
+			<form-property name="country" type="java.lang.String"/>
+			<form-property name="page" type="java.lang.String"/>
+		</form-bean>
+		<!-- form to login to the system -->
+		<form-bean name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginActionForm"/>
+	</form-beans>
+	<global-forwards>
+		<forward name="notloggedin" path="/FILogin.do"/>
+		<forward name="FInotloggedin" path="/FILogin.do"/>
+		<forward name="FIRMSnotloggedin" path="/FIRMSLogin.do"/>
+	</global-forwards>
+	<!-- ========== Action Mapping Definitions =============================== -->
+	<action-mappings>
+		<!-- failure page -->
+		<action path="/Failure" type="org.apache.struts.actions.ForwardAction" parameter="struts.failure"/>
+		<!-- error page -->
+		<action
+			attribute="Error"
+			name="Error"
+			parameter="struts.error"
+			path="/Error"
+			scope="request"
+			type="org.apache.struts.actions.ForwardAction"
+		/>
+		<!-- to switch modules -->
+		<action
+			attribute="Switch"
+			name="Switch"
+			path="/switch"
+			scope="request"
+			type="org.apache.struts.actions.SwitchAction"
+		/>
+		<!-- allow the user to log into the system -->
+		<action path="/FILogin" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="FIsystem.login"/>
+		<action path="/FIRMSLogin" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="FIRMSsystem.login"/>
+		<!-- change language -->
+		<action path="/SwapLang" name="NewLang" type="org.apache.struts.actions.LocaleAction"/>
+		<!-- ================================= -->
+		<!-- allow the user to change his/her password -->
+		<action path="/FIPassChange" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="system.password"/>
+		<!-- log the user into the system -->
+		<!-- ================================= -->
+		<action path="/FILoginAction" name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginAction">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FILogin.do"/>
+			<forward name="failure" path="/Error.do"/>
+		</action>
+		<action path="/FIRMSLoginAction" name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginAction">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIRMSLogin.do"/>
+			<forward name="failure" path="/Error.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- change password -->
+		<action path="/FIPassAction" name="FsLoginActionForm" type="org.fao.fi.figis.fs.common.edit.FsLoginAction">
+			<!-- successful login, go to observation selection page -->
+			<forward name="success" path="/FIPassSuccess.do"/>
+			<forward name="failure" path="/Error.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- pass panel -->
+		<action path="/FIPassSuccess" name="FsLoginActionForm" type="org.apache.struts.actions.ForwardAction" parameter="system.pass"/>
+		<!-- ================================= -->
+	</action-mappings>
+	<!-- controller parameters -->
+	<controller contentType="UTF-8" locale="true"/>
+	<!-- ========== Associated Messages Ressource settings =================== -->
+	<message-resources key="shared" parameter="org.fao.fi.figis.bundle.shared.SharedResources"
+	factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<!-- ========== TilesPlugin settings ===================================== -->
+	<!-- You should declare this plugin if you want to use Tiles with an XML definition file. -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" id="bse">
+		<!-- Path to XML definition file -->
+		<set-property property="definitions-config" value="/WEB-INF/conf/struts/tiles/tiles-defs.xml,/WEB-INF/conf/struts/tiles/tiles-shared-defs.xml"/>
+		<!-- Set Module-awareness to true. means you can have multiple tiles definitions -->
+		<set-property property="moduleAware" value="true"/>
+		<!-- 2 is max debug -->
+		<set-property property="definitions-debug" value="2"/>
+		<set-property property="definitions-parser-details" value="2"/>
+	</plug-in>
+</struts-config>

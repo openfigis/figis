@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- xml editor outer skeleton -->
+	<definition name="Body" extends="editWrapper">
+		<put name="onload" value="var cook = readCookie('anchor'); if (cook) {window.location.hash = '#' + cook; eraseCookie('anchor');}"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/fi/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+				<putList name="localCss">
+			<add value="/figis/website/css/fi.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml editor controller -->
+	<definition name="factsheet.edit" path="/edit/edit.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="menu" value="/edit/editmenu.jsp" type="page"/>
+		<put name="localHead" value="/edit/head.jsp" type="page"/>
+		<put name="extraCopy" value="/edit/extracopyright.jsp" type="page"/>
+		<put name="title" value="editPanel" type="string"/>
+		<put name="content" value="/edit/editpanel.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/tiny_mce/tiny_mce.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- image uploader -->
+	<definition name="factsheet.image" extends="jsp.html">
+		<put name="title" value="image.page.title" type="string"/>
+		<put name="content" value="/edit/image_form.jsp" type="page"/>
+	</definition>
+	<!-- org selector -->
+	<definition name="factsheet.org.ref" extends="jsp.html">
+		<put name="title" value="orgRef" type="string"/>
+		<put name="content" value="factsheet.org.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- org panel -->
+	<definition name="factsheet.org.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="OrgListAction" type="string"/>
+		<put name="pageTitle" value="org.page.title" type="string"/>
+		<put name="domain" value="/edit/org_form.jsp" type="page"/>
+	</definition>
+	<!-- species selector -->
+	<definition name="factsheet.species.ref" extends="jsp.html">
+		<put name="title" value="speciesRef" type="string"/>
+		<put name="content" value="factsheet.species.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- species panel -->
+	<definition name="factsheet.species.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="SpeciesListAction" type="string"/>
+		<put name="pageTitle" value="species.page.title" type="string"/>
+		<put name="domain" value="/edit/species_form.jsp" type="page"/>
+	</definition>
+	<!-- vesseltype selector -->
+	<definition name="factsheet.vesseltype.ref" extends="jsp.html">
+		<put name="title" value="vesseltypeRef" type="string"/>
+		<put name="content" value="factsheet.vesseltype.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- vesseltype panel -->
+	<definition name="factsheet.vesseltype.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="VesseltypeListAction" type="string"/>
+		<put name="pageTitle" value="vesseltype.page.title" type="string"/>
+		<put name="domain" value="/edit/vesseltype_form.jsp" type="page"/>
+	</definition>
+	<!-- fishtech selector -->
+	<definition name="factsheet.fishtech.ref" extends="jsp.html">
+		<put name="title" value="fishtechRef" type="string"/>
+		<put name="content" value="factsheet.fishtech.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- geartype panel -->
+	<definition name="factsheet.fishtech.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="FishTechListAction" type="string"/>
+		<put name="pageTitle" value="fishtech.page.title" type="string"/>
+		<put name="domain" value="/edit/fishtech_form.jsp" type="page"/>
+	</definition>
+	<!-- geartype selector -->
+	<definition name="factsheet.geartype.ref" extends="jsp.html">
+		<put name="title" value="geartypeRef" type="string"/>
+		<put name="content" value="factsheet.geartype.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- geartype panel -->
+	<definition name="factsheet.geartype.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="GeartypeListAction" type="string"/>
+		<put name="pageTitle" value="geartype.page.title" type="string"/>
+		<put name="domain" value="/edit/geartype_form.jsp" type="page"/>
+	</definition>
+	<!-- water area selector -->
+	<definition name="factsheet.waterarea.ref" extends="jsp.html">
+		<put name="title" value="waterAreaRef" type="string"/>
+		<put name="content" value="factsheet.waterarea.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- water area panel -->
+	<definition name="factsheet.waterarea.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="WaterAreaListAction" type="string"/>
+		<put name="pageTitle" value="waterArea.page.title" type="string"/>
+		<put name="domain" value="/edit/waterarea_form.jsp" type="page"/>
+	</definition>
+	<!-- resource selector -->
+	<definition name="factsheet.resource.ref" extends="jsp.html">
+		<put name="title" value="resourceRef" type="string"/>
+		<put name="content" value="factsheet.resource.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- resource panel -->
+	<definition name="factsheet.resource.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="ResourceListAction" type="string"/>
+		<put name="pageTitle" value="resource.page.title" type="string"/>
+		<put name="domain" value="/edit/resource_form.jsp" type="page"/>
+	</definition>
+	<!-- fishery selector -->
+	<definition name="factsheet.fishery.ref" extends="jsp.html">
+		<put name="title" value="fisheryRef" type="string"/>
+		<put name="content" value="factsheet.fishery.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- fishery panel -->
+	<definition name="factsheet.fishery.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="FisheryListAction" type="string"/>
+		<put name="pageTitle" value="fishery.page.title" type="string"/>
+		<put name="domain" value="/edit/fishery_form.jsp" type="page"/>
+	</definition>
+	<!-- kor selector -->
+	<definition name="factsheet.kor.ref" extends="jsp.html">
+		<put name="title" value="korRef" type="string"/>
+		<put name="content" value="factsheet.kor.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- kor panel -->
+	<definition name="factsheet.kor.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="KorListAction" type="string"/>
+		<put name="pageTitle" value="kor.page.title" type="string"/>
+		<put name="domain" value="/edit/kor_form.jsp" type="page"/>
+	</definition>
+	<!-- topic selector -->
+	<definition name="factsheet.topic.ref" extends="jsp.html">
+		<put name="title" value="topicRef" type="string"/>
+		<put name="content" value="factsheet.topic.ref.panel" type="definition"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/ref_search.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- topic panel -->
+	<definition name="factsheet.topic.ref.panel" path="/edit/ref_panel.jsp">
+		<put name="action" value="TopicListAction" type="string"/>
+		<put name="pageTitle" value="topic.page.title" type="string"/>
+		<put name="domain" value="/edit/topic_form.jsp" type="page"/>
+	</definition>
+</tiles-definitions>

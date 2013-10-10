@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="Author" content="Marco Balestra" />
+		<title>Short URL target</title>
+		<script type="text/javascript" language="javascript" charset="utf-8">
+		// <![CDATA[
+			function checkurl() {
+				var f = document.getElementById('longUrlField');
+				var u = f.value.replace(/^[^:]+:\/\/[^\/]+/,'');
+				if ( u == '' ) {
+					alert( "Please enter URL");
+					f.focus();
+					return void(0);
+				}
+				var t = document.getElementById('longUrlResult');
+				var h = document.getElementById('longUrlHref');
+				u = 'http://193.43.36.238:8282/fishery/admin/target/'+u;
+				t.contentWindow.location.href=u;
+				h.innerHTML = u;
+				h.href= u;
+				return void(0);
+			}
+		// ]]>
+		</script>
+		<style type="text/css">
+		/* <![CDATA[ */
+			body { font-family: sans-serif; }
+			h1 { text-align: center; }
+			form { display: block; margin: 1em 0; text-align: center;}
+			div { width: 80%; border: solid 1px #ccc; background-color : #eee; margin: 1em auto;}
+			#longUrlField { width: 50%; }
+			#longUrlResult { width: 80%; height: 5em; margin: 1em auto;}
+		/* ]]> */
+		</style>
+	</head>
+	<body>
+		<h1>Short URL expansion tool</h1>
+		<div align="center">
+			<form onsubmit="checkurl(); return false;">
+				<p>
+					Insert the SHORT URL to be expanded:
+				</p>
+				<input type="text" id="longUrlField" width="120" value="" />
+				<input type="submit" value="Expand" />
+			</form>
+			<iframe src="about:blank" id="longUrlResult" border="0" frameborder="0">
+			</iframe>
+			<p align="left" style="margin: 1em;">
+				<a href="#" id="longUrlHref">http://193.43.36.238:8282/fishery/admin/target/<i>&lt;SHORT URL&gt;</i></a>
+			</p>
+		</div>
+	</body>
+	<script type="text/javascript" language="javascript" charset="utf-8">
+	// <![CDATA[
+		document.getElementById('longUrlField').focus();
+	// ]]>
+	</script>
+</html>

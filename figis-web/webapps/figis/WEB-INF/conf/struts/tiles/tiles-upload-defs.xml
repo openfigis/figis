@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- xml uploader skeleton -->
+	<definition name="Body" extends="editWrapper">
+		<put name="menu" value="/upload/uploadmenu.jsp" type="page"/>
+		<put name="title" value="uploadPanel" type="string"/>
+		<put name="onload" value="if (readCookie('collRead')) eraseCookie('collRead');enableSubmit()" type="string"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/fi/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+				<putList name="localCss">
+			<add value="/figis/website/css/fi.css" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml uploader step 1 -->
+	<definition name="factsheet.upload" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/upload_step1.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- create/clone step 1 -->
+	<definition name="factsheet.create" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/create_step1.jsp" type="page"/>
+		<putList name="localScripts">
+
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml create/clone step 2 -->
+	<definition name="factsheet.create2" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/create_step2.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml uploader step 2 -->
+	<definition name="factsheet.upload2" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/upload_step2.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml uploader step 3 -->
+	<definition name="factsheet.upload3" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/upload_step3.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- xml uploader step 4 -->
+	<definition name="factsheet.upload4" path="/upload/upload.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+		<put name="content" value="/upload/upload_step4.jsp" type="page"/>
+		<putList name="localScripts">
+			<add value="/figis/scripts/upload.js" type="string"/>
+		</putList>
+	</definition>
+</tiles-definitions>

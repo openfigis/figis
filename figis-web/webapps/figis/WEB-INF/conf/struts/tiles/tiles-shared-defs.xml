@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+<!-- Definitions for FIRMS Tiles -->
+<tiles-definitions>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="jsp.html" path="/shared/jsp_html.jsp" extends="Body">
+		<put name="output" value="Output" type="definition"/>
+	</definition>
+	<definition name="firms.jsp.html" path="/shared/jsp_html.jsp" extends="FIRMSBody">
+		<put name="output" value="FIRMSOutput" type="definition"/>
+	</definition>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="fi.jsp.html" path="/shared/jsp_html.jsp" extends="FIBody">
+		<put name="output" value="FIOutput" type="definition"/>
+	</definition>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="gfcm.jsp.html" path="/shared/jsp_html.jsp" extends="GFCMBody">
+		<put name="output" value="GFCMOutput" type="definition"/>
+	</definition>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="nansen.jsp.html" path="/shared/jsp_html.jsp" extends="NANSENBody">
+		<put name="output" value="NANSENOutput" type="definition"/>
+	</definition>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="eafnet.jsp.html" path="/shared/jsp_html.jsp" extends="EAFNETBody">
+		<put name="output" value="EAFNETOutput" type="definition"/>
+	</definition>
+	<!-- basic top-level controller tile that doesn't do any real controlling -->
+	<definition name="stf.jsp.html" path="/shared/jsp_html.jsp" extends="STFBody">
+		<put name="output" value="STFOutput" type="definition"/>
+	</definition>
+	<!-- starts up the HTML transform for Management/Editing/Upload system -->
+	<definition name="Output" path="/shared/output.jsp" extends="Body">
+		<put name="body" value="Body" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+	</definition>
+	<!-- starts up the HTML transform for FIRMS -->
+	<definition name="FIRMSOutput" path="/shared/output.jsp">
+		<put name="body" value="FIRMSBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="FIRMS" type="string"/>
+		<put name="subDomain" value="firms" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- starts up the HTML transform for FI -->
+	<definition name="FIOutput" path="/shared/output.jsp">
+		<put name="body" value="FIBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="FI" type="string"/>
+		<put name="subDomain" value="www" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- starts up the HTML transform for GFCM -->
+	<definition name="GFCMOutput" path="/shared/output.jsp" extends="GFCMBody">
+		<put name="body" value="GFCMBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="GFCM" type="string"/>
+		<put name="subDomain" value="www" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- starts up the HTML transform for NANSEN -->
+	<definition name="NANSENOutput" path="/shared/output.jsp" extends="NANSENBody">
+		<put name="body" value="NANSENBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="NANSEN" type="string"/>
+		<put name="subDomain" value="www" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- starts up the HTML transform for EAFNET -->
+	<definition name="EAFNETOutput" path="/shared/output.jsp" extends="EAFNETBody">
+		<put name="body" value="EAFNETBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="EAFNET" type="string"/>
+		<put name="subDomain" value="www" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- starts up the HTML transform for STF -->
+	<definition name="STFOutput" path="/shared/output.jsp" extends="STFBody">
+		<put name="body" value="STFBody" type="definition"/>
+		<put name="head" value="head" type="definition"/>
+		<put name="siteName" value="STF" type="string"/>
+		<put name="subDomain" value="www" type="string"/>
+		<put name="context" value="/fi/" type="string"/>
+	</definition>
+	<!-- a simple wrapper for the editing/upload/management system -->
+	<definition name="editWrapper" path="/shared/editwrapper.jsp">
+		<put name="FIRMSbanner" value="FIRMSbanner" type="definition"/>
+		<put name="FIbanner" value="/website/jsp/fi/fi_banner.jsp" type="page"/>
+		<put name="defaultLocationMenu" value="FIRMS" type="string"/>
+		<!--SC-->
+		<put name="copyright" value="/shared/copyright.jsp" type="page"/>
+		<putList name="css">
+			<add value="/figis/shared/css/b_on_w.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/disable.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- the generic head -->
+	<definition name="head" path="/shared/head.jsp">
+		<putList name="scripts">
+			<add value="/figis/scripts/popup.js" type="string"/>
+			<add value="/figis/scripts/cookie.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- generic firms banner -->
+	<!-- firms topbar-->
+	<definition name="FIRMStopbar" path="/website/jsp/firms/firms_topbar.jsp">
+		<putList name="menus">
+			<!--<item link="/figis/LoginPanel.do" value="Restricted access" tooltip=""/>-->
+			<!--<item link="/figis/website/Subscribe.do" value="Subscription" tooltip=""/>-->
+			<item link="/figis/website/FIRMSSiteMap.do" value="Site_map" tooltip=""/>
+			<item link="mailto:FIRMS-Secretariat" value="Email_us" tooltip="if(this.href.indexOf('@')==-1) this.href=this.href + '@' + 'fao.org';"/>
+		</putList>
+	</definition>
+	<!-- gfcm topbar -->
+	<definition name="GFCMtopbar" path="/website/jsp/gfcm/gfcm_topbar.jsp">
+		<putList name="menus">
+			<!--<item link="/figis/LoginPanel.do" value="Restricted access" tooltip=""/>-->
+			<!--<item link="/figis/website/Subscribe.do" value="Subscription" tooltip=""/>-->
+			<item link="/fi/website/GFCMSiteMap.do" value="Site map" tooltip=""/>
+			<item link="mailto:Alain.Bonzon" value="Email us" tooltip="if(this.href.indexOf('@')==-1) this.href=this.href + '@' + 'fao.org';"/>
+		</putList>
+	</definition>
+	<!-- NANSEN topbar -->
+	<definition name="NANSENtopbar" path="/website/jsp/nansen/nansen_topbar.jsp">
+		<putList name="menus">
+			<item link="/fi/website/NANSENSiteMap.do" value="Site map" tooltip=""/>
+			<item link="mailto:Alain.Bonzon" value="Email us" tooltip="if(this.href.indexOf('@')==-1) this.href=this.href + '@' + 'fao.org';"/>
+		</putList>
+	</definition>
+	<!-- EAFNET topbar -->
+	<definition name="EAFNETtopbar" path="/website/jsp/eafnet/eafnet_topbar.jsp">
+		<putList name="menus">
+			<item link="/fi/website/EAFNETSiteMap.do" value="Site map" tooltip=""/>
+			<item link="mailto:Gabriella.Bianchi" value="Email us" tooltip="if(this.href.indexOf('@')==-1) this.href=this.href + '@' + 'fao.org';"/>
+		</putList>
+	</definition>
+	<!-- firms sidebar-->
+	<definition name="sidebar" path="/website/jsp/firms/firms_sidebar.jsp">
+		<putList name="langs">
+			<item value="" link="" icon="assets/images/templates/shared/tab_es_off.gif" tooltip="es"/>
+			<item value="" link="" icon="assets/images/templates/shared/tab_fr_off.gif" tooltip="fr"/>
+		</putList>
+	</definition>
+	<!-- the website banners -->
+	<definition name="FIbanner" path="/website/jsp/fi/fi_banner.jsp"/>
+	<definition name="FIRMSbanner" path="/website/jsp/firms/firms_banner.jsp"/>
+	<definition name="GFCMbanner" path="/website/jsp/gfcm/gfcm_banner.jsp"/>
+	<definition name="NANSENbanner" path="/website/jsp/nansen/nansen_banner.jsp"/>
+	<definition name="EAFNETbanner" path="/website/jsp/eafnet/eafnet_banner.jsp"/>
+	<definition name="STFbanner" path="/website/jsp/stf/stf_banner.jsp"/>
+	<!-- the fi website template. Put in shared to avoid load errors -->
+	<definition name="FIBody" path="/website/jsp/fi/fi_master.jsp" extends="FIOutput">
+		<put name="banner" value="FIbanner" type="definition"/>
+		<put name="topbar" value="/website/jsp/fi/fi_topbar.jsp" type="page"/>
+		<put name="sidebar" value="/shared/menu.jsp" type="page"/>
+		<put name="relatedbar" value="/website/jsp/fi/fi_relatedbar.jsp" type="page"/>
+		<put name="bottombar" value="/website/jsp/fi/fi_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/fi/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<!--
+		<put name="onload" value="resizePage()" type="string"/>
+		-->
+		<put name="onKeyPress" value=""/>
+		<put name="googleKey" value="UA-1866725-1" type="string"/>
+		<put name="defaultLocationMenu" value="Themes" type="string"/>
+		<putList name="css">
+			<add value="/figis/website/css/fi.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/resizePage.js" type="string"/>
+			<add value="/figis/scripts/changecss.js" type="string"/>
+			<add value="/figis/scripts/fi_menu.js" type="string"/>
+			<add value="/figis/scripts/dropdown.js" type="string"/>
+			<add value="/figis/scripts/multiquery.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- the firms website template. Put in shared to avoid load errors -->
+	<definition name="FIRMSBody" path="/website/jsp/firms/firms_master.jsp" extends="FIRMSOutput">
+		<put name="banner" value="FIRMSbanner" type="definition"/>
+		<put name="topbar" value="FIRMStopbar" type="definition"/>
+		<put name="sidebar" value="/website/jsp/firms/firms_menu.jsp" type="page"/>
+		<put name="bottombar" value="/website/jsp/firms/firms_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/firms/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<put name="onload" value="resizePage()" type="string"/>
+		<put name="onKeyPress" value="if (event.keyCode==13) event.keyCode=0;" type="string"/>		
+		<put name="googleKey" value="UA-1779392-1" type="string"/>
+		<put name="defaultLocationMenu" value="FIRMS" type="string"/>
+		<!--SC-->
+		<putList name="css">
+			<add value="/figis/website/css/style.css" type="string"/>
+			<add value="/figis/website/css/firms.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/resizePageFIRMS.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<!--<add value="/figis/scripts/firms_menu.js" type="string"/>SC-->
+		</putList>
+	</definition>
+	<!-- the GFCM website template. Put in shared to avoid load errors -->
+	<definition name="GFCMBody" path="/website/jsp/gfcm/gfcm_master.jsp" extends="GFCMOutput">
+		<put name="banner" value="GFCMbanner" type="definition"/>
+		<put name="topbar" value="GFCMtopbar" type="definition"/>
+		<!--<put name="sidebar" value="sidebar" type="definition"/>-->
+		<!--Good one-->
+		<put name="sidebar" value="/website/jsp/gfcm/gfcm_menu.jsp" type="page"/>
+		<!--test SC-->
+		<!--<put name="relatedbar" value="/website/jsp/gfcm/gfcm_related.jsp" type="page"/>-->
+		<put name="bottombar" value="/website/jsp/gfcm/gfcm_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/gfcm/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<put name="onload" value="resizePage()" type="string"/>
+		<put name="googleKey" value="UA-2873777-1" type="string"/>
+		<!--<put name="onload" value="configMenu()" type="string"/>-->
+		<put name="defaultLocationMenu" value="GFCM" type="string"/>
+		<!--SC-->
+		<putList name="css">
+			<add value="/figis/website/css/style.css" type="string"/>
+			<add value="/figis/website/css/gfcm.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/resizePageGFCM.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/multiquery.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- the NANSEN website template. Put in shared to avoid load errors -->
+	<definition name="NANSENBody" path="/website/jsp/nansen/nansen_master.jsp" extends="NANSENOutput">
+		<put name="banner" value="NANSENbanner" type="definition"/>
+		<put name="topbar" value="NANSENtopbar" type="definition"/>
+		<put name="sidebar" value="/website/jsp/nansen/nansen_menu.jsp" type="page"/>
+		<put name="bottombar" value="/website/jsp/nansen/nansen_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/nansen/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<put name="onload" value="resizePage()" type="string"/>
+		<put name="googleKey" value="UA-2873777-1" type="string"/>
+		<!--<put name="onload" value="configMenu()" type="string"/>-->
+		<put name="defaultLocationMenu" value="NANSEN" type="string"/>
+		<!--SC-->
+		<putList name="css">
+			<add value="/figis/website/css/style.css" type="string"/>
+			<add value="/figis/website/css/nansen.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/resizePageNansen.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/multiquery.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- the EAFNET website template. Put in shared to avoid load errors -->
+	<definition name="EAFNETBody" path="/website/jsp/eafnet/eafnet_master.jsp" extends="EAFNETOutput">
+		<put name="banner" value="EAFNETbanner" type="definition"/>
+		<put name="topbar" value="EAFNETtopbar" type="definition"/>
+		<put name="sidebar" value="/website/jsp/eafnet/eafnet_menu.jsp" type="page"/>
+		<put name="bottombar" value="/website/jsp/eafnet/eafnet_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/eafnet/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<put name="onload" value="resizePage()" type="string"/>
+		<put name="googleKey" value="UA-1866725-1" type="string"/>
+		<!--<put name="onload" value="configMenu()" type="string"/>-->
+		<put name="defaultLocationMenu" value="EAFNET" type="string"/>
+		<!--SC-->
+		<putList name="css">
+			<add value="/figis/website/css/eafnet.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/multiquery.js" type="string"/>
+		</putList>
+	</definition>
+	<!-- the STF website template. Put in shared to avoid load errors -->
+	<definition name="STFBody" path="/website/jsp/stf/stf_master.jsp" extends="STFOutput">
+		<put name="banner" value="STFbanner" type="definition"/>
+		<!--<put name="topbar" value="STFtopbar" type="definition"/>-->
+		<!--<put name="sidebar" value="sidebar" type="definition"/>-->
+		<!--Good one-->
+		<put name="sidebar" value="/website/jsp/stf/stf_menu.jsp" type="page"/>
+		<!--test SC-->
+		<!--<put name="relatedbar" value="/website/jsp/gfcm/gfcm_related.jsp" type="page"/>-->
+		<put name="bottombar" value="/website/jsp/stf/stf_bottombar.jsp" type="page"/>
+		<put name="imgSrc" value="/figis/website/assets/images/templates/stf/" type="string"/>
+		<put name="imgSrcShared" value="/figis/website/assets/images/templates/shared/" type="string"/>
+		<put name="onload" value="resizePage()" type="string"/>
+		<put name="googleKey" value="UA-1866725-1" type="string"/>
+		<!--<put name="onload" value="configMenu()" type="string"/>-->
+		<put name="defaultLocationMenu" value="STF" type="string"/>
+		<!--SC-->
+		<putList name="css">
+			<add value="/figis/website/css/style.css" type="string"/>
+			<add value="/figis/website/css/stf.css" type="string"/>
+		</putList>
+		<putList name="websiteScripts">
+			<add value="/figis/scripts/resizePageFIRMS.js" type="string"/>
+			<add value="/figis/scripts/menu.js" type="string"/>
+			<add value="/figis/scripts/multiquery.js" type="string"/>
+			<add value="/figis/scripts/rollover.js" type="string"/>
+		</putList>
+	</definition>
+</tiles-definitions>

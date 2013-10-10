@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<!-- This is the Struts configuration file for the Tiles-documentation application -->
+<struts-config>
+	<!-- ========== Form Beans =============================== -->
+	<form-beans>
+		<!-- form bean for the observation management panel/actions -->
+		<form-bean name="FsObservationManagement" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="action" type="java.lang.String" initial="collections"/>
+			<form-property name="allcollections" type="java.lang.Boolean" initial="false"/>
+			<form-property name="lang" type="java.lang.String"/>
+			<form-property name="live" type="java.lang.String" initial=""/>
+			<form-property name="draft" type="java.lang.String" initial=""/>
+			<form-property name="collections" type="java.util.List"/>
+			<form-property name="collectionmeta" type="java.lang.Integer"/>
+			<form-property name="cid" type="java.lang.Integer"/>
+			<form-property name="metaid" type="java.lang.Integer"/>
+			<form-property name="dom" type="java.lang.String"/>
+			<form-property name="oid" type="java.lang.Integer"/>
+			<form-property name="index" type="java.lang.Integer"/>
+			<form-property name="secondary" type="java.lang.Integer"/>
+			<form-property name="newvalue" type="java.lang.Object"/>
+		</form-bean>
+	</form-beans>
+	<!-- =================== Global forwards ================================ -->
+	<global-forwards>
+		<forward name="exception" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="error" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="no_template" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="failure" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user not found -->
+		<forward name="notfound" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user needs to login -->
+		<forward name="notloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FInotloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FIRMSnotloggedin" path="/FIRMSLogin.do" contextRelative="true" redirect="false"/>
+		<forward name="upload" path="/Upload.do" redirect="true" module="/upload"/>
+		<forward name="edit" path="/Edit.do" redirect="true" module="/edit"/>
+		<forward name="viewHTML" path="/ViewHTML.do" redirect="true" module="/website"/>
+		<forward name="viewXML" path="/ViewXML.do" redirect="true" module="/website"/>
+	</global-forwards>
+	<!-- ========== Action Mapping Definitions =============================== -->
+	<action-mappings>
+		<!-- to switch modules -->
+		<action path="/switch" type="org.apache.struts.actions.SwitchAction"/>
+		<!-- ================================= -->
+		<!-- the management panel itself -->
+		<action path="/Manage" name="FsObservationManagement" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.manage.coll"/>
+		<!-- ================================= -->
+		<!-- the main management action -->
+		<action path="/ManageAction" name="FsObservationManagement" type="org.fao.fi.figis.fs.common.manage.FsManageAction">
+			<forward name="success" path="/Manage.do"/>
+		</action>
+		<!-- ================================= -->
+	</action-mappings>
+	<!-- ================================= -->
+	<!-- controller parameters -->
+	<controller contentType="UTF-8" locale="true"/>
+	<!-- ========== Associated Messages Ressource settings =================== -->
+	<message-resources key="shared" parameter="org.fao.fi.figis.bundle.shared.SharedResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="manage" parameter="org.fao.fi.figis.bundle.manage.ManageResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<!-- ========== TilesPlugin settings ===================================== -->
+	<!-- You should declare this plugin if you want to use Tiles with an XML definition file. -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" id="mng">
+		<!-- Path to XML definition file -->
+		<set-property property="definitions-config" value="/WEB-INF/conf/struts/tiles/tiles-manage-defs.xml, /WEB-INF/conf/struts/tiles/tiles-shared-defs.xml"/>
+		<!-- Set Module-awareness to true. means you can have multiple tiles definitions -->
+		<set-property property="moduleAware" value="true"/>
+		<!-- 2 is max debug -->
+		<set-property property="definitions-debug" value="2"/>
+	</plug-in>
+</struts-config>

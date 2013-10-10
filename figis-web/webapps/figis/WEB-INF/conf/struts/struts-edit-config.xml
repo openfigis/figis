@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<!-- This is the Struts configuration file for the Tiles-documentation application -->
+<struts-config>
+	<!-- ========== Form Beans =============================== -->
+	<form-beans>
+		<!-- form that allows access to and methods for the observation object -->
+		<form-bean name="FsEditedObservation" type="org.fao.fi.figis.fs.common.edit.FsEditActionForm">
+			<form-property name="action" type="java.lang.String"/>
+			<form-property name="draft" type="java.lang.String"/>
+			<!-- these two will cause the observation to be saved if the session closes after changes have been made, but not saved -->
+			<form-property name="autosave" type="java.lang.Boolean" initial="true"/>
+			<form-property name="saverequired" type="java.lang.Boolean"/>
+			<form-property name="observation" type="org.fao.fi.figis.fs.common.data.object.FsObservation"/>
+			<form-property name="rootElements" type="java.util.List"/>
+			<form-property name="rootNode" type="org.w3c.dom.Node"/>
+			<form-property name="metaid" type="java.lang.Integer"/>
+			<form-property name="dom" type="java.lang.String"/>
+			<form-property name="oid" type="java.lang.Integer"/>
+			<form-property name="fid" type="java.lang.Integer"/>
+			<form-property name="nodea" type="java.lang.String"/>
+			<form-property name="nodeb" type="java.lang.String"/>
+			<form-property name="aName" type="java.lang.String[]" size="5"/>
+			<form-property name="aValue" type="java.lang.String[]" size="5"/>
+			<form-property name="nodename" type="java.lang.String"/>
+			<form-property name="content" type="java.lang.String"/>
+			<form-property name="schemaUrl" type="java.lang.String"/>
+			<form-property name="validate" type="java.lang.Boolean"/>
+		</form-bean>
+		<!-- for reference object lists -->
+		<form-bean name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListActionForm"/>
+		<!-- for reference observation lists -->
+		<form-bean name="FsObservationListActionForm" type="org.fao.fi.figis.fs.common.selection.FsObservationListActionForm"/>
+		<!-- image uploads -->
+		<form-bean name="FiImageUploadActionForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="imageUploadForm" type="java.lang.Boolean" initial="true"/>
+			<form-property name="displayImageId" type="java.lang.Integer"/>
+			<form-property name="displayImageFile" type="org.apache.struts.upload.FormFile"/>
+			<form-property name="displayTitle" type="java.lang.String"/>
+			<form-property name="displayCaption" type="java.lang.String"/>
+			<form-property name="displayCopyright" type="java.lang.String"/>
+			<form-property name="displayCredit" type="java.lang.String"/>
+			<form-property name="displayKeywords" type="java.lang.String"/>
+			<form-property name="extraImageId" type="java.lang.Integer"/>
+			<form-property name="extraImageFile" type="org.apache.struts.upload.FormFile"/>
+			<form-property name="extraTitle" type="java.lang.String"/>
+			<form-property name="extraCaption" type="java.lang.String"/>
+			<form-property name="extraCopyright" type="java.lang.String"/>
+			<form-property name="extraCredit" type="java.lang.String"/>
+			<form-property name="extraKeywords" type="java.lang.String"/>
+			<!-- these are optional & apply to both images -->
+			<form-property name="metaid" type="java.lang.String"/>
+			<form-property name="dom" type="java.lang.String"/>
+			<form-property name="oid" type="java.lang.String"/>
+			<form-property name="fid" type="java.lang.Integer"/>
+		</form-bean>
+	</form-beans>
+	<!-- =================== Global forwards ================================ -->
+	<global-forwards>
+		<forward name="exception" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="error" path="/Error.do" contextRelative="true" redirect="false"/>
+		<forward name="failure" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user not found -->
+		<forward name="notfound" path="/Failure.do" contextRelative="true" redirect="false"/>
+		<!-- user needs to login -->
+		<forward name="notloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FInotloggedin" path="/FILogin.do" contextRelative="true" redirect="false"/>
+		<forward name="FIRMSnotloggedin" path="/FIRMSLogin.do" contextRelative="true" redirect="false"/>
+		<forward name="upload" path="/Upload.do" redirect="true" module="/upload"/>
+		<forward name="manage" path="/Manage.do" redirect="true" module="/manage"/>
+		<forward name="viewXML" path="/ViewXML.do" redirect="true" module="/website"/>
+		<forward name="resource" path="/FIRMSResource.do" redirect="true" module="/website"/>
+		<forward name="fishery" path="/FIRMSFishery.do" redirect="true" module="/website"/>
+		<forward name="topic" path="/FITopic.do" redirect="true" module="/website"/>
+		<forward name="organization" path="/FIOrganization.do" redirect="true" module="/website"/>
+		<forward name="species" path="/FISpecies.do" redirect="true" module="/website"/>
+		<forward name="geartype" path="/FIGeartype.do" redirect="true" module="/website"/>
+		<forward name="vesseltype" path="/FIVesseltype.do" redirect="true" module="/website"/>
+		<forward name="introsp" path="/FIIntrosp.do" redirect="true" module="/website"/>
+		<forward name="facp" path="/FIFacp.do" redirect="true" module="/website"/>
+		<forward name="naso" path="/FINaso.do" redirect="true" module="/website"/>
+		<forward name="fishtech" path="/FIFishtech.do" redirect="true" module="/website"/>
+		<forward name="staticxml.org" path="/ViewXML.do" redirect="true" module="/website"/>
+	</global-forwards>
+	<!-- ========== Action Mapping Definitions =============================== -->
+	<action-mappings>
+		<!-- to switch modules -->
+		<action path="/switch" type="org.apache.struts.actions.SwitchAction"/>
+		<!-- the action to start an edit given a meta id, observation id, and action=start (rewrites the one in the base edit config since we are not switching modules -->
+		<action path="/StartAction" name="FsEditedObservation" type="org.fao.fi.figis.fs.common.edit.FsEditAction">
+			<!-- successful observation load -->
+			<forward name="success" path="/Edit.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- the editing panel itself - the StartAction must have been called first to load the 
+     observation into the session bean called "FsEditedObservation" -->
+		<action path="/Edit" name="FsEditedObservation" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.edit"/>
+		<!-- ================================= -->
+		<!-- the action to save the data in the (draft) database -->
+		<action path="/EditAction" name="FsEditedObservation" type="org.fao.fi.figis.fs.common.edit.FsEditAction">
+			<!-- successful save -->
+			<forward name="success" path="/Edit.do"/>
+			<!-- first image step -->
+			<forward name="image1" path="/ImagePanel.do"/>
+			<!-- load org reference selector -->
+			<forward name="Org" path="/OrgPanel.do"/>
+			<!-- load species reference selector -->
+			<forward name="Species" path="/SpeciesPanel.do"/>
+			<!-- load vesseltype reference selector -->
+			<forward name="Vesseltype" path="/VesseltypePanel.do"/>
+			<!-- load geartype reference selector -->
+			<forward name="FishTechnique" path="/FishTechPanel.do"/>
+			<!-- load geartype reference selector -->
+			<forward name="Geartype" path="/GeartypePanel.do"/>
+			<!-- load waterarea reference selector -->
+			<forward name="WaterArea" path="/WaterAreaPanel.do"/>
+			<!-- load resources reference selector -->
+			<forward name="KnowledgeObj" path="/KorPanel.do"/>
+			<!-- load topic reference selector -->
+			<forward name="Topic" path="/TopicPanel.do"/>
+			<!-- load resources reference selector -->
+			<forward name="AqRes" path="/ResourcePanel.do"/>
+			<!-- load fisheries reference selector -->
+			<forward name="Fishery" path="/FisheryPanel.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to upload an image -->
+		<action path="/ImagePanel" name="FiImageUploadActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.image"/>
+		<!-- ================================= -->
+		<!-- this one uploads images and leaves a fragment of XML in the session... -->
+		<action path="/ImageUploadAction" name="FiImageUploadActionForm" type="org.fao.fi.figis.fs.common.edit.FiImageUploadAction">
+			<forward name="success" path="/ImageUploadAction2.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- ...this one picks up the fragment of XML from the session and inserts it into the model -->
+		<action path="/ImageUploadAction2" name="FsEditedObservation" type="org.fao.fi.figis.fs.common.edit.FiImageUploadAction">
+			<forward name="success" path="/Edit.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a org -->
+		<action path="/OrgPanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.org.ref"/>
+		<!-- ================================= -->
+		<!-- the org selection action -->
+		<action path="/OrgListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<!-- note: these name values are taken from the "action" property of the JSP -->
+			<forward name="search" path="/OrgPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a species -->
+		<action path="/SpeciesPanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.species.ref"/>
+		<!-- ================================= -->
+		<!-- the species selection action -->
+		<action path="/SpeciesListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<!-- note: these name values are taken from the "action" property of the JSP -->
+			<forward name="search" path="/SpeciesPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a vesseltype -->
+		<action path="/VesseltypePanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.vesseltype.ref"/>
+		<!-- ================================= -->
+		<!-- the geartype selection action -->
+		<action path="/VesseltypeListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<!-- note: these name values are taken from the "action" property of the JSP -->
+			<forward name="search" path="/VesseltypePanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a fishing technique -->
+		<action path="/FishTechPanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.fishtech.ref"/>
+		<!-- ================================= -->
+		<!-- the geartype selection action -->
+		<action path="/FishTechListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<!-- note: these name values are taken from the "action" property of the JSP -->
+			<forward name="search" path="/FishTechPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a geartype -->
+		<action path="/GeartypePanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.geartype.ref"/>
+		<!-- ================================= -->
+		<!-- the geartype selection action -->
+		<action path="/GeartypeListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<!-- note: these name values are taken from the "action" property of the JSP -->
+			<forward name="search" path="/GeartypePanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- add the ref xml to the model, and return to the editor -->
+		<action path="/AddSelected" name="FsEditedObservation" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<forward name="success" path="/Edit.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a water area -->
+		<action path="/WaterAreaPanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.waterarea.ref"/>
+		<!-- ================================= -->
+		<!-- the water area selection action -->
+		<action path="/WaterAreaListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<forward name="search" path="/WaterAreaPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select an resource -->
+		<action path="/ResourcePanel" name="FsObservationListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.resource.ref"/>
+		<!-- ================================= -->
+		<!-- the resource selection action -->
+		<action path="/ResourceListAction" name="FsObservationListActionForm" type="org.fao.fi.figis.fs.common.selection.FsObservationListAction">
+			<forward name="search" path="/ResourcePanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a fishery  -->
+		<action path="/FisheryPanel" name="FsObservationListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.fishery.ref"/>
+		<!-- ================================= -->
+		<!-- the fishery selection action -->
+		<action path="/FisheryListAction" name="FsObservationListActionForm" type="org.fao.fi.figis.fs.common.selection.FsObservationListAction">
+			<forward name="search" path="/FisheryPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a kor -->
+		<action path="/KorPanel" name="FiObjectListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.kor.ref"/>
+		<!-- ================================= -->
+		<!-- the kor selection action -->
+		<action path="/KorListAction" name="FiObjectListActionForm" type="org.fao.fi.figis.fs.common.selection.FiObjectListAction">
+			<forward name="search" path="/KorPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+		<!-- allow the user to select a topic -->
+		<action path="/TopicPanel" name="FsObservationListActionForm" type="org.apache.struts.actions.ForwardAction" parameter="factsheet.topic.ref"/>
+		<!-- ================================= -->
+		<!-- the kor selection action -->
+		<action path="/TopicListAction" name="FsObservationListActionForm" type="org.fao.fi.figis.fs.common.selection.FsObservationListAction">
+			<forward name="search" path="/TopicPanel.do"/>
+			<forward name="select" path="/AddSelected.do"/>
+		</action>
+		<!-- ================================= -->
+	</action-mappings>
+	<!-- ================================= -->
+	<!-- controller parameters -->
+	<controller contentType="UTF-8" locale="true"/>
+	<!-- ========== Associated Messages Ressource settings =================== -->
+	<message-resources key="shared" parameter="org.fao.fi.figis.bundle.shared.SharedResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<message-resources key="edit" parameter="org.fao.fi.figis.bundle.edit.EditResources" factory="org.fao.fi.figis.bundle.struts.XmlMessageResourcesFactory" null="false"/>
+	<!-- ========== TilesPlugin settings ===================================== -->
+	<!-- You should declare this plugin if you want to use Tiles with an XML definition file. -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin" id="edt">
+		<!-- Path to XML definition file -->
+		<set-property property="definitions-config" value="/WEB-INF/conf/struts/tiles/tiles-edit-defs.xml, /WEB-INF/conf/struts/tiles/tiles-shared-defs.xml"/>
+		<!-- Set Module-awareness to true. means you can have multiple tiles definitions -->
+		<set-property property="moduleAware" value="true"/>
+		<!-- 2 is max debug -->
+		<set-property property="definitions-debug" value="2"/>
+	</plug-in>
+</struts-config>

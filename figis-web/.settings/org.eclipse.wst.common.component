@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="figis-web">
+		<wb-resource deploy-path="/" source-path="/webapps/figis" tag="defaultRootSource"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java" />
+		<dependent-module archiveName="Figis.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Figis/Figis">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<property name="java-output-path" value="/figis-web/build/classes"/>
+		<property name="context-root" value="figis-web"/>
+	</wb-module>
+</project-modules>
