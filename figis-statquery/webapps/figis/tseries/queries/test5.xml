@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<SQParams 
+	DatasetName="Aquaculture"
+	ShowUnits="1"
+	ShowFlags="1">
+
+<Year>1990</Year>
+<Year>1991</Year>
+<Year>1992</Year>
+<Year>1993</Year>
+<Year>1994</Year>
+<Year>1995</Year>
+<Year>1996</Year>
+<Year>1997</Year>
+<Year>1998</Year>
+<Year>1999</Year>
+<CalcCol>Seventies=Sum(1970,1971,1972,1973,1974,1975,1976,1977,1978,1979)</CalcCol>
+<CalcCol>Eighties=Sum(1980,1981,1982,1983,1984,1985,1986,1987,1988,1989)</CalcCol>
+
+<SQKeyParams 
+	KeyName="COUNTRY" 
+	HierID="0" 
+	Visible="1">
+</SQKeyParams>
+
+<SQKeyParams 
+	KeyName="ENVIRONMENT"
+	HierID="0" 
+	Visible="1">
+</SQKeyParams>
+
+<SQKeyParams 
+	KeyName="OCEAN_AREA"
+	HierID="0" 
+	Visible="1">
+</SQKeyParams>
+
+<SQKeyParams 
+	KeyName="SPECIES" 
+	HierID="0" 
+	Visible="1">
+</SQKeyParams>
+
+
+</SQParams>

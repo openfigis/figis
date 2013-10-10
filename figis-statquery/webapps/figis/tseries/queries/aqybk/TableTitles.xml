@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YearbookTableNames>
+
+<Yearbook>
+<NAME LANG="EN">Aquaculture Statistics Yearbook</NAME>
+<NAME LANG="FR">Annuaire FAO du L'aquaculture</NAME>
+<NAME LANG="ES">Anuario FAO de Acuicultura</NAME>
+</Yearbook>
+
+
+<Table ID="A-1">
+<TableTitle LANG="EN">World aquaculture production by inland and marine waters</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture par eaux continentales et maritimes</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura por aguas continentales y marítimas</TableTitle>	
+<ColHeader LANG="EN">Inland and marine waters</ColHeader>
+<ColHeader LANG="FR">Eaux continentales et maritimes</ColHeader>
+<ColHeader LANG="ES">Aguas continentales y marítimas</ColHeader>
+</Table>
+
+<Table ID="A-2">
+<TableTitle LANG="EN">World aquaculture production by culture environment</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture par environnement d'Aclevage</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura por ambiente de cultivo</TableTitle>
+<ColHeader LANG="EN">Environment</ColHeader>
+<ColHeader LANG="FR">Environnement</ColHeader>
+<ColHeader LANG="ES">Ambiente</ColHeader>
+</Table>
+
+<Table ID="A-3">
+<TableTitle LANG="EN">World aquaculture production by continent</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture par continent</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura por continente</TableTitle>
+<ColHeader LANG="EN">Continent</ColHeader>
+<ColHeader LANG="FR">Continent</ColHeader>
+<ColHeader LANG="ES">Continente</ColHeader>
+</Table>
+
+<Table ID="A-4">
+<TableTitle LANG="EN">World aquaculture production of fish, crustaceans, molluscs, etc., by principal producers in 1999</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture de poissons, crustacés, mollusques, etc., par producteurs principaux en 1999</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura de peces, crustáceos, moluscos, etc., por productores principales en 1999</TableTitle>
+<ColHeader LANG="EN">Country</ColHeader>
+<ColHeader LANG="FR">Pays</ColHeader>
+<ColHeader LANG="ES">País</ColHeader>
+</Table>
+
+
+<Table ID="A-5">
+<TableTitle LANG="EN">World aquaculture production of aquatic plants by producers in 1999</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture de plantes aquatiques, par producteurs en 1999</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura de plantas acuáticas, por productores en 1999</TableTitle>
+<ColHeader LANG="EN">Country</ColHeader>
+<ColHeader LANG="FR">Pays</ColHeader>
+<ColHeader LANG="ES">País</ColHeader>
+</Table>
+
+<Table ID="A-6">
+<TableTitle LANG="EN">World aquaculture production of fish, crustaceans, molluscs, etc., by principal species in 1999</TableTitle>
+<TableTitle LANG="FR">Production mondiale de l'aquaculture de poissons, crustacés, mollusques, etc., par espèces principales en 1999</TableTitle>
+<TableTitle LANG="ES">Producción mundial de acuicultura de peces, crustáceos, moluscos, etc., por especies principales en 1999</TableTitle>
+<ColHeader LANG="EN">Species</ColHeader>
+<ColHeader LANG="FR">Espèce</ColHeader>
+<ColHeader LANG="ES">Especie</ColHeader>
+</Table>
+
+<Table ID="C-1">
+<TableTitle LANG="EN">Production from aquaculture by country, by species</TableTitle>
+<TableTitle LANG="FR">Production de l'aquaculture par pays et par espèces</TableTitle>
+<TableTitle LANG="ES">Producción de acuicultura por países y especies</TableTitle>
+<ColHeader LANG="EN">Country, species</ColHeader>
+<ColHeader LANG="FR">Pays, espèce</ColHeader>
+<ColHeader LANG="ES">País, especie</ColHeader>
+</Table>
+
+<Table ID="B">
+<ColHeader LANG="EN">Species, country</ColHeader>
+<ColHeader LANG="FR">Espèce, pays</ColHeader>
+<ColHeader LANG="ES">Especie, país</ColHeader>
+</Table>
+
+
+</YearbookTableNames>

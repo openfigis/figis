@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SQParams DatasetName="TunaAtlas" ShowUnits="1" ShowFlags="1">
+<Series>QUANTITY</Series>
+<SQKeyParams KeyName="OCEAN_AREA" MetaID="29003" HierID="0" Visible="1">
+<DisplayAttr>21</DisplayAttr>
+</SQKeyParams>
+<SQKeyParams KeyName="SPECIES" MetaID="31104" HierID="0" Visible="0">
+</SQKeyParams>
+<SQKeyParams KeyName="GEAR" MetaID="59003" HierID="0" Visible="0">
+</SQKeyParams>
+</SQParams>

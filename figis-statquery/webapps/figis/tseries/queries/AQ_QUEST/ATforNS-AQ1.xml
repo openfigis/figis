@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+	<!-- TOMCAT DEVELOP -->
+<SQParams DatasetName="Aquaculture" ShowUnits="0" ShowFlags="1">
+	<Series>QUANTITY</Series>
+	<Series>VALUE</Series>
+	<SQKeyParams KeyName="COUNTRY" MetaID="13001" HierID="0" Visible="1">
+		<DisplayAttr>1:en</DisplayAttr>
+		<DisplayAttr>1:fr</DisplayAttr>
+		<DisplayAttr>1:es</DisplayAttr>
+		<DisplayAttr>23</DisplayAttr>
+		<Selection>
+			<ID>3</ID>
+		</Selection>
+	</SQKeyParams>
+	<SQKeyParams KeyName="SPECIES" HierID="30002" Visible="1">
+		<DisplayAttr>12</DisplayAttr>
+		<DisplayAttr>1:en</DisplayAttr>
+		<DisplayAttr>1:fr</DisplayAttr>
+		<DisplayAttr>1:es</DisplayAttr>
+		<DisplayAttr>13</DisplayAttr>
+		<DisplayAttr>11</DisplayAttr>
+		<Selection>
+			<!--
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1401</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1402</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1403</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1404</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1405</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1406</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1407</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1408</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1409</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1410</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1411</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1412</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1413</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1414</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1415</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1416</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1417</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1418</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1419</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1420</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1421</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1422</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1423</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1424</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1425</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1426</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1427</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1428</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1429</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1430</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1431</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1432</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1437</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1438</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1440</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1441</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1442</Query>
+			<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32001&amp;related=1443</Query>
+	-->
+			<ID>1401</ID>
+			<ID>1402</ID>
+			<ID>1403</ID>
+			<ID>1404</ID>
+			<ID>1405</ID>
+			<ID>1406</ID>
+			<ID>1407</ID>
+			<ID>1408</ID>
+			<ID>1409</ID>
+			<ID>1410</ID>
+			<ID>1411</ID>
+			<ID>1412</ID>
+			<ID>1413</ID>
+			<ID>1414</ID>
+			<ID>1415</ID>
+			<ID>1416</ID>
+			<ID>1417</ID>
+			<ID>1418</ID>
+			<ID>1419</ID>
+			<ID>1420</ID>
+			<ID>1421</ID>
+			<ID>1422</ID>
+			<ID>1423</ID>
+			<ID>1424</ID>
+			<ID>1425</ID>
+			<ID>1426</ID>
+			<ID>1427</ID>
+			<ID>1428</ID>
+			<ID>1429</ID>
+			<ID>1430</ID>
+			<ID>1431</ID>
+			<ID>1432</ID>
+			<ID>1437</ID>
+			<ID>1438</ID>
+			<ID>1440</ID>
+			<ID>1441</ID>
+			<ID>1442</ID>
+			<ID>1443</ID>
+		</Selection>
+	</SQKeyParams>
+	<!-- <SQKeyParams KeyName="SPECIES" MetaID="31101" HierID="0" Visible="1"> -->
+	<SQKeyParams KeyName="SPECIES" MetaID="0" HierID="0" Visible="1">
+		<DisplayAttr>12</DisplayAttr>
+		<DisplayAttr>1:en</DisplayAttr>
+		<DisplayAttr>1:fr</DisplayAttr>
+		<DisplayAttr>1:es</DisplayAttr>
+		<DisplayAttr>13</DisplayAttr>
+		<DisplayAttr>11</DisplayAttr>
+	</SQKeyParams>
+	<SQKeyParams KeyName="ENVIRONMENT" MetaID="82000" HierID="0" Visible="1">
+		<DisplayAttr>21</DisplayAttr>
+		<DisplayAttr>11</DisplayAttr>
+	</SQKeyParams>
+	<SQKeyParams KeyName="OCEAN_AREA" MetaID="22010" HierID="0" Visible="1">
+		<DisplayAttr>11</DisplayAttr>
+		<DisplayAttr>21</DisplayAttr>
+	</SQKeyParams>
+	
+	<Year>2000</Year>
+	<Year>1999</Year>
+	<Year>1998</Year>
+	<Year>1997</Year>
+	<Year>1996</Year>
+	<Year>1995</Year>
+	<Year>1994</Year>
+	<Year>1993</Year>
+	<Year>1992</Year>
+	<Year>1991</Year>
+	
+	<!--
+
+	<YEAR>1991</YEAR>
+	<YEAR>1992</YEAR>
+	<YEAR>1993</YEAR>
+	<YEAR>1994</YEAR>
+	<YEAR>1995</YEAR>
+	<YEAR>1996</YEAR>
+	<YEAR>1997</YEAR>
+	<YEAR>1998</YEAR>
+	<YEAR>1999</YEAR>
+	<YEAR>2000</YEAR>
+
+  &YearBook.ent;
+-->
+</SQParams>

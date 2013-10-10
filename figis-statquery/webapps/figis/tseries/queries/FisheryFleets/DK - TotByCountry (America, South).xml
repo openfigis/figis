@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Decked" ShowUnits="1" ShowFlags="1">
+	<Series>QUANTITY</Series>
+	<Series>TONNAGE</Series>
+	<Series>POWER</Series>
+	<Year>1996</Year>
+	<Year>1997</Year>
+	<Year>1998</Year>
+	<SQKeyParams KeyName="COUNTRY" HierID="10002" Visible="1">
+		<DisplayAttr>1:en</DisplayAttr>
+		<Selection>
+			<ID>318</ID>
+			<Query>&ObjServlet;?meta=13001&amp;cmd=related&amp;rel=11002&amp;related=318</Query>
+		</Selection>
+	</SQKeyParams>
+</SQParams>

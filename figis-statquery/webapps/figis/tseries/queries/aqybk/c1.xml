@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Aquaculture" ShowUnits="0" ShowFlags="1">
+<Series>QUANTITY</Series>
+<Series>VALUE</Series>
+<SQKeyParams KeyName="COUNTRY" Visible="1" HierID="0">
+<DisplayAttr>1:en</DisplayAttr>
+</SQKeyParams>
+<SQKeyParams KeyName="SPECIES"  HierID="0" Visible="1">
+<Selection>
+<Query>&ObjServlet;?meta=31102&amp;cmd=related&amp;rel=32004&amp;related=1801</Query>
+</Selection>
+<DisplayAttr>12</DisplayAttr>
+</SQKeyParams>
+&YearBookYears;
+</SQParams>

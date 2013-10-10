@@ -1,0 +1,10 @@
+<fint:FsSearchResult xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
+	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:fi="http://www.fao.org/fi/figis/devcon/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<fint:SearchCrit JoinOp="or">
+		<fint:SearchParam NAME="kv">trawl</fint:SearchParam>
+		<fint:SearchParam NAME="dslist">all</fint:SearchParam>
+		<fint:RequestParam NAME="kv0">trawl</fint:RequestParam>
+	</fint:SearchCrit>
+</fint:FsSearchResult>

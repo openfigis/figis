@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE frl:report-def SYSTEM "..\frl.dtd" [
+<!ENTITY DSNAME "Production">
+<!ENTITY FORMAT "###,###,###,##0">
+<!ENTITY SEPS ".,">
+<!ENTITY STD-DEFS SYSTEM "..\inc-std-defs.xml">
+<!ENTITY SUB_TOTALS SYSTEM "MainQueryTotals.xml">
+<!ENTITY PARAMS SYSTEM "..\MainQueryParams.xml">
+<!ENTITY MAIN_PROC SYSTEM "..\MainQueryCommon.xml">
+]>
+<frl:report-def>
+	
+	&STD-DEFS;
+
+	&PARAMS;
+
+	<frl:query id="query_row">
+		<frl:sql>
+
+select
+	<frl:var-set id="sep" type="string"> </frl:var-set>
+	<frl:var-set id="index">0</frl:var-set>
+	<frl:for-each id="a" idref="request.keycols">
+		<frl:var id="sep"/> RTRIM(<frl:iter/>) "key<frl:iter-num/>",
+		<frl:setref idref="request.keygrps" at="{$index}"/> "grp<frl:var id="index"/>"
+		<frl:var-set id="sep">,</frl:var-set>
+		<frl:var-add id="index">1</frl:var-add>
+	</frl:for-each>
+<frl:text symbol="new-line"/>
+	<frl:for-each id="b" idref="request.years">
+		<frl:for-each id="c" idref="request.valuecols">
+			,sum(<frl:iter idref="c"/>_<frl:iter idref="b"/>)
+				"value<frl:iter idref="b"/><frl:iter-num idref="c"/>"
+			,min (ts.symb_<frl:iter idref="b"/>)
+				"symbol<frl:iter idref="b"/><frl:iter-num idref="c"/>"
+		</frl:for-each>
+	</frl:for-each>
+<frl:text symbol="new-line"/>
+from
+<frl:var-test test="{$request.cloudscape}.eq.true">
+  properties joinOrder=FIXED
+</frl:var-test>
+  figis.tsv_fi_prod_yr ts<frl:text symbol="new-line"/>
+<frl:for-each id="d" idref="request.keytable">
+	,<frl:iter/><frl:text symbol="new-line"/>
+</frl:for-each>
+<frl:var-set id="join" type="string">where</frl:var-set>
+<frl:for-each id="d" idref="request.whereentry">
+	<frl:text symbol="new-line"/>
+	<frl:var id="join"/> <frl:iter/><frl:text symbol="new-line"/>
+	<frl:var-set id="join">and</frl:var-set>
+</frl:for-each>
+<frl:text symbol="new-line"/>
+group by
+	<frl:var-set id="sep" type="string"> </frl:var-set>
+	<frl:var-set id="index">0</frl:var-set>
+	<frl:for-each id="e" idref="request.keycols">
+		<frl:var-set id="grp" type="string"><frl:setref idref="request.keygrps" at="{$index}"/></frl:var-set>
+		<frl:var id="sep"/>
+			<frl:var-test test="{$grp}.ne.'D'">
+				<frl:var id="grp"/>,
+			</frl:var-test>
+			<frl:iter/><frl:text symbol="new-line"/>
+		<frl:var-set id="sep">,</frl:var-set>
+		<frl:var-add id="index">1</frl:var-add>
+	</frl:for-each>
+</frl:sql>
+</frl:query>
+
+&MAIN_PROC;
+
+</frl:report-def>

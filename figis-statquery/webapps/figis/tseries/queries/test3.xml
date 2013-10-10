@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SQParams
+	DatasetName="Aquaculture"
+	ShowUnits="1"
+	ShowFlags="0">
+
+<Series>QUANTITY</Series>
+<Series>VALUE</Series>
+
+<Year>1990</Year>
+<Year>1991</Year>
+<Year>1992</Year>
+<Year>1993</Year>
+<Year>1994</Year>
+<Year>1995</Year>
+<Year>1996</Year>
+<Year>1997</Year>
+<Year>1998</Year>
+<Year>1999</Year>
+<CalcCol>Seventies=Sum(1970,1971,1972,1973,1974,1975,1976,1977,1978,1979)</CalcCol>
+<CalcCol>Eighties=Sum(1980,1981,1982,1983,1984,1985,1986,1987,1988,1989)</CalcCol>
+<CalcCol>NinetyOne-test=Sum(1991)</CalcCol>
+
+<SQKeyParams 
+	KeyName="COUNTRY" 
+	HierID="0" 
+	Visible="1">
+</SQKeyParams>
+
+<SQKeyParams 
+	KeyName="SPECIES" 
+	HierID="30001" 
+	Visible="1">
+<Selection>
+<ID>1401</ID><ID>1402</ID><ID>1403</ID><ID>1404</ID><ID>1405</ID><ID>1406</ID><ID>1407</ID><ID>1408</ID><ID>1409</ID><ID>1410</ID>
+<ID>1411</ID><ID>1412</ID><ID>1413</ID><ID>1414</ID><ID>1415</ID><ID>1416</ID><ID>1417</ID><ID>1418</ID><ID>1419</ID><ID>1420</ID>
+<ID>1421</ID><ID>1422</ID><ID>1423</ID><ID>1424</ID><ID>1425</ID><ID>1426</ID><ID>1427</ID><ID>1428</ID><ID>1429</ID><ID>1430</ID>
+<ID>1431</ID><ID>1432</ID><ID>1433</ID><ID>1434</ID><ID>1435</ID><ID>1436</ID><ID>1437</ID><ID>1438</ID><ID>1439</ID><ID>1440</ID>
+<ID>1441</ID><ID>1442</ID><ID>1443</ID><ID>1444</ID><ID>1445</ID><ID>1446</ID><ID>1447</ID><ID>1448</ID><ID>1449</ID><ID>1450</ID>
+<ID>1501</ID><ID>1502</ID><ID>1503</ID><ID>1504</ID><ID>1505</ID><ID>1506</ID><ID>1507</ID><ID>1508</ID><ID>1509</ID>
+</Selection>
+</SQKeyParams>
+
+</SQParams>

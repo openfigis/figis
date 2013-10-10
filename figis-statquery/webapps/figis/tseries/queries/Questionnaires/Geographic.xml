@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Capture" ShowUnits="1" ShowFlags="1">
+	<Year>1999</Year>
+	<SQKeyParams KeyName="COUNTRY" HierID="10002" Visible="1">
+		<Selection>
+			<Query>&ObjServlet;?meta=11002</Query>	
+			<Query>&ObjServlet;?meta=13001</Query>	
+		</Selection>	
+
+	</SQKeyParams>
+</SQParams>

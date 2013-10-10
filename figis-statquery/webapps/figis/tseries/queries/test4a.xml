@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<SQParams
+	DatasetName="Aquaculture"
+	ShowUnits="1"
+	ShowFlags="0">
+
+<Series>QUANTITY</Series>
+<Series>VALUE</Series>
+
+<Year>1990</Year>
+<Year>1991</Year>
+<Year>1992</Year>
+<Year>1993</Year>
+<Year>1994</Year>
+<Year>1995</Year>
+<Year>1996</Year>
+<Year>1997</Year>
+<Year>1998</Year>
+<Year>1999</Year>
+
+<SQKeyParams 
+	KeyName="SPECIES" 
+	HierID="30001" 
+	Visible="1">
+<Selection>
+<Query>org.fao.fi.figis.reftable.RefObjectServlet?meta=32002</Query>
+<Query>org.fao.fi.figis.reftable.RefObjectServlet?meta=32001</Query>
+</Selection>
+<DisplayAttr>21</DisplayAttr>
+<DisplayAttr>13</DisplayAttr>
+</SQKeyParams>
+
+<SQKeyParams 
+	KeyName="COUNTRY" 
+	HierID="0" 
+	Visible="1">
+<DisplayAttr>1:en</DisplayAttr>
+<DisplayAttr>1:fr</DisplayAttr>
+
+<Selection>
+<ID>1</ID><ID>2</ID><ID>3</ID><ID>4</ID><ID>5</ID>
+<ID>6</ID><ID>7</ID><ID>8</ID><ID>9</ID><ID>10</ID>
+<ID>11</ID><ID>12</ID><ID>13</ID><ID>14</ID><ID>15</ID>
+<ID>16</ID><ID>17</ID><ID>18</ID><ID>19</ID><ID>20</ID>
+</Selection>
+</SQKeyParams>
+
+
+
+</SQParams>

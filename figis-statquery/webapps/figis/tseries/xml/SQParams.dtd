@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Maria Barbuzzi (FAO Headquarters) -->
+<!-- 
+SQParams is a set of parameters for StatQuery engine. 
+These parameters define a query, and are sufficient 
+for running SQProcessor.
+They do not include SQServlet parameters such as paging, table processing options, etc.
+
+Note: 
+Names of datasets, Series and Keys must be spelled 
+the same as in StatQuery.xml file.
+(found under server's figis/properties/ directory, e.g.//figis01/iis4root/tomcat-devel/figis/properties)
+Consult this file when unsure.
+-->
+
+<!--SQParams is a root element. -->
+<!ELEMENT SQParams (Series | SQKeyParams | Year | CalcCol)*>
+
+
+<!ATTLIST SQParams
+  DatasetName CDATA #REQUIRED
+  ShowUnits (0 | 1) "1"
+  ShowFlags (0 | 1) "1"
+>
+<!-- DatasetName should be spelled the same as in StatQuery.xml file.
+Convention is first letter capital, all others small.
+At the time of writing the following datasets were active 
+(correct spelling here!):
+		Capture
+		Aquaculture
+		Production
+		Fleet
+		Trade
+		TunaLandings
+		TunaAtlas		
+-->
+
+<!-- ShowUnits says whether query engine should extract 
+units from the database.
+Note: setting ShowUnits to 0 may potentially lead to 
+the wrong results	if dataset contains multiple units. 
+However, if you are sure that your query returns one unit,
+you can set ShowUnits to "0"
+-->
+
+<!-- ShowFlags says whether to extract symbols (. F -, etc). 
+Some queries execute faster when ShowFlags is set to 0
+ -->
+
+<!-- A series to include. Series are also called parameters 
+and variables. For example, Quantity and Value in aquaculture.
+Series names must be spelled exactly as in StatQuery.xml 
+(usually all uppercase):
+   For Aquaculture  QUANTITY, VALUE
+   For Capture      QUANTITY
+   For Production   QUANTITY
+   For Fleet        NUMBER, TONNAGE
+   For Trade        QUANTITY, VALUE
+   For TunaAtlas    QUANTITY
+   For TunaLandings QUANTITY
+
+If Series element is omitted, all series are extracted
+-->
+<!ELEMENT Series (#PCDATA)>
+
+<!-- Years to include. Each element should contain 
+one year. For annual datasets, years are shown as 4-digit numbers.
+
+For quarterly datasets (TunaAtlas), years should be in format
+yyyy-Qn, where n=1..4 or X. For instance, 1999-Q4 or 1999-QX.
+
+TunaAtlas also allows to specify years (1999) that are converted
+to calculated columns (Sum(1999-Q1,1999-Q2,1999-Q3,1999-Q4,1999-QX)
+-->
+<!ELEMENT Year (#PCDATA)>
+
+<!-- Calculated columns to include
+They must be in format
+
+function_name(year,year,year...)
+or
+column_name=function_name(year,year,year)
+
+Supported functions are SUM and AVG (must be written in capitals)
+-->
+<!ELEMENT CalcCol (#PCDATA)>
+
+
+<!--
+Keys to extract. Order of the keys is significant: 
+The first SQKeyParams ends up the first column in the result,
+the first sort criterion, etc.
+-->
+
+<!ELEMENT SQKeyParams (DisplayAttr | Selection)*>
+
+<!ATTLIST SQKeyParams
+  KeyName CDATA #REQUIRED
+  MetaID CDATA #IMPLIED
+  HierID CDATA #IMPLIED
+  Visible (0 | 1) "0"
+>
+<!-- KeyName should be defined in StatQuery.XML. 
+Usually spelled in all capitals
+Known keys are 
+   For Aquaculture  SPECIES,COUNTRY,OCEAN_AREA,ENVIRONMENT
+   For Capture      SPECIES,COUNTRY,OCEAN_AREA
+   For Production   SPECIES,COUNTRY,OCEAN_AREA
+   For Fleet        VESSELCLASS,COUNTRY,VESSELTYPE
+   For Trade        COMMODITY,COUNTRY,TRADEFLOW
+   For TunaAtlas    OCEAN_AREA,SPECIES,GEAR
+   For TunaLandings STOCK,COUNTRY,GEAR
+-->
+
+<!-- MetaID is optional. It is a filter for ALL keys
+(not your selection). There is no need to specify it
+except for very special cases
+ -->
+<!-- HierID is hierarchy ID as defined by RefService.
+HierID=0 means "flat key" (do not build trees)
+which is appropriate for many cases. Use non-zero Hierarchies
+if you need grouping and group totals. Some hierarchies:
+  for COUNTRY - 
+		10002	Continents
+		10003	Continents and regions
+		10004	Economic groups
+  for OCEAN_AREA - 
+		20002	Area by ocean
+		20001	Area by subocean
+		23002	5 degree squares by area20002 (by ocean)
+	for SPECIES - 
+		30001	Major group
+		30002	ISSCAAP group
+		30003	FAOSTAT group
+		30004	Ybk main groups
+		30005	Taxonomic
+	for VESSELCLASS -
+		62001	GRT class hierarchy
+	for VESSELTYPE			
+		64204   ISSCFV(old)
+	for COMMODITY
+		40001	Harmonized
+		40005	ICS classification
+		40006	SITC classification
+	for STOCK
+		94002	Stocks by species
+		94003	Stocks by area
+ -->
+
+<!-- 
+Visible attribute of a key says whether the key must appear in the results. If Visible=0, key is used only for filtering.
+(therefore Visible=0 makes sense only if selection is specified)
+-->
+
+<!-- 
+DisplayAttr says which attributes of the key to display
+It only makes sense with Visible=1.
+Default is name in current language.
+Attribute IDs must be valid meta attributes as 
+defined in Reference services.
+Two notations are allowed:
+n - attribute ID
+n:lang - attribute ID and language (language must be en|fr|es)
+
+For instance,
+1 - name in current language
+1:fr - french name
+12 - species scientific name
+
+There may be many attributes for each key. They become 
+separate columns in the output. Sort order is defined by 
+the first attribute
+-->
+<!ELEMENT DisplayAttr (#PCDATA)>
+
+<!-- Key selection -->
+<!ELEMENT Selection (ID | Query)+>
+<!-- Individual integer ID. May be ID for a key or for a group
+Group ID means "get total for this group", it does not
+mean "get details for all members"
+-->
+<!ELEMENT ID (#PCDATA)>
+
+<!-- 
+List of IDs extracted from a URL. URL should return well-formed XML
+containing elements <ID></ID> containing integer numbers.
+Any other input is ignored.
+
+URL can be either absolute, or relative to the servlet root, e.g.
+if you specify
+myservlet?idlist=a,
+and application is running on figis01:8080
+this will be extended into
+http://figis01:8080/fiservlet/myservlet?idlist=a
+
+RefObjectServlet is able to generate lists of IDs. At the 
+moment there are two useful commands:
+
+- org.fao.fi.figis.reftable.RefObjectServlet?metaID=<meta>
+  gets all objects of a given type, e.g. 32002 to get 
+  all ISSCAAP divisions
+-  org.fao.fi.figis.reftable.RefObjectServlet?
+		metaID=<meta>&cmd=related&rel=<rel>&related=<relatedID>
+	gets all objects of type <meta> related with relationship <rel>
+	to <relatedID> (e.g. all objects in a group). E.g.
+	metaID=31102&cmd=related&rel=32001&related=1401 -
+	all aquaculture species (31102) in ISSCAAP group (32001)
+	"Carps" (1401)
+	
+There's an entity ObjServlet to simplify queries
+-->
+<!ELEMENT Query (#PCDATA)>
+
+<!ENTITY ObjServlet "org.fao.fi.figis.reftable.RefObjectServlet">

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Maria Barbuzzi (FAO Headquarters) -->
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Aquaculture" ShowUnits="0" ShowFlags="1">
+  <Series>QUANTITY</Series>
+  <Series>VALUE</Series>
+  <SQKeyParams KeyName="COUNTRY" Visible="1" HierID="0">
+  	&ThreeNames;
+  </SQKeyParams>
+  <SQKeyParams KeyName="SPECIES"  HierID="30004" Visible="0">
+    <DisplayAttr>12</DisplayAttr>
+    <Selection>
+      <ID>1805</ID>
+    </Selection>
+  </SQKeyParams>
+	&YearBookYears;
+</SQParams>

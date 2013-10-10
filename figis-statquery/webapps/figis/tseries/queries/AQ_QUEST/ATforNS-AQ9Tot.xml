@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Aquaculture" ShowUnits="1" ShowFlags="1">
+	<Series>QUANTITY</Series>
+	<SQKeyParams KeyName="COUNTRY" MetaID="13001" HierID="0" Visible="1">
+		<DisplayAttr>1:en</DisplayAttr>
+		<DisplayAttr>1:fr</DisplayAttr>
+		<DisplayAttr>1:es</DisplayAttr>
+		<DisplayAttr>23</DisplayAttr>
+	</SQKeyParams>
+	<SQKeyParams KeyName="ENVIRONMENT" MetaID="82000" HierID="0" Visible="1">
+		<DisplayAttr>21</DisplayAttr>
+		<DisplayAttr>11</DisplayAttr>
+	</SQKeyParams>
+	<!--
+	<SQKeyParams KeyName="OCEAN_AREA" MetaID="22010" HierID="0" Visible="1">
+		<DisplayAttr>21</DisplayAttr>
+	</SQKeyParams>
+-->
+	<SQKeyParams KeyName="SPECIES" MetaID="31102" HierID="30002" Visible="0">
+		<Selection>
+			<ID>1447</ID>
+			<ID>1448</ID>
+			<ID>1449</ID>
+			<ID>1450</ID>
+		</Selection>
+	</SQKeyParams>
+	<Year>2000</Year>
+	<Year>1999</Year>
+	<Year>1998</Year>
+	<Year>1997</Year>
+	<Year>1996</Year>
+	<Year>1995</Year>
+	<Year>1994</Year>
+	<Year>1993</Year>
+	<Year>1992</Year>
+	<Year>1991</Year>
+	<!--	
+	<YEAR>1991</YEAR>
+	<YEAR>1992</YEAR>
+	<YEAR>1993</YEAR>
+	<YEAR>1994</YEAR>
+	<YEAR>1995</YEAR>
+	<YEAR>1996</YEAR>
+	<YEAR>1997</YEAR>
+	<YEAR>1998</YEAR>
+	<YEAR>1999</YEAR>
+	<YEAR>2000</YEAR>
+
+	&YearBookYears;
+-->
+</SQParams>

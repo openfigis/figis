@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Capture" ShowUnits="1" ShowFlags="1">
+	<Series>QUANTITY</Series>
+	
+
+	<SQKeyParams KeyName="COUNTRY" MetaID="13001" HierID="0" Visible="1">
+		<DisplayAttr>1:en</DisplayAttr> 
+		<DisplayAttr>1:fr</DisplayAttr> 
+		<DisplayAttr>1:es</DisplayAttr> 
+		<DisplayAttr>23</DisplayAttr> 
+		
+	</SQKeyParams>
+			
+	<SQKeyParams KeyName="OCEAN_AREA" MetaID="22010" HierID="0" Visible="1">
+		 <DisplayAttr>21</DisplayAttr> 
+	</SQKeyParams>
+
+	<SQKeyParams KeyName="SPECIES" MetaID="31101" HierID="30002" Visible="0">
+	
+				
+		<Selection>
+			<ID>1439</ID>	
+		</Selection>
+	
+
+	</SQKeyParams>
+
+</SQParams>

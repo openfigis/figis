@@ -1,0 +1,42 @@
+<!-- common parameter handling -->
+
+	<frl:set id="request.years">
+		<frl:param name="request.years"/>
+	</frl:set>
+	<frl:set id="request.keycols">
+		<frl:param name="request.keycols"/>
+	</frl:set>
+	<frl:set id="request.keygrps">
+		<frl:param name="request.keygrps"/>
+	</frl:set>
+	<frl:set id="request.valuecols">
+		<frl:param name="request.valuecols"/>
+	</frl:set>
+	<frl:set id="request.multlist">
+		<frl:param name="request.multlist"/>
+	</frl:set>
+	<frl:set id="request.keyheads">
+		<frl:param name="request.keyheads"/>
+	</frl:set>
+	<frl:set id="request.valueheads">
+		<frl:param name="request.valueheads"/>
+	</frl:set>
+	<frl:set id="request.whereentry">
+		<frl:param name="request.whereentry"/>
+	</frl:set>
+	<frl:set id="request.keytable">
+		<frl:param name="request.keytable"/>
+	</frl:set>
+	<frl:set id="request.gifs">
+		<frl:param name="request.gif"/>
+	</frl:set>
+
+	<frl:datasource id="db1"
+		DRIVER="{$request.dbdriver}"
+		URL="{$request.connectstr}"
+		LOGIN="{$request.dblogon}" PASSWORD="{$request.dbpassword}"/>
+
+	<!-- the cloudscape connection
+	<frl:datasource id="db1" DRIVER="COM.cloudscape.core.JDBCDriver"
+		URL="jdbc:cloudscape:d:\\cloudscape_system\\figis_1.0"/>
+	-->

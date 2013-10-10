@@ -1,0 +1,7 @@
+<!ELEMENT frl:report-def (frl:database*, frl:query*, frl:sections)>
+<!ATTLIST frl:report-def
+    xmlns:frl CDATA #FIXED "http://www.fao.org/frl"
+    xmlns:figis CDATA #FIXED "http://www.fao.org/figis"
+>
+<!ELEMENT frl:sections (frl:section+)
+>

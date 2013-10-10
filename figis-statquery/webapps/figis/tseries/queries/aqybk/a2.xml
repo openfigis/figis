@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Aquaculture" ShowUnits="0" ShowFlags="1">
+<Series>QUANTITY</Series>
+<Series>VALUE</Series>
+<SQKeyParams KeyName="SPECIES"  HierID="30004" Visible="1">
+  &ThreeNames;
+<Selection><ID>1801</ID><ID>1805</ID><ID>1802</ID></Selection>
+</SQKeyParams>
+<SQKeyParams KeyName="ENVIRONMENT" Visible="1">
+  &ThreeNames;
+</SQKeyParams>
+&YearBookYears;
+</SQParams>

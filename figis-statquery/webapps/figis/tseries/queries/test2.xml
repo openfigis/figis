@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SQParams 
+	DatasetName="Capture"
+	ShowUnits="1"
+	ShowFlags="0">
+
+<Year>1990</Year>
+<Year>1991</Year>
+<Year>1992</Year>
+<Year>1993</Year>
+<Year>1994</Year>
+<Year>1995</Year>
+<Year>1996</Year>
+<Year>1997</Year>
+<Year>1998</Year>
+<Year>1999</Year>
+<CalcCol>Seventies=Sum(1970,1971,1972,1973,1974,1975,1976,1977,1978,1979)</CalcCol>
+<CalcCol>Eighties=Sum(1980,1981,1982,1983,1984,1985,1986,1987,1988,1989)</CalcCol>
+<CalcCol>NinetyOne-test=Sum(1991)</CalcCol>
+
+<SQKeyParams 
+	KeyName="COUNTRY" 
+	HierID="0" 
+	Visible="1">
+
+</SQKeyParams>
+
+
+<SQKeyParams 
+	KeyName="SPECIES" 
+	HierID="0" 
+	Visible="1">
+<Selection>
+<ID>2001</ID><ID>2002</ID><ID>2003</ID><ID>2004</ID><ID>2005</ID>
+<ID>2006</ID><ID>2007</ID><ID>2008</ID><ID>2009</ID><ID>2010</ID>
+<ID>2011</ID><ID>2012</ID><ID>2013</ID><ID>2014</ID><ID>2015</ID>
+<ID>2016</ID><ID>2017</ID><ID>2018</ID><ID>2019</ID><ID>2020</ID>
+<ID>2021</ID><ID>2022</ID><ID>2023</ID><ID>2024</ID><ID>2025</ID>
+<ID>2026</ID><ID>2027</ID><ID>2028</ID><ID>2029</ID><ID>2030</ID>
+<ID>2031</ID><ID>2032</ID><ID>2033</ID><ID>2034</ID><ID>2035</ID>
+<ID>2036</ID><ID>2037</ID><ID>2038</ID><ID>2039</ID><ID>2040</ID>
+<ID>2041</ID><ID>2042</ID><ID>2043</ID><ID>2044</ID><ID>2045</ID>
+<ID>2046</ID><ID>2047</ID><ID>2048</ID><ID>2049</ID><ID>2040</ID>
+<ID>2051</ID><ID>2052</ID><ID>2053</ID><ID>2054</ID><ID>2055</ID>
+<ID>2056</ID><ID>2057</ID><ID>2058</ID><ID>2059</ID><ID>2050</ID>
+</Selection>
+</SQKeyParams>
+
+</SQParams>

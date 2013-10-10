@@ -1,0 +1,41 @@
+<!-- ELEMENTS -->
+
+<frl:define name="frl:element"		class = "org.fao.waicent.frl.FrlCreateElement"/>
+<frl:define name="frl:attribute" 	class = "org.fao.waicent.frl.FrlCreateAttribute"/>
+
+<frl:define name="frl:var" 	class = "org.fao.waicent.frl.FrlVariable" 	command = "var"/>
+<frl:define name="frl:var-add" 	class = "org.fao.waicent.frl.FrlVariable" 	command = "var-add"/>
+<frl:define name="frl:var-set" 	class = "org.fao.waicent.frl.FrlVariable" 	command = "var-set"/>
+<frl:define name="frl:var-test" class = "org.fao.waicent.frl.FrlVariable" 	command = "var-test"/>
+
+<frl:define name="frl:for-each" 	class = "org.fao.waicent.frl.FrlForEach" 	command = "for-each"/>
+<frl:define name="frl:iter"			class = "org.fao.waicent.frl.FrlForEach" 	command = "iter"/>
+<frl:define name="frl:iter-num" 	class = "org.fao.waicent.frl.FrlForEach"	command = "iter-num"/>
+
+<frl:define name="frl:paginate" 	class = "org.fao.waicent.frl.FrlPaginate"/>
+<frl:define name="frl:subset"		class = "org.fao.waicent.frl.FrlSubset"/>
+
+<frl:define name="frl:lookup"		class = "org.fao.waicent.frl.FrlLookup"/>
+<frl:define name="frl:getcol"		class = "org.fao.waicent.frl.FrlGetCol"/>
+
+<frl:define name="frl:dbtable"		class = "org.fao.waicent.frl.FrlDbTable"/>
+
+<frl:define name="frl:sort"			class = "org.fao.waicent.frl.FrlSort"/>
+<frl:define name="frl:getcell"		class = "org.fao.waicent.frl.FrlGetCell"/>
+
+<frl:define name="frl:extraction"	class = "org.fao.waicent.frl.FrlExtraction"/>
+<frl:define name="frl:text"			class = "org.fao.waicent.frl.FrlCreateText"/>
+
+<frl:define name="frl:message"		class = "org.fao.waicent.frl.FrlMessage"/>
+<frl:define name="frl:if"			class = "org.fao.waicent.frl.FrlIf"/>
+<frl:define name="frl:value"		class = "org.fao.waicent.frl.FrlValue"/>
+
+
+<!-- MACROS -->
+
+<frl:macro name="uppercase">
+<frl:call class = "frl.FrlCalc$Uppercase" method="process">
+	<frl:object idref="uppercase"/>
+	<frl:object type="org.w3c.dom.Node"><frl:contents/></frl:object>
+</frl:call>
+</frl:macro>

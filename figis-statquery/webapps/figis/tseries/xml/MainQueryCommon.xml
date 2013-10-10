@@ -1,0 +1,200 @@
+<frl:section default-space="strip">
+
+<!-- start of main processing -->
+
+	<figis:queryresult xmlns:figis="http://www.fao.org/figis">
+	<figis:name>&DSNAME;</figis:name>
+	<figis:description>Query results: &DSNAME;</figis:description>
+	<figis:csvlink><frl:param name="request.csvlink"/></figis:csvlink>
+
+<frl:for-each id="k" idref="request.valuecols">
+	<figis:graph>
+	<figis:graphvalue><frl:setref idref="request.valueheads"><frl:at><frl:iter-num idref="k"/></frl:at></frl:setref>
+	</figis:graphvalue>
+	<figis:graphxaxis>
+		<frl:for-each idref="request.years">
+			<figis:year><frl:iter/></figis:year>
+		</frl:for-each>
+	</figis:graphxaxis>
+
+	<figis:graphbody>
+	<frl:for-each id="m" idref="query_row">
+<frl:text default-space="preserve">
+</frl:text>
+		<figis:graphline>
+		<frl:for-each id="i" idref="request.keycols">
+			<figis:keyvalue>
+				<frl:iter idref="m"><frl:col>key<frl:iter-num idref="i"/></frl:col></frl:iter>
+			</figis:keyvalue>
+		</frl:for-each>
+		<frl:for-each id="j" idref="request.years">
+			<figis:value><frl:iter idref="m"><frl:col>value<frl:iter idref="j"/><frl:iter-num idref="k"/></frl:col></frl:iter></figis:value>
+		</frl:for-each>
+		</figis:graphline>
+	</frl:for-each>
+	</figis:graphbody>
+	</figis:graph>
+
+<!-- initialise the paragraph counter -->
+	<frl:var-set id="para">0</frl:var-set>
+<!-- initialise various totals counters -->
+	<frl:var-set id="vv">0</frl:var-set>
+	<frl:for-each idref="request.years">
+		<frl:var-set id="total[{$vv}]">0</frl:var-set>
+		<frl:var-set id="totalg[{$vv}]">0</frl:var-set>
+		<frl:var-set id="vk">0</frl:var-set>
+		<frl:for-each idref="request.keyheads">
+			<frl:var-set id="subtot[{$vk}][{$vv}]">0</frl:var-set>
+			<frl:var-set id="subtotg[{$vk}][{$vv}]">0</frl:var-set>
+			<frl:var-add id="vk">1</frl:var-add>
+		</frl:for-each>
+		<frl:var-add id="vv">1</frl:var-add>
+	</frl:for-each>
+	<frl:var-set id="vk">0</frl:var-set>
+	<frl:var-set id="keycount">0</frl:var-set>
+	<frl:for-each idref="request.keyheads">
+		<frl:var-set id="curval[{$vk}]" type="string">notset</frl:var-set>
+		<frl:var-set id="preval[{$vk}]" type="string">notset</frl:var-set>
+		<frl:var-set id="stcount[{$vk}]">0</frl:var-set>
+		<frl:var-set id="stgcount[{$vk}]">0</frl:var-set>
+		<frl:var-add id="vk">1</frl:var-add>
+		<frl:var-add id="keycount">1</frl:var-add>
+	</frl:for-each>
+
+	<figis:table>
+	<figis:graphlink><frl:setref idref="request.gifs"><frl:at><frl:iter-num idref="k"/></frl:at></frl:setref>
+	</figis:graphlink>
+	<figis:tablevalue><frl:setref idref="request.valueheads"><frl:at><frl:iter-num idref="k"/></frl:at></frl:setref>
+	</figis:tablevalue>
+
+<figis:tableheader>
+	<frl:for-each id="f" idref="request.keyheads">
+		<figis:keyhead><frl:iter/></figis:keyhead>
+	</frl:for-each>
+	<frl:for-each id="g" idref="request.years">
+		<figis:valuehead><frl:iter idref="g"/></figis:valuehead>
+	</frl:for-each>
+</figis:tableheader>
+
+<frl:for-each id="m" idref="query_row">
+	
+	<frl:var-set id="vk">0</frl:var-set>
+	<frl:var-set id="grplev">0</frl:var-set>
+	<frl:for-each id="i" idref="request.keycols">
+		<frl:var-set id="curval[{$vk}]" type="string">
+			<frl:iter idref="m">
+				<frl:col>key<frl:iter-num idref="i"/></frl:col>
+			</frl:iter>
+		</frl:var-set>
+		<frl:var-set id="group[{$vk}]" type="string">
+			<frl:iter idref="m">
+				<frl:col>grp<frl:iter-num idref="i"/></frl:col>
+			</frl:iter>
+		</frl:var-set>
+		<frl:var-test test="{$group[{$vk}]}.eq.G">
+			<frl:var-set id="grplev"><frl:var id="vk"/></frl:var-set>
+		</frl:var-test>
+		<frl:var-add id="vk">1</frl:var-add>
+	</frl:for-each>
+	
+	&SUB_TOTALS;
+
+	<frl:var-set id="vk">0</frl:var-set>
+	<frl:var-set id="vk2">0</frl:var-set>
+	<frl:for-each id="i" idref="request.keycols">
+		<frl:var-set id="preval[{$vk}]" type="string">
+			<frl:var id="curval[{$vk}]"/>
+		</frl:var-set>
+		<frl:var-test test="{$vk2}.ge.0">
+			<frl:var-test test="{$vk}.ge.{$grplev}">
+				<frl:var-add id="stcount[{$vk2}]">1</frl:var-add>
+			</frl:var-test>
+			<frl:var-test test="{$vk}.lt.{$grplev}">
+				<frl:var-add id="stgcount[{$vk2}]">1</frl:var-add>
+			</frl:var-test>
+		</frl:var-test>
+<!--
+		Key[<frl:var id="vk"/>]:<frl:var id="curval[{$vk}]"/>
+			stcount=<frl:var id="stcount[{$vk}]"/>
+			stgcount=<frl:var id="stgcount[{$vk}]"/>
+-->
+		<frl:var-add id="vk">1</frl:var-add>
+		<frl:var-add id="vk2">1</frl:var-add>
+	</frl:for-each>
+	
+<frl:text default-space="preserve">
+</frl:text>
+<figis:tablerow>
+
+	<frl:var-set id="tab"><frl:iter-num idref="k"/></frl:var-set>
+	<frl:var-set id="vk">0</frl:var-set>
+	<frl:var-set id="level"><frl:var id="keycount"/></frl:var-set>
+	<frl:for-each id="i" idref="request.keycols">
+		<frl:var-add id="level">-1</frl:var-add>
+<frl:text default-space="preserve">
+</frl:text>
+<frl:element name="figiskeyvalue">
+	<frl:attribute name="WIDTH">1</frl:attribute>
+	<frl:attribute name="TABLENO">
+		<frl:var id="tab"/><frl:var id="para"/>
+	</frl:attribute>
+	<frl:attribute name="LEVEL">
+		<frl:var id="level"/>
+	</frl:attribute>
+	<frl:attribute name="GROUP">
+		<frl:iter idref="m">
+			<frl:col>grp<frl:iter-num idref="i"/></frl:col>
+		</frl:iter>
+	</frl:attribute>
+	<frl:var id="curval[{$vk}]"/>
+</frl:element>
+		<frl:var-add id="vk">1</frl:var-add>
+	</frl:for-each>
+
+	<frl:var-set id="vv">0</frl:var-set>
+	<frl:for-each id="j" idref="request.years">
+		<frl:var-set id="value">
+			<frl:iter idref="m">
+				<frl:col>value<frl:iter idref="j"/><frl:iter-num idref="k"/></frl:col>
+			</frl:iter>
+		</frl:var-set>
+<frl:text default-space="preserve">
+</frl:text>
+		<frl:element name="figisvalue">
+			<frl:attribute name="SYMB">
+				<frl:iter idref="m"><frl:col>symbol<frl:iter idref="j"/><frl:iter-num idref="k"/></frl:col></frl:iter>
+			</frl:attribute>
+			<frl:var id="value"/>
+		</frl:element>
+		<frl:var-set id="vk">0</frl:var-set>
+		<frl:var-set id="vk2">0</frl:var-set>
+		<frl:for-each idref="request.keycols">
+			<frl:var-test test="{$vk2}.ge.0">
+				<frl:var-test test="{$vk}.ge.{$grplev}">
+					<frl:var-add id="subtot[{$vk2}][{$vv}]"><frl:var id="value"/></frl:var-add>
+				</frl:var-test>
+				<frl:var-test test="{$vk}.lt.{$grplev}">
+					<frl:var-add id="subtotg[{$vk2}][{$vv}]"><frl:var id="value"/></frl:var-add>
+				</frl:var-test>
+			</frl:var-test>
+			<frl:var-add id="vk">1</frl:var-add>
+			<frl:var-add id="vk2">1</frl:var-add>
+		</frl:for-each> <!-- request.keycols -->
+		<frl:var-add id="total[{$vv}]"><frl:var id="value"/></frl:var-add>
+		<frl:var-add id="vv">1</frl:var-add>
+	</frl:for-each> <!-- request.years -->
+</figis:tablerow>
+			</frl:for-each> <!-- query_row -->
+	
+	<frl:var-set id="vk">0</frl:var-set>
+	<frl:for-each id="i" idref="request.keycols">
+		<frl:var-set id="curval[{$vk}]" type="string">finish</frl:var-set>
+		<frl:var-add id="vk">1</frl:var-add>
+	</frl:for-each>
+	
+	&SUB_TOTALS;
+
+		</figis:table>
+</frl:for-each>
+	</figis:queryresult>
+</frl:section>

@@ -1,0 +1,138 @@
+<!-- check whether any sub-total lines are required -->
+<!-- and output them if so -->
+	<frl:var-set id="vk"><frl:var id="keycount"/></frl:var-set>
+	<frl:var-add id="vk">-1</frl:var-add>
+
+<!-- first check for any changes - and record the key level of the change -->
+	<frl:var-set id="x">0</frl:var-set>
+	<frl:var-set id="keychange">-1</frl:var-set>
+	<frl:for-each idref="request.keycols">
+		<frl:var-test test="{$x}.lt.{$vk}">
+		<frl:var-test test="{$keychange}.eq.-1">
+			<frl:var-test test="{$preval[{$x}]}.ne.notset">
+				<frl:var-test test="{$preval[{$x}]}.ne.{$curval[{$x}]}">
+					<frl:var-set id="keychange"><frl:var id="x"/></frl:var-set>
+				</frl:var-test>
+			</frl:var-test>
+		</frl:var-test>
+		</frl:var-test>
+		<frl:var-add id="x">1</frl:var-add>
+	</frl:for-each>
+
+<!-- if something did change check all key totals between the change level and the lowest -->
+	<frl:var-test test="{$keychange}.ne.-1">
+		<frl:var-set id="lowesttotkey"><frl:var id="vk"/></frl:var-set>
+		<frl:for-each idref="request.keycols">
+			<frl:var-test test="{$vk}.lt.{$lowesttotkey}">
+				<frl:var-test test="{$vk}.ge.{$keychange}">
+					<frl:var-test test="{$stcount[{$vk}]}.gt.1">
+						<frl:var-add id="para">1</frl:var-add>
+<!-- create sub-total row... -->
+						<frl:var-set id="temp"><frl:var id="keycount"/></frl:var-set>
+						<frl:var-add id="temp">-<frl:var id="vk"/></frl:var-add>
+						<frl:element name="figis:tablerow">
+							<frl:attribute name="LEVEL">
+								<frl:var id="vk"/>
+							</frl:attribute>
+							<frl:attribute name="TABLENO">
+								<frl:var id="tab"/><frl:var id="para"/>
+							</frl:attribute>
+<!-- ...total key values... -->
+							<frl:var-set id="vk2">0</frl:var-set>
+							<frl:for-each id="i2" idref="request.keycols">
+								<frl:var-test test="{$vk2}.le.{$vk}">
+<frl:text default-space="preserve">
+</frl:text>
+									<frl:element name="figiskeyvalue">
+										<frl:attribute name="WIDTH">
+											<frl:var-test test="{$vk2}.eq.{$vk}">
+												<frl:var id="temp"/>
+											</frl:var-test>
+											<frl:var-test test="{$vk2}.ne.{$vk}">
+												<frl:text>1</frl:text>
+											</frl:var-test>
+										</frl:attribute>
+										<frl:var id="preval[{$vk2}]"/>
+									</frl:element>
+								</frl:var-test>
+								<frl:var-add id="vk2">1</frl:var-add>
+							</frl:for-each>
+
+<!-- ...total values -->
+							<frl:var-set id="vv2">0</frl:var-set>
+							<frl:for-each id="i2" idref="request.years">
+								<frl:element name="figisvalue">
+									<frl:attribute name="SYMB">
+										<frl:text default-space="nostrip"> </frl:text>
+									</frl:attribute>
+									<frl:var id="subtot[{$vk}][{$vv2}]"/>
+								</frl:element>
+								<frl:var-set id="subtot[{$vk}][{$vv2}]">0</frl:var-set>
+								<frl:var-add id="vv2">1</frl:var-add>
+							</frl:for-each>
+						</frl:element>
+					</frl:var-test>
+<!-- if no detail records in the sub-level, but there was more than one group -->
+<!-- print the group totals instead of the detail ones -->
+					<frl:var-test test="{$stcount[{$vk}]}.eq.0">
+						<frl:var-test test="{$stgcount[{$vk}]}.gt.1">
+							<frl:var-add id="para">1</frl:var-add>
+	<!-- create sub-total row... -->
+							<frl:var-set id="temp"><frl:var id="keycount"/></frl:var-set>
+							<frl:var-add id="temp">-<frl:var id="vk"/></frl:var-add>
+							<frl:element name="figis:tablerow">
+								<frl:attribute name="LEVEL">
+									<frl:var id="vk"/>
+								</frl:attribute>
+								<frl:attribute name="TABLENO">
+									<frl:var id="tab"/><frl:var id="para"/>
+								</frl:attribute>
+
+	<!-- ...total key values... -->
+								<frl:var-set id="vk2">0</frl:var-set>
+								<frl:for-each id="i2" idref="request.keycols">
+									<frl:var-test test="{$vk2}.le.{$vk}">
+										<frl:element name="figiskeyvalue">
+											<frl:attribute name="WIDTH">
+												<frl:var-test test="{$vk2}.eq.{$vk}">
+													<frl:var id="temp"/>
+												</frl:var-test>
+												<frl:var-test test="{$vk2}.ne.{$vk}">
+													<frl:text>1</frl:text>
+												</frl:var-test>
+											</frl:attribute>
+											<frl:var id="preval[{$vk2}]"/>
+										</frl:element>
+									</frl:var-test>
+									<frl:var-add id="vk2">1</frl:var-add>
+								</frl:for-each>
+
+	<!-- ...total values -->
+								<frl:var-set id="vv2">0</frl:var-set>
+								<frl:for-each id="i2" idref="request.years">
+									<frl:element name="figisvalue">
+										<frl:attribute name="SYMB">
+											<frl:text default-space="nostrip"> </frl:text>
+										</frl:attribute>
+										<frl:var id="subtotg[{$vk}][{$vv2}]"/>
+									</frl:element>
+									<frl:var-set id="subtotg[{$vk}][{$vv2}]">0</frl:var-set>
+									<frl:var-add id="vv2">1</frl:var-add>
+								</frl:for-each>
+							</frl:element>
+						</frl:var-test>
+					</frl:var-test>
+<!-- zero the sub-totals -->
+					<frl:var-set id="stcount[{$vk}]">0</frl:var-set>
+					<frl:var-set id="stgcount[{$vk}]">0</frl:var-set>
+					<frl:var-set id="vv2">0</frl:var-set>
+					<frl:for-each id="i2" idref="request.years">
+						<frl:var-set id="subtot[{$vk}][{$vv2}]">0</frl:var-set>
+						<frl:var-set id="subtotg[{$vk}][{$vv2}]">0</frl:var-set>
+						<frl:var-add id="vv2">1</frl:var-add>
+					</frl:for-each>
+				</frl:var-test>
+			</frl:var-test>
+			<frl:var-add id="vk">-1</frl:var-add>
+		</frl:for-each>
+	</frl:var-test>

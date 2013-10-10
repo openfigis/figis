@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE SQParams PUBLIC "Z:/Current/TimeSer/SQParams.dtd"
+	"http://figis01/DTD/Current/TimeSer/SQParams.dtd">
+<SQParams DatasetName="Capture" ShowUnits="1" ShowFlags="1">
+	<Series>QUANTITY</Series>
+	
+
+	<SQKeyParams KeyName="COUNTRY" MetaID="13001" HierID="0" Visible="1">
+		<DisplayAttr>1:en</DisplayAttr> 
+		<DisplayAttr>1:fr</DisplayAttr> 
+		<DisplayAttr>1:es</DisplayAttr> 
+		<DisplayAttr>23</DisplayAttr> 
+
+	</SQKeyParams>
+			
+	<SQKeyParams KeyName="SPECIES" HierID="30002" Visible="1">
+		<DisplayAttr>12</DisplayAttr> 
+		<DisplayAttr>1:en</DisplayAttr> 
+		<DisplayAttr>1:fr</DisplayAttr> 
+		<DisplayAttr>1:es</DisplayAttr> 
+		<DisplayAttr>13</DisplayAttr> 
+		<DisplayAttr>11</DisplayAttr> 
+		
+		<Selection>
+			<ID>1401</ID>	
+			<ID>1402</ID>	
+			<ID>1403</ID>	
+			<ID>1404</ID>	
+			<ID>1405</ID>	
+			<ID>1406</ID>	
+			<ID>1407</ID>	
+			<ID>1408</ID>	
+			<ID>1409</ID>	
+			<ID>1410</ID>	
+			<ID>1411</ID>	
+			<ID>1412</ID>	
+			<ID>1413</ID>	
+			<ID>1414</ID>	
+			<ID>1415</ID>	
+			<ID>1416</ID>	
+			<ID>1417</ID>	
+			<ID>1418</ID>	
+			<ID>1419</ID>	
+			<ID>1420</ID>	
+			<ID>1421</ID>	
+			<ID>1422</ID>	
+			<ID>1423</ID>	
+			<ID>1424</ID>	
+			<ID>1425</ID>	
+			<ID>1426</ID>	
+			<ID>1427</ID>	
+			<ID>1428</ID>	
+			<ID>1429</ID>	
+			<ID>1430</ID>	
+			<ID>1431</ID>	
+			<ID>1432</ID>	
+			<ID>1437</ID>	
+			<ID>1438</ID>	
+			<ID>1440</ID>	
+			<ID>1441</ID>	
+			<ID>1442</ID>	
+			<ID>1443</ID>	
+		</Selection>
+	</SQKeyParams>
+
+	<SQKeyParams KeyName="SPECIES" MetaID="0" HierID="0" Visible="1">
+		<DisplayAttr>12</DisplayAttr> 
+		<DisplayAttr>1:en</DisplayAttr> 
+		<DisplayAttr>1:fr</DisplayAttr> 
+		<DisplayAttr>1:es</DisplayAttr> 
+		<DisplayAttr>13</DisplayAttr> 
+		<DisplayAttr>11</DisplayAttr> 
+	</SQKeyParams>
+
+	<SQKeyParams KeyName="OCEAN_AREA" MetaID="22010" HierID="0" Visible="1">
+		 <DisplayAttr>21</DisplayAttr> 
+		 <DisplayAttr>1:en</DisplayAttr>
+		<DisplayAttr>1:fr</DisplayAttr>
+		<DisplayAttr>1:es</DisplayAttr>
+	</SQKeyParams>
+
+
+</SQParams>

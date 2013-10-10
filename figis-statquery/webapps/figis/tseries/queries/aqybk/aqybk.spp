@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XML Files" ExtStr="xml;cml;math;mtx;rdf;smil;svg;wml">
+		<File FilePath="A1.xml" HomeFolder="Yes"/>
+		<File FilePath="a2.xml" HomeFolder="Yes"/>
+		<File FilePath="a3.xml" HomeFolder="Yes"/>
+		<File FilePath="a4.xml" HomeFolder="Yes"/>
+		<File FilePath="a5.xml" HomeFolder="Yes"/>
+		<File FilePath="a6.xml" HomeFolder="Yes"/>
+		<File FilePath="b11.xml" HomeFolder="Yes"/>
+		<File FilePath="b12.xml" HomeFolder="Yes"/>
+		<File FilePath="b13.xml" HomeFolder="Yes"/>
+		<File FilePath="b21.xml" HomeFolder="Yes"/>
+		<File FilePath="b22.xml" HomeFolder="Yes"/>
+		<File FilePath="b23.xml" HomeFolder="Yes"/>
+		<File FilePath="b24.xml" HomeFolder="Yes"/>
+		<File FilePath="b25.xml" HomeFolder="Yes"/>
+		<File FilePath="b31.xml" HomeFolder="Yes"/>
+		<File FilePath="b32.xml" HomeFolder="Yes"/>
+		<File FilePath="b33.xml" HomeFolder="Yes"/>
+		<File FilePath="b34.xml" HomeFolder="Yes"/>
+		<File FilePath="b36.xml" HomeFolder="Yes"/>
+		<File FilePath="b39.xml" HomeFolder="Yes"/>
+		<File FilePath="b41.xml" HomeFolder="Yes"/>
+		<File FilePath="b42.xml" HomeFolder="Yes"/>
+		<File FilePath="b43.xml" HomeFolder="Yes"/>
+		<File FilePath="b45.xml" HomeFolder="Yes"/>
+		<File FilePath="b47.xml" HomeFolder="Yes"/>
+		<File FilePath="b51.xml" HomeFolder="Yes"/>
+		<File FilePath="b52.xml" HomeFolder="Yes"/>
+		<File FilePath="b53.xml" HomeFolder="Yes"/>
+		<File FilePath="b54.xml" HomeFolder="Yes"/>
+		<File FilePath="b55.xml" HomeFolder="Yes"/>
+		<File FilePath="b56.xml" HomeFolder="Yes"/>
+		<File FilePath="b57.xml" HomeFolder="Yes"/>
+		<File FilePath="b58.xml" HomeFolder="Yes"/>
+		<File FilePath="b71.xml" HomeFolder="Yes"/>
+		<File FilePath="b72.xml" HomeFolder="Yes"/>
+		<File FilePath="b74.xml" HomeFolder="Yes"/>
+		<File FilePath="b76.xml" HomeFolder="Yes"/>
+		<File FilePath="b77.xml" HomeFolder="Yes"/>
+		<File FilePath="b91.xml" HomeFolder="Yes"/>
+		<File FilePath="b92.xml" HomeFolder="Yes"/>
+		<File FilePath="b93.xml" HomeFolder="Yes"/>
+		<File FilePath="b94.xml" HomeFolder="Yes"/>
+		<File FilePath="c1.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XSL Files" ExtStr="xsl;xslt">
+		<File FilePath="a1.xsl" HomeFolder="Yes"/>
+		<File FilePath="a2.xsl" HomeFolder="Yes"/>
+		<File FilePath="a3.xsl" HomeFolder="Yes"/>
+		<File FilePath="a4.xsl" HomeFolder="Yes"/>
+		<File FilePath="a5.xsl" HomeFolder="Yes"/>
+		<File FilePath="a6.xsl" HomeFolder="Yes"/>
+		<File FilePath="aq_total_other.xsl" HomeFolder="Yes"/>
+		<File FilePath="aqybk_lib.xsl" HomeFolder="Yes"/>
+		<File FilePath="b11.xsl" HomeFolder="Yes"/>
+		<File FilePath="c1.xsl" HomeFolder="Yes"/>
+		<File FilePath="TableTitles.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp"/>
+	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
+		<File FilePath="Z:\Current\TimeSer\SQParams.dtd" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="Entities" ExtStr="ent">
+		<File FilePath="Z:\Current\TimeSer\ThreeNames.ent" HomeFolder="Yes"/>
+		<File FilePath="Z:\Current\TimeSer\YearBookYears.ent" HomeFolder="Yes"/>
+	</Folder>
+</Project>
