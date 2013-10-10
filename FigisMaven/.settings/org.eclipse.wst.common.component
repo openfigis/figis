@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Figis">
+        <wb-resource deploy-path="/" source-path="/RefGUI"/>
+        <wb-resource deploy-path="/" source-path="/FigisFactsheets"/>
+        <wb-resource deploy-path="/" source-path="/FigisUtil"/>
+        <wb-resource deploy-path="/" source-path="/RefService"/>
+        <wb-resource deploy-path="/" source-path="/ResourceBundle"/>
+        <wb-resource deploy-path="/" source-path="/RefSelector"/>
+        <wb-resource deploy-path="/" source-path="/StatQuery"/>
+        <wb-resource deploy-path="/" source-path="/FiNavigation"/>
+        <wb-resource deploy-path="/" source-path="/FigisSelector"/>
+    </wb-module>
+</project-modules>
