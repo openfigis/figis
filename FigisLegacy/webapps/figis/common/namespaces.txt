@@ -1,0 +1,11 @@
+# dont put either the xmlns: prefix or the quotes in here
+# 'cause it confuses the Java something chronic - it will add both
+ags=http://www.purl.org/agmes/1.1/
+agls=http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1
+aida=http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd
+dc=http://purl.org/dc/elements/1.1/
+dcterms=http://purl.org/dc/terms/
+rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns/
+fi=http://www.fao.org/fi/figis/devcon/
+fint=http://www.fao.org/fi/figis/internal/
+xsi=http://www.w3.org/2001/XMLSchema-instance
