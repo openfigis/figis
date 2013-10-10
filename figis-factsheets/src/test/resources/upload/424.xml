@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:exsl="http://exslt.org/common" xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:string="http://xml.apache.org/xalan/java/java.lang.String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/topic_v2.xsd">
+	<fi:DataEntry>
+		<fi:Editor>Tina Farmer</fi:Editor>
+		<dcterms:Created>2003-01-02</dcterms:Created>
+		<dcterms:Modified>2006-09-15</dcterms:Modified>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID>1003</fi:FigisID>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID>12</fi:FigisID>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Created>2001-10-31</dcterms:Created>
+			<dc:Description>
+				<dcterms:Abstract>
+		Information on the use of fish as food for humans or animal feed
+	 </dcterms:Abstract>
+			</dc:Description>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic>
+		<fi:TopicIdent Type="Topic">
+			<fi:FigisID>424</fi:FigisID>
+			<dc:Title>Fish and seafood utilization</dc:Title>
+		</fi:TopicIdent>
+		<fi:Overview>
+			<fi:Text><![CDATA[<p><span style="color: #666666; font-family: Verdana"><span style="font-size: x-small; color: black; font-family: Verdana">The most common use for fisheries resources is food. Fisheries resources are now producing a record quantity of food and other benefits for humanity. The proportion of global fish production used for direct human consumption is now over 77 percent -- a significant rise of the last decades, with consumption of fresh fish outstripping other fish products such as canned fish. </span></span></p>
+<p><span style="color: #666666; font-family: Verdana"><span style="font-size: x-small; color: black; font-family: Verdana"> <!--StartFragment--><span style="font-size: 9.0pt; font-family: Verdana; color: black; mso-ansi-language: EN-GB; mso-fareast-language: JA;" lang="EN-GB">Fish landed not used for direct human consumption is reduced to fishmeal and oil. The proportion of world capture production reduced to fish meal has doubled since 1950 and oscillates around 30-35 million tonnes. Fishmeal was historically used as feed, mainly for pigs and chickens. During the last decade a growing part of the production has been used for raising carnivorous aquatic species (such as salmon, shrimp, sea bass, sea bream, etc.)_representing less than 10% of world aquaculture production.&nbsp;</span></span></span></p>
+<p><span style="color: #666666; font-family: Verdana"><span style="font-size: x-small; color: black; font-family: Verdana">Fish represents a valuable source of proteins and nutrients in the diet of many countries and its importance in contributing&nbsp;to food security is rising significantly. The total food supply available from fisheries in live weight terms is estimated to be slightly higher than&nbsp;16 kilos per year for each of the world's inhabitants. This figure has more than doubled since 1950 (at about 7 kilos per capita)&nbsp;as production has&nbsp;kept pace with population growth. These figures need to be viewed with some caution as they do not represent individual consumption, which can only accurately be assessed in countries where food consumption surveys have been carried out. <br /><br />Post-harvest handling, processing and transportation of fish require particular care&nbsp;in order to ensure proper quality and safety. Retaining the nutritional value of the fish, preserving the benefits of its rich composition and avoiding costly and debilitating effects of fish-borne illnesses are vital. </span></span></p>]]></fi:Text>
+		</fi:Overview>
+		<fi:RelatedResources>
+			<fi:TopicRef>
+				<fi:FigisID>12321</fi:FigisID>
+			</fi:TopicRef>
+			<fi:TopicRef>
+				<fi:FigisID>12327</fi:FigisID>
+			</fi:TopicRef>
+			<fi:TopicRef>
+				<fi:FigisID>12319</fi:FigisID>
+			</fi:TopicRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="208015" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="239193" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="128706" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="60012" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="45366" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="58103" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+		</fi:RelatedResources>
+	</fi:Topic>
+</fi:FIGISDoc>

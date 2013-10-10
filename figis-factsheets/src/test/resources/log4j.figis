@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+  <appender name="Scanner" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value="keyword-scan.log"/>
+    <param name="MaxFileSize" value="1MB"/>
+    <param name="MaxBackupIndex" value="2"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%c]: %m%n"/>
+    </layout>
+  </appender>
+  <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%m%n"/>
+    </layout>
+  </appender>
+  <logger name="org.fao.fi.figis.fs.common.data.FiKeywordScanner">
+    <level value="DEBUG"/>
+    <appender-ref ref="Scanner"/>
+    <appender-ref ref="Console"/>
+  </logger>
+  <logger name="org.fao.fi.figis">
+    <level value="INFO"/>
+    <appender-ref ref="Scanner"/>
+  </logger>
+  <logger name="org.hibernate">
+    <level value="INFO"/>
+    <appender-ref ref="Scanner"/>
+  </logger>
+  <logger name="net.sf.ehcache">
+    <level value="INFO"/>
+    <appender-ref ref="Scanner"/>
+  </logger>
+</log4j:configuration>

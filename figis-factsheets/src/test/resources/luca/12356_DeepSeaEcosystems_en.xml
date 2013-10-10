@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/topic_v2.xsd">
+	<fi:DataEntry>
+		<fi:Editor>Luca Limongelli</fi:Editor>
+		<dcterms:Created>2012-06-21</dcterms:Created>
+		<dcterms:Modified>2012-06-21</dcterms:Modified>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID MetaID="263000">2280</fi:FigisID><!--1002 -->
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID MetaID="280000">1</fi:FigisID> <!-- 13-->
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Modified>2012-06-21</dcterms:Modified>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic>
+		<fi:TopicIdent Type="Gateway">
+			<fi:FigisID>12356</fi:FigisID>
+			<dc:Title>Deep-sea ecosystems</dc:Title>
+		</fi:TopicIdent>
+		<fi:Overview>
+			<fi:Text><![CDATA[
+		<ul>
+<li><span style="color: #008080;"><a href="#environment">The deep-sea environment</a></span></li>
+<li><span style="color: #008080;"><a href="#species">Deep-sea species</a></span></li>
+<li><span style="color: #008080;"><a href="#resources">Deep-sea resources</a></span></li>
+</ul>]]></fi:Text><fi:Text><![CDATA[<p><a name="environment">&nbsp;</a></p>]]></fi:Text>
+			<fi:Text Title="The deep-sea habitat"><![CDATA[
+<p> The deep-sea is the largest habitat on earth. The area over 4 000m in depth covers 53% of the sea&#39;s surface, which in turn covers 71% of the world&#39;s surface! The continental slopes alone occupy 8.8% of the world&#39;s surface, compared to 7.5% for the continental shelf and shallow seas. It is a predominately dark and cold environment with much lower productivity than shallower ones. </p> <p> The &quot;deep-sea&quot; water mass can be subdivided into four depth zones: </p> <ul> <li>mesopelagic (150-1 000m); </li> <li>bathypelagic (1 000-3 000m); </li> <li>abyssopelagic (3 000-6 000m); and </li> <li>hadal zone, below 6 000m depth, in the deep ocean trenches. </li> </ul> <p> From a demersal, or seafloor perspective, the deep-sea region consists of the continental slopes (starting at the shelf break and corresponding to the mesopelagic and bathypelagic zones) the continental rise which extends down to the abyssal plane at around 6000m, and the trenches. The seamounts stand out of the abyssal plain. </p> <p> No light penetrates beyond 1 000m and even at depths of 150m light levels are reduced to one percent of those at the surface, insufficient to support photosynthesis. Thus, organic material must be convected into the deep waters, which occurs in various ways. Dead phytoplankton and nekton sinks, and though much is consumed as it settles, sufficient amounts enter the deepwater to sustain much of the biomass there. </p> <p> Many species undergo extensive diel vertical migration, feeding in the surface waters and moving down during the day, reducing predation. In this way, surface production is cascaded through progressively deeper layers. Of relatively minor productive importance is organic material from large carcasses sinking to the seafloor, e.g. dead whales, and sulpha-based organic production associated with deep-sea seafloor hot-water vents. Nevertheless, the concentration of organic material decreases exponentially with depth. </p> <p> In contrast to former views, it is now known that seasonal effects in surface layers are transferred into even deeper ocean regions so that, despite the physical uniformity of the deep oceans, an annual production signal exists resulting in seasonal migrations and reproductive cycles in deep-sea fauna. </p>
+	]]></fi:Text><fi:Text><![CDATA[<p><a name="species">&nbsp;</a></p>]]></fi:Text>
+			<fi:Text Title="Deep-sea species"><![CDATA[
+<p> Deepwater fishes comprise three major groups: pelagic fish living largely in midwater, with no dependence on the bottom; demersal fish, living close to and depending on the bottom; and benthopelagic fish, living close to the bottom but undertaking short migrations in the watermass (e.g. for feeding). In general, the deep-sea demersal fishes come from phylogenetically much older groups than the pelagic species (the first existing demersal species were present around 80 million years ago). While most of the demersal deep-sea families are found worldwide, the existence of isolated deepwater basins bounded by the continents and mid-oceanic ridges has resulted in regional differences believed to be a consequence of continental drift and subsequent ocean formation. </p> <p> Much remains unknown about deepwater fishes and new discoveries continue, such as the megamouth shark (a 4.5m and 750kg shark) and the six-gilled ray, which both represent new families. Since the demersal species are distributed according to depth, those inhabiting the continental slope and rise are spread along ribbon-like depth regions along the perimeters of the oceans. Where deepwater pelagic species and demersal species co-occur, they usually prey on each other. </p> <h3> Life history characteristics and productivity </h3> <p> Just as for epipelagic fishes, deepwater species must successfully spawn, grow and return to the area of the adult habitat. The extreme conditions of the deep-sea are reflected in the variety of reproductive strategies that exist. Low population sizes notwithstanding, hermaphroditism, extreme sexual dimorphism and unbalanced sex ratios occur. <em>Sebastes</em> spp., certain ophidioids, as well as deepwater sharks can be live bearers and the pseudotriakid, <em>Pseudotrakis microdon</em>, is oviphagous. </p> <p> Despite the fewer number of species in the deep-seas, those that occur display a variety of reproductive methods ranging from strongly <em>K</em>-selected species, which may be semelparous (e.g. <span class="normalBold"> <em>Coryphaenoides armatus</em>, a widely occurring macrourid) through ovoviviparous and oviparous species, to those that are strongly <em>r</em>-selected. And, in the perpetual darkness of the abyss, many species depend on photophores and sound production for intra-species recognition required for successful reproduction. </p> <p> Many deepwater species grow slowly, so slowly in fact that determination of their actual age remains difficult and contentious. For some species, particularly <strong>orange roughy</strong> (<em>Hoplostethus atlanticus</em>), no convincing case has yet emerged for any particular ageing technique based on interpretation of otolith microstructure. Depending on the assumptions made, this species may have longevity ranging from 21 to more than one hundred years. Because of these biological characteristics, most deep-sea species are very fragile with reduced resilience to intensive fishing. </p>
+<p><a href="/figis/geoserver/factsheets/species.html?species=REN-m,REB-m,REG-m,ORY-m,OPP-m,TOP-m&amp;extent=-235.556843,-88.283638,49.208782,105.075737&zoom=0&amp;prj=4326" target="_blank">Distribution maps of deep-sea species</a> extracted from the <a href="/fishery/collection/fish_dist_map">Compilation of Aquatic Species Distribution Maps of Interest to Fisheries</a></p>
+ ]]></fi:Text>
+			<fi:Text Title="Deep-sea fisheries"><![CDATA[
+<p> Until most recently, the great depth of the deep-sea has made it difficult to exploit and the existence of relatively more abundant resources in shallower seas have meant that little incentive existed to fish in such difficult-to-exploit regions. Few deepwater fisheries are of long standing and those that are - the Portuguese (Madeira) line fishery for black scabbardfish (<em>Aphanopus carbo</em>), the Pacific Island fisheries for snake mackerels (Gempylidae) and cutlass fish (Trichiuridae) or the west African fisheries for deep-sea sharks (for extraction of scalene) - were initially artisanal. </p> <p> With the reduction of opportunities for development of inshore fisheries and the improvement of gear technology and navigation instruments, deep-sea fishing has expanded in the 1990s. A well-known example of recently developed deepwater fisheries is that of the orange roughy, a species that inhabits the slope waters and those of seamounts (as well as the seafloor), particularly around New Zealand and Southeast Australia where this commercial fishery initially began. The fishery later spread to the Walvis Ridge in the Southeast Atlantic (Namibia) and the Southwest Indian Ocean. A small fishery even exists in the Bay of Biscay. This long-living fish reaches about 40cm and 2kg in size though the maximum size varies with region. Specially-aimed trawling techniques were developed after initial massive catches from spawning aggregations were taken in a matter of minutes resulting in split codends. </p> <p> Orange roughy is particularly sensitive to approaching objects (perhaps an adaptation to avoid predation) so that acoustic assessment using towed bodies containing the transducer have proved futile in some areas. Maximum sustainable levels of exploitation of orange roughy may be as low as 5-10% of unfished biomass, corresponding to natural mortalities (M) of about 0.04 per year. Accumulating evidence about stock declines indicates that none of these fisheries are being exploited sustainably and ongoing yields will likely be around 5% of those initially obtained. </p> <p> A Trichiurid fishery, which exploits <em>Aphanopus carbo</em> in the Atlantic, is a rare example of a deepwater fishery that, because it has traditionally used hook and line gear, has proved sustainable over a period of about 150 years. Adults of this species are benthopelagic living in the deep range 400-1 600m. The species ranges from Greenland to the Canary Islands and on both sides of the mid-Atlantic ridge. Unusual for a deepwater species, <em>A. carbo</em> grows rapidly and has longevity of around 8 years. However, as with orange roughy, the usual ominous signs are now evident for this fishery. Catch rose from 1 100 tonnes in 1980 to 3 000 tonnes in 1992, gear efficiency has improved through the introduction of monofilament lines and in a large increase in the number of hooks per line set, now at 4 000-5 000 per line. </p> <p> The Macroudidae are another group whose members are widespread and, in particular locations, abundant. They are typical pelagic &#39;cruisers&#39; and inhabit the mid-to-upper region of the continental slope. In the North Atlantic, fisheries exist for <em>Macrourus berglax</em> and <em>Coryphaenoides rupestris</em> using bottom trawls initially fishing in depths of 600-800m, and more recently extending down to 1 500m depth. However, experience in these fisheries off Newfoundland shows the all-too-familiar pattern of total allowable catches tracking declining trends in reported landings of this group. <em>Coryphaenoides rupestris</em> have a potential longevity of 70 years, although in the NE Atlantic fish ages are usually in the 20-30 year range. Thus, as for other deepwater species, Macrourids exhibit the characteristics of many deepwater fisheries that render them susceptible to overfishing. </p> <p> The Pleuronectidae are a highly-evolved group that are not usually associated with deepwater fisheries, but important fisheries for members of this group occur in both the North Atlantic and North Pacific Oceans. In the Atlantic, the best known has been that for <strong>Greenland Halibut</strong> (<em>Reinhardtius hippoglossoides</em>) on the continental slope depths. This fish had an average size of around 1kg up until the mid-1980s, but has since declined to around 200g in the early 1990s. </p>
+
+
+			]]></fi:Text>
+		</fi:Overview>
+		<fi:TopicImages>
+			<fi:Image IID="2160" Source="FAO/Fisheries &amp; Aquaculture Department" Src="img/121_smokers.jpg" Title="The diagram shows the ocean's regions" Use="Small">
+				<fi:Image IID="2161" Src="img/121.smokers.jpg" Title="" Use="Extra"/>
+			</fi:Image>
+			<fi:Image IID="2162" Source="FAO/Fisheries &amp; Aquaculture Department" Src="img/888Coryphaenoides_armatussm.gif" Title="The grenadier (Coryphaenoides armatus) has a wide distribution. Along with the species C. yaquinaen, it has an estimated global biomass of 15 million tonnes" Use="Small">
+				<fi:Image IID="2163" Src="img/888Coryphaenoides_armatus.gif" Title="" Use="Extra"/>
+			</fi:Image>
+			<fi:Image IID="2164" Source="FAO/Fisheries &amp; Aquaculture Department" Src="img/888Hoplostethus_atlanticusm.gif" Title="Orange roughy  (Hoplostethus atlanticus) is a recently-developed fishery" Use="Small">
+				<fi:Image IID="2165" Src="img/888Hoplostethus_atlanticus.gif" Title="" Use="Extra"/>
+			</fi:Image>
+			<fi:Image IID="2166" Source="FAO/Fisheries &amp; Aquaculture Department" Src="img/888Reinhardtius_hippoglosm.jpg" Title="The Greenland halibut (Reinhardtius hippoglosoides) has been declining in size in the last decade" Use="Small">
+				<fi:Image IID="2167" Src="img/888Reinhardtius_hippoglo.gif" Title="" Use="Extra"/>
+			</fi:Image>
+		</fi:TopicImages>
+		<fi:RelatedResources>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="262736" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="172962" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="227710" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="243645" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="206613" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="206858" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+			<fi:KnowledgeObjRef>
+				<fi:ForeignID Code="179859" CodeSystem="eims"/>
+			</fi:KnowledgeObjRef>
+		</fi:RelatedResources>
+	</fi:Topic>
+</fi:FIGISDoc>

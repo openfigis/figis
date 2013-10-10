@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
+	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/"
+	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:exsl="http://exslt.org/common" xmlns:fint="http://www.fao.org/fi/figis/internal/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:string="http://xml.apache.org/xalan/java/java.lang.String"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr"
+	xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/topic_v2.xsd">
+	<fi:DataEntry>
+		<fi:Editor>Tina Farmer</fi:Editor>
+		<dcterms:Created>2003-02-20</dcterms:Created>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID MetaID="263000">1002</fi:FigisID>
+				<dc:Title xml:lang="en">Fisheries Issues</dc:Title>
+				<fi:ForeignID Code="ATL-ISS" CodeSystem="acronym" />
+				<fi:OrgRef Office="Department" Role="Executing_agency" Type="U.N. Organization">
+					<fi:FigisID MetaID="104000">22172</fi:FigisID>
+					<dc:Title xml:lang="en">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="fr">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="es">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<fi:ForeignID Code="FI" CodeSystem="acronym" />
+					<fi:ContactEntry>
+						<fi:Website>http://www.fao.org/fi</fi:Website>
+					</fi:ContactEntry>
+				</fi:OrgRef>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID>12</fi:FigisID>
+			<dc:Title xml:lang="en">Fisheries and Aquaculture statistics and information</dc:Title>
+			<dc:Title xml:lang="fr">Fisheries and Aquaculture topics</dc:Title>
+			<dc:Title xml:lang="es">Fisheries and Aquaculture topics</dc:Title>
+			<ags:CreatorCorporate xml:lang="en">FAO</ags:CreatorCorporate>
+			<fi:Series xml:lang="en">Topics Fact Sheets</fi:Series>
+			<dc:Identifier>FI_TOPICS_CP</dc:Identifier>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Created>2004-31-12</dcterms:Created>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic>
+		<fi:TopicIdent Type="Issue">
+			<fi:FigisID MetaID="166000">2888</fi:FigisID>
+			<dc:Title>Questions liées à l'utilisation des aliments</dc:Title>
+
+		</fi:TopicIdent>
+		<fi:Issues>
+			<fi:Text><![CDATA[ Le poisson est un produit de base particulièrement périssable dont la qualité, s'il n'est pas manipulé correctement, se dégrade, ce qui peut avoir des conséquences néfastes sur la santé des consommateurs.  À la fin du XXe siècle, environ  75 % du poisson produit étaient utilisés à des fins de consommation humaine directe, les 25 % restants étant transformés en farine de poisson et en huile. S'agissant du poisson destiné à la consommation humaine directe, les volumes commercialisés en tant que poisson frais ont presque doublé dans les années 1990. À la fin de cette période, le poisson frais était le principal produit de la pêche (40 % du marché), suivi du poisson surgelé (environ 30 %), du poisson en boîte (environ 14 %) et du poisson salé, séché et fumé (12 %). Maintenant que près du tiers de la production mondiale de poisson fait l'objet d'échanges internationaux, la garantie de la qualité et de la sécurité sanitaire est devenu un enjeu majeur. <br title="para"/> Des progrès considérables ont été réalisés ces dernières décennies en vue d'établir des normes et procédures convenus à l'échelle internationale garantissant aux consommateurs des produits de la pêche de bonne qualité. En outre, les membres de l'OMC sont convenus d'un ensemble de règles conçues pour empêcher les États d'utiliser la qualité et la sécurité sanitaire comme obstacle au commerce. Cependant, l'utilisation de ces normes, procédures et règles peut poser problème. Méthode systématique et préventive d'assurance de la sécurité sanitaire et de la qualité des aliments, le système HACCP (analyse des risques - points critiques pour leur maîtrise) est aujourd'hui reconnu dans le monde entier comme le système le plus rentable d'assurance de la qualité et de la sécurité sanitaire. Dans de nombreux pays, son application est obligatoire. Mais dans la pratique, la mise en oeuvre du système varie. <br title="para"/>Code non contraignant établi en 1961 par la FAO et l'Organisation mondiale de la santé, le Codex Alimentarius (code alimentaire) définit des normes internationales régissant la qualité et la sécurité sanitaire des aliments.  En revanche, les accords de l'OMC relatifs aux obstacles techniques au commerce et aux mesures sanitaires et phytosanitaires sont des instruments contraignants, dont l'objectif est de garantir que les éléments relatifs à la sécurité sanitaire et à la qualité sont utilisés de manière équitable dans les échanges commerciaux. Dans ses procédures de règlement des litiges, l'OMC fait<i> notamment</i> appel aux normes du Codex Alimentarius. Cette pratique remet en question la nature non contraignante des normes du Codex.]]></fi:Text>
+		</fi:Issues>
+		<fi:TopicImages>
+			<!--<fi:Image Use="Normal" Src="figis/topic/images/424_424_0.jpg" Title="images/2888.image1"/> -->
+			<!--<fi:Image Use="Normal" Src="figis/topic/images/424_424_0.jpg" Title="images/2888.image2"/> -->
+		</fi:TopicImages>
+	</fi:Topic>
+</fi:FIGISDoc>
+
+
+
+

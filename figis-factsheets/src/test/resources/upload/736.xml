@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="nodeAdopter.xslt"?>
+<!DOCTYPE fi:FIGISDoc SYSTEM "http://figis01/dtd/Current/figisdoc3.0.dtd">
+<fi:FIGISDoc xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fi="http://193.43.36.85/fi/figis/devcon/" xmlns:ags="http://www.fao.org/agris/agmes/" xmlns:cds="http://193.43.36.85/fi/figis/devcon/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:fint="http://www.fao.org/fi/figis/internal/">
+	<fi:DataEntry>
+		<fi:Editor>Tina Farmer</fi:Editor>
+		<dc:Date>2004-31-12</dc:Date>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef CodeSystem="Acronym" Code="ATL-UTIL">
+				<dc:Title>Fisheries Atlas Topics: UTILIZATION</dc:Title>
+				<fi:ProgrammeRef CodeSystem="Acronym" Code="FI-ATLAS">
+					<fi:Name>Fisheries Atlas</fi:Name>
+					<fi:ParentInstitution>
+						<fi:InstitutionRef FID="22172" CodeSystem="Acronym" Code="FI">
+							<fi:LandPoliticalRef CodeSystem="ISO2" Code="IT"/>
+							<fi:ParentInstitution>
+								<fi:InstitutionRef FID="6426" CodeSystem="Acronym" Code="FAO">
+									<fi:LandPoliticalRef CodeSystem="ISO2" Code="IT"/>
+								</fi:InstitutionRef>
+							</fi:ParentInstitution>
+						</fi:InstitutionRef>
+					</fi:ParentInstitution>
+				</fi:ProgrammeRef>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CoverPage>
+			<dc:Title>Processing fish and fish products</dc:Title>
+			<dc:Creator>
+								<ags:CorporateAuthor>Fish Utilization and Marketing Service</ags:CorporateAuthor>
+			</dc:Creator>
+			<dc:Date>2004-12-31</dc:Date>
+			<dc:Description>Description of current fish processing technology including biotechnology</dc:Description>
+			 
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic FID="736">
+		<fi:TopicIdent Status="Unvalidated">
+			<dc:Identifier rdf:resource="CTN">736</dc:Identifier>
+			<fi:Name>Processing fish</fi:Name>
+			<fi:TopicParent>
+				<fi:TopicRef CodeSystem="CTN" Code="424" Level="1">
+					<fi:Name>Utilization</fi:Name>
+					<fi:TopicRef CodeSystem="CTN" Code="1815" Level="2">
+						<fi:Name>Fisheries and Aquaculture</fi:Name>
+						<fi:TopicRef CodeSystem="CTN" Code="topdown" Level="3">
+							<fi:Name>USES</fi:Name>
+						</fi:TopicRef>
+					</fi:TopicRef>
+				</fi:TopicRef>
+			</fi:TopicParent>
+		</fi:TopicIdent>
+		<fi:TopicProfile>
+			<fi:TopicDescription>
+				<fi:TopicText> The processing of fish involves firstly, the application of techniques to preserve quality and increase shelf life and, secondly, it may also involve value-adding to produce a wide variety of products.<br clear="none"/> The first and most obvious  handling technique  for preserving the quality of fish is to keep them alive for as long as possible before cooking and consumption. This has been done for thousands of years in China for carp, using long-established techniques. A large number of species are now kept alive to preserve quality prior to consumption. <br clear="none"/>A number of methods are used to preserve fish. Some employ techniques based on temperature control, using ice, refrigeration or freezing, others on the control of water activity and include drying, salting, smoking and freeze-drying. Techniques may rely on the physical control of microbial fish loads, such as through microwave heating or ionizing irradiation, or on chemical control of microbial activity and loads by adding acids, for example, to fish products. Techniques are also used that are based on oxydo-reduction, such as vacuum packaging. Often a combination of different techniques is used to preserve fish. <br clear="none"/>Finally, fish processing operations include proper waste management techniques.
+<br clear="none"/>
+					<br clear="none"/>
+Further processing of fish  into a wide variety of value-added products is now common with the increase in demand for food products that are ready to eat or require little preparation before serving. When chilled and frozen fish products are transported by road, rail, sea or air, it is essential that the cold chain is maintained throughout. This requires the use of insulated containers or transport vehicles and adequate quantities of coolants or mechanical refrigeration. Container technology now makes possible the combination of refrigeration combined with a modified or controlled atmosphere. </fi:TopicText>
+			</fi:TopicDescription>
+		</fi:TopicProfile>
+		<fi:TopicFeature>
+			<fi:Image Name="images/736.image2" Use="Normal" POS="RC" Src="images/736.image2.Processing.2001-9-27.jpg" ImageType="Other"/>
+			<fi:Image Name="images/736.image3" Use="Normal" POS="RC" Src="images/736.image3.Processing.2001-9-27.jpg" ImageType="Other"/>
+		
+		</fi:TopicFeature>
+	</fi:Topic>
+</fi:FIGISDoc>

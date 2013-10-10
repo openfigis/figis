@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
+	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/"
+	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:exsl="http://exslt.org/common" xmlns:fint="http://www.fao.org/fi/figis/internal/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:string="http://xml.apache.org/xalan/java/java.lang.String"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="es"
+	xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/topic_v2.xsd">
+	<fi:DataEntry>
+		<fi:Editor>Tina Farmer</fi:Editor>
+		<dcterms:Created>2003-02-20</dcterms:Created>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID MetaID="263000">1002</fi:FigisID>
+				<dc:Title xml:lang="en">Fisheries Issues</dc:Title>
+				<fi:ForeignID Code="ATL-ISS" CodeSystem="acronym" />
+				<fi:OrgRef Office="Department" Role="Executing_agency" Type="U.N. Organization">
+					<fi:FigisID MetaID="104000">22172</fi:FigisID>
+					<dc:Title xml:lang="en">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="fr">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="es">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<fi:ForeignID Code="FI" CodeSystem="acronym" />
+					<fi:ContactEntry>
+						<fi:Website>http://www.fao.org/fi</fi:Website>
+					</fi:ContactEntry>
+				</fi:OrgRef>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID>12</fi:FigisID>
+			<dc:Title xml:lang="en">Fisheries and Aquaculture statistics and information</dc:Title>
+			<dc:Title xml:lang="fr">Fisheries and Aquaculture topics</dc:Title>
+			<dc:Title xml:lang="es">Fisheries and Aquaculture topics</dc:Title>
+			<ags:CreatorCorporate xml:lang="en">FAO</ags:CreatorCorporate>
+			<fi:Series xml:lang="en">Topics Fact Sheets</fi:Series>
+			<dc:Identifier>FI_TOPICS_CP</dc:Identifier>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Created>2004-31-12</dcterms:Created>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic>
+		<fi:TopicIdent Type="Issue">
+			<fi:FigisID MetaID="166000">2888</fi:FigisID>
+			<dc:Title>Problemáticas de la utilización de alimentos</dc:Title>
+
+		</fi:TopicIdent>
+		<fi:Issues>
+			<fi:Text><![CDATA[ El pescado es un producto altamente perecedero y, si no se maneja adecuadamente, su calidad se deteriora, lo que puede tener consecuencias perjudiciales para la salud de los consumidores. A finales del siglo XX, alrededor de un 75 por ciento del pescado producido se destinaba al consumo humano directo, mientras que el restante 25 por ciento se transformaba en harina de pescado y aceite. El volumen del pescado destinado a consumo humano directo comercializado como pescado fresco casi se duplicó durante el decenio de 1990. A finales de dicho decenio, el pescado fresco era el producto pesquero más importante (un 40 por ciento del mercado), seguido del pescado congelado (cerca del 30 por ciento), el enlatado (aproximadamente un 14 por ciento) y el curado (12 por ciento). Al comercializarse ahora casi un tercio de la producción mundial de pescado a nivel internacional, la garantía de la calidad y de la inocuidad ha pasado a ser una cuestión importante. <br title="para"/> En las últimas décadas se ha progresado mucho en el establecimiento de normas y procedimientos internacionales convenidos que garanticen a los consumidores unos productos pesqueros de buena calidad. Al mismo tiempo, los Miembros de la OMC han acordado conjuntos de normas concebidos para impedir que los Estados utilicen las cuestiones de calidad y de inocuidad como obstáculos al comercio. Sin embargo, la utilización de tales normas, procedimientos y reglas es fuente de problemas. El sistema de análisis de peligros y de puntos críticos de control (APPCC), un planteamiento sistemático y preventivo para la garantía de la inocuidad y la calidad de los alimentos, es hoy aceptado en todo el mundo como el sistema más rentable a esos efectos y ha pasado a ser obligatorio en muchos países. Pero hay diferencias en cuanto a la manera de llevarlo a la práctica. <br title="para"/>El Codex Alimentarius (el código alimentario) de la FAO y de la Organización Mundial de la Salud, creado en 1961, es un código voluntario que establece normas internacionales para la inocuidad y la calidad de los alimentos. Sin embargo los acuerdos de la OMC sobre obstáculos técnicos al comercio y sobre medidas sanitarias y fitosanitarias son instrumentos vinculantes concebidos para asegurar que las normas de inocuidad y calidad se utilicen correctamente en el comercio. En sus procedimientos para la solución de diferencias, la OMC recurre<i> entre otros procedimientos</i> a las normas del Codex Alimentarius. Esta situación pone en tela de juicio el carácter voluntario de las normas del Codex Alimentarius.]]></fi:Text>
+		</fi:Issues>
+		<fi:TopicImages>
+			<!--<fi:Image Use="Normal" Src="figis/topic/images/424_424_0.jpg" Title="images/2888.image1"/> -->
+			<!--<fi:Image Use="Normal" Src="figis/topic/images/424_424_0.jpg" Title="images/2888.image2"/> -->
+		</fi:TopicImages>
+	</fi:Topic>
+</fi:FIGISDoc>
+
+
+
+
+
+
+
+
+
+
+
+
