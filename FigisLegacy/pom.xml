@@ -6,6 +6,7 @@
 	<artifactId>FigisLegacy</artifactId>
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
