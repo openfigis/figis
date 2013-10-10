@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:DataEntry>
+	<fi:Editor>$EDITOR;</fi:Editor>
+	<dc:Date>$EDIT_DATE;</dc:Date>
+</fi:DataEntry>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited by Aureliano Gentile, FAO of the UN, June 2009 -->
+<MenuConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:exsl="http://exslt.org/common" xsi:noNamespaceSchemaLocation="http://www.fao.org/fi/figis/devcon/schema/fi-navigation.xsd">
+	<Menus>
+		<Menu name="Root">
+			<Title xml:lang="en">Root</Title>
+			<Item menu-ref="NANSEN" name="NANSEN">
+				<Title xml:lang="en">EAF-NANSEN</Title>
+			</Item>
+		</Menu>
+		<Menu name="NANSEN">
+			<Item name="topic#18000">
+				<Title xml:lang="en">Home</Title>
+			</Item>
+			<Item name="organization#17910">
+				<!--/nansen/about -->
+				<Title xml:lang="en">About EAF-Nansen</Title>
+				<Title xml:lang="fr">Le Projet EAF-Nansen</Title>
+			</Item>
+			<!--
+	<Item>
+				<Title xml:lang="en">About EAF-Nansen</Title><Title xml:lang="en">Objectives</Title>
+					<Item name="org#eaf-nansen.xml#1" visible="false"/>
+				</Item>
+				<Item name="org#eaf-nansen.xml#2">
+					<Title xml:lang="en">Partners</Title>
+				</Item>
+				<Item name="org#eaf-nansen.xml#3">
+					<Title xml:lang="en">Donors</Title>
+				</Item>
+				<Item name="org#eaf-nansen.xml#4">
+					<Title xml:lang="en">Project Implementation structure</Title>
+				</Item>				<Item name="topic#18001">
+					<Title xml:lang="en">EAF-Nansen background</Title>
+				</Item>
+			</Item>
+
+-->
+			<Item name="topic#18001">
+				<Title xml:lang="en">EAF-Nansen background</Title>
+				<Title xml:lang="fr">Historique</Title>
+			</Item>
+			<Item name="topic#18002">
+				<Title xml:lang="en">Project components</Title>
+				<Title xml:lang="fr">Composantes du Projet</Title>
+				<Item name="topic#18003">
+					<Title xml:lang="en">EAF policy and managements</Title>
+					<Title xml:lang="fr">Politique et gestion liée à l'AEP</Title>
+				</Item>
+				<Item name="topic#18004">
+					<Title xml:lang="en">Ecosystem Assessment &amp; Monitoring</Title>
+					<Title xml:lang="fr">Évaluation &amp; suivi de l’écosystème</Title>
+					<Item name="topic#18011">
+						<Title xml:lang="en">Nansen Cruises</Title>
+						<Title xml:lang="fr">Campagnes scientifiques Nansen</Title>
+					</Item>
+					<Item name="topic#16074">
+						<Title xml:lang="en">NANSIS Software</Title>
+						<Title xml:lang="fr">Logiciel NANSIS</Title>
+					</Item>
+				</Item>
+				<Item name="topic#18005">
+					<Title xml:lang="en">Capacity building</Title>
+					<Title xml:lang="fr">Renforcement des capacités</Title>
+				</Item>
+				<Item name="topic#18006">
+					<Title xml:lang="en">Support to regional Research Vessels</Title>
+					<Title xml:lang="fr">Soutien aux navires de recherché régionaux</Title>
+				</Item>
+				<Item name="topic#18007">
+					<Title xml:lang="en">Planning and dissemination</Title>
+					<Title xml:lang="fr">Planification et dissémination</Title>
+				</Item>
+			</Item>
+			<Item name="topic#18013">
+				<Title xml:lang="en">In-country activities</Title>
+				<Title xml:lang="fr">Activités de terrain</Title>
+				<Item name="topic#18209">
+					<Title xml:lang="en">Small in-country EAF projects</Title>
+					<Title xml:lang="fr">Petits projets AEP</Title>
+				</Item>
+			</Item>
+			<Item name="/nansen/publications">
+				<Title xml:lang="en">Publications</Title>
+				<Title xml:lang="fr">Publications</Title>
+			</Item>
+			<Item name="/nansen/meetings">
+				<Title xml:lang="en">Meetings</Title>
+				<Title xml:lang="fr">Réunions</Title>
+			</Item>
+			<Item name="/nansen/contacts">
+				<Title xml:lang="en">Contacts</Title>
+				<Title xml:lang="fr">Contacts</Title>
+			</Item>
+			<Item name="topic#18008">
+				<Title xml:lang="en">Newsletter</Title>
+				<Title xml:lang="fr">Bulletin</Title>
+			</Item>
+			<Item name="topic#18010">
+				<Title xml:lang="en">Download Area</Title>
+				<Title xml:lang="fr">Zone de téléchargement</Title>
+			</Item>
+		</Menu>
+	</Menus>
+</MenuConfig>

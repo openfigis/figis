@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
+	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/"
+	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:exsl="http://exslt.org/common" xmlns:fint="http://www.fao.org/fi/figis/internal/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:string="http://xml.apache.org/xalan/java/java.lang.String"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en"
+	xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/topic_v2.xsd">
+	<fi:DataEntry>
+		<fi:Editor>Tina Farmer</fi:Editor>
+		<dcterms:Created>2003-01-02</dcterms:Created>
+		<dcterms:Modified>2006-15-09</dcterms:Modified>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID MetaID="263000">1002</fi:FigisID>
+				<dc:Title xml:lang="en">Fisheries Issues</dc:Title>
+				<fi:ForeignID Code="ATL-ISS" CodeSystem="acronym" />
+				<fi:OrgRef Office="Department" Role="Executing_agency" Type="U.N. Organization">
+					<fi:FigisID MetaID="104000">22172</fi:FigisID>
+					<dc:Title xml:lang="en">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="fr">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<dc:Title xml:lang="es">Fisheries and Aquaculture Department (FID)</dc:Title>
+					<fi:ForeignID Code="FI" CodeSystem="acronym" />
+					<fi:ContactEntry>
+						<fi:Website>http://www.fao.org/fi</fi:Website>
+					</fi:ContactEntry>
+				</fi:OrgRef>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID MetaID="280000">12</fi:FigisID>
+			<dc:Title xml:lang="en">Fisheries and Aquaculture statistics and information</dc:Title>
+			<dc:Title xml:lang="fr">Fisheries and Aquaculture topics</dc:Title>
+			<dc:Title xml:lang="es">Fisheries and Aquaculture topics</dc:Title>
+			<ags:CreatorCorporate xml:lang="en">FAO</ags:CreatorCorporate>
+			<fi:Series xml:lang="en">Topics Fact Sheets</fi:Series>
+			<dc:Identifier>FI_TOPICS_CP</dc:Identifier>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Created>2001-09-28</dcterms:Created>
+			<dc:Description>
+				<dcterms:Abstract>
+					Problems related to food contamination and uitilization
+				</dcterms:Abstract>
+			</dc:Description>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Topic>
+		<fi:TopicIdent Type="Issue">
+			<fi:FigisID Type="Observation">153569</fi:FigisID>
+			<fi:FigisID MetaID="166000">2888</fi:FigisID>
+			<dc:Title>Utilization and trade</dc:Title>
+
+		</fi:TopicIdent>
+		<fi:Issues>
+			<fi:Text><![CDATA[<h3>Fish utilization</h3>
+<p>The most common use for fisheries resources is food. Over 75% of the global fish production is used for direct human consumption and the consumption of fresh fish is growing at the expense of other forms of fish products (e.g. canned fish). Fish landed not used for direct human consumption is reduced to fishmeal and oil (some 33 million tonnes per year) used as feed, mainly for pigs and chickens and, more recently, for raising carnivorous aquatic species (such as salmon, shrimp, sea bass, sea bream, etc.).</p>
+<p>Of the fish destined for direct human consumption, the volume marketed as fresh fish nearly doubled during the 1990s.&nbsp;Fresh fish is&nbsp;now the most important fishery product (nearly half of the market), followed by frozen, canned and cured fish. With over one third of world fish production now being traded internationally, quality and safety assurance has become a major issue.</p>
+<p>Fish represents a valuable source of proteins and nutrients in the diet of many countries and its contribution&nbsp;to food security is rising significantly. Post-harvest handling, processing and transportation of fish require particular care&nbsp;in order to ensure proper quality and safety. Retaining the nutritional value of the fish, preserving the benefits of its rich composition and avoiding costly and debilitating effects of fish-borne illnesses are vital.</p>
+<p>The generally acknowledged limits of production from capture fisheries, coupled with the widening gap between the supply and demand of fish for human consumption, reaffirms that post-harvest losses are an unacceptable waste of scarce natural resources. Post-harvest losses of fish occur in various forms. The physical loss of material is caused by, for example, poor handling and preservation or the discarding of bycatch. Economic losses occur when spoilage of wet fish results in a value-decrease or when there is a need to reprocess cured fish, raising the cost of the finished product. In addition, inadequate handling and processing methods can reduce nutrients, leading to nutritional loss. Similarly, the lowering of large quantities of fish catches into animal feeds can be considered under certain conditions as a "loss" for human food security.</p>
+<p>Considerable progress has been made in recent decades to establish international agreed standards and procedures that assure consumers a good quality fish products. Also World Trade Organization (WTO) members have agreed sets of rules designed to prevent states using quality and safety issues as trade barriers. However, problems arise in the use of these standards, procedures and rules. The hazard analysis critical control point (HACCP) system, a systematic and preventive approach for the assurance of food safety and quality, is now accepted worldwide as the most cost-effective system for quality and safety assurance and has been made mandatory in many countries. But differences arise in the way the system is implemented in practice.</p>
+<p>The <em>Codex Alimentarius</em>&nbsp;of FAO and the World Health Organization (WHO), created in 1963, is a voluntary code establishing international standards for food safety and quality. The agreements on Technical Barriers to Trade and on Sanitary and Phytosanitary Measures recognize the <em>Codex Alimentarius</em>&nbsp;Commission&nbsp;as the international standard-setting body for food safety and encourage member countries to use <em>Codex</em> standards&nbsp;to facilitate international harmonization and fish trade -- although much remains to be done to achieve international harmonization and to develop equivalence framework.</p>
+<h3>Trade</h3>
+<p class="MsoNormal"><span style="font-size: 9.0pt; font-family: Verdana;" lang="EN-GB">Trade in fish is common to all societies and has taken place from time immemorial. A fisher returning with more fish than is needed to meet personal needs will tend to exchange surplus fish for other goods or services. The distribution of fish globally is very uneven. The role of trade and of the marketing chain is to redistribute fish and fishery products according to demand. Trade has always played an important part of the fisher's livelihood, even in ''subsistence" fisheries. </span></p>
+<p class="MsoNormal"><span style="font-size: 9.0pt; font-family: Verdana;" lang="EN-GB">International fish trade has been increasing very rapidly in recent decades facilitated by the widespread use of refrigeration, and improved transportation and communications. New international trade rules have developed through several rounds of trade negotiations under <strong>General Agreement on Tariffs and Trade (GATT)</strong></span><span style="font-size: 9.0pt; font-family: Verdana;" lang="EN-GB">. The last of these, the <strong>1994 Uruguay Round,</strong></span><span style="font-size: 9.0pt; font-family: Verdana;" lang="EN-GB"> agreed to establish the World Trade Organization (WTO) and concluded a number of important agreements with relevance to fisheries. <strong>The FAO Sub-Committee on Fish Trade</strong></span><span style="font-size: 9.0pt; font-family: Verdana;" lang="EN-GB"> provides an intergovernmental forum for consultations on technical and economic aspects of that trade.&nbsp;</span></p>]]></fi:Text>
+		</fi:Issues>
+
+
+	</fi:Topic>
+</fi:FIGISDoc>
+

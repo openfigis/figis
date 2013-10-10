@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="measure" Type="">
+			<label xml:lang="en">Measure</label>
+			<label xml:lang="fr">Mesure</label>
+			<label xml:lang="es">Medida</label>
+		</node>
+		<node ID="sources" Type="">
+			<label xml:lang="en">References</label>
+			<label xml:lang="fr">Références</label>
+			<label xml:lang="es">Bibliografía</label>
+		</node>
+		<node ID="relatedresources" Type="">
+			<label xml:lang="en">Related Resources</label>
+			<label xml:lang="fr">Ressources connexes</label>
+			<label xml:lang="es">Recursos afines</label>
+		</node>
+		<node ID="linkFAOLex" Type="">
+			<label xml:lang="en">Link to FAOLEX:</label>
+			<label xml:lang="fr">Lien vers FAOLEX:</label>
+			<label xml:lang="es">Enlace hacia FAOLEX:</label>
+		</node>
+		<node ID="MeasureText" Type="">
+			<label xml:lang="en">Measure text</label>
+			<label xml:lang="fr">Texte de la  mesure</label>
+			<label xml:lang="es">Texto de la medida</label>
+		</node>
+		<node ID="LinkCP" Type="">
+			<label xml:lang="en">Link to the country profile</label>
+			<label xml:lang="fr">Lien vers le profil de pays</label>
+			<label xml:lang="es">Enlace hacia el perfil del país</label>
+		</node>
+		<node ID="portState" Type="">
+			<label xml:lang="en">Port State</label>
+			<label xml:lang="fr">État du port</label>
+			<label xml:lang="es">Estado del puerto</label>
+		</node>
+		<node ID="AllAquaticSpecies" Type="">
+			<label xml:lang="en">All Aquatic Species</label>
+			<label xml:lang="fr">Toutes les espèces aquatiques</label>
+			<label xml:lang="es">Todas las especies acuáticas</label>
+		</node>
+		<node ID="targetSpe" Type="">
+			<label xml:lang="en">Target species</label>
+			<label xml:lang="fr">Espèces visées</label>
+			<label xml:lang="es">Especie específica</label>
+		</node>
+		<node ID="targetVes" Type="">
+			<label xml:lang="en">Target Vessels</label>
+			<label xml:lang="fr">Navires visés</label>
+			<label xml:lang="es">Barcos específicos</label>
+		</node>
+		<node ID="EU_vessels" Type="">
+			<label xml:lang="en">EU vessels</label>
+			<label xml:lang="fr">Navires UE</label>
+			<label xml:lang="es">Barcos de la UE</label>
+		</node>
+		<node ID="National_vessels" Type="">
+			<label xml:lang="en">National vessels</label>
+			<label xml:lang="fr">Navires nationaux</label>
+			<label xml:lang="es">Barcos nacionales</label>
+		</node>
+		<node ID="RFMOVes" Type="">
+			<label xml:lang="en">RFMO Vessels</label>
+			<label xml:lang="fr">Navires ORGP</label>
+			<label xml:lang="es">Barcos de la OROP</label>
+		</node>
+		<node ID="Non-RFMO" Type="">
+			<label xml:lang="en">Non-RFMO Vessels</label>
+			<label xml:lang="fr">Navires non ORGP</label>
+			<label xml:lang="es">Barcos que no pertenecen a la OROP</label>
+		</node>
+		<node ID="Non-EU_vess" Type="">
+			<label xml:lang="en">Non-EU Vessels</label>
+			<label xml:lang="fr">Navires non UE</label>
+			<label xml:lang="es">Barcos que no pertenecen a la  UE</label>
+		</node>
+		<node ID="All_vessels" Type="">
+			<label xml:lang="en">All vessels</label>
+			<label xml:lang="fr">Tous les navires</label>
+			<label xml:lang="es">Todos los barcos</label>
+		</node>
+		<node ID="Foreign_vessels" Type="">
+			<label xml:lang="en">Foreign Vessels</label>
+			<label xml:lang="fr">Navires étrangers</label>
+			<label xml:lang="es">Barcos extranjeros</label>
+		</node>
+		<node ID="FishArea" Type="">
+			<label xml:lang="en">Target competence area</label>
+			<label xml:lang="fr">Zone de compétence visée</label>
+			<label xml:lang="es">Zona específica de competencia</label>
+		</node>
+		<node ID="All_waters" Type="">
+			<label xml:lang="en">All waters</label>
+			<label xml:lang="fr">Toutes les eaux</label>
+			<label xml:lang="es">Todas las aguas</label>
+		</node>
+		<node ID="Non-EU_wat" Type="">
+			<label xml:lang="en">Non-EU waters</label>
+			<label xml:lang="fr">Eaux non UE</label>
+			<label xml:lang="es">Aguas que no pertenecen a la UE</label>
+		</node>
+		<node ID="Non-national_wat" Type="">
+			<label xml:lang="en">Non-national waters</label>
+			<label xml:lang="fr">Eaux non nationales</label>
+			<label xml:lang="es">Aguas no nacionales</label>
+		</node>
+		<node ID="High_Seas" Type="">
+			<label xml:lang="en">High seas</label>
+			<label xml:lang="fr">Haute mer</label>
+			<label xml:lang="es">Alta mar</label>
+		</node>
+		<node ID="EU_waters" Type="">
+			<label xml:lang="en">EU waters</label>
+			<label xml:lang="fr">Eaux UE</label>
+			<label xml:lang="es">Aguas de la UE</label>
+		</node>
+		<node ID="National_waters" Type="">
+			<label xml:lang="en">National waters</label>
+			<label xml:lang="fr">Eaux nationales</label>
+			<label xml:lang="es">Aguas nacionales</label>
+		</node>
+		<node ID="RFMOWat" Type="">
+			<label xml:lang="en">RFMO waters</label>
+			<label xml:lang="fr">Eaux ORGP</label>
+			<label xml:lang="es">Aguas de la OROP</label>
+		</node>
+		<node ID="MeasureType" Type="">
+			<label xml:lang="en">Type of measure</label>
+			<label xml:lang="fr">Type de mesure</label>
+			<label xml:lang="es">Tipo de medida</label>
+		</node>
+		<node ID="Designated_ports" Type="">
+			<label xml:lang="en">Designated ports</label>
+			<label xml:lang="fr">Ports désignés</label>
+			<label xml:lang="es">Puertos designados</label>
+		</node>
+		<node ID="Documentation_requirements" Type="">
+			<label xml:lang="en">Documentation requirements</label>
+			<label xml:lang="fr">Exigences relatives à la documentation</label>
+			<label xml:lang="es">Requisitos de documentación</label>
+		</node>
+		<node ID="Flag_state_or_vessel_confirmation" Type="">
+			<label xml:lang="en">Flag state or vessel confirmation</label>
+			<label xml:lang="fr">Confirmation de l’État du pavillon ou du navire</label>
+			<label xml:lang="es">Confirmación del Estado del pabellón o del barco</label>
+		</node>
+		<node ID="Information_exchange/reporting" Type="">
+			<label xml:lang="en">Information exchange/reporting</label>
+			<label xml:lang="fr">Échange d’informations/rapports</label>
+			<label xml:lang="es">Intercambio de información/informes</label>
+		</node>
+		<node ID="IUU_Vessel_Listing" Type="">
+			<label xml:lang="en">IUU Vessel Listing</label>
+			<label xml:lang="fr">Liste noire des navires INDNR</label>
+			<label xml:lang="es">Registro de barcos en la lista INDNR</label>
+		</node>
+		<node ID="Landing/transhipment_authorization" Type="">
+			<label xml:lang="en">Landing/transhipment authorization</label>
+			<label xml:lang="fr">Autorisation de débarquement/transbordement</label>
+			<label xml:lang="es">Autorización de desembarco o transbordo</label>
+		</node>
+		<node ID="Miscellaneous" Type="">
+			<label xml:lang="en">Miscellaneous</label>
+			<label xml:lang="fr">Autres</label>
+			<label xml:lang="es">Otros</label>
+		</node>
+		<node ID="Port_departure_requirements" Type="">
+			<label xml:lang="en">Port departure requirements</label>
+			<label xml:lang="fr">Exigences relatives au départ du port</label>
+			<label xml:lang="es">Requisitos para salir del puerto</label>
+		</node>
+		<node ID="Port_entry_authorization" Type="">
+			<label xml:lang="en">Port entry authorization</label>
+			<label xml:lang="fr">Autorisation d’entrée au port</label>
+			<label xml:lang="es">Autorización de ingreso al puerto</label>
+		</node>
+		<node ID="Port_inspections" Type="">
+			<label xml:lang="en">Port inspections</label>
+			<label xml:lang="fr">Inspections au port</label>
+			<label xml:lang="es">Inspecciones portuarias</label>
+		</node>
+		<node ID="Prior_notification_of_port_entry/landing/transhipment" Type="">
+			<label xml:lang="en">Prior notification of port entry/landing/transhipment</label>
+			<label xml:lang="fr">Notification préalable d’entrée au port/débarquement/transbordement</label>
+			<label xml:lang="es">Notificación previa de ingreso, desembarco y transbordo en el puerto</label>
+		</node>
+		<node ID="Restrictions_on_landing/transhipment" Type="">
+			<label xml:lang="en">Restrictions on landing/transhipment</label>
+			<label xml:lang="fr">Restrictions relatives aux débarquements/transbordements</label>
+			<label xml:lang="es">Restricciones para el desembarco o transbordo</label>
+		</node>
+		<node ID="Restrictions_on_port_entry" Type="">
+			<label xml:lang="en">Restrictions on port entry</label>
+			<label xml:lang="fr">Restrictions à l’entrée au port</label>
+			<label xml:lang="es">Restricciones para el ingreso al puerto</label>
+		</node>
+		<node ID="Restrictions_on_supplies_and_services" Type="">
+			<label xml:lang="en">Restrictions on supplies and services</label>
+			<label xml:lang="fr">Restrictions relatives aux fournitures et services</label>
+			<label xml:lang="es">Restricciones para los suministros y servicios</label>
+		</node>
+		<node ID="Sanctions" Type="">
+			<label xml:lang="en">Sanctions</label>
+			<label xml:lang="fr">Sanctions</label>
+			<label xml:lang="es">Sanciones</label>
+		</node>
+		<node ID="Trade-related_measures" Type="">
+			<label xml:lang="en">Trade-related measures</label>
+			<label xml:lang="fr">Mesures commerciales</label>
+			<label xml:lang="es">Medidas relacionadas con el comercio</label>
+		</node>
+		<node ID="year" Type="">
+			<label xml:lang="en">Year of adoption</label>
+			<label xml:lang="fr">Année d'adoption</label>
+			<label xml:lang="es">Año de adopción</label>
+		</node>
+		<node ID="legalInstrument" Type="">
+			<label xml:lang="en">Type of legal instrument</label>
+			<label xml:lang="fr">Type d’instrument juridique</label>
+			<label xml:lang="es">Tipo de instrumento jurídico</label>
+		</node>
+		<node ID="Bilateral_agreement" Type="">
+			<label xml:lang="en">Bilateral agreement</label>
+			<label xml:lang="fr">Accord bilatéral</label>
+			<label xml:lang="es">Acuerdo bilateral</label>
+		</node>
+		<node ID="EU_legislation" Type="">
+			<label xml:lang="en">EU legislation</label>
+			<label xml:lang="fr">Législation UE</label>
+			<label xml:lang="es">Legislación de la UE</label>
+		</node>
+		<node ID="Legislation_of_territorial_subdivision" Type="">
+			<label xml:lang="en">Legislation of territorial subdivision</label>
+			<label xml:lang="fr">Législation concernant les subdivisions territoriales</label>
+			<label xml:lang="es">Legislación de subdivisión territorial</label>
+		</node>
+		<node ID="Multilateral_agreement " Type="">
+			<label xml:lang="en">Multilateral agreement</label>
+			<label xml:lang="fr">Accord multilatéral</label>
+			<label xml:lang="es">Acuerdo multilateral</label>
+		</node>
+		<node ID="National_legislation" Type="">
+			<label xml:lang="en">National legislation</label>
+			<label xml:lang="fr">Législation national</label>
+			<label xml:lang="es">Legislación nacional</label>
+		</node>
+	</nodes>
+</labels>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:BiblioEntry xml:lang="$CD_LANGUAGE;">
+	<dc:Title>
+		$TITLE;
+		<dc:AlternativeTitle>$ALTERNATIVE_TITLE;</dc:AlternativeTitle>
+		<fi:VolumeTitle>$VOLUME_TITLE;</fi:VolumeTitle>
+		<fi:ChapterTitle>$CHAPTER_TITLE;</fi:ChapterTitle>
+	</dc:Title>
+	<dc:Creator>
+		$CREATOR;
+		<ags:PersonalAuthor>$PERSONAL_AUTHOR;</ags:PersonalAuthor>
+		<ags:CorporateAuthor>$CORPORATE_AUTHOR;</ags:CorporateAuthor>
+		<ags:Conference>$CONFERENCE;</ags:Conference>
+	</dc:Creator>
+	<dc:Date>
+		$PUBLICATION_YEAR;
+		<dc:Created>$DT_CREATED;</dc:Created>
+		<dc:Modified>$DT_MODIFIED;</dc:Modified>
+		<dc:Valid>$DT_VALID;</dc:Valid>
+		<dc:Available>$DT_AVAILABLE;</dc:Available>
+		<dc:Issued>$DT_ISSUED;</dc:Issued>
+	</dc:Date>
+	<ags:Edition>$EDITION;</ags:Edition>
+	<fi:Series>$SERIES;</fi:Series>
+	$CD_OWNER;
+	$CD_COLLECTION;
+	<dc:Publisher>
+		$PUBLISHER;
+		<fi:WherePublished>$WHERE_PUBLISHED;</fi:WherePublished>
+	</dc:Publisher>
+	<dc:Identifier>$IDENTIFIER;</dc:Identifier>
+	<dc:Format>
+		$FORMAT;
+		<dc:Extent>$FORMAT_EXTENT;</dc:Extent>
+		<dc:Medium>$FORMAT_MEDIUM;</dc:Medium>
+	</dc:Format>
+	<dc:Description>
+		$DESCRIPTION;
+		<dc:TableOfContents>$TOC;</dc:TableOfContents>
+		<ags:Notes>$NOTES;</ags:Notes>
+	</dc:Description>
+	<dc:Subject>
+		$SUBJECT;
+		<dc:Classification>$CLASSIFICATION;</dc:Classification>
+		<dc:Thesaurus>$THESAURUS;</dc:Thesaurus>
+	</dc:Subject>
+	<dc:Type>$ENTRY_TYPE;</dc:Type>
+	<dc:Coverage dc:Spacial="$SPACIAL;" dc:Temporal="$TEMPORAL;">
+		$COVERAGE;
+	</dc:Coverage>
+	<dc:Source rdf:resource="URL">$URL;</dc:Source>
+</fi:BiblioEntry>

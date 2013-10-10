@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DBTABLES>
+	<MAIN_SCHEMA>FIGIS</MAIN_SCHEMA>
+	<SHADOW_SCHEMA>FIGIS_UPDATE</SHADOW_SCHEMA>
+	<SHADOW_PREFIX>SHD_</SHADOW_PREFIX>
+	<SHADOW_POSTFIX></SHADOW_POSTFIX>
+
+	<TABLE name="DBUPDATE_TEST">
+		<APPROXIMATE_SIZE>15000</APPROXIMATE_SIZE>
+		<COLUMN name="ITEM_TYP" exclude="yes"/>
+		<COLUMN name="GRP_IND" exclude="yes"/>
+		<COLUMN name="GRP_CALC_IND" exclude="yes"/>
+		<COLUMN name="GRP_STORAGE_TYP" exclude="yes"/>
+		<COLUMN name="UNIT" exclude="yes"/>
+		<COLUMN name="FAOMAP_LAYER_ID" />
+ 
+		<COLUMN name="NAME_E" exclude="yes"/>
+		<COLUMN name="NAME_F" exclude="yes"/>
+		<COLUMN name="NAME_S" exclude="yes"/>
+		<COLUMN name="LONG_NAME_E" screenname="Name(E)"/>
+		<COLUMN name="LONG_NAME_F" screenname="Name(F)"/>
+		<COLUMN name="LONG_NAME_S" screenname="Name(S)"/>
+		<COLUMN name="FULL_NAME_E" screenname="Full Name(E)"/>
+		<COLUMN name="FULL_NAME_F" screenname="Full Name(F)"/>
+		<COLUMN name="FULL_NAME_S" screenname="Full Name(S)"/>
+		<COLUMN name="SCIENTIFIC_NAME" screenname="Scientific Name"/>
+		<COLUMN name="ALPHA3CODE" screenname="3-alpha code"/>
+		<COLUMN name="DBUPDATE_STATUS" screenname="Status"/>
+		<COLUMN name="DBUPDATE_TRANSACTION" screenname="Transaction"/>
+		<COLUMN name="FIC_ITEM" screenname="ID"/>
+		<COLUMN name="FIC_SYS_ITEM" screenname="Code"/>
+		<WHERE_CLAUSE name="range">FIC_ITEM BETWEEN ? AND ?</WHERE_CLAUSE>
+		<WHERE_CLAUSE name="sparse">FIC_ITEM IN (?,?,?,?,?,?,?,?,?,?)</WHERE_CLAUSE>
+	</TABLE>
+
+	<TABLE name="TRA_PENDING_TRANSACTION">
+		<WHERE_CLAUSE name="by_user">CD_USER=?</WHERE_CLAUSE>
+        </TABLE>
+
+	<TABLE name="TRA_TRANSACTION_TABLES">
+		<WHERE_CLAUSE name="by_table">TABLE_NAME=?</WHERE_CLAUSE>
+		<WHERE_CLAUSE name="by_trans">CD_TRANSACTION=?</WHERE_CLAUSE>
+        </TABLE>
+
+	<TABLE name="TRA_TRANSACTION_COLLECTIONS">
+		<WHERE_CLAUSE name="by_collection">COLLECTION_NAME=?</WHERE_CLAUSE>
+		<WHERE_CLAUSE name="by_trans">CD_TRANSACTION=?</WHERE_CLAUSE>
+        </TABLE>
+
+</DBTABLES>

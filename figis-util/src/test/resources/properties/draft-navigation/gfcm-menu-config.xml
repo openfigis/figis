@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:exsl="http://exslt.org/common" xsi:noNamespaceSchemaLocation="http://www.fao.org/fi/figis/devcon/schema/fi-navigation.xsd">
+	<Menus>
+		<Menu name="Root">
+			<Title xml:lang="en">Root</Title>
+			<Item menu-ref="GFCM" name="GFCM">
+				<Title xml:lang="en">GFCM</Title>
+			</Item>
+		</Menu>
+		<Menu name="GFCM">
+			<Title xml:lang="en">GFCM</Title>
+			<Item name="topic#16083" visible="false">
+				<Title xml:lang="en">Home</Title>
+			</Item>
+			<Item name="org#gfcm_web_inst.xml#1" roles="all">
+				<Title xml:lang="en">About GFCM</Title>
+				<Item name="org#gfcm_web_inst.xml#2">
+					<Title xml:lang="en">Functions</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#3">
+					<Title xml:lang="en">Convention Area</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#4">
+					<Title xml:lang="en">Legal Framework</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#5">
+					<Title xml:lang="en">Members</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#6">
+					<Title xml:lang="en">Organigram</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#6,1">
+					<Title xml:lang="en">Commission</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#6,2">
+					<Title xml:lang="en">SAC</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#6,3">
+					<Title xml:lang="en">CAQ</Title>
+				</Item>
+				<Item name="org#gfcm_web_inst.xml#6,4">
+					<Title xml:lang="en">CoC</Title>
+				</Item>
+			</Item>
+			<Item name="topic#16084" roles="all">
+				<Title xml:lang="en">News</Title>
+				<Item name="topic#16085">
+					<Title xml:lang="en">Media corner</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMNewsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item menu-ref="reports_publications" name="topic#16090">
+				<Title xml:lang="en">Reports &amp; Publications</Title>
+				<Item name="topic#16091">
+					<Title xml:lang="en">Reports of the Commission</Title>
+				</Item>
+				<Item name="topic#16092">
+					<Title xml:lang="en">SAC - Scientific Advisory     Committee</Title>
+				</Item>
+				<Item name="topic#16094">
+					<Title xml:lang="en">CAQ - Committee on     Aquaculture</Title>
+				</Item>
+				<Item name="topic#166220">
+					<Title xml:lang="en">CoC - Compliance Committee</Title>
+				</Item>
+				<Item name="topic#16096">
+					<Title xml:lang="en">Studies &amp; Reviews</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMPublicationsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item menu-ref="Statistics" name="topic#16103">
+				<Title xml:lang="en">Statistics &amp; Information  </Title>
+				<Item menu-ref="General_Information" clickable="false">
+					<Title xml:lang="en">General Information</Title>
+				</Item>
+				<Item menu-ref="Reporting_forms" clickable="false"/>
+				<Item name="topic#166229">
+					<Title xml:lang="en">Documentation Index</Title>
+				</Item>
+				<Item name="topic#16105" clickable="false">
+					<Title xml:lang="en">Catches</Title>
+				</Item>
+				<Item name="topic#16106" clickable="false">
+					<Title xml:lang="en">Fleet</Title>
+				</Item>
+				<Item name="topic#16107">
+					<Title xml:lang="en">SIPAM</Title>
+				</Item>
+				<Item name="topic#16101">
+					<Title xml:lang="en">TechnoMed</Title>
+				</Item>
+				<Item name="http://faolex.fao.org/faolex">
+					<Title xml:lang="en">National Legislation</Title>
+				</Item>
+				<Item name="http://www.faocopemed.org/reports/sac/2001/glossary_sac.pdf">
+					<Title xml:lang="en">Glossary</Title>
+				</Item>
+			</Item>
+			<Item name="topic#16100">
+				<Title xml:lang="en">Recommendations &amp;  Resolutions</Title>
+			</Item>
+			<Item name="topic#16087">
+				<Title xml:lang="en">Meetings</Title>
+				<Item name="topic#16088">
+					<Title xml:lang="en">All meetings</Title>
+				</Item>
+				<Item name="topic#166225">
+					<Title xml:lang="en">GFCM annual sessions</Title>
+				</Item>
+				<Item name="topic#166226">
+					<Title xml:lang="en">SAC meetings</Title>
+				</Item>
+				<Item name="topic#166227">
+					<Title xml:lang="en">CAQ meetings</Title>
+				</Item>
+				<Item name="topic#166228">
+					<Title xml:lang="en">CoC meetings</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMMeetingsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item name="topic#16108">
+				<Title xml:lang="en">Regional projects</Title>
+			</Item>
+			<Item name="topic#16169">
+				<Title xml:lang="en">Links</Title>
+			</Item>
+		</Menu>
+		<Menu name="General_Information">
+			<Title xml:lang="en">General Information</Title>
+			<Item name="topic#16166">
+				<Title xml:lang="en">Fleet Segmentation</Title>
+			</Item>
+			<Item name="topic#16162">
+				<Title xml:lang="en">Geographical Sub-Areas</Title>
+			</Item>
+			<Item name="topic#166221">
+				<Title xml:lang="en">Priority Species</Title>
+			</Item>
+			<Item name="topic#166222">
+				<Title xml:lang="en">Shared Stocks</Title>
+				<Item name="resource#*" visible="false">
+					<Title xml:lang="en">Marine Resource Fact Sheet</Title>
+				</Item>
+				<Item name="195000#*" visible="false">
+					<Title xml:lang="en">Marine Resource Fact Sheet</Title>
+				</Item>
+			</Item>
+		</Menu>
+		<Menu name="Reporting_forms">
+			<Title xml:lang="en">Reporting Forms &amp; Formats</Title>
+			<Item name="topic#16163">
+				<Title xml:lang="en">Authorized Vessels List</Title>
+			</Item>
+			<Item name="topic#16104">
+				<Title xml:lang="en">Dolphin Fish</Title>
+			</Item>
+			<Item name="topic#16167">
+				<Title xml:lang="en">Fishing Effort Measurement</Title>
+			</Item>
+			<Item name="topic#16165">
+				<Title xml:lang="en">Format for National Reports</Title>
+			</Item>
+			<Item name="topic#16164">
+				<Title xml:lang="en">GFCM Task 1</Title>
+			</Item>
+			<Item name="topic#166230">
+				<Title xml:lang="en">STATLANT 37A</Title>
+			</Item>
+			<Item name="topic#16086">
+				<Title xml:lang="en">Stock Assessment</Title>
+			</Item>
+		</Menu>
+	</Menus>
+</MenuConfig>

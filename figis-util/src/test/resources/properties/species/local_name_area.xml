@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:LocalNameEntry FID="$CD_LOCAL_NAME_AREA;">
+	<fi:LandPoliticalRef>
+		<fi:OrigText>$AREA_NAME;</fi:OrigText>
+	</fi:LandPoliticalRef>
+	$CD_AREA;
+	<fi:AddInfo>$NOTE;</fi:AddInfo>
+	$I_NAME;
+</fi:LocalNameEntry>

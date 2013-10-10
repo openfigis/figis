@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:TopicIdent FID="$CD_TOPIC;" Status="$FG_APPROVED;">
+	<dc:Identifier rdf:resource="CTN">$CDS_CODE;</dc:Identifier>
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+	</fi:Name>
+</fi:TopicIdent>

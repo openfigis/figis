@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:Owner FID="$CD_OWNER;">
+	$CD_COLLECTION;
+	$CD_CONTACT;
+</fi:Owner>
+	

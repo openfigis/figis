@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ImportConfig>
+	<Processor>
+		<SessionName>RefXmlImportSession</SessionName>
+		<Name>Fi-Stat XML import</Name>
+	</Processor>
+<!--	<Processor>
+		<SessionName>RefCsvImportSession</SessionName>
+		<Name>Comma-separated value file import</Name>
+	</Processor>
+-->
+</ImportConfig>

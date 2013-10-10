@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<KEYWORD_CONTROL>
+	<LINK_TAG ID="1" TYPE="SIMPLE" DS="species" QLAB="sname">FULLSCINAME</LINK_TAG>
+	<LINK_TAG ID="2" TYPE="SIMPLE" DS="species" QLAB="name">L_SPECIES</LINK_TAG>
+	<LINK_TAG ID="3" TYPE="SIMPLE" DS="geartype" QLAB="name">L_GEAR</LINK_TAG>
+	<LINK_TAG ID="4" TYPE="SIMPLE" DS="vesseltype" QLAB="name">L_VESSEL</LINK_TAG>
+	<LINK_TAG ID="5" TYPE="SIMPLE" DS="geartype" QLAB="name">L_GEARTYPE</LINK_TAG>
+	<LINK_TAG ID="6" TYPE="SIMPLE" DS="vesseltype" QLAB="name">L_VESSELTYPE</LINK_TAG>
+	<LINK_TAG ID="7" TYPE="SIMPLE" DS="fishtech" QLAB="name">L_FISHTECH</LINK_TAG>
+
+	<LINK_TAG TYPE="COMPOUND" DS="fishtech" MEMBERS="2 5 6">EXPLOITATION</LINK_TAG>
+
+<!-- these (below) are not used at the moment -->
+	<LINK_GRP DS="vesseltype" QLAB="name">
+		<GRP_MEMB>FISHVESS</GRP_MEMB>
+	</LINK_GRP>
+	<LINK_GRP DS="geartype" QLAB="name">
+		<GRP_MEMB>FISHGEAR</GRP_MEMB>
+	</LINK_GRP>
+	<LINK_GRP DS="species" QLAB="name">
+		<GRP_MEMB>AQSPECIES</GRP_MEMB>
+		<GRP_MEMB>TARGETSPEC</GRP_MEMB>
+	</LINK_GRP>
+</KEYWORD_CONTROL>

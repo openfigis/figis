@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	(note by Marco Balestra)
+	
+	This XML file is used by wwwroot/fi/figis/common/format/citation.xslt
+	It doesn't use the usual "label" schema, neither is accessed through the "getLabel" template.
+	On the other side, it actually handles "labels" from a semantic point of view.
+	Because of these considerations, it has been stored in the "custom" folder (within normal labels) for a more comfortable management and update.
+-->
+<customLabels>
+	<title type="and" xml:lang="en">and</title>
+	<title type="and" xml:lang="es">y</title>
+	<title type="and" xml:lang="fr">et</title>
+	<title type="and" xml:lang="ar">and</title>
+	<title type="and" xml:lang="zh">和</title>
+	<!--============================================-->
+	<title type="biblio" xml:lang="en">Bibliographic source(s) used in the generation of this fact sheet:</title>
+	<title type="biblio" xml:lang="es">Bibliografía utilizada en la elaboración de esta hoja de datos:</title>
+	<title type="biblio" xml:lang="fr">Source bibliographique utilisée dans la génération de cette fiche:</title>
+	<title type="biblio" xml:lang="ar">المصادر الببليوغرافية المستخدمة لتهييء صحيفة الوقائع:</title>
+	<title type="biblio" xml:lang="zh">编制情况说明使用的参考书目</title>
+	<title type="biblio" xml:lang="ru">Библиографические источники, использованные при разработке данных материалов:</title>
+	<!--============================================-->
+	<title type="collect" xml:lang="en">data collection</title>
+	<title type="collect" xml:lang="es">recopilación de datos</title>
+	<title type="collect" xml:lang="fr">collection de données</title>
+	<title type="collect" xml:lang="ar">جمع البيانات</title>
+	<title type="collect" xml:lang="zh">数据收集</title>
+	<title type="collect" xml:lang="ru">совокупность данных</title>
+	<!--============================================-->
+	<title type="part" xml:lang="en">and is part of the</title>
+	<title type="part" xml:lang="es">y es parte del</title>
+	<title type="part" xml:lang="fr">et fait partie de</title>
+	<title type="part" xml:lang="ar">وهو جزء من</title>
+	<title type="part" xml:lang="zh">组成部分</title>
+	<title type="part" xml:lang="ru">является частью</title>
+	<!--============================================-->
+	<title type="ownership" xml:lang="en">under the ownership of</title>
+	<title type="ownership" xml:lang="es">propiedad de</title>
+	<title type="ownership" xml:lang="fr">sous la propriété de</title>
+	<title type="ownership" xml:lang="ar">تحت ملكية</title>
+	<title type="ownership" xml:lang="zh">所有权</title>
+	<title type="ownership" xml:lang="ru">принадлежит</title>
+	<!--============================================-->
+	<title type="provider" xml:lang="en">This document is provided and maintained by the</title>
+	<title type="provider" xml:lang="es">Proporciona y mantiene este documento el</title>
+	<title type="provider" xml:lang="fr">Ce document est fourni et maintenu par</title>
+	<title type="provider" xml:lang="ar">هذه الوثيقة مقدمة و محتفظ بها من طرف</title>
+	<title type="provider" xml:lang="zh">本文件提供和保管单位</title>
+	<title type="provider" xml:lang="ru">Данный документ предоставлен и обновляется</title>
+	<!--============================================-->
+	<title type="updated" xml:lang="en">Updated</title>
+	<title type="updated" xml:lang="es">Actualizado</title>
+	<title type="updated" xml:lang="fr">Mis à jour</title>
+	<title type="updated" xml:lang="ar">تحديث</title>
+	<title type="updated" xml:lang="zh">已更新</title>
+	<title type="updated" xml:lang="ru">Обновленная версия</title>
+	<!--============================================-->
+	<title type="save" xml:lang="en">text-only view</title>
+	<title type="save" xml:lang="es">sólo texto</title>
+	<title type="save" xml:lang="fr">Vue texte seulement</title>
+	<title type="save" xml:lang="ar">عرض النص فقط</title>
+	<title type="save" xml:lang="zh">纯文字版</title>
+	<title type="save" xml:lang="ru">в текстовом формате</title>
+	<!--============================================-->
+	<title type="email" xml:lang="en">email it</title>
+	<title type="email" xml:lang="es">enviar por correo electrónico</title>
+	<title type="email" xml:lang="fr">email it</title>
+	<title type="email" xml:lang="ar">أرسله بالبريد الإلكتروني</title>
+	<title type="email" xml:lang="zh">发送邮件</title>
+	<title type="email" xml:lang="ru">отправить по электронной почте</title>
+	<!--============================================-->
+	<title type="cite" xml:lang="en">Cited</title>
+	<title type="cite" xml:lang="es">Citado</title>
+	<title type="cite" xml:lang="fr">Cited</title>
+	<title type="cite" xml:lang="ar">وٓرٓد</title>
+	<title type="cite" xml:lang="zh">引用</title>
+	<title type="cite" xml:lang="ru">Ссылка</title>
+	<!--============================================-->
+	<title type="source" xml:lang="en">Source of Information</title>
+	<title type="source" xml:lang="fr">Source d’informations</title>
+	<title type="source" xml:lang="es">Fuente de información</title>
+	<title type="source" xml:lang="ar">مصدر المعلومات</title>
+	<title type="source" xml:lang="zh">信息来源</title>
+	<title type="source" xml:lang="ru">Источник информации</title>
+	<!--============================================-->
+	<title type="loc" xml:lang="en">[online]. Rome.</title>
+	<title type="loc" xml:lang="es">[en línea]. Roma.</title>
+	<title type="loc" xml:lang="fr">[en ligne]. Rome.</title>
+	<title type="loc" xml:lang="ar">[على الإنترنت]. روما</title>
+	<title type="loc" xml:lang="zh">[在线]. 罗马</title>
+	<title type="loc" xml:lang="ru">[онлайн]. Рим.</title>
+	<!--============================================-->
+	<title type="Org" xml:lang="en">Website citation</title>
+	<title type="Org" xml:lang="es">Cita en el sitio web</title>
+	<title type="Org" xml:lang="fr">Citation du site Web</title>
+	<title type="Org" xml:lang="ar">استشهاد بموقع إلكتروني</title>
+	<title type="Org" xml:lang="zh">网站引用</title>
+	<title type="Org" xml:lang="ru">Ссылка на веб-сайт</title>
+	<!--============================================-->
+	<title type="" xml:lang="en">Bibliographic citation</title>
+	<title type="" xml:lang="es">Cita bibliográfica</title>
+	<title type="" xml:lang="fr">Citation bibliographique</title>
+	<title type="" xml:lang="ar">استشهاد بمصادر ببليوغرافية</title>
+	<title type="" xml:lang="zh">文献引用</title>
+	<title type="" xml:lang="ru">Библиографическая ссылка</title>
+	<!--============================================-->
+	<title type="CreatorPersonal" xml:lang="en">Text by</title>
+	<title type="CreatorPersonal" xml:lang="es">Texto de</title>
+	<title type="CreatorPersonal" xml:lang="fr">Texte par</title>
+	<title type="CreatorPersonal" xml:lang="ar">النص من طرف</title>
+	<title type="CreatorPersonal" xml:lang="zh">文字作者</title>
+	<title type="CreatorPersonal" xml:lang="ru">Автор текста</title>
+	<!--============================================-->
+	<title type="Editor" xml:lang="en">Text compiled by</title>
+	<title type="Editor" xml:lang="es">Texto recopilado por</title>
+	<title type="Editor" xml:lang="fr">Texte compilé par</title>
+	<title type="Editor" xml:lang="ar">	النص من إعداد</title>
+	<title type="Editor" xml:lang="zh">文字汇编</title>
+	<title type="Editor" xml:lang="ru">Составитель текста</title>
+	<!--============================================-->
+	<title type="Translator" xml:lang="en">Translated by</title>
+	<title type="Translator" xml:lang="es">Traducción de</title>
+	<title type="Translator" xml:lang="fr">Traduit par</title>
+	<title type="Translator" xml:lang="ar">الترجمة من طرف</title>
+	<title type="Translator" xml:lang="zh">翻译</title>
+	<title type="Translator" xml:lang="ru">Перевод</title>
+	<!--============================================-->
+	<title type="FI" xml:lang="en">In: <i>FAO Fisheries and Aquaculture Department</i></title>
+	<title type="FI" xml:lang="es">In: <i>Departamento de Pesca y Acuicultura de la FAO</i></title>
+	<title type="FI" xml:lang="fr">In: <i>Département des pêches et de l’aquaculture de la FAO</i></title>
+	<title type="FI" xml:lang="ar">In: <i>FAO  إدارة مصايد الأسماك وتربية الأحياء المائية إدارة مصايد الأسماك وتربية الأحياء المائية </i></title>
+	<title type="FI" xml:lang="zh">In: <i>FAO 渔业及水产养殖部 </i></title>
+	<title type="FI" xml:lang="ru">In: <i>FAO Департамент рыбного хозяйства и аквакультуры </i></title>
+	<!--============================================-->
+	<title type="FIRMS" xml:lang="en">In: <i>Fishery Resources Monitoring System (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="es">In: <i>Sistema de supervisión de los recursos pesqueros (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="fr">In: <i>Système de suivi des ressources halieutiques (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="ar">In: <i>نظام رصد الموارد السمكية (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="zh">In: <i>渔业资源监测系统 (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="zh">In: <i>Система мониторинга рыбопромысловых ресурсов (FIRMS)</i></title>
+	<title type="FIRMS" xml:lang="ru">In: <i>Система мониторинга рыбопромысловых ресурсов (FIRMS)</i></title>
+	<!--============================================-->
+	<title type="copy-FI" xml:lang="en">FAO</title>
+	<title type="copy-FIRMS" xml:lang="en">FIRMS</title>
+	<title type="copy-GFCM" xml:lang="en">GFCM</title>
+	<title type="copy-NANSEN" xml:lang="en">EAF-Nansen project</title>
+	<!-- ========================= -->
+	<tag domain="Org" collection="Missing">
+		<label xml:lang="en">Basic information on Regional Fishery Bodies of the World - </label>
+		<label xml:lang="es">Información básica sobre organismos regionales pesqueros del mundo: </label>
+		<label xml:lang="fr">Basic information on Regional Fishery Bodies of the World - </label>
+		<label xml:lang="ar">معلومات أساسية عن الهيئات الإقليمية لمصائد الأسماك في العالم</label>
+		<label xml:lang="zh">世界各区域渔业机构基本信息 - </label>
+		<label xml:lang="ru">Общая информация о региональных органах по рыбному хозяйству - </label>
+	</tag>
+	<tag domain="CountrySector" collection="NASO">
+		<label xml:lang="en">National Aquaculture Sector Overview Fact Sheets</label>
+		<label xml:lang="es">Hojas de datos generales del sector nacional de acuicultura</label>
+		<label xml:lang="fr">Fiches d’information Vue générale du secteur aquacole national</label>
+		<label xml:lang="ar">صحائف وقائع بشأن لمحة عامة عن القطاع القطري لتربية الأحياء المائية</label>
+		<label xml:lang="zh">国家水产养殖部门概况情况说明</label>
+		<label xml:lang="ru">Обзор национального сектора аквакультуры. Информационные бюллетени</label>
+	</tag>
+	<tag domain="LegalFramework" collection="NALO">
+		<label xml:lang="en">National Aquaculture Legislation Overview Fact Sheets</label>
+		<label xml:lang="es">Hojas de datos generales de la legislación nacional en materia de acuicultura</label>
+		<label xml:lang="fr">Fiches d’information Vue générale de la législation nationale sur l’aquaculture</label>
+		<label xml:lang="ar">استعراض عام للتشريعات الوطنية لتربية الأحياء المائية استعراض عام للتشريعات الوطنية لتربية الأحياء المائية </label>
+		<label xml:lang="ar">National Aquaculture Legislation Overview Fact Sheets</label>
+		<label xml:lang="zh">国家水产养殖立法概况情况说明 </label>
+		<label xml:lang="ru">Обзор национального законодательства в области аквакультуры. Информационные бюллетени</label>
+	</tag>
+	<tag domain="CulturedSpecies" collection="CASIP">
+		<label xml:lang="en">Cultured Aquatic Species Fact Sheets</label>
+		<label xml:lang="es">Hojas de datos sobre especies acuáticas de cría</label>
+		<!-- formerly Hojas informativas de las especies cultivadas-->
+		<label xml:lang="fr">Fiches d’information Espèces aquatiques d’élevage</label>
+		<label xml:lang="ar">صحائف وقائع عن تربية الأنواع المائية</label>
+		<label xml:lang="zh">水产养殖种类情况说明</label>
+		<label xml:lang="ru">Культивируемые виды водных биоресурсов. Информационные бюллетени</label>
+	</tag>
+	<tag domain="AqSpecies" collection="SIDP-SpecCat">
+		<label xml:lang="en">Species Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information Espèces</label>
+		<label xml:lang="es">Hojas de datos sobre las especies</label>
+		<label xml:lang="ar">صحائف وقائع عن الأنواع المائية</label>
+		<label xml:lang="zh">种类情况说明</label>
+		<label xml:lang="ru">Виды биоресурсов. Информационные бюллетени</label>
+	</tag>
+	<tag domain="FishTechnique" collection="all">
+		<label xml:lang="en">Fishing Techniques Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information Techniques de pêche</label>
+		<label xml:lang="es">Hojas de datos sobre técnicas pesqueras</label>
+		<label xml:lang="ar">صحائف وقائع عن تقنيات صيد الأسماك</label>
+		<label xml:lang="zh">捕捞技术情况说明</label>
+		<label xml:lang="ru">Методы рыбного промысла. Информационные бюллетени</label>
+	</tag>
+	<tag domain="Vesseltype" collection="all">
+		<label xml:lang="en">Vesseltype Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information Types de navires</label>
+		<label xml:lang="es">Hojas de datos sobre tipos de barcos</label>
+		<label xml:lang="ar">صحائف وقائع عن سفن الصيد</label>
+		<label xml:lang="zh">渔船类型情况说明</label>
+		<label xml:lang="ru">Типы судов. Информационные бюллетени</label>
+	</tag>
+	<tag domain="Geartype" collection="all">
+		<label xml:lang="en">Geartype Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information  Types d’engins</label>
+		<label xml:lang="es">Hojas de datos sobre tipos de artes de pesca</label>
+		<label xml:lang="ar">صحائف وقائع عن معدات صيد الأسماك</label>
+		<label xml:lang="zh">渔具类型情况说明</label>
+		<label xml:lang="ru">Типы орудий лова. Информационные бюллетени</label>
+	</tag>
+	<tag domain="FishEquip" collection="EQU">
+		<label xml:lang="en">Fishing Technology Series</label>
+		<label xml:lang="fr">Série Technologie des pêches</label>
+		<label xml:lang="es">Serie de tecnología pesquera</label>
+		<label xml:lang="ar">سلاسل تكنولوجيا الصيد</label>
+		<label xml:lang="zh">捕捞技术系列</label>
+		<label xml:lang="ru">Технологии рыбного промысла. Серия</label>
+	</tag>
+	<tag domain="CountrySector" collection="FAO_FCP">
+		<label xml:lang="en">Country Profile Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information Profils de pays</label>
+		<label xml:lang="es">Hojas de datos de perfiles de los países</label>
+		<label xml:lang="ar">صحائف وقائع عن الملامح القطرية</label>
+		<label xml:lang="zh">国别概况 - 情况说明</label>
+		<label xml:lang="ru">Справочная информация о стране</label>
+	</tag>
+	<tag domain="AqRes" collection="all">
+		<label xml:lang="en">FIRMS Reports</label>
+		<label xml:lang="fr">Rapports FIRMS</label>
+		<label xml:lang="es">Informes de FIRMS</label>
+		<label xml:lang="ar">تقارير عن نظام رصد الموارد السمكية</label>
+		<label xml:lang="zh">渔业资源监测系统报告</label>
+		<label xml:lang="ru">Система мониторинга рыбопромысловых ресурсов. Отчеты</label>
+	</tag>
+	<tag domain="Fishery" collection="15">
+		<label xml:lang="en">Fisheries inventory fact sheets</label>
+		<label xml:lang="fr">Fiches d’information Inventaires des pêches</label>
+		<label xml:lang="es">Hojas de datos de inventarios pesqueros</label>
+		<label xml:lang="ar">صحائف وقائع عن جرد مصايد الأسماك</label>
+		<label xml:lang="zh">渔业调查情况说明</label>
+		<label xml:lang="ru">Инвентаризация рыбного хозяйства. Информационные бюллетени</label>
+	</tag>
+	<tag domain="Fishery" collection="all">
+		<label xml:lang="en">FIRMS Reports</label>
+		<label xml:lang="fr">Rapports FIRMS</label>
+		<label xml:lang="es">Informes de FIRMS</label>
+		<label xml:lang="ar">تقارير عن نظام رصد الموارد السمكية</label>
+		<label xml:lang="zh">渔业资源监测系统报告</label>
+		<label xml:lang="ru">Система мониторинга рыбопромысловых ресурсов. Отчеты</label>
+	</tag>
+	<tag domain="IntroducedAqSpecies" collection="all">
+		<label xml:lang="en">Introduced Species Fact Sheets</label>
+		<label xml:lang="fr">Fiches d’information  Espèces introduites</label>
+		<label xml:lang="es">Hojas de datos de especies introducidas</label>
+		<label xml:lang="ar">صحائف وقائع عن الأنواع المُدخلة</label>
+		<label xml:lang="zh">引进种类情况说明</label>
+		<label xml:lang="ru">Внедренные виды биоресурсов. Информационные бюллетени</label>
+	</tag>
+</customLabels>

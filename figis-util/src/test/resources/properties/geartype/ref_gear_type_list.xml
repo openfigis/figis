@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:GeartypeIdent FID="$CD_GEAR_TYPE;" GRP="$GRP_IND;" Status="$ENTRY_STATUS;">
+	<fi:ISSCFGCode Type="num">$ISSCFG_CODE;</fi:ISSCFGCode>
+	<fi:ISSCFGCode Type="3alpha">$STD_ABBREV;</fi:ISSCFGCode>
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+		<fi:Fr>$NAME_F;</fi:Fr>
+		<fi:Sp>$NAME_S;</fi:Sp>
+	</fi:Name>
+	<fi:ShortDesc>
+		<fi:En>$SHORT_DESC_E;</fi:En>
+		<fi:Fr>$SHORT_DESC_F;</fi:Fr>
+		<fi:Sp>$SHORT_DESC_S;</fi:Sp>
+	</fi:ShortDesc>
+</fi:GeartypeIdent>

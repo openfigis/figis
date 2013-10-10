@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:CollectionRef>
+	<fi:FigisID MetaID="$CD_META;">$CD_COLLECTION;</fi:FigisID>
+	<fi:ForeignID Code="$CODE;" CodeSystem="Acronym"/>
+	<dc:Title xml:lang="en">$NAME_E;</dc:Title>
+	<dc:Title xml:lang="fr">$NAME_F;</dc:Title>
+	<dc:Title xml:lang="sp">$NAME_S;</dc:Title>
+	$CD_PROGRAMME;
+	$JT_INSTITUTE;
+	$DESCRIPTION;
+</fi:CollectionRef>

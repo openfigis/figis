@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- firmsLabel.xml
+***********************************************************************************************	
+*ti-  FIRMS Marine Resources Labels
+***********************************************************************************************	
+*md- FIRMS
+*sm-
+***********************************************************************************************	
+*ds- Contains all FIRMS Res labels for all resource elements. All 5 languages can be 
+*ds- handled
+***********************************************************************************************	
+*ac-
+***********************************************************************************************	
+*hi- 04-Jul-2006	Created By Sylvain Caillot
+***********************************************************************************************	
+-->
+<!--<!DOCTYPE labels SYSTEM "http://figis01/dtd/static_properties/labels.dtd">-->
+<labels>
+	<nodes>
+		<!-- FIRMS block of text displayed within Fact Sheets -->
+		<node ID="" Identifier="fishery" Type="">
+			<label xml:lang="en">Fishery</label>
+			<label xml:lang="fr">Pecheries</label>
+			<label xml:lang="es">Fishery</label>
+		</node>
+		<node ID="" Identifier="obssheet" Type="">
+			<label xml:lang="en">Observation Sheet</label>
+			<label xml:lang="fr">Feuille d'observation</label>
+			<label xml:lang="es">Observation Sheet</label>
+		</node>
+		<node ID="" Identifier="overview" Type="">
+			<label xml:lang="en">Overview:</label>
+			<label xml:lang="fr">Vue d'ensemble:</label>
+			<label xml:lang="es">Observation Sheet:</label>
+		</node>
+		<node ID="" Identifier="Overview" Type="">
+			<label xml:lang="en">Overview</label>
+			<label xml:lang="fr">Vue d'ensemble</label>
+			<label xml:lang="es">Observation Sheet</label>
+		</node>
+		<node ID="" Identifier="history" Type="">
+			<label xml:lang="en">History</label>
+			<label xml:lang="fr">Historique</label>
+			<label xml:lang="es">History</label>
+		</node>
+		<node ID="" Identifier="HarvestedResourcesStatusTrend" Type="">
+			<label xml:lang="en">Status and trends of the harvested resources</label>
+			<label xml:lang="fr">Ètat et tendence des ressources marines exploitées</label>
+			<label xml:lang="es">Status and trends of the harvested resources</label>
+		</node>
+		<node ID="" Identifier="status" Type="">
+			<label xml:lang="en">Fishery Status and Trends:</label>
+			<label xml:lang="fr">État et tendance de la pêcherie:</label>
+			<label xml:lang="es">Fishery Status and Trends:</label>
+		</node>
+		<node ID="" Identifier="status2" Type="">
+			<label xml:lang="en">Status:</label>
+			<label xml:lang="fr">État:</label>
+			<label xml:lang="es">Status:</label>
+		</node>
+		<node ID="" Identifier="activitydescriptor" Type="">
+			<label xml:lang="en">Activity Descriptors</label>
+			<label xml:lang="fr">Descripteurs d'activité</label>
+			<label xml:lang="es">Activity Descriptors</label>
+		</node>
+		<node ID="" Identifier="managementdescriptors" Type="">
+			<label xml:lang="en">Management Descriptors</label>
+			<label xml:lang="fr">Descripteurs de gestion</label>
+			<label xml:lang="es">Management Descriptors</label>
+		</node>
+		<node ID="" Identifier="productiondescriptor" Type="">
+			<label xml:lang="en">Production system Descriptors</label>
+			<label xml:lang="fr">Descripteurs de systemes de production</label>
+			<label xml:lang="es">Production system Descriptors</label>
+		</node>
+		<node ID="" Identifier="location" Type="">
+			<label xml:lang="en">Location of</label>
+			<label xml:lang="fr">Localisation de</label>
+			<label xml:lang="es">Location of</label>
+		</node>
+		<node ID="" Identifier="georeport" Type="">
+			<label xml:lang="en">Geographic reference:</label>
+			<label xml:lang="fr">Réference géographique:</label>
+			<label xml:lang="es">Geographic reference:</label>
+		</node>
+		<node ID="" Identifier="SpatialScale" Type="">
+			<label xml:lang="en">Spatial Scale:</label>
+			<label xml:lang="fr">Échelle spatiale:</label>
+			<label xml:lang="es">Spatial Scale:</label>
+		</node>
+		<node ID="" Identifier="spatialscale-def" Type="">
+			<label xml:lang="en">Spatial scale contains a standard term such as Global, Regional (e.g. for the whole Atlantic), sub-regional (e.g. for a part of the Atlantic), national, local (for sub-national levels).</label>
+			<label xml:lang="fr">Échelle spatiale contient un terme de référence comme mondial, régional (par exemple pour tout au long de l'océan Atlantique), sous-régional (par exemple pour une partie de l'Atlantique), national, local (pour les niveaux sous-nationaux).</label>
+			<label xml:lang="es">Spatial scale contains a standard term such as Global, Regional (e.g. for the whole Atlantic), sub-regional (e.g. for a part of the Atlantic), national, local (for sub-national levels).</label>
+		</node>
+		<!-- ////////// Fishery Thematic approach //// -->
+		<node ID="" Identifier="approach" Type="">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="fr">Approche</label>
+			<label xml:lang="es">Approach</label>
+		</node>
+		<node ID="" Identifier="Approach definition" Type="">
+			<label xml:lang="en">The thematic approach highlights the disciplinary viewpoint prevailing in the identification of fishery units.</label>
+			<label xml:lang="fr">L'approche thématique met l'accent sur le point de vue disciplinaire principalement utilisés dans l'identification des pêcheries.</label>
+			<label xml:lang="es">The thematic approach highlights the disciplinary viewpoint prevailing in the identification of fishery units.</label>
+		</node>
+		<node ID="" Identifier="Production System" Type="">
+			<label xml:lang="en">Production System</label>
+			<label xml:lang="fr">Système de production</label>
+			<label xml:lang="es">Production System</label>
+		</node>
+		<node ID="" Identifier="Production System definition" Type="">
+			<label xml:lang="en">A Production System approach identifies homogeneous segments of means of production (eg vessel type, fleet segments, or fishers communities) including through consideration of their enterprise or livelihood strategies, and focuses on the description of their socio-economic aspects.</label>
+			<label xml:lang="fr">Une approche système de production identifie des segments homogènes de moyens de production (par exemple, type de navire, segments de flotte ou des communautés de pêcheurs), notamment par l'examen de leur entreprise ou les stratégies de subsistance, et se concentre sur la description de leurs aspects socio-économiques.</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Fishery Management Unit" Type="">
+			<label xml:lang="en">Fishery Management Unit</label>
+			<label xml:lang="fr">Unité de gestion des pêcheries</label>
+			<label xml:lang="es">Fishery Management Unit</label>
+		</node>
+		<node ID="" Identifier="Fishery Management Unit definition" Type="">
+			<label xml:lang="en">A Fishery Management Unit approach highlights those harvested fishery resources under management considerations; a Fishery Management unit evolves from a Resource focus, while taking into account the jurisdiction within which this Resource is managed.</label>
+			<label xml:lang="fr">Une approche unité de gestion de la pêche met en évidence les ressources halieutiques récoltées en vertu de considérations de gestion; une unité de gestion de la pêche évolue d'une focalisation des ressources, tout en tenant compte de la juridiction dans laquelle cette ressource est gérée.</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Fishing Activity" Type="">
+			<label xml:lang="en">Fishing Activity</label>
+			<label xml:lang="fr">Activité de pêche</label>
+			<label xml:lang="es">Fishing Activity</label>
+		</node>
+		<node ID="" Identifier="Fishing Activity definition" Type="">
+			<label xml:lang="en">a Fishing activity approach stresses the fishing activity component and identifies classes of fishing activity implemented by a fishing fleet or fishermen community; this approach is positioned at the crossroad of the production system approach and the Resource.</label>
+			<label xml:lang="fr">L'approche activité de pêche insiste sur la composante de l'activité de pêche et identifie les catégories de l'activité de pêche mises en œuvre par une flotte de pêche ou de pêcheurs de la Communauté; cette approche est placée au carrefour de l'approche du système de production et de la ressource.</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Fishery Resource" Type="">
+			<label xml:lang="en">Fishery Resource</label>
+			<label xml:lang="fr">Ressources halieutiques</label>
+			<label xml:lang="es">Fishery Resource</label>
+		</node>
+		<node ID="" Identifier="Fishery Resource definition" Type="">
+			<label xml:lang="en">A Fishery Resource approach refers to elements of natural aquatic resources (biotic element) which can be legally caught by fishing.</label>
+			<label xml:lang="fr">une approche des ressources halieutiques se réfère à des éléments des ressources naturelles aquatiques (élément biotique) qui peuvent être légalement capturé par la pêche.</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Jurisdictional" Type="">
+			<label xml:lang="en">Jurisdictional</label>
+			<label xml:lang="fr">Juridiction</label>
+			<label xml:lang="es">Jurisdictional</label>
+		</node>
+		<node ID="" Identifier="Jurisdictional definition" Type="">
+			<label xml:lang="en">A Jurisdictional approach emphasises geopolitical and institutional boundaries which provide legitimacy for development of Management systems; as such, it describes the set of governing rules agreed within a recognized legal framework for the management of a fishery or group of fisheries;</label>
+			<label xml:lang="fr">Une approche juridictionnelles souligne les frontières géopolitiques et institutionnelles qui donnent une légitimité pour le développement de systèmes de gestion en tant que tel, il décrit l'ensemble des régissant les règles convenues au sein d'un cadre juridique reconnu de la gestion d'une pêcherie ou groupe de pêcheries;</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Access Rights" Type="">
+			<label xml:lang="en">Access Rights</label>
+			<label xml:lang="fr">Droits d'accès</label>
+			<label xml:lang="es">Access Rights</label>
+		</node>
+		<node ID="" Identifier="Access Rights definition" Type="">
+			<label xml:lang="en">An Access rights approach identifies Means of production authorized to operate within a jurisdiction.</label>
+			<label xml:lang="fr">Droits d'accès à une approche qui identifie les moyens de production autorisées à opérer au sein d'une juridiction.</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<!-- //////////////////  body node labels /////////////////////// -->
+		<node ID="" Identifier="resourcesExploited" Type="">
+			<label xml:lang="en">Resources Exploited</label>
+			<label xml:lang="fr">Ressources exploitées</label>
+			<label xml:lang="es">Resources Exploited</label>
+		</node>
+		<node ID="" Identifier="resourcesAssessed" Type="">
+			<label xml:lang="en">Resources Assessed</label>
+			<label xml:lang="fr">Ressources évaluées</label>
+			<label xml:lang="es">Resources Assessed</label>
+		</node>
+		<node ID="" Identifier="CapturedSpecies" Type="">
+			<label xml:lang="en">Captured Species</label>
+			<label xml:lang="fr">Espèces capturées</label>
+			<label xml:lang="es">Captured Species</label>
+		</node>
+		<node ID="" Identifier="TargetSpecies" Type="">
+			<label xml:lang="en">Target Species</label>
+			<label xml:lang="fr">Espèces cibles</label>
+			<label xml:lang="es">Target Species</label>
+		</node>
+		<node ID="" Identifier="AssociatedSpecies" Type="">
+			<label xml:lang="en">Associated species</label>
+			<label xml:lang="fr">Espèces associées</label>
+			<label xml:lang="es">Associated species</label>
+		</node>
+		<node ID="" Identifier="DiscardSpecies" Type="">
+			<label xml:lang="en">Discard species</label>
+			<label xml:lang="fr">Espèces rejetées</label>
+			<label xml:lang="es">Discard species</label>
+		</node>
+		<node ID="" Identifier="ProtectedSpecies" Type="">
+			<label xml:lang="en">Protected species</label>
+			<label xml:lang="fr">Espèces protégées</label>
+			<label xml:lang="es">Protected species</label>
+		</node>
+		<node ID="" Identifier="fishingtechnique" Type="">
+			<label xml:lang="en">Fishing Technique</label>
+			<label xml:lang="fr">Technique de pêche</label>
+			<label xml:lang="es">Fishing Technique</label>
+		</node>
+		<node ID="" Identifier="Geartype" Type="">
+			<label xml:lang="en">Fishing Gear</label>
+			<label xml:lang="fr">Engins de pêche</label>
+			<label xml:lang="es">Fishing Gear</label>
+		</node>
+		<node ID="" Identifier="Vesseltype" Type="">
+			<label xml:lang="en">Vessel Type</label>
+			<label xml:lang="fr">Type de navire</label>
+			<label xml:lang="es">Vessel Type</label>
+		</node>
+		<node ID="" Identifier="TypeOfProductionSystem" Type="">
+			<label xml:lang="en">Type of production system</label>
+			<label xml:lang="fr">Type de systeme de production</label>
+			<label xml:lang="es">Type of production system</label>
+		</node>
+		<node ID="" Identifier="Subsistence" Type="">
+			<label xml:lang="en">Subsistence</label>
+			<label xml:lang="fr">Subsistance</label>
+			<label xml:lang="es">Subsistence</label>
+		</node>
+		<node ID="" Identifier="Recreational" Type="">
+			<label xml:lang="en">Recreational</label>
+			<label xml:lang="fr">De loisirs</label>
+			<label xml:lang="es">Recreational</label>
+		</node>
+		<node ID="" Identifier="Commercial" Type="">
+			<label xml:lang="en">Commercial</label>
+			<label xml:lang="fr">Commercial</label>
+			<label xml:lang="es">Commercial</label>
+		</node>
+		<node ID="" Identifier="Artisanal" Type="">
+			<label xml:lang="en">Artisanal</label>
+			<label xml:lang="fr">Artisanal</label>
+			<label xml:lang="es">Artisanal</label>
+		</node>
+		<node ID="" Identifier="Semi-industrial" Type="">
+			<label xml:lang="en">Semi-industrial</label>
+			<label xml:lang="fr">Semi-industriel</label>
+			<label xml:lang="es">Semi-industrial</label>
+		</node>
+		<node ID="" Identifier="Industrial" Type="">
+			<label xml:lang="en">Industrial</label>
+			<label xml:lang="fr">Industriel</label>
+			<label xml:lang="es">Industrial</label>
+		</node>
+		<node ID="" Identifier="Exploratory_fishery" Type="">
+			<label xml:lang="en">Exploratory fishery</label>
+			<label xml:lang="fr">Pêcherie exploratoire</label>
+			<label xml:lang="es">Exploratory fishery</label>
+		</node>
+		<node ID="" Identifier="ManagementEntity" Type="">
+			<label xml:lang="en">Management Body/Authority</label>
+			<label xml:lang="fr">Institution en charge de la gestion</label>
+			<label xml:lang="es">Management Body/Authority</label>
+		</node>
+		<node ID="" Identifier="DepthZone" Type="">
+			<label xml:lang="en">Depth zone</label>
+			<label xml:lang="fr">Zone de profondeur</label>
+			<label xml:lang="es">Depth zone</label>
+		</node>
+		<node ID="" Identifier="BottomType" Type="">
+			<label xml:lang="en">Bottom type</label>
+			<label xml:lang="fr">Type de fond</label>
+			<label xml:lang="es">Bottom type</label>
+		</node>
+		<node ID="" Identifier="ClimaticZone" Type="">
+			<label xml:lang="en">Climatic zone</label>
+			<label xml:lang="fr">Zone Climatique</label>
+			<label xml:lang="es">Climatic zone</label>
+		</node>
+		<node ID="" Identifier="VerticalDist" Type="">
+			<label xml:lang="en">Vertical distribution</label>
+			<label xml:lang="fr">Distribution verticale</label>
+			<label xml:lang="es">Vertical distribution</label>
+		</node>
+		<node ID="" Identifier="HorizontalDist" Type="">
+			<label xml:lang="en">Horizontal distribution</label>
+			<label xml:lang="fr">Distribution horizontale</label>
+			<label xml:lang="es">Horizontal distribution</label>
+		</node>
+		<node ID="" Identifier="GeoForm" Type="">
+			<label xml:lang="en">Sea floor physiography</label>
+			<label xml:lang="fr">Physiographie du fond marin</label>
+			<label xml:lang="es">Sea floor physiography</label>
+		</node>
+		<node ID="" Identifier="georeferences" Type="">
+			<label xml:lang="en">Geo References of</label>
+			<label xml:lang="fr">Geo References de</label>
+			<label xml:lang="es">Geo References de</label>
+		</node>
+		<node ID="" Identifier="georeferencesfor" Type="">
+			<label xml:lang="en">Geo References for</label>
+			<label xml:lang="fr">Références geographiques pour</label>
+			<label xml:lang="es">Geo References for</label>
+		</node>
+		<node ID="" Identifier="landarea" Type="">
+			<label xml:lang="en">Land Area References</label>
+			<label xml:lang="fr">Références de zone territorielle</label>
+			<label xml:lang="es">Land Area References</label>
+		</node>
+		<node ID="" Identifier="landareafor" Type="">
+			<label xml:lang="en">Land Area References for</label>
+			<label xml:lang="fr">Références de zone territorielle pour</label>
+			<label xml:lang="es">Land Area References for</label>
+		</node>
+		<node ID="" Identifier="LandAreaRef" Type="">
+			<label xml:lang="en">Land Base</label>
+			<label xml:lang="fr">Land Base</label>
+			<label xml:lang="es">Land Base</label>
+		</node>
+		<node ID="" Identifier="moregeoreferences" Type="">
+			<label xml:lang="en">More Geo References</label>
+			<label xml:lang="fr">Plus des références geographiques</label>
+			<label xml:lang="es">More Geo References</label>
+		</node>
+		<node ID="" Identifier="additionalgeoreferences" Type="">
+			<label xml:lang="en">Additional area codes</label>
+			<label xml:lang="fr">Codes supplèmentaires des zones</label>
+			<label xml:lang="es">Additional area codes</label>
+		</node>
+		<node ID="" Identifier="intersectingareas" Type="">
+			<label xml:lang="en">The following area codes have been found as intersecting the location of</label>
+			<label xml:lang="fr">Les zones suivantes intersectent la position de</label>
+			<label xml:lang="es">The following area codes have been found as intersecting the location of</label>
+		</node>
+		<node ID="" Identifier="intersectingareas2" Type="">
+			<label xml:lang="en">The following area codes have been found as intersecting the jurisdictional area:</label>
+			<label xml:lang="fr">Les zones suivantes intersectent la zone jurisdictionelle:</label>
+			<label xml:lang="es">The following area codes have been found as intersecting the jurisdictional area:</label>
+		</node>
+		<node ID="" Identifier="fisheryancestor" Type="">
+			<label xml:lang="en">Ancestor's Activity, Start Year - End year:</label>
+			<label xml:lang="fr">Activité précedente, premiere année -  Derniere année:</label>
+			<label xml:lang="es">Ancestor's Activity, Start Year - End year:</label>
+		</node>
+		<node ID="" Identifier="ManagementUnit" Type="">
+			<label xml:lang="en">Management unit</label>
+			<label xml:lang="fr">Unité de gestion</label>
+			<label xml:lang="es">Management unit</label>
+		</node>
+		<node ID="" Identifier="true" Type="">
+			<label xml:lang="en">Yes</label>
+			<label xml:lang="fr">Oui</label>
+			<label xml:lang="es">Si</label>
+		</node>
+		<node ID="" Identifier="false" Type="">
+			<label xml:lang="en">No</label>
+			<label xml:lang="fr">Non</label>
+			<label xml:lang="es">No</label>
+		</node>
+		<!--////////////////////////////////////////////////////////////////////////FS TITLE/////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="FisheryArea" Type="">
+			<label xml:lang="en">Fishery Area</label>
+			<label xml:lang="fr">Zone de pêche</label>
+			<label xml:lang="es">Fishery Area</label>
+		</node>
+		<node ID="" Identifier="FishUtilisation" Type="">
+			<label xml:lang="en">Fish Utilisation</label>
+			<label xml:lang="fr">Utilisation du poisson</label>
+			<label xml:lang="es">Fish Utilisation</label>
+		</node>
+		<node ID="" Identifier="Markets" Type="">
+			<label xml:lang="en">Markets</label>
+			<label xml:lang="fr">Marchés</label>
+			<label xml:lang="es">Markets</label>
+		</node>
+		<node ID="" Identifier="Infrastructure" Type="">
+			<label xml:lang="en">Infrastructure</label>
+			<label xml:lang="fr">Infrastructure</label>
+			<label xml:lang="es">Infrastructure</label>
+		</node>
+		<node ID="" Identifier="PostHarvest" Type="">
+			<label xml:lang="en">Post Harvest</label>
+			<label xml:lang="fr">Après-Capture</label>
+			<label xml:lang="es">Post Harvest</label>
+		</node>
+		<node ID="" Identifier="Competence" Type="">
+			<label xml:lang="en">Competence</label>
+			<label xml:lang="fr">Competence</label>
+			<label xml:lang="es">Competence</label>
+		</node>
+		<node ID="" Identifier="Mandate" Type="">
+			<label xml:lang="en">Mandate</label>
+			<label xml:lang="fr">Mandat</label>
+			<label xml:lang="es">Mandate</label>
+		</node>
+		<node ID="" Identifier="Co-ordination" Type="">
+			<label xml:lang="en">Co-ordination</label>
+			<label xml:lang="fr">Coordination</label>
+			<label xml:lang="es">Co-ordination</label>
+		</node>
+		<node ID="" Identifier="Monitoring" Type="">
+			<label xml:lang="en">Monitoring</label>
+			<label xml:lang="fr">Surveillance</label>
+			<label xml:lang="es">Monitoring</label>
+		</node>
+		<node ID="" Identifier="Scientific_Advice" Type="">
+			<label xml:lang="en">Scientific Advice</label>
+			<label xml:lang="fr">Avis scientifique</label>
+			<label xml:lang="es">Scientific Advice</label>
+		</node>
+		<node ID="" Identifier="Management" Type="">
+			<label xml:lang="en">Management</label>
+			<label xml:lang="fr">Gestion</label>
+			<label xml:lang="es">Management</label>
+		</node>
+		<node ID="" Identifier="Control_and_Surveillance" Type="">
+			<label xml:lang="en">Control and surveillance</label>
+			<label xml:lang="fr">Contrôle et surveillance</label>
+			<label xml:lang="es">Control and surveillance</label>
+		</node>
+		<node ID="" Identifier="JurisdictionArea" Type="">
+			<label xml:lang="en">Jurisdiction Area</label>
+			<label xml:lang="fr">Zone de jurisdiction</label>
+			<label xml:lang="es">Jurisdiction Area</label>
+		</node>
+		<node ID="" Identifier="AreaUnderNationalJurisdiction" Type="">
+			<label xml:lang="en">Area under national jurisdiction</label>
+			<label xml:lang="fr">Zone sous juridiction nationale</label>
+			<label xml:lang="es">Area under national jurisdiction</label>
+		</node>
+		<node ID="" Identifier="RFB_CompetenceArea" Type="">
+			<label xml:lang="en">Area of Competence</label>
+			<label xml:lang="fr">Area of Competence</label>
+			<label xml:lang="es">Area of Competence</label>
+		</node>
+		<node ID="" Identifier="MaritimeArea" Type="">
+			<label xml:lang="en">Maritime Area</label>
+			<label xml:lang="fr">Zone maritime</label>
+			<label xml:lang="es">Maritime Area</label>
+		</node>
+		<node ID="" Identifier="Jurisdiction" Type="">
+			<label xml:lang="en">Jurisdictional framework</label>
+			<label xml:lang="fr">Cadre de juridiction</label>
+			<label xml:lang="es">Jurisdictional framework</label>
+		</node>
+		<node ID="" Identifier="Jurisdiction definition" Type="">
+			<label xml:lang="en">definition to be added</label>
+			<label xml:lang="fr">definition to be added</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="comprole" Type="">
+			<label xml:lang="en">Role</label>
+			<label xml:lang="fr">Rôle</label>
+			<label xml:lang="es">Role</label>
+		</node>
+		<node ID="" Identifier="assessmentsummary" Type="">
+			<label xml:lang="en">Assessment Summary</label>
+			<label xml:lang="fr">Résumé d'évaluation</label>
+			<label xml:lang="es">Assessment Summary</label>
+		</node>
+		<node ID="" Identifier="negotiationprocess" Type="">
+			<label xml:lang="en">Negotiation Process</label>
+			<label xml:lang="fr">Processus de négociation</label>
+			<label xml:lang="es">Negotiation Process</label>
+		</node>
+		<node ID="" Identifier="monitoringsystem" Type="">
+			<label xml:lang="en">Monitoring System</label>
+			<label xml:lang="fr">Système de surveillance</label>
+			<label xml:lang="es">Monitoring System</label>
+		</node>
+		<node ID="" Identifier="objectives" Type="">
+			<label xml:lang="en">Management Objectives</label>
+			<label xml:lang="fr">Objectifs de gestion</label>
+			<label xml:lang="es">Management Objectives</label>
+		</node>
+		<node ID="" Identifier="managementstrategies" Type="">
+			<label xml:lang="en">Management Strategies</label>
+			<label xml:lang="fr">Stratégies de gestion</label>
+			<label xml:lang="es">Management Strategies</label>
+		</node>
+		<node ID="" Identifier="managementmethods" Type="">
+			<label xml:lang="en">Management Methods</label>
+			<label xml:lang="fr">Méthodes de gestion</label>
+			<label xml:lang="es">Management Methods</label>
+		</node>
+		<node ID="" Identifier="ManagementAdvice" Type="">
+			<label xml:lang="en">Management Advice</label>
+			<label xml:lang="fr">Conseil de gestion</label>
+			<label xml:lang="es">Management Advice</label>
+		</node>
+		<node ID="" Identifier="ManagementProblems" Type="">
+			<label xml:lang="en">Management Problems</label>
+			<label xml:lang="fr">Problèmes liés à la gestion</label>
+			<label xml:lang="es">Management Problems</label>
+		</node>
+		<node ID="" Identifier="ManagementStatus" Type="">
+			<label xml:lang="en">Status of Management</label>
+			<label xml:lang="fr">Statut de gestion</label>
+			<label xml:lang="es">Status of Management</label>
+		</node>
+		<node ID="" Identifier="managementmethodtype" Type="">
+			<label xml:lang="en">Management Method Type</label>
+			<label xml:lang="fr">Type de méthode de gestion</label>
+			<label xml:lang="es">Management Method Type</label>
+		</node>
+		<node ID="" Identifier="ManagementResolutions" Type="">
+			<label xml:lang="en">Management Resolutions</label>
+			<label xml:lang="fr">Résolutions de gestion</label>
+			<label xml:lang="es">Management Resolutions</label>
+		</node>
+		<node ID="" Identifier="issues" Type="">
+			<label xml:lang="en">Issues</label>
+			<label xml:lang="fr">Questions</label>
+			<label xml:lang="es">Issues</label>
+		</node>
+		<node ID="" Identifier="Distant_water_(outside_EEZ)" Type="">
+			<label xml:lang="en">Distant water (outside EEZ)</label>
+			<label xml:lang="fr">Eaux lointaines (en dehors des ZEE)</label>
+			<label xml:lang="es">Distant water (outside EEZ)</label>
+		</node>
+		<node ID="" Identifier="Regional_competence_area" Type="">
+			<label xml:lang="en">Regional competence area</label>
+			<label xml:lang="fr">Aire régionale de compètence</label>
+			<label xml:lang="es">Regional competence area</label>
+		</node>
+		<node ID="" Identifier="National_(entire_EEZ)" Type="">
+			<label xml:lang="en">National (entire EEZ)</label>
+			<label xml:lang="fr">National (ZEE entière)</label>
+			<label xml:lang="es">National (entire EEZ)</label>
+		</node>
+		<node ID="" Identifier="Domestic_(inside_EEZ)" Type="">
+			<label xml:lang="en">Domestic (inside EEZ)</label>
+			<label xml:lang="fr">Domestique (à l'intérieur de la ZEE)</label>
+			<label xml:lang="es">Domestic (inside EEZ)</label>
+		</node>
+		<node ID="" Identifier="action" Type="">
+			<label xml:lang="en">Action</label>
+			<label xml:lang="fr">Action</label>
+			<label xml:lang="es">Action</label>
+		</node>
+		<node ID="" Identifier="solution" Type="">
+			<label xml:lang="en">Solution</label>
+			<label xml:lang="fr">Solution</label>
+			<label xml:lang="es">Solution</label>
+		</node>
+		<node ID="" Identifier="outlook" Type="">
+			<label xml:lang="en">Outlook</label>
+			<label xml:lang="fr">Prevision</label>
+			<label xml:lang="es">Outlook</label>
+		</node>
+		<node ID="" Identifier="background" Type="">
+			<label xml:lang="en">Background</label>
+			<label xml:lang="fr">Experience</label>
+			<label xml:lang="es">Background</label>
+		</node>
+		<node ID="" Identifier="Sources" Type="">
+			<label xml:lang="en">Source of information</label>
+			<label xml:lang="fr">Source de l'information</label>
+			<label xml:lang="es">Source of information</label>
+		</node>
+		<node ID="" Identifier="bibliography" Type="">
+			<label xml:lang="en">Bibliography</label>
+			<label xml:lang="fr">References Bibliographiques</label>
+			<label xml:lang="es">Referensas Bibliographicas</label>
+		</node>
+		<node ID="" Identifier="relatedresources" Type="">
+			<label xml:lang="en">Related Resources</label>
+			<label xml:lang="fr">Resources Relatives</label>
+			<label xml:lang="es">Related Resources</label>
+		</node>
+		<node ID="" Identifier="RelatedFisheries" Type="">
+			<label xml:lang="en">Related Fisheries</label>
+			<label xml:lang="fr">Pêcheries Relatives</label>
+			<label xml:lang="es">Related Fisheries</label>
+		</node>
+		<node ID="" Identifier="FisheryActivity" Type="">
+			<label xml:lang="en">Fishing Activity</label>
+			<label xml:lang="fr">Activité de pêche</label>
+			<label xml:lang="es">Fishing Activity</label>
+		</node>
+		<node ID="" Identifier="FisheryActivity definition" Type="">
+			<label xml:lang="en">Definition to be added</label>
+			<label xml:lang="fr">Definition to be added</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="fishingactivity" Type="">
+			<label xml:lang="en">Fishing Activity</label>
+			<label xml:lang="fr">Activité de pêche</label>
+			<label xml:lang="es">Fishing Activity</label>
+		</node>
+		<node ID="" Identifier="FishingIndustryActivity" Type="">
+			<label xml:lang="en">Fishing Industry Activity</label>
+			<label xml:lang="fr">Fishing Industry Activity</label>
+			<label xml:lang="es">Fishing Industry Activity</label>
+		</node>
+		<node ID="" Identifier="FisheryStatusTrend" Type="">
+			<label xml:lang="en">Status and Trends</label>
+			<label xml:lang="fr">Statuts et tendances</label>
+			<label xml:lang="es">Status and Trends</label>
+		</node>
+		<!--<node ID="" Identifier="fisherystruct" Type="">
+			<label xml:lang="en">Fishery Segments</label>
+			<label xml:lang="fr">Segments de pêche</label>
+			<label xml:lang="es">Fishery Segments</label>
+		</node>-->
+		<node ID="" Identifier="fleetsegment" Type="">
+			<label xml:lang="en">Fleets</label>
+			<label xml:lang="fr">Flottes</label>
+			<label xml:lang="es">Fleets</label>
+		</node>
+		<node ID="" Identifier="flagstate" Type="">
+			<label xml:lang="en">Flag State</label>
+			<label xml:lang="fr">État de pavillon</label>
+			<label xml:lang="es">Flag State</label>
+		</node>
+		<node ID="" Identifier="crew" Type="">
+			<label xml:lang="en">Crew</label>
+			<label xml:lang="fr">Équipage</label>
+			<label xml:lang="es">Crew</label>
+		</node>
+		<node ID="" Identifier="tonnage" Type="">
+			<label xml:lang="en">Tonnage</label>
+			<label xml:lang="fr">Tonnage</label>
+			<label xml:lang="es">Tonnage</label>
+		</node>
+		<node ID="" Identifier="power" Type="">
+			<label xml:lang="en">Power Class</label>
+			<label xml:lang="fr">Clasees de puissance</label>
+			<label xml:lang="es">Power Class</label>
+		</node>
+		<node ID="" Identifier="vessellength" Type="">
+			<label xml:lang="en">Vessel Type Length</label>
+			<label xml:lang="fr">Type de longueur de navire</label>
+			<label xml:lang="es">Vessel Type Length</label>
+		</node>
+		<node ID="" Identifier="ComplianceType" Type="">
+			<label xml:lang="en">Compliance Type</label>
+			<label xml:lang="fr">Type de conformité</label>
+			<label xml:lang="es">Compliance Type</label>
+		</node>
+		<node ID="" Identifier="ethnicity" Type="">
+			<label xml:lang="en">Ethnicity</label>
+			<label xml:lang="fr">Appartenance ethnique</label>
+			<label xml:lang="es">Ethnicity</label>
+		</node>
+		<node ID="" Identifier="number" Type="">
+			<label xml:lang="en">Number</label>
+			<label xml:lang="fr">Nombre</label>
+			<label xml:lang="es">Number</label>
+		</node>
+		<node ID="" Identifier="catchhandling" Type="">
+			<label xml:lang="en">Catch Handling and Processing Equipment</label>
+			<label xml:lang="fr">Manipulation des captures et équipement de traitement</label>
+			<label xml:lang="es">Catch Handling and Processing Equipment</label>
+		</node>
+		<node ID="" Identifier="onboard" Type="">
+			<label xml:lang="en">On Board Facilities</label>
+			<label xml:lang="fr">Équipements a bord</label>
+			<label xml:lang="es">On Board Facilities</label>
+		</node>
+		<node ID="" Identifier="handlingmode" Type="">
+			<label xml:lang="en">Handling Mode</label>
+			<label xml:lang="fr">Mode de manipulation</label>
+			<label xml:lang="es">Handling Mode</label>
+		</node>
+		<node ID="" Identifier="Season" Type="">
+			<label xml:lang="en">Seasonality</label>
+			<label xml:lang="fr">Saisonalité</label>
+			<label xml:lang="es">Seasonality</label>
+		</node>
+		<node ID="" Identifier="TripDuration" Type="">
+			<label xml:lang="en">Trip duration</label>
+			<label xml:lang="fr">Durée de la marée</label>
+			<label xml:lang="es">Trip duration</label>
+		</node>
+		<node ID="" Identifier="Ports" Type="">
+			<label xml:lang="en">Ports</label>
+			<label xml:lang="fr">Ports</label>
+			<label xml:lang="es">Ports</label>
+		</node>
+		<node ID="" Identifier="Community" Type="">
+			<label xml:lang="en">Community</label>
+			<label xml:lang="fr">Communauté</label>
+			<label xml:lang="es">Community</label>
+		</node>
+		<node ID="" Identifier="SocioEconomicAssessment" Type="">
+			<label xml:lang="en">Socioeconomic Assessment</label>
+			<label xml:lang="fr">Évaluation socio-économique</label>
+			<label xml:lang="es">Socioeconomic Assessment</label>
+		</node>
+		<node ID="" Identifier="EcosystemAssessment" Type="">
+			<label xml:lang="en">Ecosystem Assessment</label>
+			<label xml:lang="fr">Évaluation des écosystèm</label>
+			<label xml:lang="es">Ecosystem Assessment</label>
+		</node>
+		<node ID="" Identifier="managementregime" Type="">
+			<label xml:lang="en">Management Regime</label>
+			<label xml:lang="fr">Regime de gestion</label>
+			<label xml:lang="es">Management Regime</label>
+		</node>
+		<node ID="" Identifier="Means_of_Production" Type="">
+			<label xml:lang="en">Means of Production</label>
+			<label xml:lang="fr">Moyens de production</label>
+			<label xml:lang="es">Means of Production</label>
+		</node>
+		<node ID="" Identifier="Means_of_Production definition" Type="">
+			<label xml:lang="en">Definition to be added</label>
+			<label xml:lang="fr">Definition to be added</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="georeport-def" Type="">
+			<label xml:lang="en">Geographic reference: geographical basis at which fisheries are included in the inventory</label>
+			<label xml:lang="fr">Geographic reference: geographical basis at which fisheries are included in the inventory</label>
+			<label xml:lang="es">Geographic reference: geographical basis at which fisheries are included in the inventory</label>
+		</node>
+		<node ID="" Identifier="Harvested_Resource" Type="">
+			<label xml:lang="en">Harvested Resource</label>
+			<label xml:lang="fr">Espèces capturées</label>
+			<label xml:lang="es">Harvested Resource</label>
+		</node>
+		<node ID="" Identifier="Harvested_Resource definition" Type="">
+			<label xml:lang="en">Definition to be added</label>
+			<label xml:lang="fr">Definition to be added</label>
+			<label xml:lang="es">Definition to be added</label>
+		</node>
+		<node ID="" Identifier="Exploitation" Type="">
+			<label xml:lang="en">Exploitation</label>
+			<label xml:lang="fr">Exploitation</label>
+			<label xml:lang="es">Exploitation</label>
+		</node>
+		<node ID="" Identifier="Social and Economic Aspects" Type="">
+			<label xml:lang="en">Social and Economic Aspects</label>
+			<label xml:lang="fr">Aspects Socio-écomomique</label>
+			<label xml:lang="es">Social and Economic Aspects</label>
+		</node>
+		<node ID="" Identifier="Fishing_Activity" Type="">
+			<label xml:lang="en">Fishing Activity</label>
+			<label xml:lang="fr">Activité de pêche</label>
+			<label xml:lang="es">Fishing Activity</label>
+		</node>
+		<node ID="" Identifier="more" Type="">
+			<label xml:lang="en">more>></label>
+			<label xml:lang="fr">plus>></label>
+			<label xml:lang="es">more>></label>
+		</node>
+		<node ID="" Identifier="less" Type="">
+			<label xml:lang="en">&lt;&lt;less</label>
+			<label xml:lang="fr">&lt;&lt;moins</label>
+			<label xml:lang="es">&lt;&lt;minus</label>
+		</node>
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="MainDescriptors" Type="">
+			<label xml:lang="en">Main Descriptors</label>
+			<label xml:lang="fr">Principaux Descripteurs</label>
+			<label xml:lang="es">MainDescriptors</label>
+		</node>
+		<node ID="" Identifier="EnlargeImage" Type="">
+			<label xml:lang="en">Click to enlarge</label>
+			<label xml:lang="fr">Cliquer pour agrandir</label>
+			<label xml:lang="es">Click to enlarge</label>
+		</node>
+		<node ID="" Identifier="ConsideredAsAStock" Type="">
+			<label xml:lang="en">Considered a single stock</label>
+			<label xml:lang="fr">Considéré comme un stock unique</label>
+			<label xml:lang="es">Considered as a stock</label>
+		</node>
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="gfcm_sub_area" Type="">
+			<label xml:lang="en">GFCM geographical sub-areas</label>
+			<label xml:lang="fr">Sous-zones géographiques du CGPM</label>
+			<label xml:lang="es">GFCM geographical sub-areas</label>
+		</node>
+		<node ID="" Identifier="iccat_smu" Type="">
+			<label xml:lang="en">ICCAT Management Unit Areas</label>
+			<label xml:lang="fr">Unité de gestion du ICCAT</label>
+			<label xml:lang="es">ICCAT Management Unit Areas</label>
+		</node>
+		<node ID="" Identifier="rfb_comp" Type="">
+			<label xml:lang="en">RFB competence</label>
+			<label xml:lang="fr">Compétence du RFB</label>
+			<label xml:lang="es">RFB competence</label>
+		</node>
+		<node ID="" Identifier="LME" Type="">
+			<label xml:lang="en">(LME) Large Marine Ecosystem Areas</label>
+			<label xml:lang="fr">Grands écosystèmes marins (LME)</label>
+			<label xml:lang="es">(LME) Large Marine Ecosystem Areas</label>
+		</node>
+		<node ID="" Identifier="EEZ" Type="">
+			<label xml:lang="en">(EEZ) Exclusive Economic Zone Areas</label>
+			<label xml:lang="fr">(ZEE) Zone Économique Exclusive</label>
+			<label xml:lang="es">(EEZ) Exclusive Economic Zone Areas</label>
+		</node>
+		<node ID="" Identifier="lme" Type="">
+			<label xml:lang="en">(LME) Large Marine Ecosystem Areas</label>
+			<label xml:lang="fr">Grands écosystèmes marins (LME)</label>
+			<label xml:lang="es">(LME) Large Marine Ecosystem Areas</label>
+		</node>
+		<node ID="" Identifier="eez" Type="">
+			<label xml:lang="en">(EEZ) Exclusive Economic Zone Areas</label>
+			<label xml:lang="fr">(ZEE) Zone Économique Exclusive</label>
+			<label xml:lang="es">(EEZ) Exclusive Economic Zone Areas</label>
+		</node>
+		<node ID="" Identifier="iso3" Type="">
+			<label xml:lang="en">ISO3 Code</label>
+			<label xml:lang="fr">Code ISO3</label>
+			<label xml:lang="es">Code ISO3</label>
+		</node>
+		<node ID="" Identifier="iso2" Type="">
+			<label xml:lang="en">ISO2 Code</label>
+			<label xml:lang="fr">Code ISO2</label>
+			<label xml:lang="es">Code ISO2</label>
+		</node>
+		<node ID="" Identifier="Statistical" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Areas</label>
+			<label xml:lang="fr">Zones de pêche statistiques de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Areas</label>
+		</node>
+		<node ID="" Identifier="fao_area" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Areas</label>
+			<label xml:lang="fr">Zones de pêche statistiques de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Areas</label>
+		</node>
+		<node ID="" Identifier="fao_major" Type="">
+			<label xml:lang="en">FAO Major Fishing Area</label>
+			<label xml:lang="fr">Principales zones de pêche de la FAO</label>
+			<label xml:lang="es">FAO Major Fishing Area</label>
+		</node>
+		<node ID="" Identifier="fao_sub_area" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Sub Areas</label>
+			<label xml:lang="fr">Sous zones statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Sub Areas</label>
+		</node>
+		<node ID="" Identifier="fao_div" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Divisions</label>
+			<label xml:lang="fr">Divisions statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Divisions</label>
+		</node>
+		<node ID="" Identifier="fao_sub_div" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Subdivisions</label>
+			<label xml:lang="fr">Sous divisions statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Subdivisions</label>
+		</node>
+		<node ID="" Identifier="pac_tuna_rep" Type="">
+			<label xml:lang="en">Pacific Tuna and Tuna-like Reporting areas</label>
+			<label xml:lang="fr">Zones de rapports du thon et de thonidés du Pacifique</label>
+			<label xml:lang="es">Pacific Tuna and Tuna-like Reporting areas</label>
+		</node>
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="State" Type="">
+			<label xml:lang="en">State</label>
+			<label xml:lang="fr">Etat</label>
+			<label xml:lang="es">State</label>
+		</node>
+		<node ID="" Identifier="Trend" Type="">
+			<label xml:lang="en">Trend</label>
+			<label xml:lang="fr">Tendance</label>
+			<label xml:lang="es">Trend</label>
+		</node>
+		<node ID="" Identifier="ecosystem" Type="">
+			<label xml:lang="en">Ecosystem Assessment</label>
+			<label xml:lang="fr">Evaluation de l'écosysteme</label>
+			<label xml:lang="es">Ecosystem Assessment</label>
+		</node>
+		<node ID="" Identifier="JurisdictionalDist" Type="">
+			<label xml:lang="en">Jurisdictional distribution</label>
+			<label xml:lang="fr">Distribution jurisdictionnelle</label>
+			<label xml:lang="es">Jurisdictional distribution</label>
+		</node>
+		<node ID="" Identifier="EnvironmentalGroup" Type="">
+			<label xml:lang="en">Environmental group</label>
+			<label xml:lang="fr">Groupe environmental</label>
+			<label xml:lang="es">Environmental group</label>
+		</node>
+		<node ID="" Identifier="ThisFactSheetHas" Type="">
+			<label xml:lang="en">This Fact Sheet has</label>
+			<label xml:lang="fr">Cette Fact Sheet a</label>
+			<label xml:lang="es">Esta Fact Sheet tiene</label>
+		</node>
+		<node ID="" Identifier="ObservationSheet" Type="">
+			<label xml:lang="en">Observation Sheet</label>
+			<label xml:lang="fr">Observation Sheet</label>
+			<label xml:lang="es">Observation Sheet</label>
+		</node>
+		<node ID="" Identifier="obsPlurial" Type="">
+			<label xml:lang="en">s</label>
+			<label xml:lang="fr">s</label>
+			<label xml:lang="es">s</label>
+		</node>
+		<node ID="" Identifier="Species" Type="">
+			<label xml:lang="en">Species</label>
+			<label xml:lang="fr">Espèces</label>
+			<label xml:lang="es">Species</label>
+		</node>
+		<node ID="" Identifier="FaoNames" Type="">
+			<label xml:lang="en">Fao Names</label>
+			<label xml:lang="fr">Noms FAO</label>
+			<label xml:lang="es">Nombres FAO</label>
+		</node>
+		<node ID="" Identifier="GivenName" Type="">
+			<label xml:lang="en">Given Name</label>
+			<label xml:lang="fr">Nom donné</label>
+			<label xml:lang="es">Given Name</label>
+		</node>
+		<node ID="" Identifier="listSecObs" Type="">
+			<label xml:lang="en">Related observations</label>
+			<label xml:lang="fr">Observations associées</label>
+			<label xml:lang="es">Related observations</label>
+		</node>
+		<node ID="" Identifier="Area" Type="">
+			<label xml:lang="en">Area</label>
+			<label xml:lang="fr">Zone</label>
+			<label xml:lang="es">Area</label>
+		</node>
+		<node ID="" Identifier="AreaOf" Type="">
+			<label xml:lang="en">Distribution of</label>
+			<label xml:lang="fr">Distribution de</label>
+			<label xml:lang="es">Area</label>
+		</node>
+		<node ID="" Identifier="AreaDetails" Type="">
+			<label xml:lang="en">Area Details</label>
+			<label xml:lang="fr">Détail des zones</label>
+			<label xml:lang="es">Area Details</label>
+		</node>
+		<!-- Label for main blocks of information -->
+		<!-- By default, identifier is local-name() -->
+		<node ID="" Identifier="HabitatBio" Type="">
+			<label xml:lang="en">Habitat and Biology</label>
+			<label xml:lang="fr">Habitat et Biologie</label>
+			<label xml:lang="es">Habitat and Biology</label>
+		</node>
+		<node ID="" Identifier="GeoDist" Type="">
+			<label xml:lang="en">Geographical Distribution</label>
+			<label xml:lang="fr">Distribution Géographique</label>
+			<label xml:lang="es">Geographical Distribution</label>
+		</node>
+		<node ID="" Identifier="Exploit" Type="">
+			<label xml:lang="en">Exploitation</label>
+			<label xml:lang="fr">Exploitation</label>
+			<label xml:lang="es">Exploitation</label>
+		</node>
+		<node ID="" Identifier="BioAssess" Type="">
+			<label xml:lang="en">Assessment</label>
+			<label xml:lang="fr">Assessment</label>
+			<label xml:lang="es">Assessment</label>
+		</node>
+		<node ID="" Identifier="AqResStruct" Type="">
+			<label xml:lang="en">Resource Structure</label>
+			<label xml:lang="fr">Structure de la ressource</label>
+			<label xml:lang="es">Resource Structure</label>
+		</node>
+		<node ID="" Identifier="WaterAreaOverview" Type="">
+			<label xml:lang="en">Water Area Overview</label>
+			<label xml:lang="fr">Vue d'ensemble de la zone aquatique</label>
+			<label xml:lang="es">Water Area Overview</label>
+		</node>
+		<node ID="" Identifier="Statistics" Type="">
+			<label xml:lang="en">Statistics</label>
+			<label xml:lang="fr">Statistiques</label>
+			<label xml:lang="es">Statistics</label>
+		</node>
+		<node ID="" Identifier="Projection" Type="">
+			<label xml:lang="en">Projection</label>
+			<label xml:lang="fr">Projection</label>
+			<label xml:lang="es">Projection</label>
+		</node>
+		<node ID="" Identifier="OverallAssessmentResults" Type="">
+			<label xml:lang="en">Overall Assessment Results</label>
+			<label xml:lang="fr">Overall Assessment Results</label>
+			<label xml:lang="es">Overall Assessment Results</label>
+		</node>
+		<node ID="" Identifier="ManagementObjectives" Type="">
+			<label xml:lang="en">Management Objectives</label>
+			<label xml:lang="fr">Objectifs de gestion</label>
+			<label xml:lang="es">Management Objectives</label>
+		</node>
+		<node ID="" Identifier="ManagementStrategies" Type="">
+			<label xml:lang="en">Management Strategies</label>
+			<label xml:lang="fr">Stratégies de gestion</label>
+			<label xml:lang="es">Management Strategies</label>
+		</node>
+		<node ID="" Identifier="RefPoint" Type="">
+			<label xml:lang="en">Reference Point</label>
+			<label xml:lang="fr">Reference Point</label>
+			<label xml:lang="es">Reference Point</label>
+		</node>
+		<node ID="" Identifier="SciAdvice" Type="">
+			<label xml:lang="en">Scientific Advice</label>
+			<label xml:lang="fr">Scientific Advice</label>
+			<label xml:lang="es">Scientific Advice</label>
+		</node>
+		<node ID="" Identifier="Assumption" Type="">
+			<label xml:lang="en">Assumption</label>
+			<label xml:lang="fr">Assumption</label>
+			<label xml:lang="es">Assumption</label>
+		</node>
+		<node ID="" Identifier="Methodology" Type="">
+			<label xml:lang="en">Methodology</label>
+			<label xml:lang="fr">Methodology</label>
+			<label xml:lang="es">Methodology</label>
+		</node>
+		<node ID="" Identifier="AssessIndicator" Type="">
+			<label xml:lang="en">Assessment Indicator</label>
+			<label xml:lang="fr">Assessment Indicator</label>
+			<label xml:lang="es">Assessment Indicator</label>
+		</node>
+		<node ID="" Identifier="AssessModels" Type="">
+			<label xml:lang="en">Assessment Model</label>
+			<label xml:lang="fr">Assessment Model</label>
+			<label xml:lang="es">Assessment Model</label>
+		</node>
+		<node ID="" Identifier="Data" Type="">
+			<label xml:lang="en">Data</label>
+			<label xml:lang="fr">Data</label>
+			<label xml:lang="es">Data</label>
+		</node>
+		<node ID="" Identifier="Results" Type="">
+			<label xml:lang="en">Results</label>
+			<label xml:lang="fr">Résultats</label>
+			<label xml:lang="es">Results</label>
+		</node>
+		<node ID="" Identifier="ExploitRate" Type="">
+			<label xml:lang="en">Exploitation rate</label>
+			<label xml:lang="fr">Taux exploitation</label>
+			<label xml:lang="es">Exploitation rate</label>
+		</node>
+		<node ID="" Identifier="AbundanceLevel" Type="">
+			<label xml:lang="en">Abundance level</label>
+			<label xml:lang="fr">Niveau d'abondance</label>
+			<label xml:lang="es">Abundance level</label>
+		</node>
+		<node ID="" Identifier="ExploitState" Type="">
+			<label xml:lang="en">Exploitation state</label>
+			<label xml:lang="fr">Etat d'exploitation</label>
+			<label xml:lang="es">Exploitation statel</label>
+		</node>
+		<node ID="" Identifier="NotProvided" Type="">
+			<label xml:lang="en">Not Provided</label>
+			<label xml:lang="fr">Non fourni</label>
+			<label xml:lang="es">Not Provided</label>
+		</node>
+		<node ID="" Identifier="Exploited" Type="">
+			<label xml:lang="en">Exploited</label>
+			<label xml:lang="fr">Exploité</label>
+			<label xml:lang="es">Exploited</label>
+		</node>
+		<node ID="" Identifier="Assessed" Type="">
+			<label xml:lang="en">Assessed</label>
+			<label xml:lang="fr">Evalué</label>
+			<label xml:lang="es">Assessed</label>
+		</node>
+		<!-- //// fishery indicator node /// -->
+		<node ID="" Identifier="FisheryIndicator">
+			<label xml:lang="en">Fishery Indicators</label>
+			<label xml:lang="fr">Indicateurs de la pêcherie</label>
+			<label xml:lang="es">Fishery Indicators</label>
+		</node>
+		<node ID="" Identifier="FisheryIndicator definition" Type="">
+			<label xml:lang="en">Fishery Indicator: Handles all types of indicators reflecting human action in a fishery, e.g. those related to type of exploitation, means of production, and management.</label>
+			<label xml:lang="fr">Indicateur de la pêche: traite tous les types d'indicateurs reflétant l'action humaine dans une pêcherie, par exemple, ceux qui sont liés au type d'exploitation, de moyens de production et de gestion.</label>
+			<label xml:lang="es">Fishery Indicator: Handles all types of indicators reflecting human action in a fishery, e.g. those related to type of exploitation, means of production, and management.</label>
+		</node>
+		<node ID="" Identifier="FisheryIndicatorList">
+			<label xml:lang="en">List of fishery Indicators</label>
+			<label xml:lang="fr">Liste des indicateurs de la pêcherie</label>
+			<label xml:lang="es">List of fishery Indicators</label>
+		</node>
+		<node ID="" Identifier="Measure">
+			<label xml:lang="en">Measure</label>
+			<label xml:lang="fr">Mesure</label>
+			<label xml:lang="es">Measure</label>
+		</node>
+		<node ID="" Identifier="TimeFrame">
+			<label xml:lang="en">Time period</label>
+			<label xml:lang="fr">Période de temps</label>
+			<label xml:lang="es">Time period</label>
+		</node>
+		<node ID="" Identifier="Type" Type="">
+			<label xml:lang="en">Type</label>
+			<label xml:lang="fr">Type</label>
+			<label xml:lang="es">Type</label>
+		</node>
+		<node ID="" Identifier="Value" Type="">
+			<label xml:lang="en">Value</label>
+			<label xml:lang="fr">Valeur</label>
+			<label xml:lang="es">Value</label>
+		</node>
+		<node ID="" Identifier="Unit" Type="">
+			<label xml:lang="en">Unit</label>
+			<label xml:lang="fr">Unité</label>
+			<label xml:lang="es">Unit</label>
+		</node>
+		<node ID="" Identifier="Class" Type="">
+			<label xml:lang="en">Class</label>
+			<label xml:lang="fr">Classe</label>
+			<label xml:lang="es">Class</label>
+		</node>
+		<!-- /// fishery indicator attribute values /// -->
+		<node ID="" Identifier="Fleet_Size" Type="">
+			<label xml:lang="en">Fleet size</label>
+			<label xml:lang="fr">Taille de la flotte</label>
+			<label xml:lang="es">Fleet size</label>
+		</node>
+		<node ID="" Identifier="Employment" Type="">
+			<label xml:lang="en">Employment</label>
+			<label xml:lang="fr">Emploi</label>
+			<label xml:lang="es">Employment</label>
+		</node>
+		<node ID="" Identifier="Number_Vessels" Type="">
+			<label xml:lang="en">Number of vessels</label>
+			<label xml:lang="fr">Nombre de navires</label>
+			<label xml:lang="es">Number of Vessels</label>
+		</node>
+		<node ID="" Identifier="Number_Fishermen" Type="">
+			<label xml:lang="en">Number of fishermen</label>
+			<label xml:lang="fr">Nombre de pêcheurs</label>
+			<label xml:lang="es">Number of fishermen</label>
+		</node>
+		<node ID="" Identifier="Exploitation" Type="">
+			<label xml:lang="en">Exploitation</label>
+			<label xml:lang="fr">Exploitation</label>
+		</node>
+		<node ID="" Identifier="Socioeconomic" Type="">
+			<label xml:lang="en">Socioeconomic</label>
+			<label xml:lang="fr">Socio-économique</label>
+		</node>
+		<node ID="" Identifier="Catch" Type="">
+			<label xml:lang="en">Catch</label>
+			<label xml:lang="fr">Capture</label>
+		</node>
+		<node ID="" Identifier="Effort" Type="">
+			<label xml:lang="en">Effort</label>
+			<label xml:lang="fr">Effort</label>
+		</node>
+		<node ID="" Identifier="Economic_Performance" Type="">
+			<label xml:lang="en">Economic Performance</label>
+			<label xml:lang="fr">Performance économique</label>
+		</node>
+		<node ID="" Identifier="Fishing_Capacity" Type="">
+			<label xml:lang="en">Fishing Capacity</label>
+			<label xml:lang="fr">Capacité de pêche</label>
+		</node>
+		<node ID="" Identifier="Production" Type="">
+			<label xml:lang="en">Production</label>
+			<label xml:lang="fr">Production</label>
+		</node>
+		<node ID="" Identifier="Participation" Type="">
+			<label xml:lang="en">Participation</label>
+			<label xml:lang="fr">Participation</label>
+		</node>
+		<node ID="" Identifier="Utilization" Type="">
+			<label xml:lang="en">Utilization</label>
+			<label xml:lang="fr">Utilisation</label>
+		</node>
+		<node ID="" Identifier="Gross_Value_Added" Type="">
+			<label xml:lang="en">Gross Value Added</label>
+			<label xml:lang="fr">Valeur brute ajoutée</label>
+		</node>
+		<node ID="" Identifier="Number_of_Ports" Type="">
+			<label xml:lang="en">Number of Ports</label>
+			<label xml:lang="fr">Nombre de ports</label>
+		</node>
+		<node ID="" Identifier="Landed_Volume" Type="">
+			<label xml:lang="en">Landed Volume</label>
+			<label xml:lang="fr">Volume des débarquements</label>
+		</node>
+		<node ID="" Identifier="Landed_Value" Type="">
+			<label xml:lang="en">Landed Value</label>
+			<label xml:lang="fr">Valeur des débarquements</label>
+		</node>
+		<node ID="" Identifier="Landed_Average_Price" Type="">
+			<label xml:lang="en">Landed Average Price</label>
+			<label xml:lang="fr">Prix moyen au débarquement</label>
+		</node>
+		<node ID="" Identifier="Landed_Global_Value" Type="">
+			<label xml:lang="en">Landed Global Value</label>
+			<label xml:lang="fr">Valeur des débarquements global</label>
+		</node>
+		<node ID="" Identifier="International_Market_Global_Value" Type="">
+			<label xml:lang="en">International Market Global Value</label>
+			<label xml:lang="fr">Valeur du marché international global</label>
+		</node>
+		<node ID="" Identifier="Fleet_Tonnage" Type="">
+			<label xml:lang="en">Fleet Tonnage</label>
+			<label xml:lang="fr">Tonnage de la flotte</label>
+		</node>
+		<node ID="" Identifier="Fleet_Power" Type="">
+			<label xml:lang="en">Fleet Power</label>
+			<label xml:lang="fr">Pouvoir de la flotte</label>
+		</node>
+		<node ID="" Identifier="Number_Fishing_Unit" Type="">
+			<label xml:lang="en">Number of fishing unit</label>
+			<label xml:lang="fr">Nombre d'unité de pêche</label>
+		</node>
+		<node ID="" Identifier="Trawling_Hours" Type="">
+			<label xml:lang="en">Trawling Hours</label>
+			<label xml:lang="fr">Heures de chalutage</label>
+		</node>
+		<node ID="" Identifier="Per_Capita_Consumption" Type="">
+			<label xml:lang="en">Per Capita Consumption</label>
+			<label xml:lang="fr">Consommation per capita</label>
+		</node>
+		<node ID="" Identifier="Domestic_Human_Consumption" Type="">
+			<label xml:lang="en">Domestic Human Consumption</label>
+			<label xml:lang="fr">Consommation humaine</label>
+		</node>
+		<node ID="" Identifier="Shared_in_Animal_Protein" Type="">
+			<label xml:lang="en">Shared in Animal Protein</label>
+			<label xml:lang="fr">Proportion de protéines animales</label>
+		</node>
+		<!-- //////////// shared labels with resource // -->
+		<node ID="" Identifier="Polar" Type="">
+			<label xml:lang="en">Polar</label>
+			<label xml:lang="fr">Polaire</label>
+		</node>
+		<node ID="" Identifier="Seagrass" Type="">
+			<label xml:lang="en">Seagrass</label>
+			<label xml:lang="fr">Herbier sous-marin</label>
+		</node>
+		<node ID="" Identifier="Coastal_0_50m" Type="">
+			<label xml:lang="en">Coastal (0 m - 50 m)</label>
+			<label xml:lang="fr">Côtier (0 m - 50 m)</label>
+		</node>
+		<node ID="" Identifier="Demersal/Benthic" Type="">
+			<label xml:lang="en">Demersal/Benthic</label>
+			<label xml:lang="fr">Démersal/Bentique</label>
+		</node>
+		<node ID="" Identifier="Seamounts" Type="">
+			<label xml:lang="en">Seamounts</label>
+			<label xml:lang="fr">Monts sous-marins</label>
+		</node>
+		<node ID="" Identifier="Estuarine" Type="">
+			<label xml:lang="en">Estuarine</label>
+			<label xml:lang="fr">Estuarien</label>
+		</node>
+		<node ID="" Identifier="Underexploited" Type="">
+			<label xml:lang="en">Underexploited</label>
+			<label xml:lang="fr">Sous-exploité</label>
+		</node>
+		<node ID="" Identifier="No or Low fishing mortality" Type="">
+			<label xml:lang="en">No or Low fishing mortality</label>
+			<label xml:lang="fr">Peu ou pas de mortalité par pêche</label>
+		</node>
+		<node ID="" Identifier="Subsistence" Type="">
+			<label xml:lang="en">Subsistence</label>
+			<label xml:lang="fr">Subsistance</label>
+		</node>
+		<node ID="" Identifier="Effort control" Type="">
+			<label xml:lang="en">Effort control</label>
+			<label xml:lang="fr">Contrôle de l'effort</label>
+		</node>
+		<node ID="" Identifier="Minimum carapace size" Type="">
+			<label xml:lang="en">Minimum carapace size</label>
+			<label xml:lang="fr">Taille minimale de la carapace</label>
+		</node>
+		<node ID="" Identifier="Gear type" Type="">
+			<label xml:lang="en">Gear type</label>
+			<label xml:lang="fr">Type d'engin de pêche</label>
+		</node>
+		<node ID="" Identifier="Access Control: Vessel type" Type="">
+			<label xml:lang="en">Access Control: Vessel type</label>
+			<label xml:lang="fr">Contrôle d'accès: Type de bateau</label>
+		</node>
+		<node ID="" Identifier="Access by nationality" Type="">
+			<label xml:lang="en">Access by nationality</label>
+			<label xml:lang="fr">Accès par nationalité</label>
+		</node>
+		<node ID="" Identifier="Distant water (outside EEZ)" Type="">
+			<label xml:lang="en">Distant water (outside EEZ)</label>
+			<label xml:lang="fr">Hauturier (extérieur de la ZEE)</label>
+		</node>
+		<node ID="" Identifier="Ex-vessel price" Type="">
+			<label xml:lang="en">Ex-vessel price</label>
+			<label xml:lang="fr">Prix au pêcheur</label>
+		</node>
+		<node ID="" Identifier="Temperate" Type="">
+			<label xml:lang="en">Temperate</label>
+			<label xml:lang="fr">Tempéré</label>
+		</node>
+		<node ID="" Identifier="Coral_reef" Type="">
+			<label xml:lang="en">Coral reef</label>
+			<label xml:lang="fr">Récif corallien</label>
+		</node>
+		<node ID="" Identifier="Coastal-Intertidal" Type="">
+			<label xml:lang="en">Coastal - Intertidal</label>
+			<label xml:lang="fr">Côtier - Intertidal</label>
+		</node>
+		<node ID="" Identifier="Demersal" Type="">
+			<label xml:lang="en">Demersal</label>
+			<label xml:lang="fr">Démersal</label>
+		</node>
+		<node ID="" Identifier="Estuaries" Type="">
+			<label xml:lang="en">Estuaries</label>
+			<label xml:lang="fr">Estuaires</label>
+		</node>
+		<node ID="" Identifier="Littoral" Type="">
+			<label xml:lang="en">Littoral</label>
+			<label xml:lang="fr">Littoral</label>
+		</node>
+		<node ID="" Identifier="Moderately exploited" Type="">
+			<label xml:lang="en">Moderately exploited</label>
+			<label xml:lang="fr">Modérément exploité</label>
+		</node>
+		<node ID="" Identifier="Moderate fishing mortality" Type="">
+			<label xml:lang="en">Moderate fishing mortality</label>
+			<label xml:lang="fr">Mortalité par pêche modéré</label>
+		</node>
+		<node ID="" Identifier="Recreational" Type="">
+			<label xml:lang="en">Recreational</label>
+			<label xml:lang="fr">Récréatif</label>
+		</node>
+		<node ID="" Identifier="Catch control" Type="">
+			<label xml:lang="en">Catch control</label>
+			<label xml:lang="fr">Contrôle de capture</label>
+		</node>
+		<node ID="" Identifier="Minimum fish size" Type="">
+			<label xml:lang="en">Minimum fish size</label>
+			<label xml:lang="fr">Taille minimale des poissons</label>
+		</node>
+		<node ID="" Identifier="Gear dimension" Type="">
+			<label xml:lang="en">Gear dimension</label>
+			<label xml:lang="fr">Dimension de l'engin de pêche</label>
+		</node>
+		<node ID="" Identifier="Access Control: Vessel size" Type="">
+			<label xml:lang="en">Access Control: Vessel size</label>
+			<label xml:lang="fr">Contrôle d'accès: Taille du bateau</label>
+		</node>
+		<node ID="" Identifier="Authorisations" Type="">
+			<label xml:lang="en">Authorisations</label>
+			<label xml:lang="fr">Autorisations</label>
+		</node>
+		<node ID="" Identifier="National (entire EEZ)" Type="">
+			<label xml:lang="en">National (entire EEZ)</label>
+			<label xml:lang="fr">National (toute la ZEE)</label>
+		</node>
+		<node ID="" Identifier="Wholesale price" Type="">
+			<label xml:lang="en">Wholesale price</label>
+			<label xml:lang="fr">Prix de gros</label>
+		</node>
+		<node ID="" Identifier="Tropical" Type="">
+			<label xml:lang="en">Tropical</label>
+			<label xml:lang="fr">Tropical</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom" Type="">
+			<label xml:lang="en">Soft bottom</label>
+			<label xml:lang="fr">Fond meuble</label>
+		</node>
+		<node ID="" Identifier="Coastal-Close_shore_littoral_20m" Type="">
+			<label xml:lang="en">Coastal - Close to the shore, littoral (0 m - 20 m)</label>
+			<label xml:lang="fr">Côtier - Près du rivage, littoral (0 m - 20 m)</label>
+		</node>
+		<node ID="" Identifier="Benthic" Type="">
+			<label xml:lang="en">Benthic</label>
+			<label xml:lang="fr">Bentique</label>
+		</node>
+		<node ID="" Identifier="Fjords" Type="">
+			<label xml:lang="en">Fjords</label>
+			<label xml:lang="fr">Fjords</label>
+		</node>
+		<node ID="" Identifier="Neritic" Type="">
+			<label xml:lang="en">Neritic</label>
+			<label xml:lang="fr">Néritique</label>
+		</node>
+		<node ID="" Identifier="Fully_exploited" Type="">
+			<label xml:lang="en">Fully exploited</label>
+			<label xml:lang="fr">Pleinement exploité</label>
+		</node>
+		<node ID="" Identifier="high fishing mortality" Type="">
+			<label xml:lang="en">high fishing mortality</label>
+			<label xml:lang="fr">Haute mortalité par pêche</label>
+		</node>
+		<node ID="" Identifier="Commercial" Type="">
+			<label xml:lang="en">Commercial</label>
+			<label xml:lang="fr">Commercial</label>
+		</node>
+		<node ID="" Identifier="Fish size limits" Type="">
+			<label xml:lang="en">Fish size limits</label>
+			<label xml:lang="fr">Limites de taille des poissons</label>
+		</node>
+		<node ID="" Identifier="Minimum fish weight" Type="">
+			<label xml:lang="en">Minimum fish weight</label>
+			<label xml:lang="fr">Poids minimum des poissons</label>
+		</node>
+		<node ID="" Identifier="Hooks size" Type="">
+			<label xml:lang="en">Hooks size</label>
+			<label xml:lang="fr">Taille des hamecons</label>
+		</node>
+		<node ID="" Identifier="Licenses" Type="">
+			<label xml:lang="en">Licenses</label>
+			<label xml:lang="fr">Licences</label>
+		</node>
+		<node ID="" Identifier="Domestic (inside EEZ)" Type="">
+			<label xml:lang="en">Domestic (inside EEZ)</label>
+			<label xml:lang="fr">Eaux intérieures (sous-ensemble de la ZEE)</label>
+		</node>
+		<node ID="" Identifier="Retail price" Type="">
+			<label xml:lang="en">Retail price</label>
+			<label xml:lang="fr">Prix de détail</label>
+		</node>
+		<node ID="" Identifier="Unspecified" Type="">
+			<label xml:lang="en">Unspecified</label>
+			<label xml:lang="fr">Indéterminé</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_with_pebbles" Type="">
+			<label xml:lang="en">Soft bottom with pebbles</label>
+			<label xml:lang="fr">Fond meuble avec cailloux</label>
+		</node>
+		<node ID="" Identifier="Coastal-Shallow_waters_inshore_50m" Type="">
+			<label xml:lang="en">Coastal - Shallow waters, inshore waters (0 m - 50 m)</label>
+			<label xml:lang="fr">Côtier - Eaux peu profondes, eaux côtières (0 m - 50 m)</label>
+		</node>
+		<node ID="" Identifier="Pelagic" Type="">
+			<label xml:lang="en">Pelagic</label>
+			<label xml:lang="fr">Pélagique</label>
+		</node>
+		<node ID="" Identifier="Canyons" Type="">
+			<label xml:lang="en">Canyons</label>
+			<label xml:lang="fr">Canyons</label>
+		</node>
+		<node ID="" Identifier="Oceanic" Type="">
+			<label xml:lang="en">Oceanic</label>
+			<label xml:lang="fr">Océanique</label>
+		</node>
+		<node ID="" Identifier="Overexploited" Type="">
+			<label xml:lang="en">Overexploited</label>
+			<label xml:lang="fr">Surexploité</label>
+		</node>
+		<node ID="" Identifier="Uncertain/Not assessed" Type="">
+			<label xml:lang="en">Uncertain/Not assessed</label>
+			<label xml:lang="fr">Incertain/Non évalué</label>
+		</node>
+		<node ID="" Identifier="Artisanal" Type="">
+			<label xml:lang="en">Artisanal</label>
+			<label xml:lang="fr">Artisanal</label>
+		</node>
+		<node ID="" Identifier="Spawner/Juvenile protection" Type="">
+			<label xml:lang="en">Spawner/Juvenile protection</label>
+			<label xml:lang="fr">Géniteurs / Protection des juvéniles</label>
+		</node>
+		<node ID="" Identifier="Small size fish proportion in catch" Type="">
+			<label xml:lang="en">Small size fish proportion in catch</label>
+			<label xml:lang="fr">Proportion de poissons de petite taille dans la capture</label>
+		</node>
+		<node ID="" Identifier="Mesh size" Type="">
+			<label xml:lang="en">Mesh size</label>
+			<label xml:lang="fr">Taille du maillage</label>
+		</node>
+		<node ID="" Identifier="Vessel number" Type="">
+			<label xml:lang="en">Vessel number</label>
+			<label xml:lang="fr">Nombre de bateaux</label>
+		</node>
+		<node ID="" Identifier="Regional competence area" Type="">
+			<label xml:lang="en">Regional competence area</label>
+			<label xml:lang="fr">Zone de compétence régionale</label>
+		</node>
+		<node ID="" Identifier="Export price" Type="">
+			<label xml:lang="en">Export price</label>
+			<label xml:lang="fr">Prix à l'exportation</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_with_gravel" Type="">
+			<label xml:lang="en">Soft bottom with gravel</label>
+			<label xml:lang="fr">Fond meuble avec graviers</label>
+		</node>
+		<node ID="" Identifier="Shelf_50_200m" Type="">
+			<label xml:lang="en">Shelf  (50 m - 200 m)</label>
+			<label xml:lang="fr">Plateau (50 m - 200 m)</label>
+		</node>
+		<node ID="" Identifier="Lagoons" Type="">
+			<label xml:lang="en">Lagoons</label>
+			<label xml:lang="fr">Lagunes</label>
+		</node>
+		<node ID="" Identifier="Depleted" Type="">
+			<label xml:lang="en">Depleted</label>
+			<label xml:lang="fr">Epuisé</label>
+		</node>
+		<node ID="" Identifier="Not applicable" Type="">
+			<label xml:lang="en">Not applicable</label>
+			<label xml:lang="fr">Non applicable</label>
+		</node>
+		<node ID="" Identifier="Semi-industrial" Type="">
+			<label xml:lang="en">Semi-industrial</label>
+			<label xml:lang="fr">Semi-industrielle</label>
+		</node>
+		<node ID="" Identifier="Environment protection" Type="">
+			<label xml:lang="en">Environment protection</label>
+			<label xml:lang="fr">Protection du milieu</label>
+		</node>
+		<node ID="" Identifier="Maximum Sustainable Yield (MSY), Acceptable Biological Catch (ABC)" Type="">
+			<label xml:lang="en">Maximum Sustainable Yield (MSY), Acceptable Biological Catch (ABC)</label>
+			<label xml:lang="fr">Production maximale équilibrée (MSY), Capture biologique acceptable (ABC)</label>
+		</node>
+		<node ID="" Identifier="Gear number" Type="">
+			<label xml:lang="en">Gear number</label>
+			<label xml:lang="fr">Nombre d'engins de pêche</label>
+		</node>
+		<node ID="" Identifier="Landed value " Type="">
+			<label xml:lang="en">Landed value </label>
+			<label xml:lang="fr">Valeur des débarquements</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_gravel-sandy" Type="">
+			<label xml:lang="en">Soft bottom gravel-sandy</label>
+			<label xml:lang="fr">Fond meuble sablo-gravier</label>
+		</node>
+		<node ID="" Identifier="Shelf-Uppershelf_up_100m" Type="">
+			<label xml:lang="en">Shelf - Upper shelf (up to 100 m)</label>
+			<label xml:lang="fr">Plateau - Frange supérieure du plateau (jusqu'à 100 m)</label>
+		</node>
+		<node ID="" Identifier="Recovering" Type="">
+			<label xml:lang="en">Recovering</label>
+			<label xml:lang="fr">En reprise</label>
+		</node>
+		<node ID="" Identifier="Social measures" Type="">
+			<label xml:lang="en">Social measures</label>
+			<label xml:lang="fr">Mesures sociales</label>
+		</node>
+		<node ID="" Identifier="Total Allowable Catch (TAC)" Type="">
+			<label xml:lang="en">Total Allowable Catch (TAC)</label>
+			<label xml:lang="fr">Captures totales admissibles (TAC)</label>
+		</node>
+		<node ID="" Identifier="Closed Area" Type="">
+			<label xml:lang="en">Closed Area</label>
+			<label xml:lang="fr">Zone de fermeture de la pêche</label>
+		</node>
+		<node ID="" Identifier="Value of sells on domestic market" Type="">
+			<label xml:lang="en">Value of sells on domestic market</label>
+			<label xml:lang="fr">Valeur de la vente sur le marché intérieur</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_clean_sand" Type="">
+			<label xml:lang="en">Soft bottom clean sand</label>
+			<label xml:lang="fr">Fond meuble avec sable propre</label>
+		</node>
+		<node ID="" Identifier="Shelf-Deepshelf_100-200m" Type="">
+			<label xml:lang="en">Shelf - Deep shelf (100 m - 200 m)</label>
+			<label xml:lang="fr">Plateau - Frange profonde du plateau (100 m - 200 m)</label>
+		</node>
+		<node ID="" Identifier="Uncertain" Type="">
+			<label xml:lang="en">Uncertain</label>
+			<label xml:lang="fr">Incertain</label>
+		</node>
+		<node ID="" Identifier="Exploratory fishery" Type="">
+			<label xml:lang="en">Exploratory fishery</label>
+			<label xml:lang="fr">Pêche exploratoire</label>
+		</node>
+		<node ID="" Identifier="Economical measures" Type="">
+			<label xml:lang="en">Economical measures</label>
+			<label xml:lang="fr">Mesures économiques</label>
+		</node>
+		<node ID="" Identifier="Closed time" Type="">
+			<label xml:lang="en">Closed time</label>
+			<label xml:lang="fr">Périodes de fermeture de la pêche</label>
+		</node>
+		<node ID="" Identifier="Export value on the international market" Type="">
+			<label xml:lang="en">Export value on the international market</label>
+			<label xml:lang="fr">Valeur à l'exportation sur le marché international</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_muddy_or_muddy-sand" Type="">
+			<label xml:lang="en">Soft bottom muddy or muddy-sand</label>
+			<label xml:lang="fr">Fond meuble vaseux ou vaso-sableux</label>
+		</node>
+		<node ID="" Identifier="Shelf-Edgeshelf" Type="">
+			<label xml:lang="en">Shelf - Edge of shelf</label>
+			<label xml:lang="fr">Plateau - Rebord du plateau</label>
+		</node>
+		<node ID="" Identifier="Closed season" Type="">
+			<label xml:lang="en">Closed season</label>
+			<label xml:lang="fr">Saisons de fermeture de la pêche</label>
+		</node>
+		<node ID="" Identifier="Other economic value" Type="">
+			<label xml:lang="en">Other economic value</label>
+			<label xml:lang="fr">Autre valeur économique</label>
+		</node>
+		<node ID="" Identifier="Soft_bottom_with_some_turbidity" Type="">
+			<label xml:lang="en">Soft bottom with some turbidity</label>
+			<label xml:lang="fr">Fond meuble avec de la turbidité</label>
+		</node>
+		<node ID="" Identifier="Slope_200_1000m" Type="">
+			<label xml:lang="en">Slope  (200 m - 1000 m)</label>
+			<label xml:lang="fr">Talus (200 m - 1000 m)</label>
+		</node>
+		<node ID="" Identifier="Catch quota – Individual Transferable Quota (ITQ)" Type="">
+			<label xml:lang="en">Catch quota – Individual Transferable Quota (ITQ)</label>
+			<label xml:lang="fr">Contingent de capture - Contingent individuel transférable (ITQ)</label>
+		</node>
+		<node ID="" Identifier="Hard_bottom" Type="">
+			<label xml:lang="en">Hard bottom</label>
+			<label xml:lang="fr">Fond durs</label>
+		</node>
+		<node ID="" Identifier="Slope-Upperslope_200-500m" Type="">
+			<label xml:lang="en">Slope - Upper slope (200 m - 500 m)</label>
+			<label xml:lang="fr">Talus - Partie supérieure (200 m - 1000 m)</label>
+		</node>
+		<node ID="" Identifier="Individual Vessel Quota (IVQ)" Type="">
+			<label xml:lang="en">Individual Vessel Quota (IVQ)</label>
+			<label xml:lang="fr">Contingent individuel par bateau (IVQ)</label>
+		</node>
+		<node ID="" Identifier="Hard_rocky_bottom" Type="">
+			<label xml:lang="en">Hard rocky bottom</label>
+			<label xml:lang="fr">Fond dur rocheux</label>
+		</node>
+		<node ID="" Identifier="Slope-Deepslope_500-1000m" Type="">
+			<label xml:lang="en">Slope - Deep slope (500 m -1000 m)</label>
+			<label xml:lang="fr">Talus - Partie profonde (200 m - 1000 m)</label>
+		</node>
+		<node ID="" Identifier="Total Available Catch (TAC)" Type="">
+			<label xml:lang="en">Total Available Catch (TAC)</label>
+			<label xml:lang="fr">Capture admissible totale (TAC)</label>
+		</node>
+		<node ID="" Identifier="Hard_bottom_with_clear_water" Type="">
+			<label xml:lang="en">Hard bottom with clear water</label>
+			<label xml:lang="fr">Fond dur avec eau claire</label>
+		</node>
+		<node ID="" Identifier="Abyssal_&gt;1000m" Type="">
+			<label xml:lang="en">Abyssal  ( &gt;1000m)</label>
+			<label xml:lang="fr">Abyssal ( &gt;1000m)</label>
+		</node>
+		<node ID="" Identifier="Map Legend" Type="">
+			<label xml:lang="en">Map Legend</label>
+			<label xml:lang="fr">Légende de la carte géographique</label>
+		</node>
+		<node ID="" Identifier="Global" Type="">
+			<label xml:lang="en">Global</label>
+			<label xml:lang="fr">Global</label>
+			<label xml:lang="es">Global</label>
+		</node>
+		<node ID="" Identifier="Regional" Type="">
+			<label xml:lang="en">Regional</label>
+			<label xml:lang="fr">Régional</label>
+			<label xml:lang="es">Regional</label>
+		</node>
+		<node ID="" Identifier="Sub-Regional" Type="">
+			<label xml:lang="en">Sub-Regional</label>
+			<label xml:lang="fr">Sous-Régional</label>
+			<label xml:lang="es">Sub-Regional</label>
+		</node>
+		<node ID="" Identifier="National" Type="">
+			<label xml:lang="en">National</label>
+			<label xml:lang="fr">National</label>
+			<label xml:lang="es">National</label>
+		</node>
+		<node ID="" Identifier="Local" Type="">
+			<label xml:lang="en">Local</label>
+			<label xml:lang="fr">Local</label>
+			<label xml:lang="es">Local</label>
+		</node>
+		<!--
+		<node ID="" Identifier="map_MAIN_LAYERS">
+			<label xml:lang="en">Fishery location</label>
+			<label xml:lang="es">Fishery location</label>
+			<label xml:lang="ar">Fishery location</label>
+			<label xml:lang="fr">Fishery location</label>
+			<label xml:lang="zh">Fishery location</label>
+			<label xml:lang="ru">Fishery location</label>
+		</node>
+		-->
+	</nodes>
+</labels>

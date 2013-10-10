@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:InstitutionIdent FID="$CD_INSTITUTE;" Status="$FG_ACTIVE;">
+	<dc:Date>$DT_LAST_MODIFIED;</dc:Date>
+	<fi:Acronym>
+		<fi:En>$INST_ACRONYM;</fi:En>
+		<fint:Other>$INST_ACRONYM_OTHER;</fint:Other>
+	</fi:Acronym>
+	<fi:Name>
+		<fi:En>$INST_NAME;</fi:En>
+		<fint:Other>$INST_NAME_OTHER;</fint:Other>
+	</fi:Name>
+	<fi:ParentAcronym>
+		<fi:En>$PARENT_ACRONYM;</fi:En>
+	</fi:ParentAcronym>
+	<fi:AddrLine1>$INST_NAME_ADDR1;</fi:AddrLine1>
+	<fi:AddrLine2>$INST_NAME_ADDR2;</fi:AddrLine2>
+	<fi:AddrLine3>$INST_NAME_ADDR3;</fi:AddrLine3>
+	<fi:AddrLine4>$INST_NAME_ADDR4;</fi:AddrLine4>
+	<fi:AddrLine5>$INST_NAME_ADDR5;</fi:AddrLine5>
+	<fi:PostalCode>$POSTAL_CODE;</fi:PostalCode>
+	<fi:City>$CD_CITY;</fi:City>
+	<fi:Province>$CD_PROVINCE;
+	</fi:Province>
+	<fi:Country>$CD_COUNTRY;
+	</fi:Country>
+	<fi:Continent>$CD_CONTINENT;
+	</fi:Continent>
+	<fi:LanguagePref>$CD_LANG_PREF;
+	</fi:LanguagePref>
+	<fi:Language2nd>$CD_LANG_2ND;
+	</fi:Language2nd>
+	<fi:Language3rd>$CD_LANG_3RD;
+	</fi:Language3rd>
+	$T:ML_PUBLICATION_INFO;
+	$T:REF_INST_ELEC_CONTACT;
+	$T:INST_ML_JOIN;
+</fi:InstitutionIdent>

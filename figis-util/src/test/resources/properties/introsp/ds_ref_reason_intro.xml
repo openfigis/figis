@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:ReasonIntroduced order="$DS_REASON_INTRO_JOIN.INTRO_ORDER;" Code="$CD_REASON_INTRODUCED;" ReasonType="$FG_TYPE;">
+	<fi:En>$TEXT_E;</fi:En>
+	<fi:Fr>$TEXT_F;</fi:Fr>
+	<fi:Sp>$TEXT_S;</fi:Sp>
+</fi:ReasonIntroduced>

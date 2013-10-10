@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:IntroducedAqSpeciesIdent FID="$CD_INTRODUCED_SPECIES;" Code="$CD_DIAS_CODE;" CodeSystem="DIAS" EntryDate="$DT_ENTRY;" Status="$FG_STATUS;">
+	<fi:Orig>
+		<fi:AqSpeciesIdent>
+		<fi:FullSciName>
+		$SPECIES_NAME;
+		</fi:FullSciName>
+		<fi:Family>$FAMILY;</fi:Family>
+		</fi:AqSpeciesIdent>
+		$CD_INTRO_SPEC_TAXO_GRP;
+		</fi:Orig>
+	<fi:CountryTo>
+	$COUNTRY_TO;
+		<fi:AreaRef>$CD_AREA_TO;</fi:AreaRef>
+	</fi:CountryTo>
+	<fi:CountryFrom>
+	$COUNTRY_FROM;
+	<fi:AreaRef>$JT_AREA_FROM;</fi:AreaRef>
+	</fi:CountryFrom>
+		$JT_DATE_RANGE;
+</fi:IntroducedAqSpeciesIdent>

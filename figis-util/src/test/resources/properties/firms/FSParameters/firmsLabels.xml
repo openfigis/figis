@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- firmsLabel.xml																	
+***********************************************************************************************	
+*ti-  FIRMS Marine Resources Labels
+***********************************************************************************************	
+*md- FIRMS																		
+*sm-																					
+***********************************************************************************************	
+*ds- Contains all FIRMS Res labels for all resource elements. All 5 languages can be 
+*ds- handled
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 08-Aug-2005	Created By Yann Laurent	\
+* updated 16 July 2010 by Balestra, Balestri, Gentile			
+***********************************************************************************************	
+-->
+<!--<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">-->
+<labels>
+	<nodes>
+		<!-- FIRMS block of text displayed within Fact Sheets -->
+		<node ID="" Identifier="marineresource" Type="">
+			<label xml:lang="en">Marine Resource</label>
+			<label xml:lang="fr">Resource Marine</label>
+			<label xml:lang="es">Marine Resource</label>
+		</node>
+		<node ID="" Identifier="obssheet" Type="">
+			<label xml:lang="en">Observation Sheet</label>
+			<label xml:lang="fr">Feuille d'observation</label>
+			<label xml:lang="es">Observation Sheet</label>
+		</node>
+		<node ID="" Identifier="MainDescriptors" Type="">
+			<label xml:lang="en">Main Descriptors</label>
+			<label xml:lang="fr">Principaux Descripteurs</label>
+			<label xml:lang="es">MainDescriptors</label>
+		</node>
+		<node ID="" Identifier="EnlargeImage" Type="">
+			<label xml:lang="en">Click to enlarge</label>
+			<label xml:lang="fr">Cliquer pour agrandir</label>
+			<label xml:lang="es">Click to enlarge</label>
+		</node>
+		<node ID="" Identifier="ConsideredAsAStock" Type="">
+			<label xml:lang="en">Considered a single stock</label>
+			<label xml:lang="fr">Considéré comme un stock unique</label>
+			<label xml:lang="es">Considered as a stock</label>
+		</node>
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="ICCAT_SMU" Type="">
+			<label xml:lang="en">ICCAT Management Unit Areas</label>
+			<label xml:lang="fr">Unité de gestion du ICCAT</label>
+			<label xml:lang="es">ICCAT Management Unit Areas</label>
+		</node>
+		<!--node ID="" Identifier="spc_iattc" Type="">
+			<label xml:lang="en">SPC-IATTC reporting areas</label>
+			<label xml:lang="fr">SPC-IATTC reporting areas</label>
+			<label xml:lang="es">SPC-IATTC reporting areas</label>
+		</node-->
+		<node ID="" Identifier="gfcm_sub_area" Type="">
+			<label xml:lang="en">GFCM geographical sub-areas</label>
+			<label xml:lang="fr">Sous-zones géographiques du CGPM</label>
+			<label xml:lang="es">GFCM geographical sub-areas</label>
+		</node>
+		<node ID="" Identifier="rfb_comp" Type="">
+			<label xml:lang="en">RFB competence</label>
+			<label xml:lang="fr">Compétence du RFB</label>
+			<label xml:lang="es">RFB competence</label>
+		</node>
+		<node ID="" Identifier="LME" Type="">
+			<label xml:lang="en">(LME) Large Marine Ecosystem Areas</label>
+			<label xml:lang="fr">Grands écosystèmes marins (LME)</label>
+			<label xml:lang="es">(LME) Large Marine Ecosystem Areas</label>
+		</node>
+		<node ID="" Identifier="EEZ" Type="">
+			<label xml:lang="en">(EEZ) Exclusive Economic Zone Areas</label>
+			<label xml:lang="fr">(ZEE) Zone Économique Exclusive</label>
+			<label xml:lang="es">(EEZ) Exclusive Economic Zone Areas</label>
+		</node>
+		<node ID="" Identifier="iccat_smu" Type="">
+			<label xml:lang="en">ICCAT Management Unit Areas</label>
+			<label xml:lang="fr">Unité de gestion du ICCAT</label>
+			<label xml:lang="es">ICCAT Management Unit Areas</label>
+		</node>
+		<node ID="" Identifier="lme" Type="">
+			<label xml:lang="en">(LME) Large Marine Ecosystem Areas</label>
+			<label xml:lang="fr">Grands écosystèmes marins (LME)</label>
+			<label xml:lang="es">(LME) Large Marine Ecosystem Areas</label>
+		</node>
+		<node ID="" Identifier="eez" Type="">
+			<label xml:lang="en">(EEZ) Exclusive Economic Zone Areas</label>
+			<label xml:lang="fr">(ZEE) Zone Économique Exclusive</label>
+			<label xml:lang="es">(EEZ) Exclusive Economic Zone Areas</label>
+		</node>
+		<node ID="" Identifier="Statistical" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Areas</label>
+			<label xml:lang="fr">Zone principales de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Areas</label>
+		</node>
+		<node ID="" Identifier="fao_area" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Areas</label>
+			<label xml:lang="fr">Zones statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Areas</label>
+		</node>
+		<node ID="" Identifier="fao_major" Type="">
+			<label xml:lang="en">FAO Major Fishing Area</label>
+			<label xml:lang="fr">Principales zones de pêche de la FAO</label>
+			<label xml:lang="es">FAO Major Fishing Area</label>
+		</node>
+		<node ID="" Identifier="fao_sub_area" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Sub Areas</label>
+			<label xml:lang="fr">Sous zones statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Sub Areas</label>
+		</node>
+		<node ID="" Identifier="fao_div" Type="">
+			<label xml:lang="en">FAO Fishing Statistical Divisions</label>
+			<label xml:lang="fr">Divisions statistiques de pêche de la FAO</label>
+			<label xml:lang="es">FAO Fishing Statistical Divisions</label>
+		</node>
+		<node ID="" Identifier="pac_tuna_rep" Type="">
+			<label xml:lang="en">Pacific Tuna and Tuna-like Reporting areas</label>
+			<label xml:lang="fr">Zones de rapports du thon et de thonidés du Pacifique</label>
+			<label xml:lang="es">Pacific Tuna and Tuna-like Reporting areas</label>
+		</node>
+		<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<node ID="" Identifier="SpatialScale" Type="">
+			<label xml:lang="en">Spatial Scale</label>
+			<label xml:lang="fr">Échelle spatiale</label>
+			<label xml:lang="es">Spatial Scale</label>
+		</node>
+		<node ID="" Identifier="true" Type="">
+			<label xml:lang="en">Yes</label>
+			<label xml:lang="fr">Oui</label>
+			<label xml:lang="es">Si</label>
+		</node>
+		<node ID="" Identifier="false" Type="">
+			<label xml:lang="en">No</label>
+			<label xml:lang="fr">Non</label>
+			<label xml:lang="es">No</label>
+		</node>
+		<node ID="" Identifier="State" Type="">
+			<label xml:lang="en">State</label>
+			<label xml:lang="fr">État</label>
+			<label xml:lang="es">State</label>
+		</node>
+		<node ID="" Identifier="ManagementUnit" Type="">
+			<label xml:lang="en">Considered a management unit</label>
+			<label xml:lang="fr">Considéré comme une unité de gestion</label>
+			<label xml:lang="es">Management unit</label>
+		</node>
+		<node ID="" Identifier="JurisdictionalDist" Type="">
+			<label xml:lang="en">Jurisdictional distribution</label>
+			<label xml:lang="fr">Distribution jurisdictionnelle</label>
+			<label xml:lang="es">Jurisdictional distribution</label>
+		</node>
+		<node ID="" Identifier="EnvironmentalGroup" Type="">
+			<label xml:lang="en">Environmental group</label>
+			<label xml:lang="fr">Groupe environmental</label>
+			<label xml:lang="es">Environmental group</label>
+		</node>
+		<node ID="" Identifier="DepthZone" Type="">
+			<label xml:lang="en">Depth zone</label>
+			<label xml:lang="fr">Zone de profondeur</label>
+			<label xml:lang="es">Depth zone</label>
+		</node>
+		<node ID="" Identifier="BottomType" Type="">
+			<label xml:lang="en">Bottom type</label>
+			<label xml:lang="fr">Type de fond</label>
+			<label xml:lang="es">Bottom type</label>
+		</node>
+		<node ID="" Identifier="ClimaticZone" Type="">
+			<label xml:lang="en">Climatic zone</label>
+			<label xml:lang="fr">Zone Climatique</label>
+			<label xml:lang="es">Climatic zone</label>
+		</node>
+		<node ID="" Identifier="VerticalDist" Type="">
+			<label xml:lang="en">Vertical distribution</label>
+			<label xml:lang="fr">Distribution verticale</label>
+			<label xml:lang="es">Vertical distribution</label>
+		</node>
+		<node ID="" Identifier="HorizontalDist" Type="">
+			<label xml:lang="en">Horizontal distribution</label>
+			<label xml:lang="fr">Distribution horizontale</label>
+			<label xml:lang="es">Horizontal distribution</label>
+		</node>
+		<node ID="" Identifier="ThisFactSheetHas" Type="">
+			<label xml:lang="en">This Fact Sheet has</label>
+			<label xml:lang="fr">Cette Fact Sheet a</label>
+			<label xml:lang="es">Esta Fact Sheet tiene</label>
+		</node>
+		<node ID="" Identifier="ObservationSheet" Type="">
+			<label xml:lang="en">Observation Sheet</label>
+			<label xml:lang="fr">Observation</label>
+			<label xml:lang="es">Observation Sheet</label>
+		</node>
+		<node ID="" Identifier="obsPlurial" Type="">
+			<label xml:lang="en">s</label>
+			<label xml:lang="fr">s</label>
+			<label xml:lang="es">s</label>
+		</node>
+		<node ID="" Identifier="Species" Type="">
+			<label xml:lang="en">Species</label>
+			<label xml:lang="fr">Espèces</label>
+			<label xml:lang="es">Species</label>
+		</node>
+		<node ID="" Identifier="FaoNames" Type="">
+			<label xml:lang="en">Fao Names</label>
+			<label xml:lang="fr">Noms FAO</label>
+			<label xml:lang="es">Nombres FAO</label>
+		</node>
+		<node ID="" Identifier="GivenName" Type="">
+			<label xml:lang="en">Given Name</label>
+			<label xml:lang="fr">Nom donné</label>
+			<label xml:lang="es">Given Name</label>
+		</node>
+		<node ID="" Identifier="listSecObs" Type="">
+			<label xml:lang="en">Related observations</label>
+			<label xml:lang="fr">Observations associées</label>
+			<label xml:lang="es">Related observations</label>
+		</node>
+		<node ID="" Identifier="Area" Type="">
+			<label xml:lang="en">Area</label>
+			<label xml:lang="fr">Zone</label>
+			<label xml:lang="es">Area</label>
+		</node>
+		<node ID="" Identifier="AreaOf" Type="">
+			<label xml:lang="en">Distribution of</label>
+			<label xml:lang="fr">Distribution de</label>
+			<label xml:lang="es">Area</label>
+		</node>
+		<node ID="" Identifier="AreaDetails" Type="">
+			<label xml:lang="en">Area Details</label>
+			<label xml:lang="fr">Détail des zones</label>
+			<label xml:lang="es">Area Details</label>
+		</node>
+		<node ID="" Identifier="RelatedResources" Type="">
+			<label xml:lang="en">Related Resources</label>
+			<label xml:lang="fr">Resources Relatives</label>
+			<label xml:lang="es">Related Resources</label>
+		</node>
+		<!-- Label for main blocks of information -->
+		<!-- By default, identifier is local-name() -->
+		<node ID="" Identifier="HabitatBio" Type="">
+			<label xml:lang="en">Habitat and Biology</label>
+			<label xml:lang="fr">Habitat et Biologie</label>
+			<label xml:lang="es">Habitat and Biology</label>
+		</node>
+		<node ID="" Identifier="GeoDist" Type="">
+			<label xml:lang="en">Geographical Distribution</label>
+			<label xml:lang="fr">Distribution Géographique</label>
+			<label xml:lang="es">Geographical Distribution</label>
+		</node>
+		<node ID="" Identifier="Exploit" Type="">
+			<label xml:lang="en">Exploitation</label>
+			<label xml:lang="fr">Exploitation</label>
+			<label xml:lang="es">Exploitation</label>
+		</node>
+		<node ID="" Identifier="BioAssess" Type="">
+			<label xml:lang="en">Assessment</label>
+			<label xml:lang="fr">Évaluation</label>
+			<label xml:lang="es">Assessment</label>
+		</node>
+		<node ID="" Identifier="AqResStruct" Type="">
+			<label xml:lang="en">Resource Structure</label>
+			<label xml:lang="fr">Structure de la ressource</label>
+			<label xml:lang="es">Resource Structure</label>
+		</node>
+		<node ID="" Identifier="WaterAreaOverview" Type="">
+			<label xml:lang="en">Water Area Overview</label>
+			<label xml:lang="fr">Vue d'ensemble de la zone aquatique</label>
+			<label xml:lang="es">Water Area Overview</label>
+		</node>
+		<node ID="" Identifier="Statistics" Type="">
+			<label xml:lang="en">Statistics</label>
+			<label xml:lang="fr">Statistiques</label>
+			<label xml:lang="es">Statistics</label>
+		</node>
+		<node ID="" Identifier="Projection" Type="">
+			<label xml:lang="en">Projection</label>
+			<label xml:lang="fr">Projection</label>
+			<label xml:lang="es">Projection</label>
+		</node>
+		<node ID="" Identifier="OverallAssessmentResults" Type="">
+			<label xml:lang="en">Overall Assessment Results</label>
+			<label xml:lang="fr">Résultats général de l'évaluation</label>
+			<label xml:lang="es">Overall Assessment Results</label>
+		</node>
+		<node ID="" Identifier="ManagementAdvice" Type="">
+			<label xml:lang="en">Management Advice</label>
+			<label xml:lang="fr">Conseil de gestion</label>
+			<label xml:lang="es">Management Advice</label>
+		</node>
+		<node ID="" Identifier="ManagementObjectives" Type="">
+			<label xml:lang="en">Management Objectives</label>
+			<label xml:lang="fr">Objectifs de gestion</label>
+			<label xml:lang="es">Management Objectives</label>
+		</node>
+		<node ID="" Identifier="ManagementStrategies" Type="">
+			<label xml:lang="en">Management Strategies</label>
+			<label xml:lang="fr">Stratégies de gestion</label>
+			<label xml:lang="es">Management Strategies</label>
+		</node>
+		<node ID="" Identifier="ManagementMethods" Type="">
+			<label xml:lang="en">Management Methods</label>
+			<label xml:lang="fr">Méthodes de gestion</label>
+			<label xml:lang="es">Management Methods</label>
+		</node>
+		<node ID="" Identifier="ManagementProblems" Type="">
+			<label xml:lang="en">Management Problems</label>
+			<label xml:lang="fr">Problèmes liés à la gestion</label>
+			<label xml:lang="es">Management Problems</label>
+		</node>
+		<node ID="" Identifier="RefPoint" Type="">
+			<label xml:lang="en">Reference Point</label>
+			<label xml:lang="fr">Point de référence</label>
+			<label xml:lang="es">Reference Point</label>
+		</node>
+		<node ID="" Identifier="SciAdvice" Type="">
+			<label xml:lang="en">Scientific Advice</label>
+			<label xml:lang="fr">Avis scientifique</label>
+			<label xml:lang="es">Scientific Advice</label>
+		</node>
+		<node ID="" Identifier="Assumption" Type="">
+			<label xml:lang="en">Assumption</label>
+			<label xml:lang="fr">Hypothèse</label>
+			<label xml:lang="es">Assumption</label>
+		</node>
+		<node ID="" Identifier="Methodology" Type="">
+			<label xml:lang="en">Methodology</label>
+			<label xml:lang="fr">Méthodologie</label>
+			<label xml:lang="es">Methodology</label>
+		</node>
+		<node ID="" Identifier="AssessIndicator" Type="">
+			<label xml:lang="en">Assessment Indicator</label>
+			<label xml:lang="fr">Indicateurs d'évaluation</label>
+			<label xml:lang="es">Assessment Indicator</label>
+		</node>
+		<node ID="" Identifier="AssessModels" Type="">
+			<label xml:lang="en">Assessment Model</label>
+			<label xml:lang="fr">Modèle d'évaluation</label>
+			<label xml:lang="es">Assessment Model</label>
+		</node>
+		<node ID="" Identifier="Type" Type="">
+			<label xml:lang="en">Type</label>
+			<label xml:lang="fr">Type</label>
+			<label xml:lang="es">Type</label>
+		</node>
+		<node ID="" Identifier="Data" Type="">
+			<label xml:lang="en">Data</label>
+			<label xml:lang="fr">Données</label>
+			<label xml:lang="es">Data</label>
+		</node>
+		<node ID="" Identifier="Results" Type="">
+			<label xml:lang="en">Results</label>
+			<label xml:lang="fr">Résultats</label>
+			<label xml:lang="es">Results</label>
+		</node>
+		<node ID="" Identifier="AqResStateTrend" Type="">
+			<label xml:lang="en">Biological State and Trend</label>
+			<label xml:lang="fr">État et tendances biologique</label>
+			<label xml:lang="es">Biological State and Trend</label>
+		</node>
+		<node ID="" Identifier="ExploitRate" Type="">
+			<label xml:lang="en">Exploitation rate</label>
+			<label xml:lang="fr">Taux exploitation</label>
+			<label xml:lang="es">Exploitation rate</label>
+		</node>
+		<node ID="" Identifier="AbundanceLevel" Type="">
+			<label xml:lang="en">Abundance level</label>
+			<label xml:lang="fr">Niveau d'abondance</label>
+			<label xml:lang="es">Abundance level</label>
+		</node>
+		<node ID="" Identifier="ExploitState" Type="">
+			<label xml:lang="en">Exploitation state</label>
+			<label xml:lang="fr">Etat d'exploitation</label>
+			<label xml:lang="es">Exploitation statel</label>
+		</node>
+		<node ID="" Identifier="History" Type="">
+			<label xml:lang="en">History</label>
+			<label xml:lang="fr">Historique</label>
+			<label xml:lang="es">History</label>
+		</node>
+		<node ID="" Identifier="Sources" Type="">
+			<label xml:lang="en">Source of information</label>
+			<label xml:lang="fr">Source de l'information</label>
+			<label xml:lang="es">Source of information</label>
+		</node>
+		<node ID="" Identifier="Bibliography" Type="">
+			<label xml:lang="en">Bibliography</label>
+			<label xml:lang="fr">References Bibliographiques</label>
+			<label xml:lang="es">Referensas Bibliographicas</label>
+		</node>
+	</nodes>
+</labels>

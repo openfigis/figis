@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- searchTemplateList.xml																	
+***********************************************************************************************	
+*ti-  Main search template definition file
+***********************************************************************************************	
+*md- common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Contains list of specific template per domain. if no entry in that, the default one(
+*ds- srchComTemplate.xml) is taken.
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 02-Sept-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!-- Create a DTD -->
+<SPTemplateList>
+	<SPTemplateEntry domain="default">WEB-INF/properties/search/srchComTemplate.xml</SPTemplateEntry>
+	<SPTemplateEntry domain="firms">WEB-INF/properties/firms/search/srchFirmsTemplate.xml</SPTemplateEntry>
+</SPTemplateList>
+

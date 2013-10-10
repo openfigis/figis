@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- srchFirmsTemplate.xsl																	
+***********************************************************************************************	
+*ti-  FIRMS customized search engine page results template 
+***********************************************************************************************	
+*md- common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Handle structure of the XML displayed for Firms Marine Resours Page Results
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 29-Aug-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!-- Create a DTD/schema -->
+<SPTemplate dataset="firms">
+	<table class="MainDataTable" width="100%" cellpadding="0" cellspacing="0" border="0"><!--660px-->
+		<tr>
+			<td width="100%" align="right">
+				<toolbar/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+					<!-- Handle Logo, title, citation, ownership -->
+					<tr>
+						<td width="100%" class="sheettype">
+							<resutsPageTitle/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<resultsDescription/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<resultsDomainList listType="horizontal" highlightDom="y"/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Display results -->
+				<table width="100%" class="ResultsData" cellpadding="0" cellspacing="0" border="0">
+					<firmsLinebar/>
+					<tr>
+						<td>
+							<!-- Display the previous / next button on the top -->
+							<firmsResultsNavBar/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Definition of this table must be exactly the same as in firmsLineDisplay.xsl -->
+							
+							
+							<firmsTopbar/>
+								<!--<tr>
+									<td width="30%" class="dataTitle">Dataset</td>
+									<td width="55%" class="dataTitle">Description</td>
+									<td width="15%" class="dataTitle" align="right">Relevance</td>
+								</tr>
+								<tr>
+									<td width="100%" bgcolor="#FFFFFF" height="4pcx" colspan="3"/>
+								</tr>-->
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<resultsData/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Display the previous / next button on the bottom of the page-->
+							<firmsResultsNavBar/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Display the resullts page number-->
+							<resultsPageNumber/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</SPTemplate>

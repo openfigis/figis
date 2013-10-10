@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:AqSpeciesGroupRef FID="$CD_SPECIES_GROUP;" LID="$FIC_ITEM;"
+	Meta="$CODE_META_ATTR;" CodeSystem="$CODE_SYSTEM;" Code="$CODE;">
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+		<fi:Fr>$NAME_F;</fi:Fr>
+		<fi:Sp>$NAME_S;</fi:Sp>
+	</fi:Name>
+	$T:FIC_ITEM;
+</fi:AqSpeciesGroupRef>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:Topic FID="$CD_TOPIC;">
+	$JT_DATA_ENTRY;
+	<fi:ObjectSource>
+		$CD_OWNER;
+		<fi:CoverPage>
+		$JT_COVER_PAGE;
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:TopicIdent FID="$CD_TOPIC;" Meta="$CD_META;" Status="$FG_APPROVED;">
+		<dc:Identifier rdf:resource="CTN">$CDS_CODE;</dc:Identifier>
+		<fi:Name>
+			<fi:En>$NAME_E;</fi:En>
+			<fi:Fr>$NAME_F;</fi:Fr>
+			<fi:Sp>$NAME_S;</fi:Sp>
+		</fi:Name>
+		<fi:EditDate>$EDIT_DATE;</fi:EditDate>
+		<fi:LastObservationDate>$DT_LAST_OBSERVE;</fi:LastObservationDate>
+	</fi:TopicIdent>
+	<fi:TopicProfile>
+	</fi:TopicProfile>
+	<fi:TopicFeature>
+		$JT_KOS;
+	</fi:TopicFeature>
+	<fi:Bibliography>
+		$JT_BIBLIO_ENTRY;
+	</fi:Bibliography>
+</fi:Topic>

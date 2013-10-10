@@ -1,0 +1,4 @@
+<fi:MailingIdent FID="$CD_INSTITUTE;">
+	<fi:MailingList FID="$CD_MAIL_LIST;">
+	</fi:MailingList>
+</fi:MailingIdent>

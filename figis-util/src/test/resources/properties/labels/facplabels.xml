@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fi:GenGeoEconReport">
+			<label xml:lang="en">General geographic and economic data</label>
+			<label xml:lang="fr">General geographic and economic data</label>
+			<label xml:lang="es">General geographic and economic data</label>
+		</node>
+		<node ID="fi:Statistics">
+			<label xml:lang="en">Fisheries data</label>
+			<label xml:lang="fr">Fisheries data</label>
+			<label xml:lang="es">Fisheries data</label>
+		</node>
+		<node ID="fi:FisheryAquacultureSectorIndustryProfile">
+			<label xml:lang="en">Fishery sector structure</label>
+			<label xml:lang="fr">Fishery sector structure</label>
+			<label xml:lang="es">Fishery sector structure</label>
+		</node>
+		<node ID="fi:CaptureProduction">
+			<label xml:lang="en">Catch profile</label>
+			<label xml:lang="fr">Profil des captures</label>
+			<label xml:lang="es">Perfil del retén</label>
+		</node>
+		<node ID="fi:fi:LandingSites">
+			<label xml:lang="en">Landing sites</label>
+			<label xml:lang="fr">Landing sites</label>
+			<label xml:lang="es">Landing sites</label>
+		</node>
+		<node ID="fi:FishingSystems">
+			<label xml:lang="en">Fishing practices/systems</label>
+			<label xml:lang="fr">Fishing practices/systems</label>
+			<label xml:lang="es">Fishing practices/systems</label>
+		</node>
+		<node ID="fi:AqResOverview">
+			<label xml:lang="en">Main resources</label>
+			<label xml:lang="fr">Main resources</label>
+			<label xml:lang="es">Main resources</label>
+		</node>
+		<node ID="fi:Management">
+			<label xml:lang="en">Management applied to main fisheries</label>
+			<label xml:lang="fr">Management applied to main fisheries</label>
+			<label xml:lang="es">Management applied to main fisheries</label>
+		</node>
+		<node ID="fi:Objectives">
+			<label xml:lang="en">Management objectives</label>
+			<label xml:lang="fr">Management objectives</label>
+			<label xml:lang="es">Management objectives</label>
+		</node>
+		<node ID="fi:ManagementMethods">
+			<label xml:lang="en">Management measures and institutional arrangements</label>
+			<label xml:lang="fr">Management measures and institutional arrangements</label>
+			<label xml:lang="es">Management measures and institutional arrangements</label>
+		</node>
+		<node ID="fi:Community">
+			<label xml:lang="en">Fishing communities</label>
+			<label xml:lang="fr">Fishing communities</label>
+			<label xml:lang="es">Fishing communities</label>
+		</node>
+		<node ID="fi:MarineSectorIndustryProfile">
+			<label xml:lang="en">Marine sub-sector</label>
+			<label xml:lang="fr">Marine sub-sector</label>
+			<label xml:lang="es">Marine sub-sector</label>
+		</node>
+		<node ID="fi:InlandSectorIndustryProfile">
+			<label xml:lang="en">Inland  sub-sector</label>
+			<label xml:lang="fr">Inland  sub-sector</label>
+			<label xml:lang="es">Inland  sub-sector</label>
+		</node>
+		<node ID="fi:AquacultureSectorIndustryProfile">
+			<label xml:lang="en">Aquaculture sub-sector</label>
+			<label xml:lang="fr">Aquaculture sub-sector</label>
+			<label xml:lang="es">Aquaculture sub-sector</label>
+		</node>
+		<node ID="fi:RecreationSectorIndustryProfile">
+			<label xml:lang="en">Recreational sub-sector</label>
+			<label xml:lang="fr">Recreational sub-sector</label>
+			<label xml:lang="es">Recreational sub-sector</label>
+		</node>
+		<node ID="fi:PostHarvest">
+			<label xml:lang="en">Post-harvest use</label>
+			<label xml:lang="fr">Post-harvest use</label>
+			<label xml:lang="es">Post-harvest use</label>
+		</node>
+		<node ID="fi:FishUtilisation">
+			<label xml:lang="en">Fish utilization</label>
+			<label xml:lang="fr">Fish utilization</label>
+			<label xml:lang="es">Fish utilization</label>
+		</node>
+		<node ID="fi:Markets">
+			<label xml:lang="en">Fish Markets</label>
+			<label xml:lang="fr">Marchés des Pêches</label>
+			<label xml:lang="es">Mercados des Pescados</label>
+		</node>
+		<node ID="fi:SectorSocioEcoContribution">
+			<label xml:lang="en">Socio-economic contribution of the fishery sector</label>
+			<label xml:lang="fr">Socio-economic contribution of the fishery sector</label>
+			<label xml:lang="es">Socio-economic contribution of the fishery sector</label>
+		</node>
+		<node ID="fi:SocioEconReport">
+			<label xml:lang="en">Economic role of fisheries in the national economy</label>
+			<label xml:lang="fr">Economic role of fisheries in the national economy</label>
+			<label xml:lang="es">Economic role of fisheries in the national economy</label>
+		</node>
+		<node ID="fi:SupplyAndDemand">
+			<label xml:lang="en">Supply and demand</label>
+			<label xml:lang="fr">Supply and demand</label>
+			<label xml:lang="es">Supply and demand</label>
+		</node>
+		<node ID="fi:Trade">
+			<label xml:lang="en">Trade</label>
+			<label xml:lang="fr">Trade</label>
+			<label xml:lang="es">Trade</label>
+		</node>
+		<node ID="fi:FoodSecurity">
+			<label xml:lang="en">Food security</label>
+			<label xml:lang="fr">Food security</label>
+			<label xml:lang="es">Food security</label>
+		</node>
+		<node ID="fi:Employement">
+			<label xml:lang="en">Employment</label>
+			<label xml:lang="fr">Employment</label>
+			<label xml:lang="es">Employment</label>
+		</node>
+		<node ID="fi:RuralDevelop">
+			<label xml:lang="en">Rural development</label>
+			<label xml:lang="fr">Rural development</label>
+			<label xml:lang="es">Rural development</label>
+		</node>
+		<node ID="fi:StatusTrends">
+			<label xml:lang="en">Trends, issues and development</label>
+			<label xml:lang="fr">Trends, issues and development</label>
+			<label xml:lang="es">Trends, issues and development</label>
+		</node>
+		<node ID="fi:Constraints">
+			<label xml:lang="en">Constraints and opportunities</label>
+			<label xml:lang="fr">Constraints and opportunities</label>
+			<label xml:lang="es">Constraints and opportunities</label>
+		</node>
+		<node ID="fi:Strategies">
+			<label xml:lang="en">Government and non-government sector policies and development strategies</label>
+			<label xml:lang="fr">Government and non-government sector policies and development strategies</label>
+			<label xml:lang="es">Government and non-government sector policies and development strategies</label>
+		</node>
+		<node ID="fi:ResearchEducation">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="fi:ResearchEntry">
+			<label xml:lang="en">Research</label>
+			<label xml:lang="fr">Recherche</label>
+			<label xml:lang="es">Investigación</label>
+		</node>
+		<node ID="fi:EducationEntry">
+			<label xml:lang="en">Education</label>
+			<label xml:lang="fr">éducation</label>
+			<label xml:lang="es">Educación</label>
+		</node>
+		<node ID="fi:AidOrInvestments">
+			<label xml:lang="en">Foreign aid</label>
+			<label xml:lang="fr">Foreign aid</label>
+			<label xml:lang="es">Foreign aid</label>
+		</node>
+		<node ID="fi:OrgsInvolved">
+			<label xml:lang="en">Institutional framework</label>
+			<label xml:lang="fr">Institutional framework</label>
+			<label xml:lang="es">Institutional framework</label>
+		</node>
+		<node ID="fi:OrgsInvolvedEntry">
+			<!-- //////////// to be evaluated if to be changed in dc:Title son of orgsinvolvedentry -->
+			<label xml:lang="en">Regional and international institutional framework</label>
+			<label xml:lang="fr">Regional and international institutional framework</label>
+			<label xml:lang="es">Regional and international institutional framework</label>
+		</node>
+		<node ID="fi:LegalFrameworkOverview">
+			<label xml:lang="en">Legal framework</label>
+			<label xml:lang="fr">Legal framework</label>
+			<label xml:lang="es">Legal framework</label>
+		</node>
+		<node ID="fi:LegalFrameworkEntry">
+			<label xml:lang="en">Regional and international legal framework</label>
+			<label xml:lang="fr">Regional and international legal framework</label>
+			<label xml:lang="es">Regional and international legal framework</label>
+		</node>
+		<node ID="fi:Bibliography">
+			<label xml:lang="en">References</label>
+			<label xml:lang="fr">References</label>
+			<label xml:lang="es">References</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Additional_information">
+			<label xml:lang="en">Relevant FAO data bases</label>
+			<label xml:lang="fr">Relevant FAO data bases</label>
+			<label xml:lang="es">Relevant FAO data bases</label>
+		</node>
+				<node ID="fi:AddInfo">
+			<label xml:lang="en">Annexes</label>
+			<label xml:lang="fr">Annexes</label>
+			<label xml:lang="es">Annexes</label>
+		</node>
+		<node ID="fi:NEMS">
+			<label xml:lang="en">Meetings &amp; News</label>
+			<label xml:lang="fr">Réunions et Nouvelles</label>
+			<label xml:lang="es">Reuniones y Noticias</label>
+			<label xml:lang="ar">اجتماعات وأخبار</label>
+			<label xml:lang="zh">会议和新闻</label>
+			<label xml:lang="ru">Совещания и новости</label>
+		</node>
+		<node ID="fi:EIMSEntry">
+			<label xml:lang="en">List of relevant FAO publications</label>
+			<label xml:lang="fr">List of relevant FAO publications</label>
+			<label xml:lang="es">List of relevant FAO publications</label>
+			<label xml:lang="ar">List of relevant FAO publications</label>
+			<label xml:lang="zh">List of relevant FAO publications</label>
+			<label xml:lang="ru">List of relevant FAO publications</label>
+		</node>
+	</nodes>
+	<tags>
+		<tag ID="LastUpdated">
+
+		<label xml:lang="en">Updated</label>
+			<label xml:lang="es">Actualizado</label>
+			<label xml:lang="fr">Mis à jour </label>
+			<label xml:lang="ar">تحديث</label>
+			<label xml:lang="zh">已更新</label>
+			<label xml:lang="ru">Обновленная версия</label>
+		</tag>
+		<tag ID="Part1">
+			<label xml:lang="en">Part I - General data</label>
+			<label xml:lang="es">Part I - General data</label>
+			<label xml:lang="fr">Part I - General data</label>
+			<label xml:lang="ar">Part I - General data</label>
+			<label xml:lang="zh">Part I - General data</label>
+			<label xml:lang="ru">Part I - General data</label>
+		</tag>
+		<tag ID="Part2">
+			<label xml:lang="en">Part II - Content</label>
+			<label xml:lang="es">Part I - Content</label>
+			<label xml:lang="fr">Part I - Content</label>
+			<label xml:lang="ar">Part I - Content</label>
+			<label xml:lang="zh">Part I - Content</label>
+			<label xml:lang="ru">Part I - Content</label>
+		</tag>
+	</tags>
+</labels>

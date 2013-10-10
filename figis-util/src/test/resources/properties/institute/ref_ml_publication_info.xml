@@ -1,0 +1,7 @@
+<fi:PublicationIdent FID="$CD_INSTITUTE;">
+	<fi:SpecialGroups>$SPECIAL_GROUPS;</fi:SpecialGroups>
+	<fi:Subjects>$SUBJECTS;</fi:Subjects>
+	<fi:AddresseCategory>$ADDRESSEE_CATEGORY;</fi:AddresseCategory>
+	<fi:PublicationExch>$FG_PUBLICATION_EXCH;</fi:PublicationExch>
+	<fi:Copies>$COPIES;</fi:Copies>
+</fi:PublicationIdent>

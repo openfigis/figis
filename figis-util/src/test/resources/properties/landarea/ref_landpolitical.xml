@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:LandPoliticalRef FID="$AREA;"
+	CodeSystem="ISO3" Code="$ISO_3_CODE;"
+	fi:Currency="$CCY;"
+	xml:lang="$CORRESP_LANG;">
+	<fi:Name>
+		<fi:En>$LONG_NAME_E;</fi:En>
+		<fi:Fr>$LONG_NAME_F;</fi:Fr>
+		<fi:Sp>$LONG_NAME_S;</fi:Sp>
+	</fi:Name>
+</fi:LandPoliticalRef>

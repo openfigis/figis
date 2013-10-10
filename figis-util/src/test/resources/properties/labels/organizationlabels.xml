@@ -1,0 +1,2685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="Acronym">
+			<label xml:lang="en">Acronym</label>
+			<label xml:lang="es">Siglas</label>
+			<label xml:lang="fr">Acronyme/Sigle</label>
+			<label xml:lang="ar">المختصر</label>
+			<label xml:lang="zh">缩略语</label>
+			<label xml:lang="ru">Сокращение</label>
+		</node>
+		<node ID="Agrovoc">
+			<label xml:lang="en">Agrovoc thesaurus</label>
+			<label xml:lang="es">Tesauro del agrovoc</label>
+			<label xml:lang="fr">Thésaurus Agrovoc</label>
+			<label xml:lang="ar">المكنز الزراعي المتعدد اللغات</label>
+			<label xml:lang="zh">Agrovoc(多语种农业词库)</label>
+			<label xml:lang="ru">Тезаурус Агровок</label>
+		</node>
+		<node ID="ASC">
+			<label xml:lang="en">Asc classification</label>
+			<label xml:lang="es">Clasificación del ASC</label>
+			<label xml:lang="fr">Classification ASC</label>
+			<label xml:lang="ar">التصنيف الصوتي لقاع البحار</label>
+			<label xml:lang="zh">ASC 分类</label>
+			<label xml:lang="ru">Классификация АСК</label>
+		</node>
+		<node ID="CABT">
+			<label xml:lang="en">Cab thesaurus</label>
+			<label xml:lang="es">Tesauro del cab</label>
+			<label xml:lang="fr">Thésaurus CAB</label>
+			<label xml:lang="ar">مكنز معامل نشاط القوارب</label>
+			<label xml:lang="zh">CAB 词典</label>
+			<label xml:lang="ru">Тезаурус КАБ</label>
+		</node>
+		<node ID="CodeSystem">
+			<label xml:lang="en">Code</label>
+			<label xml:lang="es">Código</label>
+			<label xml:lang="fr">Code</label>
+			<label xml:lang="ar">الرمز</label>
+			<label xml:lang="zh">代号</label>
+			<label xml:lang="ru">Код</label>
+		</node>
+		<node ID="DecentralisedType">
+			<label xml:lang="en">Type of decentralisation</label>
+			<label xml:lang="es">Tipo de descentralización</label>
+			<label xml:lang="fr">Type de décentralisation</label>
+			<label xml:lang="ar">نوع اللامركزية</label>
+			<label xml:lang="zh">权力下放类型</label>
+			<label xml:lang="ru">Тип децентрализации</label>
+		</node>
+		<node ID="Inter-govType">
+			<label xml:lang="en">Inter-governmental type</label>
+			<label xml:lang="es">Tipo intergubernamental</label>
+			<label xml:lang="fr">Type intergouvernemental</label>
+			<label xml:lang="ar">النوع الحكومي الدولي</label>
+			<label xml:lang="zh">政府间类型</label>
+			<label xml:lang="ru">Межправительственный тип</label>
+		</node>
+		<node ID="LCSH">
+			<label xml:lang="en">Library of congress subject heading</label>
+			<label xml:lang="es">Materias biblioteca del congreso</label>
+			<label xml:lang="fr">Thème Bibliothèque du Congrès</label>
+			<label xml:lang="ar">المواضيع في مكتبة الكونغرس</label>
+			<label xml:lang="zh">会议主题资料</label>
+			<label xml:lang="ru">Предметный указатель Библиотеки конгресса</label>
+		</node>
+		<node ID="LegalType">
+			<label xml:lang="en">Legal type</label>
+			<label xml:lang="es">Tipo jurídico</label>
+			<label xml:lang="fr">Type juridique</label>
+			<label xml:lang="ar">النوع القانوني</label>
+			<label xml:lang="zh">法律类型</label>
+			<label xml:lang="ru">Правовой тип</label>
+		</node>
+		<node ID="Office">
+			<label xml:lang="en">Office</label>
+			<label xml:lang="es">Oficina</label>
+			<label xml:lang="fr">Bureau</label>
+			<label xml:lang="ar">المكتب</label>
+			<label xml:lang="zh">办公室</label>
+			<label xml:lang="ru">Служба</label>
+		</node>
+		<node ID="Order">
+			<label xml:lang="en">Order</label>
+			<label xml:lang="es">Orden</label>
+			<label xml:lang="fr">Ordre</label>
+			<label xml:lang="ar">الترتيب</label>
+			<label xml:lang="zh">订购</label>
+			<label xml:lang="ru">Порядок</label>
+		</node>
+		<node ID="PWB">
+			<label xml:lang="en">Budget code</label>
+			<label xml:lang="es">Código del presupuesto</label>
+			<label xml:lang="fr">Code du budget</label>
+			<label xml:lang="ar">رمز الميزانية</label>
+			<label xml:lang="zh">预算编号</label>
+			<label xml:lang="ru">Код бюджета</label>
+		</node>
+		<node ID="Scale">
+			<label xml:lang="en">Scale</label>
+			<label xml:lang="es">Escala</label>
+			<label xml:lang="fr">Dimension</label>
+			<label xml:lang="ar">الحجم</label>
+			<label xml:lang="zh">比例</label>
+			<label xml:lang="ru">Масштаб</label>
+		</node>
+		<node ID="Title">
+			<label xml:lang="en">Title</label>
+			<label xml:lang="es">Título</label>
+			<label xml:lang="fr">Titre</label>
+			<label xml:lang="ar">الإسم</label>
+			<label xml:lang="zh">名称</label>
+			<label xml:lang="ru">Название</label>
+		</node>
+		<node ID="Type">
+			<label xml:lang="en">Type</label>
+			<label xml:lang="es">Tipo</label>
+			<label xml:lang="fr">Type</label>
+			<label xml:lang="ar">النوع</label>
+			<label xml:lang="zh">类型</label>
+			<label xml:lang="ru">Тип</label>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="Version">
+			<label xml:lang="en">Version</label>
+			<label xml:lang="es">Versión</label>
+			<label xml:lang="fr">Version</label>
+			<label xml:lang="ar">الإصدار</label>
+			<label xml:lang="zh">版本</label>
+			<label xml:lang="ru">Версия</label>
+		</node>
+		<node ID="xsi:type">
+			<label xml:lang="en">Code system</label>
+			<label xml:lang="es">Sistema de código</label>
+			<label xml:lang="fr">Système de codage</label>
+			<label xml:lang="ar">نظام الترميز</label>
+			<label xml:lang="zh">编码系统</label>
+			<label xml:lang="ru">Система кодирования</label>
+		</node>
+		<node ID="aida:Funding" Idml="funding">
+			<label xml:lang="en">Funding</label>
+			<label xml:lang="es">Financiamiento</label>
+			<label xml:lang="fr">Financement</label>
+			<label xml:lang="ar">التمويل</label>
+			<label xml:lang="zh">供资</label>
+			<label xml:lang="ru">Финансирование</label>
+		</node>
+		<node ID="aida:Role" Idml="role">
+			<label xml:lang="en">Role</label>
+			<label xml:lang="es">Papel</label>
+			<label xml:lang="fr">Rôle</label>
+			<label xml:lang="ar">الدور</label>
+			<label xml:lang="zh">作用</label>
+			<label xml:lang="ru">Роль</label>
+		</node>
+		<node ID="dcterms:Audience">
+			<label xml:lang="en">Audience</label>
+			<label xml:lang="es">Audiencias</label>
+			<label xml:lang="fr">Public</label>
+			<label xml:lang="ar">الجمهور</label>
+			<label xml:lang="zh">用户</label>
+			<label xml:lang="ru">Аудитория</label>
+		</node>
+		<node ID="dc:Coverage">
+			<label xml:lang="en">Coverage</label>
+			<label xml:lang="es">Cobertura</label>
+			<label xml:lang="fr">Couverture</label>
+			<label xml:lang="ar">التغطية</label>
+			<label xml:lang="zh">范围</label>
+			<label xml:lang="ru">Охват</label>
+		</node>
+		<node ID="dc:Creator">
+			<label xml:lang="en">Author</label>
+			<label xml:lang="es">Autor</label>
+			<label xml:lang="fr">Auteur</label>
+			<label xml:lang="ar">المؤلف</label>
+			<label xml:lang="zh">编者</label>
+			<label xml:lang="ru">Автор</label>
+		</node>
+		<node ID="dcterms:Created">
+			<label xml:lang="en">Date created</label>
+			<label xml:lang="es">Fecha creada</label>
+			<label xml:lang="fr">Date de création</label>
+			<label xml:lang="ar">تاريخ الإنشاء</label>
+			<label xml:lang="zh">创建日期</label>
+			<label xml:lang="ru">Дата создания</label>
+		</node>
+		<node ID="dc:Date" Idml="date">
+			<label xml:lang="en">Date</label>
+			<label xml:lang="es">Fecha</label>
+			<label xml:lang="fr">Date</label>
+			<label xml:lang="ar">التاريخ</label>
+			<label xml:lang="zh">日期</label>
+			<label xml:lang="ru">Дата</label>
+		</node>
+		<node ID="dc:Description">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="dc:Format">
+			<label xml:lang="en">Format</label>
+			<label xml:lang="es">Formato</label>
+			<label xml:lang="fr">Format</label>
+			<label xml:lang="ar">الشكل</label>
+			<label xml:lang="zh">格式</label>
+			<label xml:lang="ru">Формат</label>
+		</node>
+		<node ID="dc:Identifier">
+			<label xml:lang="en">Identifier</label>
+			<label xml:lang="es">Identificador</label>
+			<label xml:lang="fr">Identificateur</label>
+			<label xml:lang="ar">عامل التعريف</label>
+			<label xml:lang="zh">标识符</label>
+			<label xml:lang="ru">Идентификатор</label>
+		</node>
+		<node ID="dc:Language" Type="Lang">
+			<label xml:lang="en">Language</label>
+			<label xml:lang="es">Lengua</label>
+			<label xml:lang="fr">Langue</label>
+			<label xml:lang="ar">اللغة</label>
+			<label xml:lang="zh">语言</label>
+			<label xml:lang="ru">Язык</label>
+		</node>
+		<node ID="dcterms:Medium">
+			<label xml:lang="en">Medium</label>
+			<label xml:lang="es">Medio</label>
+			<label xml:lang="fr">Milieu</label>
+			<label xml:lang="ar">وسط</label>
+			<label xml:lang="zh">媒体</label>
+			<label xml:lang="ru">Носитель</label>
+		</node>
+		<node ID="dcterms:Mediator">
+			<label xml:lang="en">Mediator</label>
+			<label xml:lang="es">Mediador</label>
+			<label xml:lang="fr">Médiateur</label>
+			<label xml:lang="ar">وسيط</label>
+			<label xml:lang="zh">中介者</label>
+			<label xml:lang="ru">Посредник</label>
+		</node>
+		<node ID="dcterms:Modified">
+			<label xml:lang="en">Date modified</label>
+			<label xml:lang="es">Fecha modificada</label>
+			<label xml:lang="fr">Date de la modification</label>
+			<label xml:lang="ar">تاريخ التغيير</label>
+			<label xml:lang="zh">修改日期</label>
+			<label xml:lang="ru">Дата изменения</label>
+		</node>
+		<node ID="dc:Subject" Idml="keyword">
+			<label xml:lang="en">Subject</label>
+			<label xml:lang="es">Tema</label>
+			<label xml:lang="fr">Sujet</label>
+			<label xml:lang="ar">الموضوع</label>
+			<label xml:lang="zh">主题</label>
+			<label xml:lang="ru">Предмет</label>
+		</node>
+		<node ID="dcterms:Temporal">
+			<label xml:lang="en">Coverage (temporal)</label>
+			<label xml:lang="es">Cobertura (temporal)</label>
+			<label xml:lang="fr">Couverture (temporelle)</label>
+			<label xml:lang="ar">التغطية (مؤقتة)</label>
+			<label xml:lang="zh">范围(暂定)</label>
+			<label xml:lang="ru">Охват (временной)</label>
+		</node>
+		<node ID="dc:Title" Idml="title">
+			<label xml:lang="en">Title</label>
+			<label xml:lang="es">Título</label>
+			<label xml:lang="fr">Titre</label>
+			<label xml:lang="ar">الإسم</label>
+			<label xml:lang="zh">名称</label>
+			<label xml:lang="ru">Название</label>
+		</node>
+		<node ID="dc:Title" Type="Official">
+			<label xml:lang="en">Official title</label>
+			<label xml:lang="es">Título oficial</label>
+			<label xml:lang="fr">Titre</label>
+			<label xml:lang="fr">Titre officiel</label>
+			<label xml:lang="ar">الإسم</label>
+			<label xml:lang="zh">职务</label>
+			<label xml:lang="ru">Официальное название</label>
+		</node>
+		<node ID="fi:Acknowledgement">
+			<label xml:lang="en">Acknowledgement</label>
+			<label xml:lang="es">Reconocimiento</label>
+			<label xml:lang="fr">Remerciements</label>
+			<label xml:lang="ar">شكر</label>
+			<label xml:lang="zh">致谢</label>
+			<label xml:lang="ru">Подтверждение</label>
+		</node>
+		<node ID="fi:AddInfo" Type="General_information" Icon="addinfo_black.gif">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:AddInfo" Type="Additional_information" Icon="addinfo.gif">
+			<label xml:lang="en">Additional information</label>
+			<label xml:lang="es">Información adicional</label>
+			<label xml:lang="fr">Supplément d'information</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">补充信息</label>
+			<label xml:lang="ru">Дополнительная информация</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Note" Icon="addinfo.gif">
+			<label xml:lang="en">Note</label>
+			<label xml:lang="es">Nota</label>
+			<label xml:lang="fr">Note</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">注释</label>
+			<label xml:lang="ru">Примечание</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Popup" Icon="addinfo.gif">
+			<label xml:lang="en">More info</label>
+			<label xml:lang="fr">Plus d'infos</label>
+			<label xml:lang="es">Más información</label>
+			<label xml:lang="ar">معلومات اكثر</label>
+			<label xml:lang="zh">更多信息</label>
+			<label xml:lang="ru">Более подробная информация</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Remarks" Icon="addinfo.gif">
+			<label xml:lang="en">Remarks</label>
+			<label xml:lang="es">Observaciones</label>
+			<label xml:lang="fr">Observations</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">说明</label>
+			<label xml:lang="ru">Замечания</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Footnote" Icon="addinfo.gif">
+			<label xml:lang="en">Footnote</label>
+			<label xml:lang="es">Nota al pie de la página</label>
+			<label xml:lang="fr">Note de bas de page</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru">Сноска</label>
+		</node>
+		<node ID="fi:AddInfo" Type="Endnote" Icon="addinfo.gif">
+			<label xml:lang="en">Endnote</label>
+			<label xml:lang="es">Nota del extremo</label>
+			<label xml:lang="fr">Note de fin de texte</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">尾注</label>
+			<label xml:lang="ru">Концевая сноска</label>
+		</node>
+		<node ID="fi:AidOrInvestments">
+			<label xml:lang="en">Aid or investments</label>
+			<label xml:lang="es">Ayuda o inversiones</label>
+			<label xml:lang="fr">Aide ou investissements</label>
+			<label xml:lang="ar">المعونة أو الاستثمارات</label>
+			<label xml:lang="zh">援助或投资</label>
+			<label xml:lang="ru">Помощь или инвестиции</label>
+		</node>
+		<node ID="fi:Approaches">
+			<label xml:lang="en">Approaches</label>
+			<label xml:lang="es">Acercamientos</label>
+			<label xml:lang="fr">Méthodes employées</label>
+			<label xml:lang="fr">Méthodes employées</label>
+			<label xml:lang="ar">مناهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подходы</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Education">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Méthode employée</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Information">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Méthode employée</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Research">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Méthode employée</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Development">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Méthode employée</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Advisory">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Approche</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:ApproachEntry" Type="Management">
+			<label xml:lang="en">Approach</label>
+			<label xml:lang="es">Acercamiento</label>
+			<label xml:lang="fr">Méthode employée</label>
+			<label xml:lang="ar">منهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подход</label>
+		</node>
+		<node ID="fi:Approaches">
+			<label xml:lang="en">Approaches</label>
+			<label xml:lang="es">Acercamientos</label>
+			<label xml:lang="fr">Méthodes employées</label>
+			<label xml:lang="fr">Méthodes employées</label>
+			<label xml:lang="ar">مناهج العمل</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Подходы</label>
+		</node>
+		<node ID="fi:AquacultureSector" Idml="sector">
+			<label xml:lang="en">Aquaculture sector</label>
+			<label xml:lang="es">Sector de la acuicultura</label>
+			<label xml:lang="fr">Secteur de l'aquaculture</label>
+			<label xml:lang="ar">قطاع تربية الأحياء المائية</label>
+			<label xml:lang="zh">水产养殖业</label>
+			<label xml:lang="ru">Рыбоводческий сектор</label>
+		</node>
+		<node ID="fi:Bibliography">
+			<label xml:lang="en">Bibliography</label>
+			<label xml:lang="es">Bibliografía</label>
+			<label xml:lang="fr">Bibliographie</label>
+			<label xml:lang="ar">مراجع المؤلفات</label>
+			<label xml:lang="zh">参考书目</label>
+			<label xml:lang="ru">Библиографический указатель</label>
+		</node>
+		<node ID="fi:BiblioEntry">
+			<label xml:lang="en">Source</label>
+			<label xml:lang="es">Fuente</label>
+			<label xml:lang="fr">Origine</label>
+			<label xml:lang="ar">مصدر</label>
+			<label xml:lang="zh">信息来源</label>
+			<label xml:lang="ru">Источник</label>
+		</node>
+		<node ID="fi:Chart">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:CollectionRef">
+			<label xml:lang="en">provided by</label>
+			<label xml:lang="es">proporcionado por</label>
+			<label xml:lang="fr">communiqué par</label>
+			<label xml:lang="ar">نقلاً عن</label>
+			<label xml:lang="zh">提供方</label>
+			<label xml:lang="ru">предоставлено</label>
+		</node>
+		<node ID="fi:CollectionCoverage">
+			<label xml:lang="en">Collection coverage</label>
+			<label xml:lang="es">Cobertura de la colección</label>
+			<label xml:lang="fr">Couverture de la collection</label>
+			<label xml:lang="ar">تغطية المجموعة</label>
+			<label xml:lang="zh">收集范围</label>
+			<label xml:lang="ru">Охват массива данных</label>
+		</node>
+		<node ID="fi:CollectionStruct">
+			<label xml:lang="en">Collection structure</label>
+			<label xml:lang="es">Estrutura de la Colección</label>
+			<label xml:lang="fr">Structure de la collection</label>
+			<label xml:lang="ar">تركيبة المجموعة</label>
+			<label xml:lang="zh">收集品结构</label>
+			<label xml:lang="ru">Структура массива данных</label>
+		</node>
+		<node ID="fi:CountrySectorIndustryProfile" Idml="">
+			<label xml:lang="en">Sector industry profile</label>
+			<label xml:lang="es">Perfil de la industria del sector</label>
+			<label xml:lang="fr">Profil d'industrie du secteur</label>
+			<label xml:lang="ar">الملامح الصناعية للقطاع</label>
+			<label xml:lang="zh">产业简况</label>
+			<label xml:lang="ru">Профиль отрасли хозяйства</label>
+		</node>
+		<node ID="fi:CountrySectorManage" Idml="">
+			<label xml:lang="en">Country sector management</label>
+			<label xml:lang="es">Gestión del Sector del País</label>
+			<label xml:lang="fr">Gestion sectorielle à l'échelle nationale</label>
+			<label xml:lang="ar">إدارة القطاع على المستوى الوطني</label>
+			<label xml:lang="zh">国家部门管理</label>
+			<label xml:lang="ru">Отраслевое управление в странах</label>
+		</node>
+		<node ID="fi:CoverPage">
+			<label xml:lang="en">Cover page</label>
+			<label xml:lang="es">Portada</label>
+			<label xml:lang="fr">Page de couverture</label>
+			<label xml:lang="ar">صفحة الغلاف</label>
+			<label xml:lang="zh">封面</label>
+			<label xml:lang="ru">Титульный лист</label>
+		</node>
+		<node ID="fi:CulturedSpecies">
+			<label xml:lang="en">Cultured species</label>
+			<label xml:lang="es">Especies cultivadas</label>
+			<label xml:lang="fr">Espèces cultivées</label>
+			<label xml:lang="ar">الأنواع المستزرعة</label>
+			<label xml:lang="zh">养殖种类</label>
+			<label xml:lang="ru">Культивируемые виды</label>
+		</node>
+		<node ID="fi:CulturedSpeciesEntry">
+			<label xml:lang="en">Cultured species</label>
+			<label xml:lang="es">Especie cultivada</label>
+			<label xml:lang="fr">Espèce cultivée</label>
+			<label xml:lang="ar">الأنواع المستزرعة</label>
+			<label xml:lang="zh">养殖种类</label>
+			<label xml:lang="ru">Культивируемые виды</label>
+		</node>
+		<node ID="fi:CultureSystems">
+			<label xml:lang="en">Culture systems</label>
+			<label xml:lang="es">Sistemas de la cultura</label>
+			<label xml:lang="fr">Systèmes de culture</label>
+			<label xml:lang="ar">نظم الاستزراع</label>
+			<label xml:lang="zh">养殖系统</label>
+			<label xml:lang="ru">Системы культивирования</label>
+		</node>
+		<node ID="fi:CultureSystemEntry">
+			<label xml:lang="en">Culture system</label>
+			<label xml:lang="es">Sistema de cultivo</label>
+			<label xml:lang="fr">Système de culture</label>
+			<label xml:lang="ar">نظام الاستزراع</label>
+			<label xml:lang="zh">养殖系统</label>
+			<label xml:lang="ru">Системы культивирования</label>
+		</node>
+		<node ID="fi:Disclaimer">
+			<label xml:lang="en">Disclaimer</label>
+			<label xml:lang="es">Descargo de responsabilidad</label>
+			<label xml:lang="fr">Déni de responsabilité</label>
+			<label xml:lang="ar">إخلاء مسؤولية</label>
+			<label xml:lang="zh">免责声明</label>
+			<label xml:lang="ru">Правовая оговорка</label>
+		</node>
+		<node ID="fi:FarmingSystems">
+			<label xml:lang="en">Farming systems</label>
+			<label xml:lang="es">Sistemas de cultivo</label>
+			<label xml:lang="fr">Systèmes agricoles</label>
+			<label xml:lang="ar">النظم الزراعية</label>
+			<label xml:lang="zh">耕作系统</label>
+			<label xml:lang="ru">Системы разведения</label>
+		</node>
+		<node ID="fi:FarmingSystemEntry">
+			<label xml:lang="en">Farming system</label>
+			<label xml:lang="es">Sistema de cultivo</label>
+			<label xml:lang="fr">Système agricole</label>
+			<label xml:lang="ar">النظام الزراعي</label>
+			<label xml:lang="zh">耕作系统</label>
+			<label xml:lang="ru">Системы разведения</label>
+		</node>
+		<node ID="fi:Editor">
+			<label xml:lang="en">Updated</label>
+			<label xml:lang="es">Actualización</label>
+			<label xml:lang="fr">Mise à jour</label>
+			<label xml:lang="ar">تحديث</label>
+			<label xml:lang="zh">已更新</label>
+			<label xml:lang="ru">Обновлено</label>
+		</node>
+		<node ID="fi:DataEntry">
+			<label xml:lang="en">Data entry</label>
+			<label xml:lang="es">Introducción de datos</label>
+			<label xml:lang="fr">Saisie de données</label>
+			<label xml:lang="ar">إدخال البيانات</label>
+			<label xml:lang="zh">数据输入</label>
+			<label xml:lang="ru">Ввод данных</label>
+		</node>
+		<node ID="fi:Demand">
+			<label xml:lang="en">Demand</label>
+			<label xml:lang="es">Demanda</label>
+			<label xml:lang="fr">Demande</label>
+			<label xml:lang="ar">الطلب</label>
+			<label xml:lang="zh">要求</label>
+			<label xml:lang="ru">Запросы</label>
+		</node>
+		<node ID="fi:Development">
+			<label xml:lang="en">Development</label>
+			<label xml:lang="es">Desarrollo</label>
+			<label xml:lang="fr">Développement</label>
+			<label xml:lang="ar">التنمية</label>
+			<label xml:lang="zh">发展</label>
+			<label xml:lang="ru">Разработка</label>
+		</node>
+		<node ID="fi:Education">
+			<label xml:lang="en">Education</label>
+			<label xml:lang="es">Educación</label>
+			<label xml:lang="fr">Éducation</label>
+			<label xml:lang="ar">التعليم</label>
+			<label xml:lang="zh">教育</label>
+			<label xml:lang="ru">Обучение</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Meeting">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Travel">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Trial">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Demonstration">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Workshop">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Publication">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Database">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:EventEntry" Type="Website">
+			<label xml:lang="en">Event</label>
+			<label xml:lang="es">Acontecimiento</label>
+			<label xml:lang="fr">Événement</label>
+			<label xml:lang="ar">الحدث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Событие</label>
+		</node>
+		<node ID="fi:Events">
+			<label xml:lang="en">Events</label>
+			<label xml:lang="es">Acontecimientos</label>
+			<label xml:lang="fr">Événements</label>
+			<label xml:lang="ar">الأحداث</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">События</label>
+		</node>
+		<node ID="fi:Events" Type="Project">
+			<label xml:lang="en">Project events</label>
+			<label xml:lang="es">Acontecimientos del proyecto</label>
+			<label xml:lang="fr">Événements</label>
+			<label xml:lang="fr">Événements liés au projet</label>
+			<label xml:lang="ar">الأحداث</label>
+			<label xml:lang="zh">项目活动</label>
+			<label xml:lang="ru">Мероприятия в рамках проекта</label>
+		</node>
+		<node ID="fi:Events" Type="Related">
+			<label xml:lang="en">Related events</label>
+			<label xml:lang="es">Acontecimientos relacionados</label>
+			<label xml:lang="fr">Événements</label>
+			<label xml:lang="fr">Événements connexes</label>
+			<label xml:lang="ar">الأحداث</label>
+			<label xml:lang="zh">项目活动</label>
+			<label xml:lang="ru">Связанные события</label>
+		</node>
+		<node ID="fi:FAOLex">
+			<label xml:lang="en">FAO Lex</label>
+			<label xml:lang="es">FAO Lex</label>
+			<label xml:lang="fr">FAO Lex</label>
+			<label xml:lang="ar">مصطلحات المنظمة</label>
+			<label xml:lang="zh">粮农组织法规</label>
+			<label xml:lang="ru">ФАО Лекс</label>
+		</node>
+		<node ID="fi:FisheriesSector" Idml="sector">
+			<label xml:lang="en">Overall fishery sector</label>
+			<label xml:lang="es">Sector pesquero total</label>
+			<label xml:lang="fr">Secteur global des pêches</label>
+			<label xml:lang="ar">قطاع مصايد الأسماك الإجمالي</label>
+			<label xml:lang="zh">整个渔业部门</label>
+			<label xml:lang="ru">Вся рыбохозяйственная отрасль </label>
+		</node>
+		<node ID="fi:LegalFrameworks">
+			<label xml:lang="en">General legal frameworks</label>
+			<label xml:lang="es">Marcos jurídicos generales</label>
+			<label xml:lang="fr">Cadres juridiques généraux</label>
+			<label xml:lang="ar">الأطر القانونية العامة</label>
+			<label xml:lang="zh">总体法律框架</label>
+			<label xml:lang="ru">Общая правовая система </label>
+		</node>
+		<node ID="fi:GenEconReport">
+			<label xml:lang="en">General economic and fisheries data</label>
+			<label xml:lang="es">Datos geográficos generales</label>
+			<label xml:lang="fr">Données générales relatives à l'économie et aux pêches</label>
+			<label xml:lang="ar">البيانات الاقتصادية والسمكية العامة</label>
+			<label xml:lang="zh">总的经济和渔业数据</label>
+			<label xml:lang="ru">Общие экономические и рыбохозяйственные данные</label>
+		</node>
+		<node ID="fi:GeoCoverage">
+			<label xml:lang="en">Area of competence</label>
+			<label xml:lang="es">Aréa de competencia</label>
+			<label xml:lang="fr">Zone de compétence</label>
+			<label xml:lang="ar">Area of competence</label>
+			<label xml:lang="zh">Area of competence</label>
+			<label xml:lang="ru">Область компетенции</label>
+		</node>
+		<node ID="fi:Highlight">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:History">
+			<label xml:lang="en">History</label>
+			<label xml:lang="es">Historia</label>
+			<label xml:lang="fr">Historique</label>
+			<label xml:lang="ar">لمحة تاريخية</label>
+			<label xml:lang="zh">历史</label>
+			<label xml:lang="ru">История</label>
+		</node>
+		<node ID="fi:Impacts">
+			<label xml:lang="en">Impacts</label>
+			<label xml:lang="es">Impactos</label>
+			<label xml:lang="fr">Impacts</label>
+			<label xml:lang="ar">التأثيرات</label>
+			<label xml:lang="zh">影响</label>
+			<label xml:lang="ru">Воздействие</label>
+		</node>
+		<node ID="fi:Infrastructure">
+			<label xml:lang="en">Infrastructure</label>
+			<label xml:lang="es">Infraestructura</label>
+			<label xml:lang="fr">Infrastructures</label>
+			<label xml:lang="ar">البنية الأساسية</label>
+			<label xml:lang="zh">基础设施</label>
+			<label xml:lang="ru">Инфраструктура</label>
+		</node>
+		<node ID="fi:InlandSector" Idml="sector">
+			<label xml:lang="en">Inland sector</label>
+			<label xml:lang="es">Sector interior</label>
+			<label xml:lang="fr">Secteur intérieur</label>
+			<label xml:lang="ar">القطاع الداخلي</label>
+			<label xml:lang="zh">内陆部门</label>
+			<label xml:lang="ru">Внутренний сектор</label>
+		</node>
+		<node ID="fi:Issues">
+			<label xml:lang="en">Issues</label>
+			<label xml:lang="es">Asuntos</label>
+			<label xml:lang="fr">Enjeux</label>
+			<label xml:lang="ar">القضايا</label>
+			<label xml:lang="zh">问题</label>
+			<label xml:lang="ru">Вопросы</label>
+		</node>
+		<node ID="fi:IssueEntry">
+			<label xml:lang="en">Issue</label>
+			<label xml:lang="es">Asunto</label>
+			<label xml:lang="fr">Enjeu</label>
+			<label xml:lang="ar">القضية</label>
+			<label xml:lang="zh">问题</label>
+			<label xml:lang="ru">Вопрос</label>
+		</node>
+		<node ID="fi:ItemsMeasured">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Languages">
+			<label xml:lang="en">Languages</label>
+			<label xml:lang="es">Idiomas</label>
+			<label xml:lang="fr">Langues</label>
+			<label xml:lang="ar">اللغــات</label>
+			<label xml:lang="zh">语言</label>
+			<label xml:lang="ru">Языки</label>
+		</node>
+		<node ID="fi:JurisdictionArea">
+			<label xml:lang="en">Jurisdiction area</label>
+			<label xml:lang="es">Área de la jurisdicción</label>
+			<label xml:lang="fr">Zone de compétence</label>
+			<label xml:lang="ar">منطقة الولاية القانونية</label>
+			<label xml:lang="zh">管辖区</label>
+			<label xml:lang="ru">Район юрисдикции</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Gov">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Inter-gov">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Ngo">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Intern_ngo">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Civil_society_org">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalFoundation" Type="Commercial_entity">
+			<label xml:lang="en">Legal foundation</label>
+			<label xml:lang="es">Fundación legal</label>
+			<label xml:lang="fr">Fondements juridiques</label>
+			<label xml:lang="ar">الأساس القانوني</label>
+			<label xml:lang="zh">法律基础</label>
+			<label xml:lang="ru">Правовые основы</label>
+		</node>
+		<node ID="fi:LegalInstrument">
+			<label xml:lang="en">Legal instrument</label>
+			<label xml:lang="es">Instrumento jurídico</label>
+			<label xml:lang="fr">Instrument juridique</label>
+			<label xml:lang="ar">الصك القانوني</label>
+			<label xml:lang="zh">法律文书</label>
+			<label xml:lang="ru">Правовой документ</label>
+		</node>
+		<node ID="fi:LandAreaRef" Type="Area">
+			<label xml:lang="en">Area</label>
+			<label xml:lang="es">Área</label>
+			<label xml:lang="fr">Secteur</label>
+			<label xml:lang="ar">المنطقة</label>
+			<label xml:lang="zh">领域</label>
+			<label xml:lang="ru">Район</label>
+		</node>
+		<node ID="fi:LandAreaRef" Type="Political">
+			<label xml:lang="en">Geo-political</label>
+			<label xml:lang="es">Geopolítica</label>
+			<label xml:lang="fr">Géopolitique</label>
+			<label xml:lang="ar">المنطقة</label>
+			<label xml:lang="zh">地缘政治</label>
+			<label xml:lang="ru">Геополитический</label>
+		</node>
+		<node ID="fi:LandAreaRef" Type="Statistical">
+			<label xml:lang="en">Statistical</label>
+			<label xml:lang="es">Estadística</label>
+			<label xml:lang="fr">Statistique</label>
+			<label xml:lang="ar">المنطقة</label>
+			<label xml:lang="zh">统计的</label>
+			<label xml:lang="ru">Статистический</label>
+		</node>
+		<node ID="fi:LandAreaRef" Type="Environment">
+			<label xml:lang="en">Environment</label>
+			<label xml:lang="es">Ambiente</label>
+			<label xml:lang="fr">Environnement</label>
+			<label xml:lang="ar">المنطقة</label>
+			<label xml:lang="zh">环境</label>
+			<label xml:lang="ru">Окружающая среда</label>
+		</node>
+		<node ID="fi:MainFunction" Idml="notes">
+			<label xml:lang="en">Main function</label>
+			<label xml:lang="es">Función principal</label>
+			<label xml:lang="fr">Fonction principale</label>
+			<label xml:lang="ar">الوظيفة الرئيسية</label>
+			<label xml:lang="zh">主要职能</label>
+			<label xml:lang="ru">Основные функции</label>
+		</node>
+		<node ID="fi:ManageSystemIdent">
+			<label xml:lang="en">Management system</label>
+			<label xml:lang="es">Sistema de gestión</label>
+			<label xml:lang="fr">Système de gestion</label>
+			<label xml:lang="ar">نظام الإدارة</label>
+			<label xml:lang="zh">管理系统</label>
+			<label xml:lang="ru">Система управления</label>
+		</node>
+		<node ID="fi:ManageSystemOverview">
+			<label xml:lang="en">Management system</label>
+			<label xml:lang="es">Sistema de gestión</label>
+			<label xml:lang="fr">Système de gestion</label>
+			<label xml:lang="ar">نظام الإدارة</label>
+			<label xml:lang="zh">管理系统</label>
+			<label xml:lang="ru">Система управления</label>
+		</node>
+		<node ID="fi:MarineSector" Idml="sector">
+			<label xml:lang="en">Marine sector</label>
+			<label xml:lang="es">Sector marino</label>
+			<label xml:lang="fr">Secteur maritime</label>
+			<label xml:lang="ar">القطاع البحري</label>
+			<label xml:lang="zh">海洋部门</label>
+			<label xml:lang="ru">Морской сектор</label>
+		</node>
+		<node ID="fi:Markets" Idml="">
+			<label xml:lang="en">Markets</label>
+			<label xml:lang="es">Mercados</label>
+			<label xml:lang="fr">Marchés</label>
+			<label xml:lang="ar">الأسواق</label>
+			<label xml:lang="zh">市场</label>
+			<label xml:lang="ru">Рынки</label>
+		</node>
+		<node ID="fi:Max" Idml="endDate">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Methods">
+			<label xml:lang="en">Methods</label>
+			<label xml:lang="es">Métodos</label>
+			<label xml:lang="fr">Méthodes</label>
+			<label xml:lang="ar">الطرق</label>
+			<label xml:lang="zh">方法</label>
+			<label xml:lang="ru">Методы</label>
+		</node>
+		<node ID="fi:Min" Idml="startDate">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Mission" Idml="notes">
+			<label xml:lang="en">Mission</label>
+			<label xml:lang="es">Misión</label>
+			<label xml:lang="fr">Mission</label>
+			<label xml:lang="ar">المهمة</label>
+			<label xml:lang="zh">任务</label>
+			<label xml:lang="ru">Задача</label>
+		</node>
+		<node ID="fi:MissionType" Type="Education" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Information" Idml="notes">
+			<label xml:lang="en">Тип задачи</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Research" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Development" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Advisory" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Management" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:MissionType" Type="Data_collection" Idml="notes">
+			<label xml:lang="en">Mission type</label>
+			<label xml:lang="es">Tipo de la misión</label>
+			<label xml:lang="fr">Type de mission</label>
+			<label xml:lang="ar">نوع المهمة</label>
+			<label xml:lang="zh">任务类型</label>
+			<label xml:lang="ru">Тип задачи</label>
+		</node>
+		<node ID="fi:Name">
+			<label xml:lang="en">Name</label>
+			<label xml:lang="es">Nombre</label>
+			<label xml:lang="fr">Nom</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru">Название</label>
+		</node>
+		<node ID="fi:Nation">
+			<label xml:lang="en">Nation</label>
+			<label xml:lang="es">Nacion</label>
+			<label xml:lang="fr">Nation</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru">Государство</label>
+		</node>
+		<node ID="fi:News">
+			<label xml:lang="en">News</label>
+			<label xml:lang="es">Noticias</label>
+			<label xml:lang="fr">Nouvelles</label>
+			<label xml:lang="ar">الأخبار</label>
+			<label xml:lang="zh">新闻</label>
+			<label xml:lang="ru">Новости</label>
+		</node>
+		<node ID="fi:NewsEntry">
+			<label xml:lang="en">Item</label>
+			<label xml:lang="es">Noticia</label>
+			<label xml:lang="fr">Article</label>
+			<label xml:lang="ar">الخبر</label>
+			<label xml:lang="zh">项目</label>
+			<label xml:lang="ru">НПункт</label>
+		</node>
+		<node ID="fi:Objectives">
+			<label xml:lang="en">Objectives</label>
+			<label xml:lang="es">Objetivos</label>
+			<label xml:lang="fr">Objectifs</label>
+			<label xml:lang="ar">الأهداف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru"/>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Education">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Information">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Research">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Development">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Advisory">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Management">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectiveEntry" Type="Data_collection">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">الهدف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>
+		</node>
+		<node ID="fi:ObjectSource" Icon="addinfo.gif">
+			<label xml:lang="en">Object source</label>
+			<label xml:lang="es">Fuente de los conceptos</label>
+			<label xml:lang="fr">Origine de l'objet</label>
+			<label xml:lang="ar">المصدر</label>
+			<label xml:lang="zh">对象来源</label>
+			<label xml:lang="ru">Источник объекта</label>
+		</node>
+		<node ID="fi:OrgInvolved" Type="Participant" Idml="orgInvolved">
+			<label xml:lang="en">Participant</label>
+			<label xml:lang="es">Participante</label>
+			<label xml:lang="fr">Participant</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">参与方</label>
+			<label xml:lang="ru">Участник</label>
+		</node>
+		<node ID="fi:OrgInvolved" Type="Collaborator" Idml="orgInvolved">
+			<label xml:lang="en">Collaborator</label>
+			<label xml:lang="es">Colaborador</label>
+			<label xml:lang="fr">Collaborateur</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">合作方</label>
+			<label xml:lang="ru">Сотрудничающая сторона</label>
+		</node>
+		<node ID="fi:OrgInvolved" Type="Partner" Idml="orgInvolved">
+			<label xml:lang="en">Partner</label>
+			<label xml:lang="es">Socio</label>
+			<label xml:lang="fr">Partenaire</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">伙伴</label>
+			<label xml:lang="ru">Партнер</label>
+		</node>
+		<node ID="fi:OrgInvolved" Type="Affiliate" Idml="orgInvolved">
+			<label xml:lang="en">Affiliate</label>
+			<label xml:lang="es">Afiliado</label>
+			<label xml:lang="fr">Membre affilié</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">其他成员</label>
+			<label xml:lang="ru">Аффилированная сторона</label>
+		</node>
+		<node ID="fi:OrgInvolved" Type="Member" Idml="orgInvolved">
+			<label xml:lang="en">Member</label>
+			<label xml:lang="es">Miembro</label>
+			<label xml:lang="fr">Membre</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">成员</label>
+			<label xml:lang="ru">Член</label>
+		</node>
+		<node ID="fi:OrgsInvolved">
+			<label xml:lang="en">Organizations involved</label>
+			<label xml:lang="es">Organizaciones implicadas</label>
+			<label xml:lang="fr">Organismes concernés</label>
+			<label xml:lang="ar">المنظمات المعنية</label>
+			<label xml:lang="zh">参与组织</label>
+			<label xml:lang="ru">Участвующие организации</label>
+		</node>
+		<node ID="fi:OrgGovernance">
+			<label xml:lang="en">Management</label>
+			<label xml:lang="es">Gestión</label>
+			<label xml:lang="fr">Gestion</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">管理</label>
+			<label xml:lang="ru">Управление</label>
+		</node>
+		<node ID="fi:OrgGovernanceEntry" Type="Executive_committee">
+			<label xml:lang="en">Executive committee</label>
+			<label xml:lang="es">Comité ejecutivo</label>
+			<label xml:lang="fr">Comité exécutif</label>
+			<label xml:lang="ar">اللجنة التنفيذية</label>
+			<label xml:lang="zh">执行委员会</label>
+			<label xml:lang="ru">Исполнительный комитет</label>
+		</node>
+		<node ID="fi:OrgGovernanceEntry" Type="Principal_authority">
+			<label xml:lang="en">Principal authority</label>
+			<label xml:lang="es">Autoridad principal</label>
+			<label xml:lang="fr">Autorité principale</label>
+			<label xml:lang="ar">اللجنة التنفيذية</label>
+			<label xml:lang="zh">主管部门</label>
+			<label xml:lang="ru">Главный орган управления</label>
+		</node>
+		<node ID="fi:OrgGovernanceEntry" Type="Secretariat">
+			<label xml:lang="en">Secretariat</label>
+			<label xml:lang="es">Secretaría</label>
+			<label xml:lang="fr">Secrétariat</label>
+			<label xml:lang="ar">أمانة السر</label>
+			<label xml:lang="zh">秘书处</label>
+			<label xml:lang="ru">Секретариат</label>
+		</node>
+		<node ID="fi:OrgGovernanceEntry" Type="Steering_committee">
+			<label xml:lang="en">Steering committee</label>
+			<label xml:lang="es">Comité de dirección</label>
+			<label xml:lang="fr">Comité directeur</label>
+			<label xml:lang="ar">اللجنة التنفيذية</label>
+			<label xml:lang="zh">指导委员会</label>
+			<label xml:lang="ru">Руководящий комитет</label>
+		</node>
+		<node ID="fi:OrgGovernanceEntry" Type="Subsidiary_committee">
+			<label xml:lang="en">Subsidiary committee</label>
+			<label xml:lang="es">Comité subsidiario</label>
+			<label xml:lang="fr">Comité subsidiaire</label>
+			<label xml:lang="ar">اللجنة التنفيذية</label>
+			<label xml:lang="zh">附属委员会</label>
+			<label xml:lang="ru">Вспомогательный комитет</label>
+		</node>
+		<node ID="fi:OrgOverview">
+			<label xml:lang="en">Organisation overview</label>
+			<label xml:lang="es">Descripción de la organización</label>
+			<label xml:lang="fr">Vue d'ensemble de l'Organisation</label>
+			<label xml:lang="ar">لمحة عامة عن المنظمة</label>
+			<label xml:lang="zh">组织回顾</label>
+			<label xml:lang="ru">Общие сведения об организации</label>
+		</node>
+		<node ID="fi:OrgParent" Type="Institution">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:OrgParent" Type="Programme">
+			<label xml:lang="en">Programme</label>
+			<label xml:lang="es">Programa responsable</label>
+			<label xml:lang="fr">Programme</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">计划</label>
+			<label xml:lang="ru">Программа</label>
+		</node>
+		<node ID="fi:OrgParent" Type="Project">
+			<label xml:lang="en">Project</label>
+			<label xml:lang="es">Proyecto responsable</label>
+			<label xml:lang="fr">Projet</label>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh">项目</label>
+			<label xml:lang="ru">Проект</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Institution" Idml="org">
+			<label xml:lang="en">Institution</label>
+			<label xml:lang="es">Institución</label>
+			<label xml:lang="fr">Institution</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">机构</label>
+			<label xml:lang="ru">Организация</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Division" Idml="org">
+			<label xml:lang="en">Division</label>
+			<label xml:lang="es">División</label>
+			<label xml:lang="fr">Division</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">司</label>
+			<label xml:lang="ru">Отдел</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Department" Idml="org">
+			<label xml:lang="en">Department</label>
+			<label xml:lang="es">Departamento</label>
+			<label xml:lang="fr">Département</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">部</label>
+			<label xml:lang="ru">Департамент</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Service" Idml="org">
+			<label xml:lang="en">Service</label>
+			<label xml:lang="es">Servicio</label>
+			<label xml:lang="fr">Service</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">处</label>
+			<label xml:lang="ru">Служба</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Programme" Idml="org">
+			<label xml:lang="en">Programme</label>
+			<label xml:lang="es">Programa</label>
+			<label xml:lang="fr">Programme</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">计划</label>
+			<label xml:lang="ru">Программа</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Project" Idml="org">
+			<label xml:lang="en">Project</label>
+			<label xml:lang="es">Proyecto</label>
+			<label xml:lang="fr">Projet</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">项目</label>
+			<label xml:lang="ru">Проект</label>
+		</node>
+		<node ID="fi:OrgRef" Type="Activity" Idml="org">
+			<label xml:lang="en">Activity</label>
+			<label xml:lang="es">Actividad</label>
+			<label xml:lang="fr">Activité</label>
+			<label xml:lang="ar">المؤسسة</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Деятельность</label>
+		</node>
+		<node ID="fi:OrgStruct">
+			<label xml:lang="en">Structure</label>
+			<label xml:lang="es">Estructura</label>
+			<label xml:lang="fr">Structure</label>
+			<label xml:lang="ar">الهيكل</label>
+			<label xml:lang="zh">结构</label>
+			<label xml:lang="ru">Структура</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Department">
+			<label xml:lang="en">Department</label>
+			<label xml:lang="es">Departamento</label>
+			<label xml:lang="fr">Département</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">部</label>
+			<label xml:lang="ru">Департамент</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Division">
+			<label xml:lang="en">Division</label>
+			<label xml:lang="es">División</label>
+			<label xml:lang="fr">Division</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">司</label>
+			<label xml:lang="ru">Отдел</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Unit">
+			<label xml:lang="en">Unit</label>
+			<label xml:lang="es">Unidad</label>
+			<label xml:lang="fr">Unité</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">组</label>
+			<label xml:lang="ru">Группа</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Service">
+			<label xml:lang="en">Service</label>
+			<label xml:lang="es">Servicio</label>
+			<label xml:lang="fr">Service</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">处</label>
+			<label xml:lang="ru">Служба</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Programme">
+			<label xml:lang="en">Programme</label>
+			<label xml:lang="es">Programa</label>
+			<label xml:lang="fr">Programme</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">计划</label>
+			<label xml:lang="ru">Программа</label>
+		</node>
+		<node ID="fi:OrgStructEntry" Type="Project">
+			<label xml:lang="en">Project</label>
+			<label xml:lang="es">Proyecto</label>
+			<label xml:lang="fr">Projet</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">项目</label>
+			<label xml:lang="ru">Проект</label>
+		</node>
+		<node ID="fi:Overview">
+			<label xml:lang="en">Overview</label>
+			<label xml:lang="es">Descripción</label>
+			<label xml:lang="fr">Vue d'ensemble</label>
+			<label xml:lang="ar">لمحة عامة</label>
+			<label xml:lang="zh">概览</label>
+			<label xml:lang="ru">Обзор</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Programme">
+			<label xml:lang="en">Programme</label>
+			<label xml:lang="es">Programa</label>
+			<label xml:lang="fr">Programme</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">计划</label>
+			<label xml:lang="ru">Программа</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Project">
+			<label xml:lang="en">Project</label>
+			<label xml:lang="es">Proyecto</label>
+			<label xml:lang="fr">Projet</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">项目</label>
+			<label xml:lang="ru">Проект</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Objective">
+			<label xml:lang="en">Objective</label>
+			<label xml:lang="es">Objetivo</label>
+			<label xml:lang="fr">Objectif</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цель</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Major">
+			<label xml:lang="en">Major output</label>
+			<label xml:lang="es">Resultado principal</label>
+			<label xml:lang="fr">Résultat principal</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">主要产出</label>
+			<label xml:lang="ru">Основной результат</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Biennial">
+			<label xml:lang="en">Bi-output</label>
+			<label xml:lang="es">Resultado bienal</label>
+			<label xml:lang="fr">Résultat biennal</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">两年度产出</label>
+			<label xml:lang="ru">Вторичный результат</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Normal">
+			<label xml:lang="en">Output</label>
+			<label xml:lang="es">Resultado</label>
+			<label xml:lang="fr">Résultat</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">产出</label>
+			<label xml:lang="ru">Результат</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Activity">
+			<label xml:lang="en">Activity</label>
+			<label xml:lang="es">Actividad</label>
+			<label xml:lang="fr">Activité</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">活动</label>
+			<label xml:lang="ru">Деятельность</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Product">
+			<label xml:lang="en">Product</label>
+			<label xml:lang="es">Producto</label>
+			<label xml:lang="fr">Produit</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">产品</label>
+			<label xml:lang="ru">Продукция</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Achievement">
+			<label xml:lang="en">Achievement</label>
+			<label xml:lang="es">Logro</label>
+			<label xml:lang="fr">Réalisations</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">成果</label>
+			<label xml:lang="ru">Достижения</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="CD-Rom">
+			<label xml:lang="en">Cd-rom</label>
+			<label xml:lang="es">Cd-rom</label>
+			<label xml:lang="fr">Cd-rom</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">光盘</label>
+			<label xml:lang="ru">Диск Cd-rom</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Collection">
+			<label xml:lang="en">Collection</label>
+			<label xml:lang="es">Colección</label>
+			<label xml:lang="fr">Collection</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">收集品</label>
+			<label xml:lang="ru">Массив данных</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Database">
+			<label xml:lang="en">Database</label>
+			<label xml:lang="es">Base de datos</label>
+			<label xml:lang="fr">Base de données</label>
+			<label xml:lang="ar">قاعدة بيانات</label>
+			<label xml:lang="zh">数据库</label>
+			<label xml:lang="ru">База данных</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Dataset">
+			<label xml:lang="en"> dataset</label>
+			<label xml:lang="es"> conjunto de datos</label>
+			<label xml:lang="fr"> ensemble de données</label>
+			<label xml:lang="ar">مجموعة بيانات</label>
+			<label xml:lang="zh"> 数据集</label>
+			<label xml:lang="ru">набор данных</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Document">
+			<label xml:lang="en">Document</label>
+			<label xml:lang="es">Documento</label>
+			<label xml:lang="fr">Document</label>
+			<label xml:lang="ar">وثيقة </label>
+			<label xml:lang="zh">文件</label>
+			<label xml:lang="ru">Документ</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Leaflet">
+			<label xml:lang="en">Leaflet</label>
+			<label xml:lang="es">Folleto</label>
+			<label xml:lang="fr">Brochure</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">小册子</label>
+			<label xml:lang="ru">Брошюра</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Map">
+			<label xml:lang="en">Map</label>
+			<label xml:lang="es">Mapa</label>
+			<label xml:lang="fr">Carte</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">地图</label>
+			<label xml:lang="ru">Карта</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Publication">
+			<label xml:lang="en">Publication</label>
+			<label xml:lang="es">Publicación</label>
+			<label xml:lang="fr">Publication</label>
+			<label xml:lang="ar">نشر </label>
+			<label xml:lang="zh">出版物</label>
+			<label xml:lang="ru">Публикация</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Leaflet">
+			<label xml:lang="en">Leaflet</label>
+			<label xml:lang="es">Folleto</label>
+			<label xml:lang="fr">Brochure</label>
+			<label xml:lang="fr">Brochure</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">小册子</label>
+			<label xml:lang="ru">Брошюра</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Questionnaire">
+			<label xml:lang="en">Questionnaire</label>
+			<label xml:lang="es">Cuestionario</label>
+			<label xml:lang="fr">Questionnaire</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">问卷调查表</label>
+			<label xml:lang="ru">Вопросник</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Software">
+			<label xml:lang="en">Software</label>
+			<label xml:lang="es">Software</label>
+			<label xml:lang="fr">Logiciel</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">软件</label>
+			<label xml:lang="ru">Программное обеспечение</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Video">
+			<label xml:lang="en">Video</label>
+			<label xml:lang="es">Video</label>
+			<label xml:lang="fr">Vidéo</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">录像</label>
+			<label xml:lang="ru">Видео</label>
+		</node>
+		<node ID="fi:OutputEntry" Type="Website">
+			<label xml:lang="en">Web site</label>
+			<label xml:lang="es">Sitio web</label>
+			<label xml:lang="fr">Site Web</label>
+			<label xml:lang="ar">البرنامج</label>
+			<label xml:lang="zh">网站</label>
+			<label xml:lang="ru">Веб-сайт</label>
+		</node>
+		<node ID="fi:Outputs">
+			<label xml:lang="en">Outputs</label>
+			<label xml:lang="es">Resultados</label>
+			<label xml:lang="fr">Résultats</label>
+			<label xml:lang="ar">النتائج</label>
+			<label xml:lang="zh">产出</label>
+			<label xml:lang="ru">Результаты</label>
+		</node>
+		<node ID="fi:OverallMethods">
+			<label xml:lang="en">Overall methods</label>
+			<label xml:lang="es">Métodos totales</label>
+			<label xml:lang="fr">Méthodes globales</label>
+			<label xml:lang="ar">الطرق الإجمالية</label>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru">Общие методы</label>
+		</node>
+		<node ID="fi:OverallStrategies">
+			<label xml:lang="en">Overall strategies</label>
+			<label xml:lang="es">Estrategias totales</label>
+			<label xml:lang="fr">Stratégies globales</label>
+			<label xml:lang="ar">الاستراتيجيات الإجمالية</label>
+			<label xml:lang="zh">总的方法</label>
+			<label xml:lang="ru">Общие стратегии</label>
+		</node>
+		<node ID="fi:Owner">
+			<label xml:lang="en">provided by</label>
+			<label xml:lang="es">proporcionado por</label>
+			<label xml:lang="fr">communiqué par</label>
+			<label xml:lang="ar">نقلاً عن</label>
+			<label xml:lang="zh">提供方</label>
+			<label xml:lang="ru">предоставлено</label>
+		</node>
+		<node ID="fi:Parent">
+			<label xml:lang="en">Parent</label>
+			<label xml:lang="es">Responsable</label>
+			<label xml:lang="fr">Responsable</label>
+			<label xml:lang="ar">المسؤول</label>
+			<label xml:lang="zh">主管方</label>
+			<label xml:lang="ru">Исходный элемент</label>
+		</node>
+		<node ID="fi:ProcessingSector" Idml="sector">
+			<label xml:lang="en">Processing sector</label>
+			<label xml:lang="es">Sector de procesos</label>
+			<label xml:lang="fr">Secteur de traitement</label>
+			<label xml:lang="ar">قطاع التجهيز</label>
+			<label xml:lang="zh">处理部门</label>
+			<label xml:lang="ru">Перерабатывающая отрасль</label>
+		</node>
+		<node ID="fi:Production">
+			<label xml:lang="en">Production</label>
+			<label xml:lang="es">Producción</label>
+			<label xml:lang="fr">Production</label>
+			<label xml:lang="ar">الإنتاج</label>
+			<label xml:lang="zh">生产</label>
+			<label xml:lang="ru">Продукция</label>
+		</node>
+		<node ID="fi:QualityAssurance">
+			<label xml:lang="en">Quality assurance</label>
+			<label xml:lang="es">Garantía de calidad</label>
+			<label xml:lang="fr">Garantie de la qualité</label>
+			<label xml:lang="ar">ضمان الجودة</label>
+			<label xml:lang="zh">质量保障</label>
+			<label xml:lang="ru">Контроль качества</label>
+		</node>
+		<node ID="fi:RecreationSector" Idml="sector">
+			<label xml:lang="en">Recreational sector</label>
+			<label xml:lang="es">Sector recreacional</label>
+			<label xml:lang="fr">Secteur des loisirs</label>
+			<label xml:lang="ar">القطاع الترفيهي</label>
+			<label xml:lang="zh">娱乐业</label>
+			<label xml:lang="ru">Рекреационный сектор</label>
+		</node>
+		<node ID="fi:Reference">
+			<label xml:lang="en">Reference</label>
+			<label xml:lang="es">Referencia</label>
+			<label xml:lang="fr">Référence</label>
+			<label xml:lang="ar">المرجع</label>
+			<label xml:lang="zh">参考资料</label>
+			<label xml:lang="ru">Ссылка</label>
+		</node>
+		<node ID="fi:Research">
+			<label xml:lang="en">Research</label>
+			<label xml:lang="es">Investigación</label>
+			<label xml:lang="fr">Recherche</label>
+			<label xml:lang="ar">البحوث</label>
+			<label xml:lang="zh">研究</label>
+			<label xml:lang="ru">Научные исследования</label>
+		</node>
+		<node ID="fi:RuralDevelop">
+			<label xml:lang="en">Rural development</label>
+			<label xml:lang="es">Desarrollo Rural</label>
+			<label xml:lang="fr">Développement rural</label>
+			<label xml:lang="ar">التنمية الريفية</label>
+			<label xml:lang="zh">农村发展</label>
+			<label xml:lang="ru">Развитие сельских районов</label>
+		</node>
+		<node ID="searchRFB">
+			<label xml:lang="en">Search regional fishery bodies</label>
+			<label xml:lang="es">Busque órganos pesqueros regionales</label>
+			<label xml:lang="fr">Recherchez organes régionaux des pêches</label>
+			<label xml:lang="ar">ابحث أجهزة المصايد الاقليمية</label>
+			<label xml:lang="zh">搜索 区域渔业机构</label>
+			<label xml:lang="ru">Вернуться региональные органы по рыболовству</label>
+		</node>
+		<node ID="fi:Solution">
+			<label xml:lang="en">Solution</label>
+			<label xml:lang="es">Solución</label>
+			<label xml:lang="fr">Solution</label>
+			<label xml:lang="ar">الحلّ</label>
+			<label xml:lang="zh">解决方案</label>
+			<label xml:lang="ru">Решение</label>
+		</node>
+		<node ID="fi:Sources">
+			<label xml:lang="en">Bibliography</label>
+			<label xml:lang="es">Bibliografía</label>
+			<label xml:lang="fr">Bibliographie</label>
+			<label xml:lang="ar">مراجع المؤلفات</label>
+			<label xml:lang="zh">参考书目</label>
+			<label xml:lang="ru">Библиографический указатель</label>
+		</node>
+		<node ID="fi:Staff">
+			<label xml:lang="en">Staff</label>
+			<label xml:lang="es">Personal</label>
+			<label xml:lang="fr">Personnel</label>
+			<label xml:lang="ar">الموظفون</label>
+			<label xml:lang="zh">职工</label>
+			<label xml:lang="ru">Сотрудники</label>
+		</node>
+		<node ID="fi:StaffList">
+			<label xml:lang="en">Staff</label>
+			<label xml:lang="es">Personal</label>
+			<label xml:lang="fr">Personnel</label>
+			<label xml:lang="ar">الموظفون</label>
+			<label xml:lang="zh">职工</label>
+			<label xml:lang="ru">Сотрудники</label>
+		</node>
+		<node ID="fi:Stakeholders">
+			<label xml:lang="en">Stakeholders</label>
+			<label xml:lang="es">Interesados directos</label>
+			<label xml:lang="fr">Parties concernées</label>
+			<label xml:lang="ar">أصحاب الشأن</label>
+			<label xml:lang="zh">利益相关方</label>
+			<label xml:lang="ru">Заинтересованные стороны</label>
+		</node>
+		<node ID="fi:Status" Type="Cancelled" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Status" Type="Committed" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh">状况</label>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Status" Type="Completed" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh">状况</label>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Status" Type="In_abeyance" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh">状况</label>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Status" Type="Ongoing" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh">状况</label>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Status" Type="Planned" Idml="status">
+			<label xml:lang="en">Status</label>
+			<label xml:lang="es">Estado</label>
+			<label xml:lang="fr">Statut</label>
+			<label xml:lang="ar">الحالة</label>
+			<label xml:lang="zh">状况</label>
+			<label xml:lang="ru">Состояние</label>
+		</node>
+		<node ID="fi:Strategies">
+			<label xml:lang="en">Strategies</label>
+			<label xml:lang="es">Estrategias</label>
+			<label xml:lang="fr">Stratégies</label>
+			<label xml:lang="ar">الاستراتيجيات</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегии</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Education">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Information">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Research">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Development">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Advisory">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Management">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:StrategyEntry" Type="Data_collection">
+			<label xml:lang="en">Strategy</label>
+			<label xml:lang="es">Estrategia</label>
+			<label xml:lang="fr">Stratégie</label>
+			<label xml:lang="ar">الاستراتيجية</label>
+			<label xml:lang="zh">战略</label>
+			<label xml:lang="ru">Стратегия</label>
+		</node>
+		<node ID="fi:Subset">
+			<label xml:lang="en">Subset</label>
+			<label xml:lang="es">Subconjunto</label>
+			<label xml:lang="fr">Sous-ensemble</label>
+			<label xml:lang="ar">مجموعة فرعية</label>
+			<label xml:lang="zh">子集</label>
+			<label xml:lang="ru">Подмножество</label>
+		</node>
+		<node ID="fi:Supply">
+			<label xml:lang="en">Supply</label>
+			<label xml:lang="es">Fuente</label>
+			<label xml:lang="fr">Approvisionnements</label>
+			<label xml:lang="ar">الإمدادات</label>
+			<label xml:lang="zh">供应</label>
+			<label xml:lang="ru">Снабжение</label>
+		</node>
+		<node ID="fi:SupplyAndUtilisation">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Range" Type="Time">
+			<label xml:lang="en">Duration</label>
+			<label xml:lang="es">Duración</label>
+			<label xml:lang="fr">Durée</label>
+			<label xml:lang="ar">المدة</label>
+			<label xml:lang="zh">期限</label>
+			<label xml:lang="ru">Продолжительность</label>
+		</node>
+		<node ID="fi:TopicCoverage">
+			<label xml:lang="en">Topic coverage</label>
+			<label xml:lang="es">Cobertura del asunto</label>
+			<label xml:lang="fr">Couverture thématique</label>
+			<label xml:lang="ar">المواضيع المشمولة</label>
+			<label xml:lang="zh">主题范围</label>
+			<label xml:lang="ru">Тематический охват</label>
+		</node>
+		<node ID="fi:TopicCoverageEntry" Idml="sector">
+			<label xml:lang="en">Topic</label>
+			<label xml:lang="es">Asunto</label>
+			<label xml:lang="fr">Thème</label>
+			<label xml:lang="ar">الموضوع</label>
+			<label xml:lang="zh">主题</label>
+			<label xml:lang="ru">Тема</label>
+		</node>
+		<node ID="fi:TypicalUsage">
+			<label xml:lang="en">Typical usage</label>
+			<label xml:lang="es">Uso típico</label>
+			<label xml:lang="fr">Utilisation courante</label>
+			<label xml:lang="ar">الاستخدام النموذجي</label>
+			<label xml:lang="zh">典型用途</label>
+			<label xml:lang="ru">Типичное использование</label>
+		</node>
+		<node ID="fi:WaterAreaRef" Type="Area">
+			<label xml:lang="en">Area</label>
+			<label xml:lang="es">área</label>
+			<label xml:lang="fr">Secteur</label>
+			<label xml:lang="ar">المجال</label>
+			<label xml:lang="zh">领域</label>
+			<label xml:lang="ru">Район</label>
+		</node>
+		<node ID="fi:WaterAreaRef" Type="Water_comp">
+			<label xml:lang="en">Water competence</label>
+			<label xml:lang="es">Zona de competenca</label>
+			<label xml:lang="fr">Zone de compétence</label>
+			<label xml:lang="ar">المجال</label>
+			<label xml:lang="zh">权限</label>
+			<label xml:lang="ru">Статистический </label>
+		</node>
+		<node ID="fi:WaterAreaRef" Type="Statistical">
+			<label xml:lang="en">Statistical</label>
+			<label xml:lang="es">Estadística</label>
+			<label xml:lang="fr">Statistique</label>
+			<label xml:lang="ar">المجال</label>
+			<label xml:lang="zh">统计的</label>
+			<label xml:lang="ru">Статистический</label>
+		</node>
+		<node ID="fi:WaterAreaRef" Type="Environment">
+			<label xml:lang="en">Environment</label>
+			<label xml:lang="es">Ambiente</label>
+			<label xml:lang="fr">Environnement</label>
+			<label xml:lang="ar">المجال</label>
+			<label xml:lang="zh">环境</label>
+			<label xml:lang="ru">Окружающая среда</label>
+		</node>
+		<node ID="CountryProfiles">
+			<label xml:lang="en">Country profiles</label>
+			<label xml:lang="fr">Country profiles</label>
+			<label xml:lang="es">Country profiles</label>
+			<label xml:lang="ar">Country profiles</label>
+			<label xml:lang="zh">Country profiles</label>
+			<label xml:lang="ru">Профили стран</label>
+		</node>
+		<node ID="LegalFrameworks">
+			<label xml:lang="en">Legal frameworks</label>
+			<label xml:lang="fr">Legal frameworks</label>
+			<label xml:lang="es">Legal frameworks</label>
+			<label xml:lang="ar">Legal frameworks</label>
+			<label xml:lang="zh">Legal frameworks</label>
+			<label xml:lang="ru">Правовые рамки</label>
+		</node>
+		<node ID="FaoStatisticalAreas">
+			<label xml:lang="en">FAO statistical areas</label>
+			<label xml:lang="fr">FAO statistical areas</label>
+			<label xml:lang="es">FAO statistical areas</label>
+			<label xml:lang="ar">FAO statistical areas</label>
+			<label xml:lang="zh">FAO statistical areas</label>
+			<label xml:lang="ru">Статистические районы ФАО</label>
+		</node>
+		<node ID="Stocks">
+			<label xml:lang="en">Stocks</label>
+			<label xml:lang="fr">Stocks</label>
+			<label xml:lang="es">Stocks</label>
+			<label xml:lang="ar">Stocks</label>
+			<label xml:lang="zh">Stocks</label>
+			<label xml:lang="ru">Запасы</label>
+		</node>
+		<node ID="Resources">
+			<label xml:lang="en">Resources</label>
+			<label xml:lang="fr">Resources</label>
+			<label xml:lang="es">Resources</label>
+			<label xml:lang="ar">Resources</label>
+			<label xml:lang="zh">Resources</label>
+			<label xml:lang="ru">Ресурсы </label>
+		</node>
+		<node ID="ParentInstitution">
+			<label xml:lang="en">Parent institution</label>
+			<label xml:lang="fr">Parent institution</label>
+			<label xml:lang="es">Parent institution</label>
+			<label xml:lang="ar">Parent institution</label>
+			<label xml:lang="zh">Parent institution</label>
+			<label xml:lang="ru">Ресурсы </label>
+		</node>
+		<node ID="RelatedProgrammes">
+			<label xml:lang="en">Related Programmes</label>
+			<label xml:lang="fr">Related Programmes</label>
+			<label xml:lang="es">Related Programmes</label>
+			<label xml:lang="ar">Related Programmes</label>
+			<label xml:lang="zh">Related Programmes</label>
+			<label xml:lang="ru">Связанные программы</label>
+		</node>
+		<node ID="SidpSpecies">
+			<label xml:lang="en">SIDP species</label>
+			<label xml:lang="fr">SIDP species</label>
+			<label xml:lang="es">SIDP species</label>
+			<label xml:lang="ar">SIDP species</label>
+			<label xml:lang="zh">SIDP species</label>
+			<label xml:lang="ru">Виды СИДП</label>
+		</node>
+		<node ID="CulturedSpecies">
+			<label xml:lang="en">Cultured species</label>
+			<label xml:lang="es">Especies cultivadas</label>
+			<label xml:lang="fr">Espèces cultivées</label>
+			<label xml:lang="ar">الأنواع المستزرعة</label>
+			<label xml:lang="zh">养殖种类</label>
+			<label xml:lang="ru">Культивируемые виды</label>
+		</node>
+		<node ID="ISSN">
+			<label xml:lang="en">ISSN number</label>
+			<label xml:lang="es">Número de ISSN</label>
+			<label xml:lang="fr">Numéro ISSN</label>
+			<label xml:lang="ar">رقم ISSN</label>
+			<label xml:lang="zh">国际标准期刊号(ISSN)</label>
+			<label xml:lang="ru">Номер ISSN</label>
+		</node>
+		<node ID="ISBN">
+			<label xml:lang="en">ISBN number</label>
+			<label xml:lang="es">Número del ISBN</label>
+			<label xml:lang="fr">Numéro ISBN</label>
+			<label xml:lang="ar">رقم ISBN</label>
+			<label xml:lang="zh">国际标准书号(ISBN)</label>
+			<label xml:lang="ru">Номер ISBN</label>
+		</node>
+		<node ID="JobNumber">
+			<label xml:lang="en">Job number</label>
+			<label xml:lang="es">Número de trabajo</label>
+			<label xml:lang="fr">Numéro de travail</label>
+			<label xml:lang="ar">رقم الوثيقة</label>
+			<label xml:lang="zh">工作号</label>
+			<label xml:lang="ru">Номер работы</label>
+		</node>
+		<node ID="MicroficheNumber">
+			<label xml:lang="en">Microfiche number</label>
+			<label xml:lang="es">Número de la microficha</label>
+			<label xml:lang="fr">Numéro de microfiche</label>
+			<label xml:lang="ar">رقم الملف الصغير</label>
+			<label xml:lang="zh">缩微胶片号</label>
+			<label xml:lang="ru">Номер микрофиш</label>
+		</node>
+		<node ID="ReportNumber">
+			<label xml:lang="en">Report number</label>
+			<label xml:lang="es">Número de informe</label>
+			<label xml:lang="fr">Numéro de rapport</label>
+			<label xml:lang="ar">رقم التقرير</label>
+			<label xml:lang="zh">报告号</label>
+			<label xml:lang="ru">Номер доклада</label>
+		</node>
+		<node ID="Agreement">
+			<label xml:lang="en">Legal agreement</label>
+			<label xml:lang="es">Acuerdo legal</label>
+			<label xml:lang="fr">Accord juridique</label>
+			<label xml:lang="ar">الاتفاق القانوني</label>
+			<label xml:lang="zh">法律协定</label>
+			<label xml:lang="ru">Правовое соглашение</label>
+		</node>
+		<node ID="Arrangement">
+			<label xml:lang="en">Legal arrangement</label>
+			<label xml:lang="es">Arreglo legal</label>
+			<label xml:lang="fr">Arrangement juridique</label>
+			<label xml:lang="ar">الترتيب القانوني</label>
+			<label xml:lang="zh">法律安排</label>
+			<label xml:lang="ru">Правовой механизм</label>
+		</node>
+		<node ID="Convention">
+			<label xml:lang="en">Legal convention</label>
+			<label xml:lang="es">Convención legal</label>
+			<label xml:lang="fr">Convention juridique</label>
+			<label xml:lang="ar">الاتفاقية القانونية</label>
+			<label xml:lang="zh">法律公约</label>
+			<label xml:lang="ru">Правовая конвенция</label>
+		</node>
+		<node ID="Voluntary_instrument">
+			<label xml:lang="en">Voluntary instrument</label>
+			<label xml:lang="es">Instrumento voluntario</label>
+			<label xml:lang="fr">Instrument volontaire</label>
+			<label xml:lang="ar">الصك الطوعي</label>
+			<label xml:lang="zh">自愿文书</label>
+			<label xml:lang="ru">Акт добровольного характера</label>
+		</node>
+		<node ID="OrgType">
+			<label xml:lang="en">Organisation type</label>
+			<label xml:lang="es">Tipo de organización</label>
+			<label xml:lang="fr">Type d'organisation</label>
+			<label xml:lang="ar">نوع المنظمة</label>
+			<label xml:lang="zh">组织类型</label>
+			<label xml:lang="ru">Тип организации</label>
+		</node>
+		<node ID="Cancelled">
+			<label xml:lang="en">Cancelled</label>
+			<label xml:lang="es">Cancelado</label>
+			<label xml:lang="fr">Annulé</label>
+			<label xml:lang="ar">ملغى</label>
+			<label xml:lang="zh">已取消</label>
+			<label xml:lang="ru">Отменено</label>
+		</node>
+		<node ID="Committed">
+			<label xml:lang="en">Committed</label>
+			<label xml:lang="es">Comprometido</label>
+			<label xml:lang="fr">Engagé</label>
+			<label xml:lang="ar">ملتزم</label>
+			<label xml:lang="zh">已承诺</label>
+			<label xml:lang="ru">Взяты обязательства</label>
+		</node>
+		<node ID="Completed">
+			<label xml:lang="en">Completed</label>
+			<label xml:lang="es">Terminado</label>
+			<label xml:lang="fr">Achevé</label>
+			<label xml:lang="ar">منجز</label>
+			<label xml:lang="zh">已完成</label>
+			<label xml:lang="ru">Завершено</label>
+		</node>
+		<node ID="In_abeyance">
+			<label xml:lang="en">In abeyance</label>
+			<label xml:lang="es">En suspenso</label>
+			<label xml:lang="fr">En suspens</label>
+			<label xml:lang="ar">معلّق</label>
+			<label xml:lang="zh">中止</label>
+			<label xml:lang="ru">В неопределенном состоянии</label>
+		</node>
+		<node ID="Ongoing">
+			<label xml:lang="en">Ongoing</label>
+			<label xml:lang="es">En curso</label>
+			<label xml:lang="fr">En cours</label>
+			<label xml:lang="ar">قيد العمل</label>
+			<label xml:lang="zh">正在执行</label>
+			<label xml:lang="ru">Проводится</label>
+		</node>
+		<node ID="Planned">
+			<label xml:lang="en">Planned</label>
+			<label xml:lang="es">Planeado</label>
+			<label xml:lang="fr">Prévu</label>
+			<label xml:lang="ar">مقرر </label>
+			<label xml:lang="zh">已纳入计划</label>
+			<label xml:lang="ru">Запланировано</label>
+		</node>
+		<node ID="Upcoming">
+			<label xml:lang="en">Upcoming</label>
+			<label xml:lang="es">Próximamente</label>
+			<label xml:lang="fr">Imminent</label>
+			<label xml:lang="ar">قريباً</label>
+			<label xml:lang="zh">即将发布</label>
+			<label xml:lang="ru">Предстоит</label>
+		</node>
+		<node ID="Current">
+			<label xml:lang="en">Current</label>
+			<label xml:lang="es">Actual</label>
+			<label xml:lang="fr">Actuel</label>
+			<label xml:lang="ar">حالي</label>
+			<label xml:lang="zh">现行的</label>
+			<label xml:lang="ru">Текущее</label>
+		</node>
+		<node ID="Past">
+			<label xml:lang="en">Past</label>
+			<label xml:lang="es">Pasado</label>
+			<label xml:lang="fr">Passé</label>
+			<label xml:lang="ar">سابق</label>
+			<label xml:lang="zh">过去的</label>
+			<label xml:lang="ru">Прошлое</label>
+		</node>
+		<node ID="Meeting">
+			<label xml:lang="en">Meeting</label>
+			<label xml:lang="es">Reunión</label>
+			<label xml:lang="fr">Réunion</label>
+			<label xml:lang="ar">الاجتماع</label>
+			<label xml:lang="zh">会议</label>
+			<label xml:lang="ru">Совещание</label>
+		</node>
+		<node ID="Travel">
+			<label xml:lang="en">Travel</label>
+			<label xml:lang="es">Viaje</label>
+			<label xml:lang="fr">Voyage</label>
+			<label xml:lang="ar">السفر</label>
+			<label xml:lang="zh">旅行</label>
+			<label xml:lang="ru">Поездка</label>
+		</node>
+		<node ID="Trial">
+			<label xml:lang="en">Trial</label>
+			<label xml:lang="es">Ensayo</label>
+			<label xml:lang="fr">Essai</label>
+			<label xml:lang="ar">التجربة</label>
+			<label xml:lang="zh">试验</label>
+			<label xml:lang="ru">Испытание</label>
+		</node>
+		<node ID="Demonstration">
+			<label xml:lang="en">Demonstration</label>
+			<label xml:lang="es">Demostración</label>
+			<label xml:lang="fr">Démonstration</label>
+			<label xml:lang="ar">العرض التجريبي</label>
+			<label xml:lang="zh">示范</label>
+			<label xml:lang="ru">Демонстрация</label>
+		</node>
+		<node ID="Workshop">
+			<label xml:lang="en">workshop</label>
+			<label xml:lang="es">Taller</label>
+			<label xml:lang="fr">Atelier</label>
+			<label xml:lang="ar">حلقة عمل</label>
+			<label xml:lang="zh">研讨会</label>
+			<label xml:lang="ru">семинар</label>
+		</node>
+		<node ID="Publication">
+			<label xml:lang="en">Publication</label>
+			<label xml:lang="es">Publicación</label>
+			<label xml:lang="fr">Publication</label>
+			<label xml:lang="ar">المطبوع</label>
+			<label xml:lang="zh">出版物</label>
+			<label xml:lang="ru">Публикация</label>
+		</node>
+		<node ID="Database">
+			<label xml:lang="en">Database</label>
+			<label xml:lang="es">Base de datos</label>
+			<label xml:lang="fr">Base de données</label>
+			<label xml:lang="ar">قاعدة بيانات</label>
+			<label xml:lang="zh">数据库</label>
+			<label xml:lang="ru">База данных</label>
+		</node>
+		<node ID="Website">
+			<label xml:lang="en">Web site</label>
+			<label xml:lang="es">Sitio web</label>
+			<label xml:lang="fr">Site Web</label>
+			<label xml:lang="ar">المواقع على الويب</label>
+			<label xml:lang="zh">网站</label>
+			<label xml:lang="ru">Веб-сайт</label>
+		</node>
+		<node ID="Inter-gov">
+			<label xml:lang="en">Inter-governmental organisation</label>
+			<label xml:lang="es">Organización intergubernamental</label>
+			<label xml:lang="fr">Organisation intergouvernementale</label>
+			<label xml:lang="ar">المنظمة الحكومية الدولية</label>
+			<label xml:lang="zh">政府间组织</label>
+			<label xml:lang="ru">Межправительственная организация</label>
+		</node>
+		<node ID="Ngo">
+			<label xml:lang="en">Non-governmental organisation</label>
+			<label xml:lang="es">Organización no gubernamental</label>
+			<label xml:lang="fr">Organisation non gouvernementale</label>
+			<label xml:lang="ar">المنظمة غير الحكومية</label>
+			<label xml:lang="zh">非政府组织</label>
+			<label xml:lang="ru">Неправительственная организация</label>
+		</node>
+		<node ID="Intern_ngo">
+			<label xml:lang="en">Inter-non-governmental organisation </label>
+			<label xml:lang="es">Organización inter no gubernamental </label>
+			<label xml:lang="fr">Organisation internationale non gouvernementale</label>
+			<label xml:lang="ar">المنظمة غير الحكومية الدولية</label>
+			<label xml:lang="zh">国际非政府组织</label>
+			<label xml:lang="ru">Международная неправительственная организация </label>
+		</node>
+		<node ID="Civil_society_org">
+			<label xml:lang="en">Civil society organisation</label>
+			<label xml:lang="es">Organización de la sociedad civil</label>
+			<label xml:lang="fr">Organisation de la société civile</label>
+			<label xml:lang="ar">منظمة المجتمع المدني</label>
+			<label xml:lang="zh">民间社会组织</label>
+			<label xml:lang="ru">Организация гражданского общества</label>
+		</node>
+		<node ID="Commercial_entity">
+			<label xml:lang="en">Commercial entity</label>
+			<label xml:lang="es">Entidad comercial</label>
+			<label xml:lang="fr">Entité commerciale</label>
+			<label xml:lang="ar">الكيان التجاري</label>
+			<label xml:lang="zh">商业实体</label>
+			<label xml:lang="ru">Коммерческая структура</label>
+		</node>
+		<node ID="Education">
+			<label xml:lang="en">Education</label>
+			<label xml:lang="es">Educación</label>
+			<label xml:lang="fr">Éducation</label>
+			<label xml:lang="ar">التعليم</label>
+			<label xml:lang="zh">教育</label>
+			<label xml:lang="ru">Обучение</label>
+		</node>
+		<node ID="Information">
+			<label xml:lang="en">Information</label>
+			<label xml:lang="es">Información</label>
+			<label xml:lang="fr">Information</label>
+			<label xml:lang="ar">المعلومات</label>
+			<label xml:lang="zh">信息</label>
+			<label xml:lang="ru">Информация</label>
+		</node>
+		<node ID="Research">
+			<label xml:lang="en">Research</label>
+			<label xml:lang="es">Investigación</label>
+			<label xml:lang="fr">Recherche</label>
+			<label xml:lang="ar">البحوث</label>
+			<label xml:lang="zh">研究</label>
+			<label xml:lang="ru">Научные исследования</label>
+		</node>
+		<node ID="Development">
+			<label xml:lang="en">Development</label>
+			<label xml:lang="es">Desarrollo</label>
+			<label xml:lang="fr">Développement</label>
+			<label xml:lang="ar">التنمية</label>
+			<label xml:lang="zh">发展</label>
+			<label xml:lang="ru">Развитие</label>
+		</node>
+		<node ID="Advisory">
+			<label xml:lang="en">Advisory</label>
+			<label xml:lang="es">Consultivo</label>
+			<label xml:lang="fr">Consultatif</label>
+			<label xml:lang="ar">استشاري</label>
+			<label xml:lang="zh">咨询</label>
+			<label xml:lang="ru">Консультация</label>
+		</node>
+		<node ID="Management">
+			<label xml:lang="en">Management</label>
+			<label xml:lang="es">Gestión</label>
+			<label xml:lang="fr">Gestion</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">管理</label>
+			<label xml:lang="ru">Управление</label>
+		</node>
+		<node ID="Data_collection">
+			<label xml:lang="en">Data collection</label>
+			<label xml:lang="es">Colección de datos</label>
+			<label xml:lang="fr">Collecte de données</label>
+			<label xml:lang="ar">جمع البيانات</label>
+			<label xml:lang="zh">数据收集</label>
+			<label xml:lang="ru">Сбор данных</label>
+		</node>
+		<node ID="Regional">
+			<label xml:lang="en">Regional</label>
+			<label xml:lang="es">Regional</label>
+			<label xml:lang="fr">Régional</label>
+			<label xml:lang="ar">إقليمي</label>
+			<label xml:lang="zh">区域</label>
+			<label xml:lang="ru">Региональные</label>
+		</node>
+		<node ID="Subregional">
+			<label xml:lang="en">Subregional</label>
+			<label xml:lang="es">Subregional</label>
+			<label xml:lang="fr">Sous-régional</label>
+			<label xml:lang="ar">إقليمي فرعي</label>
+			<label xml:lang="zh">分区域</label>
+			<label xml:lang="ru">Субрегиональные</label>
+		</node>
+		<node ID="Representation">
+			<label xml:lang="en">Representation</label>
+			<label xml:lang="es">Representación</label>
+			<label xml:lang="fr">Représentation</label>
+			<label xml:lang="ar">ممثلية</label>
+			<label xml:lang="zh">代表处</label>
+			<label xml:lang="ru">Представленность</label>
+		</node>
+		<node ID="Liason">
+			<label xml:lang="en">Liason</label>
+			<label xml:lang="es">Enlace</label>
+			<label xml:lang="fr">Liaison</label>
+			<label xml:lang="ar">اتصال</label>
+			<label xml:lang="zh">联络</label>
+			<label xml:lang="ru">Связи</label>
+		</node>
+		<node ID="Branch">
+			<label xml:lang="en">Branch</label>
+			<label xml:lang="es">Rama</label>
+			<label xml:lang="fr">Service</label>
+			<label xml:lang="ar">الفرع</label>
+			<label xml:lang="zh">科</label>
+			<label xml:lang="ru">Отделение</label>
+		</node>
+		<node ID="Department">
+			<label xml:lang="en">Department</label>
+			<label xml:lang="es">Departamento</label>
+			<label xml:lang="fr">Département</label>
+			<label xml:lang="ar">الإدارة</label>
+			<label xml:lang="zh">部</label>
+			<label xml:lang="ru">Департамент</label>
+		</node>
+		<node ID="Library">
+			<label xml:lang="en">Library</label>
+			<label xml:lang="es">Biblioteca</label>
+			<label xml:lang="fr">Bibliothèque</label>
+			<label xml:lang="ar">المكتبة</label>
+			<label xml:lang="zh">图书馆</label>
+			<label xml:lang="ru">Библиотека</label>
+		</node>
+		<node ID="Main">
+			<label xml:lang="en">Main</label>
+			<label xml:lang="es">Principal</label>
+			<label xml:lang="fr">Principal</label>
+			<label xml:lang="ar">الرئيسي</label>
+			<label xml:lang="zh">主要的</label>
+			<label xml:lang="ru">Основной</label>
+		</node>
+		<node ID="Division">
+			<label xml:lang="en">Division</label>
+			<label xml:lang="es">División</label>
+			<label xml:lang="fr">Division</label>
+			<label xml:lang="ar">الشعبة</label>
+			<label xml:lang="zh">司</label>
+			<label xml:lang="ru">Отдел</label>
+		</node>
+		<node ID="Decentralised">
+			<label xml:lang="en">Decentralised</label>
+			<label xml:lang="es">Descentralizado</label>
+			<label xml:lang="fr">Décentralisé</label>
+			<label xml:lang="ar">اللامركزي</label>
+			<label xml:lang="zh">权力下放的</label>
+			<label xml:lang="ru">Децентрализованный</label>
+		</node>
+		<node ID="United_nations">
+			<label xml:lang="en">United nations</label>
+			<label xml:lang="es">Las Naciones Unidas</label>
+			<label xml:lang="fr">Nations Unies</label>
+			<label xml:lang="ar">الأمم المتحدة</label>
+			<label xml:lang="zh">联合国</label>
+			<label xml:lang="ru">Организация Объединенных Наций</label>
+		</node>
+		<node ID="United_nations_statutory_body">
+			<label xml:lang="en">United nations statutory body</label>
+			<label xml:lang="es">Órgano estatutario de las Naciones Unidas</label>
+			<label xml:lang="fr">Organe statutaire des Nations Unies</label>
+			<label xml:lang="ar">جهاز دستوري تابع للأمم المتحدة</label>
+			<label xml:lang="zh">联合国法定机构</label>
+			<label xml:lang="ru">Уставной орган Организации Объединенных Наций</label>
+		</node>
+		<node ID="Regional_economic_integration_organisation">
+			<label xml:lang="en">Regional economic integration organisation</label>
+			<label xml:lang="es">Organización regional de la integración económica</label>
+			<label xml:lang="fr">Organisation régionale d'intégration économique</label>
+			<label xml:lang="ar">منظمة إقليمية للتكامل الاقتصادي</label>
+			<label xml:lang="zh">区域经济一体化组织</label>
+			<label xml:lang="ru">Региональная организация экономической интеграции</label>
+		</node>
+		<node ID="Agency">
+			<label xml:lang="en">Agency</label>
+			<label xml:lang="es">Agencia</label>
+			<label xml:lang="fr">Organisme</label>
+			<label xml:lang="ar">الوكالة</label>
+			<label xml:lang="zh">机构</label>
+			<label xml:lang="ru">Агентство</label>
+		</node>
+		<node ID="Commission">
+			<label xml:lang="en">Commission</label>
+			<label xml:lang="es">Comisión</label>
+			<label xml:lang="fr">Commission</label>
+			<label xml:lang="ar">الهيئة</label>
+			<label xml:lang="zh">委员会</label>
+			<label xml:lang="ru">Комиссия</label>
+		</node>
+		<node ID="Organisation">
+			<label xml:lang="en">Organisation</label>
+			<label xml:lang="es">Organización</label>
+			<label xml:lang="fr">Organisation</label>
+			<label xml:lang="ar">المنظمة</label>
+			<label xml:lang="zh">组织</label>
+			<label xml:lang="ru">Организация</label>
+		</node>
+		<node ID="Council">
+			<label xml:lang="en">Council</label>
+			<label xml:lang="es">Consejo</label>
+			<label xml:lang="fr">Conseil</label>
+			<label xml:lang="ar">المجلس</label>
+			<label xml:lang="zh">理事会</label>
+			<label xml:lang="ru">Совет</label>
+		</node>
+		<node ID="Institute">
+			<label xml:lang="en">Institute</label>
+			<label xml:lang="es">Instituto</label>
+			<label xml:lang="fr">Institut</label>
+			<label xml:lang="ar">المعهد</label>
+			<label xml:lang="zh">机构</label>
+			<label xml:lang="ru">Институт</label>
+		</node>
+		<node ID="Cooperative">
+			<label xml:lang="en">Cooperative</label>
+			<label xml:lang="es">Cooperativo</label>
+			<label xml:lang="fr">Coopérative</label>
+			<label xml:lang="ar">التعاونية</label>
+			<label xml:lang="zh">合作社</label>
+			<label xml:lang="ru">Кооператив</label>
+		</node>
+		<node ID="Ministry">
+			<label xml:lang="en">Ministry</label>
+			<label xml:lang="es">El ministerio</label>
+			<label xml:lang="fr">Ministère</label>
+			<label xml:lang="ar">الوزارة</label>
+			<label xml:lang="zh">部</label>
+			<label xml:lang="ru">Министерство</label>
+		</node>
+		<node ID="University">
+			<label xml:lang="en">University</label>
+			<label xml:lang="es">Universidad</label>
+			<label xml:lang="fr">Université</label>
+			<label xml:lang="ar">الجامعة</label>
+			<label xml:lang="zh">大学</label>
+			<label xml:lang="ru">Университет</label>
+		</node>
+		<node ID="Association">
+			<label xml:lang="en">Association</label>
+			<label xml:lang="es">Asociación</label>
+			<label xml:lang="fr">Association</label>
+			<label xml:lang="ar">الرابطة</label>
+			<label xml:lang="zh">协会</label>
+			<label xml:lang="ru">Ассоциация</label>
+		</node>
+		<node ID="Society">
+			<label xml:lang="en">Society</label>
+			<label xml:lang="es">Sociedad</label>
+			<label xml:lang="fr">Société</label>
+			<label xml:lang="ar">المجتمع</label>
+			<label xml:lang="zh">社团</label>
+			<label xml:lang="ru">Общество</label>
+		</node>
+		<node ID="ExportTitle">
+			<label xml:lang="en">This site in XML</label>
+			<label xml:lang="es">Este sitio en formato XML</label>
+			<label xml:lang="fr">Site en format XML</label>
+			<label xml:lang="ar">هذا الموقع بصيغة XML</label>
+			<label xml:lang="zh">本网站使用XML格式</label>
+			<label xml:lang="ru">Этот сайт в XML </label>
+		</node>
+		<node ID="Export">
+			<label xml:lang="en">This page contains the currently supported export formats for organisational data: XML and IDML. IDML stands for International Development Markup Language, a standard for exchanging institutional data. It is supported by the World Bank and other institutions.</label>
+			<label xml:lang="es">Esta página contiene los formatos de la exportación actualmente apoyados para los datos de organización: XML e IDML. IDML es la sigla de "International Development Markup Language" (lenguaje de marcado para el desarrollo internacional), un estándar para intercambiar datos institucionales. Está apoyado por el Banco Mundial y otras instituciones.</label>
+			<label xml:lang="fr">Cette page contient les formats d'exportation utilisés actuellement pour les données de l'Organisation : XML et IDML. L'IDML (International Development Markup Language) est une norme informatique internationale utilisée notamment par la Banque mondiale.</label>
+			<label xml:lang="ar">تتضمّن هذه الصفحة الشكلين المتاحين حالياً لنقل البيانات المنظّمة: XML وIDML. وIDML هي لغة التوصيف الدولية المستخدمة عادة لتبادل البيانات المؤسسية. وهي مستخدمة في البنك الدولي وفي مؤسسات أخرى.</label>
+			<label xml:lang="zh">本页含有目前支持的组织数据的输出格式：XML和IDML。 IDML 表示国际发展标识语言，是交换机构数据的标准。 世界银行和其他机构对其提供支持。</label>
+			<label xml:lang="ru">Эта страница содержит поддерживаемые в настоящее время форматы экспорта организационных данных: XML и IDML. IDML расшифровывается как Международный язык разметки и является стандартным для обмена институционными данными. Он поддерживается Всемирным банком и другими организациями. </label>
+		</node>
+		<node ID="MeetingsClick">
+			<label xml:lang="en">Click here to send a customised query to the FAO/WAICENT meetings database.</label>
+			<label xml:lang="es">Haga click aquí para enviar una consulta personalizada a la base de datos de las reuniones de FAO/WAICENT.</label>
+			<label xml:lang="fr">Cliquer ici pour interroger la base de données FAO/WAICENT relative aux réunions.</label>
+			<label xml:lang="ar">أنقر هنا لإرسال سؤال إلى قاعدة بيانات المنظمة/وايسنت الخاصة بالاجتماعات.</label>
+			<label xml:lang="zh">点击此处可向FAO/WAICENT（粮农组织/农业信息中心）会议数据库发送用户化的质询。</label>
+			<label xml:lang="ru">Нажмите здесь, чтобы послать специальный запрос в базу данных совещаний ФАО/ВИЦХ.
+</label>
+		</node>
+		<node ID="Publications">
+			<label xml:lang="en">EIMS Publications Database</label>
+			<label xml:lang="es">Base de datos de las publicaciones de EIMS</label>
+			<label xml:lang="fr">Base de données EIMS relative aux publications </label>
+			<label xml:lang="ar">قاعدة بيانات مطبوعات نظام إدارة المعلومات الالكترونية </label>
+			<label xml:lang="zh">电子信息管理系统(EIMS)出版物数据库</label>
+			<label xml:lang="ru">База данных публикаций СУЭИ</label>
+		</node>
+		<node ID="IdmlClick">
+			<label xml:lang="en">View an AIDA/IDML compliant XML file for this factsheet.</label>
+			<label xml:lang="es">Haga clic aquí para ver este archivo en AIDA/IDML.</label>
+			<label xml:lang="fr">Visualiser le fichier compatible AIDA/IDML lié à cette note d'information.</label>
+			<label xml:lang="ar">عرض الملف الموازي بصيغة AIDA/IDML</label>
+			<label xml:lang="zh">浏览本情况说明的符合AIDA/IDML的XML格式文档。</label>
+			<label xml:lang="ru">Просмотреть совместимый с AIDA/IDML файл XML для этого информационного бюллетеня</label>
+		</node>
+		<node ID="XmlClick">
+			<label xml:lang="en">View the XML source file for this factsheet.</label>
+			<label xml:lang="es">Haga clic aquí para ver esta hoja informativa en XML.</label>
+			<label xml:lang="fr">Visualiser le fichier source XML relatif à cette note d'information.</label>
+			<label xml:lang="ar">عرض ملف XML المصدر الخاص بصحيفة الوقائع هذه.</label>
+			<label xml:lang="zh">浏览本情况说明的XML源文档。</label>
+			<label xml:lang="ru">Просмотреть исходный XML файл для этого информационного бюллетеня</label>
+		</node>
+		<node ID="Devel">
+			<label xml:lang="en">Under development</label>
+			<label xml:lang="es">Bajo desarrollo</label>
+			<label xml:lang="fr">En cours d'élaboration</label>
+			<label xml:lang="ar">قيد الإعداد</label>
+			<label xml:lang="zh">正在开发</label>
+			<label xml:lang="ru">Разрабатывается</label>
+		</node>
+		<node ID="Comment">
+			<label xml:lang="en">Comments and suggestions: send an e-mail to</label>
+			<label xml:lang="es">Comentarios y sugerencias: enviar un correo electrónico a</label>
+			<label xml:lang="fr">Observations et suggestions : envoyer un courrier électronique à l'adresse suivante</label>
+			<label xml:lang="ar">للتعليقات والاقتراحات: يرجى الكتابعة إلى عنوان البريد الإلكتروني التالي:</label>
+			<label xml:lang="zh">意见和建议： 请发邮件至</label>
+			<label xml:lang="ru">Комментарии и предложения: пошлите сообщение по адресу</label>
+		</node>
+		<node ID="0" Icon="not_approved.gif">
+			<label xml:lang="en">Note: this Fact sheet is invalid.</label>
+			<label xml:lang="es">Nota: esta hoja informativa no es válida.</label>
+			<label xml:lang="fr">Note: cette fiche n'est pas valide.</label>
+			<label xml:lang="ar">ملاحظة: صحيفة الوقائع هذه غير صالحة.</label>
+			<label xml:lang="zh">注： 本情况说明无效。</label>
+			<label xml:lang="ru">Примечание: этот информационный бюллетень недействителен</label>
+		</node>
+		<node ID="2" Icon="not_approved.gif">
+			<label xml:lang="en">Note: this Fact sheet has not been validated.</label>
+			<label xml:lang="es">Nota: esta hoja informativa no se ha validado.</label>
+			<label xml:lang="fr">Note: cette fiche n'a pas été validée.</label>
+			<label xml:lang="ar">ملاحظة: لم تتم المصادقة على صحيفة الوقائع هذه.</label>
+			<label xml:lang="zh">注： 本情况说明尚未核准。</label>
+			<label xml:lang="ru">Примечание: этот информационный бюллетень не был утвержден</label>
+		</node>
+		<node ID="1" Icon="not_approved.gif">
+			<label xml:lang="en">Note: this Fact sheet is a preliminary version.</label>
+			<label xml:lang="es">Nota: esta hoja informativa es una versión preliminar.</label>
+			<label xml:lang="fr">Note: cette fiche est une version préliminaire.</label>
+			<label xml:lang="ar">ملاحظة: صحيفة الوقائع هذه هي نسخة أولية.</label>
+			<label xml:lang="zh">注： 本情况说明为临时版本。</label>
+			<label xml:lang="ru">Примечание: этот информационный бюллетень является предварительным вариантом</label>
+		</node>
+		<node ID="3" Icon="approved.gif">
+			<label xml:lang="en">Note: this Fact sheet is valid.</label>
+			<label xml:lang="es">Nota: esta hoja informativa es válida.</label>
+			<label xml:lang="fr">Note : cette fiche est valide.</label>
+			<label xml:lang="ar">ملاحظة: صحيفة الوقائع هذه صالحة.</label>
+			<label xml:lang="zh">注： 本情况说明有效。</label>
+			<label xml:lang="ru">Примечание: этот информационный бюллетень действителен</label>
+		</node>
+		<node ID="SiteMap">
+			<label xml:lang="en">Site map</label>
+			<label xml:lang="es">Mapa del sitio</label>
+			<label xml:lang="fr">Plan du site</label>
+			<label xml:lang="ar">خارطة الموقع</label>
+			<label xml:lang="zh">网站图</label>
+			<label xml:lang="ru">Карта сайта</label>
+		</node>
+		<node ID="TableOfContents">
+			<label xml:lang="en">Table of contents</label>
+			<label xml:lang="es">Tabla de contenidos</label>
+			<label xml:lang="fr">Table des matières</label>
+			<label xml:lang="ar">بيان المحتويات</label>
+			<label xml:lang="zh">目录</label>
+			<label xml:lang="ru">Содержание</label>
+		</node>
+		<node ID="PageContents">
+			<label xml:lang="en">Page contents</label>
+			<label xml:lang="es">Contenido de la página</label>
+			<label xml:lang="fr">Contenu de la page</label>
+			<label xml:lang="ar">محتويات الصفحة</label>
+			<label xml:lang="zh">页面内容</label>
+			<label xml:lang="ru">Содержимое страницы</label>
+		</node>
+		<node ID="Forum">
+			<label xml:lang="en">Forum</label>
+			<label xml:lang="es">Foro</label>
+			<label xml:lang="fr">Forum</label>
+			<label xml:lang="ar">المنتدى</label>
+			<label xml:lang="zh">论坛</label>
+			<label xml:lang="ru">Форум</label>
+		</node>
+		<node ID="Forum_text">
+			<label xml:lang="en">The forum is an online newsgroup administered by project managers. It is powered by the FAO-WAICENT CAMS application and allows message threads and file-sharing. Members can click here to access the CAMS user forum for this site.</label>
+			<label xml:lang="es">El foro es un grupo de noticias en línea administrado por los directores del proyecto. Este foro está impulsado por la aplicación FAO-WAICENT CAMS que permite el intercambio de mensajes y archivos compartidos. Los miembros pueden hacer click en el ícono para acceder al foro de usuarios CAMS para este sitio.</label>
+			<label xml:lang="fr">Ce forum est un groupe de discussion en ligne géré par des responsables de projet. Il fonctionne grâce à l'application CAMS de FAO-WAICENT et permet les suites thématiques et le partage des fichiers. Si vous êtes membre, cliquer ici pour accéder au forum des utilisateurs de CAMS concernant ce site.</label>
+			<label xml:lang="ar">المنتدى كناية عن مجموعة لتبادل الأخبار بإدارة مديري المشروع. وهو يُدار بواسطة تطبيق CAMS الخاص بالمنظمة-وايسنت ويتيح إمكانية توجيه رسائل وتبادل الملفات. أنقر هنا إذا كنت من الأعضاء للدخول إلى منتدى مستخدمي CAMS في هذا الموقع.</label>
+			<label xml:lang="zh">论坛是一个由项目主任负责管理的在线新闻小组。 由粮农组织/世界农业信息中心CAMS软件驱动，可提供消息主线并允许文档共享。 成员可以点击此处，进入本网站CAMS用户论坛。</label>
+			<label xml:lang="ru">Форум – это онлайновая группа новостей, которую курируют руководители проектов. Форум приводится в действие программой CAMS ФАО-ВИЦХ и позволяет вести темы дискуссий в электронной почте и обмениваться файлами. Члены форума могут нажать здесь, чтобы получить доступ к форуму CAMS для пользователей этого сайта.</label>
+		</node>
+		<node ID="FI">
+			<label xml:lang="en">Fisheries &amp; Aquaculture</label>
+			<label xml:lang="es">Pesca y Acuicultura</label>
+			<label xml:lang="fr">Pêches et aquaculture</label>
+			<label xml:lang="ru">Рыбные промыслы и аквакультура</label>
+		</node>
+		<node ID="InlandWaters">
+			<label xml:lang="en">Inland waters</label>
+			<label xml:lang="es">Aguas continentales</label>
+			<label xml:lang="fr">Eaux continentales</label>
+			<label xml:lang="ar">Inland waters</label>
+			<label xml:lang="zh">Inland waters</label>
+			<label xml:lang="ru">внутренние воды</label>
+		</node>
+	</nodes>
+	<tags>
+		<tag ID="High_Seas">
+			<label xml:lang="en">High seas</label>
+			<label xml:lang="es">Alta mar</label>
+			<label xml:lang="fr">Haute mer</label>
+			<label xml:lang="zh">High seas</label>
+			<label xml:lang="ar">High seas</label>
+			<label xml:lang="ru">High seas</label>
+		</tag>
+		<tag ID="National_Waters">
+			<label xml:lang="en">National waters</label>
+			<label xml:lang="es">Aguas nacionales</label>
+			<label xml:lang="fr">Eaux nationales</label>
+			<label xml:lang="zh">National waters</label>
+			<label xml:lang="ar">National waters</label>
+			<label xml:lang="ru">National waters</label>
+		</tag>
+		<tag ID="EEZ">
+			<label xml:lang="en">EEZ</label>
+			<label xml:lang="es">EEZ</label>
+			<label xml:lang="fr">ZEE</label>
+			<label xml:lang="zh">EEZ</label>
+			<label xml:lang="ar">EEZ</label>
+			<label xml:lang="ru">EEZ</label>
+		</tag>
+		<tag ID="Territorial_Sea">
+			<label xml:lang="en">Territorial sea</label>
+			<label xml:lang="es">Mar territorial</label>
+			<label xml:lang="fr">Eaux territorielles</label>
+			<label xml:lang="zh">Territorial sea</label>
+			<label xml:lang="ar">Territorial sea</label>
+			<label xml:lang="ru">Territorial sea</label>
+		</tag>
+		<tag ID="Archipelagic_Zone">
+			<label xml:lang="en">Archipelagic zone</label>
+			<label xml:lang="es">Archipelagic zone</label>
+			<label xml:lang="fr">Zones archipel</label>
+			<label xml:lang="zh">Archipelagic zone</label>
+			<label xml:lang="ar">Archipelagic zone</label>
+			<label xml:lang="ru">Archipelagic zone</label>
+		</tag>
+		<tag ID="Scientific_information">
+			<label xml:lang="en">Scientific information</label>
+			<label xml:lang="es">Scientific information</label>
+			<label xml:lang="fr">Information scientifique</label>
+			<label xml:lang="zh">Scientific information</label>
+			<label xml:lang="ar">Scientific information</label>
+			<label xml:lang="ru">Scientific information</label>
+		</tag>
+		<tag ID="Member">
+			<label xml:lang="en">Member</label>
+			<label xml:lang="es">Miembro</label>
+			<label xml:lang="fr">Membre</label>
+			<label xml:lang="ar">المشارك</label>
+			<label xml:lang="zh">成员</label>
+			<label xml:lang="ru">Член</label>
+		</tag>
+		<tag ID="Observer">
+			<label xml:lang="en">Observer</label>
+			<label xml:lang="es">Observer</label>
+			<label xml:lang="fr">Observateur</label>
+			<label xml:lang="ar">Observer</label>
+			<label xml:lang="zh">Observer</label>
+			<label xml:lang="ru">Observer</label>
+		</tag>
+	</tags>
+</labels>

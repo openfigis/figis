@@ -1,0 +1,67 @@
+<TAG_CONTROL>
+	<EXCLUDE>fi:Image</EXCLUDE>
+	<EXCLUDE>*Ref</EXCLUDE>
+	<EXCLUDE>*Ident</EXCLUDE>
+	<EXCLUDE>*Lite</EXCLUDE>
+	<!-- <EXCLUDE>*_LINK</EXCLUDE> -->
+	<!-- these are included as part of the text if found -->
+	<INCASTEXT>fi:L_*</INCASTEXT>
+	<INCASTEXT>fi:H_*</INCASTEXT>
+	<INCASTEXT>fi:BiblioEntry</INCASTEXT>
+	<INCASTEXT>../fi:Sources</INCASTEXT>
+	<INCASTEXT>fi:Synonym/fi:AddInfo</INCASTEXT>
+	<!-- <INCASTEXT>*_LINK</INCASTEXT> -->
+	<INCASTEXT>CELL</INCASTEXT>
+	<INCASTEXT>Cell</INCASTEXT>
+	<INCASTEXT>cell</INCASTEXT>
+	<INCASTEXT>fi:Cell</INCASTEXT>
+	<INCASTEXT>i</INCASTEXT>
+	<INCASTEXT>Br</INCASTEXT>
+	<INCASTEXT>br</INCASTEXT>
+	<INCASTEXT>sub</INCASTEXT>
+	<INCASTEXT>sup</INCASTEXT>
+	<EXCLUDE>fi:FIGISDoc</EXCLUDE>
+	<EXCLUDE>fi:DataEntry</EXCLUDE>
+	<EXCLUDE>fi:ObjectSource</EXCLUDE>
+	<!--<EXCLUDE>fi:Sources</EXCLUDE>-->
+	<EXCLUDE>fi:Owner</EXCLUDE>
+	<EXCLUDE>fi:CoverPage</EXCLUDE>
+	<EXCLUDE>fi:AqRes</EXCLUDE>
+	<EXCLUDE>fi:AqResStock</EXCLUDE>
+	<EXCLUDE>fi:Fishtech</EXCLUDE>
+	<EXCLUDE>fi:Fisheries</EXCLUDE>
+	<EXCLUDE>fi:Introsp</EXCLUDE>
+	<EXCLUDE>fi:AqSpecies</EXCLUDE>
+	<!-- couple of species specials -->
+	<EXCLUDE>fi:Synonym/fi:SynonymEntry</EXCLUDE>
+	<EXCLUDE>fi:LocalName</EXCLUDE>
+	<EXCLUDE>fi:Fishgear</EXCLUDE>
+	<EXCLUDE>fi:Geartype</EXCLUDE>
+	<EXCLUDE>fi:Vesseltype</EXCLUDE>
+	<EXCLUDE>fi:Topic</EXCLUDE>
+	<EXCLUDE>fi:Country</EXCLUDE>
+	<!--	<EXCLUDE>fi:AqResFeature</EXCLUDE>
+	<EXCLUDE>fi:AqResStockFeature</EXCLUDE> -->
+	<!-- literary references -->
+	<EXCLUDE>fi:Bibliography</EXCLUDE>
+	<!--<EXCLUDE>fi:Literature</EXCLUDE>-->
+	<!-- must include any weird top-level tags that are handled from within objects -->
+	<EXCLUDE>fi:ReportingYear</EXCLUDE>
+	<IGNOREATTR>DTDLocation</IGNOREATTR>
+	<IGNOREATTR>edited</IGNOREATTR>
+	<IGNOREATTR>shadow</IGNOREATTR>
+	<IGNOREATTR>Comment</IGNOREATTR>
+	<IGNOREATTR>Language</IGNOREATTR>
+	<IGNOREATTR>FID</IGNOREATTR>
+	<IGNOREATTR>GFID</IGNOREATTR>
+	<IGNOREATTR>TID</IGNOREATTR>
+	<IGNOREATTR>ElementName</IGNOREATTR>
+	<IGNOREATTR>ElementDesc</IGNOREATTR>
+	<IGNOREATTR>DOCID</IGNOREATTR>
+	<IGNOREATTR>DOCPOS</IGNOREATTR>
+	<IGNOREATTR>N</IGNOREATTR>
+	<IGNOREATTR>P</IGNOREATTR>
+	<IGNOREATTR>COPIED_TO</IGNOREATTR>
+	<IGNOREATTR>COPIED_FROM</IGNOREATTR>
+	<IGNOREATTR>PROCESSED</IGNOREATTR>
+</TAG_CONTROL>

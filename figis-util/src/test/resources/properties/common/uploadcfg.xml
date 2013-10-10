@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Figis upload component configuration -->
+<!DOCTYPE upload_config [
+	<!ELEMENT upload_config (session+, default, policy+, processor*)>
+	<!-- Each session should have an unique id and refers to
+     one of the defined policies. Also session can refers to processor.
+     This processor responsible for post upload process.
+ -->
+	<!ELEMENT session EMPTY>
+	<!ATTLIST session
+	id ID #REQUIRED
+		policy IDREF #REQUIRED
+		class CDATA "org.fao.fi.figis.fs.upload.Session"
+		path CDATA "/upload"
+		outformat (xml | html) "xml"
+		xsl CDATA #IMPLIED
+		processor CDATA #IMPLIED
+>
+	<!-- One of the defined sessions should be marked as default-->
+	<!ELEMENT default EMPTY>
+	<!ATTLIST default
+	session IDREF #REQUIRED
+>
+	<!ELEMENT policy (allow?, deny?)>
+	<!ATTLIST policy
+	id ID #REQUIRED
+>
+	<!ELEMENT allow (max_file_size?, extension*, user*, group*)>
+	<!ELEMENT deny (extension*, user*, group*)>
+	<!ELEMENT max_file_size EMPTY>
+	<!--
+  single - the maximum allowed size of one file to be uploaded
+  total - the maximum allowed size of all files to be uploaded
+  File size examples:
+  	'40960'
+  	'40k'	- means 40 kilobytes = 40*1024
+  	'5M'	- means 5 megabytes = 5*1024*1024
+  	'1G'	- means 1 gigabytes = 1*1024*1024*1024
+-->
+	<!ATTLIST max_file_size
+	single CDATA "40k"
+		total CDATA "400k"
+>
+	<!ELEMENT extension (#PCDATA)>
+	<!ELEMENT group (#PCDATA)>
+	<!ELEMENT user (#PCDATA)>
+	<!ELEMENT processor (parameter*)>
+	<!ATTLIST processor
+	id ID #REQUIRED
+		class CDATA "org.fao.fi.figis.fs.upload.FSProcessor"
+>
+	<!ELEMENT parameter EMPTY>
+	<!ATTLIST parameter
+	name CDATA #REQUIRED
+		value CDATA #REQUIRED
+>
+]>
+<upload_config>
+	<session id="FSUpload" policy="FSUploadPolicy" path="upload/sessions" outformat="HTML" xsl="webapps/figis/upload/format/report.xsl" processor="FSUploadProcessor"/>
+	<session id="Archive" policy="empty" class="org.fao.fi.figis.fs.upload.archiveSession" path="/zips" outformat="xml"/>
+	<default session="FSUpload"/>
+	<policy id="FSUploadPolicy">
+		<allow>
+			<max_file_size single="80K" total="400K"/>
+			<extension>xml</extension>
+			<extension>gif</extension>
+			<extension>jpg</extension>
+			<extension>jpeg</extension>
+			<user>Figis_Guest</user>
+			<user>connell</user>
+			<user>laurent</user>
+			<user>farmer</user>
+			<user>taconet</user>
+			<group>EDITOR</group>
+			<group>REVIEWER</group>
+		</allow>
+		<deny>
+			<user>igis_guest</user>
+		</deny>
+	</policy>
+	<policy id="empty"/>
+	<processor id="FSUploadProcessor" class="org.fao.fi.figis.fs.upload.FSProcessor">
+		<!-- the 2 following parameters responsible for DTD substitution -->
+		<parameter name="CHANGE_DTD" value="false"/>
+		<!-- parameter name="CURRENT_DTD" value="http://figis01/dtd/beta/3.0b/Figisdoc3.0.dtd"/-->
+		<parameter name="CURRENT_DTD" value="http://figis01:9090/fi/DTD/Current/Figisdoc3.0.dtd"/>
+		<!-- parameter name="PROPERTIES_DIR" value="webapps/figis/WEB-INF/properties.load/"/ -->
+	</processor>
+</upload_config>

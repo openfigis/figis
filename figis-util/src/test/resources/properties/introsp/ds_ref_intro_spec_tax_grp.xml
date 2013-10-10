@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:AqSpeciesIdent Code="$CD_INTRO_SPEC_TAXO_GRP;">
+	<fi:TaxonomicGroup>
+		<fi:En>$TEXT_E;</fi:En>
+		<fi:Fr>$TEXT_F;</fi:Fr>
+		<fi:Sp>$TEXT_S;</fi:Sp>
+	</fi:TaxonomicGroup>
+</fi:AqSpeciesIdent>

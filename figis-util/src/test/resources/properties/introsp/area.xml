@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:LandPoliticalRef code="$UN_CODE;" CodeSystem="UN" Iso2Code="$ISO_2_CODE;" Iso3Code="$ISO_3_CODE;">
+	<fi:Name>
+		<fi:En>$LONG_NAME_E;</fi:En>
+		<fi:Fr>$LONG_NAME_F;</fi:Fr>
+		<fi:Sp>$LONG_NAME_E;</fi:Sp>
+	</fi:Name>
+</fi:LandPoliticalRef>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:AreaRef FID="$CD_AREA;">
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+		<fi:Fr>$NAME_F;</fi:Fr>
+		<fi:Sp>$NAME_S;</fi:Sp>
+	</fi:Name>
+</fi:AreaRef>

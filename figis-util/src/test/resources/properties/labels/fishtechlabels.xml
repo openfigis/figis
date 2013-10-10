@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fi:Overview">
+			<label xml:lang="en">Overview</label>
+			<label xml:lang="fr">Vue générale</label>
+			<label xml:lang="es">Descripción</label>
+			<label xml:lang="ar">لمحة عامة</label>
+			<label xml:lang="zh">概览</label>
+		</node>
+		<node ID="fi:SpeciesList" Type="Target">
+			<label xml:lang="en">Target Species</label>
+			<label xml:lang="fr">Espèces ciblées</label>
+			<label xml:lang="es"></label>
+			<label xml:lang="ar"></label>
+			<label xml:lang="zh"></label>
+		</node>
+		<node ID="mainComponents">
+			<label xml:lang="en">Main Components</label>
+			<label xml:lang="es"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="fr">Principaux composants</label>
+		</node>
+		<node ID="fi:WaterAreaList">
+			<label xml:lang="en">Water Area List</label>
+			<label xml:lang="fr">Listes des eaux</label>
+			<label xml:lang="es">Water Area List</label>
+			<label xml:lang="ar">Water Area List</label>
+			<label xml:lang="zh">Water Area List</label>
+		</node>
+		<node ID="fi:TargetSpeciesEnviron">
+			<label xml:lang="en">Species Environment</label>
+			<label xml:lang="fr">Environnement d'espèces</label>
+			<label xml:lang="es">Species Environment</label>
+			<label xml:lang="ar">Species Environment</label>
+			<label xml:lang="zh">Species Environment</label>
+		</node>
+		<node ID="fi:TargetSpecies">
+			<label xml:lang="en">Target Species</label>
+			<label xml:lang="fr">Espèces ciblées</label>
+			<label xml:lang="es">Target Species</label>
+			<label xml:lang="ar">Target Species</label>
+			<label xml:lang="zh">Target Species</label>
+		</node>
+		<node ID="fi:HandlingMode">
+			<label xml:lang="en">Handling Mode</label>
+			<label xml:lang="fr">Mode de traitement</label>
+			<label xml:lang="es">Handling Mode</label>
+			<label xml:lang="ar">Handling Mode</label>
+			<label xml:lang="zh">Handling Mode</label>
+		</node>
+		<node ID="fi:GeartypeOverview">
+			<label xml:lang="en">Fishing Gear</label>
+			<label xml:lang="fr">Engin de pêche</label>
+			<label xml:lang="es">Fishing Gear</label>
+			<label xml:lang="ar">Fishing Gear</label>
+			<label xml:lang="zh">Fishing Gear</label>
+		</node>
+		<node ID="fi:VesseltypeOverview">
+			<label xml:lang="en">Vessel Overview</label>
+			<label xml:lang="fr">Vue générale des navires</label>
+			<label xml:lang="es">Vessel Overview</label>
+			<label xml:lang="ar">Vessel Overview</label>
+			<label xml:lang="zh">Vessel Overview</label>
+		</node>
+		<node ID="fi:FishingEnviron">
+			<label xml:lang="en">Fishing Environment</label>
+			<label xml:lang="fr">Environnement de pêche</label>
+			<label xml:lang="es">Fishing Environment</label>
+			<label xml:lang="ar">Fishing Environment</label>
+			<label xml:lang="zh">Fishing Environment</label>
+		</node>
+		<node ID="fi:FishTechniqueOperation">
+			<label xml:lang="en">Fishing Operations</label>
+			<label xml:lang="fr">Opérations de pêche</label>
+			<label xml:lang="es">Fishing Operations</label>
+			<label xml:lang="ar">Fishing Operations</label>
+			<label xml:lang="zh">Fishing Operations</label>
+		</node>
+		<node ID="fi:IssueEntry">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:ImpactEntry">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Season">
+			<label xml:lang="en">Seasonality</label>
+			<label xml:lang="fr">Saisonnalité</label>
+			<label xml:lang="es">Seasonality</label>
+			<label xml:lang="ar">Seasonality</label>
+			<label xml:lang="zh">Seasonality</label>
+		</node>
+				<node ID="fi:FisheryArea">
+			<label xml:lang="en">Fishery Area</label>
+			<label xml:lang="fr">Aire de pêche</label>
+			<label xml:lang="es">Fishery Area</label>
+			<label xml:lang="ar">Fishery Area</label>
+			<label xml:lang="zh">Fishery Area</label>
+		</node>
+				<node ID="fi:FisheryProductionSystems">
+			<label xml:lang="en">Fishery Production Systems</label>
+			<label xml:lang="fr">Systèmes de production des pêches</label>
+			<label xml:lang="es">Fishery Production Systems</label>
+			<label xml:lang="ar">Fishery Production Systems</label>
+			<label xml:lang="zh">Fishery Production Systems</label>
+		</node>
+		</nodes>
+</labels>

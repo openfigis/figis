@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE tags SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/tags.dtd">
+<tags>
+	<tag Type="iso639-2" ID="ab">
+		<label xml:lang="en">Abkhazian</label>
+		<label xml:lang="fr">Abkhaze</label>
+		<label xml:lang="es">Abkhaze</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Achinese</label>
+		<label xml:lang="fr">Aceh</label>
+		<label xml:lang="es">Aceh</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Acoli</label>
+		<label xml:lang="fr">Acoli</label>
+		<label xml:lang="es">Acoli</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Adangme</label>
+		<label xml:lang="fr">Adangme</label>
+		<label xml:lang="es">Adangme</label>
+	</tag>
+	<tag Type="iso639-2" ID="aa">
+		<label xml:lang="en">Afar</label>
+		<label xml:lang="fr">Afar</label>
+		<label xml:lang="es">Afar</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Afrihili</label>
+		<label xml:lang="fr">Afrihili</label>
+		<label xml:lang="es">Afrihili</label>
+	</tag>
+	<tag Type="iso639-2" ID="af">
+		<label xml:lang="en">Afrikaans</label>
+		<label xml:lang="fr">Afrikaans</label>
+		<label xml:lang="es">Afrikaans</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Afro-Asiatic (Other)</label>
+		<label xml:lang="fr">Afro-Asiatiques, Autres Langues</label>
+		<label xml:lang="es">Afro-Asiatiques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Akan</label>
+		<label xml:lang="fr">Akan</label>
+		<label xml:lang="es">Akan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Akkadian</label>
+		<label xml:lang="fr">Akkadien</label>
+		<label xml:lang="es">Akkadien</label>
+	</tag>
+	<tag Type="iso639-2" ID="sq">
+		<label xml:lang="en">Albanian</label>
+		<label xml:lang="fr">Albanais</label>
+		<label xml:lang="es">Albanais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Aleut</label>
+		<label xml:lang="fr">Aléoute</label>
+		<label xml:lang="es">Aléoute</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Algonquian Languages</label>
+		<label xml:lang="fr">Algonquines, Langues</label>
+		<label xml:lang="es">Algonquines, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Altaic (Other)</label>
+		<label xml:lang="fr">Altaïques, Autres Langues</label>
+		<label xml:lang="es">Altaïques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="am">
+		<label xml:lang="en">Amharic</label>
+		<label xml:lang="fr">Amharique</label>
+		<label xml:lang="es">Amharique</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Apache Languages</label>
+		<label xml:lang="fr">Apache</label>
+		<label xml:lang="es">Apache</label>
+	</tag>
+	<tag Type="iso639-2" ID="ar">
+		<label xml:lang="en">Arabic</label>
+		<label xml:lang="fr">Arabe</label>
+		<label xml:lang="es">Arabe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Aramaic</label>
+		<label xml:lang="fr">Araméen</label>
+		<label xml:lang="es">Araméen</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Arapaho</label>
+		<label xml:lang="fr">Arapaho</label>
+		<label xml:lang="es">Arapaho</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Araucanian</label>
+		<label xml:lang="fr">Araucan</label>
+		<label xml:lang="es">Araucan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Arawak</label>
+		<label xml:lang="fr">Arawak</label>
+		<label xml:lang="es">Arawak</label>
+	</tag>
+	<tag Type="iso639-2" ID="hy">
+		<label xml:lang="en">Armenian</label>
+		<label xml:lang="fr">Arménien</label>
+		<label xml:lang="es">Arménien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Artificial (Other)</label>
+		<label xml:lang="fr">Artificielles, Autres Langues</label>
+		<label xml:lang="es">Artificielles, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="as">
+		<label xml:lang="en">Assamese</label>
+		<label xml:lang="fr">Assamais</label>
+		<label xml:lang="es">Assamais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Athapascan Languages</label>
+		<label xml:lang="fr">Athapascanes, Langues</label>
+		<label xml:lang="es">Athapascanes, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Australian Languages</label>
+		<label xml:lang="fr">Australiennes, Langues</label>
+		<label xml:lang="es">Australiennes, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Austronesian (Other)</label>
+		<label xml:lang="fr">Malayo-Polynésiennes, Autres Langues</label>
+		<label xml:lang="es">Malayo-Polynésiennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Avaric</label>
+		<label xml:lang="fr">Avar</label>
+		<label xml:lang="es">Avar</label>
+	</tag>
+	<tag Type="iso639-2" ID="ae">
+		<label xml:lang="en">Avestan</label>
+		<label xml:lang="fr">Avestique</label>
+		<label xml:lang="es">Avestique</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Awadhi</label>
+		<label xml:lang="fr">Awadhi</label>
+		<label xml:lang="es">Awadhi</label>
+	</tag>
+	<tag Type="iso639-2" ID="ay">
+		<label xml:lang="en">Aymara</label>
+		<label xml:lang="fr">Aymara</label>
+		<label xml:lang="es">Aymara</label>
+	</tag>
+	<tag Type="iso639-2" ID="az">
+		<label xml:lang="en">Azerbaijani</label>
+		<label xml:lang="fr">Azéri</label>
+		<label xml:lang="es">Azéri</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Balinese</label>
+		<label xml:lang="fr">Balinais</label>
+		<label xml:lang="es">Balinais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Baltic (Other)</label>
+		<label xml:lang="fr">Baltiques, Autres Langues</label>
+		<label xml:lang="es">Baltiques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Baluchi</label>
+		<label xml:lang="fr">Baloutchi</label>
+		<label xml:lang="es">Baloutchi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bambara</label>
+		<label xml:lang="fr">Bambara</label>
+		<label xml:lang="es">Bambara</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bamileke Languages</label>
+		<label xml:lang="fr">Bamilékés, Langues</label>
+		<label xml:lang="es">Bamilékés, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Banda</label>
+		<label xml:lang="fr">Banda</label>
+		<label xml:lang="es">Banda</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bantu (Other)</label>
+		<label xml:lang="fr">Bantoues, Autres Langues</label>
+		<label xml:lang="es">Bantoues, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Basa</label>
+		<label xml:lang="fr">Basa</label>
+		<label xml:lang="es">Basa</label>
+	</tag>
+	<tag Type="iso639-2" ID="ba">
+		<label xml:lang="en">Bashkir</label>
+		<label xml:lang="fr">Bachkir</label>
+		<label xml:lang="es">Bachkir</label>
+	</tag>
+	<tag Type="iso639-2" ID="eu">
+		<label xml:lang="en">Basque</label>
+		<label xml:lang="fr">Basque</label>
+		<label xml:lang="es">Basque</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Batak (Indonesia)</label>
+		<label xml:lang="fr">Batak (Indonésie)</label>
+		<label xml:lang="es">Batak (Indonésie)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Beja</label>
+		<label xml:lang="fr">Bedja</label>
+		<label xml:lang="es">Bedja</label>
+	</tag>
+	<tag Type="iso639-2" ID="be">
+		<label xml:lang="en">Belarusian</label>
+		<label xml:lang="fr">Biélorusse</label>
+		<label xml:lang="es">Biélorusse</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bemba</label>
+		<label xml:lang="fr">Bemba</label>
+		<label xml:lang="es">Bemba</label>
+	</tag>
+	<tag Type="iso639-2" ID="bn">
+		<label xml:lang="en">Bengali</label>
+		<label xml:lang="fr">Bengali</label>
+		<label xml:lang="es">Bengali</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Berber (Other)</label>
+		<label xml:lang="fr">Berbères, Autres Langues</label>
+		<label xml:lang="es">Berbères, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bhojpuri</label>
+		<label xml:lang="fr">Bhojpuri</label>
+		<label xml:lang="es">Bhojpuri</label>
+	</tag>
+	<tag Type="iso639-2" ID="bh">
+		<label xml:lang="en">Bihari</label>
+		<label xml:lang="fr">Bihari</label>
+		<label xml:lang="es">Bihari</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bikol</label>
+		<label xml:lang="fr">Bikol</label>
+		<label xml:lang="es">Bikol</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Bini</label>
+		<label xml:lang="fr">Bini</label>
+		<label xml:lang="es">Bini</label>
+	</tag>
+	<tag Type="iso639-2" ID="bi">
+		<label xml:lang="en">Bislama</label>
+		<label xml:lang="fr">Bichlamar</label>
+		<label xml:lang="es">Bichlamar</label>
+	</tag>
+	<tag Type="iso639-2" ID="nb">
+		<label xml:lang="en">Bokmål, Norwegian; Norwegian Bokmål</label>
+		<label xml:lang="fr">Bokmål, Norvégien; Bokmål Norvégien</label>
+		<label xml:lang="es">Bokmål, Norvégien; Bokmål Norvégien</label>
+	</tag>
+	<tag Type="iso639-2" ID="bs">
+		<label xml:lang="en">Bosnian</label>
+		<label xml:lang="fr">Bosniaque</label>
+		<label xml:lang="es">Bosniaque</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Braj</label>
+		<label xml:lang="fr">Braj</label>
+		<label xml:lang="es">Braj</label>
+	</tag>
+	<tag Type="iso639-2" ID="br">
+		<label xml:lang="en">Breton</label>
+		<label xml:lang="fr">Breton</label>
+		<label xml:lang="es">Breton</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Buginese</label>
+		<label xml:lang="fr">Bugi</label>
+		<label xml:lang="es">Bugi</label>
+	</tag>
+	<tag Type="iso639-2" ID="bg">
+		<label xml:lang="en">Bulgarian</label>
+		<label xml:lang="fr">Bulgare</label>
+		<label xml:lang="es">Bulgare</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Buriat</label>
+		<label xml:lang="fr">Bouriate</label>
+		<label xml:lang="es">Bouriate</label>
+	</tag>
+	<tag Type="iso639-2" ID="my">
+		<label xml:lang="en">Burmese</label>
+		<label xml:lang="fr">Birman</label>
+		<label xml:lang="es">Birman</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Caddo</label>
+		<label xml:lang="fr">Caddo</label>
+		<label xml:lang="es">Caddo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Carib</label>
+		<label xml:lang="fr">Caribe</label>
+		<label xml:lang="es">Caribe</label>
+	</tag>
+	<tag Type="iso639-2" ID="es">
+		<label xml:lang="en">Spanish</label>
+		<label xml:lang="fr">Espagnol</label>
+		<label xml:lang="es">Espagnol</label>
+	</tag>
+	<tag Type="iso639-2" ID="ca">
+		<label xml:lang="en">Catalan</label>
+		<label xml:lang="fr">Catalan</label>
+		<label xml:lang="es">Catalan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Caucasian (Other)</label>
+		<label xml:lang="fr">Caucasiennes, Autres Langues</label>
+		<label xml:lang="es">Caucasiennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Cebuano</label>
+		<label xml:lang="fr">Cebuano</label>
+		<label xml:lang="es">Cebuano</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Celtic (Other)</label>
+		<label xml:lang="fr">Celtiques, Autres Langues</label>
+		<label xml:lang="es">Celtiques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Central American Indian (Other)</label>
+		<label xml:lang="fr">Indiennes D'amérique Centrale,</label>
+		<label xml:lang="es">Indiennes D'amérique Centrale,</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr">Autres Langues</label>
+		<label xml:lang="es">Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chagatai</label>
+		<label xml:lang="fr">Djaghataï</label>
+		<label xml:lang="es">Djaghataï</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chamic Languages</label>
+		<label xml:lang="fr">Chames, Langues</label>
+		<label xml:lang="es">Chames, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="ch">
+		<label xml:lang="en">Chamorro</label>
+		<label xml:lang="fr">Chamorro</label>
+		<label xml:lang="es">Chamorro</label>
+	</tag>
+	<tag Type="iso639-2" ID="ce">
+		<label xml:lang="en">Chechen</label>
+		<label xml:lang="fr">Tchetchène</label>
+		<label xml:lang="es">Tchetchène</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Cherokee</label>
+		<label xml:lang="fr">Cherokee</label>
+		<label xml:lang="es">Cherokee</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Cheyenne</label>
+		<label xml:lang="fr">Cheyenne</label>
+		<label xml:lang="es">Cheyenne</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chibcha</label>
+		<label xml:lang="fr">Chibcha</label>
+		<label xml:lang="es">Chibcha</label>
+	</tag>
+	<tag Type="iso639-2" ID="ny">
+		<label xml:lang="en">Chichewa; Nyanja</label>
+		<label xml:lang="fr">Chichewa; Nyanja</label>
+		<label xml:lang="es">Chichewa; Nyanja</label>
+	</tag>
+	<tag Type="iso639-2" ID="zh">
+		<label xml:lang="en">Chinese</label>
+		<label xml:lang="fr">Chinois</label>
+		<label xml:lang="es">Chinois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chinook Jargon</label>
+		<label xml:lang="fr">Chinook, Jargon</label>
+		<label xml:lang="es">Chinook, Jargon</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chipewyan</label>
+		<label xml:lang="fr">Chipewyan</label>
+		<label xml:lang="es">Chipewyan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Choctaw</label>
+		<label xml:lang="fr">Choctaw</label>
+		<label xml:lang="es">Choctaw</label>
+	</tag>
+	<tag Type="iso639-2" ID="za">
+		<label xml:lang="en">Chuang; Zhuang</label>
+		<label xml:lang="fr">Chuang; Zhuang</label>
+		<label xml:lang="es">Chuang; Zhuang</label>
+	</tag>
+	<tag Type="iso639-2" ID="cu">
+		<label xml:lang="en">Church Slavic</label>
+		<label xml:lang="fr">Slavon D'église</label>
+		<label xml:lang="es">Slavon D'église</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Chuukese</label>
+		<label xml:lang="fr">Chuuk</label>
+		<label xml:lang="es">Chuuk</label>
+	</tag>
+	<tag Type="iso639-2" ID="cv">
+		<label xml:lang="en">Chuvash</label>
+		<label xml:lang="fr">Tchouvache</label>
+		<label xml:lang="es">Tchouvache</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Coptic</label>
+		<label xml:lang="fr">Copte</label>
+		<label xml:lang="es">Copte</label>
+	</tag>
+	<tag Type="iso639-2" ID="kw">
+		<label xml:lang="en">Cornish</label>
+		<label xml:lang="fr">Cornique</label>
+		<label xml:lang="es">Cornique</label>
+	</tag>
+	<tag Type="iso639-2" ID="co">
+		<label xml:lang="en">Corsican</label>
+		<label xml:lang="fr">Corse</label>
+		<label xml:lang="es">Corse</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Cree</label>
+		<label xml:lang="fr">Cree</label>
+		<label xml:lang="es">Cree</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Creek</label>
+		<label xml:lang="fr">Muskogee</label>
+		<label xml:lang="es">Muskogee</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Creoles And Pidgins (Other)</label>
+		<label xml:lang="fr">Créoles Et Pidgins Divers</label>
+		<label xml:lang="es">Créoles Et Pidgins Divers</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Creoles And Pidgins,</label>
+		<label xml:lang="fr">Créoles Et Pidgins Anglais, Autres</label>
+		<label xml:lang="es">Créoles Et Pidgins Anglais, Autres</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">English-Based (Other)</label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Creoles And Pidgins,</label>
+		<label xml:lang="fr">Créoles Et Pidgins Français, Autres</label>
+		<label xml:lang="es">Créoles Et Pidgins Français, Autres</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">French-Based (Other)</label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Creoles And Pidgins,</label>
+		<label xml:lang="fr">Créoles Et Pidgins Portugais, Autres</label>
+		<label xml:lang="es">Créoles Et Pidgins Portugais, Autres</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Portuguese-Based (Other)</label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="hr">
+		<label xml:lang="en">Croatian</label>
+		<label xml:lang="fr">Croate</label>
+		<label xml:lang="es">Croate</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Cushitic (Other)</label>
+		<label xml:lang="fr">Couchitiques, Autres Langues</label>
+		<label xml:lang="es">Couchitiques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="cs">
+		<label xml:lang="en">Czech</label>
+		<label xml:lang="fr">Tchèque</label>
+		<label xml:lang="es">Tchèque</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dakota</label>
+		<label xml:lang="fr">Dakota</label>
+		<label xml:lang="es">Dakota</label>
+	</tag>
+	<tag Type="iso639-2" ID="da">
+		<label xml:lang="en">Danish</label>
+		<label xml:lang="fr">Danois</label>
+		<label xml:lang="es">Danois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dayak</label>
+		<label xml:lang="fr">Dayak</label>
+		<label xml:lang="es">Dayak</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Delaware</label>
+		<label xml:lang="fr">Delaware</label>
+		<label xml:lang="es">Delaware</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dinka</label>
+		<label xml:lang="fr">Dinka</label>
+		<label xml:lang="es">Dinka</label>
+	</tag>
+	<tag Type="iso639-2" ID="dv">
+		<label xml:lang="en">Divehi</label>
+		<label xml:lang="fr">Maldivien</label>
+		<label xml:lang="es">Maldivien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dogri</label>
+		<label xml:lang="fr">Dogri</label>
+		<label xml:lang="es">Dogri</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dogrib</label>
+		<label xml:lang="fr">Dogrib</label>
+		<label xml:lang="es">Dogrib</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dravidian (Other)</label>
+		<label xml:lang="fr">Dravidiennes, Autres Langues</label>
+		<label xml:lang="es">Dravidiennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Duala</label>
+		<label xml:lang="fr">Douala</label>
+		<label xml:lang="es">Douala</label>
+	</tag>
+	<tag Type="iso639-2" ID="nl">
+		<label xml:lang="en">Dutch</label>
+		<label xml:lang="fr">Néerlandais</label>
+		<label xml:lang="es">Néerlandais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dutch, Middle (Ca. 1050-1350)</label>
+		<label xml:lang="fr">Néerlandais Moyen (Ca. 1050-1350)</label>
+		<label xml:lang="es">Néerlandais Moyen (Ca. 1050-1350)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Dyula</label>
+		<label xml:lang="fr">Dioula</label>
+		<label xml:lang="es">Dioula</label>
+	</tag>
+	<tag Type="iso639-2" ID="dz">
+		<label xml:lang="en">Dzongkha</label>
+		<label xml:lang="fr">Dzongkha</label>
+		<label xml:lang="es">Dzongkha</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Efik</label>
+		<label xml:lang="fr">Efik</label>
+		<label xml:lang="es">Efik</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Egyptian (Ancient)</label>
+		<label xml:lang="fr">Égyptien</label>
+		<label xml:lang="es">Égyptien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ekajuk</label>
+		<label xml:lang="fr">Ekajuk</label>
+		<label xml:lang="es">Ekajuk</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Elamite</label>
+		<label xml:lang="fr">Élamite</label>
+		<label xml:lang="es">Élamite</label>
+	</tag>
+<tag Type="iso639-2" ID="en">
+		<label xml:lang="en">English</label>
+		<label xml:lang="fr">Anglais</label>
+			<label xml:lang="es">inglés</label>
+		<label xml:lang="zh">英语</label>
+		<label xml:lang="ar">الإنكليزية</label>
+		<label xml:lang="ru">Английский</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">English, Middle (1100-1500)</label>
+		<label xml:lang="fr">Anglais Moyen (1100-1500)</label>
+		<label xml:lang="es">Anglais Moyen (1100-1500)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">English, Old (Ca.450-1100)</label>
+		<label xml:lang="fr">Anglo-Saxon (Ca.450-1100)</label>
+		<label xml:lang="es">Anglo-Saxon (Ca.450-1100)</label>
+	</tag>
+	<tag Type="iso639-2" ID="eo">
+		<label xml:lang="en">Esperanto</label>
+		<label xml:lang="fr">Espéranto</label>
+		<label xml:lang="es">Espéranto</label>
+	</tag>
+	<tag Type="iso639-2" ID="et">
+		<label xml:lang="en">Estonian</label>
+		<label xml:lang="fr">Estonien</label>
+		<label xml:lang="es">Estonien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ewe</label>
+		<label xml:lang="fr">Éwé</label>
+		<label xml:lang="es">Éwé</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ewondo</label>
+		<label xml:lang="fr">Éwondo</label>
+		<label xml:lang="es">Éwondo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Fang</label>
+		<label xml:lang="fr">Fang</label>
+		<label xml:lang="es">Fang</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Fanti</label>
+		<label xml:lang="fr">Fanti</label>
+		<label xml:lang="es">Fanti</label>
+	</tag>
+	<tag Type="iso639-2" ID="fo">
+		<label xml:lang="en">Faroese</label>
+		<label xml:lang="fr">Féroïen</label>
+		<label xml:lang="es">Féroïen</label>
+	</tag>
+	<tag Type="iso639-2" ID="fj">
+		<label xml:lang="en">Fijian</label>
+		<label xml:lang="fr">Fidjien</label>
+		<label xml:lang="es">Fidjien</label>
+	</tag>
+	<tag Type="iso639-2" ID="fi">
+		<label xml:lang="en">Finnish</label>
+		<label xml:lang="fr">Finnois</label>
+		<label xml:lang="es">Finnois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Finno-Ugrian (Other)</label>
+		<label xml:lang="fr">Finno-Ougriennes, Autres Langues</label>
+		<label xml:lang="es">Finno-Ougriennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Fon</label>
+		<label xml:lang="fr">Fon</label>
+		<label xml:lang="es">Fon</label>
+	</tag>
+	<tag Type="iso639-2" ID="fr">
+		<label xml:lang="en">French</label>
+		<label xml:lang="fr">Français</label>
+		<label xml:lang="es">Français</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">French, Middle (Ca.1400-1600)</label>
+		<label xml:lang="fr">Français Moyen (1400-1600)</label>
+		<label xml:lang="es">Français Moyen (1400-1600)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">French, Old (842-Ca.1400)</label>
+		<label xml:lang="fr">Français Ancien (842-Ca.1400)</label>
+		<label xml:lang="es">Français Ancien (842-Ca.1400)</label>
+	</tag>
+	<tag Type="iso639-2" ID="fy">
+		<label xml:lang="en">Frisian</label>
+		<label xml:lang="fr">Frison</label>
+		<label xml:lang="es">Frison</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Friulian</label>
+		<label xml:lang="fr">Frioulan</label>
+		<label xml:lang="es">Frioulan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Fulah</label>
+		<label xml:lang="fr">Peul</label>
+		<label xml:lang="es">Peul</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ga</label>
+		<label xml:lang="fr">Ga</label>
+		<label xml:lang="es">Ga</label>
+	</tag>
+	<tag Type="iso639-2" ID="gd">
+		<label xml:lang="en">Gaelic; Scottish Gaelic</label>
+		<label xml:lang="fr">Gaélique; Gaélique Écossais</label>
+		<label xml:lang="es">Gaélique; Gaélique Écossais</label>
+	</tag>
+	<tag Type="iso639-2" ID="gl">
+		<label xml:lang="en">Gallegan</label>
+		<label xml:lang="fr">Galicien</label>
+		<label xml:lang="es">Galicien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ganda</label>
+		<label xml:lang="fr">Ganda</label>
+		<label xml:lang="es">Ganda</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gayo</label>
+		<label xml:lang="fr">Gayo</label>
+		<label xml:lang="es">Gayo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gbaya</label>
+		<label xml:lang="fr">Gbaya</label>
+		<label xml:lang="es">Gbaya</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Geez</label>
+		<label xml:lang="fr">Guèze</label>
+		<label xml:lang="es">Guèze</label>
+	</tag>
+	<tag Type="iso639-2" ID="ka">
+		<label xml:lang="en">Georgian</label>
+		<label xml:lang="fr">Géorgien</label>
+		<label xml:lang="es">Géorgien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="de">
+		<label xml:lang="en">German</label>
+		<label xml:lang="fr">Allemand</label>
+		<label xml:lang="es">Allemand</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">German, Low; Saxon, Low; Low German; Low Saxon</label>
+		<label xml:lang="fr">Allemand, Bas; Saxon, Bas; Bas Allemand; Bas Saxon</label>
+		<label xml:lang="es">Allemand, Bas; Saxon, Bas; Bas Allemand; Bas Saxon</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">German, Middle High (Ca.1050-1500)</label>
+		<label xml:lang="fr">Allemand, Moyen Haut (Ca. 1050-1500)</label>
+		<label xml:lang="es">Allemand, Moyen Haut (Ca. 1050-1500)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">German, Old High (Ca.750-1050)</label>
+		<label xml:lang="fr">Allemand, Vieux Haut (Ca. 750-1050)</label>
+		<label xml:lang="es">Allemand, Vieux Haut (Ca. 750-1050)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Germanic (Other)</label>
+		<label xml:lang="fr">Germaniques, Autres Langues</label>
+		<label xml:lang="es">Germaniques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="ki">
+		<label xml:lang="en">Gikuyu; Kikuyu</label>
+		<label xml:lang="fr">Kikuyu</label>
+		<label xml:lang="es">Kikuyu</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gilbertese</label>
+		<label xml:lang="fr">Kiribati</label>
+		<label xml:lang="es">Kiribati</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gondi</label>
+		<label xml:lang="fr">Gond</label>
+		<label xml:lang="es">Gond</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gorontalo</label>
+		<label xml:lang="fr">Gorontalo</label>
+		<label xml:lang="es">Gorontalo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gothic</label>
+		<label xml:lang="fr">Gothique</label>
+		<label xml:lang="es">Gothique</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Grebo</label>
+		<label xml:lang="fr">Grebo</label>
+		<label xml:lang="es">Grebo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Greek, Ancient (To 1453)</label>
+		<label xml:lang="fr">Grec Ancien (Jusqu'à 1453)</label>
+		<label xml:lang="es">Grec Ancien (Jusqu'à 1453)</label>
+	</tag>
+	<tag Type="iso639-2" ID="el">
+		<label xml:lang="en">Greek, Modern (1453-)</label>
+		<label xml:lang="fr">Grec Moderne (Après 1453)</label>
+		<label xml:lang="es">Grec Moderne (Après 1453)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="gn">
+		<label xml:lang="en">Guarani</label>
+		<label xml:lang="fr">Guarani</label>
+		<label xml:lang="es">Guarani</label>
+	</tag>
+	<tag Type="iso639-2" ID="gu">
+		<label xml:lang="en">Gujarati</label>
+		<label xml:lang="fr">Goudjrati</label>
+		<label xml:lang="es">Goudjrati</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Gwich´in</label>
+		<label xml:lang="fr">Gwich´in</label>
+		<label xml:lang="es">Gwich´in</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Haida</label>
+		<label xml:lang="fr">Haida</label>
+		<label xml:lang="es">Haida</label>
+	</tag>
+	<tag Type="iso639-2" ID="ha">
+		<label xml:lang="en">Hausa</label>
+		<label xml:lang="fr">Haoussa</label>
+		<label xml:lang="es">Haoussa</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Hawaiian</label>
+		<label xml:lang="fr">Hawaïen</label>
+		<label xml:lang="es">Hawaïen</label>
+	</tag>
+	<tag Type="iso639-2" ID="he">
+		<label xml:lang="en">Hebrew</label>
+		<label xml:lang="fr">Hébreu</label>
+		<label xml:lang="es">Hébreu</label>
+	</tag>
+	<tag Type="iso639-2" ID="hz">
+		<label xml:lang="en">Herero</label>
+		<label xml:lang="fr">Herero</label>
+		<label xml:lang="es">Herero</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Hiligaynon</label>
+		<label xml:lang="fr">Hiligaynon</label>
+		<label xml:lang="es">Hiligaynon</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Himachali</label>
+		<label xml:lang="fr">Himachali</label>
+		<label xml:lang="es">Himachali</label>
+	</tag>
+	<tag Type="iso639-2" ID="hi">
+		<label xml:lang="en">Hindi</label>
+		<label xml:lang="fr">Hindi</label>
+		<label xml:lang="es">Hindi</label>
+	</tag>
+	<tag Type="iso639-2" ID="ho">
+		<label xml:lang="en">Hiri Motu</label>
+		<label xml:lang="fr">Hiri Motu</label>
+		<label xml:lang="es">Hiri Motu</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Hittite</label>
+		<label xml:lang="fr">Hittite</label>
+		<label xml:lang="es">Hittite</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Hmong</label>
+		<label xml:lang="fr">Hmong</label>
+		<label xml:lang="es">Hmong</label>
+	</tag>
+	<tag Type="iso639-2" ID="hu">
+		<label xml:lang="en">Hungarian</label>
+		<label xml:lang="fr">Hongrois</label>
+		<label xml:lang="es">Hongrois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Hupa</label>
+		<label xml:lang="fr">Hupa</label>
+		<label xml:lang="es">Hupa</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Iban</label>
+		<label xml:lang="fr">Iban</label>
+		<label xml:lang="es">Iban</label>
+	</tag>
+	<tag Type="iso639-2" ID="is">
+		<label xml:lang="en">Icelandic</label>
+		<label xml:lang="fr">Islandais</label>
+		<label xml:lang="es">Islandais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Igbo</label>
+		<label xml:lang="fr">Igbo</label>
+		<label xml:lang="es">Igbo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ijo</label>
+		<label xml:lang="fr">Ijo</label>
+		<label xml:lang="es">Ijo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Iloko</label>
+		<label xml:lang="fr">Ilocano</label>
+		<label xml:lang="es">Ilocano</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Indic (Other)</label>
+		<label xml:lang="fr">Indo-Aryennes, Autres Langues</label>
+		<label xml:lang="es">Indo-Aryennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Indo-European (Other)</label>
+		<label xml:lang="fr">Indo-Européennes, Autres Langues</label>
+		<label xml:lang="es">Indo-Européennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="id">
+		<label xml:lang="en">Indonesian</label>
+		<label xml:lang="fr">Indonésien</label>
+		<label xml:lang="es">Indonésien</label>
+	</tag>
+	<tag Type="iso639-2" ID="ia">
+		<label xml:lang="en">Interlingua (International</label>
+		<label xml:lang="fr">Interlingua (Langue Auxiliaire Internationale)</label>
+		<label xml:lang="es">Interlingua (Langue Auxiliaire Internationale)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Auxiliary Language Association)</label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="ie">
+		<label xml:lang="en">Interlingue</label>
+		<label xml:lang="fr">Interlingue</label>
+		<label xml:lang="es">Interlingue</label>
+	</tag>
+	<tag Type="iso639-2" ID="iu">
+		<label xml:lang="en">Inuktitut</label>
+		<label xml:lang="fr">Inuktitut</label>
+		<label xml:lang="es">Inuktitut</label>
+	</tag>
+	<tag Type="iso639-2" ID="ik">
+		<label xml:lang="en">Inupiaq</label>
+		<label xml:lang="fr">Inupiaq</label>
+		<label xml:lang="es">Inupiaq</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Iranian (Other)</label>
+		<label xml:lang="fr">Iraniennes, Autres Langues</label>
+		<label xml:lang="es">Iraniennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="ga">
+		<label xml:lang="en">Irish</label>
+		<label xml:lang="fr">Irlandais</label>
+		<label xml:lang="es">Irlandais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Irish, Middle (900-1200)</label>
+		<label xml:lang="fr">Irlandais Moyen (900-1200)</label>
+		<label xml:lang="es">Irlandais Moyen (900-1200)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Irish, Old (To 900)</label>
+		<label xml:lang="fr">Irlandais Ancien (Jusqu'à 900)</label>
+		<label xml:lang="es">Irlandais Ancien (Jusqu'à 900)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Iroquoian Languages</label>
+		<label xml:lang="fr">Iroquoises, Langues (Famille)</label>
+		<label xml:lang="es">Iroquoises, Langues (Famille)</label>
+	</tag>
+	<tag Type="iso639-2" ID="it">
+		<label xml:lang="en">Italian</label>
+		<label xml:lang="fr">Italien</label>
+		<label xml:lang="es">Italien</label>
+	</tag>
+	<tag Type="iso639-2" ID="ja">
+		<label xml:lang="en">Japanese</label>
+		<label xml:lang="fr">Japonais</label>
+		<label xml:lang="es">Japonais</label>
+	</tag>
+	<tag Type="iso639-2" ID="jv">
+		<label xml:lang="en">Javanese</label>
+		<label xml:lang="fr">Javanais</label>
+		<label xml:lang="es">Javanais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Judeo-Arabic</label>
+		<label xml:lang="fr">Judéo-Arabe</label>
+		<label xml:lang="es">Judéo-Arabe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Judeo-Persian</label>
+		<label xml:lang="fr">Judéo-Persan</label>
+		<label xml:lang="es">Judéo-Persan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kabyle</label>
+		<label xml:lang="fr">Kabyle</label>
+		<label xml:lang="es">Kabyle</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kachin</label>
+		<label xml:lang="fr">Kachin</label>
+		<label xml:lang="es">Kachin</label>
+	</tag>
+	<tag Type="iso639-2" ID="kl">
+		<label xml:lang="en">Kalaallisut</label>
+		<label xml:lang="fr">Groenlandais</label>
+		<label xml:lang="es">Groenlandais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kamba</label>
+		<label xml:lang="fr">Kamba</label>
+		<label xml:lang="es">Kamba</label>
+	</tag>
+	<tag Type="iso639-2" ID="kn">
+		<label xml:lang="en">Kannada</label>
+		<label xml:lang="fr">Kannada</label>
+		<label xml:lang="es">Kannada</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kanuri</label>
+		<label xml:lang="fr">Kanouri</label>
+		<label xml:lang="es">Kanouri</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kara-Kalpak</label>
+		<label xml:lang="fr">Karakalpak</label>
+		<label xml:lang="es">Karakalpak</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Karen</label>
+		<label xml:lang="fr">Karen</label>
+		<label xml:lang="es">Karen</label>
+	</tag>
+	<tag Type="iso639-2" ID="ks">
+		<label xml:lang="en">Kashmiri</label>
+		<label xml:lang="fr">Kashmiri</label>
+		<label xml:lang="es">Kashmiri</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kawi</label>
+		<label xml:lang="fr">Kawi</label>
+		<label xml:lang="es">Kawi</label>
+	</tag>
+	<tag Type="iso639-2" ID="kk">
+		<label xml:lang="en">Kazakh</label>
+		<label xml:lang="fr">Kazakh</label>
+		<label xml:lang="es">Kazakh</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Khasi</label>
+		<label xml:lang="fr">Khasi</label>
+		<label xml:lang="es">Khasi</label>
+	</tag>
+	<tag Type="iso639-2" ID="km">
+		<label xml:lang="en">Khmer</label>
+		<label xml:lang="fr">Khmer</label>
+		<label xml:lang="es">Khmer</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Khoisan (Other)</label>
+		<label xml:lang="fr">Khoisan, Autres Langues</label>
+		<label xml:lang="es">Khoisan, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Khotanese</label>
+		<label xml:lang="fr">Khotanais</label>
+		<label xml:lang="es">Khotanais</label>
+	</tag>
+	<tag Type="iso639-2" ID="ki">
+		<label xml:lang="en">Kikuyu; Gikuyu</label>
+		<label xml:lang="fr">Kikuyu</label>
+		<label xml:lang="es">Kikuyu</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kimbundu</label>
+		<label xml:lang="fr">Kimbundu</label>
+		<label xml:lang="es">Kimbundu</label>
+	</tag>
+	<tag Type="iso639-2" ID="rw">
+		<label xml:lang="en">Kinyarwanda</label>
+		<label xml:lang="fr">Rwanda</label>
+		<label xml:lang="es">Rwanda</label>
+	</tag>
+	<tag Type="iso639-2" ID="ky">
+		<label xml:lang="en">Kirghiz</label>
+		<label xml:lang="fr">Kirghize</label>
+		<label xml:lang="es">Kirghize</label>
+	</tag>
+	<tag Type="iso639-2" ID="kv">
+		<label xml:lang="en">Komi</label>
+		<label xml:lang="fr">Komi</label>
+		<label xml:lang="es">Komi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kongo</label>
+		<label xml:lang="fr">Kongo</label>
+		<label xml:lang="es">Kongo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Konkani</label>
+		<label xml:lang="fr">Konkani</label>
+		<label xml:lang="es">Konkani</label>
+	</tag>
+	<tag Type="iso639-2" ID="ko">
+		<label xml:lang="en">Korean</label>
+		<label xml:lang="fr">Coréen</label>
+		<label xml:lang="es">Coréen</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kosraean</label>
+		<label xml:lang="fr">Kosrae</label>
+		<label xml:lang="es">Kosrae</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kpelle</label>
+		<label xml:lang="fr">Kpellé</label>
+		<label xml:lang="es">Kpellé</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kru</label>
+		<label xml:lang="fr">Krou</label>
+		<label xml:lang="es">Krou</label>
+	</tag>
+	<tag Type="iso639-2" ID="kj">
+		<label xml:lang="en">Kuanyama</label>
+		<label xml:lang="fr">Kuanyama</label>
+		<label xml:lang="es">Kuanyama</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kumyk</label>
+		<label xml:lang="fr">Koumyk</label>
+		<label xml:lang="es">Koumyk</label>
+	</tag>
+	<tag Type="iso639-2" ID="ku">
+		<label xml:lang="en">Kurdish</label>
+		<label xml:lang="fr">Kurde</label>
+		<label xml:lang="es">Kurde</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kurukh</label>
+		<label xml:lang="fr">Kurukh</label>
+		<label xml:lang="es">Kurukh</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Kutenai</label>
+		<label xml:lang="fr">Kutenai</label>
+		<label xml:lang="es">Kutenai</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ladino</label>
+		<label xml:lang="fr">Judéo-Espagnol</label>
+		<label xml:lang="es">Judéo-Espagnol</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lahnda</label>
+		<label xml:lang="fr">Lahnda</label>
+		<label xml:lang="es">Lahnda</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lamba</label>
+		<label xml:lang="fr">Lamba</label>
+		<label xml:lang="es">Lamba</label>
+	</tag>
+	<tag Type="iso639-2" ID="lo">
+		<label xml:lang="en">Lao</label>
+		<label xml:lang="fr">Lao</label>
+		<label xml:lang="es">Lao</label>
+	</tag>
+	<tag Type="iso639-2" ID="la">
+		<label xml:lang="en">Latin</label>
+		<label xml:lang="fr">Latin</label>
+		<label xml:lang="es">Latin</label>
+	</tag>
+	<tag Type="iso639-2" ID="lv">
+		<label xml:lang="en">Latvian</label>
+		<label xml:lang="fr">Letton</label>
+		<label xml:lang="es">Letton</label>
+	</tag>
+	<tag Type="iso639-2" ID="lb">
+		<label xml:lang="en">Letzeburgesch</label>
+		<label xml:lang="fr">Luxembourgeois</label>
+		<label xml:lang="es">Luxembourgeois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lezghian</label>
+		<label xml:lang="fr">Lezghien</label>
+		<label xml:lang="es">Lezghien</label>
+	</tag>
+	<tag Type="iso639-2" ID="ln">
+		<label xml:lang="en">Lingala</label>
+		<label xml:lang="fr">Lingala</label>
+		<label xml:lang="es">Lingala</label>
+	</tag>
+	<tag Type="iso639-2" ID="lt">
+		<label xml:lang="en">Lithuanian</label>
+		<label xml:lang="fr">Lituanien</label>
+		<label xml:lang="es">Lituanien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Low German; Low Saxon; German, Low; Saxon, Low</label>
+		<label xml:lang="fr">Bas Allemand; Bas Saxon; Allemand, Bas; Saxon, Bas</label>
+		<label xml:lang="es">Bas Allemand; Bas Saxon; Allemand, Bas; Saxon, Bas</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Low Saxon; Low German; Saxon, Low; German, Low</label>
+		<label xml:lang="fr">Bas Saxon; Bas Allemand; Saxon, Bas; Allemand, Bas</label>
+		<label xml:lang="es">Bas Saxon; Bas Allemand; Saxon, Bas; Allemand, Bas</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lozi</label>
+		<label xml:lang="fr">Lozi</label>
+		<label xml:lang="es">Lozi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Luba-Katanga</label>
+		<label xml:lang="fr">Luba-Katanga</label>
+		<label xml:lang="es">Luba-Katanga</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Luba-Lulua</label>
+		<label xml:lang="fr">Luba-Lulua</label>
+		<label xml:lang="es">Luba-Lulua</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Luiseno</label>
+		<label xml:lang="fr">Luiseno</label>
+		<label xml:lang="es">Luiseno</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lunda</label>
+		<label xml:lang="fr">Lunda</label>
+		<label xml:lang="es">Lunda</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Luo (Kenya And Tanzania)</label>
+		<label xml:lang="fr">Luo (Kenya Et Tanzanie)</label>
+		<label xml:lang="es">Luo (Kenya Et Tanzanie)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Lushai</label>
+		<label xml:lang="fr">Lushai</label>
+		<label xml:lang="es">Lushai</label>
+	</tag>
+	<tag Type="iso639-2" ID="mk">
+		<label xml:lang="en">Macedonian</label>
+		<label xml:lang="fr">Macédonien</label>
+		<label xml:lang="es">Macédonien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Madurese</label>
+		<label xml:lang="fr">Madourais</label>
+		<label xml:lang="es">Madourais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Magahi</label>
+		<label xml:lang="fr">Magahi</label>
+		<label xml:lang="es">Magahi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Maithili</label>
+		<label xml:lang="fr">Maithili</label>
+		<label xml:lang="es">Maithili</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Makasar</label>
+		<label xml:lang="fr">Makassar</label>
+		<label xml:lang="es">Makassar</label>
+	</tag>
+	<tag Type="iso639-2" ID="mg">
+		<label xml:lang="en">Malagasy</label>
+		<label xml:lang="fr">Malgache</label>
+		<label xml:lang="es">Malgache</label>
+	</tag>
+	<tag Type="iso639-2" ID="ms">
+		<label xml:lang="en">Malay</label>
+		<label xml:lang="fr">Malais</label>
+		<label xml:lang="es">Malais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="ml">
+		<label xml:lang="en">Malayalam</label>
+		<label xml:lang="fr">Malayalam</label>
+		<label xml:lang="es">Malayalam</label>
+	</tag>
+	<tag Type="iso639-2" ID="mt">
+		<label xml:lang="en">Maltese</label>
+		<label xml:lang="fr">Maltais</label>
+		<label xml:lang="es">Maltais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Manchu</label>
+		<label xml:lang="fr">Mandchou</label>
+		<label xml:lang="es">Mandchou</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mandar</label>
+		<label xml:lang="fr">Mandar</label>
+		<label xml:lang="es">Mandar</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mandingo</label>
+		<label xml:lang="fr">Mandingue</label>
+		<label xml:lang="es">Mandingue</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Manipuri</label>
+		<label xml:lang="fr">Manipuri</label>
+		<label xml:lang="es">Manipuri</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Manobo Languages</label>
+		<label xml:lang="fr">Manobo, Langues</label>
+		<label xml:lang="es">Manobo, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="gv">
+		<label xml:lang="en">Manx</label>
+		<label xml:lang="fr">Mannois; Manx</label>
+		<label xml:lang="es">Mannois; Manx</label>
+	</tag>
+	<tag Type="iso639-2" ID="mi">
+		<label xml:lang="en">Maori</label>
+		<label xml:lang="fr">Maori</label>
+		<label xml:lang="es">Maori</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="mr">
+		<label xml:lang="en">Marathi</label>
+		<label xml:lang="fr">Marathe</label>
+		<label xml:lang="es">Marathe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mari</label>
+		<label xml:lang="fr">Mari</label>
+		<label xml:lang="es">Mari</label>
+	</tag>
+	<tag Type="iso639-2" ID="mh">
+		<label xml:lang="en">Marshall</label>
+		<label xml:lang="fr">Marshall</label>
+		<label xml:lang="es">Marshall</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Marwari</label>
+		<label xml:lang="fr">Marvari</label>
+		<label xml:lang="es">Marvari</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Masai</label>
+		<label xml:lang="fr">Massaï</label>
+		<label xml:lang="es">Massaï</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mayan Languages</label>
+		<label xml:lang="fr">Maya, Langues</label>
+		<label xml:lang="es">Maya, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mende</label>
+		<label xml:lang="fr">Mendé</label>
+		<label xml:lang="es">Mendé</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Micmac</label>
+		<label xml:lang="fr">Micmac</label>
+		<label xml:lang="es">Micmac</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Minangkabau</label>
+		<label xml:lang="fr">Minangkabau</label>
+		<label xml:lang="es">Minangkabau</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Miscellaneous Languages</label>
+		<label xml:lang="fr">Diverses, Langues</label>
+		<label xml:lang="es">Diverses, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mohawk</label>
+		<label xml:lang="fr">Mohawk</label>
+		<label xml:lang="es">Mohawk</label>
+	</tag>
+	<tag Type="iso639-2" ID="mo">
+		<label xml:lang="en">Moldavian</label>
+		<label xml:lang="fr">Moldave</label>
+		<label xml:lang="es">Moldave</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mon-Khmer (Other)</label>
+		<label xml:lang="fr">Môn-Khmer, Autres Langues</label>
+		<label xml:lang="es">Môn-Khmer, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mongo</label>
+		<label xml:lang="fr">Mongo</label>
+		<label xml:lang="es">Mongo</label>
+	</tag>
+	<tag Type="iso639-2" ID="mn">
+		<label xml:lang="en">Mongolian</label>
+		<label xml:lang="fr">Mongol</label>
+		<label xml:lang="es">Mongol</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Mossi</label>
+		<label xml:lang="fr">Moré</label>
+		<label xml:lang="es">Moré</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Multiple Languages</label>
+		<label xml:lang="fr">Multilingue</label>
+		<label xml:lang="es">Multilingue</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Munda Languages</label>
+		<label xml:lang="fr">Mounda, Langues</label>
+		<label xml:lang="es">Mounda, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nahuatl</label>
+		<label xml:lang="fr">Nahuatl</label>
+		<label xml:lang="es">Nahuatl</label>
+	</tag>
+	<tag Type="iso639-2" ID="na">
+		<label xml:lang="en">Nauru</label>
+		<label xml:lang="fr">Nauruan</label>
+		<label xml:lang="es">Nauruan</label>
+	</tag>
+	<tag Type="iso639-2" ID="nv">
+		<label xml:lang="en">Navajo</label>
+		<label xml:lang="fr">Navaho</label>
+		<label xml:lang="es">Navaho</label>
+	</tag>
+	<tag Type="iso639-2" ID="nd">
+		<label xml:lang="en">Ndebele, North</label>
+		<label xml:lang="fr">Ndébélé Du Nord</label>
+		<label xml:lang="es">Ndébélé Du Nord</label>
+	</tag>
+	<tag Type="iso639-2" ID="nr">
+		<label xml:lang="en">Ndebele, South</label>
+		<label xml:lang="fr">Ndébélé Du Sud</label>
+		<label xml:lang="es">Ndébélé Du Sud</label>
+	</tag>
+	<tag Type="iso639-2" ID="ng">
+		<label xml:lang="en">Ndonga</label>
+		<label xml:lang="fr">Ndonga</label>
+		<label xml:lang="es">Ndonga</label>
+	</tag>
+	<tag Type="iso639-2" ID="ne">
+		<label xml:lang="en">Nepali</label>
+		<label xml:lang="fr">Népalais</label>
+		<label xml:lang="es">Népalais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Newari</label>
+		<label xml:lang="fr">Newari</label>
+		<label xml:lang="es">Newari</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nias</label>
+		<label xml:lang="fr">Nias</label>
+		<label xml:lang="es">Nias</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Niger-Kordofanian (Other)</label>
+		<label xml:lang="fr">Nigéro-Congolaises, Autres Langues</label>
+		<label xml:lang="es">Nigéro-Congolaises, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nilo-Saharan (Other)</label>
+		<label xml:lang="fr">Nilo-Sahariennes, Autres Langues</label>
+		<label xml:lang="es">Nilo-Sahariennes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Niuean</label>
+		<label xml:lang="fr">Niué</label>
+		<label xml:lang="es">Niué</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Norse, Old</label>
+		<label xml:lang="fr">Norrois, Vieux</label>
+		<label xml:lang="es">Norrois, Vieux</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">North American Indian (Other)</label>
+		<label xml:lang="fr">Indiennes D'amérique Du Nord, Autres Langues</label>
+		<label xml:lang="es">Indiennes D'amérique Du Nord, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="se">
+		<label xml:lang="en">Northern Sami</label>
+		<label xml:lang="fr">Sami Du Nord</label>
+		<label xml:lang="es">Sami Du Nord</label>
+	</tag>
+	<tag Type="iso639-2" ID="no">
+		<label xml:lang="en">Norwegian</label>
+		<label xml:lang="fr">Norvégien</label>
+		<label xml:lang="es">Norvégien</label>
+	</tag>
+	<tag Type="iso639-2" ID="nb">
+		<label xml:lang="en">Norwegian Bokmål; Bokmål, Norwegian</label>
+		<label xml:lang="fr">Norvégien Bokmål; Bokmål, Norvégien</label>
+		<label xml:lang="es">Norvégien Bokmål; Bokmål, Norvégien</label>
+	</tag>
+	<tag Type="iso639-2" ID="nn">
+		<label xml:lang="en">Norwegian Nynorsk; Nynorsk, Norwegian</label>
+		<label xml:lang="fr">Norvégien Nynorsk; Nynorsk, Norvégien</label>
+		<label xml:lang="es">Norvégien Nynorsk; Nynorsk, Norvégien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nubian Languages</label>
+		<label xml:lang="fr">Nubiennes, Langues</label>
+		<label xml:lang="es">Nubiennes, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nyamwezi</label>
+		<label xml:lang="fr">Nyamwezi</label>
+		<label xml:lang="es">Nyamwezi</label>
+	</tag>
+	<tag Type="iso639-2" ID="ny">
+		<label xml:lang="en">Nyanja; Chichewa</label>
+		<label xml:lang="fr">Nyanja; Chichewa</label>
+		<label xml:lang="es">Nyanja; Chichewa</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nyankole</label>
+		<label xml:lang="fr">Nyankolé</label>
+		<label xml:lang="es">Nyankolé</label>
+	</tag>
+	<tag Type="iso639-2" ID="nn">
+		<label xml:lang="en">Nynorsk, Norwegian; Norwegian Nynorsk</label>
+		<label xml:lang="fr">Nynorsk, Norvégien; Norvégien Nynorsk</label>
+		<label xml:lang="es">Nynorsk, Norvégien; Norvégien Nynorsk</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nyoro</label>
+		<label xml:lang="fr">Nyoro</label>
+		<label xml:lang="es">Nyoro</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Nzima</label>
+		<label xml:lang="fr">Nzema</label>
+		<label xml:lang="es">Nzema</label>
+	</tag>
+	<tag Type="iso639-2" ID="oc">
+		<label xml:lang="en">Occitan (Post 1500); Provençal</label>
+		<label xml:lang="fr">Occitan (Après 1500); Provençal</label>
+		<label xml:lang="es">Occitan (Après 1500); Provençal</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ojibwa</label>
+		<label xml:lang="fr">Ojibwa</label>
+		<label xml:lang="es">Ojibwa</label>
+	</tag>
+	<tag Type="iso639-2" ID="or">
+		<label xml:lang="en">Oriya</label>
+		<label xml:lang="fr">Oriya</label>
+		<label xml:lang="es">Oriya</label>
+	</tag>
+	<tag Type="iso639-2" ID="om">
+		<label xml:lang="en">Oromo</label>
+		<label xml:lang="fr">Galla</label>
+		<label xml:lang="es">Galla</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Osage</label>
+		<label xml:lang="fr">Osage</label>
+		<label xml:lang="es">Osage</label>
+	</tag>
+	<tag Type="iso639-2" ID="os">
+		<label xml:lang="en">Ossetian; Ossetic</label>
+		<label xml:lang="fr">Ossète</label>
+		<label xml:lang="es">Ossète</label>
+	</tag>
+	<tag Type="iso639-2" ID="os">
+		<label xml:lang="en">Ossetic; Ossetian</label>
+		<label xml:lang="fr">Ossète</label>
+		<label xml:lang="es">Ossète</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Otomian Languages</label>
+		<label xml:lang="fr">Otomangue, Langues</label>
+		<label xml:lang="es">Otomangue, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Pahlavi</label>
+		<label xml:lang="fr">Pahlavi</label>
+		<label xml:lang="es">Pahlavi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Palauan</label>
+		<label xml:lang="fr">Palau</label>
+		<label xml:lang="es">Palau</label>
+	</tag>
+	<tag Type="iso639-2" ID="pi">
+		<label xml:lang="en">Pali</label>
+		<label xml:lang="fr">Pali</label>
+		<label xml:lang="es">Pali</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Pampanga</label>
+		<label xml:lang="fr">Pampangan</label>
+		<label xml:lang="es">Pampangan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Pangasinan</label>
+		<label xml:lang="fr">Pangasinan</label>
+		<label xml:lang="es">Pangasinan</label>
+	</tag>
+	<tag Type="iso639-2" ID="pa">
+		<label xml:lang="en">Panjabi</label>
+		<label xml:lang="fr">Pendjabi</label>
+		<label xml:lang="es">Pendjabi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Papiamento</label>
+		<label xml:lang="fr">Papiamento</label>
+		<label xml:lang="es">Papiamento</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Papuan (Other)</label>
+		<label xml:lang="fr">Papoues, Autres Langues</label>
+		<label xml:lang="es">Papoues, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="fa">
+		<label xml:lang="en">Persian</label>
+		<label xml:lang="fr">Persan</label>
+		<label xml:lang="es">Persan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Persian, Old (Ca.600-400 B.C.)</label>
+		<label xml:lang="fr">Perse, Vieux (Ca. 600-400 Av. J.-C.)</label>
+		<label xml:lang="es">Perse, Vieux (Ca. 600-400 Av. J.-C.)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Philippine (Other)</label>
+		<label xml:lang="fr">Philippines, Autres Langues</label>
+		<label xml:lang="es">Philippines, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Phoenician</label>
+		<label xml:lang="fr">Phénicien</label>
+		<label xml:lang="es">Phénicien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Pohnpeian</label>
+		<label xml:lang="fr">Pohnpei</label>
+		<label xml:lang="es">Pohnpei</label>
+	</tag>
+	<tag Type="iso639-2" ID="pl">
+		<label xml:lang="en">Polish</label>
+		<label xml:lang="fr">Polonais</label>
+		<label xml:lang="es">Polonais</label>
+	</tag>
+	<tag Type="iso639-2" ID="pt">
+		<label xml:lang="en">Portuguese</label>
+		<label xml:lang="fr">Portugais</label>
+		<label xml:lang="es">Portugais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Prakrit Languages</label>
+		<label xml:lang="fr">Prâkrit</label>
+		<label xml:lang="es">Prâkrit</label>
+	</tag>
+	<tag Type="iso639-2" ID="oc">
+		<label xml:lang="en">Provençal; Occitan (Post 1500)</label>
+		<label xml:lang="fr">Provençal; Occitan (Après 1500)</label>
+		<label xml:lang="es">Provençal; Occitan (Après 1500)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Provençal, Old (To 1500)</label>
+		<label xml:lang="fr">Provençal Ancien (Jusqu'à 1500)</label>
+		<label xml:lang="es">Provençal Ancien (Jusqu'à 1500)</label>
+	</tag>
+	<tag Type="iso639-2" ID="ps">
+		<label xml:lang="en">Pushto</label>
+		<label xml:lang="fr">Pachto</label>
+		<label xml:lang="es">Pachto</label>
+	</tag>
+	<tag Type="iso639-2" ID="qu">
+		<label xml:lang="en">Quechua</label>
+		<label xml:lang="fr">Quechua</label>
+		<label xml:lang="es">Quechua</label>
+	</tag>
+	<tag Type="iso639-2" ID="rm">
+		<label xml:lang="en">Raeto-Romance</label>
+		<label xml:lang="fr">Rhéto-Roman</label>
+		<label xml:lang="es">Rhéto-Roman</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Rajasthani</label>
+		<label xml:lang="fr">Rajasthani</label>
+		<label xml:lang="es">Rajasthani</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Rapanui</label>
+		<label xml:lang="fr">Rapanui</label>
+		<label xml:lang="es">Rapanui</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Rarotongan</label>
+		<label xml:lang="fr">Rarotonga</label>
+		<label xml:lang="es">Rarotonga</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Reserved For Local Use</label>
+		<label xml:lang="fr">Réservée À L'usage Local</label>
+		<label xml:lang="es">Réservée À L'usage Local</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Romance (Other)</label>
+		<label xml:lang="fr">Romanes, Autres Langues</label>
+		<label xml:lang="es">Romanes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="ro">
+		<label xml:lang="en">Romanian</label>
+		<label xml:lang="fr">Roumain</label>
+		<label xml:lang="es">Roumain</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Romany</label>
+		<label xml:lang="fr">Tsigane</label>
+		<label xml:lang="es">Tsigane</label>
+	</tag>
+	<tag Type="iso639-2" ID="rn">
+		<label xml:lang="en">Rundi</label>
+		<label xml:lang="fr">Rundi</label>
+		<label xml:lang="es">Rundi</label>
+	</tag>
+	<tag Type="iso639-2" ID="ru">
+		<label xml:lang="en">Russian</label>
+		<label xml:lang="fr">Russe</label>
+		<label xml:lang="es">Russe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Salishan Languages</label>
+		<label xml:lang="fr">Salish, Langues</label>
+		<label xml:lang="es">Salish, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Samaritan Aramaic</label>
+		<label xml:lang="fr">Samaritain</label>
+		<label xml:lang="es">Samaritain</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sami Languages (Other)</label>
+		<label xml:lang="fr">Sami, Autres Langues</label>
+		<label xml:lang="es">Sami, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="sm">
+		<label xml:lang="en">Samoan</label>
+		<label xml:lang="fr">Samoan</label>
+		<label xml:lang="es">Samoan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sandawe</label>
+		<label xml:lang="fr">Sandawe</label>
+		<label xml:lang="es">Sandawe</label>
+	</tag>
+	<tag Type="iso639-2" ID="sg">
+		<label xml:lang="en">Sango</label>
+		<label xml:lang="fr">Sango</label>
+		<label xml:lang="es">Sango</label>
+	</tag>
+	<tag Type="iso639-2" ID="sa">
+		<label xml:lang="en">Sanskrit</label>
+		<label xml:lang="fr">Sanskrit</label>
+		<label xml:lang="es">Sanskrit</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Santali</label>
+		<label xml:lang="fr">Santal</label>
+		<label xml:lang="es">Santal</label>
+	</tag>
+	<tag Type="iso639-2" ID="sc">
+		<label xml:lang="en">Sardinian</label>
+		<label xml:lang="fr">Sarde</label>
+		<label xml:lang="es">Sarde</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sasak</label>
+		<label xml:lang="fr">Sasak</label>
+		<label xml:lang="es">Sasak</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Saxon, Low; German, Low; Low Saxon; Low German</label>
+		<label xml:lang="fr">Saxon, Bas; Allemand, Bas; Bas Saxon; Bas Allemand</label>
+		<label xml:lang="es">Saxon, Bas; Allemand, Bas; Bas Saxon; Bas Allemand</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Scots</label>
+		<label xml:lang="fr">Écossais</label>
+		<label xml:lang="es">Écossais</label>
+	</tag>
+	<tag Type="iso639-2" ID="gd">
+		<label xml:lang="en">Scottish Gaelic; Gaelic</label>
+		<label xml:lang="fr">Gaélique Écossais; Gaélique</label>
+		<label xml:lang="es">Gaélique Écossais; Gaélique</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Selkup</label>
+		<label xml:lang="fr">Selkoupe</label>
+		<label xml:lang="es">Selkoupe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Semitic (Other)</label>
+		<label xml:lang="fr">Sémitiques, Autres Langues</label>
+		<label xml:lang="es">Sémitiques, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="sr">
+		<label xml:lang="en">Serbian</label>
+		<label xml:lang="fr">Serbe</label>
+		<label xml:lang="es">Serbe</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Serer</label>
+		<label xml:lang="fr">Sérère</label>
+		<label xml:lang="es">Sérère</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Shan</label>
+		<label xml:lang="fr">Chan</label>
+		<label xml:lang="es">Chan</label>
+	</tag>
+	<tag Type="iso639-2" ID="sn">
+		<label xml:lang="en">Shona</label>
+		<label xml:lang="fr">Shona</label>
+		<label xml:lang="es">Shona</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sidamo</label>
+		<label xml:lang="fr">Sidamo</label>
+		<label xml:lang="es">Sidamo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sign Languages</label>
+		<label xml:lang="fr">Langues Des Signes</label>
+		<label xml:lang="es">Langues Des Signes</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Siksika</label>
+		<label xml:lang="fr">Blackfoot</label>
+		<label xml:lang="es">Blackfoot</label>
+	</tag>
+	<tag Type="iso639-2" ID="sd">
+		<label xml:lang="en">Sindhi</label>
+		<label xml:lang="fr">Sindhi</label>
+		<label xml:lang="es">Sindhi</label>
+	</tag>
+	<tag Type="iso639-2" ID="si">
+		<label xml:lang="en">Sinhalese</label>
+		<label xml:lang="fr">Singhalais</label>
+		<label xml:lang="es">Singhalais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sino-Tibetan (Other)</label>
+		<label xml:lang="fr">Sino-Tibétaines, Autres Langues</label>
+		<label xml:lang="es">Sino-Tibétaines, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Siouan Languages</label>
+		<label xml:lang="fr">Sioux, Langues</label>
+		<label xml:lang="es">Sioux, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Slave (Athapascan)</label>
+		<label xml:lang="fr">Esclave (Athapascan)</label>
+		<label xml:lang="es">Esclave (Athapascan)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Slavic (Other)</label>
+		<label xml:lang="fr">Slaves, Autres Langues</label>
+		<label xml:lang="es">Slaves, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="sk">
+		<label xml:lang="en">Slovak</label>
+		<label xml:lang="fr">Slovaque</label>
+		<label xml:lang="es">Slovaque</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="sl">
+		<label xml:lang="en">Slovenian</label>
+		<label xml:lang="fr">Slovène</label>
+		<label xml:lang="es">Slovène</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sogdian</label>
+		<label xml:lang="fr">Sogdien</label>
+		<label xml:lang="es">Sogdien</label>
+	</tag>
+	<tag Type="iso639-2" ID="so">
+		<label xml:lang="en">Somali</label>
+		<label xml:lang="fr">Somali</label>
+		<label xml:lang="es">Somali</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Songhai</label>
+		<label xml:lang="fr">Songhai</label>
+		<label xml:lang="es">Songhai</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Soninke</label>
+		<label xml:lang="fr">Soninké</label>
+		<label xml:lang="es">Soninké</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sorbian Languages</label>
+		<label xml:lang="fr">Sorabes, Langues</label>
+		<label xml:lang="es">Sorabes, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sotho, Northern</label>
+		<label xml:lang="fr">Sotho Du Nord</label>
+		<label xml:lang="es">Sotho Du Nord</label>
+	</tag>
+	<tag Type="iso639-2" ID="st">
+		<label xml:lang="en">Sotho, Southern</label>
+		<label xml:lang="fr">Sotho Du Sud</label>
+		<label xml:lang="es">Sotho Du Sud</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">South American Indian (Other)</label>
+		<label xml:lang="fr">Indiennes D'amérique Du Sud, Autres Langues</label>
+		<label xml:lang="es">Indiennes D'amérique Du Sud, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="es">
+		<label xml:lang="en">Spanish; Castilian</label>
+		<label xml:lang="fr">Espagnol; Castillan</label>
+		<label xml:lang="es">Espagnol; Castillan</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sukuma</label>
+		<label xml:lang="fr">Sukuma</label>
+		<label xml:lang="es">Sukuma</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Sumerian</label>
+		<label xml:lang="fr">Sumérien</label>
+		<label xml:lang="es">Sumérien</label>
+	</tag>
+	<tag Type="iso639-2" ID="su">
+		<label xml:lang="en">Sundanese</label>
+		<label xml:lang="fr">Soundanais</label>
+		<label xml:lang="es">Soundanais</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Susu</label>
+		<label xml:lang="fr">Soussou</label>
+		<label xml:lang="es">Soussou</label>
+	</tag>
+	<tag Type="iso639-2" ID="sw">
+		<label xml:lang="en">Swahili</label>
+		<label xml:lang="fr">Swahili</label>
+		<label xml:lang="es">Swahili</label>
+	</tag>
+	<tag Type="iso639-2" ID="ss">
+		<label xml:lang="en">Swati</label>
+		<label xml:lang="fr">Swati</label>
+		<label xml:lang="es">Swati</label>
+	</tag>
+	<tag Type="iso639-2" ID="sv">
+		<label xml:lang="en">Swedish</label>
+		<label xml:lang="fr">Suédois</label>
+		<label xml:lang="es">Suédois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Syriac</label>
+		<label xml:lang="fr">Syriaque</label>
+		<label xml:lang="es">Syriaque</label>
+	</tag>
+	<tag Type="iso639-2" ID="tl">
+		<label xml:lang="en">Tagalog</label>
+		<label xml:lang="fr">Tagalog</label>
+		<label xml:lang="es">Tagalog</label>
+	</tag>
+	<tag Type="iso639-2" ID="ty">
+		<label xml:lang="en">Tahitian</label>
+		<label xml:lang="fr">Tahitien</label>
+		<label xml:lang="es">Tahitien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tai (Other)</label>
+		<label xml:lang="fr">Thaïes, Autres Langues</label>
+		<label xml:lang="es">Thaïes, Autres Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="tg">
+		<label xml:lang="en">Tajik</label>
+		<label xml:lang="fr">Tadjik</label>
+		<label xml:lang="es">Tadjik</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tamashek</label>
+		<label xml:lang="fr">Tamacheq</label>
+		<label xml:lang="es">Tamacheq</label>
+	</tag>
+	<tag Type="iso639-2" ID="ta">
+		<label xml:lang="en">Tamil</label>
+		<label xml:lang="fr">Tamoul</label>
+		<label xml:lang="es">Tamoul</label>
+	</tag>
+	<tag Type="iso639-2" ID="tt">
+		<label xml:lang="en">Tatar</label>
+		<label xml:lang="fr">Tatar</label>
+		<label xml:lang="es">Tatar</label>
+	</tag>
+	<tag Type="iso639-2" ID="te">
+		<label xml:lang="en">Telugu</label>
+		<label xml:lang="fr">Télougou</label>
+		<label xml:lang="es">Télougou</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tereno</label>
+		<label xml:lang="fr">Tereno</label>
+		<label xml:lang="es">Tereno</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tetum</label>
+		<label xml:lang="fr">Tetum</label>
+		<label xml:lang="es">Tetum</label>
+	</tag>
+	<tag Type="iso639-2" ID="th">
+		<label xml:lang="en">Thai</label>
+		<label xml:lang="fr">Thaï</label>
+		<label xml:lang="es">Thaï</label>
+	</tag>
+	<tag Type="iso639-2" ID="bo">
+		<label xml:lang="en">Tibetan</label>
+		<label xml:lang="fr">Tibétain</label>
+		<label xml:lang="es">Tibétain</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tigre</label>
+		<label xml:lang="fr">Tigré</label>
+		<label xml:lang="es">Tigré</label>
+	</tag>
+	<tag Type="iso639-2" ID="ti">
+		<label xml:lang="en">Tigrinya</label>
+		<label xml:lang="fr">Tigrigna</label>
+		<label xml:lang="es">Tigrigna</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Timne</label>
+		<label xml:lang="fr">Temne</label>
+		<label xml:lang="es">Temne</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tiv</label>
+		<label xml:lang="fr">Tiv</label>
+		<label xml:lang="es">Tiv</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tlingit</label>
+		<label xml:lang="fr">Tlingit</label>
+		<label xml:lang="es">Tlingit</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tok Pisin</label>
+		<label xml:lang="fr">Tok Pisin</label>
+		<label xml:lang="es">Tok Pisin</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tokelau</label>
+		<label xml:lang="fr">Tokelau</label>
+		<label xml:lang="es">Tokelau</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tonga (Nyasa)</label>
+		<label xml:lang="fr">Tonga (Nyasa)</label>
+		<label xml:lang="es">Tonga (Nyasa)</label>
+	</tag>
+	<tag Type="iso639-2" ID="to">
+		<label xml:lang="en">Tonga (Tonga Islands)</label>
+		<label xml:lang="fr">Tongan (Îles Tonga)</label>
+		<label xml:lang="es">Tongan (Îles Tonga)</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tsimshian</label>
+		<label xml:lang="fr">Tsimshian</label>
+		<label xml:lang="es">Tsimshian</label>
+	</tag>
+	<tag Type="iso639-2" ID="ts">
+		<label xml:lang="en">Tsonga</label>
+		<label xml:lang="fr">Tsonga</label>
+		<label xml:lang="es">Tsonga</label>
+	</tag>
+	<tag Type="iso639-2" ID="tn">
+		<label xml:lang="en">Tswana</label>
+		<label xml:lang="fr">Tswana</label>
+		<label xml:lang="es">Tswana</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tumbuka</label>
+		<label xml:lang="fr">Tumbuka</label>
+		<label xml:lang="es">Tumbuka</label>
+	</tag>
+	<tag Type="iso639-2" ID="tr">
+		<label xml:lang="en">Turkish</label>
+		<label xml:lang="fr">Turc</label>
+		<label xml:lang="es">Turc</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Turkish, Ottoman (1500-1928)</label>
+		<label xml:lang="fr">Turc Ottoman (1500-1928)</label>
+		<label xml:lang="es">Turc Ottoman (1500-1928)</label>
+	</tag>
+	<tag Type="iso639-2" ID="tk">
+		<label xml:lang="en">Turkmen</label>
+		<label xml:lang="fr">Turkmène</label>
+		<label xml:lang="es">Turkmène</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tuvalu</label>
+		<label xml:lang="fr">Tuvalu</label>
+		<label xml:lang="es">Tuvalu</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Tuvinian</label>
+		<label xml:lang="fr">Touva</label>
+		<label xml:lang="es">Touva</label>
+	</tag>
+	<tag Type="iso639-2" ID="tw">
+		<label xml:lang="en">Twi</label>
+		<label xml:lang="fr">Twi</label>
+		<label xml:lang="es">Twi</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Ugaritic</label>
+		<label xml:lang="fr">Ougaritique</label>
+		<label xml:lang="es">Ougaritique</label>
+	</tag>
+	<tag Type="iso639-2" ID="ug">
+		<label xml:lang="en">Uighur</label>
+		<label xml:lang="fr">Ouïgour</label>
+		<label xml:lang="es">Ouïgour</label>
+	</tag>
+	<tag Type="iso639-2" ID="uk">
+		<label xml:lang="en">Ukrainian</label>
+		<label xml:lang="fr">Ukrainien</label>
+		<label xml:lang="es">Ukrainien</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Umbundu</label>
+		<label xml:lang="fr">Umbundu</label>
+		<label xml:lang="es">Umbundu</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Undetermined</label>
+		<label xml:lang="fr">Indéterminée</label>
+		<label xml:lang="es">Indéterminée</label>
+	</tag>
+	<tag Type="iso639-2" ID="ur">
+		<label xml:lang="en">Urdu</label>
+		<label xml:lang="fr">Ourdou</label>
+		<label xml:lang="es">Ourdou</label>
+	</tag>
+	<tag Type="iso639-2" ID="uz">
+		<label xml:lang="en">Uzbek</label>
+		<label xml:lang="fr">Ouszbek</label>
+		<label xml:lang="es">Ouszbek</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Vai</label>
+		<label xml:lang="fr">Vaï</label>
+		<label xml:lang="es">Vaï</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Venda</label>
+		<label xml:lang="fr">Venda</label>
+		<label xml:lang="es">Venda</label>
+	</tag>
+	<tag Type="iso639-2" ID="vi">
+		<label xml:lang="en">Vietnamese</label>
+		<label xml:lang="fr">Vietnamien</label>
+		<label xml:lang="es">Vietnamien</label>
+	</tag>
+	<tag Type="iso639-2" ID="vo">
+		<label xml:lang="en">Volapük</label>
+		<label xml:lang="fr">Volapük</label>
+		<label xml:lang="es">Volapük</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Votic</label>
+		<label xml:lang="fr">Vote</label>
+		<label xml:lang="es">Vote</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Wakashan Languages</label>
+		<label xml:lang="fr">Wakashennes, Langues</label>
+		<label xml:lang="es">Wakashennes, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Walamo</label>
+		<label xml:lang="fr">Walamo</label>
+		<label xml:lang="es">Walamo</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Waray</label>
+		<label xml:lang="fr">Waray</label>
+		<label xml:lang="es">Waray</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Washo</label>
+		<label xml:lang="fr">Washo</label>
+		<label xml:lang="es">Washo</label>
+	</tag>
+	<tag Type="iso639-2" ID="cy">
+		<label xml:lang="en">Welsh</label>
+		<label xml:lang="fr">Gallois</label>
+		<label xml:lang="es">Gallois</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en"></label>
+		<label xml:lang="fr"></label>
+		<label xml:lang="es"></label>
+	</tag>
+	<tag Type="iso639-2" ID="wo">
+		<label xml:lang="en">Wolof</label>
+		<label xml:lang="fr">Wolof</label>
+		<label xml:lang="es">Wolof</label>
+	</tag>
+	<tag Type="iso639-2" ID="xh">
+		<label xml:lang="en">Xhosa</label>
+		<label xml:lang="fr">Xhosa</label>
+		<label xml:lang="es">Xhosa</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Yakut</label>
+		<label xml:lang="fr">Iakoute</label>
+		<label xml:lang="es">Iakoute</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Yao</label>
+		<label xml:lang="fr">Yao</label>
+		<label xml:lang="es">Yao</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Yapese</label>
+		<label xml:lang="fr">Yapois</label>
+		<label xml:lang="es">Yapois</label>
+	</tag>
+	<tag Type="iso639-2" ID="yi">
+		<label xml:lang="en">Yiddish</label>
+		<label xml:lang="fr">Yiddish</label>
+		<label xml:lang="es">Yiddish</label>
+	</tag>
+	<tag Type="iso639-2" ID="yo">
+		<label xml:lang="en">Yoruba</label>
+		<label xml:lang="fr">Yoruba</label>
+		<label xml:lang="es">Yoruba</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Yupik Languages</label>
+		<label xml:lang="fr">Yupik, Langues</label>
+		<label xml:lang="es">Yupik, Langues</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Zande</label>
+		<label xml:lang="fr">Zandé</label>
+		<label xml:lang="es">Zandé</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Zapotec</label>
+		<label xml:lang="fr">Zapotèque</label>
+		<label xml:lang="es">Zapotèque</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Zenaga</label>
+		<label xml:lang="fr">Zenaga</label>
+		<label xml:lang="es">Zenaga</label>
+	</tag>
+	<tag Type="iso639-2" ID="za">
+		<label xml:lang="en">Zhuang; Chuang</label>
+		<label xml:lang="fr">Zhuang; Chuang</label>
+		<label xml:lang="es">Zhuang; Chuang</label>
+	</tag>
+	<tag Type="iso639-2" ID="zu">
+		<label xml:lang="en">Zulu</label>
+		<label xml:lang="fr">Zoulou</label>
+		<label xml:lang="es">Zoulou</label>
+	</tag>
+	<tag Type="iso639-2" ID="">
+		<label xml:lang="en">Zuni</label>
+		<label xml:lang="fr">Zuni</label>
+		<label xml:lang="es">Zuni</label>
+	</tag>
+</tags>

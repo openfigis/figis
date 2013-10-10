@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:FishTechnique FID="$CD_FISHING_TECH;">
+	$I_DATA_ENTRY;
+	<fi:ObjectSource>
+		<fi:CoverPage>
+		$I_COVER_PAGE;
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:FishTechniqueIdent FID="$CD_FISHING_TECH;" Grp="$GRP_IND;" Status="$ENTRY_STATUS;">
+		<dc:Date>$ENTRY_DATE;</dc:Date>
+		<fi:Name>
+			<fi:En>$NAME_E;</fi:En>
+			<fi:Fr>$NAME_F;</fi:Fr>
+			<fi:Sp>$NAME_S;</fi:Sp>
+		</fi:Name>
+		<fi:OperationRef>
+			<fi:L_LandArea>$LAND_OP;</fi:L_LandArea>
+		</fi:OperationRef>
+		$ST_SPECIES_GROUP;
+	</fi:FishTechniqueIdent>
+	<fi:FishTechniqueProfile>
+	</fi:FishTechniqueProfile>
+	<fi:FishTechniqueFeature>
+	</fi:FishTechniqueFeature>
+</fi:FishTechnique>

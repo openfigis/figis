@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- FSTemplte.xsl																	
+***********************************************************************************************	
+*ti-  Main Fact sheets template 
+***********************************************************************************************	
+*md- Common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Handle structure of the XML displayed.
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 28-Jul-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!-- Create a DTD/schema -->
+<FSTemplate>
+	<table class="MainDataTable" width="620">
+		<tr>
+			<td>
+				<!-- Display toolbar -->
+				<table width="100%" class="toolbar">
+					<tr>
+						<td>
+							<toolbar/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" class="ownership">
+					<!-- Handle Logo, title, citation, ownership -->
+					<tr>
+						<td rowspan="4">
+							<logo/>
+						</td>
+						<td>
+							<FactSheetTitle/>
+						</td>
+					</tr>
+					<tr>
+					<td>
+						<mainTitle/>
+					</td>
+					</tr>
+					<tr>
+						<td>
+							<subTitle/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ownership/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<citation/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Display IdentBlock -->
+				<table width="100%" class="identBlock">
+					<tr>
+						<td>
+							<identBlock/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Display data -->
+				<table width="100%" class="DisplayData">
+					<tr>
+						<td>
+							<contentData/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</FSTemplate>

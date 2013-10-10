@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:Contact>
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+		<fi:Fr>$NAME_F;</fi:Fr>
+		<fi:Sp>$NAME_S;</fi:Sp>
+	</fi:Name>
+
+	<fi:PostalAddress>
+		<fi:AddrLine1>$ADDR_LINE1;</fi:AddrLine1>
+		<fi:AddrLine2>$ADDR_LINE2;</fi:AddrLine2>
+		<fi:AddrLine3>$ADDR_LINE3;</fi:AddrLine3>
+		<fi:AddrLine4>$ADDR_LINE4;</fi:AddrLine4>
+		<fi:AddrLine5>$ADDR_LINE5;</fi:AddrLine5>
+		<fi:City>$CITY;</fi:City>
+		<fi:Province>$PROVINCE;</fi:Province>
+		<fi:PostalCode>$POSTAL_CODE;</fi:PostalCode>
+		<fi:Nation>$NATION;</fi:Nation>
+	</fi:PostalAddress>
+	<fi:Telephone>$TELEPHONE;</fi:Telephone>
+	<fi:Fax>$FAX;</fi:Fax>
+	<fi:Telex>$TELEX;</fi:Telex>
+	<fi:Email>$EMAIL;</fi:Email>
+	<fi:Website>$WEBSITE;</fi:Website>
+</fi:Contact>

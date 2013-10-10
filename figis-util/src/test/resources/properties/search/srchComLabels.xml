@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- srchcomLabel.xml																	
+***********************************************************************************************	
+*ti-  Default Search Engine page results Labels
+***********************************************************************************************	
+*md- common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Contains all defaut search engine page results labels . All 5 languages can be 
+*ds- handled
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 29-Aug-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!--<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">-->
+<labels>
+	<nodes>
+		<node ID="" Identifier="search" Type="">
+			<label xml:lang="en">Search</label>
+			<label xml:lang="fr">Recherche</label>
+			<label xml:lang="es">Search</label>
+		</node>
+		<node ID="" Identifier="contain" Type="">
+			<label xml:lang="en">contains</label>
+			<label xml:lang="fr">contient</label>
+			<label xml:lang="es">contains</label>
+		</node>
+		<node ID="" Identifier="showing" Type="">
+			<label xml:lang="en">Showing</label>
+			<label xml:lang="fr">Affiché</label>
+			<label xml:lang="es">Showing</label>
+		</node>
+		<node ID="" Identifier="next" Type="">
+			<label xml:lang="en">Next</label>
+			<label xml:lang="fr">Prochain(s)</label>
+			<label xml:lang="es">Next</label>
+		</node>
+		<node ID="" Identifier="previous" Type="">
+			<label xml:lang="en">Previous</label>
+			<label xml:lang="fr">Precedent(s)</label>
+			<label xml:lang="es">Previous</label>
+		</node>
+				<node ID="" Identifier="pageresult" Type="">
+			<label xml:lang="en">Page Results</label>
+			<label xml:lang="fr">Page(s) de résultat</label>
+			<label xml:lang="es">Page Results</label>
+		</node>
+		<node ID="" Identifier="start" Type="">
+			<label xml:lang="en">starts with</label>
+			<label xml:lang="fr">commence par</label>
+			<label xml:lang="es">starts with</label>
+		</node>
+		<node ID="" Identifier="is" Type="">
+			<label xml:lang="en">is</label>
+			<label xml:lang="fr">est</label>
+			<label xml:lang="es">es</label>
+		</node>
+		<!-- Message: it would be better to create a specific table with all messages-->
+		<node ID="" Identifier="queryExpired" Type="">
+			<label xml:lang="en">Sorry, your query is expired.</label>
+			<label xml:lang="fr">Désolé, votre requête a expiré</label>
+			<label xml:lang="es">Sorry, your query is expired.</label>
+		</node>
+		<node ID="" Identifier="redoSearch" Type="">
+			<label xml:lang="en">Please redo your search.</label>
+			<label xml:lang="fr">Merci de recommencer votre recherche.</label>
+			<label xml:lang="es">Please redo your search.</label>
+		</node>
+		<node ID="" Identifier="resultsfor" Type="">
+			<label xml:lang="en">Results for</label>
+			<label xml:lang="fr">Résultats pour</label>
+			<label xml:lang="es">Results for</label>
+		</node>
+		<node ID="" Identifier="OnlyResultsfor" Type="">
+			<label xml:lang="en">Only Results for</label>
+			<label xml:lang="fr">Résultats seulement pour</label>
+			<label xml:lang="es">Only Results for</label>
+		</node>
+		<node ID="" Identifier="areShown" Type="">
+			<label xml:lang="en">are shown</label>
+			<label xml:lang="fr">sont montrés</label>
+			<label xml:lang="es">are shown</label>
+		</node>
+		<node ID="" Identifier="noresult" Type="">
+			<label xml:lang="en">No Result found.</label>
+			<label xml:lang="fr">Aucun résultat trouvé.</label>
+			<label xml:lang="es">No Result found.</label>
+		</node>
+		<node ID="" Identifier="result" Type="">
+			<label xml:lang="en">result</label>
+			<label xml:lang="fr">résultat</label>
+			<label xml:lang="es">result</label>
+		</node>
+		<node ID="" Identifier="results" Type="">
+			<label xml:lang="en">results</label>
+			<label xml:lang="fr">résultats</label>
+			<label xml:lang="es">results</label>
+		</node>
+		<node ID="" Identifier="Found" Type="">
+			<label xml:lang="en">Found</label>
+			<label xml:lang="fr">Trouvé</label>
+			<label xml:lang="es">Found</label>
+		</node>
+		<node ID="" Identifier="SearchResults" Type="">
+			<label xml:lang="en">Search Results</label>
+			<label xml:lang="fr">Résultats de recherche</label>
+			<label xml:lang="es">SearchResults</label>
+		</node>
+		<node ID="" Identifier="ListDomain" Type="">
+			<label xml:lang="en">Found in all domains</label>
+			<label xml:lang="fr">Trouvé dans tous les domaines</label>
+			<label xml:lang="es">Found in all domains</label>
+		</node>
+		<!-- Domains' list -->
+		<node ID="" Identifier="species" Type="">
+			<label xml:lang="en">Species</label>
+			<label xml:lang="fr">Espèces</label>
+			<label xml:lang="es">Species</label>
+		</node>
+		<node ID="" Identifier="introsp" Type="">
+			<label xml:lang="en">Introduced Species</label>
+			<label xml:lang="fr">Espèces introduites</label>
+			<label xml:lang="es">Introduced Species</label>
+		</node>
+		<node ID="" Identifier="fishtech" Type="">
+			<label xml:lang="en">Fishing Techniques</label>
+			<label xml:lang="fr">Techniques de pêches</label>
+			<label xml:lang="es">Fishing Techniques</label>
+		</node>
+		<node ID="" Identifier="geartype" Type="">
+			<label xml:lang="en">Gear Type</label>
+			<label xml:lang="fr">Types d'outils de pêche</label>
+			<label xml:lang="es">Gear Type</label>
+		</node>
+		<node ID="" Identifier="vesseltype" Type="">
+			<label xml:lang="en">Vessel Type</label>
+			<label xml:lang="fr">Types de bateaux de pêche</label>
+			<label xml:lang="es">Vessel Type</label>
+		</node>
+		<node ID="" Identifier="topic" Type="">
+			<label xml:lang="en">Topics and Issues</label>
+			<label xml:lang="fr">Sujets et problèmes</label>
+			<label xml:lang="es">Topics and Issues</label>
+		</node>
+		<node ID="" Identifier="resource" Type="">
+			<label xml:lang="en">Resource</label>
+			<label xml:lang="fr">Ressource</label>
+			<label xml:lang="es">Resource</label>
+		</node>
+		<node ID="" Identifier="stock" Type="">
+			<label xml:lang="en">Stock</label>
+			<label xml:lang="fr">Stock</label>
+			<label xml:lang="es">Stock</label>
+		</node>
+		<node ID="" Identifier="TunaLandings" Type="">
+			<label xml:lang="en">Tuna Nominal Catches</label>
+			<label xml:lang="fr">Prises Nominales de Thon</label>
+			<label xml:lang="es">Tuna Nominal Catches</label>
+		</node>
+		<node ID="" Identifier="document" Type="">
+			<label xml:lang="en">Document</label>
+			<label xml:lang="fr">Document</label>
+			<label xml:lang="es">Documento</label>
+		</node>
+		<node ID="" Identifier="org" Type="">
+			<label xml:lang="en">Organization</label>
+			<label xml:lang="fr">Organisation</label>
+			<label xml:lang="es">Organisacion</label>
+		</node>
+		<node ID="" Identifier="area" Type="">
+			<label xml:lang="en">Fishing Statistical Area</label>
+			<label xml:lang="fr">Zone statistique de pêche</label>
+			<label xml:lang="es">Fishing Statistical Area</label>
+		</node>
+		<node ID="" Identifier="collection" Type="">
+			<label xml:lang="en">Data Collection</label>
+			<label xml:lang="fr">Collection de données</label>
+			<label xml:lang="es">Data Collection</label>
+		</node>
+		<node ID="" Identifier="countrysector" Type="">
+			<label xml:lang="en">Country Profile</label>
+			<label xml:lang="fr">Profile de pays</label>
+			<label xml:lang="es">Country Profile</label>
+		</node>
+		<node ID="" Identifier="culturespecies" Type="">
+			<label xml:lang="en">Cultured Species</label>
+			<label xml:lang="fr">Espèces cultivées</label>
+			<label xml:lang="es">Cultured Species</label>
+		</node>
+		<node ID="" Identifier="equipment" Type="">
+			<label xml:lang="en">Fishing Equipment</label>
+			<label xml:lang="fr">Equipement de pêche</label>
+			<label xml:lang="es">Fishing Equipment</label>
+		</node>
+		<node ID="" Identifier="legalframework" Type="">
+			<label xml:lang="en">Legal Framework</label>
+			<label xml:lang="fr">Reseau légal</label>
+			<label xml:lang="es">Legal Framework</label>
+		</node>
+		<node ID="" Identifier="ontology" Type="">
+			<label xml:lang="en">Ontology</label>
+			<label xml:lang="fr">Ontologie</label>
+			<label xml:lang="es">Ontology</label>
+		</node>
+		<node ID="" Identifier="staticxml.resource" Type="">
+			<label xml:lang="en">Resource</label>
+			<label xml:lang="fr">Ressource</label>
+			<label xml:lang="es">Resource</label>
+		</node>
+		<node ID="" Identifier="staticxml.stock" Type="">
+			<label xml:lang="en">Stock</label>
+			<label xml:lang="fr">Stock</label>
+			<label xml:lang="es">Stock</label>
+		</node>
+		<node ID="" Identifier="staticxml.country" Type="">
+			<label xml:lang="en">Country Profile</label>
+			<label xml:lang="fr">Profile de pays</label>
+			<label xml:lang="es">Country Profile</label>
+		</node>
+		<node ID="" Identifier="staticxml.org" Type="">
+			<label xml:lang="en">Organization</label>
+			<label xml:lang="fr">Organisation</label>
+			<label xml:lang="es">Organisacion</label>
+		</node>
+		<node ID="" Identifier="staticxml.area" Type="">
+			<label xml:lang="en">Fishing Statistical Area</label>
+			<label xml:lang="fr">Zone statistique de pêche</label>
+			<label xml:lang="es">Fishing Statistical Area</label>
+		</node>
+		<node ID="" Identifier="staticxml.collection" Type="">
+			<label xml:lang="en">Data Collection</label>
+			<label xml:lang="fr">Collection de données</label>
+			<label xml:lang="es">Data Collection</label>
+		</node>
+		<node ID="" Identifier="staticxml.culturespecies" Type="">
+			<label xml:lang="en">Cultured Species</label>
+			<label xml:lang="fr"></label>
+			<label xml:lang="es"></label>
+		</node>
+		<node ID="" Identifier="staticxml.ontology" Type="">
+			<label xml:lang="en">Ontology</label>
+			<label xml:lang="fr">Ontologie</label>
+			<label xml:lang="es">Ontology</label>
+		</node>
+		<node ID="" Identifier="staticxml.equipment" Type="">
+			<label xml:lang="en">Fishing Equipment</label>
+			<label xml:lang="fr">Equipement de pêche</label>
+			<label xml:lang="es">Fishing Equipment</label>
+		</node>
+		<node ID="" Identifier="staticxml.legalframework" Type="">
+			<label xml:lang="en">Legal Framework</label>
+			<label xml:lang="fr">Reseau légal</label>
+			<label xml:lang="es">Legal Framework</label>
+		</node>
+		<node ID="" Identifier="staticxml.countrysector" Type="">
+			<label xml:lang="en">Country Profile</label>
+			<label xml:lang="fr">Profile de pays</label>
+			<label xml:lang="es">Country Profile</label>
+		</node>
+		<node ID="" Identifier="staticxml.speciesgroup" Type="">
+			<label xml:lang="en">Species Group</label>
+			<label xml:lang="fr">Groupe d'espèces</label>
+			<label xml:lang="es">Species Group</label>
+		</node>
+		<node ID="" Identifier="speciesgroup" Type="">
+			<label xml:lang="en">Species Group</label>
+			<label xml:lang="fr">Groupe d'espèces</label>
+			<label xml:lang="es">Species Group</label>
+		</node>
+		<!-- Old search engine search keyword -->
+		<node ID="" Identifier="_species_name" Type="">
+			<label xml:lang="en">species name</label>
+			<label xml:lang="fr">nom d'espèce</label>
+			<label xml:lang="es">species name</label>
+		</node>
+		<node ID="" Identifier="_species_sname" Type="">
+			<label xml:lang="en">species scientific name</label>
+			<label xml:lang="fr">nom scientifique d'espèce</label>
+			<label xml:lang="es">species scientific name</label>
+		</node>
+		<node ID="" Identifier="_waterarea_name" Type="">
+			<label xml:lang="en">water area</label>
+			<label xml:lang="fr">Zone marine</label>
+			<label xml:lang="es">water area</label>
+		</node>
+		<node ID="" Identifier="_waterarea_code" Type="">
+			<label xml:lang="en">major fishing area</label>
+			<label xml:lang="fr">Principale zone de pêche</label>
+			<label xml:lang="es">major fishing area</label>
+		</node>
+		<node ID="" Identifier="sname" Type="">
+			<label xml:lang="en">Species</label>
+			<label xml:lang="fr">Espèces</label>
+			<label xml:lang="es">Species</label>
+		</node>
+		<node ID="" Identifier="_geartype_name" Type="">
+			<label xml:lang="en">gear</label>
+			<label xml:lang="fr">outil</label>
+			<label xml:lang="es">gear</label>
+		</node>
+		<node ID="" Identifier="_vesseltype_name" Type="">
+			<label xml:lang="en">vessel</label>
+			<label xml:lang="fr">bateau</label>
+			<label xml:lang="es">vessel</label>
+		</node>
+		<node ID="" Identifier="ctoname" Type="">
+			<label xml:lang="en">Country of introduction</label>
+			<label xml:lang="fr">Pays d'introduction</label>
+			<label xml:lang="es">Pais d'introduccion</label>
+		</node>
+		<node ID="" Identifier="osname" Type="">
+			<label xml:lang="en">species scientific name</label>
+			<label xml:lang="fr">nom scientifique d'espèce</label>
+			<label xml:lang="es">species scientific name</label>
+		</node>
+		<node ID="" Identifier="introducer" Type="">
+			<label xml:lang="en">introducer</label>
+			<label xml:lang="fr">introducteur</label>
+			<label xml:lang="es">introducer</label>
+		</node>
+		<node ID="" Identifier="reasonintro" Type="">
+			<label xml:lang="en">reason for introduction</label>
+			<label xml:lang="fr">Raison de l'introduction</label>
+			<label xml:lang="es">Razon de l'introduccion</label>
+		</node>
+		<node ID="" Identifier="estwild" Type="">
+			<label xml:lang="en">Status in the wild</label>
+			<label xml:lang="fr">Statut à l'état sauvage</label>
+			<label xml:lang="es">Status in the wild</label>
+		</node>
+		<node ID="" Identifier="esttype" Type="">
+			<label xml:lang="en">Established through</label>
+			<label xml:lang="fr">Established through</label>
+			<label xml:lang="es">Established through</label>
+		</node>
+		<node ID="" Identifier="ecoeffect" Type="">
+			<label xml:lang="en">Ecological effects</label>
+			<label xml:lang="fr">Effets écologiques</label>
+			<label xml:lang="es">Ecological effects</label>
+		</node>
+		<node ID="" Identifier="typeecoeffect" Type="">
+			<label xml:lang="en">Ecological effects type</label>
+			<label xml:lang="fr">Type d'effets écologiques</label>
+			<label xml:lang="es">Ecological effects</label>
+		</node>
+		<node ID="" Identifier="socioeffect" Type="">
+			<label xml:lang="en">Socio-conomic effects</label>
+			<label xml:lang="fr">Effets socio-écologiques</label>
+			<label xml:lang="es">Socio-conomic effects</label>
+		</node>
+		<node ID="" Identifier="'typesocioeffect" Type="">
+			<label xml:lang="en">Socio-economic effects type</label>
+			<label xml:lang="fr">Type d'effets socio-écologiques</label>
+			<label xml:lang="es">Socio-economic effects type</label>
+		</node>
+		<node ID="" Identifier="'aquause" Type="">
+			<label xml:lang="en">Aquaculture use</label>
+			<label xml:lang="fr">Utilisation en aquaculture</label>
+			<label xml:lang="es">Aquaculture use</label>
+		</node>
+		<node ID="" Identifier="ctiso3" Type="">
+			<label xml:lang="en">Country of introduction ISO3 code</label>
+			<label xml:lang="fr">Pays d'introduction (code ISO3)</label>
+			<label xml:lang="es">Country of introduction ISO3 code</label>
+		</node>
+		<node ID="" Identifier="ctiso2" Type="">
+			<label xml:lang="en">Country of introduction ISO2 code</label>
+			<label xml:lang="fr">Pays d'introduction (code ISO2)</label>
+			<label xml:lang="es">Country of introduction ISO2 code</label>
+		</node>
+		<node ID="" Identifier="ufspname" Type="">
+			<label xml:lang="en">Common name</label>
+			<label xml:lang="fr">Nom commun</label>
+			<label xml:lang="es">Common name</label>
+		</node>
+		<node ID="" Identifier="cssector" Type="">
+			<label xml:lang="en">Sector type</label>
+			<label xml:lang="fr">Type de secteur</label>
+			<label xml:lang="es">Sector type</label>
+		</node>
+		<node ID="" Identifier="ufspname" Type="">
+			<label xml:lang="en">Common name</label>
+			<label xml:lang="fr">Nom commun</label>
+			<label xml:lang="es">Common name</label>
+		</node>
+		<node ID="" Identifier="ufspname" Type="">
+			<label xml:lang="en">Common name</label>
+			<label xml:lang="fr">Nom commun</label>
+			<label xml:lang="es">Common name</label>
+		</node>
+		<node ID="" Identifier="SearchButt" Type="">
+			<label xml:lang="en">Search</label>
+			<label xml:lang="fr">Rechercher</label>
+			<label xml:lang="es">Cercar</label>
+		</node>
+		<node ID="" Identifier="SaveButt" Type="">
+			<label xml:lang="en">Save</label>
+			<label xml:lang="fr">Sauver</label>
+			<label xml:lang="es">Salvar</label>
+		</node>
+		<node ID="" Identifier="PrintButt" Type="">
+			<label xml:lang="en">Print</label>
+			<label xml:lang="fr">Imprimer</label>
+			<label xml:lang="es">Print</label>
+		</node>
+	</nodes>
+</labels>

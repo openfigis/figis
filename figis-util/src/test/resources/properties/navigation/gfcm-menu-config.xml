@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:exsl="http://exslt.org/common" xsi:noNamespaceSchemaLocation="http://www.fao.org/fi/figis/devcon/schema/fi-navigation.xsd">
+	<Menus>
+		<Menu name="Root">
+			<Title xml:lang="en">Root</Title>
+			<Item menu-ref="GFCM" name="GFCM">
+				<Title xml:lang="en">GFCM</Title>
+			</Item>
+		</Menu>
+		<Menu name="GFCM">
+			<Title xml:lang="en">GFCM</Title>
+			<Item name="topic#16083" visible="false">
+				<Title xml:lang="en">Home</Title>
+			</Item>
+			<Item name="organization#22080">
+				<Title xml:lang="en">About GFCM</Title>
+			</Item>
+			<Item name="topic#16084" roles="all">
+				<Title xml:lang="en">News</Title>
+				<Item name="topic#16085">
+					<Title xml:lang="en">Media corner</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMNewsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item menu-ref="reports_publications" name="topic#16090">
+				<Title xml:lang="en">Reports &amp; Documents</Title>
+				<Item menu-ref="meeting_reports" clickable="false"/>
+				<Item name="topic#17100">
+					<Title xml:lang="en">Meeting Documents</Title>
+				</Item>
+				<Item name="topic#17101">
+					<Title xml:lang="en">Technical Documents</Title>
+				</Item>
+				<Item name="topic#16096">
+					<Title xml:lang="en">Studies &amp; Reviews</Title>
+				</Item>
+				<Item name="topic#17102">
+					<Title xml:lang="en">Other</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMPublicationsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item menu-ref="Statistics" name="topic#16103">
+				<Title xml:lang="en">Statistics &amp; Information  </Title>
+				<Item name="topic#16162">
+					<Title xml:lang="en">Geographical Sub-Areas</Title>
+				</Item>
+				<Item menu-ref="General_Information" clickable="false"/>
+				<Item menu-ref="Reporting_forms" clickable="false"/>
+				<!--<Item name="topic#166229">
+					<Title xml:lang="en">Documentation Index</Title>
+				</Item>
+				<Item name="topic#16105" clickable="false">
+					<Title xml:lang="en">Catches</Title>
+				</Item>
+				-->
+				<Item name="topic#16101">
+					<Title xml:lang="en">TechnoMed</Title>
+				</Item>
+				<Item name="http://faolex.fao.org/faolex">
+					<Title xml:lang="en">National Legislation</Title>
+				</Item>
+				<Item name="topic#17107">
+					<Title xml:lang="en">Glossary</Title>
+				</Item>
+			</Item>
+			<Item name="topic#16100">
+				<Title xml:lang="en">Recommendations &amp;  Resolutions</Title>
+			</Item>
+			<Item name="topic#16087">
+				<Title xml:lang="en">Meetings</Title>
+				<Item name="topic#16088">
+					<Title xml:lang="en">All meetings</Title>
+				</Item>
+				<Item name="topic#166225">
+					<Title xml:lang="en">GFCM annual sessions</Title>
+				</Item>
+				<Item name="topic#166226">
+					<Title xml:lang="en">SAC meetings</Title>
+				</Item>
+				<Item name="topic#166227">
+					<Title xml:lang="en">CAQ meetings</Title>
+				</Item>
+				<Item name="topic#166228">
+					<Title xml:lang="en">CoC meetings</Title>
+				</Item>
+				<Item name="topic#17108">
+					<Title xml:lang="en">CAF meetings</Title>
+				</Item>
+				<Item name="/fiweb/website/GFCMMeetingsSearch.do?*" visible="false">
+					<Title xml:lang="en">Search result</Title>
+				</Item>
+			</Item>
+			<Item name="topic#16108">
+				<Title xml:lang="en">Regional cooperation</Title>
+			</Item>
+			<Item name="topic#16169">
+				<Title xml:lang="en">Links</Title>
+			</Item>
+		</Menu>
+		<Menu name="General_Information">
+			<Title xml:lang="en">Data &amp; Information</Title>
+			<Item name="resource#*" clickable="false" visible="false">
+				<Title xml:lang="en">Marine Resource Fact Sheet</Title>
+				<Title xml:lang="fr">Fiche documentaire de ressource halieutique</Title>
+			</Item>
+			<Item name="topic#17103">
+				<Title xml:lang="en">AVL Browser</Title>
+			</Item>
+			<Item name="topic#17104">
+				<Title xml:lang="en">FIRMS Resource Fact Sheets</Title>
+			</Item>
+			<Item name="topic#166233">
+				<Title xml:lang="en">IUU</Title>
+			</Item>
+			<Item name="topic#166221">
+				<Title xml:lang="en">Priority Species</Title>
+			</Item>
+			<Item name="topic#17105">
+				<Title xml:lang="en">Production Statistics</Title>
+			</Item>
+			<Item name="topic#166222">
+				<Title xml:lang="en">Shared Stocks</Title>
+			</Item>
+			<Item name="topic#16107">
+				<Title xml:lang="en">SIPAM</Title>
+			</Item>
+			<Item name="topic#17106">
+				<Title xml:lang="en">Task 1 Statistical Bulletin</Title>
+			</Item>
+		</Menu>
+		<Menu name="Reporting_forms">
+			<Title xml:lang="en">Reporting Forms &amp; Formats</Title>
+		
+			<Item name="topic#16104">
+				<Title xml:lang="en">Dolphin Fish</Title>
+			</Item>
+			<Item name="topic#16167">
+				<Title xml:lang="en">Fishing Effort Measurement</Title>
+			</Item>
+			<Item name="topic#16106">
+				<Title xml:lang="en">Vessel Records</Title>
+			</Item>
+			<Item name="topic#16166">
+				<Title xml:lang="en">Fleet Segmentation</Title>
+			</Item>
+			<Item name="topic#16165">
+				<Title xml:lang="en">Format for National Reports</Title>
+			</Item>
+			<Item name="topic#166230">
+				<Title xml:lang="en">STATLANT 37A</Title>
+			</Item>
+			<Item name="topic#16086">
+				<Title xml:lang="en">Stock Assessment Forms</Title>
+			</Item>
+			<Item name="topic#16164">
+				<Title xml:lang="en">Task 1- Operational Units</Title>
+			</Item>
+		</Menu>
+		<Menu name="meeting_reports">
+			<Title xml:lang="en">Meeting Reports</Title>
+			<Item name="topic#16091">
+				<Title xml:lang="en">Commission</Title>
+			</Item>
+			<Item name="topic#16092">
+				<Title xml:lang="en">SAC</Title>
+			</Item>
+			<Item name="topic#16094">
+				<Title xml:lang="en">CAQ</Title>
+			</Item>
+			<Item name="topic#166220">
+				<Title xml:lang="en">CoC</Title>
+			</Item>
+		</Menu>
+	</Menus>
+</MenuConfig>

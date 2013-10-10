@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fint:ResultList" Type="StateTrendSummary" DisplayType="pageTitle">
+			<label xml:lang="en">Status and Trend Summaries (extracted from reports)</label>
+			<label xml:lang="fr">Résumés des statuts et tendances (extraits des rapports)</label>
+			<label xml:lang="es">Status and Trend Summaries (extracted from reports)</label>
+		</node>
+		<node ID="fint:FsSearchResult">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="fint:ResultItem">
+			<label xml:lang="en">Fact sheet</label>
+			<label xml:lang="fr">Fiche d’informations</label>
+			<label xml:lang="es">Hoja informativa</label>
+			<label xml:lang="ar">صحيفة وقائع</label>
+			<label xml:lang="zh">情况说明</label>
+			<label xml:lang="ru">Информационный бюллетень</label>
+		</node>
+		<node ID="SearchButt">
+			<label xml:lang="en">Search</label>
+			<label xml:lang="fr">Recherche</label>
+			<label xml:lang="es">Búsqueda</label>
+			<label xml:lang="ar">بحث</label>
+			<label xml:lang="zh">搜索</label>
+			<label xml:lang="ru">Найти</label>
+		</node>
+		<node ID="SaveButt">
+			<label xml:lang="en">Save</label>
+			<label xml:lang="fr">Sauver</label>
+			<label xml:lang="es">Salvar</label>
+		</node>
+		<node ID="PrintButt">
+			<label xml:lang="en">Print</label>
+			<label xml:lang="fr">Imprimer</label>
+			<label xml:lang="es">Print</label>
+		</node>
+		<node ID="item">
+			<label xml:lang="en">Meetings &amp; News</label>
+			<label xml:lang="fr">Réunions et Nouvelles</label>
+			<label xml:lang="es">Reuniones y Noticias</label>
+		</node>
+		<node ID="document">
+			<label xml:lang="en">Legal</label>
+			<label xml:lang="fr">Legal</label>
+			<label xml:lang="es">Legal</label>
+		</node>
+		<node ID="KEYWORDVALUE">
+			<label xml:lang="en">keyword</label>
+			<label xml:lang="fr">mot-clé</label>
+			<label xml:lang="es">palabra clave</label>
+			<label xml:lang="ar">الكلمة الرئيسية</label>
+			<label xml:lang="zh">关键词</label>
+			<label xml:lang="ru">ключевое слово</label>
+		</node>
+		<node ID="fint:ListExp">
+			<label xml:lang="en">Sorry the list has expired</label>
+			<label xml:lang="fr">Désolé, la liste est périmée</label>
+			<label xml:lang="es">Disculpe, la lista ha expirado</label>
+			<label xml:lang="ar">للأسف لقد نفذت صلاحية القائمة</label>
+			<label xml:lang="zh">抱歉，列表已过期。</label>
+			<label xml:lang="ru">Извините, но список истек</label>
+		</node>
+		<!--<node ID="fint:SearchCrit">
+			<label xml:lang="en">Results for domain</label>
+			<label xml:lang="fr">Résultats pour le domaine</label>
+			<label xml:lang="es">Results for domain</label>
+		</node>-->
+		<node ID="fint:SearchParam" DisplayType="italicBold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="dc:title" DisplayType="greyBlue bold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="dc:source" DisplayType="bold block">
+			<label xml:lang="en">Source of Information</label>
+			<label xml:lang="fr">Source d’informations</label>
+			<label xml:lang="es">Fuente de información</label>
+			<label xml:lang="ar">مصدر المعلومات</label>
+			<label xml:lang="zh">信息来源</label>
+			<label xml:lang="ru">Источник информации</label>
+		</node>
+		<node ID="dc:creator" DisplayType="bold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<!-- topics -->
+		<node ID="fi:TopicRef" DisplayType="relTitle">
+			<label xml:lang="en">Related topics</label>
+			<label xml:lang="fr">Sujets connexes</label>
+			<label xml:lang="es">Temas relacionados</label>
+			<label xml:lang="ar">مواضيع ذات الصلة</label>
+			<label xml:lang="zh">相关主题</label>
+			<label xml:lang="ru">Связанные вопросы</label>
+		</node>
+		<node ID="fi:Sources" DisplayType="h2">
+			<label xml:lang="en">Source of Information</label>
+			<label xml:lang="fr">Source d’informations</label>
+			<label xml:lang="es">Fuente de información</label>
+			<label xml:lang="ar">مصدر المعلومات</label>
+			<label xml:lang="zh">信息来源</label>
+			<label xml:lang="ru">Источник информации</label>
+		</node>
+		<node ID="fi:NEMS" Type="NEWS" DisplayType="relTitle">
+			<label xml:lang="en">News</label>
+			<label xml:lang="fr">Nouvelles</label>
+			<label xml:lang="es">Noticias</label>
+			<label xml:lang="ar">أخبار</label>
+			<label xml:lang="zh">新闻</label>
+			<label xml:lang="ru">Новости</label>
+		</node>
+		<node ID="fi:NEMS" Type="EVENTS" DisplayType="relTitle">
+			<label xml:lang="en">Meetings</label>
+			<label xml:lang="fr">Réunions</label>
+			<label xml:lang="es">Reuniones</label>
+			<label xml:lang="ar">اجتماعات</label>
+			<label xml:lang="zh">会议</label>
+			<label xml:lang="ru">Совещания</label>
+		</node>
+		<node ID="fi:EIMS" DisplayType="relTitle">
+			<label xml:lang="en">Most recent publications</label>
+			<label xml:lang="fr">Publications récentes</label>
+			<label xml:lang="es">Most recent publications</label>
+		</node>
+		<node ID="fi:Overview">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="fi:Background">
+			<label xml:lang="en">Background</label>
+			<label xml:lang="fr">Historique</label>
+			<label xml:lang="es">Antecedentes</label>
+			<label xml:lang="ar">المعلومات الأساسية</label>
+			<label xml:lang="zh">背景</label>
+			<label xml:lang="ru">Предпосылки</label>
+		</node>
+		<node ID="fi:Solution">
+			<label xml:lang="en">Possible solutions</label>
+			<label xml:lang="fr">Solutions possibles</label>
+			<label xml:lang="es">Soluciones posibles</label>
+			<label xml:lang="ar">الحلول الممكنة</label>
+			<label xml:lang="zh">可能的解决办法</label>
+			<label xml:lang="ru">Возможные решения</label>
+		</node>
+		<node ID="fi:Action">
+			<label xml:lang="en">Actions taken</label>
+			<label xml:lang="fr">Mesures prises</label>
+			<label xml:lang="es">Medidas tomadas</label>
+			<label xml:lang="ar">الإجراءات المتخذة</label>
+			<label xml:lang="zh">已采取的行动</label>
+			<label xml:lang="ru">Предпринятые действия </label>
+		</node>
+		<node ID="fi:Outlook">
+			<label xml:lang="en">Outlook</label>
+			<label xml:lang="fr">Perspectives</label>
+			<label xml:lang="es">Perspectivas</label>
+			<label xml:lang="ar">التوقعات</label>
+			<label xml:lang="zh">展望</label>
+			<label xml:lang="ru">Перспективы</label>
+		</node>
+		<!-- yes, these are really nodes -->
+		<node ID="more">
+			<label xml:lang="en">more</label>
+			<label xml:lang="fr">plus de détails</label>
+			<label xml:lang="es">más información</label>
+			<label xml:lang="ar">مزيد من المعلومات</label>
+			<label xml:lang="zh">更多</label>
+			<label xml:lang="ru">далее</label>
+		</node>
+		<node ID="media" DisplayType="relTitle">
+			<label xml:lang="en">Related multimedia</label>
+			<label xml:lang="fr">Multimedia connexe</label>
+			<label xml:lang="es">Multimedios relacionados</label>
+			<label xml:lang="ar">وسائط إعلامية ذات الصلة</label>
+			<label xml:lang="zh">相关多媒体</label>
+			<label xml:lang="ru">Соответствующие мультимедийные продукты</label>
+		</node>
+		<node ID="data" DisplayType="relTitle">
+			<label xml:lang="en">Related fact sheets</label>
+			<label xml:lang="fr">Related fact sheets</label>
+			<label xml:lang="es">Related fact sheets</label>
+		</node>
+		<node ID="programmes" DisplayType="relTitle">
+			<label xml:lang="en">Related programmes</label>
+			<label xml:lang="fr">Related programmes</label>
+			<label xml:lang="es">Related programmes</label>
+		</node>
+		<node ID="websites" DisplayType="relTitle">
+			<label xml:lang="en">Related Web sites</label>
+			<label xml:lang="fr">Related web sites</label>
+			<label xml:lang="es">Related web sites</label>
+		</node>
+		<node ID="links" DisplayType="relTitle">
+			<label xml:lang="en">Related links</label>
+			<label xml:lang="fr">Liens connexes</label>
+			<label xml:lang="es">Enlaces relacionados</label>
+			<label xml:lang="ar">روابط ذات الصلة</label>
+			<label xml:lang="zh">相关链接</label>
+			<label xml:lang="ru">Ссылки по теме</label>
+		</node>
+		<node ID="publications" DisplayType="relTitle">
+			<label xml:lang="en">Related documents</label>
+			<label xml:lang="fr">Documents connexes</label>
+			<label xml:lang="es">Documentos relacionados</label>
+			<label xml:lang="ar">وثائق ذات الصلة</label>
+			<label xml:lang="zh">相关文件</label>
+			<label xml:lang="ru">Документы по теме</label>
+		</node>
+		<node ID="newsAndEvents" DisplayType="relTitle">
+			<label xml:lang="en">Meetings &amp; News</label>
+			<label xml:lang="fr">Réunions et Nouvelles</label>
+			<label xml:lang="es">Reuniones y Noticias</label>
+		</node>
+		<node ID="topics" DisplayType="relTitle">
+			<label xml:lang="en">Related topics</label>
+			<label xml:lang="fr">Sujets connexes</label>
+			<label xml:lang="es">Temas relacionados</label>
+			<label xml:lang="ar">مواضيع ذات الصلة</label>
+			<label xml:lang="zh">相关主题</label>
+			<label xml:lang="ru">Связанные вопросы</label>
+		</node>
+		<node ID="addInfo" DisplayType="relTitle">
+			<label xml:lang="en">Additional info</label>
+			<label xml:lang="fr">Information supplémentaire</label>
+			<label xml:lang="es">Información adicional</label>
+			<label xml:lang="ar">معلومات إضافية</label>
+			<label xml:lang="zh">附加信息</label>
+			<label xml:lang="ru">Дополнительная информация</label>
+		</node>
+		<!--
+		<node ID="" Identifier="map_ALL_FAO_AREAS">
+			<label xml:lang="en">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+			<label xml:lang="es">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+			<label xml:lang="ar">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+			<label xml:lang="fr">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+			<label xml:lang="zh">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+			<label xml:lang="ru">Extent of Stock / Management unit (based on FAO statistical divisions)</label>
+		</node>
+		<node ID="" Identifier="map_ICCAT_SMU">
+			<label xml:lang="en">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+			<label xml:lang="es">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+			<label xml:lang="ar">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+			<label xml:lang="fr">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+			<label xml:lang="zh">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+			<label xml:lang="ru">Extent of Stock / Management unit (based on ICCAT management unit)</label>
+		</node>
+		<node ID="" Identifier="map_PAC_TUNA_REP">
+			<label xml:lang="en">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+			<label xml:lang="es">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+			<label xml:lang="ar">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+			<label xml:lang="fr">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+			<label xml:lang="zh">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+			<label xml:lang="ru">Extent of Stock / Management unit (based on Pacific tuna reporting area)</label>
+		</node>
+		<node ID="" Identifier="map_GFCM_SUB_AREA">
+			<label xml:lang="en">&lt;span title='based on GFCM geographical sub-areas'&gt;Extent of Stock / Management unit - GFCM&lt;/span&gt;</label>
+			<label xml:lang="es">Extent of Stock / Management unit (based on GFCM geographical sub-areas)</label>
+			<label xml:lang="ar">Extent of Stock / Management unit (based on GFCM geographical sub-areas)</label>
+			<label xml:lang="fr">Extent of Stock / Management unit (based on GFCM geographical sub-areas)</label>
+			<label xml:lang="zh">Extent of Stock / Management unit (based on GFCM geographical sub-areas)</label>
+			<label xml:lang="ru">Extent of Stock / Management unit (based on GFCM geographical sub-areas)</label>
+		</node>
+		-->
+	</nodes>
+	<tags>
+		<tag ID="with">
+			<label xml:lang="en"> with </label>
+			<label xml:lang="fr"> avec </label>
+			<label xml:lang="es"> with </label>
+		</tag>
+		<tag ID="found">
+			<label xml:lang="en">Found</label>
+			<label xml:lang="fr">Trouvé</label>
+			<label xml:lang="es">Found</label>
+		</tag>
+		<tag ID="resultsFor">
+			<label xml:lang="en">Results for domain</label>
+			<label xml:lang="fr">Résultats pour le domaine</label>
+			<label xml:lang="es">Results for domain</label>
+		</tag>
+		<tag ID="results">
+			<label xml:lang="en">result(s)</label>
+			<label xml:lang="fr">résultat(s)</label>
+			<label xml:lang="es">result(s)</label>
+		</tag>
+		<tag ID="fromFactsheet">
+			<label xml:lang="en">Fact sheets</label>
+			<label xml:lang="fr">Fiches d’informations</label>
+			<label xml:lang="es">Hojas informativas</label>
+			<label xml:lang="ar">صحائف وقائع</label>
+			<label xml:lang="zh">情况说明</label>
+			<label xml:lang="ru">Информационный бюллетень</label>
+		</tag>
+		<tag ID="stateTrend">
+			<label xml:lang="en">biological state &amp; trend</label>
+			<label xml:lang="fr">Statut et tendance biologique</label>
+			<label xml:lang="es">biological state &amp; trend</label>
+		</tag>
+		<tag ID="seeAbstract">
+			<label xml:lang="en">Complete description</label>
+			<label xml:lang="fr">Description complète</label>
+			<label xml:lang="es">Descripción completa</label>
+			<label xml:lang="ar">الوصف الكامل</label>
+			<label xml:lang="zh">完整说明</label>
+			<label xml:lang="ru">Полное описание</label>
+		</tag>
+		<tag ID="noResult" DisplayType="bold">
+			<label xml:lang="en">Sorry, no matching results.</label>
+			<label xml:lang="fr">Désolé, aucun résultat ne correspond à votre demande</label>
+			<label xml:lang="es">Disculpe, ningún resultado corresponde a su solicitud.</label>
+			<label xml:lang="ar">عذراً، لا نتائج للبحث.</label>
+			<label xml:lang="zh">抱歉，无匹配结果。</label>
+			<label xml:lang="ru">Извините, не найдено подходящих результатов</label>
+		</tag>
+		<tag ID="noLink" DisplayType="small super">
+			<label xml:lang="en"> (no link available) </label>
+			<label xml:lang="fr"> (aucun lien disponible) </label>
+			<label xml:lang="es"> (ningún enlace disponible) </label>
+			<label xml:lang="ar"> (لا يوجد رابط) </label>
+			<label xml:lang="zh"> (未提供链接)</label>
+			<label xml:lang="ru">(ссылки не имеется) </label>
+		</tag>
+		<tag ID="citation">
+			<label xml:lang="en">Citation</label>
+			<label xml:lang="fr">Citation</label>
+			<label xml:lang="es">Citación</label>
+			<label xml:lang="ar">اقتباس</label>
+			<label xml:lang="zh">引用</label>
+			<label xml:lang="ru">Цитирование</label>
+		</tag>
+		<tag ID="source">
+			<label xml:lang="en">Source</label>
+			<label xml:lang="es">Fuente</label>
+			<label xml:lang="fr">Source</label>
+			<label xml:lang="ar">مصدر</label>
+			<label xml:lang="zh">信息来源</label>
+			<label xml:lang="ru">Источник</label>
+		</tag>
+		<tag ID="relFocus" DisplayType="relTitle">
+			<label xml:lang="en">FOCUS</label>
+			<label xml:lang="fr">FOCUS</label>
+			<label xml:lang="es">FOCUS</label>
+			<label xml:lang="ar">موضوع للتركيز</label>
+			<label xml:lang="zh">焦点</label>
+			<label xml:lang="ru">ФОКУС</label>
+		</tag>
+		<tag ID="relArch" DisplayType="relTitle">
+			<label xml:lang="en">News archive</label>
+			<label xml:lang="fr">Nouvelles archivées</label>
+			<label xml:lang="es">Archivo de noticias</label>
+			<label xml:lang="ar">أرشيف الأخبار</label>
+			<label xml:lang="zh">新闻档案</label>
+			<label xml:lang="ru">Архив новостей</label>
+		</tag>
+		<tag ID="close">
+			<label xml:lang="en">close</label>
+			<label xml:lang="fr">fermer</label>
+			<label xml:lang="es">cerrar</label>
+			<label xml:lang="ar">إقفال</label>
+			<label xml:lang="zh">关闭</label>
+			<label xml:lang="ru">закрыть</label>
+		</tag>
+		<tag ID="extraImage">
+			<label xml:lang="en">Click for enlarged image</label>
+			<label xml:lang="fr">Cliquer pour agrandir l’image</label>
+			<label xml:lang="es">Haga clic para agrandar la imagen</label>
+			<label xml:lang="ar">أُنقر هنا للصورة على كامل الشاشة</label>
+			<label xml:lang="zh">点击放大图片</label>
+			<label xml:lang="ru">Щелкните для увеличенного изображения</label>
+		</tag>
+		<tag ID="introsp">
+			<label xml:lang="en">Introduced species</label>
+			<label xml:lang="es">Especie introducida</label>
+			<label xml:lang="ar">الأنواع التي تمّ إدخالها</label>
+			<label xml:lang="fr">Espèces introduites</label>
+			<label xml:lang="zh">引进种</label>
+			<label xml:lang="ru">Чужеродные виды</label>
+		</tag>
+	</tags>
+</labels>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:AqSpeciesIdent FID="$FIC_ITEM;" Status="$ENTRY_STATUS;" Meta="$META;">
+	<fi:FAOTaxonomicCode>$FIC_SYS_ITEM;</fi:FAOTaxonomicCode>
+	<fi:FAO3AlphaCode>$ALPHA3CODE;</fi:FAO3AlphaCode>
+	<fi:FAOName>
+		<fi:En>$FULL_NAME_E;</fi:En>
+		<fi:Fr>$FULL_NAME_F;</fi:Fr>
+		<fi:Sp>$FULL_NAME_S;</fi:Sp>
+	</fi:FAOName>
+	$I_SCIENTIFIC_NAME;
+</fi:AqSpeciesIdent>

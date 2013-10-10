@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Food and Agriculture Organization (Food and Agriculture Organization) -->
+<skeleton>
+$JT_DATA_ENTRY;
+<fi:AqRes FID="$CD_STOCK;">
+	<fi:ObjectSource>
+		$CD_OWNER;
+		<fi:DocumentRef FID="$CD_DOCUMENT;">
+		</fi:DocumentRef>
+		<fi:CoverPage>
+		$JT_COVER_PAGE_ENTRY;
+		</fi:CoverPage>
+		<ags:Url>$URL;</ags:Url>
+	</fi:ObjectSource>
+	<fi:ReportingYear>$REPORTING_YEAR;</fi:ReportingYear>
+	<fi:AqResIdent FID="$CD_STOCK;" Meta="$CD_META;" Status="$FG_STATUS;" Type="$CD_STK_RES_TYPE;">
+		<fi:AreaRef/>
+		<!-- A priori pas besoin-->
+		<fi:Name>
+			<fi:En>$NAME_E;</fi:En>
+			<fi:Fr>$NAME_F;</fi:Fr>
+			<fi:Sp>$NAME_S;</fi:Sp>
+		</fi:Name>
+		<dc:Date>$DT_ENTRY;</dc:Date>
+		<fint:Hierarchy/>
+		<!--a mettre comme ca ???-->
+		<fi:AqSpeciesIdent/>
+		<!-- A priori pas besoin-->
+	</fi:AqResIdent>
+	<fi:AqResProfile>
+	</fi:AqResProfile>
+	<fi:AqResFeature>
+		<fi:AqResStatusTrend>
+			$STATUS;
+			$TREND;
+		</fi:AqResStatusTrend>
+		$ASSESS_AND_EXPLOIT	</fi:AqResFeature>
+	<fi:Bibliography>
+		$JT_BIBLIO_ENTRY;
+	</fi:Bibliography>
+</fi:AqRes>
+</skeleton>
+

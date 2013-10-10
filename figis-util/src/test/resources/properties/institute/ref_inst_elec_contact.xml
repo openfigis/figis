@@ -1,0 +1,6 @@
+<fi:ContactIdent FID="$CD_INSTITUTE;">
+	<fi:PhoneNumber>$PHONE_NUMBER;</fi:PhoneNumber>
+	<fi:FaxNumber>$FAX_NUMBER;</fi:FaxNumber>
+	<fi:EMailAddress>$E_MAIL_ADDRESS;</fi:EMailAddress>
+	<fi:wwwUrl>$WWW_URL;</fi:wwwUrl>
+</fi:ContactIdent>

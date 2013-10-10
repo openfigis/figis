@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fint:ResultList" Type="StateTrendSummary" DisplayType="pageTitle">
+			<label xml:lang="en">Status and Trend Summaries (extracted from reports)</label>
+			<label xml:lang="fr">Status and Trend Summaries (extracted from reports)</label>
+			<label xml:lang="es">Status and Trend Summaries (extracted from reports)</label>
+		</node>
+		<node ID="multiQueryResult" DisplayType="h1">
+			<label xml:lang="en">Search Results</label>
+			<label xml:lang="fr">Résultats De Recherche</label>
+			<label xml:lang="es">Resultados De la Búsqueda</label>
+		</node>
+		<node ID="fint:FsSearchResult">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="fint:ResultItem">
+			<label xml:lang="en">Fact sheet</label>
+			<label xml:lang="fr">Fact sheet</label>
+			<label xml:lang="es">Fact sheet</label>
+		</node>
+		<node ID="new_set">
+			<label xml:lang="en">News</label>
+			<label xml:lang="fr">Nouveautés</label>
+			<label xml:lang="es">Noticias</label>
+		</node>
+		<node ID="event_set">
+			<label xml:lang="en">Meetings</label>
+			<label xml:lang="fr">Réunions</label>
+			<label xml:lang="es">Reuniones</label>
+		</node>
+		<node ID="publication_set">
+			<label xml:lang="en">Publications</label>
+			<label xml:lang="fr">Publications</label>
+			<label xml:lang="es">Publicaciones</label>
+		</node>
+		<node ID="item">
+			<label xml:lang="en">News/event</label>
+			<label xml:lang="fr">News/event</label>
+			<label xml:lang="es">News/event</label>
+		</node>
+		<node ID="document">
+			<label xml:lang="en">Legal</label>
+			<label xml:lang="fr">Legal</label>
+			<label xml:lang="es">Legal</label>
+		</node>
+		<node ID="news" DisplayType="relTitle">
+			<label xml:lang="en">News</label>
+			<label xml:lang="fr">Nouvelles</label>
+			<label xml:lang="es">Noticias</label>
+		</node>
+		<node ID="events" DisplayType="relTitle">
+			<label xml:lang="en">Upcoming meetings</label>
+			<label xml:lang="fr">Réunions</label>
+			<label xml:lang="es">Reuniones</label>
+		</node>
+		<node ID="newsAndEvents" DisplayType="relTitle">
+			<label xml:lang="en">Meetings &amp; News</label>
+			<label xml:lang="fr">Réunions et Nouvelles</label>
+			<label xml:lang="es">Reuniones y Noticias</label>
+		</node>
+		<node ID="KEYWORDVALUE">
+			<label xml:lang="en">keyword</label>
+			<label xml:lang="fr">keyword</label>
+			<label xml:lang="es">keyword</label>
+		</node>
+		<node ID="fint:ListExp">
+			<label xml:lang="en">Sorry the list has expired</label>
+			<label xml:lang="fr">Sorry the list has expired</label>
+			<label xml:lang="es">Sorry the list has expired</label>
+		</node>
+		<node ID="fint:SearchCrit">
+			<label xml:lang="en">Results for domain</label>
+			<label xml:lang="fr">Results for domain</label>
+			<label xml:lang="es">Results for domain</label>
+		</node>
+		<node ID="fint:SearchParam" DisplayType="italicBold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="dc:title" DisplayType="greyBlue bold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="dc:source" DisplayType="bold block">
+			<label xml:lang="en">Source of Information</label>
+			<label xml:lang="fr">Source of Information</label>
+			<label xml:lang="es">Source of Information</label>
+		</node>
+		<node ID="dc:creator" DisplayType="bold">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<!-- topics -->
+		<node ID="fi:TopicRef" DisplayType="relTitle">
+			<label xml:lang="en">Related topics</label>
+			<label xml:lang="fr">Related topics</label>
+			<label xml:lang="es">Related topics</label>
+		</node>
+		<node ID="fi:Sources" DisplayType="h2">
+			<label xml:lang="en">Source information</label>
+			<label xml:lang="fr">Source information</label>
+			<label xml:lang="es">Source information</label>
+		</node>
+		<node ID="fi:NEMS" Type="NEWS" DisplayType="relTitle">
+			<label xml:lang="en">News</label>
+			<label xml:lang="fr">News</label>
+			<label xml:lang="es">News</label>
+		</node>
+		<node ID="fi:NEMS" Type="EVENTS" DisplayType="relTitle">
+			<label xml:lang="en">Meetings</label>
+			<label xml:lang="fr">Meetings</label>
+			<label xml:lang="es">Meetings</label>
+		</node>
+		<node ID="fi:EIMS" DisplayType="relTitle">
+			<label xml:lang="en">Most recent publications</label>
+			<label xml:lang="fr">Most recent publications</label>
+			<label xml:lang="es">Most recent publications</label>
+		</node>
+		<node ID="fi:Overview">
+			<label xml:lang="en"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="es"/>
+		</node>
+		<node ID="fi:Background">
+			<label xml:lang="en">Background</label>
+			<label xml:lang="fr">Background</label>
+			<label xml:lang="es">Background</label>
+		</node>
+		<node ID="fi:Solution">
+			<label xml:lang="en">Possible solutions</label>
+			<label xml:lang="fr">Possible solutions</label>
+			<label xml:lang="es">Possible solutions</label>
+		</node>
+		<node ID="fi:Action">
+			<label xml:lang="en">Actions taken</label>
+			<label xml:lang="fr">Actions taken</label>
+			<label xml:lang="es">Actions taken</label>
+		</node>
+		<node ID="fi:Outlook">
+			<label xml:lang="en">Outlook</label>
+			<label xml:lang="fr">Outlook</label>
+			<label xml:lang="es">Outlook</label>
+		</node>
+		<!-- yes, these are really nodes -->
+		<node ID="more">
+			<label xml:lang="en">more</label>
+			<label xml:lang="fr">more</label>
+			<label xml:lang="es">more</label>
+		</node>
+		<node ID="media" DisplayType="relTitle">
+			<label xml:lang="en">Related multimedia</label>
+			<label xml:lang="fr">Multimedia connexe</label>
+			<label xml:lang="es">Multimedios relacionados</label>
+			<label xml:lang="ar">وسائط إعلامية ذات الصلة</label>
+			<label xml:lang="zh">相关多媒体</label>
+			<label xml:lang="ru">Соответствующие мультимедийные продукты</label>
+		</node>
+		<node ID="data" DisplayType="relTitle">
+			<label xml:lang="en">Related information</label>
+			<label xml:lang="fr">Information connexe</label>
+			<label xml:lang="es">Información relacionada</label>
+			<label xml:lang="ar">معلومات ذات الصلة</label>
+			<label xml:lang="zh">相关信息</label>
+			<label xml:lang="ru">Соответствующая информация</label>
+		</node>
+		<node ID="programmes" DisplayType="relTitle">
+			<label xml:lang="en">Related activities</label>
+			<label xml:lang="fr">Activités connexes</label>
+			<label xml:lang="es">Actividades relacionados</label>
+			<label xml:lang="ar">أنشطة ذات الصلة</label>
+			<label xml:lang="zh">相关活动</label>
+			<label xml:lang="ru">Связанная с этим деятельность</label>
+		</node>
+		<node ID="links" DisplayType="relTitle">
+			<label xml:lang="en">Related links</label>
+			<label xml:lang="fr">Liens connexes</label>
+			<label xml:lang="es">Enlaces relacionados</label>
+			<label xml:lang="ar">روابط ذات الصلة</label>
+			<label xml:lang="zh">相关链接</label>
+			<label xml:lang="ru">Ссылки по теме</label>
+		</node>
+		<node ID="publications" DisplayType="relTitle">
+			<label xml:lang="en">Related documents</label>
+			<label xml:lang="fr">Documents connexes</label>
+			<label xml:lang="es">Documentos relacionados</label>
+			<label xml:lang="ar">وثائق ذات الصلة</label>
+			<label xml:lang="zh">相关文件</label>
+			<label xml:lang="ru">Документы по теме</label>
+		</node>
+		<node ID="topics" DisplayType="relTitle">
+			<label xml:lang="en">Related topics</label>
+			<label xml:lang="fr">Sujets connexes</label>
+			<label xml:lang="es">Temas relacionados</label>
+			<label xml:lang="ar">مواضيع ذات الصلة</label>
+			<label xml:lang="zh">相关主题</label>
+			<label xml:lang="ru">Связанные вопросы</label>
+		</node>
+		<node ID="addInfo" DisplayType="relTitle">
+			<label xml:lang="en">Additional info</label>
+			<label xml:lang="fr">Additional info</label>
+			<label xml:lang="es">Additional info</label>
+		</node>
+	</nodes>
+	<tags>
+		<tag ID="resultsFor">
+			<label xml:lang="en">You search returned for </label>
+			<label xml:lang="fr">Résultats pour</label>
+			<label xml:lang="es">Resultados para</label>
+		</tag>
+		<tag ID="results">
+			<label xml:lang="en">result(s)</label>
+			<label xml:lang="fr">résultat(s)</label>
+			<label xml:lang="es">resultado(s)</label>
+		</tag>
+		<tag ID="with">
+			<label xml:lang="en"> with </label>
+			<label xml:lang="fr"> with </label>
+			<label xml:lang="es"> with </label>
+		</tag>
+		<tag ID="found">
+			<label xml:lang="en">Found</label>
+			<label xml:lang="fr">Found</label>
+			<label xml:lang="es">Found</label>
+		</tag>	
+		<tag ID="fromFactsheet">
+			<label xml:lang="en">factsheet</label>
+			<label xml:lang="fr">factsheet</label>
+			<label xml:lang="es">factsheet</label>
+		</tag>
+		<tag ID="stateTrend">
+			<label xml:lang="en">biological state &amp; trend</label>
+			<label xml:lang="fr">biological state &amp; trend</label>
+			<label xml:lang="es">biological state &amp; trend</label>
+		</tag>
+		<tag ID="seeAbstract">
+			<label xml:lang="en">Complete description</label>
+			<label xml:lang="fr">Complete description</label>
+			<label xml:lang="es">Complete description</label>
+		</tag>
+		<tag ID="noResult" DisplayType="bold">
+			<label xml:lang="en">Sorry, no matching results.</label>
+			<label xml:lang="fr">Sorry, no matching results.</label>
+			<label xml:lang="es">Sorry, no matching results.</label>
+		</tag>
+		<tag ID="noLink" DisplayType="small super">
+			<label xml:lang="en"> (no link available) </label>
+			<label xml:lang="fr"> (no link available) </label>
+			<label xml:lang="es"> (no link available) </label>
+		</tag>
+		<tag ID="fullList">
+			<label xml:lang="en">...full list</label>
+			<label xml:lang="fr">...full list</label>
+			<label xml:lang="es">...full list</label>
+		</tag>
+		<tag ID="citation">
+			<label xml:lang="en">Citation</label>
+			<label xml:lang="fr">Citation</label>
+			<label xml:lang="es">Citation</label>
+		</tag>
+		<tag ID="relFocus" DisplayType="relTitle">
+			<label xml:lang="en">FOCUS</label>
+			<label xml:lang="fr">FOCUS</label>
+			<label xml:lang="es">FOCUS</label>
+		</tag>
+		<tag ID="relArch" DisplayType="relTitle">
+			<label xml:lang="en">News archive</label>
+			<label xml:lang="fr">News archive</label>
+			<label xml:lang="es">News archive</label>
+		</tag>
+		<tag ID="close">
+			<label xml:lang="en">close</label>
+			<label xml:lang="fr">close</label>
+			<label xml:lang="es">close</label>
+		</tag>
+		<tag ID="extraImage">
+			<label xml:lang="en">Click for enlarged image</label>
+			<label xml:lang="fr">Click for enlarged image</label>
+			<label xml:lang="es">Click for enlarged image</label>
+		</tag>
+		<tag ID="introsp">
+			<label xml:lang="en">introduced species</label>
+			<label xml:lang="fr">introduced species</label>
+			<label xml:lang="es">introduced species</label>
+		</tag>
+		<tag ID="error.query.tooManyRecords">
+			<label xml:lang="en">At least one system queried returned too many records. Please refine your search.</label>
+			<label xml:lang="es">Por lo menos un sistema preguntado volvió también muchos expedientes. Refine por favor su búsqueda.</label>
+			<label xml:lang="fr">Au moins un système questionné a renvoyé trop de disques. Veuillez raffiner votre recherche.</label>
+		</tag>
+		<tag ID="error.query.timeoutReturn">
+			<label xml:lang="en">At least one system was too slow in responding. Please try refining your search.</label>
+			<label xml:lang="es">Por lo menos un sistema era demasiado lento en responder. Por favor intento que refina su búsqueda.</label>
+			<label xml:lang="fr">Au moins un système était trop lent en répondant. Svp essai raffinant votre recherche.</label>
+		</tag>
+		<tag ID="error.query.io">
+			<label xml:lang="en">At least one system did not respond. Please try later.</label>
+			<label xml:lang="es">Por lo menos un sistema no respondió. Por favor intento más adelante.</label>
+			<label xml:lang="fr">Au moins un système n'a pas répondu. Svp essai plus tard.</label>
+		</tag>
+		<tag ID="tba">
+			<label xml:lang="en">To be announced</label>
+			<label xml:lang="es">No todavía anunciado</label>
+			<label xml:lang="fr">Pas encore annoncé</label>
+		</tag>
+		<tag ID="past">
+			<label xml:lang="en">Past</label>
+			<label xml:lang="es">Pasado</label>
+			<label xml:lang="fr">Passé</label>
+		</tag>
+		<tag ID="upcoming">
+			<label xml:lang="en">Upcoming</label>
+			<label xml:lang="es">Próximo</label>
+			<label xml:lang="fr">Prochain</label>
+		</tag>
+	</tags>
+</labels>

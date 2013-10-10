@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- srchComTemplate.xsl																	
+***********************************************************************************************	
+*ti-  Default search engine page results template 
+***********************************************************************************************	
+*md- common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Handle structure of the XML displayed for FIGIS Page Results
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 29-Aug-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!-- Create a DTD/schema -->
+<SPTemplate dataset="search">
+	<table class="MainDataTable" width="660" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width="100%" align="right">
+				<toolbar/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+					<!-- Handle Logo, title, citation, ownership -->
+					<tr>
+						<td rowspan="4" width="10%">
+							<logo imagePath="/fi/figis/species/assets/images/species_logo.gif"/>
+						</td>
+						<td width="90%" class="sheettype" colspan="2">
+							<resutsPageTitle/>
+						</td>
+					</tr>
+					<tr>
+						<td width="50%">
+							<resultsNumber/>
+						</td>
+						<td width="50%">
+							<resultsPageSizeSel/>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							<resultsDescription/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Display results -->
+				<table width="100%" class="ResultsData" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td>
+							<!-- Display the previous / next button on the top -->
+							<resultsNavBar/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<resultsData/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Display the previous / next button on the bottom of the page-->
+							<resultsNavBar/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Display the page number as in google results page -->
+							<resultsPageNumber/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</SPTemplate>

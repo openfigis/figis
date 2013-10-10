@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:IntroducedAqSpecies FID="$CD_INTRODUCED_SPECIES;">
+	<!--$JT_DATA_ENTRY;
+	<fi:ObjectSource>
+		$CD_OWNER;
+		<fi:CoverPage>
+		$JT_COVER_PAGE;
+		</fi:CoverPage>
+	</fi:ObjectSource>-->
+	<fi:IntroducedAqSpeciesIdent FID="$CD_INTRODUCED_SPECIES;" Code="$CD_DIAS_CODE;" CodeSystem="DIAS" EntryDate="$DT_ENTRY;" Status="$FG_STATUS;">
+		<fi:Orig>
+			<fi:AqSpeciesIdent Code="$CD_INTRO_SPEC_TAXO_GRP;">
+				<fi:Family>$FAMILY;</fi:Family>
+				<fi:FullSciName>$SPECIES_NAME;</fi:FullSciName>
+				<fi:TaxonomicGroup>
+					<fi:En>$DS_REF_INTRO_SPEC_TAX_GRP.TEXT_E;</fi:En>
+					<fi:Fr>$DS_REF_INTRO_SPEC_TAX_GRP.TEXT_F;</fi:Fr>
+					<fi:Sp>$DS_REF_INTRO_SPEC_TAX_GRP.TEXT_S;</fi:Sp>
+				</fi:TaxonomicGroup>
+			</fi:AqSpeciesIdent>
+		</fi:Orig>
+		<fi:CountryTo>
+	$COUNTRY_TO;
+		<fi:AreaRef>$CD_AREA_TO;</fi:AreaRef>
+		</fi:CountryTo>
+		<fi:CountryFrom>
+	$COUNTRY_FROM;
+	<fi:AreaRef>$JT_AREA_FROM;</fi:AreaRef>
+		</fi:CountryFrom>
+		$JT_DATE_RANGE;
+		<fi:ForSearchOnly>
+			$FIC_ITEM;
+		</fi:ForSearchOnly>
+	</fi:IntroducedAqSpeciesIdent>
+	<fi:IntroducedAqSpeciesProfile>
+		$CD_INTRODUCER;
+		$JT_REASON_INTRODUCED;
+	</fi:IntroducedAqSpeciesProfile>
+	<fi:IntroducedAqSpeciesFeature>
+		$CD_EST_WILD;
+		$CD_EST_TYPE;
+		$CD_AQUA_USE;
+		$CD_REPRO_MODE;
+		<fi:EcologicEffects Code="$CD_ECO_EFFECT;" Status="$DS_REF_RESPONSE.DESCRIPTION;"/>
+		<fi:EcologicEffectsType Code="$CD_ECO_EFFECT_TYPE;">
+			$DS_REF_EFFECT_TYPE.DESCRIPTION;
+		</fi:EcologicEffectsType>
+		<fi:SocioEconomicEffects Code="$CD_SOCIAL_EFFECT;" Status="$DS_REF_RESPONSE.DESCRIPTION;"/>
+		<fi:SocioEconomicEffectsType Code="$CD_SOCIAL_EFFECT_TYPE;">
+			$DS_REF_EFFECT_TYPE.DESCRIPTION;
+		</fi:SocioEconomicEffectsType>
+	</fi:IntroducedAqSpeciesFeature>
+	<fi:IntroductionSource Code="$CD_INTRO_SOURCE;">
+		$CD_DATA_ENTRY;
+		<fi:Bibliography>
+		$JT_BIBLIO_ENTRY;
+	</fi:Bibliography>
+	</fi:IntroductionSource>
+</fi:IntroducedAqSpecies>

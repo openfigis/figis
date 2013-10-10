@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fi:KnowledgeObj CodeSystem="ko" Code="$CD_CTN;" FID="$CD_KNOWLEDGE_OBJECT;">
+	<dc:Title>$TITLE;</dc:Title>
+	<dc:Identifier rdf:resource="URL">$URL;</dc:Identifier>
+	$OBJECT_TEXT;
+</fi:KnowledgeObj>

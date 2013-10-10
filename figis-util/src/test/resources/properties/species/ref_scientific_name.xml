@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:SciName FID="$CD_SCIENTIFIC_NAME;" GenusChanged="$FG_CHANGED;" Type="$FG_TYPE;">
+	<fi:Class>$SN_CLASS;</fi:Class>
+	<fi:Order>$SN_ORDER;</fi:Order>
+	<fi:Suborder>$SN_SUBORDER;</fi:Suborder>
+	<fi:Family>$SN_FAMILY;</fi:Family>
+	<fi:Subfamily>$SN_SUBFAMILY;</fi:Subfamily>
+	<fi:Tribe>$SN_TRIBE;</fi:Tribe>
+	<fi:Genus>$SN_GENUS;</fi:Genus>
+	<fi:Species>$SN_SPECIES;</fi:Species>
+	<fi:Subspecies>$SN_SUBSPECIES;</fi:Subspecies>
+	<ags:PersonalAuthor>$AUTHOR;</ags:PersonalAuthor>
+	<fi:Year>$YEAR;</fi:Year>
+	<fi:SciNote>$NOTES;</fi:SciNote>
+</fi:SciName>

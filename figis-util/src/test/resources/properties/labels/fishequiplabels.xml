@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>		<node ID="EquipClass">
+			<label xml:lang="en">Equipment Class</label>
+			<label xml:lang="fr">Classe de l'équipement</label>
+			<label xml:lang="es">Equipment Class</label>
+			<label xml:lang="ar">Equipment Class</label>
+			<label xml:lang="zh">Equipment Class</label>
+		</node>
+	
+		<node ID="FishingTechnology">
+			<label xml:lang="en">Fishing technology</label>
+			<label xml:lang="fr">Fishing technology</label>
+			<label xml:lang="es">Fishing technology</label>
+			<label xml:lang="ar">Fishing technology</label>
+			<label xml:lang="zh">Fishing technology</label>
+		</node>
+		<node ID="EquipType">
+			<label xml:lang="en">Equipment Type</label>
+			<label xml:lang="fr">Type de l'équipement</label>
+			<label xml:lang="es">Equipment Type</label>
+			<label xml:lang="ar">Equipment Type</label>
+			<label xml:lang="zh">Equipment Type</label>
+		</node>
+		<node ID="GearHandling">
+			<label xml:lang="en">Gear handling</label>
+			<label xml:lang="fr">Gear handling</label>
+			<label xml:lang="es">Gear handling</label>
+			<label xml:lang="ar">Gear handling</label>
+			<label xml:lang="zh">Gear handling</label>
+		</node>
+		<node ID="Wheelhouse">
+			<label xml:lang="en">Wheelhouse</label>
+			<label xml:lang="fr">Wheelhouse</label>
+			<label xml:lang="es">Wheelhouse</label>
+			<label xml:lang="ar">Wheelhouse</label>
+			<label xml:lang="zh">Wheelhouse</label>
+		</node>
+		<node ID="FishHandlingAndProcessing">
+			<label xml:lang="en">Fish handling and processing</label>
+			<label xml:lang="fr">Fish handling and processing</label>
+			<label xml:lang="es">Fish handling and processing</label>
+			<label xml:lang="ar">Fish handling and processing</label>
+			<label xml:lang="zh">Fish handling and processing</label>
+		</node>
+		<node ID="AggregatingDevice">
+			<label xml:lang="en">Aggregating device</label>
+			<label xml:lang="fr">Aggregating device</label>
+			<label xml:lang="es">Aggregating device</label>
+			<label xml:lang="ar">Aggregating device</label>
+			<label xml:lang="zh">Aggregating device</label>
+		</node>
+		<node ID="EnvironMeasures">
+			<label xml:lang="en">Environmental measures</label>
+			<label xml:lang="fr">Environmental measures</label>
+			<label xml:lang="es">Environmental measures</label>
+			<label xml:lang="ar">Environmental measures</label>
+			<label xml:lang="zh">Environmental measures</label>
+		</node>
+		<node ID="SecuEquip">
+			<label xml:lang="en">Security equipment</label>
+			<label xml:lang="fr">Security equipment</label>
+			<label xml:lang="es">Security equipment</label>
+			<label xml:lang="ar">Security equipment</label>
+			<label xml:lang="zh">Security equipment</label>
+		</node>
+	</nodes>
+</labels>

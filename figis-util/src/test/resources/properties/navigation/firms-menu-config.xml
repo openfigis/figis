@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:exsl="http://exslt.org/common" xsi:noNamespaceSchemaLocation="http://www.fao.org/fi/figis/devcon/schema/fi-navigation.xsd">
+	<Menus>
+		<Menu name="Root">
+			<Title xml:lang="en">Root</Title>
+			<Item menu-ref="FIRMS" name="FIRMS">
+				<Title xml:lang="en">FIRMS</Title>
+			</Item>
+		</Menu>
+		<Menu name="FIRMS">
+			<Title xml:lang="en">FIRMS</Title>
+			<Item name="topic#18170" roles="all">
+				<Title xml:lang="en">Home</Title>
+				<Title xml:lang="fr">Accueil</Title>
+			</Item>
+			<Item name="organization#24543">
+				<Title xml:lang="en">About FIRMS</Title>
+				<Title xml:lang="fr">Sur FIRMS</Title>
+				<Item name="topic#18171">
+					<Title xml:lang="en">Partners' Data Contribution</Title>
+					<Title xml:lang="fr">Contribution de données</Title>
+				</Item>
+				<Item name="topic#18036">
+					<Title xml:lang="en">FIRMS data coverage</Title>
+					<Title xml:lang="fr">Couverture des données dans FIRMS</Title>
+				</Item>
+				<Item name="topic#18172">
+					<Title xml:lang="en">Data Quality Assurance</Title>
+					<Title xml:lang="fr">Qualité des données</Title>
+					<Item name="collection#ccamlr_fr.xml" clickable="false" visible="false"/>
+					<Item name="collection#ccsbt_ssr.xml" clickable="false" visible="false"/>
+					<Item name="collection#iattc_ssr.xml" clickable="false" visible="false"/>
+					<Item name="collection#iccat_scrs.xml" clickable="false" visible="false"/>
+					<Item name="collection#ices_ar.xml" clickable="false" visible="false"/>
+					<Item name="collection#iotc_ssr.xml" clickable="false" visible="false"/>
+					<Item name="collection#nafo_ss.xml" clickable="false" visible="false"/>
+					<Item name="collection#seafdec_ssr.xml" clickable="false" visible="false"/>
+					<Item name="collection#ccamlr_fr.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#ccsbt_ssr.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#iattc_ssr.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#iccat_scrs.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#ices_ar.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#iotc_ssr.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#nafo_ss.xml#*" clickable="false" visible="false"/>
+					<Item name="collection#seafdec_ssr.xml#*" clickable="false" visible="false"/>
+				</Item>
+				<Item name="topic#18036">
+					<Title xml:lang="en">FIRMS data coverage</Title>
+					<Title xml:lang="fr">Couverture des données dans FIRMS</Title>
+				</Item>
+				<Item name="topic#16646">
+					<Title xml:lang="en">Worldwide inventories</Title>
+					<Title xml:lang="fr">Inventaires dans le monde</Title>
+				</Item>
+			</Item>
+			<Item roles="all" name="topic#18173">
+				<Title xml:lang="en">Concepts &amp; Definitions</Title>
+				<Title xml:lang="fr">Concepts et Définitions</Title>
+			</Item>
+			<Item menu-ref="Databases_FIRMS" roles="all" clickable="false">
+				<Title xml:lang="en">Tools</Title>
+				<Title xml:lang="fr">Outils</Title>
+			</Item>
+			<Item menu-ref="Information_Resources_FIRMS" roles="all" clickable="false">
+				<Title xml:lang="en">Information</Title>
+				<Title xml:lang="fr">Information</Title>
+			</Item>
+			<Item name="topic#18174" roles="all">
+				<Title xml:lang="en">Contacts</Title>
+				<Title xml:lang="fr">Contacts</Title>
+			</Item>
+			<Item menu-ref="Members_Area_FIRMS" roles="firms_user" clickable="false">
+				<Title xml:lang="en">Members Area</Title>
+				<Title xml:lang="fr">Membres</Title>
+			</Item>
+		</Menu>
+		<Menu name="Databases_FIRMS">
+			<Title xml:lang="en">Search Tools</Title>
+			<Title xml:lang="fr">Outils</Title>
+			<Item name="/firms/inventory/browse">
+				<Title xml:lang="en">Resource inventory</Title>
+				<Title xml:lang="fr">Inventaire ressources</Title>
+				<Item name="/fiweb/website/FIRMSBrowser.do?*" visible="false">
+					<Title xml:lang="en">Resource inventory</Title>
+					<Title xml:lang="fr">Inventaire ressources</Title>
+				</Item>
+			</Item>
+			<Item name="/firms/resource/search">
+				<Title xml:lang="en">Marine Resource fact sheets</Title>
+				<Title xml:lang="fr">Fiches documentaires ressources marines</Title>
+				<Item name="/fiweb/website/FIRMSSearchAllPanel.do?*" visible="false">
+					<Title xml:lang="en">Search Marine Resource fact sheets</Title>
+					<Title xml:lang="fr">Rechercher fiches documentaires ressources marines</Title>
+				</Item>
+				<Item name="/fiweb/website/FIRMSSearchResult.do?*" clickable="false" visible="false"/>
+				<Item name="resource#*" clickable="false" visible="false">
+					<Title xml:lang="en">Marine Resource fact sheets</Title>
+					<Title xml:lang="fr">Fiches documentaires ressources marines</Title>
+				</Item>
+				<Item name="195000#*" clickable="false" visible="false">
+					<Title xml:lang="en">Marine Resource fact sheets</Title>
+					<Title xml:lang="fr">Fiches documentaires ressources marines</Title>
+				</Item>
+			</Item>
+			<Item name="/firms/summaries">
+				<Title xml:lang="en">State &amp; Trend Summaries</Title>
+				<Title xml:lang="fr">Résumé des états et tendances</Title>
+				<Item name="/fiweb/website/FIRMSSearchPanel.do?*" visible="false">
+					<Title xml:lang="en">Status &amp; Trend Summaries</Title>
+					<Title xml:lang="fr">Résumés des états et tendances</Title>
+				</Item>
+				<Item name="/fiweb/website/FIRMSSTSearchResult.do?*" clickable="false" visible="false"/>
+			</Item>
+			<Item name="topic#18031">
+				<Title xml:lang="en">Browse Fisheries</Title>
+				<Title xml:lang="fr">Parcourir les pêcheries</Title>
+			</Item>
+			<Item name="/firms/fishery/search">
+				<Title xml:lang="en">Fishery fact sheets</Title>
+				<Title xml:lang="fr">Fiches documentaires pêcheries</Title>
+				<Item name="/fiweb/website/FIRMSSearchFisheryPanel.do?*" visible="false">
+					<Title xml:lang="en">Search Fishery fact sheets</Title>
+					<Title xml:lang="fr">Rechercher fiches documentaires de pêcherie</Title>
+				</Item>
+				<Item name="/fiweb/website/FIRMSFisherySearchResult.do?*" clickable="false" visible="false"/>
+				<Item name="fishery#*" clickable="false" visible="false">
+					<Title xml:lang="en">Fishery Fact Sheet</Title>
+					<Title xml:lang="fr">Fiche documentaire de pêcherie</Title>
+				</Item>
+				<Item name="205000#*" clickable="false" visible="false">
+					<Title xml:lang="en">Fishery Fact Sheet</Title>
+					<Title xml:lang="fr">Fiche documentaire de pêcherie</Title>
+				</Item>
+			</Item>
+		</Menu>
+		<Menu name="Information_Resources_FIRMS">
+			<Title xml:lang="en">Information</Title>
+			<Title xml:lang="fr">Information</Title>
+			<Item name="/firms/publications">
+				<Title xml:lang="en">Publications</Title>
+				<Title xml:lang="fr">Publications</Title>
+				<Item name="topic#166270" clickable="false" visible="false">
+					<Title xml:lang="en">Publications</Title>
+					<Title xml:lang="fr">Publications</Title>
+				</Item>
+			</Item>
+			<Item name="/firms/meetings">
+				<Title xml:lang="en">Meetings</Title>
+				<Title xml:lang="fr">Réunions</Title>
+				<Item name="topic#166271" clickable="false" visible="false">
+					<Title xml:lang="en">Meetings</Title>
+					<Title xml:lang="fr">Réunions</Title>
+				</Item>
+			</Item>
+		</Menu>
+		<Menu name="Members_Area_FIRMS">
+			<Title xml:lang="en">Members Area</Title>
+			<Title xml:lang="fr">Membres</Title>
+			<Item menu-ref="Activities_FIRMS" clickable="false">
+				<Title xml:lang="en">Activities</Title>
+				<Title xml:lang="fr">Activitées</Title>
+			</Item>
+			<Item menu-ref="thematic_pages" clickable="false">
+				<Title xml:lang="en">Themes and Regions</Title>
+				<Title xml:lang="fr">Themes and Regions</Title>
+			</Item>
+			<Item name="/firms/workflow-module">
+				<Title xml:lang="en">Workflow Module</Title>
+				<Title xml:lang="fr">Module de gestion</Title>
+			</Item>
+			<Item name="http://km.fao.org/FIGISwiki/index.php/FIRMS">
+				<Title xml:lang="en">FIRMS Wiki</Title>
+				<Title xml:lang="fr">FIRMS Wiki</Title>
+			</Item>
+			<Item name="/firms/working-site">
+				<Title xml:lang="en">Working Site</Title>
+				<Title xml:lang="fr">Site de travail</Title>
+			</Item>
+		</Menu>
+		<Menu name="Data_Management_FIRMS">
+			<Title xml:lang="en">Data Management</Title>
+			<Title xml:lang="fr">Gestion de données</Title>
+			<Item name="org#FIRMS_org.xml#7,1,1">
+				<Title xml:lang="en">Workflow Module</Title>
+				<Title xml:lang="fr">Module de gestion</Title>
+			</Item>
+		</Menu>
+		<Menu name="Activities_FIRMS">
+			<Title xml:lang="en">Activities</Title>
+			<Title xml:lang="fr">Activitées</Title>
+			<Item name="topic#18175">
+				<Title xml:lang="en">Progress of Data Contribution</Title>
+				<Title xml:lang="fr">Progrès des apports de données</Title>
+			</Item>
+			<Item name="topic#18176">
+				<Title xml:lang="en">Training</Title>
+				<Title xml:lang="fr">Formation</Title>
+			</Item>
+		</Menu>
+		<Menu name="thematic_pages">
+			<Title xml:lang="en">Themes and Regions</Title>
+			<Title xml:lang="fr">Themes and Regions</Title>
+			<Item name="topic#18037">
+				<Title xml:lang="en">FIRMS on tuna</Title>
+				<Title xml:lang="fr">FIRMS on tuna</Title>
+			</Item>
+			<Item name="topic#166232">
+				<Title xml:lang="en">FIRMS on deep sea (high seas) demersal resources</Title>
+				<Title xml:lang="fr">FIRMS on deep sea (high seas) demersal resources</Title>
+			</Item>
+			<Item name="topic#166273">
+				<Title xml:lang="en">FIRMS in Eastern Central Atlantic</Title>
+				<Title xml:lang="fr">FIRMS in Eastern Central Atlantic</Title>
+			</Item>
+			<Item name="topic#166274">
+				<Title xml:lang="en">FIRMS in the Gulf, Oman Sea and Southwestern Arabian Sea</Title>
+				<Title xml:lang="fr">FIRMS in the Gulf, Oman Sea and Southwestern Arabian Sea</Title>
+			</Item>
+		</Menu>
+	</Menus>
+</MenuConfig>

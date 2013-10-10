@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:FishTechniqueIdent FID="$CD_FISHING_TECH;" GRP="$GRP_IND;" Status="$ENTRY_STATUS;">
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+	</fi:Name>
+</fi:FishTechniqueIdent>

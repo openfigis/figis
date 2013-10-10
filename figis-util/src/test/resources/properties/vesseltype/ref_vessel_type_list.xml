@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:VesseltypeIdent FID="$CD_VESSEL_TYPE;" GRP="$GRP_IND;" Status="$ENTRY_STATUS;">
+	<fi:ISSCFVCode Type="num">$ISSCFV_CODE;</fi:ISSCFVCode>
+	<fi:ISSCFVCode Type="3alpha">$STD_ABBREV;</fi:ISSCFVCode>
+	<fi:Name>
+		<fi:En>$NAME_E;</fi:En>
+		<fi:Fr>$NAME_F;</fi:Fr>
+		<fi:Sp>$NAME_S;</fi:Sp>
+	</fi:Name>
+	<fi:ShortDesc>
+		<fi:En>$SHORT_DESC_E;</fi:En>
+		<fi:Fr>$SHORT_DESC_F;</fi:Fr>
+		<fi:Sp>$SHORT_DESC_S;</fi:Sp>
+	</fi:ShortDesc>
+	<fint:Hierarchy>
+	</fint:Hierarchy>
+</fi:VesseltypeIdent>

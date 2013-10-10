@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fi:TimeRange>
+	<fi:Text>$DATE_RANGE_DESC;</fi:Text>
+	<fi:Min>$DATE_FROM;</fi:Min>
+	<fi:Max>$DATE_TO;</fi:Max>
+</fi:TimeRange>

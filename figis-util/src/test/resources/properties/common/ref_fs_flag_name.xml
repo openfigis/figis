@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fint:Flag FID="$CD_FLAG;" name="$REF_FS_FLAG_NAME.FLAG_NAME;">
+	$FLAG_VALUE;
+</fint:Flag>

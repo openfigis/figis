@@ -1,0 +1,10 @@
+<TAG_CONTROL>
+	<EXCLUDE>*</EXCLUDE>
+
+	<INCLUDE>fi:AqRes</INCLUDE>
+	<INCLUDE>fi:AqResFeature</INCLUDE>
+	<INCLUDE>fi:AqResProfile</INCLUDE>
+	<INCLUDE>fi:AqResStock</INCLUDE>
+	<INCLUDE>fi:AqResStockFeature</INCLUDE>
+	<INCLUDE>fi:AqResStockProfile</INCLUDE>
+</TAG_CONTROL>

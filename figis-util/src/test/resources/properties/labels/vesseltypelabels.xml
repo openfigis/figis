@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fi:Overview">
+			<label xml:lang="en">Overview</label>
+			<label xml:lang="fr">Vue générale</label>
+			<label xml:lang="es">Descripción</label>
+			<label xml:lang="ar">لمحة عامة</label>
+			<label xml:lang="zh">概览</label>
+		</node>
+		<node ID="fi:VesseltypeClass">
+			<label xml:lang="en">Vessel Class</label>
+			<label xml:lang="fr">Vessel Class</label>
+			<label xml:lang="es">Vessel Class</label>
+			<label xml:lang="ar">Vessel Class</label>
+			<label xml:lang="zh">Vessel Class</label>
+		</node>
+		<node ID="fi:VesseltypeLength">
+			<label xml:lang="en">Length</label>
+			<label xml:lang="fr">Length</label>
+			<label xml:lang="es">Length</label>
+			<label xml:lang="ar">Length</label>
+			<label xml:lang="zh">Length</label>
+		</node>
+		<node ID="fi:PowerClass">
+			<label xml:lang="en">Power</label>
+			<label xml:lang="fr">Power</label>
+			<label xml:lang="es">Power</label>
+			<label xml:lang="ar">Power</label>
+			<label xml:lang="zh">Power</label>
+		</node>
+		<node ID="fi:AddInfo">
+			<label xml:lang="en">Additional information</label>
+			<label xml:lang="fr">Additional information</label>
+			<label xml:lang="es">Additional information</label>
+			<label xml:lang="ar">Additional information</label>
+			<label xml:lang="zh">Additional information</label>
+		</node>
+		<node ID="fi:DeckArrange">
+			<label xml:lang="en">Deck Arrangement</label>
+			<label xml:lang="fr">Deck Arrangement</label>
+			<label xml:lang="es">Deck Arrangement</label>
+			<label xml:lang="ar">Deck Arrangement</label>
+			<label xml:lang="zh">Deck Arrangement</label>
+		</node>
+		<node ID="fi:VesseltypeEquip">
+			<label xml:lang="en">Equipment</label>
+			<label xml:lang="fr">Equipment</label>
+			<label xml:lang="es">Equipment</label>
+			<label xml:lang="ar">Equipment</label>
+			<label xml:lang="zh">Equipment</label>
+		</node>
+		<node ID="fi:WheelhEquip">
+			<label xml:lang="en">Wheelhouse Equipment</label>
+			<label xml:lang="fr">Wheelhouse Equipment</label>
+			<label xml:lang="es">Wheelhouse Equipment</label>
+			<label xml:lang="ar">Wheelhouse Equipment</label>
+			<label xml:lang="zh">Wheelhouse Equipment</label>
+		</node>
+		<node ID="fi:FishDetEquip">
+			<label xml:lang="en">Fish Detection Equipment</label>
+			<label xml:lang="fr">Fish Detection Equipment</label>
+			<label xml:lang="es">Fish Detection Equipment</label>
+			<label xml:lang="ar">Fish Detection Equipment</label>
+			<label xml:lang="zh">Fish Detection Equipment</label>
+		</node>
+		<node ID="fi:GeartypeOverview">
+			<label xml:lang="en">Fishing Gear</label>
+			<label xml:lang="fr">Fishing Gear</label>
+			<label xml:lang="es">Fishing Gear</label>
+			<label xml:lang="ar">Fishing Gear</label>
+			<label xml:lang="zh">Fishing Gear</label>
+		</node>
+		<node ID="fi:CatchHandlingProcEquip">
+			<label xml:lang="en">Catch Handling and Processing Equipment</label>
+			<label xml:lang="fr">Catch Handling and Processing Equipment</label>
+			<label xml:lang="es">Catch Handling and Processing Equipment</label>
+			<label xml:lang="ar">Catch Handling and Processing Equipment</label>
+			<label xml:lang="zh">Catch Handling and Processing Equipment</label>
+		</node>
+		<node ID="fi:RelatedResources">
+			<label xml:lang="en">Related Resources</label>
+			<label xml:lang="fr">Related Resources</label>
+			<label xml:lang="es">Related Resources</label>
+			<label xml:lang="ar">Related Resources</label>
+			<label xml:lang="zh">Related Resources</label>
+		</node>
+		<node ID="fi:SecuEquip">
+			<label xml:lang="en">Security Equipment</label>
+			<label xml:lang="fr">Security Equipment</label>
+			<label xml:lang="es">Security Equipment</label>
+			<label xml:lang="ar">Security Equipment</label>
+			<label xml:lang="zh">Security Equipment</label>
+		</node>
+		<node ID="fi:DeckEquip">
+			<label xml:lang="en">Deck Equipment</label>
+			<label xml:lang="fr">Deck Equipment</label>
+			<label xml:lang="es">Deck Equipment</label>
+			<label xml:lang="ar">Deck Equipment</label>
+			<label xml:lang="zh">Deck Equipment</label>
+		</node>
+		<node ID="fi:IssueEntry">
+			<label xml:lang="en">Issue</label>
+			<label xml:lang="fr">Issue</label>
+			<label xml:lang="es">Issue</label>
+			<label xml:lang="ar">Issue</label>
+			<label xml:lang="zh">Issue</label>
+		</node>
+		<node ID="fi:ImpactEntry">
+			<label xml:lang="en">Impact</label>
+			<label xml:lang="fr">Impact</label>
+			<label xml:lang="es">Impact</label>
+			<label xml:lang="ar">Impact</label>
+			<label xml:lang="zh">Impact</label>
+		</node>
+	</nodes>
+</labels>

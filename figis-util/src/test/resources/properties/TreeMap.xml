@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TreeMap>
+	<Dataset Name="topic" MetaID="164000">
+		<Filter ID=""/>
+		<Views>
+			<Hierarchy ID="164001" Default="yes" Filtered="yes">FIGIS Classification</Hierarchy>
+		</Views>
+	</Dataset>
+	<Dataset Name="geartype" MetaID="50000">
+		<Filter ID="54005"/>
+		<Views>
+			<!--<Hierarchy ID="54004" Default="no" Filtered="no">ISSCFG (old)</Hierarchy>-->
+			<Hierarchy ID="54005" Default="yes" Filtered="yes">ISSCFG (new)</Hierarchy>
+		</Views>
+	</Dataset>
+	<Dataset Name="vesseltype" MetaID="64000">
+		<Filter ID="64205"/>
+		<Views>
+			<!--<Hierarchy ID="64204" Default="no" Filtered="no">ISSCFV (old)</Hierarchy>-->
+			<Hierarchy ID="64205" Default="yes" Filtered="yes">ISSCFV (new)</Hierarchy>
+		</Views>
+	</Dataset>
+	<Dataset Name="species" MetaID="31000">
+		<Filter ID="31105"/>
+		<Views>
+			<Hierarchy ID="30001" Default="no" Filtered="no">Major group</Hierarchy>
+			<Hierarchy ID="30002" Default="no" Filtered="no">ISSCAAP group</Hierarchy>
+			<Hierarchy ID="30003" Default="no" Filtered="no">FAOSTAT group</Hierarchy>
+			<Hierarchy ID="30004" Default="no" Filtered="no">Ybk main groups</Hierarchy>
+			<Hierarchy ID="30005" Default="yes" Filtered="no">Taxonomic</Hierarchy>
+		</Views>
+	</Dataset>
+	<Dataset Name="resource" MetaID="195000">
+		<Filter ID="190000"/>
+		<Views>
+			<Hierarchy ID="190001" Default="yes" Filtered="yes">Resource by inventory</Hierarchy>
+			<Hierarchy ID="190002" Default="no" Filtered="yes">Tuna resource by area</Hierarchy>			
+		</Views>
+	</Dataset>
+</TreeMap>

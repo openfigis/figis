@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<labels>
+	<nodes>
+		<!-- ////// label for contacts -->
+		<node ID="fi:Contacts">
+			<label xml:lang="en">Contacts</label>
+			<label xml:lang="es">Contactos</label>
+			<label xml:lang="fr">Contacts</label>
+			<label xml:lang="ar">جهات الاتصال</label>
+			<label xml:lang="zh">联系人</label>
+			<label xml:lang="ru">Контакты</label>
+		</node>
+		<node ID="fi:Contact" Idml="person">
+			<label xml:lang="en">Contact</label>
+			<label xml:lang="es">Contacto</label>
+			<label xml:lang="fr">Contact</label>
+			<label xml:lang="ar"> للإتصال</label>
+			<label xml:lang="zh">联系人</label>
+			<label xml:lang="ru">Контакт</label>
+		</node>
+		<node ID="fi:Fax">
+			<label xml:lang="en">Fax</label>
+			<label xml:lang="es">Facsímil</label>
+			<label xml:lang="fr">Télécopie</label>
+			<label xml:lang="ar">الفاكس </label>
+			<label xml:lang="zh">传真</label>
+			<label xml:lang="ru">Факс</label>
+		</node>
+		<node ID="fi:Telephone">
+			<label xml:lang="en">Telephone</label>
+			<label xml:lang="es">Teléfono</label>
+			<label xml:lang="fr">Téléphone</label>
+			<label xml:lang="ar">الهاتف</label>
+			<label xml:lang="zh">电话</label>
+			<label xml:lang="ru">Телефон</label>
+		</node>
+		<node ID="fi:Telex">
+			<label xml:lang="en">Telex</label>
+			<label xml:lang="es">Télex</label>
+			<label xml:lang="fr">Télex</label>
+			<label xml:lang="ar">التلكس</label>
+			<label xml:lang="zh">电报</label>
+			<label xml:lang="ru">Телекс</label>
+		</node>
+		<node ID="fi:PostalAddress">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Website">
+			<label xml:lang="en">Web site</label>
+			<label xml:lang="es">Sitio web</label>
+			<label xml:lang="fr">Site Web</label>
+			<label xml:lang="ar">المواقع على الويب</label>
+			<label xml:lang="zh">网站</label>
+			<label xml:lang="ru">Веб-сайт</label>
+		</node>
+		<node ID="fi:Email">
+			<label xml:lang="en">Email</label>
+			<label xml:lang="es">Correo-e</label>
+			<label xml:lang="fr">Courriel</label>
+			<label xml:lang="ar">بريد إلكتروني</label>
+			<label xml:lang="zh">电子邮件(简写为EM; E-mail)</label>
+			<label xml:lang="ru">Эл. почта</label>
+		</node>
+	</nodes>
+	<tags>
+		<tag ID="FAOfullname">
+			<label xml:lang="en">Food and Agriculture Organization of the United Nations</label>
+			<label xml:lang="fr">Organisation des Nations Unies pour l'alimentation et l'agriculture</label>
+			<label xml:lang="es">Organización de las Naciones Unidas para la  Alimentación y la Agricultura</label>
+			<label xml:lang="zh">联合国粮食及农业组织</label>
+			<label xml:lang="ar">منظمة الأغذية والزراعة للأمم المتحدة</label>
+			<label xml:lang="ru">Продовольственная и сельскохозяйственная организация Объединенных Наций</label>
+		</tag>
+		<tag ID="FAOslogan">
+			<label xml:lang="en">for a world without hunger</label>
+			<label xml:lang="fr">pour un monde libéré de la faim</label>
+			<label xml:lang="es">para un mundo sin hambre</label>
+			<label xml:lang="ar">من أجل عالم متحرر من الجوع</label>
+			<label xml:lang="zh">为了一个无饥饿的世界</label>
+			<label xml:lang="ru">за мир без голода</label>
+		</tag>
+		<tag ID="FisheriesAnd">
+			<label xml:lang="en">Fisheries and</label>
+			<label xml:lang="fr">Département des</label>
+			<label xml:lang="es">Departamento de</label>
+			<label xml:lang="ar">إدارة تربية الأحياء المائية</label>
+			<label xml:lang="zh">渔业和</label>
+			<label xml:lang="ru">Департамент рыбного</label>
+		</tag>
+		<tag ID="AquacultureDepartment">
+			<label xml:lang="en">Aquaculture Department</label>
+			<label xml:lang="fr">pêches et de l'aquaculture</label>
+			<label xml:lang="es">Pesca y Acuicultura</label>
+			<label xml:lang="ar">مصايد الأسماك و</label>
+			<label xml:lang="zh">水产养殖部</label>
+			<label xml:lang="ru">хозяйства и аквакультуры</label>
+		</tag>
+		<tag ID="NemsRespofficer">
+			<label xml:lang="en">Further information: </label>
+			<label xml:lang="fr">Pour d'ultérieures informations: </label>
+			<label xml:lang="es">Para más información: </label>
+			<label xml:lang="ar">لمزيد من المعلوما:  </label>
+			<label xml:lang="zh">详细信息: </label>
+			<label xml:lang="ru">Дополнительная информация: </label>
+		</tag>
+		<tag ID="NemsContinent">
+			<label xml:lang="en">Continental coverage: </label>
+			<label xml:lang="fr">Couverture géographique: </label>
+			<label xml:lang="es">Cobertura geográfica: </label>
+			<label xml:lang="ar">تغطية قارية: </label>
+			<label xml:lang="zh">大陆覆盖范围: </label>
+			<label xml:lang="ru">География участников: </label>
+		</tag>
+		<tag ID="NemsEventurl">
+			<label xml:lang="en">Documents: </label>
+			<label xml:lang="fr">Documents: </label>
+			<label xml:lang="es">Documentos: </label>
+			<label xml:lang="ar">وثائق: </label>
+			<label xml:lang="zh">文件: </label>
+			<label xml:lang="ru">Документы : </label>
+		</tag>
+		<tag ID="FAOCopyText">
+			<label xml:lang="en">© FAO</label>
+		</tag>
+		<tag ID="ShortMonth1">
+			<label xml:lang="en">January</label>
+			<label xml:lang="fr">Janvier</label>
+			<label xml:lang="es">Enero</label>
+			<label xml:lang="ar">يناير/ كانون الثاني</label>
+			<label xml:lang="zh">1 月</label>
+			<label xml:lang="ru">Январь </label>
+		</tag>
+		<tag ID="ShortMonth2">
+			<label xml:lang="en">February</label>
+			<label xml:lang="fr">Février</label>
+			<label xml:lang="es">Febrero</label>
+			<label xml:lang="ar">فبراير/شباط</label>
+			<label xml:lang="zh">2 月</label>
+			<label xml:lang="ru">Февраль</label>
+		</tag>
+		<tag ID="ShortMonth3">
+			<label xml:lang="en">March</label>
+			<label xml:lang="fr">Mars</label>
+			<label xml:lang="es">Marzo</label>
+			<label xml:lang="ar">مارس/آذار</label>
+			<label xml:lang="zh">3 月</label>
+			<label xml:lang="ru">Март </label>
+		</tag>
+		<tag ID="ShortMonth4">
+			<label xml:lang="en">April</label>
+			<label xml:lang="fr">Avril</label>
+			<label xml:lang="es">Abril</label>
+			<label xml:lang="ar">أبريل/نيسان</label>
+			<label xml:lang="zh">4 月</label>
+			<label xml:lang="ru">Эйприл</label>
+		</tag>
+		<tag ID="ShortMonth5">
+			<label xml:lang="en">May</label>
+			<label xml:lang="fr">Mai</label>
+			<label xml:lang="es">Mayo</label>
+			<label xml:lang="ar">ماي/أيار</label>
+			<label xml:lang="zh">5 月</label>
+			<label xml:lang="ru">Январь </label>
+		</tag>
+		<tag ID="ShortMonth6">
+			<label xml:lang="en">June</label>
+			<label xml:lang="fr">Juin</label>
+			<label xml:lang="es">Junio</label>
+			<label xml:lang="ar">يونيو/حزيران</label>
+			<label xml:lang="zh">6 月</label>
+			<label xml:lang="ru">Джун</label>
+		</tag>
+		<tag ID="ShortMonth7">
+			<label xml:lang="en">July</label>
+			<label xml:lang="fr">Juillet</label>
+			<label xml:lang="es">Julio</label>
+			<label xml:lang="ar">يوليوز/تمّوز</label>
+			<label xml:lang="zh">7 月</label>
+			<label xml:lang="ru">Июль</label>
+		</tag>
+		<tag ID="ShortMonth8">
+			<label xml:lang="en">August</label>
+			<label xml:lang="fr">Août</label>
+			<label xml:lang="es">Agosto</label>
+			<label xml:lang="ar">أغسطس/آب</label>
+			<label xml:lang="zh">8 月</label>
+			<label xml:lang="ru">Июль</label>
+		</tag>
+		<tag ID="ShortMonth9">
+			<label xml:lang="en">September</label>
+			<label xml:lang="fr">Septembre</label>
+			<label xml:lang="es">Septiembre</label>
+			<label xml:lang="ar">شتنبر/أيلول</label>
+			<label xml:lang="zh">9 月</label>
+			<label xml:lang="ru">Сентябрь </label>
+		</tag>
+		<tag ID="ShortMonth10">
+			<label xml:lang="en">October</label>
+			<label xml:lang="fr">Octobre</label>
+			<label xml:lang="es">Octubre</label>
+			<label xml:lang="ar">أكتوبر/تشرين الأول</label>
+			<label xml:lang="zh">10 月</label>
+			<label xml:lang="ru">Октябрь </label>
+		</tag>
+		<tag ID="ShortMonth11">
+			<label xml:lang="en">November</label>
+			<label xml:lang="fr">Novembre</label>
+			<label xml:lang="es">Noviembre</label>
+			<label xml:lang="ar">نونبر/ تشرين الثاني</label>
+			<label xml:lang="zh">11 月</label>
+			<label xml:lang="ru">Ноябрь </label>
+		</tag>
+		<tag ID="ShortMonth12">
+			<label xml:lang="en">December</label>
+			<label xml:lang="fr">Décembre</label>
+			<label xml:lang="es">diciembre</label>
+			<label xml:lang="ar">دجنبر/ كانون الأول</label>
+			<label xml:lang="zh">12 月</label>
+			<label xml:lang="ru">Декабрь </label>
+		</tag>
+		<tag ID="FigisMapDisclaimer">
+			<label xml:lang="en">The designations employed and the presentation of material in the map(s) are for illustration only and do not imply the expression of any opinion whatsoever on the part of FAO concerning the legal or constitutional status of any country, territory or sea area, or concerning the delimitation of frontiers or boundaries.</label>
+			<label xml:lang="es">Las denominaciones empleadas en los mapas y la forma en que aparecen presentados los datos tienen fines ilustrativos solamente y no implican, por parte de la FAO, juicio alguno sobre la condición jurídica de países, territorios o zonas marítimas, ni respecto de la delimitación de sus fronteras o confines.</label>
+			<label xml:lang="fr">Les appellations employées et la présentation des données sur la carte vise uniquement à illustrer le propos et n'impliquent de la part de la FAO aucune prise de position quant au statut juridique ou constitutionnel des pays, territoires ou zones maritimes, ni quant au tracé de leurs frontières ou limites.</label>
+			<label xml:lang="zh">地图中使用的名称和介绍的材料仅用于说明目的，并不意味着粮农组织对任何国家、领土或海域的法律或宪法地位、或其国界或边界的划分表示任何意见。</label>
+			<label xml:lang="ar">الأوصاف المستخدمة في الخرائط وطريقة عرض موضوعاتها ترد على سبيل التوضيح فقط ولا تعبر عن أي رأى خاص لمنظمة الأغذية والزراعة للأمم المتحدة في ما يتعلق بالوضع القانوني أو الدستوري لأي بلد أو إقليم أو مجال بحري، أو في ما يتعلق بتعيين حدود أو تخوم كل منها</label>
+			<label xml:lang="ru">Используемые обозначения и представление материала на карте (картах) преследуют исключительно иллюстративные цели и не подразумевают выражения какого-либо мнения со стороны ФАО относительно правового или конституционного статуса той или иной страны, территории или морского района или относительно делимитации границ или рубежей.</label>
+		</tag>
+		<tag ID="DisclaimerLabel" Identifier="DisclaimerLabel">
+			<label xml:lang="en">Disclaimer</label>
+			<label xml:lang="fr">Clause limitative de responsabilité</label>
+			<label xml:lang="es">Descargo de responsabilidad</label>
+			<label xml:lang="zh">免责声明 </label>
+			<label xml:lang="ar">تنويه</label>
+			<label xml:lang="ru">Ограничительная оговорка</label>
+		</tag>
+		<tag ID="MapLegend" Identifier="MapLegend">
+			<label xml:lang="en">Map legend</label>
+			<label xml:lang="es">Clave del mapa</label>
+			<label xml:lang="fr">Légende de carte</label>
+			<label xml:lang="ar">عنوان تفسيري للخريطة</label>
+			<label xml:lang="zh">地图图例</label>
+			<label xml:lang="ru">Условные обозначения</label>
+		</tag>
+		<tag ID="MapLegendTopText" Identifier="MapLegendTopText">
+			<label xml:lang="en"> </label>
+			<label xml:lang="es"> </label>
+			<label xml:lang="ar"> </label>
+			<label xml:lang="fr"> </label>
+			<label xml:lang="zh"> </label>
+			<label xml:lang="ru"> </label>
+		</tag>
+		<tag ID="MapLegendBottomText" Identifier="MapLegendBottomText">
+			<label xml:lang="en"><![CDATA[
+			<b>Map tips</b>
+			<ul>
+				<li>Click on <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> to turn layers on and off </li>
+				<li>Double-click to zoom in</li>
+				<li>Drag to pan</li>
+				<li>Hold down the shift key and drag to zoom to a particular region </li>
+			</ul>
+			]]></label>
+			<label xml:lang="es"><![CDATA[
+			<b>Consejos para los mapas</b>
+			<ul>
+				<li>Haga clic <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> para pasar las capas y detenerlas</li>
+				<li>Haga doble clic para acercar la imagen</li>
+				<li>Arrastre a la bandeja</li>
+				<li>Oprima la tecla de las mayúsculas y arrastre para acercarse a una región determinada</li>
+			</ul>
+			]]></label>
+			<label xml:lang="ar"><![CDATA[
+			<b>إرشادات بشأن الخريطة</b>
+			<ul>
+				<li>أنقر على  <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> لتحويل الطبقات من آن لآخر</li>
+				<li>انقر نقرا مزدوجا لتكبير الحجم</li>
+				<li>اسحب للتدوير</li>
+				<li>إضغط على مفتاح التنقل واسحب لتكبير حجم منطقة معينة </li>
+			</ul>
+			]]></label>
+			<label xml:lang="fr"><![CDATA[
+			<b>Conseils pour les cartes</b>
+			<ul>
+				<li>Cliquer sur <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> ouvrir et fermer les couches  </li>
+				<li>Cliquer deux fois pour zoomer</li>
+				<li>Glisser pour visualiser</li>
+				<li>Bloquer  la touche majuscule et glisser pour zoomer sur une région particulière</li>
+			</ul>
+			]]></label>
+			<label xml:lang="zh"><![CDATA[
+			<b>地图提示</b>
+			<ul>
+				<li>点击 <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> 打开和关闭图层</li>
+				<li>双击放大</li>
+				<li>拖动平移</li>
+				<li>按住Shift键并拖动放大特定区域</li>
+			</ul>
+			]]></label>
+			<label xml:lang="ru"><![CDATA[
+			<b>Ярлыки</b>
+			<ul>
+				<li>Нажать на <img src="http://www.fao.org/figis/geoserver/factsheets/js/img/layer-switcher-maximize.png" border="0" Alt="+" align="abs-middle" width="12"/> включить и отключить уровни </li>
+				<li>Увеличить изображение двойным щелчком</li>
+				<li>Перетаскивать мышью для просмотра панорамного изображения</li>
+				<li>Увеличить изображение определенного региона, перетаскивая мышью и удерживая клавишу Shift</li>
+			</ul>
+			]]></label>
+		</tag>
+		<tag ID="FigisMapRfbViewerUrl">
+			<label xml:lang="en">http://www.fao.org/fishery/rfb/mapviewer</label>
+		</tag>
+		<tag ID="FigisMapRfbViewerLabel">
+			<label xml:lang="en">Launch the RFBs map viewer</label>
+			<label xml:lang="es">Inicie el visualizador de mapas de la ORP</label>
+			<label xml:lang="fr">Lancer le visualiseur de cartes des ORP</label>
+			<label xml:lang="zh">启动区域渔业机构地图浏览器</label>
+			<label xml:lang="ar">إبدأ عرض خريطة هيئات مصائد الأسماك الإقليمية</label>
+			<label xml:lang="ru">Запустить программу просмотра карты региональных органов по рыбному хозяйству</label>
+		</tag>
+		<tag ID="FigisMapSpeciesViewerUrl">
+			<label xml:lang="en">http://www.fao.org/figis/geoserver/factsheets/species.html</label>
+		</tag>
+		<tag ID="FigisMapSpeciesViewerLabel">
+			<label xml:lang="en">Launch the Aquatic Species Distribution map viewer</label>
+			<label xml:lang="es">Inicie el visualizador de mapas de la distribución de las especies acuáticas</label>
+			<label xml:lang="fr">Lancer le visualiseur de cartes de la distribution des espèces aquatiques</label>
+			<label xml:lang="zh">启动水生种类分布图浏览器</label>
+			<label xml:lang="ar">إبدأ عرض خريطة توزيع الأنواع المائية</label>
+			<label xml:lang="ru">Запустить программу просмотра карты распространения водных биоресурсов</label>
+		</tag>
+		<tag ID="FigisMapSpeciesDistributionLegendSection">
+			<label xml:lang="en">Species distribution</label>
+			<label xml:lang="es">Distribución de las especies</label>
+			<label xml:lang="fr">Distribution des espèces</label>
+			<label xml:lang="zh">种类分布</label>
+			<label xml:lang="ar">توزيع الأنواع</label>
+			<label xml:lang="ru">Распространение видов</label>
+		</tag>
+		<tag ID="fullList">
+			<label xml:lang="en">...full list</label>
+			<label xml:lang="fr">...liste complète</label>
+			<label xml:lang="es">...lista completa</label>
+			<label xml:lang="ar">...القائمة الكاملة</label>
+			<label xml:lang="zh">...完整列表</label>
+			<label xml:lang="ru">...полный список</label>
+		</tag>
+		<tag ID="shortList">
+			<label xml:lang="en">back to short list</label>
+			<label xml:lang="fr">revenez à la liste courte</label>
+			<label xml:lang="es">vuelva a la lista corta</label>
+			<label xml:lang="ar">back to short list</label>
+			<label xml:lang="zh">back to short list</label>
+			<label xml:lang="ru">back to short list</label>
+		</tag>
+		<tag ID="internetResource">
+			<label xml:lang="en">Internet resource</label>
+			<label xml:lang="fr">Internet resource</label>
+			<label xml:lang="es">Internet resource</label>
+			<label xml:lang="ar">Internet resource</label>
+			<label xml:lang="zh">Internet resource</label>
+			<label xml:lang="ru">Internet resource</label>
+		</tag>
+		<tag ID="TopOfPage">
+			<label xml:lang="en">Top of Page</label>
+			<label xml:lang="fr">Top of Page</label>
+			<label xml:lang="es">Top of Page</label>
+			<label xml:lang="ar">Top of Page</label>
+			<label xml:lang="zh">Top of Page</label>
+			<label xml:lang="ru">Top of Page</label>
+		</tag>
+	</tags>
+</labels>

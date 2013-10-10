@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<tags>
+		<tag FAOLEX="AFGHANISTAN" FID="2" ID="AFG" ISO2="AF" ISO3="AFG" UNDP="AFG">
+			<label xml:lang="en">Afghanistan</label>
+			<label xml:lang="fr">Afghanistan</label>
+			<label xml:lang="es">Afganistán</label>
+			<label xml:lang="ar">أفغانستان</label>
+			<label xml:lang="zh">阿富汗</label>
+			<label xml:lang="ru">Афганистан</label>
+		</tag>
+		<tag FAOLEX="ALBANIA" FID="3" ID="ALB" ISO2="AL" ISO3="ALB" UNDP="ALB">
+			<label xml:lang="en">Albania</label>
+			<label xml:lang="fr">Albanie</label>
+			<label xml:lang="es">Albania</label>
+			<label xml:lang="ar">ألبانيا</label>
+			<label xml:lang="zh">阿尔巴尼亚</label>
+			<label xml:lang="ru">Албания</label>
+		</tag>
+		<tag FAOLEX="ALGERIA" FID="4" ID="DZA" ISO2="DZ" ISO3="DZA" UNDP="ALG">
+			<label xml:lang="en">Algeria</label>
+			<label xml:lang="fr">Algérie</label>
+			<label xml:lang="es">Argelia</label>
+			<label xml:lang="ar">الجزائر</label>
+			<label xml:lang="zh">阿尔及利亚</label>
+			<label xml:lang="ru">Алжир</label>
+		</tag>
+		<tag FAOLEX="AMERICAN SAMOA (USA)" FID="5" ID="ASM" ISO2="AS" ISO3="ASM" UNDP="AMS">
+			<label xml:lang="en">American Samoa</label>
+			<label xml:lang="fr">Samoa américaines</label>
+			<label xml:lang="es">Samoa Americana</label>
+		</tag>
+		<tag FAOLEX="ANDORRA" FID="6" ID="AND" ISO2="AD" ISO3="AND" UNDP="AND">
+			<label xml:lang="en">Andorra</label>
+			<label xml:lang="fr">Andorre</label>
+			<label xml:lang="es">Andorra</label>
+			<label xml:lang="ar">أندورا</label>
+			<label xml:lang="zh">安道尔</label>
+			<label xml:lang="ru">Андорра</label>
+		</tag>
+		<tag FAOLEX="ANGOLA" FID="7" ID="AGO" ISO2="AO" ISO3="AGO" UNDP="ANG">
+			<label xml:lang="en">Angola</label>
+			<label xml:lang="fr">Angola</label>
+			<label xml:lang="es">Angola</label>
+			<label xml:lang="ar">أنغولا</label>
+			<label xml:lang="zh">安哥拉</label>
+			<label xml:lang="ru">Ангола</label>
+		</tag>
+		<tag FAOLEX="ANGUILLA (UK)" FID="258" ID="AIA" ISO2="AI" ISO3="AIA" UNDP="ANL">
+			<label xml:lang="en">Anguilla</label>
+			<label xml:lang="fr">Anguilla</label>
+			<label xml:lang="es">Anguila</label>
+		</tag>
+		<tag FID="30" ID="ATA" ISO2="AQ" ISO3="ATA">
+			<label xml:lang="en">Antarctica</label>
+			<label xml:lang="fr">Antarctica</label>
+			<label xml:lang="es">Antarctica</label>
+		</tag>
+		<tag FAOLEX="ANTIGUA AND BARBUDA" FID="8" ID="ATG" ISO2="AG" ISO3="ATG" UNDP="ANT">
+			<label xml:lang="en">Antigua and Barbuda</label>
+			<label xml:lang="fr">Antigua-et-Barbuda</label>
+			<label xml:lang="es">Antigua y Barbuda</label>
+			<label xml:lang="ar">أنتيغوا وباربودا</label>
+			<label xml:lang="zh">安提瓜和巴布达</label>
+			<label xml:lang="ru">Антигуа и Барбуда</label>
+		</tag>
+		<tag FAOLEX="ARGENTINA" FID="9" ID="ARG" ISO2="AR" ISO3="ARG" UNDP="ARG">
+			<label xml:lang="en">Argentina</label>
+			<label xml:lang="fr">Argentine</label>
+			<label xml:lang="es">Argentina</label>
+			<label xml:lang="ar">الأرجنتين</label>
+			<label xml:lang="zh">阿根廷</label>
+			<label xml:lang="ru">Аргентина</label>
+		</tag>
+		<tag FAOLEX="ARMENIA" FID="1" ID="ARM" ISO2="AM" ISO3="ARM" UNDP="ARM">
+			<label xml:lang="en">Armenia</label>
+			<label xml:lang="fr">Arménie</label>
+			<label xml:lang="es">Armenia</label>
+			<label xml:lang="ar">أرمينيا</label>
+			<label xml:lang="zh">亚美尼亚</label>
+			<label xml:lang="ru">Армения</label>
+		</tag>
+		<tag FAOLEX="ARUBA (NETHERLANDS)" FID="22" ID="ABW" ISO2="AW" ISO3="ABW">
+			<label xml:lang="en">Aruba</label>
+			<label xml:lang="fr">Aruba</label>
+			<label xml:lang="es">Aruba</label>
+		</tag>
+		<tag FAOLEX="AUSTRALIA" FID="10" ID="AUS" ISO2="AU" ISO3="AUS" UNDP="AUL">
+			<label xml:lang="en">Australia</label>
+			<label xml:lang="fr">Australie</label>
+			<label xml:lang="es">Australia</label>
+			<label xml:lang="ar">أستراليا</label>
+			<label xml:lang="zh">澳大利亚</label>
+			<label xml:lang="ru">Австралия</label>
+		</tag>
+		<tag FAOLEX="AUSTRIA" FID="11" ID="AUT" ISO2="AT" ISO3="AUT" UNDP="AUS">
+			<label xml:lang="en">Austria</label>
+			<label xml:lang="fr">Autriche</label>
+			<label xml:lang="es">Austria</label>
+			<label xml:lang="ar">النمسا</label>
+			<label xml:lang="zh">奥地利</label>
+			<label xml:lang="ru">Австрия</label>
+		</tag>
+		<tag FAOLEX="AZERBAIJAN" FID="52" ID="AZE" ISO2="AZ" ISO3="AZE" UNDP="AZE">
+			<label xml:lang="en">Azerbaijan</label>
+			<label xml:lang="fr">Azerbaïdjan</label>
+			<label xml:lang="es">Azerbaiyán</label>
+			<label xml:lang="ar">أذربيجان</label>
+			<label xml:lang="zh">阿塞拜疆</label>
+			<label xml:lang="ru">Азербайджан</label>
+		</tag>
+		<tag FAOLEX="BAHAMAS" FID="12" ID="BHS" ISO2="BS" ISO3="BHS" UNDP="BHA">
+			<label xml:lang="en">Bahamas</label>
+			<label xml:lang="fr">Bahamas</label>
+			<label xml:lang="es">Bahamas</label>
+			<label xml:lang="ar">جزر البهاما</label>
+			<label xml:lang="zh">巴哈马</label>
+			<label xml:lang="ru">Багамские Острова</label>
+		</tag>
+		<tag FAOLEX="BAHRAIN" FID="13" ID="BHR" ISO2="BH" ISO3="BHR" UNDP="BAH">
+			<label xml:lang="en">Bahrain</label>
+			<label xml:lang="fr">Bahreïn</label>
+			<label xml:lang="es">Bahrein</label>
+			<label xml:lang="ar">البحرين</label>
+			<label xml:lang="zh">巴 林</label>
+			<label xml:lang="ru">Бахрейн</label>
+		</tag>
+		<tag FAOLEX="BANGLADESH" FID="16" ID="BGD" ISO2="BD" ISO3="BGD" UNDP="BGD">
+			<label xml:lang="en">Bangladesh</label>
+			<label xml:lang="fr">Bangladesh</label>
+			<label xml:lang="es">Bangladesh</label>
+			<label xml:lang="ar">بنغلاديش</label>
+			<label xml:lang="zh">孟加拉国</label>
+			<label xml:lang="ru">Бангладеш</label>
+		</tag>
+		<tag FAOLEX="BARBADOS" FID="14" ID="BRB" ISO2="BB" ISO3="BRB" UNDP="BAR">
+			<label xml:lang="en">Barbados</label>
+			<label xml:lang="fr">Barbade</label>
+			<label xml:lang="es">Barbados</label>
+			<label xml:lang="ar">بربادوس</label>
+			<label xml:lang="zh">巴巴多斯</label>
+			<label xml:lang="ru">Барбадос</label>
+		</tag>
+		<tag FAOLEX="BELARUS" FID="57" ID="BLR" ISO2="BY" ISO3="BLR" UNDP="BYE">
+			<label xml:lang="en">Belarus</label>
+			<label xml:lang="fr">Bélarus</label>
+			<label xml:lang="es">Belarús</label>
+			<label xml:lang="ar">بيلاروس</label>
+			<label xml:lang="zh">白俄罗斯</label>
+			<label xml:lang="ru">Беларусь</label>
+		</tag>
+		<tag FAOLEX="BELGIUM" FID="255" ID="BEL" ISO2="BE" ISO3="BEL" UNDP="BEL">
+			<label xml:lang="en">Belgium</label>
+			<label xml:lang="fr">Belgique</label>
+			<label xml:lang="es">Bélgica</label>
+			<label xml:lang="ar">بلجيكا</label>
+			<label xml:lang="zh">比利时</label>
+			<label xml:lang="ru">Бельгия</label>
+		</tag>
+		<tag FAOLEX="BELIZE" FID="23" ID="BLZ" ISO2="BZ" ISO3="BLZ" UNDP="BZE">
+			<label xml:lang="en">Belize</label>
+			<label xml:lang="fr">Belize</label>
+			<label xml:lang="es">Belice</label>
+			<label xml:lang="ar">بليز</label>
+			<label xml:lang="zh">伯利兹</label>
+			<label xml:lang="ru">Белиз</label>
+		</tag>
+		<tag FAOLEX="BENIN" FID="53" ID="BEN" ISO2="BJ" ISO3="BEN" UNDP="BEN">
+			<label xml:lang="en">Benin</label>
+			<label xml:lang="fr">Bénin</label>
+			<label xml:lang="es">Benin</label>
+			<label xml:lang="ar">بنن</label>
+			<label xml:lang="zh">贝 宁</label>
+			<label xml:lang="ru">Бенин</label>
+		</tag>
+		<tag FAOLEX="BERMUDA (UK)" FID="17" ID="BMU" ISO2="BM" ISO3="BMU" UNDP="BER">
+			<label xml:lang="en">Bermuda</label>
+			<label xml:lang="fr">Bermudes</label>
+			<label xml:lang="es">Bermudas</label>
+		</tag>
+		<tag FAOLEX="BHUTAN" FID="18" ID="BTN" ISO2="BT" ISO3="BTN" UNDP="BHU">
+			<label xml:lang="en">Bhutan</label>
+			<label xml:lang="fr">Bhoutan</label>
+			<label xml:lang="es">Bhután</label>
+			<label xml:lang="ar">بوتان</label>
+			<label xml:lang="zh">不 丹</label>
+			<label xml:lang="ru">Бутан</label>
+		</tag>
+		<tag FAOLEX="BOLIVIA" FID="19" ID="BOL" ISO2="BO" ISO3="BOL" UNDP="BOL">
+			<label xml:lang="en">Bolivia</label>
+			<label xml:lang="fr">Bolivie</label>
+			<label xml:lang="es">Bolivia</label>
+			<label xml:lang="ar">بوليفيا (دولة - المتعددة القوميات)</label>
+			<label xml:lang="zh">玻利维亚（多民族国）</label>
+			<label xml:lang="ru">Боливия (Многонациогнальное Государство)</label>
+		</tag>
+		<tag FAOLEX="BOSNIA AND HERZEGOVINA" FID="80" ID="BIH" ISO2="BA" ISO3="BIH" UNDP="BIH">
+			<label xml:lang="en">Bosnia and Herzegovina</label>
+			<label xml:lang="fr">Bosnie-Herzégovine</label>
+			<label xml:lang="es">Bosnia y Herzegovina</label>
+			<label xml:lang="ar">البوسنة والهرسك</label>
+			<label xml:lang="zh">波斯尼亚－黑塞哥维那</label>
+			<label xml:lang="ru">Босния и Герцеговина</label>
+		</tag>
+		<tag FAOLEX="BOTSWANA" FID="20" ID="BWA" ISO2="BW" ISO3="BWA" UNDP="BOT">
+			<label xml:lang="en">Botswana</label>
+			<label xml:lang="fr">Botswana</label>
+			<label xml:lang="es">Botswana</label>
+			<label xml:lang="ar">بوتسوانا</label>
+			<label xml:lang="zh">博茨瓦纳</label>
+			<label xml:lang="ru">Ботсвана</label>
+		</tag>
+		<tag FID="31" ID="BVT" ISO2="BV" ISO3="BVT">
+			<label xml:lang="en">Bouvet Island</label>
+			<label xml:lang="fr">Bouvet Island</label>
+			<label xml:lang="es">Bouvet Island</label>
+		</tag>
+		<tag FAOLEX="BRAZIL" FID="21" ID="BRA" ISO2="BR" ISO3="BRA" UNDP="BRA">
+			<label xml:lang="en">Brazil</label>
+			<label xml:lang="fr">Brésil</label>
+			<label xml:lang="es">Brasil</label>
+			<label xml:lang="ar">البرازيل</label>
+			<label xml:lang="zh">巴 西</label>
+			<label xml:lang="ru">Бразилия</label>
+		</tag>
+		<tag FID="24" ID="IOT" ISO2="IO" ISO3="IOT">
+			<label xml:lang="en">British Indian Ocean Territory</label>
+			<label xml:lang="fr">British Indian Ocean Territory</label>
+			<label xml:lang="es">British Indian Ocean Territory</label>
+		</tag>
+		<tag FAOLEX="BRUNEI DARUSSALAM" FID="26" ID="BRN" ISO2="BN" ISO3="BRN" UNDP="BRU">
+			<label xml:lang="en">Brunei Darussalam</label>
+			<label xml:lang="fr">Brunéi Darussalam</label>
+			<label xml:lang="es">Brunei Darussalam</label>
+		</tag>
+		<tag FAOLEX="BULGARIA" FID="27" ID="BGR" ISO2="BG" ISO3="BGR" UNDP="BUL">
+			<label xml:lang="en">Bulgaria</label>
+			<label xml:lang="fr">Bulgarie</label>
+			<label xml:lang="es">Bulgaria</label>
+			<label xml:lang="ar">بلغاريا</label>
+			<label xml:lang="zh">保加利亚</label>
+			<label xml:lang="ru">Болгария</label>
+		</tag>
+		<tag FAOLEX="BURKINA FASO" FID="233" ID="BFA" ISO2="BF" ISO3="BFA" UNDP="BKF">
+			<label xml:lang="en">Burkina Faso</label>
+			<label xml:lang="fr">Burkina Faso</label>
+			<label xml:lang="es">Burkina Faso</label>
+			<label xml:lang="ar">بوركينا فاسو</label>
+			<label xml:lang="zh">布基纳法索</label>
+			<label xml:lang="ru">Буркина-Фасо</label>
+		</tag>
+		<tag FAOLEX="BASSAS DA INDIA (France)" FID="29" ID="BDI" ISO2="BI" ISO3="BDI" UNDP="BDI">
+			<label xml:lang="en">Burundi</label>
+			<label xml:lang="fr">Burundi</label>
+			<label xml:lang="es">Burundi</label>
+			<label xml:lang="ar">بوروندي</label>
+			<label xml:lang="zh">布隆迪</label>
+			<label xml:lang="ru">Бурунди</label>
+		</tag>
+		<tag FAOLEX="CAMBODIA" FID="115" ID="KHM" ISO2="KH" ISO3="KHM" UNDP="CMB">
+			<label xml:lang="en">Cambodia</label>
+			<label xml:lang="fr">Cambodge</label>
+			<label xml:lang="es">Camboya</label>
+			<label xml:lang="ar">كمبوديا</label>
+			<label xml:lang="zh">柬埔寨</label>
+			<label xml:lang="ru">Камбоджа</label>
+		</tag>
+		<tag FAOLEX="CAMEROON" FID="32" ID="CMR" ISO2="CM" ISO3="CMR" UNDP="CMR">
+			<label xml:lang="en">Cameroon</label>
+			<label xml:lang="fr">Cameroun</label>
+			<label xml:lang="es">Camerún</label>
+			<label xml:lang="ar">الكاميرون</label>
+			<label xml:lang="zh">喀麦隆</label>
+			<label xml:lang="ru">Камерун</label>
+		</tag>
+		<tag FAOLEX="CANADA" FID="33" ID="CAN" ISO2="CA" ISO3="CAN" UNDP="CAN">
+			<label xml:lang="en">Canada</label>
+			<label xml:lang="fr">Canada</label>
+			<label xml:lang="es">Canadá</label>
+			<label xml:lang="ar">كندا</label>
+			<label xml:lang="zh">加拿大</label>
+			<label xml:lang="ru">Канада</label>
+		</tag>
+		<tag FAOLEX="CAPE VERDE" FID="35" ID="CPV" ISO2="CV" ISO3="CPV" UNDP="CVI">
+			<label xml:lang="en">Cape Verde</label>
+			<label xml:lang="fr">Cap-Vert</label>
+			<label xml:lang="es">Cabo Verde</label>
+			<label xml:lang="ar">الرأس الأخضر</label>
+			<label xml:lang="zh">佛得角</label>
+			<label xml:lang="ru">Кабо-Верде</label>
+		</tag>
+		<tag FAOLEX="CAYMAN ISLANDS (UK)" FID="36" ID="CYM" ISO2="KY" ISO3="CYM" UNDP="CAY">
+			<label xml:lang="en">Cayman Islands</label>
+			<label xml:lang="fr">Îles Caïmanes ; Îles Caïmans</label>
+			<label xml:lang="es">Islas Caimán</label>
+		</tag>
+		<tag FAOLEX="CENTRAL AFRICAN REPUBLIC" FID="37" ID="CAF" ISO2="CF" ISO3="CAF" UNDP="CAF">
+			<label xml:lang="en">Central African Republic</label>
+			<label xml:lang="fr">République centrafricaine</label>
+			<label xml:lang="es">República Centroafricana</label>
+			<label xml:lang="ar">جمهورية أفريقيا الوسطى</label>
+			<label xml:lang="zh">中非共和国</label>
+			<label xml:lang="ru">Центральноафриканская Республика</label>
+		</tag>
+		<tag FAOLEX="CHAD" FID="39" ID="TCD" ISO2="TD" ISO3="TCD" UNDP="CHD">
+			<label xml:lang="en">Chad</label>
+			<label xml:lang="fr">Tchad</label>
+			<label xml:lang="es">Chad</label>
+			<label xml:lang="ar">تشاد</label>
+			<label xml:lang="zh">乍 得</label>
+			<label xml:lang="ru">Чад</label>
+		</tag>
+		<tag FAOLEX="CHILE" FID="40" ID="CHL" ISO2="CL" ISO3="CHL" UNDP="CHI">
+			<label xml:lang="en">Chile</label>
+			<label xml:lang="fr">Chili</label>
+			<label xml:lang="es">Chile</label>
+			<label xml:lang="ar">شيلى</label>
+			<label xml:lang="zh">智 利</label>
+			<label xml:lang="ru">Чили</label>
+		</tag>
+		<tag FAOLEX="CHINA" FID="41" ID="CHN" ISO2="CN" ISO3="CHN" UNDP="CPR">
+			<label xml:lang="en">China</label>
+			<label xml:lang="fr">Chine</label>
+			<label xml:lang="es">China</label>
+			<label xml:lang="ar">الصين</label>
+			<label xml:lang="zh">中 国</label>
+			<label xml:lang="ru">Китай</label>
+		</tag>
+		<tag FID="42" ID="CXR" ISO2="CX" ISO3="CXR">
+			<label xml:lang="en">Christmas Island</label>
+			<label xml:lang="fr">Christmas Island</label>
+			<label xml:lang="es">Christmas Island</label>
+		</tag>
+		<tag FID="43" ID="CCK" ISO2="CC" ISO3="CCK">
+			<label xml:lang="en">Cocos (Keeling) Islands</label>
+			<label xml:lang="fr">Cocos (Keeling) Islands</label>
+			<label xml:lang="es">Cocos (Keeling) Islands</label>
+		</tag>
+		<tag FAOLEX="COLOMBIA" FID="44" ID="COL" ISO2="CO" ISO3="COL" UNDP="COL">
+			<label xml:lang="en">Colombia</label>
+			<label xml:lang="fr">Colombie</label>
+			<label xml:lang="es">Colombia</label>
+			<label xml:lang="ar">كولومبيا</label>
+			<label xml:lang="zh">哥伦比亚</label>
+			<label xml:lang="ru">Колумбия</label>
+		</tag>
+		<tag FAOLEX="COMOROS" FID="45" ID="COM" ISO2="KM" ISO3="COM" UNDP="COI">
+			<label xml:lang="en">Comoros</label>
+			<label xml:lang="fr">Comores</label>
+			<label xml:lang="es">Comoras</label>
+			<label xml:lang="ar">جزر القمر</label>
+			<label xml:lang="zh">科摩罗</label>
+			<label xml:lang="ru">Коморские Острова</label>
+		</tag>
+		<tag FID="46" ID="COG" ISO2="CG" ISO3="COG" UNDP="PRC">
+			<label xml:lang="en">Congo</label>
+			<label xml:lang="fr">Congo</label>
+			<label xml:lang="es">Congo</label>
+			<label xml:lang="ar">الكونغو</label>
+			<label xml:lang="zh">刚 果</label>
+			<label xml:lang="ru">Конго</label>
+		</tag>
+		<tag FID="250" ID="COD" ISO2="CD" ISO3="COD" UNDP="ZAI">
+			<label xml:lang="en">Democratic Republic of the Congo</label>
+			<label xml:lang="fr">République démocratique du Congo</label>
+			<label xml:lang="es">República Democrática del Congo</label>
+			<label xml:lang="ar">جمهورية الكونغو الديمقراطية</label>
+			<label xml:lang="zh">刚果民主共和国</label>
+			<label xml:lang="ru">Демократическая Республика Конго</label>
+		</tag>
+		<tag FAOLEX="COOK ISLANDS (New Zealand)" FID="47" ID="COK" ISO2="CK" ISO3="COK" UNDP="CKI">
+			<label xml:lang="en">Cook Islands</label>
+			<label xml:lang="fr">Îles Cook</label>
+			<label xml:lang="es">Islas Cook</label>
+			<label xml:lang="ar">جزر كوك</label>
+			<label xml:lang="zh">库克群岛</label>
+			<label xml:lang="ru">Острова Кука</label>
+		</tag>
+		<tag FAOLEX="COSTA RICA" FID="48" ID="CRI" ISO2="CR" ISO3="CRI" UNDP="COS">
+			<label xml:lang="en">Costa Rica</label>
+			<label xml:lang="fr">Costa Rica</label>
+			<label xml:lang="es">Costa Rica</label>
+			<label xml:lang="ar">كوستاريكا</label>
+			<label xml:lang="zh">哥斯达黎加</label>
+			<label xml:lang="ru">Коста-Рика</label>
+		</tag>
+		<tag FAOLEX="COTE D'IVOIRE" FID="107" ID="CIV" ISO2="CI" ISO3="CIV" UNDP="IVC">
+			<label xml:lang="en">Côte d'Ivoire</label>
+			<label xml:lang="fr">Côte d'Ivoire</label>
+			<label xml:lang="es">Côte d'Ivoire</label>
+			<label xml:lang="ar">كوت ديفوار</label>
+			<label xml:lang="zh">科特迪瓦</label>
+			<label xml:lang="ru">Кот-д'Ивуар</label>
+		</tag>
+		<tag FAOLEX="CROATIA" FID="98" ID="HRV" ISO2="HR" ISO3="HRV" UNDP="CRO">
+			<label xml:lang="en">Croatia</label>
+			<label xml:lang="fr">Croatie</label>
+			<label xml:lang="es">Croacia</label>
+			<label xml:lang="ar">كرواتيا</label>
+			<label xml:lang="zh">克罗地亚</label>
+			<label xml:lang="ru">Хорватия</label>
+		</tag>
+		<tag FAOLEX="CUBA" FID="49" ID="CUB" ISO2="CU" ISO3="CUB" UNDP="CUB">
+			<label xml:lang="en">Cuba</label>
+			<label xml:lang="fr">Cuba</label>
+			<label xml:lang="es">Cuba</label>
+			<label xml:lang="ar">كوبا</label>
+			<label xml:lang="zh">古 巴</label>
+			<label xml:lang="ru">Куба</label>
+		</tag>
+		<tag FAOLEX="CYPRUS" FID="50" ID="CYP" ISO2="CY" ISO3="CYP" UNDP="CYP">
+			<label xml:lang="en">Cyprus</label>
+			<label xml:lang="fr">Chypre</label>
+			<label xml:lang="es">Chipre</label>
+			<label xml:lang="ar">قبرص</label>
+			<label xml:lang="zh">塞浦路斯</label>
+			<label xml:lang="ru">Кипр</label>
+		</tag>
+		<tag FAOLEX="CZECH REPUBLIC" FID="167" ID="CZE" ISO2="CZ" ISO3="CZE" UNDP="CEH">
+			<label xml:lang="en">Czech Republic</label>
+			<label xml:lang="fr">République tchèque</label>
+			<label xml:lang="es">República Checa</label>
+			<label xml:lang="ar">الجمهورية التشيكية</label>
+			<label xml:lang="zh">捷克共和国</label>
+			<label xml:lang="ru">Чешская Республика</label>
+		</tag>
+		<tag FAOLEX="DENMARK" FID="54" ID="DNK" ISO2="DK" ISO3="DNK" UNDP="DEN">
+			<label xml:lang="en">Denmark</label>
+			<label xml:lang="fr">Danemark</label>
+			<label xml:lang="es">Dinamarca</label>
+			<label xml:lang="ar">الدانمرك</label>
+			<label xml:lang="zh">丹 麦</label>
+			<label xml:lang="ru">Дания</label>
+		</tag>
+		<tag FAOLEX="DJIBOUTI" FID="72" ID="DJI" ISO2="DJ" ISO3="DJI" UNDP="DJI">
+			<label xml:lang="en">Djibouti</label>
+			<label xml:lang="fr">Djibouti</label>
+			<label xml:lang="es">Djibouti</label>
+			<label xml:lang="ar">جيبوتي</label>
+			<label xml:lang="zh">吉布提</label>
+			<label xml:lang="ru">Джибути</label>
+		</tag>
+		<tag FAOLEX="DOMINICA" FID="55" ID="DMA" ISO2="DM" ISO3="DMA" UNDP="DMI">
+			<label xml:lang="en">Dominica</label>
+			<label xml:lang="fr">Dominique</label>
+			<label xml:lang="es">Dominica</label>
+			<label xml:lang="ar">دومينيكا</label>
+			<label xml:lang="zh">多米尼克</label>
+			<label xml:lang="ru">Доминика</label>
+		</tag>
+		<tag FAOLEX="DOMINICAN REPUBLIC" FID="56" ID="DOM" ISO2="DO" ISO3="DOM" UNDP="DOM">
+			<label xml:lang="en">Dominican Republic</label>
+			<label xml:lang="fr">République dominicaine</label>
+			<label xml:lang="es">República Dominicana</label>
+			<label xml:lang="ar">الجمهورية الدومينيكية</label>
+			<label xml:lang="zh">多米尼加共和国</label>
+			<label xml:lang="ru">Доминиканская Республика</label>
+		</tag>
+		<tag FAOLEX="ECUADOR" FID="58" ID="ECU" ISO2="EC" ISO3="ECU" UNDP="ECU">
+			<label xml:lang="en">Ecuador</label>
+			<label xml:lang="fr">Équateur</label>
+			<label xml:lang="es">Ecuador</label>
+			<label xml:lang="ar">إكوادور</label>
+			<label xml:lang="zh">厄瓜多尔</label>
+			<label xml:lang="ru">Эквадор</label>
+		</tag>
+		<tag FAOLEX="EGYPT" FID="59" ID="EGY" ISO2="EG" ISO3="EGY" UNDP="EGY">
+			<label xml:lang="en">Egypt</label>
+			<label xml:lang="fr">Égypte</label>
+			<label xml:lang="es">Egipto</label>
+			<label xml:lang="ar">مصر</label>
+			<label xml:lang="zh">埃 及</label>
+			<label xml:lang="ru">Египет</label>
+		</tag>
+		<tag FAOLEX="SLOVENIA" FID="60" ID="SLV" ISO2="SV" ISO3="SLV" UNDP="ELS">
+			<label xml:lang="en">El Salvador</label>
+			<label xml:lang="fr">El Salvador</label>
+			<label xml:lang="es">El Salvador</label>
+			<label xml:lang="ar">السلفادور</label>
+			<label xml:lang="zh">萨尔瓦多</label>
+			<label xml:lang="ru">Сальвадор</label>
+		</tag>
+		<tag FAOLEX="EQUATORIAL GUINEA" FID="61" ID="GNQ" ISO2="GQ" ISO3="GNQ" UNDP="EQG">
+			<label xml:lang="en">Equatorial Guinea</label>
+			<label xml:lang="fr">Guinée équatoriale</label>
+			<label xml:lang="es">Guinea Ecuatorial</label>
+			<label xml:lang="ar">غينيا الاستوائية</label>
+			<label xml:lang="zh">赤道几内亚</label>
+			<label xml:lang="ru">Экваториальная Гвинея</label>
+		</tag>
+		<tag FAOLEX="ERITREA" FID="178" ID="ERI" ISO2="ER" ISO3="ERI" UNDP="ERI">
+			<label xml:lang="en">Eritrea</label>
+			<label xml:lang="fr">Érythrée</label>
+			<label xml:lang="es">Eritrea</label>
+			<label xml:lang="ar">إريتريا</label>
+			<label xml:lang="zh">厄立特里亚</label>
+			<label xml:lang="ru">Эритрея</label>
+		</tag>
+		<tag FAOLEX="ESTONIA" FID="63" ID="EST" ISO2="EE" ISO3="EST" UNDP="EST">
+			<label xml:lang="en">Estonia</label>
+			<label xml:lang="fr">Estonie</label>
+			<label xml:lang="es">Estonia</label>
+			<label xml:lang="ar">إستونيا</label>
+			<label xml:lang="zh">爱沙尼亚</label>
+			<label xml:lang="ru">Эстония</label>
+		</tag>
+		<tag FAOLEX="ETHIOPIA" FID="238" ID="ETH" ISO2="ET" ISO3="ETH" UNDP="ETH">
+			<label xml:lang="en">Ethiopia</label>
+			<label xml:lang="fr">Éthiopie</label>
+			<label xml:lang="es">Etiopía</label>
+			<label xml:lang="ar">إثيوبيا</label>
+			<label xml:lang="zh">埃塞俄比亚</label>
+			<label xml:lang="ru">Эфиопия</label>
+		</tag>
+		<tag FAOLEX="FALKLAND ISLANDS (UK)" FID="65" ID="FLK" ISO2="FK" ISO3="FLK" UNDP="...">
+			<label xml:lang="en">Falkland Islands</label>
+			<label xml:lang="fr">Îles Falkland</label>
+			<label xml:lang="es">Islas Malvinas</label>
+		</tag>
+		<tag FAOLEX="FAEROE ISLANDS (Denmark)" FID="64" ID="FRO" ISO2="FO" ISO3="FRO" UNDP="...">
+			<label xml:lang="en">Faeroe Islands</label>
+			<label xml:lang="fr">Îles Féroé</label>
+			<label xml:lang="es">Islas Feroe</label>
+			<label xml:lang="ar">جزر فيرويه</label>
+			<label xml:lang="zh">法罗群岛</label>
+			<label xml:lang="ru">Фарерские Острова</label>
+		</tag>
+		<tag FAOLEX="FIJI" FID="66" ID="FJI" ISO2="FJ" ISO3="FJI" UNDP="FIJ">
+			<label xml:lang="en">Fiji</label>
+			<label xml:lang="fr">Fidji</label>
+			<label xml:lang="es">Fiji</label>
+			<label xml:lang="ar">فيجي</label>
+			<label xml:lang="zh">斐 济</label>
+			<label xml:lang="ru">Фиджи</label>
+		</tag>
+		<tag FAOLEX="FINLAND" FID="67" ID="FIN" ISO2="FI" ISO3="FIN" UNDP="FIN">
+			<label xml:lang="en">Finland</label>
+			<label xml:lang="fr">Finlande</label>
+			<label xml:lang="es">Finlandia</label>
+			<label xml:lang="ar">فنلندا</label>
+			<label xml:lang="zh">芬 兰</label>
+			<label xml:lang="ru">Финляндия</label>
+		</tag>
+		<tag FAOLEX="FRANCE" FID="68" ID="FRA" ISO2="FR" ISO3="FRA" UNDP="FRA">
+			<label xml:lang="en">France</label>
+			<label xml:lang="fr">France</label>
+			<label xml:lang="es">Francia</label>
+			<label xml:lang="ar">فرنسا</label>
+			<label xml:lang="zh">法  国</label>
+			<label xml:lang="ru">Франция</label>
+		</tag>
+		<tag FAOLEX="FRENCH GUIANA (FRANCE)" FID="69" ID="GUF" ISO2="GF" ISO3="GUF" UNDP="FGU">
+			<label xml:lang="en">French Guiana</label>
+			<label xml:lang="fr">Guyane française</label>
+			<label xml:lang="es">Guayana francesa</label>
+		</tag>
+		<tag FAOLEX="FRENCH POLYNESIA (FR.)" FID="70" ID="PYF" ISO2="PF" ISO3="PYF" UNDP="FPL">
+			<label xml:lang="en">French Polynesia</label>
+			<label xml:lang="fr">Polynésie française</label>
+			<label xml:lang="es">Polinesia Francesa</label>
+		</tag>
+		<tag FID="71" ID="ATF" ISO2="TF" ISO3="ATF">
+			<label xml:lang="en">French Southern Territories</label>
+			<label xml:lang="fr">French Southern Territories</label>
+			<label xml:lang="es">French Southern Territories</label>
+		</tag>
+		<tag FAOLEX="GABON" FID="74" ID="GAB" ISO2="GA" ISO3="GAB" UNDP="GAB">
+			<label xml:lang="en">Gabon</label>
+			<label xml:lang="fr">Gabon</label>
+			<label xml:lang="es">Gabón</label>
+			<label xml:lang="ar">غابون</label>
+			<label xml:lang="zh">加 蓬</label>
+			<label xml:lang="ru">Габон</label>
+		</tag>
+		<tag FAOLEX="GAMBIA" FID="75" ID="GMB" ISO2="GM" ISO3="GMB" UNDP="GAM">
+			<label xml:lang="en">Gambia</label>
+			<label xml:lang="fr">Gambie</label>
+			<label xml:lang="es">Gambia</label>
+			<label xml:lang="ar">غامبيا</label>
+			<label xml:lang="zh">冈比亚</label>
+			<label xml:lang="ru">Гамбия</label>
+		</tag>
+		<tag FAOLEX="GEORGIA" FID="73" ID="GEO" ISO2="GE" ISO3="GEO" UNDP="GEO">
+			<label xml:lang="en">Georgia</label>
+			<label xml:lang="fr">Géorgie</label>
+			<label xml:lang="es">Georgia</label>
+			<label xml:lang="ar">جورجيا</label>
+			<label xml:lang="zh">格鲁吉亚</label>
+			<label xml:lang="ru">Грузия</label>
+		</tag>
+		<tag FAOLEX="GERMANY" FID="79" ID="DEU" ISO2="DE" ISO3="DEU" UNDP="GER">
+			<label xml:lang="en">Germany</label>
+			<label xml:lang="fr">Allemagne</label>
+			<label xml:lang="es">Alemania</label>
+			<label xml:lang="ar">ألمانيا</label>
+			<label xml:lang="zh">德 国</label>
+			<label xml:lang="ru">Германия</label>
+		</tag>
+		<tag FAOLEX="GHANA" FID="81" ID="GHA" ISO2="GH" ISO3="GHA" UNDP="GHA">
+			<label xml:lang="en">Ghana</label>
+			<label xml:lang="fr">Ghana</label>
+			<label xml:lang="es">Ghana</label>
+			<label xml:lang="ar">غانا</label>
+			<label xml:lang="zh">加 纳</label>
+			<label xml:lang="ru">Гана</label>
+		</tag>
+		<tag FAOLEX="GIBRALTAR (UK)" FID="82" ID="GIB" ISO2="GI" ISO3="GIB" UNDP="GIB">
+			<label xml:lang="en">Gibraltar</label>
+			<label xml:lang="fr">Gibraltar</label>
+			<label xml:lang="es">Gibraltar</label>
+		</tag>
+		<tag FAOLEX="GREECE" FID="84" ID="GRC" ISO2="GR" ISO3="GRC" UNDP="GRE">
+			<label xml:lang="en">Greece</label>
+			<label xml:lang="fr">Grèce</label>
+			<label xml:lang="es">Grecia</label>
+			<label xml:lang="ar">اليونان</label>
+			<label xml:lang="zh">希 腊</label>
+			<label xml:lang="ru">Греция</label>
+		</tag>
+		<tag FAOLEX="GREENLAND (Denmark)" FID="85" ID="GRL" ISO2="GL" ISO3="GRL">
+			<label xml:lang="en">Greenland</label>
+			<label xml:lang="fr">Greenland</label>
+			<label xml:lang="es">Greenland</label>
+		</tag>
+		<tag FAOLEX="GRENADA" FID="86" ID="GRD" ISO2="GD" ISO3="GRD" UNDP="GRN">
+			<label xml:lang="en">Grenada</label>
+			<label xml:lang="fr">Grenade</label>
+			<label xml:lang="es">Granada</label>
+			<label xml:lang="ar">غرينادا</label>
+			<label xml:lang="zh">格林纳达</label>
+			<label xml:lang="ru">Гренада</label>
+		</tag>
+		<tag FAOLEX="GUADELOUPE (France)" FID="87" ID="GLP" ISO2="GP" ISO3="GLP" UNDP="GUD">
+			<label xml:lang="en">Guadeloupe</label>
+			<label xml:lang="fr">Guadeloupe</label>
+			<label xml:lang="es">Guadalupe</label>
+		</tag>
+		<tag FAOLEX="GUAM (USA)" FID="88" ID="GUM" ISO2="GU" ISO3="GUM">
+			<label xml:lang="en">Guam</label>
+			<label xml:lang="fr">Guam</label>
+			<label xml:lang="es">Guam</label>
+		</tag>
+		<tag FAOLEX="GUATEMALA" FID="89" ID="GTM" ISO2="GT" ISO3="GTM" UNDP="GUA">
+			<label xml:lang="en">Guatemala</label>
+			<label xml:lang="fr">Guatemala</label>
+			<label xml:lang="es">Guatemala</label>
+			<label xml:lang="ar">غواتيمالا</label>
+			<label xml:lang="zh">危地马拉</label>
+			<label xml:lang="ru">Гватемала</label>
+		</tag>
+		<tag FAOLEX="GUINEA" FID="90" ID="GIN" ISO2="GN" ISO3="GIN" UNDP="GUI">
+			<label xml:lang="en">Guinea</label>
+			<label xml:lang="fr">Guinée</label>
+			<label xml:lang="es">Guinea</label>
+			<label xml:lang="ar">غينيا</label>
+			<label xml:lang="zh">几内亚</label>
+			<label xml:lang="ru">Гвинея</label>
+		</tag>
+		<tag FAOLEX="GUINEA-BISSAU" FID="175" ID="GNB" ISO2="GW" ISO3="GNB" UNDP="GBS">
+			<label xml:lang="en">Guinea-Bissau</label>
+			<label xml:lang="fr">Guinée-Bissau</label>
+			<label xml:lang="es">Guinea-Bissau</label>
+			<label xml:lang="ar">غينيا - بيساو</label>
+			<label xml:lang="zh">几内亚比绍</label>
+			<label xml:lang="ru">Гвинея-Бисау</label>
+		</tag>
+		<tag FAOLEX="GUYANA" FID="91" ID="GUY" ISO2="GY" ISO3="GUY" UNDP="GUY">
+			<label xml:lang="en">Guyana</label>
+			<label xml:lang="fr">Guyana</label>
+			<label xml:lang="es">Guyana</label>
+			<label xml:lang="ar">غيانا</label>
+			<label xml:lang="zh">圭亚那</label>
+			<label xml:lang="ru">Гайана</label>
+		</tag>
+		<tag FAOLEX="HAITI" FID="93" ID="HTI" ISO2="HT" ISO3="HTI" UNDP="HAI">
+			<label xml:lang="en">Haiti</label>
+			<label xml:lang="fr">Haïti</label>
+			<label xml:lang="es">Haití</label>
+			<label xml:lang="ar">هايتي</label>
+			<label xml:lang="zh">海 地</label>
+			<label xml:lang="ru">Гаити</label>
+		</tag>
+		<tag FID="92" ID="HMD" ISO2="HM" ISO3="HMD">
+			<label xml:lang="en">Heard Island and Mcdonald Islands</label>
+			<label xml:lang="fr">Heard Island and Mcdonald Islands</label>
+			<label xml:lang="es">Heard Island and Mcdonald Islands</label>
+		</tag>
+		<tag FID="95" ID="ISO2" ISO2="VA" ISO3="ISO2" UNDP="HLS">
+			<label xml:lang="en">Holy See</label>
+			<label xml:lang="fr">Saint-Siège</label>
+			<label xml:lang="es">Santa Sede</label>
+		</tag>
+		<tag FAOLEX="HONDURAS" FID="96" ID="HND" ISO2="HN" ISO3="HND" UNDP="HON">
+			<label xml:lang="en">Honduras</label>
+			<label xml:lang="fr">Honduras</label>
+			<label xml:lang="es">Honduras</label>
+			<label xml:lang="ar">هندوراس</label>
+			<label xml:lang="zh">洪都拉斯</label>
+			<label xml:lang="ru">Гондурас</label>
+		</tag>
+		<tag FID="97" ID="HKG" ISO2="HK" ISO3="HKG">
+			<label xml:lang="en">Hong Kong</label>
+			<label xml:lang="fr">Hong Kong</label>
+			<label xml:lang="es">Hong Kong</label>
+		</tag>
+		<tag FAOLEX="HUNGARY" FID="99" ID="HUN" ISO2="HU" ISO3="HUN" UNDP="HUN">
+			<label xml:lang="en">Hungary</label>
+			<label xml:lang="fr">Hongrie</label>
+			<label xml:lang="es">Hungría</label>
+			<label xml:lang="ar">هنغاريا</label>
+			<label xml:lang="zh">匈牙利</label>
+			<label xml:lang="ru">Венгрия</label>
+		</tag>
+		<tag FAOLEX="ICELAND" FID="100" ID="ISL" ISO2="IS" ISO3="ISL" UNDP="ICE">
+			<label xml:lang="en">Iceland</label>
+			<label xml:lang="fr">Islande</label>
+			<label xml:lang="es">Islandia</label>
+			<label xml:lang="ar">آيسلندا</label>
+			<label xml:lang="zh">冰 岛</label>
+			<label xml:lang="ru">Исландия</label>
+		</tag>
+		<tag FAOLEX="INDIA" FID="101" ID="IND" ISO2="IN" ISO3="IND" UNDP="IND">
+			<label xml:lang="en">India</label>
+			<label xml:lang="fr">Inde</label>
+			<label xml:lang="es">India</label>
+			<label xml:lang="ar">الهند</label>
+			<label xml:lang="zh">印 度</label>
+			<label xml:lang="ru">Индия</label>
+		</tag>
+		<tag FAOLEX="INDONESIA" FID="102" ID="IDN" ISO2="ID" ISO3="IDN" UNDP="INS">
+			<label xml:lang="en">Indonesia</label>
+			<label xml:lang="fr">Indonésie</label>
+			<label xml:lang="es">Indonesia</label>
+			<label xml:lang="ar">إندونيسيا</label>
+			<label xml:lang="zh">印度尼西亚</label>
+			<label xml:lang="ru">Индонезия</label>
+		</tag>
+		<tag FAOLEX="IRAN (ISLAMIC REPUBLIC OF)" FID="103" ID="IRN" ISO2="IR" ISO3="IRN" UNDP="IRA">
+			<label xml:lang="en">Iran</label>
+			<label xml:lang="fr">Iran</label>
+			<label xml:lang="es">Irán</label>
+			<label xml:lang="ar">إيران</label>
+			<label xml:lang="zh">伊 朗(伊斯兰共和国)</label>
+			<label xml:lang="ru">Иран (Исламская Республика)</label>
+		</tag>
+		<tag FAOLEX="IRAQ" FID="104" ID="IRQ" ISO2="IQ" ISO3="IRQ" UNDP="IRQ">
+			<label xml:lang="en">Iraq</label>
+			<label xml:lang="fr">Iraq</label>
+			<label xml:lang="es">Iraq</label>
+			<label xml:lang="ar">العراق</label>
+			<label xml:lang="zh">伊拉克</label>
+			<label xml:lang="ru">Ирак</label>
+		</tag>
+		<tag FAOLEX="IRELAND" FID="" ID="IRL" ISO2="IE" ISO3="IRL" UNDP="IRE">
+			<label xml:lang="en">Ireland</label>
+			<label xml:lang="fr">Irlande</label>
+			<label xml:lang="es">Irlanda</label>
+			<label xml:lang="ar">آيرلندا</label>
+			<label xml:lang="zh">爱尔兰</label>
+			<label xml:lang="ru">Ирландия</label>
+		</tag>
+		<tag FAOLEX="ISRAEL" FID="105" ID="ISR" ISO2="IL" ISO3="ISR" UNDP="ISR">
+			<label xml:lang="en">Israel</label>
+			<label xml:lang="fr">Israël</label>
+			<label xml:lang="es">Israel</label>
+			<label xml:lang="ar">إسرائيل</label>
+			<label xml:lang="zh">以色列</label>
+			<label xml:lang="ru">Израиль</label>
+		</tag>
+		<tag FAOLEX="ITALY" FID="106" ID="ITA" ISO2="IT" ISO3="ITA" UNDP="ITA">
+			<label xml:lang="en">Italy</label>
+			<label xml:lang="fr">Italie</label>
+			<label xml:lang="es">Italia</label>
+			<label xml:lang="ar">إيطاليا</label>
+			<label xml:lang="zh">意大利</label>
+			<label xml:lang="ru">Италия</label>
+		</tag>
+		<tag FAOLEX="JAMAICA" FID="109" ID="JAM" ISO2="JM" ISO3="JAM" UNDP="JAM">
+			<label xml:lang="en">Jamaica</label>
+			<label xml:lang="fr">Jamaïque</label>
+			<label xml:lang="es">Jamaica</label>
+			<label xml:lang="ar">جامايكا</label>
+			<label xml:lang="zh">牙买加</label>
+			<label xml:lang="ru">Ямайка</label>
+		</tag>
+		<tag FAOLEX="JAPAN" FID="110" ID="JPN" ISO2="JP" ISO3="JPN" UNDP="JPN">
+			<label xml:lang="en">Japan</label>
+			<label xml:lang="fr">Japon</label>
+			<label xml:lang="es">Japón</label>
+			<label xml:lang="ar">اليابان</label>
+			<label xml:lang="zh">日 本</label>
+			<label xml:lang="ru">Япония</label>
+		</tag>
+		<tag FAOLEX="JORDAN" FID="112" ID="JOR" ISO2="JO" ISO3="JOR" UNDP="JOR">
+			<label xml:lang="en">Jordan</label>
+			<label xml:lang="fr">Jordanie</label>
+			<label xml:lang="es">Jordania</label>
+			<label xml:lang="ar">الأردن</label>
+			<label xml:lang="zh">约 旦</label>
+			<label xml:lang="ru">Иордания</label>
+		</tag>
+		<tag FAOLEX="KAZAKHSTAN" FID="108" ID="KAZ" ISO2="KZ" ISO3="KAZ" UNDP="KAZ">
+			<label xml:lang="en">Kazakhstan</label>
+			<label xml:lang="fr">Kazakhstan</label>
+			<label xml:lang="es">Kazajstán</label>
+			<label xml:lang="ar">كازاخستان</label>
+			<label xml:lang="zh">哈萨克斯坦</label>
+			<label xml:lang="ru">Казахстан</label>
+		</tag>
+		<tag FAOLEX="KENYA" FID="114" ID="KEN" ISO2="KE" ISO3="KEN" UNDP="KEN">
+			<label xml:lang="en">Kenya</label>
+			<label xml:lang="fr">Kenya</label>
+			<label xml:lang="es">Kenya</label>
+			<label xml:lang="ar">كينيا</label>
+			<label xml:lang="zh">肯尼亚</label>
+			<label xml:lang="ru">Кения</label>
+		</tag>
+		<tag FAOLEX="KIRIBATI" FID="83" ID="KIR" ISO2="KI" ISO3="KIR" UNDP="KIR">
+			<label xml:lang="en">Kiribati</label>
+			<label xml:lang="fr">Kiribati</label>
+			<label xml:lang="es">Kiribati</label>
+			<label xml:lang="ar">كيريباس</label>
+			<label xml:lang="zh">基里巴斯</label>
+			<label xml:lang="ru">Кирибати</label>
+		</tag>
+		<tag FAOLEX="KOREA, Dem. People's Rep." FID="116" ID="PRK" ISO2="KP" ISO3="PRK" UNDP="DRK">
+			<label xml:lang="en">Democratic People's Republic of Korea</label>
+			<label xml:lang="fr">République populaire démocratique de Corée</label>
+			<label xml:lang="es">República Popular Democrática de Corea</label>
+			<label xml:lang="ar">جمهورية كوريا الشعبية الديمقراطية</label>
+			<label xml:lang="zh">朝鲜民主主义人民共和国</label>
+			<label xml:lang="ru">Корейская Народно- Демократическая Республика</label>
+		</tag>
+		<tag FAOLEX="KOREA, Republic of" FID="117" ID="KOR" ISO2="KR" ISO3="KOR" UNDP="ROK">
+			<label xml:lang="en">Republic of Korea</label>
+			<label xml:lang="fr">République de Corée</label>
+			<label xml:lang="es">República de Corea</label>
+			<label xml:lang="ar">جمهورية كوريا</label>
+			<label xml:lang="zh">大韩民国</label>
+			<label xml:lang="ru">Республика Корея</label>
+		</tag>
+		<tag FAOLEX="KUWAIT" FID="118" ID="KWT" ISO2="KW" ISO3="KWT" UNDP="KUW">
+			<label xml:lang="en">Kuwait</label>
+			<label xml:lang="fr">Koweït</label>
+			<label xml:lang="es">Kuwait</label>
+			<label xml:lang="ar">الكويت</label>
+			<label xml:lang="zh">科威特</label>
+			<label xml:lang="ru">Кувейт</label>
+		</tag>
+		<tag FAOLEX="KYRGYZSTAN" FID="113" ID="KGZ" ISO2="KG" ISO3="KGZ" UNDP="KYR">
+			<label xml:lang="en">Kyrgyzstan</label>
+			<label xml:lang="fr">Kirghizistan</label>
+			<label xml:lang="es">Kirguistán</label>
+			<label xml:lang="ar">قيرغيزستان</label>
+			<label xml:lang="zh">吉尔吉斯斯坦</label>
+			<label xml:lang="ru">Кыргызстан</label>
+		</tag>
+		<tag FAOLEX="LAO, People's Dem. Rep." FID="120" ID="LAO" ISO2="LA" ISO3="LAO" UNDP="LAO">
+			<label xml:lang="en">Lao People's Democratic Republic</label>
+			<label xml:lang="fr">République démocratique populaire lao</label>
+			<label xml:lang="es">República Democrática Popular Lao</label>
+			<label xml:lang="ar">جمهورية لاو الديمقراطية الشعبية</label>
+			<label xml:lang="zh">老挝人民民主共和国</label>
+			<label xml:lang="ru">Лаосская Народно- Демократическая Республика</label>
+		</tag>
+		<tag FAOLEX="LATVIA" FID="119" ID="LVA" ISO2="LV" ISO3="LVA" UNDP="LAT">
+			<label xml:lang="en">Latvia</label>
+			<label xml:lang="fr">Lettonie</label>
+			<label xml:lang="es">Letonia</label>
+			<label xml:lang="ar">لاتفيا</label>
+			<label xml:lang="zh">拉脱维亚</label>
+			<label xml:lang="ru">Латвия</label>
+		</tag>
+		<tag FAOLEX="LEBANON" FID="121" ID="LBN" ISO2="LB" ISO3="LBN" UNDP="LEB">
+			<label xml:lang="en">Lebanon</label>
+			<label xml:lang="fr">Liban</label>
+			<label xml:lang="es">Líbano</label>
+			<label xml:lang="ar">لبنان</label>
+			<label xml:lang="zh">黎巴嫩</label>
+			<label xml:lang="ru">Ливан</label>
+		</tag>
+		<tag FAOLEX="LESOTHO" FID="122" ID="LSO" ISO2="LS" ISO3="LSO" UNDP="LES">
+			<label xml:lang="en">Lesotho</label>
+			<label xml:lang="fr">Lesotho</label>
+			<label xml:lang="es">Lesotho</label>
+			<label xml:lang="ar">ليسوتو</label>
+			<label xml:lang="zh">莱索托</label>
+			<label xml:lang="ru">Лесото</label>
+		</tag>
+		<tag FAOLEX="LIBERIA" FID="123" ID="LBR" ISO2="LR" ISO3="LBR" UNDP="LIR">
+			<label xml:lang="en">Liberia</label>
+			<label xml:lang="fr">Libéria</label>
+			<label xml:lang="es">Liberia</label>
+			<label xml:lang="ar">ليبريا</label>
+			<label xml:lang="zh">利比里亚</label>
+			<label xml:lang="ru">Либерия</label>
+		</tag>
+		<tag FAOLEX="LIBYA" FID="124" ID="LBY" ISO2="LY" ISO3="LBY" UNDP="LIB">
+			<label xml:lang="en">Libya</label>
+			<label xml:lang="fr">Libye</label>
+			<label xml:lang="es">Libia</label>
+			<label xml:lang="ar">ليبيا</label>
+			<label xml:lang="zh">利比亚</label>
+			<label xml:lang="ru">Ливия</label>
+		</tag>
+		<tag FAOLEX="LIECHTENSTEIN" FID="125" ID="LIE" ISO2="LI" ISO3="LIE" UNDP="LIE">
+			<label xml:lang="en">Liechtenstein</label>
+			<label xml:lang="fr">Liechtenstein</label>
+			<label xml:lang="es">Liechtenstein</label>
+		</tag>
+		<tag FAOLEX="LITHUANIA" FID="126" ID="LTU" ISO2="LT" ISO3="LTU" UNDP="LIT">
+			<label xml:lang="en">Lithuania</label>
+			<label xml:lang="fr">Lituanie</label>
+			<label xml:lang="es">Lituania</label>
+			<label xml:lang="ar">ليتوانيا</label>
+			<label xml:lang="zh">立陶宛</label>
+			<label xml:lang="ru">Литва</label>
+		</tag>
+		<tag FAOLEX="LUXEMBOURG" FID="256" ID="LUX" ISO2="LU" ISO3="LUX" UNDP="LUX">
+			<label xml:lang="en">Luxembourg</label>
+			<label xml:lang="fr">Luxembourg</label>
+			<label xml:lang="es">Luxemburgo</label>
+			<label xml:lang="ar">لكسمبرغ</label>
+			<label xml:lang="zh">卢森堡</label>
+			<label xml:lang="ru">Люксембург</label>
+		</tag>
+		<tag FAOLEX="MACAU (CHINA)" FID="128" ID="MAC" ISO2="MO" ISO3="MAC">
+			<label xml:lang="en">Macau</label>
+			<label xml:lang="fr">Macau</label>
+			<label xml:lang="es">Macau</label>
+		</tag>
+		<tag FAOLEX="MACEDONIA, FYR" FID="154" ID="MKD" ISO2="MK" ISO3="MKD" UNDP="MCD">
+			<label xml:lang="en">The former Yugoslav Republic of Macedonia</label>
+			<label xml:lang="fr">Ex-République yougoslave de Macédoine</label>
+			<label xml:lang="es">ex República Yugoslava de Macedonia</label>
+			<label xml:lang="ar">جمهورية مقدونيا اليوغوسلافية السابقة</label>
+			<label xml:lang="zh">前南斯拉夫的马其顿共和国</label>
+			<label xml:lang="ru">бывшая югославская Республика Македония</label>
+		</tag>
+		<tag FAOLEX="MADAGASCAR" FID="129" ID="MDG" ISO2="MG" ISO3="MDG" UNDP="MAG">
+			<label xml:lang="en">Madagascar</label>
+			<label xml:lang="fr">Madagascar</label>
+			<label xml:lang="es">Madagascar</label>
+			<label xml:lang="ar">مدغشقر</label>
+			<label xml:lang="zh">马达加斯加</label>
+			<label xml:lang="ru">Мадагаскар</label>
+		</tag>
+		<tag FAOLEX="MALAWI" FID="130" ID="MWI" ISO2="MW" ISO3="MWI" UNDP="MLW">
+			<label xml:lang="en">Malawi</label>
+			<label xml:lang="fr">Malawi</label>
+			<label xml:lang="es">Malawi</label>
+			<label xml:lang="ar">ملاوي</label>
+			<label xml:lang="zh">马拉维</label>
+			<label xml:lang="ru">Малави</label>
+		</tag>
+		<tag FAOLEX="MALAYSIA" FID="131" ID="MYS" ISO2="MY" ISO3="MYS" UNDP="MAL">
+			<label xml:lang="en">Malaysia</label>
+			<label xml:lang="fr">Malaisie</label>
+			<label xml:lang="es">Malasia</label>
+			<label xml:lang="ar">ماليزيا</label>
+			<label xml:lang="zh">马来西亚</label>
+			<label xml:lang="ru">Малайзия</label>
+		</tag>
+		<tag FAOLEX="MALDIVES" FID="132" ID="MDV" ISO2="MV" ISO3="MDV" UNDP="MDV">
+			<label xml:lang="en">Maldives</label>
+			<label xml:lang="fr">Maldives</label>
+			<label xml:lang="es">Maldivas</label>
+			<label xml:lang="ar">ملديف</label>
+			<label xml:lang="zh">马尔代夫</label>
+			<label xml:lang="ru">Мальдивские Острова</label>
+		</tag>
+		<tag FAOLEX="MALI" FID="133" ID="MLI" ISO2="ML" ISO3="MLI" UNDP="MLI">
+			<label xml:lang="en">Mali</label>
+			<label xml:lang="fr">Mali</label>
+			<label xml:lang="es">Malí</label>
+			<label xml:lang="ar">مالي</label>
+			<label xml:lang="zh">马 里</label>
+			<label xml:lang="ru">Мали</label>
+		</tag>
+		<tag FAOLEX="MALTA" FID="134" ID="MLT" ISO2="MT" ISO3="MLT" UNDP="MAT">
+			<label xml:lang="en">Malta</label>
+			<label xml:lang="fr">Malte</label>
+			<label xml:lang="es">Malta</label>
+			<label xml:lang="ar">مالطة</label>
+			<label xml:lang="zh">马耳他</label>
+			<label xml:lang="ru">Мальта</label>
+		</tag>
+		<tag FAOLEX="MARSHALL ISLANDS" FID="127" ID="MHL" ISO2="MH" ISO3="MHL" UNDP="MAS">
+			<label xml:lang="en">Marshall Islands</label>
+			<label xml:lang="fr">Îles Marshall</label>
+			<label xml:lang="es">Islas Marshall</label>
+			<label xml:lang="ar">جزر مارشال</label>
+			<label xml:lang="zh">马绍尔群岛</label>
+			<label xml:lang="ru">Маршалловы Острова</label>
+		</tag>
+		<tag FAOLEX="MARTINIQUE (France)" FID="135" ID="MTQ" ISO2="MQ" ISO3="MTQ" UNDP="MAQ">
+			<label xml:lang="en">Martinique</label>
+			<label xml:lang="fr">Martinique</label>
+			<label xml:lang="es">Martinica</label>
+		</tag>
+		<tag FAOLEX="MAURITANIA" FID="136" ID="MRT" ISO2="MR" ISO3="MRT" UNDP="MAU">
+			<label xml:lang="en">Mauritania</label>
+			<label xml:lang="fr">Mauritanie</label>
+			<label xml:lang="es">Mauritania</label>
+			<label xml:lang="ar">موريتانيا</label>
+			<label xml:lang="zh">毛里塔尼亚</label>
+			<label xml:lang="ru">Мавритания</label>
+		</tag>
+		<tag FAOLEX="MAURITIUS" FID="137" ID="MUS" ISO2="MU" ISO3="MUS" UNDP="MAR">
+			<label xml:lang="en">Mauritius</label>
+			<label xml:lang="fr">Maurice</label>
+			<label xml:lang="es">Mauricio</label>
+			<label xml:lang="ar">موريشيوس</label>
+			<label xml:lang="zh">毛里求斯</label>
+			<label xml:lang="ru">Маврикий</label>
+		</tag>
+		<tag FAOLEX="MAYOTTE (FRANCE)" FID="270" ID="MYT" ISO2="YT" ISO3="MYT">
+			<label xml:lang="en">Mayotte</label>
+			<label xml:lang="fr">Mayotte</label>
+			<label xml:lang="es">Mayotte</label>
+		</tag>
+		<tag FAOLEX="MEXICO" FID="138" ID="MEX" ISO2="MX" ISO3="MEX" UNDP="MEX">
+			<label xml:lang="en">Mexico</label>
+			<label xml:lang="fr">Mexique</label>
+			<label xml:lang="es">México</label>
+			<label xml:lang="ar">المكسيك</label>
+			<label xml:lang="zh">墨西哥</label>
+			<label xml:lang="ru">Мексика</label>
+		</tag>
+		<tag FAOLEX="MICRONESIA, FED. STATES" FID="145" ID="FSM" ISO2="FM" ISO3="FSM" UNDP="MIC">
+			<label xml:lang="en">Micronesia</label>
+			<label xml:lang="fr">Micronésie</label>
+			<label xml:lang="es">Micronesia</label>
+			<label xml:lang="ar">ميكرونيزيا</label>
+			<label xml:lang="zh">密克罗尼西亚(联邦)</label>
+			<label xml:lang="ru">Микронезия (Федеративные Штаты)</label>
+		</tag>
+		<tag FAOLEX="MOLDOVA, REPUBLIC OF" FID="146" ID="MDA" ISO2="MD" ISO3="MDA" UNDP="MOL">
+			<label xml:lang="en">Moldova</label>
+			<label xml:lang="fr">Moldova</label>
+			<label xml:lang="es">Moldova</label>
+			<label xml:lang="ar">جمهورية مولدوفا </label>
+			<label xml:lang="zh">摩尔多瓦共和国</label>
+			<label xml:lang="ru">Республика Молдова</label>
+		</tag>
+		<tag FAOLEX="MONACO" FID="140" ID="MCO" ISO2="MC" ISO3="MCO" UNDP="MNC">
+			<label xml:lang="en">Monaco</label>
+			<label xml:lang="fr">Monaco</label>
+			<label xml:lang="es">Mónaco</label>
+			<label xml:lang="ar">موناكو</label>
+			<label xml:lang="zh">摩纳哥</label>
+			<label xml:lang="ru">Монако</label>
+		</tag>
+		<tag FAOLEX="MONGOLIA" FID="141" ID="MNG" ISO2="MN" ISO3="MNG" UNDP="MON">
+			<label xml:lang="en">Mongolia</label>
+			<label xml:lang="fr">Mongolie</label>
+			<label xml:lang="es">Mongolia</label>
+			<label xml:lang="ar">منغوليا</label>
+			<label xml:lang="zh">蒙 古</label>
+			<label xml:lang="ru">Монголия</label>
+		</tag>
+		<tag FAOLEX="MONTSERRAT (UK)" FID="142" ID="MSR" ISO2="MS" ISO3="MSR" UNDP="MOT">
+			<label xml:lang="en">Montserrat</label>
+			<label xml:lang="fr">Montserrat</label>
+			<label xml:lang="es">Montserrat</label>
+		</tag>
+		<tag FAOLEX="MOROCCO" FID="143" ID="MAR" ISO2="MA" ISO3="MAR" UNDP="MOR">
+			<label xml:lang="en">Morocco</label>
+			<label xml:lang="fr">Maroc</label>
+			<label xml:lang="es">Marruecos</label>
+			<label xml:lang="ar">المغرب</label>
+			<label xml:lang="zh">摩洛哥</label>
+			<label xml:lang="ru">Марокко</label>
+		</tag>
+		<tag FAOLEX="MOZAMBIQUE" FID="144" ID="MOZ" ISO2="MZ" ISO3="MOZ" UNDP="MOZ">
+			<label xml:lang="en">Mozambique</label>
+			<label xml:lang="fr">Mozambique</label>
+			<label xml:lang="es">Mozambique</label>
+			<label xml:lang="ar">موزامبيق</label>
+			<label xml:lang="zh">莫桑比克</label>
+			<label xml:lang="ru">Мозамбик</label>
+		</tag>
+		<tag FAOLEX="MYANMAR" FID="28" ID="MMR" ISO2="MM" ISO3="MMR" UNDP="MYA">
+			<label xml:lang="en">Myanmar</label>
+			<label xml:lang="fr">Myanmar</label>
+			<label xml:lang="es">Myanmar</label>
+			<label xml:lang="ar">ميانمار</label>
+			<label xml:lang="zh">缅 甸</label>
+			<label xml:lang="ru">Мьянма</label>
+		</tag>
+		<tag FAOLEX="NAMIBIA" FID="147" ID="NAM" ISO2="NA" ISO3="NAM" UNDP="NAM">
+			<label xml:lang="en">Namibia</label>
+			<label xml:lang="fr">Namibie</label>
+			<label xml:lang="es">Namibia</label>
+			<label xml:lang="ar">ناميبيا</label>
+			<label xml:lang="zh">纳米比亚</label>
+			<label xml:lang="ru">Намибия</label>
+		</tag>
+		<tag FAOLEX="NAURU" FID="148" ID="NRU" ISO2="NR" ISO3="NRU" UNDP="NAU">
+			<label xml:lang="en">Nauru</label>
+			<label xml:lang="fr">Nauru</label>
+			<label xml:lang="es">Nauru</label>
+			<label xml:lang="ar">ناورو</label>
+			<label xml:lang="zh">瑙 鲁</label>
+			<label xml:lang="ru">Науру</label>
+		</tag>
+		<tag FAOLEX="NEPAL" FID="149" ID="NPL" ISO2="NP" ISO3="NPL" UNDP="NEP">
+			<label xml:lang="en">Nepal</label>
+			<label xml:lang="fr">Népal</label>
+			<label xml:lang="es">Nepal</label>
+			<label xml:lang="ar">نيبال</label>
+			<label xml:lang="zh">尼泊尔</label>
+			<label xml:lang="ru">Непал</label>
+		</tag>
+		<tag FAOLEX="NETHERLANDS" FID="150" ID="NLD" ISO2="NL" ISO3="NLD" UNDP="NET">
+			<label xml:lang="en">Netherlands</label>
+			<label xml:lang="fr">Pays-Bas</label>
+			<label xml:lang="es">Países Bajos</label>
+			<label xml:lang="ar">هولندا</label>
+			<label xml:lang="zh">荷 兰</label>
+			<label xml:lang="ru">Нидерланды</label>
+		</tag>
+		<!--<tag FAOLEX="ANTIGUA AND BARBUDA" FID="151" ID="ANT" ISO2="AN" ISO3="ANT" UNDP="NAN">
+			<label xml:lang="en">Netherlands Antilles</label>
+			<label xml:lang="fr">Antilles néerlandaises</label>
+			<label xml:lang="es">Antillas Neerlandesas</label>
+		</tag>-->
+		<tag FAOLEX="NEW CALEDONIA (FRANCE)" FID="153" ID="NCL" ISO2="NC" ISO3="NCL" UNDP="NCA">
+			<label xml:lang="en">New Caledonia</label>
+			<label xml:lang="fr">Nouvelle-Calédonie</label>
+			<label xml:lang="es">Nueva Caledonia</label>
+		</tag>
+		<tag FAOLEX="NEW ZEALAND" FID="156" ID="NZL" ISO2="NZ" ISO3="NZL" UNDP="NZE">
+			<label xml:lang="en">New Zealand</label>
+			<label xml:lang="fr">Nouvelle-Zélande</label>
+			<label xml:lang="es">Nueva Zelandia</label>
+			<label xml:lang="ar">نيوزيلندا</label>
+			<label xml:lang="zh">新西兰</label>
+			<label xml:lang="ru">Новая Зеландия</label>
+		</tag>
+		<tag FAOLEX="NICARAGUA" FID="157" ID="NIC" ISO2="NI" ISO3="NIC" UNDP="NIC">
+			<label xml:lang="en">Nicaragua</label>
+			<label xml:lang="fr">Nicaragua</label>
+			<label xml:lang="es">Nicaragua</label>
+			<label xml:lang="ar">نيكاراغوا</label>
+			<label xml:lang="zh">尼加拉瓜</label>
+			<label xml:lang="ru">Никарагуа</label>
+		</tag>
+		<tag FAOLEX="NIGER" FID="158" ID="NER" ISO2="NE" ISO3="NER" UNDP="NER">
+			<label xml:lang="en">Niger</label>
+			<label xml:lang="fr">Niger</label>
+			<label xml:lang="es">Níger</label>
+			<label xml:lang="ar">النيجر</label>
+			<label xml:lang="zh">尼日尔</label>
+			<label xml:lang="ru">Нигер</label>
+		</tag>
+		<tag FAOLEX="NIGERIA" FID="159" ID="NGA" ISO2="NG" ISO3="NGA" UNDP="NIR">
+			<label xml:lang="en">Nigeria</label>
+			<label xml:lang="fr">Nigéria</label>
+			<label xml:lang="es">Nigeria</label>
+			<label xml:lang="ar">نيجيريا</label>
+			<label xml:lang="zh">尼日利亚</label>
+			<label xml:lang="ru">Нигерия</label>
+		</tag>
+		<tag FAOLEX="NIUE (New Zealand)" FID="160" ID="NIU" ISO2="NU" ISO3="NIU" UNDP="NIU">
+			<label xml:lang="en">Niue</label>
+			<label xml:lang="fr">Nioué</label>
+			<label xml:lang="es">Niue</label>
+			<label xml:lang="ar">نيوى</label>
+			<label xml:lang="zh">纽 埃</label>
+			<label xml:lang="ru">Ниуэ</label>
+		</tag>
+		<tag FAOLEX="NORFOLK ISLAND (Australia)" FID="161" ID="NFK" ISO2="NF" ISO3="NFK">
+			<label xml:lang="en">Norfolk Island</label>
+			<label xml:lang="fr">Norfolk Island</label>
+			<label xml:lang="es">Norfolk Island</label>
+		</tag>
+		<tag FAOLEX="NORTHERN MARIANA IS. (USA)" FID="163" ID="MNP" ISO2="MP" ISO3="MNP">
+			<label xml:lang="en">Northern Mariana Islands</label>
+			<label xml:lang="fr">Northern Mariana Islands</label>
+			<label xml:lang="es">Northern Mariana Islands</label>
+		</tag>
+		<tag FAOLEX="NORWAY" FID="162" ID="NOR" ISO2="NO" ISO3="NOR" UNDP="NOR">
+			<label xml:lang="en">Norway</label>
+			<label xml:lang="fr">Norvège</label>
+			<label xml:lang="es">Noruega</label>
+			<label xml:lang="ar">النرويج</label>
+			<label xml:lang="zh">挪 威</label>
+			<label xml:lang="ru">Норвегия</label>
+		</tag>
+		<tag FAOLEX="OMAN" FID="221" ID="OMN" ISO2="OM" ISO3="OMN" UNDP="OMA">
+			<label xml:lang="en">Oman</label>
+			<label xml:lang="fr">Oman</label>
+			<label xml:lang="es">Omán</label>
+			<label xml:lang="ar">عمان</label>
+			<label xml:lang="zh">阿 曼</label>
+			<label xml:lang="ru">Оман</label>
+		</tag>
+		<tag FAOLEX="PAKISTAN" FID="165" ID="PAK" ISO2="PK" ISO3="PAK" UNDP="PAK">
+			<label xml:lang="en">Pakistan</label>
+			<label xml:lang="fr">Pakistan</label>
+			<label xml:lang="es">Pakistán</label>
+			<label xml:lang="ar">باكستان</label>
+			<label xml:lang="zh">巴基斯坦</label>
+			<label xml:lang="ru">Пакистан</label>
+		</tag>
+		<tag FAOLEX="PALAU" FID="180" ID="PLW" ISO2="PW" ISO3="PLW" UNDP="TTP">
+			<label xml:lang="en">Palau</label>
+			<label xml:lang="fr">Palaos</label>
+			<label xml:lang="es">Palau</label>
+			<label xml:lang="ar">بالاو</label>
+			<label xml:lang="zh">帕 劳</label>
+			<label xml:lang="ru">Палау</label>
+		</tag>
+		<tag FAOLEX="PALESTINIAN AUTHORITY" FID="" ID="PSE " ISO2="PS" ISO3="PSE ">
+			<label xml:lang="en">Palestinian Territory, Occupied</label>
+			<label xml:lang="fr">Palestinian Territory, Occupied</label>
+			<label xml:lang="es">Palestinian Territory, Occupied</label>
+		</tag>
+		<tag FAOLEX="PANAMA" FID="166" ID="PAN" ISO2="PA" ISO3="PAN" UNDP="PAN">
+			<label xml:lang="en">Panama</label>
+			<label xml:lang="fr">Panama</label>
+			<label xml:lang="es">Panamá</label>
+			<label xml:lang="ar">بنما</label>
+			<label xml:lang="zh">巴拿马</label>
+			<label xml:lang="ru">Панама</label>
+		</tag>
+		<tag FAOLEX="PAPUA NEW GUINEA" FID="168" ID="PNG" ISO2="PG" ISO3="PNG" UNDP="PNG">
+			<label xml:lang="en">Papua New Guinea</label>
+			<label xml:lang="fr">Papouasie-Nouvelle-Guinée</label>
+			<label xml:lang="es">Papua Nueva Guinea</label>
+			<label xml:lang="ar">بابوا غينيا الجديدة</label>
+			<label xml:lang="zh">巴布亚新几内亚</label>
+			<label xml:lang="ru">Папуа-Новая Гвинея</label>
+		</tag>
+		<tag FAOLEX="PARAGUAY" FID="169" ID="PRY" ISO2="PY" ISO3="PRY" UNDP="PAR">
+			<label xml:lang="en">Paraguay</label>
+			<label xml:lang="fr">Paraguay</label>
+			<label xml:lang="es">Paraguay</label>
+			<label xml:lang="ar">باراغواي</label>
+			<label xml:lang="zh">巴拉圭</label>
+			<label xml:lang="ru">Парагвай</label>
+		</tag>
+		<tag FAOLEX="PERU" FID="170" ID="PER" ISO2="PE" ISO3="PER" UNDP="PER">
+			<label xml:lang="en">Peru</label>
+			<label xml:lang="fr">Pérou</label>
+			<label xml:lang="es">Perú</label>
+			<label xml:lang="ar">بيرو</label>
+			<label xml:lang="zh">秘 鲁</label>
+			<label xml:lang="ru">Перу</label>
+		</tag>
+		<tag FAOLEX="PHILIPPINES" FID="171" ID="PHL" ISO2="PH" ISO3="PHL" UNDP="PHI">
+			<label xml:lang="en">Philippines</label>
+			<label xml:lang="fr">Philippines</label>
+			<label xml:lang="es">Filipinas</label>
+			<label xml:lang="ar">الفلبين</label>
+			<label xml:lang="zh">菲律宾</label>
+			<label xml:lang="ru">Филиппины</label>
+		</tag>
+		<tag FAOLEX="PITCAIRN (UK)" FID="172" ID="PCN" ISO2="PN" ISO3="PCN">
+			<label xml:lang="en">Pitcairn</label>
+			<label xml:lang="fr">Pitcairn</label>
+			<label xml:lang="es">Pitcairn</label>
+		</tag>
+		<tag FAOLEX="POLAND" FID="173" ID="POL" ISO2="PL" ISO3="POL" UNDP="POL">
+			<label xml:lang="en">Poland</label>
+			<label xml:lang="fr">Pologne</label>
+			<label xml:lang="es">Polonia</label>
+			<label xml:lang="ar">بولندا</label>
+			<label xml:lang="zh">波 兰</label>
+			<label xml:lang="ru">Польша</label>
+		</tag>
+		<tag FAOLEX="PORTUGAL" FID="174" ID="PRT" ISO2="PT" ISO3="PRT" UNDP="POR">
+			<label xml:lang="en">Portugal</label>
+			<label xml:lang="fr">Portugal</label>
+			<label xml:lang="es">Portugal</label>
+			<label xml:lang="ar">البرتغال</label>
+			<label xml:lang="zh">葡萄牙</label>
+			<label xml:lang="ru">Португалия</label>
+		</tag>
+		<tag FAOLEX="PUERTO RICO (USA)" FID="177" ID="PRI" ISO2="PR" ISO3="PRI" UNDP="PUE">
+			<label xml:lang="en">Puerto Rico</label>
+			<label xml:lang="fr">Porto Rico</label>
+			<label xml:lang="es">Puerto Rico</label>
+		</tag>
+		<tag FAOLEX="QATAR" FID="179" ID="QAT" ISO2="QA" ISO3="QAT" UNDP="QAT">
+			<label xml:lang="en">Qatar</label>
+			<label xml:lang="fr">Qatar</label>
+			<label xml:lang="es">Qatar</label>
+			<label xml:lang="ar">قطر</label>
+			<label xml:lang="zh">卡塔尔</label>
+			<label xml:lang="ru">Катар</label>
+		</tag>
+		<tag FAOLEX="RÉUNION (France)" FID="182" ID="REU" ISO2="RE" ISO3="REU" UNDP="REU">
+			<label xml:lang="en">Réunion</label>
+			<label xml:lang="fr">Réunion</label>
+			<label xml:lang="es">Reunión</label>
+		</tag>
+		<tag FAOLEX="ROMANIA" FID="183" ID="ROU" ISO2="RO" ISO3="ROU" UNDP="ROM">
+			<label xml:lang="en">Romania</label>
+			<label xml:lang="fr">Roumanie</label>
+			<label xml:lang="es">Rumania</label>
+			<label xml:lang="ar">رومانيا</label>
+			<label xml:lang="zh">罗马尼亚</label>
+			<label xml:lang="ru">Румыния</label>
+		</tag>
+		<tag FAOLEX="RUSSIAN FEDERATION" FID="185" ID="RUS" ISO2="RU" ISO3="RUS" UNDP="RUS">
+			<label xml:lang="en">Russian Federation</label>
+			<label xml:lang="fr">Fédération de Russie</label>
+			<label xml:lang="es">Federación de Rusia</label>
+			<label xml:lang="ar">الاتحاد الروسي</label>
+			<label xml:lang="zh">俄罗斯联邦</label>
+			<label xml:lang="ru">Российская Федерация</label>
+		</tag>
+		<tag FAOLEX="RWANDA" FID="184" ID="RWA" ISO2="RW" ISO3="RWA" UNDP="RWA">
+			<label xml:lang="en">Rwanda</label>
+			<label xml:lang="fr">Rwanda</label>
+			<label xml:lang="es">Rwanda</label>
+			<label xml:lang="ar">رواندا</label>
+			<label xml:lang="zh">卢旺达</label>
+			<label xml:lang="ru">Руанда</label>
+		</tag>
+		<tag FID="187" ID="SHN" ISO2="SH" ISO3="SHN" UNDP="STH">
+			<label xml:lang="en">Saint Helena</label>
+			<label xml:lang="fr">Sainte-Hélène</label>
+			<label xml:lang="es">Santa Elena</label>
+		</tag>
+		<tag FAOLEX="SAINT KITTS AND NEVIS" FID="188" ID="KNA" ISO2="KN" ISO3="KNA" UNDP="STK">
+			<label xml:lang="en">Saint Kitts and Nevis</label>
+			<label xml:lang="fr">Saint-Kitts-et-Nevis</label>
+			<label xml:lang="es">Saint Kitts y Nevis</label>
+			<label xml:lang="ar">سانت كيتس ونيفيس</label>
+			<label xml:lang="zh">圣基茨和尼维斯</label>
+			<label xml:lang="ru">Сент-Китс и Невис</label>
+		</tag>
+		<tag FAOLEX="SAINT LUCIA" FID="189" ID="LCA" ISO2="LC" ISO3="LCA" UNDP="STL">
+			<label xml:lang="en">Saint Lucia</label>
+			<label xml:lang="fr">Sainte-Lucie</label>
+			<label xml:lang="es">Santa Lucía</label>
+			<label xml:lang="ar">سانت لوسيا</label>
+			<label xml:lang="zh">圣卢西亚</label>
+			<label xml:lang="ru">Сент-Люсия</label>
+		</tag>
+		<tag FAOLEX="ST. PIERRE-MIQUELON (FR.)" FID="190" ID="SPM" ISO2="PM" ISO3="SPM">
+			<label xml:lang="en">Saint Pierre and Miquelon</label>
+			<label xml:lang="fr">Saint Pierre and Miquelon</label>
+			<label xml:lang="es">Saint Pierre and Miquelon</label>
+		</tag>
+		<tag FAOLEX="SAINT VINCENT GRENADINES" FID="191" ID="VCT" ISO2="VC" ISO3="VCT" UNDP="STV">
+			<label xml:lang="en">Saint Vincent and the Grenadines</label>
+			<label xml:lang="fr">Saint-Vincent-et-les Grenadines</label>
+			<label xml:lang="es">San Vicente y las Granadinas</label>
+			<label xml:lang="ar">سانت فنسنت وجزر غرينادين</label>
+			<label xml:lang="zh">圣文森特和格林纳丁斯</label>
+			<label xml:lang="ru">Сент-Винсент и Гренадины</label>
+		</tag>
+		<tag FAOLEX="SAMOA" FID="244" ID="WSM" ISO2="WS" ISO3="WSM" UNDP="SAM">
+			<label xml:lang="en">Samoa</label>
+			<label xml:lang="fr">Samoa</label>
+			<label xml:lang="es">Samoa</label>
+			<label xml:lang="ar">ساموا</label>
+			<label xml:lang="zh">萨摩亚</label>
+			<label xml:lang="ru">Самоа</label>
+		</tag>
+		<tag FAOLEX="SAN MARINO" FID="192" ID="SMR" ISO2="SM" ISO3="SMR" UNDP="SNM">
+			<label xml:lang="en">San Marino</label>
+			<label xml:lang="fr">Saint-Marin</label>
+			<label xml:lang="es">San Marino</label>
+			<label xml:lang="ar">سان مارينو</label>
+			<label xml:lang="zh">圣马力诺</label>
+			<label xml:lang="ru">Сан-Марино</label>
+		</tag>
+		<tag FAOLEX="ST. PIERRE-MIQUELON (Fr.)" FID="193" ID="STP" ISO2="ST" ISO3="STP" UNDP="STP">
+			<label xml:lang="en">Sao Tome and Principe</label>
+			<label xml:lang="fr">Sao Tomé-et-Principe</label>
+			<label xml:lang="es">Santo Tomé y Príncipe</label>
+			<label xml:lang="ar">سان تومي وبرنسيبي</label>
+			<label xml:lang="zh">圣多美和普林西比</label>
+			<label xml:lang="ru">Сан-Томе и Принсипи</label>
+		</tag>
+		<tag FAOLEX="SAUDI ARABIA" FID="194" ID="SAU" ISO2="SA" ISO3="SAU" UNDP="SAU">
+			<label xml:lang="en">Saudi Arabia</label>
+			<label xml:lang="fr">Arabie saoudite</label>
+			<label xml:lang="es">Arabia Saudita</label>
+			<label xml:lang="ar">المملكة العربية السعودية</label>
+			<label xml:lang="zh">沙特阿拉伯</label>
+			<label xml:lang="ru">Саудовская Аравия</label>
+		</tag>
+		<tag FAOLEX="SENEGAL" FID="195" ID="SEN" ISO2="SN" ISO3="SEN" UNDP="SEN">
+			<label xml:lang="en">Senegal</label>
+			<label xml:lang="fr">Sénégal</label>
+			<label xml:lang="es">Senegal</label>
+			<label xml:lang="ar">السنغال</label>
+			<label xml:lang="zh">塞内加尔</label>
+			<label xml:lang="ru">Сенегал</label>
+		</tag>
+		<tag FAOLEX="SEYCHELLES" FID="196" ID="SYC" ISO2="SC" ISO3="SYC" UNDP="SEY">
+			<label xml:lang="en">Seychelles</label>
+			<label xml:lang="fr">Seychelles</label>
+			<label xml:lang="es">Seychelles</label>
+			<label xml:lang="ar">سيشيل</label>
+			<label xml:lang="zh">塞舌尔</label>
+			<label xml:lang="ru">Сейшельские Острова</label>
+		</tag>
+		<tag FAOLEX="SIERRA LEONE" FID="197" ID="SLE" ISO2="SL" ISO3="SLE" UNDP="SIL">
+			<label xml:lang="en">Sierra Leone</label>
+			<label xml:lang="fr">Sierra Leone</label>
+			<label xml:lang="es">Sierra Leona</label>
+			<label xml:lang="ar">سيراليون</label>
+			<label xml:lang="zh">塞拉利昂</label>
+			<label xml:lang="ru">Сьерра-Леоне </label>
+		</tag>
+		<tag FAOLEX="SINGAPORE" FID="200" ID="SGP" ISO2="SG" ISO3="SGP" UNDP="SIN">
+			<label xml:lang="en">Singapore</label>
+			<label xml:lang="fr">Singapour</label>
+			<label xml:lang="es">Singapur</label>
+		</tag>
+		<tag FAOLEX="SLOVAKIA" FID="199" ID="SVK" ISO2="SK" ISO3="SVK" UNDP="SLO">
+			<label xml:lang="en">Slovakia</label>
+			<label xml:lang="fr">Slovaquie</label>
+			<label xml:lang="es">Eslovaquia</label>
+			<label xml:lang="ar">سلوفاكيا</label>
+			<label xml:lang="zh">斯洛伐克</label>
+			<label xml:lang="ru">Словакия</label>
+		</tag>
+		<tag FAOLEX="SLOVENIA" FID="198" ID="SVN" ISO2="SI" ISO3="SVN" UNDP="SVN">
+			<label xml:lang="en">Slovenia</label>
+			<label xml:lang="fr">Slovénie</label>
+			<label xml:lang="es">Eslovenia</label>
+			<label xml:lang="ar">سلوفينيا</label>
+			<label xml:lang="zh">斯洛文尼亚</label>
+			<label xml:lang="ru">Словения</label>
+		</tag>
+		<tag FAOLEX="SOLOMON ISLANDS" FID="25" ID="SLB" ISO2="SB" ISO3="SLB" UNDP="SOI">
+			<label xml:lang="en">Solomon Islands</label>
+			<label xml:lang="fr">Îles Salomon</label>
+			<label xml:lang="es">Islas Salomón</label>
+			<label xml:lang="ar">جزر سليمان</label>
+			<label xml:lang="zh">所罗门群岛</label>
+			<label xml:lang="ru">Соломоновы Острова</label>
+		</tag>
+		<tag FAOLEX="SOMALIA" FID="201" ID="SOM" ISO2="SO" ISO3="SOM" UNDP="SOM">
+			<label xml:lang="en">Somalia</label>
+			<label xml:lang="fr">Somalie</label>
+			<label xml:lang="es">Somalia</label>
+			<label xml:lang="ar">الصومال</label>
+			<label xml:lang="zh">索马里</label>
+			<label xml:lang="ru">Сомали</label>
+		</tag>
+		<tag FAOLEX="SOUTH AFRICA" FID="202" ID="ZAF" ISO2="ZA" ISO3="ZAF" UNDP="SAF">
+			<label xml:lang="en">South Africa</label>
+			<label xml:lang="fr">Afrique du Sud</label>
+			<label xml:lang="es">Sudáfrica</label>
+			<label xml:lang="ar">جنوب أفريقيا</label>
+			<label xml:lang="zh">南 非</label>
+			<label xml:lang="ru">Южная Африка</label>
+		</tag>
+		<tag FID="271" ID="SGS" ISO2="GS" ISO3="SGS">
+			<label xml:lang="en">South Georgia and the South Sandwich Islands</label>
+			<label xml:lang="fr">South Georgia and the South Sandwich Islands</label>
+			<label xml:lang="es">South Georgia and the South Sandwich Islands</label>
+		</tag>
+		<tag FAOLEX="SPAIN" FID="203" ID="ESP" ISO2="ES" ISO3="ESP" UNDP="SPA">
+			<label xml:lang="en">Spain</label>
+			<label xml:lang="fr">Espagne</label>
+			<label xml:lang="es">España</label>
+			<label xml:lang="ar">إسبانيا</label>
+			<label xml:lang="zh">西班牙</label>
+			<label xml:lang="ru">Испания</label>
+		</tag>
+		<tag FAOLEX="SRI LANKA" FID="38" ID="LKA" ISO2="LK" ISO3="LKA" UNDP="SRL">
+			<label xml:lang="en">Sri Lanka</label>
+			<label xml:lang="fr">Sri Lanka</label>
+			<label xml:lang="es">Sri Lanka</label>
+			<label xml:lang="ar">سري لانكا</label>
+			<label xml:lang="zh">斯里兰卡</label>
+			<label xml:lang="ru">Шри-Ланка</label>
+		</tag>
+		<tag FAOLEX="SUDAN" FID="206" ID="SDN" ISO2="SD" ISO3="SDN" UNDP="SUD">
+			<label xml:lang="en">Sudan</label>
+			<label xml:lang="fr">Soudan</label>
+			<label xml:lang="es">Sudán</label>
+			<label xml:lang="ar">السودان</label>
+			<label xml:lang="zh">苏 丹</label>
+			<label xml:lang="ru">Судан</label>
+		</tag>
+		<tag FAOLEX="SURINAME" FID="207" ID="SUR" ISO2="SR" ISO3="SUR" UNDP="SUR">
+			<label xml:lang="en">Suriname</label>
+			<label xml:lang="fr">Suriname</label>
+			<label xml:lang="es">Suriname</label>
+			<label xml:lang="ar">سورينام</label>
+			<label xml:lang="zh">苏里南</label>
+			<label xml:lang="ru">Суринам</label>
+		</tag>
+		<tag FID="260" ID="SJM" ISO2="SJ" ISO3="SJM">
+			<label xml:lang="en">Svalbard and Jan Mayen</label>
+			<label xml:lang="fr">Svalbard and Jan Mayen</label>
+			<label xml:lang="es">Svalbard and Jan Mayen</label>
+		</tag>
+		<tag FAOLEX="SWAZILAND" FID="209" ID="SWZ" ISO2="SZ" ISO3="SWZ" UNDP="SWA">
+			<label xml:lang="en">Swaziland</label>
+			<label xml:lang="fr">Swaziland</label>
+			<label xml:lang="es">Swazilandia</label>
+			<label xml:lang="ar">سوازيلند</label>
+			<label xml:lang="zh">斯威士兰</label>
+			<label xml:lang="ru">Свазиленд</label>
+		</tag>
+		<tag FAOLEX="SWEDEN" FID="210" ID="SWE" ISO2="SE" ISO3="SWE" UNDP="SWE">
+			<label xml:lang="en">Sweden</label>
+			<label xml:lang="fr">Suède</label>
+			<label xml:lang="es">Suecia</label>
+			<label xml:lang="ar">السويد</label>
+			<label xml:lang="zh">瑞 典</label>
+			<label xml:lang="ru">Швеция</label>
+		</tag>
+		<tag FAOLEX="SWITZERLAND" FID="211" ID="CHE" ISO2="CH" ISO3="CHE" UNDP="SWI">
+			<label xml:lang="en">Switzerland</label>
+			<label xml:lang="fr">Suisse</label>
+			<label xml:lang="es">Suiza</label>
+			<label xml:lang="ar">سويسرا</label>
+			<label xml:lang="zh">瑞 士</label>
+			<label xml:lang="ru">Швейцария</label>
+		</tag>
+		<tag FAOLEX="SYRIAN ARAB REPUBLIC" FID="212" ID="SYR" ISO2="SY" ISO3="SYR" UNDP="SYR">
+			<label xml:lang="en">Syrian Arab Republic</label>
+			<label xml:lang="fr">République arabe syrienne</label>
+			<label xml:lang="es">República Árabe Siria</label>
+			<label xml:lang="ar">الجمهورية العربية السورية</label>
+			<label xml:lang="zh">阿拉伯叙利亚共和国</label>
+			<label xml:lang="ru">Сирийская Арабская Республика</label>
+		</tag>
+		<tag FID="214" ID="TWN" ISO2="TW" ISO3="TWN">
+			<label xml:lang="en">Taiwan Province of China</label>
+			<label xml:lang="fr">Province chinoise de Taïwan </label>
+			<label xml:lang="es">Provincia china de Taiwán  </label>
+		</tag>
+		<tag FAOLEX="TAJIKISTAN" FID="208" ID="TJK" ISO2="TJ" ISO3="TJK" UNDP="TAJ">
+			<label xml:lang="en">Tajikistan</label>
+			<label xml:lang="fr">Tadjikistan</label>
+			<label xml:lang="es">Tayikistán</label>
+			<label xml:lang="ar">طاجيكستان</label>
+			<label xml:lang="zh">塔吉克斯坦</label>
+			<label xml:lang="ru">Таджикистан</label>
+		</tag>
+		<tag FAOLEX="TANZANIA, UN. REP. OF" FID="215" ID="TZA" ISO2="TZ" ISO3="TZA" UNDP="URT">
+			<label xml:lang="en">United Republic of Tanzania</label>
+			<label xml:lang="fr">République-Unie de Tanzanie</label>
+			<label xml:lang="es">República Unida de Tanzanía</label>
+			<label xml:lang="ar">جمهورية تنزانيا المتحدة</label>
+			<label xml:lang="zh">坦桑尼亚联合共和国</label>
+			<label xml:lang="ru">Объединенная Республика Танзания</label>
+		</tag>
+		<tag FAOLEX="THAILAND" FID="216" ID="THA" ISO2="TH" ISO3="THA" UNDP="THA">
+			<label xml:lang="en">Thailand</label>
+			<label xml:lang="fr">Thaïlande</label>
+			<label xml:lang="es">Tailandia</label>
+			<label xml:lang="ar">تايلند</label>
+			<label xml:lang="zh">泰 国</label>
+			<label xml:lang="ru">Таиланд</label>
+		</tag>
+		<tag FAOLEX="TOGO" FID="217" ID="TGO" ISO2="TG" ISO3="TGO" UNDP="TOG">
+			<label xml:lang="en">Togo</label>
+			<label xml:lang="fr">Togo</label>
+			<label xml:lang="es">Togo</label>
+			<label xml:lang="ar">توغو</label>
+			<label xml:lang="zh">多 哥</label>
+			<label xml:lang="ru">Того</label>
+		</tag>
+		<tag FAOLEX="TOKELAU (NEW ZEALAND)" FID="218" ID="TKL" ISO2="TK" ISO3="TKL" UNDP="TOK">
+			<label xml:lang="en">Tokelau</label>
+			<label xml:lang="fr">Tokélaou</label>
+			<label xml:lang="es">Tokelau</label>
+		</tag>
+		<tag FAOLEX="TONGA" FID="219" ID="TON" ISO2="TO" ISO3="TON" UNDP="TON">
+			<label xml:lang="en">Tonga</label>
+			<label xml:lang="fr">Tonga</label>
+			<label xml:lang="es">Tonga</label>
+			<label xml:lang="ar">تونغا</label>
+			<label xml:lang="zh">汤 加</label>
+			<label xml:lang="ru">Тонга</label>
+		</tag>
+		<tag FAOLEX="TRINIDAD AND TOBAGO" FID="220" ID="TTO" ISO2="TT" ISO3="TTO" UNDP="TRI">
+			<label xml:lang="en">Trinidad and Tobago</label>
+			<label xml:lang="fr">Trinité-et-Tobago</label>
+			<label xml:lang="es">Trinidad y Tabago</label>
+			<label xml:lang="ar">ترينيداد وتوباغو</label>
+			<label xml:lang="zh">特立尼达和多巴哥</label>
+			<label xml:lang="ru">Тринидад и Тобаго</label>
+		</tag>
+		<tag FAOLEX="TUNISIA" FID="222" ID="TUN" ISO2="TN" ISO3="TUN" UNDP="TUN">
+			<label xml:lang="en">Tunisia</label>
+			<label xml:lang="fr">Tunisie</label>
+			<label xml:lang="es">Túnez</label>
+			<label xml:lang="ar">تونس</label>
+			<label xml:lang="zh">突尼斯</label>
+			<label xml:lang="ru">Тунис</label>
+		</tag>
+		<tag FAOLEX="TURKEY" FID="223" ID="TUR" ISO2="TR" ISO3="TUR" UNDP="TUR">
+			<label xml:lang="en">Turkey</label>
+			<label xml:lang="fr">Turquie</label>
+			<label xml:lang="es">Turquía</label>
+			<label xml:lang="ar">تركيا</label>
+			<label xml:lang="zh">土耳其</label>
+			<label xml:lang="ru">Турция</label>
+		</tag>
+		<tag FAOLEX="TURKMENISTAN" FID="213" ID="TKM" ISO2="TM" ISO3="TKM" UNDP="TUK">
+			<label xml:lang="en">Turkmenistan</label>
+			<label xml:lang="fr">Turkménistan</label>
+			<label xml:lang="es">Turkmenistán</label>
+			<label xml:lang="ar">تركمانستان</label>
+			<label xml:lang="zh">土库曼斯坦</label>
+			<label xml:lang="ru">Туркменистан</label>
+		</tag>
+		<tag FAOLEX="TURKS-CAICOS ISLANDS (UK)" FID="224" ID="TCA" ISO2="TC" ISO3="TCA" UNDP="TCI">
+			<label xml:lang="en">Turks and Caicos Islands</label>
+			<label xml:lang="fr">Îles Turques et Caïques</label>
+			<label xml:lang="es">Islas Turcas y Caicos</label>
+		</tag>
+		<tag FAOLEX="TUVALU" FID="227" ID="TUV" ISO2="TV" ISO3="TUV" UNDP="TUV">
+			<label xml:lang="en">Tuvalu</label>
+			<label xml:lang="fr">Tuvalu</label>
+			<label xml:lang="es">Tuvalu</label>
+			<label xml:lang="ar">توفالو</label>
+			<label xml:lang="zh">图瓦卢</label>
+			<label xml:lang="ru">Тувалу</label>
+		</tag>
+		<tag FAOLEX="UGANDA" FID="226" ID="UGA" ISO2="UG" ISO3="UGA" UNDP="UGA">
+			<label xml:lang="en">Uganda</label>
+			<label xml:lang="fr">Ouganda</label>
+			<label xml:lang="es">Uganda</label>
+			<label xml:lang="ar">أوغندا</label>
+			<label xml:lang="zh">乌干达</label>
+			<label xml:lang="ru">Уганда</label>
+		</tag>
+		<tag FAOLEX="UKRAINE" FID="230" ID="UKR" ISO2="UA" ISO3="UKR" UNDP="UKR">
+			<label xml:lang="en">Ukraine</label>
+			<label xml:lang="fr">Ukraine</label>
+			<label xml:lang="es">Ucrania</label>
+			<label xml:lang="ar">أوكرانيا</label>
+			<label xml:lang="zh">乌克兰</label>
+			<label xml:lang="ru">Украина</label>
+		</tag>
+		<tag FAOLEX="UNITED ARAB EMIRATES" FID="225" ID="ARE" ISO2="AE" ISO3="ARE" UNDP="UAE">
+			<label xml:lang="en">United Arab Emirates</label>
+			<label xml:lang="fr">Émirats arabes unis</label>
+			<label xml:lang="es">Emiratos Árabes Unidos</label>
+			<label xml:lang="ar">الإمارات العربية المتحدة</label>
+			<label xml:lang="zh">阿拉伯联合酋长国</label>
+			<label xml:lang="ru">Объединенные Арабские Эмираты</label>
+		</tag>
+		<tag FAOLEX="UNITED KINGDOM" FID="229" ID="GBR" ISO2="GB" ISO3="GBR" UNDP="UKM">
+			<label xml:lang="en">United Kingdom of Great Britain and Northern Ireland</label>
+			<label xml:lang="fr">Royaume-Uni de Grande-Bretagne et d'Irlande du Nord</label>
+			<label xml:lang="es">Reino Unido de Gran Bretaña e Irlanda del Norte</label>
+			<label xml:lang="ar">المملكة المتحدة</label>
+			<label xml:lang="zh">大不列颠及北爱尔兰联合王国</label>
+			<label xml:lang="ru">Соединенное Королевство Великобритании и Северной Ирландии</label>
+		</tag>
+		<tag FAOLEX="UNITED STATES OF AMERICA" FID="231" ID="USA" ISO2="US" ISO3="USA" UNDP="USA">
+			<label xml:lang="en">United States of America</label>
+			<label xml:lang="fr">États-Unis d'Amérique</label>
+			<label xml:lang="es">Estados Unidos de América</label>
+			<label xml:lang="ar">الولايات المتحدة الأمريكية</label>
+			<label xml:lang="zh">美利坚合众国</label>
+			<label xml:lang="ru">Соединенные Штаты Америки</label>
+		</tag>
+		<tag FID="232" ID="UMI" ISO2="UM" ISO3="UMI">
+			<label xml:lang="en">United States Minor Outlying Islands</label>
+			<label xml:lang="fr">United States Minor Outlying Islands</label>
+			<label xml:lang="es">United States Minor Outlying Islands</label>
+		</tag>
+		<tag FAOLEX="URUGUAY" FID="234" ID="URY" ISO2="UY" ISO3="URY" UNDP="URU">
+			<label xml:lang="en">Uruguay</label>
+			<label xml:lang="fr">Uruguay</label>
+			<label xml:lang="es">Uruguay</label>
+			<label xml:lang="ar">أوروغواي</label>
+			<label xml:lang="zh">乌拉圭</label>
+			<label xml:lang="ru">Уругвай</label>
+		</tag>
+		<tag FAOLEX="UZBEKISTAN" FID="235" ID="UZB" ISO2="UZ" ISO3="UZB" UNDP="UZB">
+			<label xml:lang="en">Uzbekistan</label>
+			<label xml:lang="fr">Ouzbékistan</label>
+			<label xml:lang="es">Uzbekistán</label>
+			<label xml:lang="ar">أوزبكستان</label>
+			<label xml:lang="zh">乌兹别克斯坦</label>
+			<label xml:lang="ru">Узбекистан</label>
+		</tag>
+		<tag FAOLEX="VANUATU" FID="155" ID="VUT" ISO2="VU" ISO3="VUT" UNDP="VAN">
+			<label xml:lang="en">Vanuatu</label>
+			<label xml:lang="fr">Vanuatu</label>
+			<label xml:lang="es">Vanuatu</label>
+			<label xml:lang="ar">فانواتو</label>
+			<label xml:lang="zh">瓦努阿图</label>
+			<label xml:lang="ru">Вануату</label>
+		</tag>
+		<tag FAOLEX="VENEZUELA, Boliv. Rep. of" FID="236" ID="VEN" ISO2="VE" ISO3="VEN" UNDP="VEN">
+			<label xml:lang="en">Venezuela</label>
+			<label xml:lang="fr">Venezuela</label>
+			<label xml:lang="es">Venezuela</label>
+			<label xml:lang="ar">فنزويلا  (جمهورية .. البوليفارية)</label>
+			<label xml:lang="zh">委内瑞拉 (玻利瓦尔共和国)</label>
+			<label xml:lang="ru">Венесуэла (Боливарианская Республика)</label>
+		</tag>
+		<tag FAOLEX="VIET NAM" FID="237" ID="VNM" ISO2="VN" ISO3="VNM" UNDP="VIE">
+			<label xml:lang="en">Viet Nam</label>
+			<label xml:lang="fr">Viet Nam</label>
+			<label xml:lang="es">Viet Nam</label>
+			<label xml:lang="ar">فييت نام</label>
+			<label xml:lang="zh">越 南</label>
+			<label xml:lang="ru">Вьетнам</label>
+		</tag>
+		<tag FAOLEX="VIRGIN ISLANDS (USA)" FID="239" ID="VGB" ISO2="VG" ISO3="VGB" UNDP="BVI">
+			<label xml:lang="en">British Virgin Islands</label>
+			<label xml:lang="fr">Îles Vierges britanniques</label>
+			<label xml:lang="es">Islas Vírgenes Británicas</label>
+		</tag>
+		<tag FAOLEX="VIRGIN ISLANDS (USA)" FID="240" ID="VIR" ISO2="VI" ISO3="VIR" UNDP="UVI">
+			<label xml:lang="en">United States Virgin Islands</label>
+			<label xml:lang="fr">Îles Vierges américaines</label>
+			<label xml:lang="es">Islas Vírgenes</label>
+		</tag>
+		<tag FAOLEX="WALLIS-FUTUNA ISLANDS (FR.)" FID="243" ID="WLF" ISO2="WF" ISO3="WLF" UNDP="WFI">
+			<label xml:lang="en">Wallis and Futuna Islands</label>
+			<label xml:lang="fr">Îles Wallis et Futuna</label>
+			<label xml:lang="es">Islas Wallis y Futuna</label>
+		</tag>
+		<tag FID="205" ID="ESH" ISO2="EH" ISO3="ESH">
+			<label xml:lang="en">Western Sahara</label>
+			<label xml:lang="fr">Western Sahara</label>
+			<label xml:lang="es">Western Sahara</label>
+		</tag>
+		<tag FAOLEX="YEMEN" FID="249" ID="YEM" ISO2="YE" ISO3="YEM" UNDP="YEM">
+			<label xml:lang="en">Yemen</label>
+			<label xml:lang="fr">Yémen</label>
+			<label xml:lang="es">Yemen</label>
+			<label xml:lang="ar">اليمن</label>
+			<label xml:lang="zh">也 门</label>
+			<label xml:lang="ru">Йемен</label>
+		</tag>
+		<tag FID="186" ID="SCG" ISO2="YU" ISO3="SCG">
+			<label xml:lang="en">Yugoslavia</label>
+			<label xml:lang="fr">Yugoslavia</label>
+			<label xml:lang="es">Yugoslavia</label>
+		</tag>
+		<tag FAOLEX="ZAMBIA" FID="251" ID="ZMB" ISO2="ZM" ISO3="ZMB" UNDP="ZAM">
+			<label xml:lang="en">Zambia</label>
+			<label xml:lang="fr">Zambie</label>
+			<label xml:lang="es">Zambia</label>
+			<label xml:lang="ar">زامبيا</label>
+			<label xml:lang="zh">赞比亚</label>
+			<label xml:lang="ru">Замбия</label>
+		</tag>
+		<tag FAOLEX="ZIMBABWE" FID="181" ID="ZWE" ISO2="ZW" ISO3="ZWE" UNDP="ZIM">
+			<label xml:lang="en">Zimbabwe</label>
+			<label xml:lang="fr">Zimbabwe</label>
+			<label xml:lang="es">Zimbabwe</label>
+			<label xml:lang="ar">زمبابوي</label>
+			<label xml:lang="zh">津巴布韦</label>
+			<label xml:lang="ru">Зимбабве</label>
+		</tag>
+		<tag ID="SRB" ISO2="RS" ISO3="SRB" UNDP="SRB">
+			<label xml:lang="en">Serbia</label>
+			<label xml:lang="fr">Serbie</label>
+			<label xml:lang="es">Serbia</label>
+			<label xml:lang="ar">جمهورية صربيا</label>
+			<label xml:lang="zh">塞尔维亚共和国</label>
+			<label xml:lang="ru">Республика Сербия</label>
+		</tag>
+		<tag ID="TLS" ISO2="TL" ISO3="TLS" UNDP="TIM">
+			<label xml:lang="en">Timor-Leste</label>
+			<label xml:lang="fr">Timor-Leste</label>
+			<label xml:lang="es">Timor-Leste</label>
+			<label xml:lang="ar">جمهورية تيمور- ليشتى الديمقراطية</label>
+			<label xml:lang="zh">东帝汶民主共和国</label>
+			<label xml:lang="ru">Демократическая Республика Тимор-Лешти</label>
+		</tag>
+	</tags>
+</labels>

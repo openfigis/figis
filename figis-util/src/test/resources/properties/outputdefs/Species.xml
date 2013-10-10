@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlOutputControl>
+	<!-- parameters will be made available as a (hash?)table from the bean -->
+	<Parameter name="lixsl">webapps/figis/shared/xsl/search_result.xsl</Parameter>
+	<InputParameter name="lixsl">webapps/figis/shared/xsl/search_result.xsl</InputParameter>
+	<Parameter name="css">webapps/figis/website/css/fi.css</Parameter>
+	<InputParameter name="dslist">species</InputParameter>
+	<!-- default list elements will those used by the current search -->
+	<ListWrapperElement>fint:ResultList</ListWrapperElement>
+	<ListItemElement>fint:ResultItem</ListItemElement>
+	<!-- no mapping means element tree will be copied into the output entry root as-is -->
+	<!-- the shallow flag means that the child nodes will not be copied (only attributes) -->
+	<Element path="//fi:FIGISDoc/fi:AqSpeciesIdent"/>
+</XmlOutputControl>

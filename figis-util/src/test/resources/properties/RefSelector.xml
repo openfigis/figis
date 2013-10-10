@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RefServUtil>
+	<!-- Uncomment to load the ref object branch at startup -->
+	<Services>
+		<!--MetaObject ID="175000" Name="Introsp"/-->
+		<!--MetaObject ID="164000" Name="Topics"/-->
+		<MetaObject ID="31005" Name="Species"/>
+		<!--MetaObject ID="13001" Name="Landarea"/-->
+		<!--MetaObject ID="22010" Name="Waterarea"/-->
+		<!--MetaObject ID="82000" Name="Environment"/-->
+	</Services>
+</RefServUtil>

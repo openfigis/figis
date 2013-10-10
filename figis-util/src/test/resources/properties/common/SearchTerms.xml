@@ -1,0 +1,1114 @@
+<?xml version="1.0"?>
+<XmlSearchEngineControl>
+	<!-- ===================================================================== -->
+	<!-- the Static XML search terms -->
+	<!-- the Static XML search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="staticxml.eaftool" meta="1018" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:EAFTool/fi:EAFToolIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="eafstep" base="fi:EAFTool/fi:EAFSteps">
+			<element name="fi:EAFStep" attr="Value" />
+		</keyword>
+		<keyword name="usage" base="fi:EAFTool">
+			<element name="fi:EAFToolUsage" attr="Value" />
+		</keyword>
+		<keyword name="cost" base="fi:EAFTool/fi:Costs">
+			<element name="fi:CostEntry" attr="Value" />
+		</keyword>
+		<keyword name="capacity" base="fi:EAFTool/fi:EAFToolCapacity/fi:Range">
+			<element name="fi:Max" />
+			<element name="fi:Min" />
+			<element name="fi:DiscreteValue" />
+		</keyword>
+		<keyword name="requirements" base="fi:EAFTool/fi:BackgroundRequirements/fi:Range">
+			<element name="fi:Max" />
+			<element name="fi:Min" />
+			<element name="fi:DiscreteValue" />
+		</keyword>
+		<keyword name="participation" base="fi:EAFTool">
+			<element name="fi:Community" attr="Participation" />
+		</keyword>
+		<keyword name="timerange" base="fi:EAFTool/fi:TimeRange/fi:Range">
+			<element name="fi:Max" />
+			<element name="fi:Min" />
+			<element name="fi:DiscreteValue" />
+		</keyword>
+	</objectType>
+	<!-- psm static XML pages -->
+	<objectType name="staticxml.psm" meta="1016" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:PortStateMeasure/fi:PortStateMeasureIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="portstate" base="fi:PortStateMeasure/fi:PortStateMeasureIdent/fi:LandAreaRef">
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO3_country" />
+		</keyword>
+		<keyword name="year" base="fi:PortStateMeasure/fi:PortStateMeasureIdent">
+			<element name="fi:Year" />
+		</keyword>
+		<keyword name="measuretype" base="fi:PortStateMeasure/fi:Measure">
+			<element name="fi:MeasureType" attr="Value" />
+		</keyword>
+		<keyword name="species" base="fi:PortStateMeasure/fi:Measure/fi:TargetSpecies">
+			<element name="fi:Text" />
+		</keyword>
+		<keyword name="species" base="fi:PortStateMeasure/fi:Measure/fi:TargetSpecies/fi:SpeciesList">
+			<element name="dc:Title" />
+			<element name="fi:SpeciesRef/dc:Title" />
+			<element name="fi:SpeciesRef/fi:ForeignID" attr="Code" />
+		</keyword>
+		<keyword name="jurisdictiontype" base="fi:PortStateMeasure/fi:Measure/fi:VesselUnderJurisdiction">
+			<element name="fi:VesselUnderJurisdictionType" attr="Value" />
+		</keyword>
+		<keyword name="jurisdictioncountry"
+			base="fi:PortStateMeasure/fi:Measure/fi:VesselUnderJurisdiction/fi:VesselUnderJurisdictionType/fi:FlagStateList/fi:FlagStateRef">
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO3" />
+		</keyword>
+		<keyword name="jurisdictionrfmo" base="fi:PortStateMeasure/fi:Measure/fi:VesselUnderJurisdiction/fi:VesselUnderJurisdictionType"
+			attrSetting="Value=RFMO">
+			<element name="fi:OrgRef/fi:ForeignID" attr="Code" />
+		</keyword>
+		<keyword name="jurisdictionnonrfmo" base="fi:PortStateMeasure/fi:Measure/fi:VesselUnderJurisdiction/fi:VesselUnderJurisdictionType"
+			attrSetting="Value=Non-RFMO">
+			<element name="fi:OrgRef/fi:ForeignID" attr="Code" />
+		</keyword>
+		<keyword name="fishingareatype" base="fi:PortStateMeasure/fi:Measure/fi:FishingArea">
+			<element name="fi:FishingAreaType" attr="Value" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:PortStateMeasure/fi:Measure/fi:FishingArea/fi:FishingAreaType">
+			<element name="fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID" attr="Code" attrSetting="CodeSystem=eez" />
+		</keyword>
+		<keyword name="fishingarearfmo" base="fi:PortStateMeasure/fi:Measure/fi:FishingArea/fi:FishingAreaType"
+			attrSetting="Value=RFMO">
+			<element name="fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID" attr="Code" />
+		</keyword>
+	</objectType>
+	<!-- area static XML pages -->
+	<objectType name="staticxml.area" meta="1002" base="/fi:FIGISDoc">
+		<keyword name="area" base="fi:Area/fi:AreaIdent">
+			<element name="fi:Name" />
+			<element name="fi:WaterAreaRef" attr="Code" />
+			<!-- attrSetting="CodeSystem=Statistical" : this is wrong at least it can be CodeSystem="FAO_area" -->
+		</keyword>
+		<keyword name="name" base="fi:Area/fi:AreaIdent">
+			<element name="fi:Name" />
+			<element name="fi:WaterAreaRef" attr="Code" />
+		</keyword>
+		<keyword name="areaname" base="fi:Area">
+			<element name="fi:AreaProfile" />
+		</keyword>
+	</objectType>
+	<!-- collection static XML pages -->
+	<objectType name="staticxml.collection" meta="1003" base="/fi:FIGISDoc">
+		<keyword name="collection" base="fi:Collection/fi:CollectionIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+			<element name="dc:Identifier" />
+		</keyword>
+		<keyword name="name" base="fi:Collection/fi:CollectionIdent">
+			<!-- level="10" -->
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+	</objectType>
+	<!-- country static XML pages <objectType name="staticxml.country" meta="1004" base="/fi:FIGISDoc"> <keyword name="country" 
+		base="fi:Country/fi:CountryIdent/fi:LandPoliticalRef"> <element attr="Code" attrSetting="CodeSystem=ISO3"/> <element name="fi:Name"/> 
+		</keyword> <keyword name="name" base="fi:Country/fi:CountryIdent/fi:LandPoliticalRef"> <element name="fi:Name"/> </keyword> 
+		</objectType> -->
+	<!-- country sector static XML pages -->
+	<objectType name="staticxml.countrysector" meta="1007" base="/fi:FIGISDoc">
+		<keyword name="countrysector" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef">
+			<element name="fi:Name" />
+			<element attr="Code" />
+		</keyword>
+		<keyword name="name" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef">
+			<element name="fi:Name" />
+		</keyword>
+		<keyword name="continent" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef/fi:LandParent/fi:LandAreaRef">
+			<element attr="Code" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO2" />
+		</keyword>
+		<keyword name="country" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef/">
+			<element attr="Code" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO2" />
+		</keyword>
+		<keyword name="cssector" base="fi:CountrySector/fi:CountrySectorIdent">
+			<element attr="Sector" />
+		</keyword>
+		<keyword name="aquaculture" base="fi:CountrySector/fi:CountrySectorIdent">
+			<element attrSetting="Sector=Aquaculture">naso</element>
+		</keyword>
+		<keyword name="aquaculture" base="fi:LegalFramework/fi:LegalFrameworkIdent">
+			<element name="dc:Title">naso</element>
+			<!-- why naso in nalo, what's for -->
+		</keyword>
+		<keyword name="aquaculture" base="fi:CultureSpecies">
+			<element name="fi:CultureSpeciesIdent">culturespecies</element>
+		</keyword>
+		<keyword name="subject" base="fi:CountrySector/fi:CountrySectorIdent">
+			<element attr="Type" />
+		</keyword>
+	</objectType>
+	<!-- country sector dynamic XML pages -->
+	<objectType name="facp" meta="13030" base="/fi:FIGISDoc">
+		<keyword name="countrysector" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef">
+			<element name="dc:Title" />
+			<element attr="Code" />
+		</keyword>
+		<keyword name="name" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="continent" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef/fi:LandParent/fi:LandAreaRef">
+			<element attr="Code" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO2" />
+		</keyword>
+		<keyword name="country" base="fi:CountrySector/fi:CountrySectorIdent/fi:LandAreaRef/">
+			<element attr="Code" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISO2" />
+		</keyword>
+		<keyword name="cssector" base="fi:CountrySector/fi:CountrySectorIdent">
+			<element attr="Sector" />
+		</keyword>
+	</objectType>
+	<!-- cultures species static XML pages -->
+	<objectType name="staticxml.culturespecies" meta="1008" base="/fi:FIGISDoc">
+		<keyword name="species" base="fi:CultureSpecies/fi:CultureSpeciesIdent">
+			<element name="fi:Image" attr="Name" />
+		</keyword>
+		<keyword name="species" base="fi:CultureSpecies/fi:CultureSpeciesIdent/fi:SpeciesRef">
+			<element attr="Code" attrSetting="CodeSystem=FAO3Alpha" />
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="species" base="fi:CultureSpecies/fi:CultureSpeciesIdent/fi:SpeciesRef/fi:SciName">
+			<element name="fi:Genus" />
+		</keyword>
+		<keyword name="family" base="fi:CultureSpecies/fi:CultureSpeciesIdent/fi:SpeciesRef/fi:SciName">
+			<element name="fi:Family" />
+		</keyword>
+		<keyword name="species" base="fi:CultureSpecies/fi:CultureSpeciesIdent/fi:SpeciesRef/fi:FAOName">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="name" base="fi:CultureSpecies/fi:CultureSpeciesIdent/fi:SpeciesRef/fi:FAOName">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+	</objectType>
+	<!-- equipment static XML pages -->
+	<objectType name="staticxml.equipment" meta="1009" base="/fi:FIGISDoc">
+		<keyword name="equipment" base="fi:FishEquip/fi:FishEquipIdent">
+			<element attr="Class" />
+			<element attr="Type" />
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="name" base="fi:FishEquip/fi:FishEquipIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+	</objectType>
+	<!-- legal framework static XML pages -->
+	<objectType name="staticxml.legalframework" meta="1010" base="/fi:FIGISDoc">
+		<keyword name="legalframework" base="fi:LegalFramework/fi:LegalFrameworkIdent">
+			<element name="fi:LandAreaRef" attr="Code" />
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+			<element name="fi:LandAreaRef/fi:Name" />
+		</keyword>
+		<keyword name="country" base="fi:LegalFramework/fi:LegalFrameworkIdent">
+			<element name="fi:LandAreaRef" attr="Code" />
+		</keyword>
+		<keyword name="name" base="fi:LegalFramework/fi:LegalFrameworkIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+	</objectType>
+	<!-- ontology static XML pages -->
+	<objectType name="staticxml.ontology" meta="1011" base="/fi:FIGISDoc">
+		<keyword name="ontology" base="fi:Ontology/fi:OntologyIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="name" base="fi:Ontology/fi:OntologyIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+	</objectType>
+	<!-- org static XML pages -->
+	<objectType name="staticxml.org" meta="1012" base="/fi:FIGISDoc">
+		<keyword name="org" base="fi:Org/fi:OrgIdent">
+			<element attr="Type" />
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+			<element name="fi:OrgID" attr="Code" attrSetting="CodeSystem=Acronym" />
+			<element name="fi:LandAreaRef" attr="Code" />
+			<element name="fi:Name" />
+			<element name="fi:OrgParent/fi:OrgRef" attr="Code" attrSetting="CodeSystem=Acronym" Type="Institution" />
+			<element name="fi:OrgParent/fi:OrgRef/fi:Name" />
+			<element name="fi:OrgParent/fi:OrgRef/fi:LandAreaRef" attr="Code" />
+		</keyword>
+		<keyword name="name" base="fi:Org/fi:OrgIdent">
+			<element name="fi:Name" />
+			<element name="fi:OrgID" attr="Code" attrSetting="CodeSystem=Acronym" />
+		</keyword>
+		<keyword name="publication" base="fi:Org/fi:OrgFeature/fi:Outputs/fi:OutputEntry/fi:OutputEntry">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="type" base="fi:Org/fi:OrgIdent">
+			<element attr="Type" />
+		</keyword>
+	</objectType>
+	<!-- the VMSTopic search terms ///////// this can be removed ///// <objectType name="staticxml.vmstopic" meta="1015" base="/fi:FIGISDoc"> 
+		<keyword name="editor" base="fi:Topic/fi:DataEntry"> <element name="fi:Editor"/> </keyword> <keyword name="collection" base="fi:Topic/fi:ObjectSource/fi:Owner/fi:CollectionRef"> 
+		<element name="dc:Title"/> </keyword> <keyword level="15" name="name" base="fi:Topic/fi:TopicIdent"> <element name="dc:Title"/> 
+		<element name="dc:Title" lang="en" attrSetting="xml:lang=en"/> <element name="dc:Title" lang="fr" attrSetting="xml:lang=fr"/> 
+		<element name="dc:Title" lang="es" attrSetting="xml:lang=es"/> <element name="dc:Title" lang="ar" attrSetting="xml:lang=ar"/> 
+		<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh"/> <element name="dc:Title" lang="ru" attrSetting="xml:lang=ru"/> 
+		</keyword> <keyword name="title" base="fi:Topic/fi:TopicIdent"> <element name="dc:Title"/> <element name="dc:Title" lang="en" 
+		attrSetting="xml:lang=en"/> <element name="dc:Title" lang="fr" attrSetting="xml:lang=fr"/> <element name="dc:Title" lang="es" 
+		attrSetting="xml:lang=es"/> <element name="dc:Title" lang="ar" attrSetting="xml:lang=ar"/> <element name="dc:Title" lang="zh" 
+		attrSetting="xml:lang=zh"/> <element name="dc:Title" lang="ru" attrSetting="xml:lang=ru"/> </keyword> <keyword name="vmstopic" 
+		base="fi:Topic/fi:TopicIdent"> <element name="dc:Title"/> </keyword> <keyword name="title" base="fi:Topic/fi:ObjectSource/fi:CoverPage"> 
+		<element name="dc:Title"/> </keyword> <keyword name="description" base="fi:Topic/fi:ObjectSource/fi:CoverPage"> <element 
+		name="dc:Description"/> </keyword> </objectType> -->
+	<!-- VMS Programme ///////// this can be removed ///// <objectType name="staticxml.vmsprogramme" meta="1014" base="/fi:FIGISDoc"> 
+		<keyword level="10" name="name" base="fi:VMSProgramme/fi:VMSProgrammeIdent"> <element name="dc:Title"/> <element name="dc:Title" 
+		lang="en" attrSetting="xml:lang=en"/> <element name="dc:Title" lang="fr" attrSetting="xml:lang=fr"/> <element name="dc:Title" 
+		lang="es" attrSetting="xml:lang=es"/> <element name="dc:Title" lang="ar" attrSetting="xml:lang=ar"/> <element name="dc:Title" 
+		lang="zh" attrSetting="xml:lang=zh"/> <element name="dc:Title" lang="ru" attrSetting="xml:lang=ru"/> </keyword> <keyword 
+		name="title" base="fi:VMSProgramme/fi:VMSProgrammeIdent"> <element name="dc:Title"/> </keyword> <keyword level="10" name="name" 
+		base="fi:VMSProgramme/fi:VMSProgrammeIdent/fi:LandAreaRef"> <element name="fi:name"/> </keyword> <keyword name="title" base="fi:VMSProgramme/fi:VMSProgrammeIdent/fi:LandAreaRef"> 
+		<element name="fi:Name"/> </keyword> </objectType> -->
+	<!-- ===================================================================== -->
+	<!-- the Species search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="species" meta="31005" base="/fi:FIGISDoc">
+		<keyword level="5" name="name" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:FAOName">
+			<element name="fi:En" lang="en" />
+			<element name="fi:Fr" lang="fr" />
+			<element name="fi:Sp" lang="es" />
+		</keyword>
+		<keyword level="5" name="name" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Genus" />
+			<element name="fi:Species" />
+		</keyword>
+		<keyword name="species" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:FAOName">
+			<element name="fi:En" />
+			<element name="fi:Fr" lang="fr" />
+			<element name="fi:Sp" lang="es" />
+		</keyword>
+		<keyword name="species" base="fi:AqSpecies/fi:AqSpeciesIdent">
+			<element name="fint:ScientificName" />
+		</keyword>
+		<keyword name="genus" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Genus" />
+		</keyword>
+		<keyword name="species" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Species" />
+		</keyword>
+		<keyword name="sciname" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Genus" />
+			<element name="fi:Species" />
+			<concat pattern="{fi:Genus} {fi:Species}" />
+		</keyword>
+		<keyword name="speciescode" base="fi:AqSpecies/fi:AqSpeciesIdent">
+			<element name="fi:FAOTaxonomicCode" />
+			<element name="fi:FAO3AlphaCode" />
+		</keyword>
+		<keyword name="3alpha">
+			<element name="fi:AqSpecies/fi:AqSpeciesIdent/fi:FAO3AlphaCode" />
+		</keyword>
+		<keyword name="taxocode">
+			<element name="fi:AqSpecies/fi:AqSpeciesIdent/fi:FAOTaxonomicCode" />
+		</keyword>
+		<keyword name="family" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Family" />
+		</keyword>
+		<keyword name="author" base="fi:AqSpecies/fi:AqSpeciesIdent">
+			<element name="fi:SciName/ags:PersonalAuthor" />
+			<element name="fi:SpeciesSciName/ags:PersonalAuthor" />
+		</keyword>
+		<keyword name="collection" base="fi:ObjectSource/fi:Owner/fi:CollectionRef">
+			<element attrSetting="CodeSystem=Acronym" attr="Code" />
+			<element name="fi:Name" />
+		</keyword>
+		<!-- Note: have not written the code for "concat" yet. NAC 29/09/04 -->
+		<keyword name="sciname" base="fi:AqSpecies/fi:AqSpeciesIdent/fi:SciName">
+			<concat pattern="{fi:Genus} {fi:Species}" />
+		</keyword>
+		<keyword name="synonym" base="fi:AqSpecies/fi:AqSpeciesProfile/fi:Synonym/fi:SynEntry">
+			<element name="fi:SciName" />
+		</keyword>
+		<!-- <keyword name="name" base="fi:AqSpecies/fi:AqSpeciesFeature/fi:LocalName/fi:LocalNameEntry"> <element name="fi:Name"/> 
+			</keyword> -->
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the Geartype search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="geartype" meta="50000" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:Geartype/fi:GeartypeIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+			<element name="fi:ISSCFGCode" attrSetting="Type=num" />
+			<element name="fi:ISSCFGCode" attrSetting="Type=3-alpha" />
+		</keyword>
+		<!-- could use some synonym processing built in here... -->
+		<keyword name="title" base="fi:Geartype/fi:GeartypeIdent">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="code" base="fi:Geartype/fi:GeartypeIdent">
+			<element name="fi:ISSCFGCode" attrSetting="Type=num" />
+			<element name="fi:ISSCFGCode" attrSetting="Type=3-alpha" />
+		</keyword>
+		<keyword name="equipment" base="fi:Geartype">
+			<element name="*/fi:FIGISSearch" attrSetting="Domain=equipment" />
+		</keyword>
+		<keyword name="vessel" base="fi:Geartype">
+			<element name="*/VesseltypeRef" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the Vesseltype search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="vesseltype" meta="64000" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:Vesseltype/fi:VesseltypeIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+			<element name="fi:ISSCFVCode" attrSetting="Type=num" />
+			<element name="fi:ISSCFVCode" attrSetting="Type=3-alpha" />
+		</keyword>
+		<!-- could use some synonym processing built in here... -->
+		<keyword name="title" base="fi:Vesseltype/fi:VesseltypeIdent">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="code" base="fi:Vesseltype/fi:VesseltypeIdent">
+			<element name="fi:ISSCFVCode" attrSetting="Type=num" />
+			<element name="fi:ISSCFVCode" attrSetting="Type=3-alpha" />
+		</keyword>
+		<keyword name="equipment" base="fi:Vesseltype">
+			<element name="*/fi:FIGISSearch" attrSetting="Domain=equipment" />
+		</keyword>
+		<keyword name="gear" base="fi:Vesseltype">
+			<element name="*/fi:GeartypeRef" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the Fishtech search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="fishtech" meta="70000" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:FishTechnique/fi:FishTechniqueIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="species" base="fi:FishTechnique/fi:FishTechniqueIdent/fi:SpeciesList">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="species" base="fi:FishTechnique/fi:FishTechniqueIdent/fi:SpeciesList/fi:SpeciesRef">
+			<element name="dc:Title" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=Scientific_name" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=FAO3Alpha" />
+		</keyword>
+		<keyword name="gear" base="fi:FishTechnique/fi:FishTechniqueIdent/fi:GeartypeRef">
+			<element name="dc:Title" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=Acronym" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISSCFGCode" />
+		</keyword>
+		<keyword name="vessel" base="fi:FishTechnique/fi:FishTechniqueIdent/fi:VesseltypeRef">
+			<element name="dc:Title" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=Acronym" />
+			<element name="fi:ForeignID" attr="Code" attrSetting="CodeSystem=ISSCFVCode" />
+		</keyword>
+		<keyword name="species" base="fi:FishTechnique">
+			<element name="fi:TargetSpeciesEnviron" />
+		</keyword>
+		<keyword name="gear" base="fi:FishTechnique">
+			<element name="fi:GeartypeOverview" />
+		</keyword>
+		<keyword name="vessel" base="fi:FishTechnique">
+			<element name="fi:VesseltypeOverview" />
+		</keyword>
+		<keyword name="area" base="fi:FishTechnique">
+			<element name="fi:FisheryArea" />
+		</keyword>
+		<keyword name="equipment" base="fi:FishTechnique">
+			<element name="*/fi:FIGISSearch" attrSetting="Domain=equipment" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the Topic search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="topic" meta="165000" base="/fi:FIGISDoc">
+		<keyword name="editor" base="fi:Topic/fi:DataEntry">
+			<element name="fi:Editor" />
+		</keyword>
+		<keyword level="1" name="name" base="fi:Topic/fi:TopicIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="collection" base="fi:Topic/fi:ObjectSource/fi:Owner/fi:CollectionRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="title" base="fi:Topic/fi:TopicIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="topic" base="fi:Topic/fi:TopicIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="title" base="fi:Topic/fi:ObjectSource/fi:CorporateCoverPage">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="description" base="fi:Topic/fi:ObjectSource/fi:CoverPage">
+			<element name="dc:Description" />
+		</keyword>
+		<keyword name="type" base="fi:Topic">
+			<element name="fi:TopicIdent" attr="Type" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the Introduced Species search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="introsp" meta="175000" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:FAOName">
+			<element name="fi:En" />
+			<element name="fi:Fr" lang="fr" />
+			<element name="fi:Sp" lang="es" />
+		</keyword>
+		<keyword name="introsp" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:FAOName">
+			<element name="fi:En" />
+			<element name="fi:Fr" lang="fr" />
+			<element name="fi:Sp" lang="es" />
+		</keyword>
+		<keyword name="species" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:FAOName">
+			<element name="fi:En" />
+			<element name="fi:Fr" lang="fr" />
+			<element name="fi:Sp" lang="es" />
+		</keyword>
+		<keyword name="species" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:Orig/fi:AqSpeciesIdent">
+			<element name="fi:FullSciName" />
+		</keyword>
+		<keyword name="genus" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Genus" />
+		</keyword>
+		<keyword name="species" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:SciName">
+			<element name="fi:Genus" />
+			<element name="fi:Species" />
+		</keyword>
+		<!-- Note: have not written the code for "concat" yet. NAC 29/09/04 -->
+		<!--<keyword name="sciname" base="fi:IntroducedAqSpecies /fi:IntroducedAqSpeciesIdent/fi:AqSpeciesIdent/fi:SciName"> <concat 
+			pattern="{fi:Genus} {fi:Species}"/> </keyword> -->
+		<keyword name="countryfrom" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent">
+			<element name="fi:CountryFrom" />
+		</keyword>
+		<keyword name="countryto" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent">
+			<element name="fi:CountryTo" />
+		</keyword>
+		<keyword name="isocode" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:CountryTo/fi:AreaRef/fi:LandPoliticalRef">
+			<element attr="Iso3Code" />
+		</keyword>
+		<keyword name="isocode"
+			base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesIdent/fi:CountryFrom/fi:AreaRef/fi:LandPoliticalRef">
+			<element attr="Iso3Code" />
+		</keyword>
+		<keyword name="introducer" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesProfile/fi:Introducer">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="reasonintroduced" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesProfile/fi:ReasonIntroduced">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="estwild" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:EstablishedWild">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="estwildthrough" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:EstablishedWildThrough">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="ecoeffect" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:EcologicEffects">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="ecoeffecttype" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:EcologicEffectsType">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="socioeffect" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:SocioEconomicEffects">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="socioeffecttype" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:SocioEconomicEffectsType">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="aquacultureuse" base="fi:IntroducedAqSpecies/fi:IntroducedAqSpeciesFeature/fi:AquacultureUse">
+			<element attr="Code" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the FIRMS Aquatic Resource search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="resource" meta="195000" base="/fi:FIGISDoc">
+		<keyword level="7" name="name" base="fi:AqRes/fi:AqResIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword level="7" name="name" base="fi:AqRes/fi:AqResIdent/fi:SpeciesList/fi:SpeciesRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<!-- <keyword level="20" name="name" base="fi:AqRes/fi:AqResIdent/fi:AdditionalRefData"> <element name="dcterms:Alternative"/> 
+			</keyword> -->
+		<keyword name="resource" base="fi:AqRes/fi:AqResIdent">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="resource" base="fi:AqRes/fi:AqResIdent/fi:AdditionalRefData">
+			<element name="dcterms:Alternative" />
+		</keyword>
+		<!--//////////////////////////////////////////////SPECIES//////////////////////////////////////////////////////// -->
+		<keyword name="species" base="fi:AqRes/fi:AqResIdent/fi:SpeciesList/fi:SpeciesRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="species" base="fi:AqRes/fi:AqResIdent/fi:SpeciesList/fi:SpeciesRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="Species_Ref" base="/fi:FIGISDoc//fi:SpeciesRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<!--//////////////////////////////////////////////WATER AREA//////////////////////////////////////////////////////// -->
+		<keyword name="WaterArea_Ref" base="/fi:FIGISDoc//fi:WaterAreaRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<keyword name="WaterArea_Ref" base="/fi:FIGISDoc//fi:IntersectingAreas/fi:WaterAreaRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef ">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:WaterAreaOverview/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:WaterAreaOverview/fi:WaterAreaRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:AqRes/fi:WaterAreaOverview/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:AqRes/fi:WaterAreaOverview/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingareaintersect_lme"
+			base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=lme" />
+		</keyword>
+		<keyword name="year" base="fi:AqRes/fi:AqResIdent">
+			<element name="fi:ReferenceYear" />
+		</keyword>
+		<keyword name="stock" base="fi:AqRes/fi:AqResStruct">
+			<element attr="BiologicalStock" />
+		</keyword>
+		<keyword name="management" base="fi:AqRes/fi:Management">
+			<element attr="ManagementUnit" />
+		</keyword>
+		<keyword name="spatialscale" base="fi:AqRes/fi:WaterAreaOverview/fi:SpatialScale">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="juridictional" base="fi:AqRes/fi:GeoDist/fi:JurisdictionalDist">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="climatic" base="fi:AqRes/fi:HabitatBio/fi:ClimaticZone">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="depth" base="fi:AqRes/fi:HabitatBio/fi:DepthZone">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="bottom" base="fi:AqRes/fi:HabitatBio/fi:BottomType">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="vertical" base="fi:AqRes/fi:HabitatBio/fi:VerticalDist">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="horizontal" base="fi:AqRes/fi:HabitatBio/fi:HorizontalDist">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="exploitationstate" base="fi:AqRes/fi:AqResStateTrend/fi:ExploitState">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="exploitationrate" base="fi:AqRes/fi:AqResStateTrend/fi:ExploitRate/fi:StandardExploitRate">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="abundancelevel" base="fi:AqRes/fi:AqResStateTrend/fi:AbundanceLevel/fi:StandardAbundanceLevel">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="institution" base="fi:ObjectSource/fi:CorporateCoverPage">
+			<element name="ags:CreatorCorporate" />
+		</keyword>
+		<keyword name="institution" base="fi:ObjectSource/fi:Owner/fi:CollectionRef/">
+			<element name="dc:Title" />
+		</keyword>
+		<!--====================================used for geographical selection============================================ -->
+		<keyword name="eez" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=eez" />
+		</keyword>
+		<keyword name="fao_div" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_div" />
+		</keyword>
+		<keyword name="fao_major" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+		<keyword name="fao_sub_area" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_area" />
+		</keyword>
+		<keyword name="fao_sub_div" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_div" />
+		</keyword>
+		<keyword name="fao_sub_unit" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_unit" />
+		</keyword>
+		<keyword name="gfcm_sub_area" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=gfcm_sub_area" />
+		</keyword>
+		<keyword name="iccat_smu_alb" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_alb" />
+		</keyword>
+		<keyword name="iccat_smu_bet" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bet" />
+		</keyword>
+		<keyword name="iccat_smu_bft" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bft" />
+		</keyword>
+		<keyword name="iccat_smu_bil" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bil" />
+		</keyword>
+		<keyword name="iccat_smu_sai" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_sai" />
+		</keyword>
+		<keyword name="iccat_smu_skj" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_skj" />
+		</keyword>
+		<keyword name="iccat_smu_swo" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_swo" />
+		</keyword>
+		<keyword name="iccat_smu_yft" base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_yft" />
+		</keyword>
+		<keyword name="fao_major"
+			base="fi:AqRes/fi:AqResIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the FIRMS Fishery search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="fishery" meta="205000" base="/fi:FIGISDoc">
+		<keyword level="5" name="name" base="fi:Fishery/fi:FisheryIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="name" base="fi:Fishery/fi:FisheryIdent/fi:AdditionalRefData">
+			<element name="dcterms:Alternative" />
+		</keyword>
+		<keyword name="fishery" base="fi:Fishery/fi:FisheryIdent">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="fishery" base="fi:Fishery/fi:FisheryIdent/fi:AdditionalRefData">
+			<element name="dcterms:Alternative" />
+		</keyword>
+		<keyword name="year" base="fi:Fishery/fi:FisheryIdent">
+			<element name="fi:ReferenceYear" />
+		</keyword>
+		<keyword name="approach" base="fi:Fishery/fi:FisheryIdent/fi:ThematicApproach">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="georeference" base="fi:Fishery/fi:FisheryIdent/fi:GeoReference">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="georeference" base="fi:Fishery/fi:FisheryIdent/fi:GeoReference/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="georeference" base="fi:Fishery/fi:FisheryIdent/fi:GeoReference/fi:WaterAreaRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="spatialscale" base="fi:Fishery/fi:FisheryIdent/fi:GeoReference/fi:SpatialScale">
+			<element attr="Value" />
+		</keyword>
+		<keyword name="institution" base="fi:ObjectSource/fi:CorporateCoverPage">
+			<element name="ags:CreatorCorporate" />
+		</keyword>
+		<keyword name="institution" base="fi:ObjectSource/fi:Owner/fi:CollectionRef/">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="owner" base="fi:ObjectSource//fi:Owner/fi:CollectionRef/">
+			<element name="dc:Title" />
+		</keyword>
+		<keyword name="owner" base="fi:ObjectSource//fi:Owner/fi:CollectionRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=Acronym" />
+		</keyword>
+		<!--//////////////////////////////////////////////SPECIES//////////////////////////////////////////////////////// -->
+		<keyword name="species" base="fi:Fishery/fi:FishingIndustryActivity//fi:SpeciesList/fi:SpeciesRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="species" base="fi:Fishery/fi:FishingIndustryActivity//fi:SpeciesList/fi:SpeciesRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="Species_Ref" base="/fi:FIGISDoc//fi:SpeciesRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<!--//////////////////////////////////////////////WATER AREA//////////////////////////////////////////////////////// -->
+		<keyword name="WaterArea_Ref" base="/fi:FIGISDoc//fi:WaterAreaRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<keyword name="WaterArea_Ref" base="/fi:FIGISDoc//fi:IntersectingAreas/fi:WaterAreaRef">
+			<concat>
+				<element name="fi:FigisID" attr="MetaID" />
+				/
+				<element name="fi:FigisID" />
+			</concat>
+		</keyword>
+		<keyword name="fishingarea" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef ">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:Fishery/fi:FishingIndustryActivity/fi:FisheryArea/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea" base="fi:Fishery/fi:FishingIndustryActivity/fi:FisheryArea/fi:WaterAreaList/fi:WaterAreaRef/">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:Fishery/fi:FishingIndustryActivity/fi:FisheryArea/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" />
+		</keyword>
+		<keyword name="fishingarea"
+			base="fi:Fishery/fi:FishingIndustryActivity/fi:FisheryArea/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="fishingareaintersect"
+			base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+		<!--====================================used for geographical selection============================================ -->
+		<keyword name="eez" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=eez" />
+		</keyword>
+		<keyword name="fao_div" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_div" />
+		</keyword>
+		<keyword name="fao_major" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+		<keyword name="fao_sub_area" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_area" />
+		</keyword>
+		<keyword name="fao_sub_div" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_div" />
+		</keyword>
+		<keyword name="fao_sub_unit" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_sub_unit" />
+		</keyword>
+		<keyword name="gfcm_sub_area" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=gfcm_sub_area" />
+		</keyword>
+		<keyword name="iccat_smu_alb" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_alb" />
+		</keyword>
+		<keyword name="iccat_smu_bet" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bet" />
+		</keyword>
+		<keyword name="iccat_smu_bft" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bft" />
+		</keyword>
+		<keyword name="iccat_smu_bil" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_bil" />
+		</keyword>
+		<keyword name="iccat_smu_sai" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_sai" />
+		</keyword>
+		<keyword name="iccat_smu_skj" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_skj" />
+		</keyword>
+		<keyword name="iccat_smu_swo" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_swo" />
+		</keyword>
+		<keyword name="iccat_smu_yft" base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=iccat_smu_yft" />
+		</keyword>
+		<keyword name="fao_major"
+			base="fi:Fishery/fi:FisheryIdent/fi:WaterAreaList/fi:WaterAreaRef/fi:IntersectingAreas/fi:WaterAreaRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=fao_major" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the organization search terms -->
+	<!-- ===================================================================== -->
+	<objectType name="organization" meta="104000" base="/fi:FIGISDoc">
+		<keyword name="name" base="fi:Org/fi:OrgIdent">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="geocoverage" base="fi:Org/fi:GeoCoverage">
+			<element attr="Type" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+	<!-- the generic search terms -->
+	<objectType base="/fi:FIGISDoc">
+		<keyword name="owner" base="fi:ObjectSource/fi:Owner/fi:CollectionRef/fi:OrgRef">
+			<element name="dc:Title" />
+			<element name="dc:Title" lang="en" attrSetting="xml:lang=en" />
+			<element name="dc:Title" lang="fr" attrSetting="xml:lang=fr" />
+			<element name="dc:Title" lang="es" attrSetting="xml:lang=es" />
+			<element name="dc:Title" lang="ar" attrSetting="xml:lang=ar" />
+			<element name="dc:Title" lang="zh" attrSetting="xml:lang=zh" />
+			<element name="dc:Title" lang="ru" attrSetting="xml:lang=ru" />
+		</keyword>
+		<keyword name="owner" base="fi:ObjectSource/fi:Owner/fi:CollectionRef/fi:OrgRef/fi:ForeignID">
+			<element attr="Code" attrSetting="CodeSystem=acronym" />
+		</keyword>
+	</objectType>
+	<!-- ===================================================================== -->
+</XmlSearchEngineControl>

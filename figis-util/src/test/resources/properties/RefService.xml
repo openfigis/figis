@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<RefServiceProperties>
+	<LogFile>logs/RefService.log</LogFile>
+	<LogLevel>1</LogLevel>
+	<MetaDataService>
+		<LogLevel>2</LogLevel>
+		<ReadLogLevel>2</ReadLogLevel>
+	</MetaDataService>
+	<DefaultObjectReader>
+		<LogLevel>1</LogLevel>
+		<Meta id="94100">
+			<LogLevel>1</LogLevel>
+		</Meta>
+	</DefaultObjectReader>
+  	<DefaultObjectAccessor>
+    		<LogLevel>1</LogLevel>
+		<meta id="164000">
+			<LogLevel>1</LogLevel>
+		</meta>
+  	</DefaultObjectAccessor>
+	<RefService>
+		<LogLevel>1</LogLevel>
+		<SingleObjectLogLevel>4</SingleObjectLogLevel>
+		<Meta id="30000">
+			<LogLevel>1</LogLevel>
+			<SingleObjectLogLevel>4</SingleObjectLogLevel>
+		</Meta>
+	</RefService>
+	<RootDir>webapps/figis/reftables</RootDir>
+	<TempDir>webapps/figis/reftables/temp</TempDir>
+
+  <Xsl>
+    <meta>webapps/figis/reftables/format/meta.xsl</meta>
+    <refdisp>webapps/figis/reftables/format/refdisp.xsl</refdisp>
+    <columns>webapps/figis/reftables/format/columns.xsl</columns>
+    <printdlg>webapps/figis/reftables/format/printdlg.xsl</printdlg>
+    <sortdlg>webapps/figis/reftables/format/sortdlg.xsl</sortdlg>
+    <printout>webapps/figis/reftables/format/printout.xsl</printout>
+    <expdlg>webapps/figis/reftables/format/expdlg.xsl</expdlg>
+    <exp_xml>webapps/figis/reftables/format/exp_xml.xsl</exp_xml>
+    <exp_csv>webapps/figis/reftables/format/exp_csv.xsl</exp_csv>
+    <import_root>webapps/figis/reftables/format/import_root.xsl</import_root>
+    <import_main>webapps/figis/reftables/format/import_main.xsl</import_main>
+    <import_question>webapps/figis/reftables/format/import_question.xsl</import_question>
+    <import_ok>webapps/figis/reftables/format/import_ok.xsl</import_ok>
+    <import_msg>webapps/figis/reftables/format/import_msg.xsl</import_msg>
+  </Xsl>
+
+  <Html>
+    <cols_ok>webapps/figis/reftables/format/cols_ok.html</cols_ok>
+    <cols_cancel>webapps/figis/reftables/format/cols_cancel.html</cols_cancel>
+    <prn_ok>webapps/figis/reftables/format/prn_ok.html</prn_ok>
+  </Html>
+  <RefServlet>
+    <DeleteXML>yes</DeleteXML>
+    <Main>/figis/servlet/RefServlet</Main>
+    <LogLevel>1</LogLevel>
+  </RefServlet>
+
+</RefServiceProperties>

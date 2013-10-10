@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- srcfirmsLabel.xml																	
+***********************************************************************************************	
+*ti-  FIRMS Marine Resources Labels
+***********************************************************************************************	
+*md- FIRMS																		
+*sm-																					
+***********************************************************************************************	
+*ds- Contains all FIRMS Res labels for all resource elements. All 5 languages can be 
+*ds- handled
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 08-Aug-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!--<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">-->
+<labels>
+	<nodes>
+		<node ID="" Identifier="marineresource" Type="">
+			<label xml:lang="en">Marine Resource</label>
+			<label xml:lang="fr">Resource Marine</label>
+			<label xml:lang="es">Marine Resource</label>
+		</node>
+			<node ID="" Identifier="fishery" Type="">
+			<label xml:lang="en">Fishery</label>
+			<label xml:lang="fr">Pecheries</label>
+			<label xml:lang="es">Fishery</label>
+		</node>
+		<node ID="" Identifier="marineresourceresultlist" Type="">
+			<label xml:lang="en">Marine Resource Results List</label>
+			<label xml:lang="fr">Liste de résultats pour les resources marines</label>
+			<label xml:lang="es">Marine Resource Results List</label>
+		</node>
+		<node ID="" Identifier="fisheryresultlist" Type="">
+			<label xml:lang="en">Fishery Results List</label>
+			<label xml:lang="fr">Liste de résultats pour les pecheries</label>
+			<label xml:lang="es">Fishery Results List</label>
+		</node>
+		<node ID="" Identifier="Found" Type="">
+			<label xml:lang="en">Results for</label>
+			<label xml:lang="fr">Résultats pour</label>
+			<label xml:lang="es">Results for</label>
+		</node>
+		<node ID="" Identifier="dataset" Type="">
+			<label xml:lang="en">Dataset</label>
+			<label xml:lang="fr">Jeu de données</label>
+			<label xml:lang="es">Dataset</label>
+		</node>
+		<node ID="" Identifier="description" Type="">
+			<label xml:lang="en">Description</label>
+			<label xml:lang="fr">Description</label>
+			<label xml:lang="es">Description</label>
+		</node>
+		<node ID="" Identifier="relevance" Type="">
+			<label xml:lang="en">Relevance</label>
+			<label xml:lang="fr">Pertinence</label>
+			<label xml:lang="es">Relevance</label>
+		</node>
+	</nodes>
+</labels>

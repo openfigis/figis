@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- this is an optional wrapper that allows multiple root nodes in a skel -->
+<skeleton>
+	$I_DATA_ENTRY;
+	<fi:ObjectSource>
+		$I_COVER_PAGE;	
+	</fi:ObjectSource>
+	<fi:AqSpecies FID="$FIC_ITEM;">
+		<fi:AqSpeciesIdent FID="$FIC_ITEM;" Status="$ENTRY_STATUS;" Meta="$META;">
+			<fi:FAOTaxonomicCode>$FIC_SYS_ITEM;</fi:FAOTaxonomicCode>
+			<fi:FAO3AlphaCode>$ALPHA3CODE;</fi:FAO3AlphaCode>
+			<fi:FAOName>
+				<fi:En>$FULL_NAME_E;</fi:En>
+				<fi:Fr>$FULL_NAME_F;</fi:Fr>
+				<fi:Sp>$FULL_NAME_S;</fi:Sp>
+			</fi:FAOName>
+			<Unit>$UNIT;</Unit>
+			<fint:LayerID>$FAOMAP_LAYER_ID;</fint:LayerID>
+			$I_SCIENTIFIC_NAME;
+			<fint:Flags>
+				$I_FLAGS;
+			</fint:Flags>
+			<fint:ScientificName>$SCIENTIFIC_NAME;
+			</fint:ScientificName>
+		</fi:AqSpeciesIdent>
+		<fi:AqSpeciesProfile>
+			<fi:OrigDesc>
+			$I_ORIGINAL_NAME;
+			</fi:OrigDesc>
+			<fi:Synonym>
+				$I_SYNONYM;
+			</fi:Synonym>
+		</fi:AqSpeciesProfile>
+		<fi:AqSpeciesFeature>
+			<fi:LocalName>
+				$I_LOCAL_NAME;
+			</fi:LocalName>
+		</fi:AqSpeciesFeature>
+		<fi:Bibliography>
+			$I_BIBLIO_ENTRY;
+		</fi:Bibliography>
+	</fi:AqSpecies>
+</skeleton>

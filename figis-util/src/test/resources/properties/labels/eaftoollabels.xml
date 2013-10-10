@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">
+<labels>
+	<nodes>
+		<node ID="fi:AddInfo">
+			<label xml:lang="en">Appendix</label>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Bibliography">
+			<label xml:lang="en">Other Relevant References</label>
+			<!--<label xml:lang="en">Bibliography</label>
+			<label xml:lang="es">Bibliografía</label>
+			<label xml:lang="fr">Bibliographie</label>
+			<label xml:lang="ar">مراجع المؤلفات</label>
+			<label xml:lang="zh">参考书目</label>
+			<label xml:lang="ru">Библиографический указатель</label>-->
+		</node>
+		<node ID="fi:BiblioEntry">
+			<label xml:lang="en"/>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+			<label xml:lang="ru"/>
+		</node>
+		<node ID="fi:Community">
+			<label xml:lang="en">Participation</label>
+			<label xml:lang="es">Participation</label>
+			<label xml:lang="fr">Participation</label>
+			<label xml:lang="ar">Participation</label>
+			<label xml:lang="zh">Participation</label>
+			<label xml:lang="ru">Participation</label>
+		</node>
+		<node ID="fi:Contacts">
+			<label xml:lang="en">Contacts</label>
+			<label xml:lang="es">Contactos</label>
+			<label xml:lang="fr">Contacts</label>
+			<label xml:lang="ar">جهات الاتصال</label>
+			<label xml:lang="zh">联系人</label>
+			<label xml:lang="ru">Контакты</label>
+		</node>
+		<node ID="fi:EAFSteps">
+			<label xml:lang="en">EAF Steps</label>
+			<label xml:lang="es">EAF Steps</label>
+			<label xml:lang="fr">EAF Steps</label>
+			<label xml:lang="ar">EAF Steps</label>
+			<label xml:lang="zh">EAF Steps</label>
+			<label xml:lang="ru">EAF Steps</label>
+		</node>
+		<node ID="fi:EAFToolTips">
+			<label xml:lang="en">EAF Tool Tips</label>
+			<label xml:lang="es">EAF Tool Tips</label>
+			<label xml:lang="fr">EAF Tool Tips</label>
+			<label xml:lang="ar">EAF Tool Tips</label>
+			<label xml:lang="zh">EAF Tool Tips</label>
+			<label xml:lang="ru">EAF Tool Tips</label>
+		</node>
+		<node ID="fi:EAFToolPedegree">
+			<label xml:lang="en">EAF Tool Pedegree</label>
+			<label xml:lang="es">EAF Tool Pedegree</label>
+			<label xml:lang="fr">EAF Tool Pedegree</label>
+			<label xml:lang="ar">EAF Tool Pedegree</label>
+			<label xml:lang="zh">EAF Tool Pedegree</label>
+			<label xml:lang="ru">EAF Tool Pedegree</label>
+		</node>
+		<node ID="fi:EAFToolSynergy">
+			<label xml:lang="en">EAF Tool Synergy</label>
+			<label xml:lang="es">EAF Tool Synergy</label>
+			<label xml:lang="fr">EAF Tool Synergy</label>
+			<label xml:lang="ar">EAF Tool Synergy</label>
+			<label xml:lang="zh">EAF Tool Synergy</label>
+			<label xml:lang="ru">EAF Tool Synergy</label>
+		</node>
+		<node ID="fi:EAFToolUsage">
+			<label xml:lang="en">EAF Tool Usage</label>
+			<label xml:lang="es">EAF Tool Usage</label>
+			<label xml:lang="fr">EAF Tool Usage</label>
+			<label xml:lang="ar">EAF Tool Usage</label>
+			<label xml:lang="zh">EAF Tool Usage</label>
+			<label xml:lang="ru">EAF Tool Usage</label>
+		</node>
+		<node ID="fi:Costs">
+			<label xml:lang="en">Cost</label>
+			<label xml:lang="es">Cost</label>
+			<label xml:lang="fr">Cost</label>
+			<label xml:lang="ar">Cost</label>
+			<label xml:lang="zh">Cost</label>
+			<label xml:lang="ru">Cost</label>
+		</node>
+		<node ID="fi:EAFToolCapacity">
+			<label xml:lang="en">EAF Tool Capacity</label>
+			<label xml:lang="es">EAF Tool Capacity</label>
+			<label xml:lang="fr">EAF Tool Capacity</label>
+			<label xml:lang="ar">EAF Tool Capacity</label>
+			<label xml:lang="zh">EAF Tool Capacity</label>
+			<label xml:lang="ru">EAF Tool Capacity</label>
+		</node>
+		<node ID="fi:BackgroundRequirements">
+			<label xml:lang="en">Background Requirements</label>
+			<label xml:lang="es">Background Requirements</label>
+			<label xml:lang="fr">Background Requirements</label>
+			<label xml:lang="ar">Background Requirements</label>
+			<label xml:lang="zh">Background Requirements</label>
+			<label xml:lang="ru">Background Requirements</label>
+		</node>
+		<node ID="fi:TimeRange">
+			<label xml:lang="en">Time Range</label>
+			<label xml:lang="es">Time Range</label>
+			<label xml:lang="fr">Time Range</label>
+			<label xml:lang="ar">Time Range</label>
+			<label xml:lang="zh">Time Range</label>
+			<label xml:lang="ru">Time Range</label>
+		</node>
+		<node ID="fi:Objectives">
+			<label xml:lang="en">Purpose</label>
+			<!--<label xml:lang="en">Objectives</label>
+			<label xml:lang="es">Objetivos</label>
+			<label xml:lang="fr">Objectifs</label>
+			<label xml:lang="ar">الأهداف</label>
+			<label xml:lang="zh">目标</label>
+			<label xml:lang="ru">Цели</label>-->
+		</node>
+		<node ID="fi:Overview">
+			<label xml:lang="en">Overview</label>
+			<label xml:lang="es">Descripción</label>
+			<label xml:lang="fr">Vue d'ensemble</label>
+			<label xml:lang="ar">لمحة عامة</label>
+			<label xml:lang="zh">概览</label>
+			<label xml:lang="ru">Обзор</label>
+		</node>
+		<!-- //// labels for the value attributes /// -->
+		<node ID="fi:Min">
+			<label xml:lang="en">Min</label>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="fi:Max">
+			<label xml:lang="en">Max</label>
+			<label xml:lang="es"/>
+			<label xml:lang="fr"/>
+			<label xml:lang="ar"/>
+			<label xml:lang="zh"/>
+		</node>
+		<node ID="Low">
+			<label xml:lang="en">Low</label>
+			<label xml:lang="es">Low</label>
+			<label xml:lang="fr">Low</label>
+			<label xml:lang="ar">Low</label>
+			<label xml:lang="zh">Low</label>
+			<label xml:lang="ru">Low</label>
+		</node>
+		<node ID="Moderate">
+			<label xml:lang="en">Moderate</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="High">
+			<label xml:lang="en">High</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="Short">
+			<label xml:lang="en">Short</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="Long">
+			<label xml:lang="en">Long</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="Easy">
+			<label xml:lang="en">Easy</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="Medium">
+			<label xml:lang="en">Medium</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="FairlyHard">
+			<label xml:lang="en">Fairly Hard</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<node ID="VeryHard">
+			<label xml:lang="en">Very Hard</label>
+			<label xml:lang="es">Label to be entered</label>
+			<label xml:lang="fr">Label to be entered</label>
+			<label xml:lang="ar">Label to be entered</label>
+			<label xml:lang="zh">Label to be entered</label>
+			<label xml:lang="ru">Label to be entered</label>
+		</node>
+		<!-- ////////////////  EAF Tool Step Labels ///// -->
+		<node ID="consultation">
+			<label xml:lang="en">Consultation tools</label>
+		</node>
+		<node ID="_1_">
+			<label xml:lang="en">Step 1 - Initiation and Scope</label>
+		</node>
+		<node ID="_1.1_">
+			<label xml:lang="en">Activity 1.1 - Initial process planning and determining stakeholder support</label>
+		</node>
+		<node ID="_1.2_">
+			<label xml:lang="en">Activity 1.2 - Defining the fishery, societal values and high level objectives</label>
+		</node>
+		<node ID="_1.3_">
+			<label xml:lang="en">Activity 1.3 - Finalise the scoping and background document</label>
+		</node>
+		<node ID="_2_">
+			<label xml:lang="en">Step 2 - Identification of assets, issues and their priority </label>
+		</node>
+		<node ID="_2.1_">
+			<label xml:lang="en">Activity 2.1 - Asset and Issue identification</label>
+		</node>
+		<node ID="_2.2_">
+			<label xml:lang="en">Activity 2.2 - Issue Prioritisation and risk assessment</label>
+		</node>
+		<node ID="_3_">
+			<label xml:lang="en">Step 3 - Development of the EAF management system</label>
+		</node>
+		<node ID="_3.1_">
+			<label xml:lang="en">Activity 3.1 - Determine operational objectives</label>
+		</node>
+		<node ID="_3.2_">
+			<label xml:lang="en">Activity 3.2 - Indicator and performance measure selection</label>
+		</node>
+		<node ID="_3.3_">
+			<label xml:lang="en">Activity 3.3 - Management option evaluation and selection</label>
+		</node>
+		<node ID="_4_">
+			<label xml:lang="en">Step 4 - Implementation, monitoring and performance review</label>
+		</node>
+		<node ID="_4.1_">
+			<label xml:lang="en">Activity 4.1 - Develop an operational plan and monitor its progress</label>
+		</node>
+		<node ID="_4.2_">
+			<label xml:lang="en">Activity 4.2 - Formalisation of the Management 'plan'</label>
+		</node>
+		<node ID="_4.3_">
+			<label xml:lang="en">Activity 4.3 - Review performance of the Management system</label>
+		</node>
+		<node ID="_4.4_">
+			<label xml:lang="en">Activity 4.4 - Report, communicate and audit performance</label>
+		</node>
+	</nodes>
+</labels>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XSL identification Header
+***********************************************************************************************	
+*na- FSCommonLabels.xml																	
+***********************************************************************************************	
+*ti-  Fact Sheet common labels
+***********************************************************************************************	
+*md- Common																		
+*sm-																					
+***********************************************************************************************	
+*ds- Contains all common FS labels for FS V2. All 5 languages can be 
+*ds- handled
+***********************************************************************************************	
+*ac-																					
+***********************************************************************************************	
+*hi- 10-Aug-2005	Created By Yann Laurent				
+***********************************************************************************************	
+-->
+<!--<!DOCTYPE labels SYSTEM "http://www.fao.org/fi/figis/devcon/schema/properties/labels.dtd">-->
+<labels>
+	<nodes>
+		<!-- common labels to Fact Sheets -->
+		<node ID="" Identifier="FSLabel" Type="">
+			<label xml:lang="en">Fact Sheet</label>
+			<label xml:lang="fr">Fiche documentaire</label>
+			<label xml:lang="es">Fact Sheet</label>
+		</node>
+		<node ID="" Identifier="TofC" Type="">
+			<label xml:lang="en">Table of Contents</label>
+			<label xml:lang="fr">Table des matières</label>
+			<label xml:lang="es">Table of Contents</label>
+		</node>
+		<node ID="" Identifier="ProvidedBy" Type="">
+			<label xml:lang="en">Provided by</label>
+			<label xml:lang="fr">Fourni par</label>
+			<label xml:lang="es">Fact Sheet</label>
+		</node>
+		<node ID="" Identifier="OwnedBy" Type="">
+			<label xml:lang="en">Owned by</label>
+			<label xml:lang="fr">Appartient à</label>
+			<label xml:lang="es">Owned by</label>
+		</node>
+		<node ID="" Identifier="DocPMO" Type="">
+			<label xml:lang="en">This document provided, maintained and owned by </label>
+			<label xml:lang="fr">Ce document fourni, maintenu et possédé par </label>
+			<label xml:lang="es">This document provided, maintained and owned by </label>
+		</node>
+		<node ID="" Identifier="DocO" Type="">
+			<label xml:lang="en">This document owned by </label>
+			<label xml:lang="fr">Ce document possédé par </label>
+			<label xml:lang="es">This document owned by </label>
+		</node>
+		<node ID="" Identifier="DocPM" Type="">
+			<label xml:lang="en">, provided and maintained by </label>
+			<label xml:lang="fr">, fourni et maintenu par </label>
+			<label xml:lang="es">, provided and maintained by </label>
+		</node>
+		<node ID="" Identifier="DataOwnership" Type="">
+			<label xml:lang="en">Data Ownership</label>
+			<label xml:lang="fr">Propriétaire de la donnée</label>
+			<label xml:lang="es">Data Ownership</label>
+		</node>
+		<node ID="" Identifier="partOf" Type="">
+			<label xml:lang="en"> , is  part of </label>
+			<label xml:lang="fr"> , fait partie de la collection des </label>
+			<label xml:lang="es"> , is  part of</label>
+		</node>
+		<node ID="" Identifier="dataColl" Type="">
+			<label xml:lang="en"> data collection.</label>
+			<label xml:lang="fr">.</label>
+			<label xml:lang="es"> data collection.</label>
+		</node>
+		<node ID="" Identifier="AltCitation" Type="">
+			<label xml:lang="en">Fact Sheet Citation</label>
+			<label xml:lang="fr">Citation pour la Fact Sheet</label>
+			<label xml:lang="es">Fact Sheet Citation</label>
+		</node>
+		<node ID="" Identifier="TablesList" Type="">
+			<label xml:lang="en">Tables</label>
+			<label xml:lang="fr">Tables</label>
+			<label xml:lang="es">Tables</label>
+		</node>
+		<node ID="" Identifier="SearchButt" Type="">
+			<label xml:lang="en">Search</label>
+			<label xml:lang="fr">Rechercher</label>
+			<label xml:lang="es">Cercar</label>
+		</node>
+		<node ID="" Identifier="SaveButt" Type="">
+			<label xml:lang="en">Save</label>
+			<label xml:lang="fr">Sauver</label>
+			<label xml:lang="es">Salvar</label>
+		</node>
+		<node ID="" Identifier="PrintButt" Type="">
+			<label xml:lang="en">Print</label>
+			<label xml:lang="fr">Imprimer</label>
+			<label xml:lang="es">Print</label>
+		</node>
+	</nodes>
+</labels>

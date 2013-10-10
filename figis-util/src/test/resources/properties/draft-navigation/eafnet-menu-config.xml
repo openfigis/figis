@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited by Aureliano Gentile, FAO of the UN, June 2009 -->
+<MenuConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:exsl="http://exslt.org/common" xsi:noNamespaceSchemaLocation="http://www.fao.org/fi/figis/devcon/schema/fi-navigation.xsd">
+	<Menus>
+		<Menu name="Root">
+			<Title xml:lang="en">Root</Title>
+			<Item menu-ref="EAFNET" name="EAFNET">
+				<Title xml:lang="en">EAF-NET</Title>
+			</Item>
+		</Menu>
+		<Menu name="EAFNET">
+			<Item name="topic#166234">
+				<Title xml:lang="en">EAF Home</Title>
+			</Item>
+			<Item>
+				<Title xml:lang="en">About EAF and the Toolbox</Title>
+				<Item name="topic#166237">
+					<Title xml:lang="en">What is EAF</Title>
+				</Item>
+				<Item name="topic#166238">
+					<Title xml:lang="en">EAF-Net Contributors</Title>
+				</Item>
+				<Item name="topic#166239">
+					<Title xml:lang="en">Critical Elements of EAF</Title>
+				</Item>
+				<Item name="topic#166240">
+					<Title xml:lang="en">Why is a toolbox needed for the EAF framework</Title>
+				</Item>
+				<Item name="topic#166241">
+					<Title xml:lang="en">Who is the audience how was the toolbox developed</Title>
+				</Item>
+				<Item name="topic#166242">
+					<Title xml:lang="en">What are the main EAF management planning steps</Title>
+				</Item>
+			</Item>
+			<Item name="topic#166243">
+				<Title xml:lang="en">How to use this toolbox</Title>
+				<Item name="topic#166244">
+					<Title xml:lang="en">Tool selection criteria</Title>
+				</Item>
+				<Item name="topic#166245">
+					<Title xml:lang="en">Procedure, pathway and timeline for EAF planning</Title>
+				</Item>
+			</Item>
+			<Item name="topic#166246">
+				<Title xml:lang="en">EAF management planning process</Title>
+				<Item name="topic#166247">
+					<Title xml:lang="en">Consultation tools</Title>
+				</Item>
+				<Item name="topic#166248">
+					<Title xml:lang="en">Step 1: Initiation and Scope</Title>
+					<Item name="topic#166249">
+						<Title xml:lang="en">Activity 1.1 - Initial process planning and stakeholder support</Title>
+					</Item>
+					<Item name="topic#166250">
+						<Title xml:lang="en">Activity 1.2 – Defining the fishery, societal values and objectives</Title>
+					</Item>
+					<Item name="topic#166251">
+						<Title xml:lang="en">Activity 1.3 - Finalise scoping document</Title>
+					</Item>
+				</Item>
+				<Item name="topic#166252">
+					<Title xml:lang="en">Step 2 – Identification of assets, issues and their priority</Title>
+					<Item name="topic#166253">
+						<Title xml:lang="en">Activity 2.1 – Asset and Issue identification</Title>
+					</Item>
+					<Item name="topic#166254">
+						<Title xml:lang="en">Activity 2.2 – Prioritisation/risk assessment</Title>
+					</Item>
+				</Item>
+				<Item name="topic#166255">
+					<Title xml:lang="en">Step 3 – Development of the EAF management system</Title>
+					<Item name="topic#166256">
+						<Title xml:lang="en">Activity 3.1 - Determine operational objectives</Title>
+					</Item>
+					<Item name="topic#166257">
+						<Title xml:lang="en">Activity 3.2 – Indicator and performance measure selection</Title>
+					</Item>
+					<Item name="topic#166258">
+						<Title xml:lang="en">Activity 3.3 – Management option evaluation and selection</Title>
+					</Item>
+				</Item>
+				<Item name="topic#166259">
+					<Title xml:lang="en">Step 4 – Institutionalization, monitoring and performance review</Title>
+					<Item name="topic#166260">
+						<Title xml:lang="en">Activity 4.1 - Develop and monitor execution of operational plan</Title>
+					</Item>
+					<Item name="topic#166261">
+						<Title xml:lang="en">Activity 4.2 - Formalise the Management ‘plan’</Title>
+					</Item>
+					<Item name="topic#166262">
+						<Title xml:lang="en">Activity 4.3 – Review performance of the Management system</Title>
+					</Item>
+					<Item name="topic#166263">
+						<Title xml:lang="en">Activity 4.4 – Report and communicate on performance</Title>
+					</Item>
+				</Item>
+			</Item>
+			<Item name="topic#166264">
+				<Title xml:lang="en">Suggested tool ‘play lists’ </Title>
+			</Item>
+			<Item name="/fishery/eaf-net/eaftool/search">
+				<Title xml:lang="en">Search EAF Tools</Title>
+				<Item name="/fiweb/website/EAFNETSearch.do?dom=eaftool*" clickable="false" visible="false">
+					<Title xml:lang="en">Search EAF Tool fact sheets</Title>
+				</Item>
+				<Item name="/fiweb/website/EAFNETSearchResult.do?dom=eaftool*" clickable="false" visible="false">
+					<Title xml:lang="en">EAF Tool fact sheets - Results</Title>
+				</Item>
+				<Item name="/fiweb/website/EAFNETSearchAction.do?dom=eaftool*" clickable="false" visible="false">
+					<Title xml:lang="en">EAF Tool fact sheets - Results</Title>
+				</Item>
+				<Item name="eaftool#*" clickable="false" visible="false">
+					<Title xml:lang="en">EAF Tool fact sheets</Title>
+					<Title xml:lang="fr">EAF Tool fact sheets</Title>
+					<Title xml:lang="es">EAF Tool fact sheets</Title>
+					<Title xml:lang="ar">EAF Tool fact sheets</Title>
+					<Title xml:lang="zh">EAF Tool fact sheets</Title>
+					<Title xml:lang="ru">EAF Tool fact sheets</Title>
+				</Item>
+			</Item>
+			<Item name="topic#166265">
+				<Title xml:lang="en">Site map</Title>
+			</Item>
+			<Item name="topic#166266">
+				<Title xml:lang="en">Contacts</Title>
+			</Item>
+			<Item name="topic#166267">
+				<Title xml:lang="en">Useful links</Title>
+			</Item>
+			<Item name="topic#166268">
+				<Title xml:lang="en">References</Title>
+			</Item>
+		</Menu>
+	</Menus>
+</MenuConfig>

@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<StatQueryProperties>
+	<LogFile>logs/StatQuery.log</LogFile>
+	<LogLevel>2</LogLevel>
+	<Function>
+		<SUM>org.fao.fi.figis.statquery.SQRowTotal</SUM>
+		<AVG>org.fao.fi.figis.statquery.SQRowAverage</AVG>
+	</Function>
+	<Production>
+		<Class>org.fao.fi.figis.statquery.dataset.SQProduction</Class>
+		<Name>
+			<en>Production</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1950</FirstYear>
+		<LastYear>2009</LastYear>
+	</Production>
+	<Capture>
+		<Class>org.fao.fi.figis.statquery.dataset.SQCapture</Class>
+		<Name>
+			<en>Capture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1950</FirstYear>
+		<LastYear>2009</LastYear>
+	</Capture>
+	<GFCM>
+		<Class>org.fao.fi.figis.statquery.dataset.SQGFCM</Class>
+		<Name>
+			<en>Capture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1970</FirstYear>
+		<LastYear>2009</LastYear>
+	</GFCM>
+	<CECAF>
+		<Class>org.fao.fi.figis.statquery.dataset.SQCECAF</Class>
+		<Name>
+			<en>Capture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1970</FirstYear>
+		<LastYear>2009</LastYear>
+	</CECAF>
+	<SEATL>
+		<Class>org.fao.fi.figis.statquery.dataset.SQSEATL</Class>
+		<Name>
+			<en>Capture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1975</FirstYear>
+		<LastYear>2008</LastYear>
+	</SEATL>
+	<RECOFI>
+		<Class>org.fao.fi.figis.statquery.dataset.SQRECOFI</Class>
+		<Name>
+			<en>Capture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<FirstYear>1986</FirstYear>
+		<LastYear>2009</LastYear>
+	</RECOFI>
+	<Aquaculture>
+		<Class>org.fao.fi.figis.statquery.dataset.SQAquaculture</Class>
+		<Name>
+			<en>Aquaculture</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Series id="VALUE">
+			<Name>
+				<en>Value</en>
+			</Name>
+		</Series>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<Key id="ENVIRONMENT">
+			<Name>
+				<en>Environment</en>
+			</Name>
+		</Key>
+		<FirstYear>1950</FirstYear>
+		<LastYear>2009</LastYear>
+	</Aquaculture>
+	<Fishermen>
+		<Class>org.fao.fi.figis.statquery.dataset.SQFishermen</Class>
+		<Name>
+			<en>Fishermen</en>
+		</Name>
+		<Series id="NUMBER">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+			<Attr id="23">
+				<Name>
+					<en>UN Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="WORKDOM">
+			<Name>
+				<en>Working domain</en>
+			</Name>
+		</Key>
+		<Key id="STATUS">
+			<Name>
+				<en>Working status</en>
+			</Name>
+		</Key>
+		<Key id="GENDER">
+			<Name>
+				<en>Gender</en>
+			</Name>
+		</Key>
+		<FirstYear>1970</FirstYear>
+		<LastYear>2007</LastYear>
+	</Fishermen>
+	<Disposition>
+		<Class>org.fao.fi.figis.statquery.dataset.SQDisposition</Class>
+		<Name>
+			<en>Disposition</en>
+		</Name>
+		<Series id="NUMBER">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+			<Attr id="23">
+				<Name>
+					<en>UN Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="DISP">
+			<Name>
+				<en>Disposition</en>
+			</Name>
+		</Key>
+		<FirstYear>1970</FirstYear>
+		<LastYear>2007</LastYear>
+	</Disposition>
+	<Trade>
+		<Class>org.fao.fi.figis.statquery.dataset.SQTrade</Class>
+		<Name>
+			<en>Commodity Trade and Production</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Series id="VALUE">
+			<Name>
+				<en>Value</en>
+			</Name>
+		</Series>
+		<Key id="COMMODITY">
+			<Name>
+				<en>Commodity</en>
+			</Name>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="TRADEFLOW">
+			<Name>
+				<en>Trade flow</en>
+			</Name>
+		</Key>
+		<FirstYear>1976</FirstYear>
+		<LastYear>2001</LastYear>
+	</Trade>
+	<Commodities>
+		<Class>org.fao.fi.figis.statquery.dataset.SQCommodity</Class>
+		<Name>
+			<en>Commodity Trade and Production</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Series id="VALUE">
+			<Name>
+				<en>Value</en>
+			</Name>
+		</Series>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Land Area</en>
+			</Name>
+		</Key>
+		<Key id="FLOW">
+			<Name>
+				<en>Trade flow</en>
+			</Name>
+		</Key>
+		<Key id="COMMODITY">
+			<Name>
+				<en>Commodity</en>
+			</Name>
+		</Key>
+		<FirstYear>1976</FirstYear>
+		<LastYear>2008</LastYear>
+	</Commodities>
+	<Fleet>
+		<Class>org.fao.fi.figis.statquery.dataset.SQFleet</Class>
+		<Name>
+			<en>Fishing fleets</en>
+		</Name>
+		<Series id="NUMBER">
+			<Name>
+				<en>Number</en>
+			</Name>
+		</Series>
+		<Series id="TONNAGE">
+			<Name>
+				<en>Total Tonnage</en>
+			</Name>
+		</Series>
+		<Key id="VESSELCLASS">
+			<Name>
+				<en>Vessel Class</en>
+			</Name>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+		</Key>
+		<Key id="VESSELTYPE">
+			<Name>
+				<en>Vessel Type</en>
+			</Name>
+		</Key>
+		<FirstYear>1970</FirstYear>
+		<LastYear>1995</LastYear>
+	</Fleet>
+	<Decked>
+		<Class>org.fao.fi.figis.statquery.dataset.SQDecked</Class>
+		<Name>
+			<en>Fishing fleets - DECKED VESSELS</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Number</en>
+			</Name>
+		</Series>
+		<Series id="TONNAGE">
+			<Name>
+				<en>Total Tonnage</en>
+			</Name>
+		</Series>
+		<Series id="POWER">
+			<Name>
+				<en>Total Power</en>
+			</Name>
+		</Series>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+		</Key>
+		<Key id="VESSELCLASS">
+			<Name>
+				<en>Vessel Class</en>
+			</Name>
+		</Key>
+		<Key id="VESSELTYPE">
+			<Name>
+				<en>Vessel Type</en>
+			</Name>
+		</Key>
+		<FirstYear>1996</FirstYear>
+		<LastYear>1998</LastYear>
+	</Decked>
+	<Undecked>
+		<Class>org.fao.fi.figis.statquery.dataset.SQUndecked</Class>
+		<Name>
+			<en>Fishing fleets - UNDECKED VESSELS</en>
+		</Name>
+		<Series id="VESSELS">
+			<Name>
+				<en>Vessel Number</en>
+			</Name>
+		</Series>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+		</Key>
+		<Key id="VESSELCLASS">
+			<Name>
+				<en>Vessel Class</en>
+			</Name>
+		</Key>
+		<Key id="VESSELTYPE">
+			<Name>
+				<en>Vessel Type</en>
+			</Name>
+		</Key>
+		<FirstYear>1996</FirstYear>
+		<LastYear>1998</LastYear>
+	</Undecked>
+	<TunaLandings>
+		<Class>org.fao.fi.figis.statquery.dataset.SQTunaLandings</Class>
+		<Name>
+			<en>Global Tuna Catches by Stock</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="STOCK">
+			<Name>
+				<en>Stock</en>
+			</Name>
+		</Key>
+		<Key id="COUNTRY">
+			<Name>
+				<en>Country</en>
+			</Name>
+		</Key>
+		<Key id="GEAR">
+			<Name>
+				<en>Gear Type</en>
+			</Name>
+		</Key>
+		<FirstYear>1950</FirstYear>
+		<LastYear>2008</LastYear>
+	</TunaLandings>
+	<TunaAtlas>
+		<Class>org.fao.fi.figis.statquery.dataset.SQTunaAtlas</Class>
+		<Name>
+			<en>Tuna Atlas</en>
+		</Name>
+		<Series id="QUANTITY">
+			<Name>
+				<en>Quantity</en>
+			</Name>
+		</Series>
+		<Key id="OCEAN_AREA">
+			<Name>
+				<en>Ocean Area</en>
+			</Name>
+		</Key>
+		<Key id="SPECIES">
+			<Name>
+				<en>Species</en>
+			</Name>
+			<Attr id="12">
+				<Name>
+					<en>Scientific name</en>
+				</Name>
+			</Attr>
+			<Attr id="13">
+				<Name>
+					<en>Code</en>
+				</Name>
+			</Attr>
+		</Key>
+		<Key id="GEAR">
+			<Name>
+				<en>Gear Type</en>
+			</Name>
+		</Key>
+		<FirstYear>1950</FirstYear>
+		<LastYear>2010</LastYear>
+	</TunaAtlas>
+	<SQServlet>
+		<OutTypes>
+			<dat>
+				<XSL>webapps/figis/tseries/format/dat.xsl</XSL>
+			</dat>
+			<html>
+				<XSL>webapps/figis/tseries/format/main.xsl</XSL>
+				<outtype>text/html</outtype>
+			</html>
+			<graph>
+				<XSL>webapps/figis/tseries/format/graph.xsl</XSL>
+				<outtype>text/html</outtype>
+			</graph>
+			<gif>
+				<outtype>image/gif</outtype>
+			</gif>
+			<csv>
+				<XSL>webapps/figis/tseries/format/csv.xsl</XSL>
+				<outtype>application/comma-separated-values</outtype>
+			</csv>
+			<map>
+				<XSL>webapps/figis/tseries/format/map.xsl</XSL>
+				<outtype>text/html</outtype>
+			</map>
+			<mapdata>
+				<XSL>webapps/figis/tseries/format/mapdata.xsl</XSL>
+				<outtype>application/comma-separated-values</outtype>
+			</mapdata>
+		</OutTypes>
+	</SQServlet>
+</StatQueryProperties>

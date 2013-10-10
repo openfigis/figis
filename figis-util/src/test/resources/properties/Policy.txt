@@ -1,0 +1,5 @@
+grant
+{
+	// allow all permissions for the servlet/JSP engine
+	permission java.security.AllPermission;
+};

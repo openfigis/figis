@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="Figis" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/Figis.log"/>
+		<param name="MaxFileSize" value="5MB"/>
+		<param name="MaxBackupIndex" value="5"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%c]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="StatQuery" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/StatQuery.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="RefSelector" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/RefSelector.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisSelector" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisSelector.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="RefService" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/RefService.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="RefGUI" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/RefGUI.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisUtil" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisUtil.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisSecurity" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisSecurity.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="StatApplet" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/StatApplet.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisFactsheets" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisFactsheets.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="HSVAR" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/hsvar.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisMapper" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisMapper.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="FigisNavigation" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/FigisNavigation.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="struts" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/struts.log"/>
+		<param name="MaxFileSize" value="5MB"/>
+		<param name="MaxBackupIndex" value="2"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM-yy HH:mm:ss} [%-5p][%-28C{1}]: %m%n"/>
+		</layout>
+	</appender>
+	<appender name="Connection" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/Connection.log"/>
+		<param name="MaxFileSize" value="5MB"/>
+		<param name="MaxBackupIndex" value="5"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss} %C{1}: %m%n"/>
+		</layout>
+	</appender>
+	<logger name="org.fao.fi.figis.util.db.FiConnectionProvider">
+		<level value="INFO"/>
+		<appender-ref ref="Connection"/>
+	</logger>
+	<logger name="org.fao.fi.figis">
+		<level value="INFO"/>
+		<appender-ref ref="Figis"/>
+	</logger>
+	<logger name="org.fao.fi.figis.fs">
+		<level value="INFO"/>
+		<appender-ref ref="FigisFactsheets"/>
+	</logger>
+	<logger name="org.fao.fi.figis.statquery">
+		<level value="INFO"/>
+		<appender-ref ref="StatQuery"/>
+	</logger>
+	<logger name="org.fao.fi.figis.refselector">
+		<level value="INFO"/>
+		<appender-ref ref="RefSelector"/>
+	</logger>
+	<logger name="org.fao.fi.figis.util">
+		<level value="INFO"/>
+		<appender-ref ref="FigisUtil"/>
+	</logger>
+	<logger name="org.hibernate">
+		<level value="INFO"/>
+		<appender-ref ref="FigisUtil"/>
+	</logger>
+	<logger name="net.sf.ehcache">
+		<level value="INFO"/>
+		<appender-ref ref="FigisUtil"/>
+	</logger>
+	<logger name="org.fao.fi.figis.util.security">
+		<level value="INFO"/>
+		<appender-ref ref="FigisSecurity"/>
+	</logger>
+	<logger name="org.fao.fi.figis.statapplet">
+		<level value="INFO"/>
+		<appender-ref ref="StatApplet"/>
+	</logger>
+	<logger name="org.fao.fi.figis.refgui">
+		<level value="INFO"/>
+		<appender-ref ref="RefGUI"/>
+	</logger>
+	<logger name="org.fao.fi.figis.selector">
+		<level value="INFO"/>
+		<appender-ref ref="FigisSelector"/>
+	</logger>
+	<logger name="org.fao.fi.figis.refservice">
+		<level value="INFO"/>
+		<appender-ref ref="RefService"/>
+	</logger>
+	<logger name="org.fao.fi.figis.hsvar">
+		<level value="INFO"/>
+		<appender-ref ref="HSVAR"/>
+	</logger>
+	<logger name="org.fao.fi.figis.mapper">
+		<level value="INFO"/>
+		<appender-ref ref="FigisMapper"/>
+	</logger>
+	<logger name="org.fao.fi.figis.gispanel">
+		<level value="INFO"/>
+		<appender-ref ref="FigisMapper"/>
+	</logger>
+	<logger name="org.fao.fi.figis.navigation">
+		<level value="INFO"/>
+		<appender-ref ref="FigisNavigation"/>
+	</logger>
+	<logger name="org.apache.struts">
+		<level value="INFO"/>
+		<appender-ref ref="struts"/>
+	</logger>
+
+
+</log4j:configuration>
+
