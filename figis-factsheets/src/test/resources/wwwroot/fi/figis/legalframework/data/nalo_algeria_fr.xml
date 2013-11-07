@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/fi.xsd" xml:lang="fr">
+	<fi:DataEntry>
+		<fi:Editor>Pietro Gentiloni</fi:Editor>
+		<dcterms:Created>2012-04-30</dcterms:Created>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:ForeignID CodeSystem="acronym" Code="NALO"/>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:ForeignID CodeSystem="acronym" Code="NALO_FS_CP"/>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<ags:CreatorPersonal>Doffay, B.</ags:CreatorPersonal>
+			<dcterms:Created>2011-01-01</dcterms:Created>
+			<dc:Description>This file contains an overview of aquaculture-related legislation of Algeria.</dc:Description>
+			<dc:Subject>aquaculture </dc:Subject>
+			<dc:Subject>law and legislation </dc:Subject>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:LegalFramework>
+		<fi:LegalFrameworkIdent Status="3">
+			<dc:Title>Vue générale de la législation nationale sur l’aquaculture  - Algerie</dc:Title>
+			<dc:Identifier Type="FAOLEX">ALGERIA</dc:Identifier>
+			<fi:LandAreaRef Type="Political">
+				<fi:ForeignID Code="DZ" CodeSystem="iso2"/>
+			</fi:LandAreaRef>
+			<fi:LegalDate>
+				<fi:ConsolidatedDate>if any</fi:ConsolidatedDate>
+				<fi:OfficialDate>if any</fi:OfficialDate>
+			</fi:LegalDate>
+		</fi:LegalFrameworkIdent>
+		<fi:LegalFrameworkProfile>
+			<fi:Legislation>
+				<fi:Text><![CDATA[
+				
+				
+		Les  principaux textes législatifs réglementant le secteur aquacole en Algérie sont la Loi n°01-11 de 2001 relative aux pêches et à l’aquaculture et ses textes d’application.
+La loi définit les règles générales de la gestion et le développement de la pêche et de l’aquaculture, en conformité avec les engagements internationaux de l’Etat en matière d’exploitation, conservation et préservation des ressources biologiques des eaux relevant de sa juridiction nationale.
+
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10001">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10001.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/> 
+
+
+“La pêche” est définie comme  « toute activité tendant à la capture, la collecte ou l’extraction de ressources biologiques dont l’eau constitue le milieu de vie permanent ou le plus fréquent ».
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10002">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10002.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/> 
+
+La loi relative à la pêche et à l’aquaculture promeut le développement des activités de pêche et d’aquaculture et apporte un soutien étatique avec le cadre national. A cet égard, l’Etat institue:
+
+
+<ul><li>Une chambre nationale de la pêche et de l’aquaculture.</li><li>
+Un conseil consultatif national pour la pêche et l’aquaculture.</li><li>
+Un centre national de recherches pour la pêche et l’aquaculture.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10003">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 11- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10003.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+</li></ul>
+
+La chambre nationale de la pêche et de l’aquaculture est établie en vertu du Décret n°02-304 de 2002. Elle est composée de la chambre nationale et de chambres de “wilaya” 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10004">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">A “wilaya” is an Algerian territorial collectivity.</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10004.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+locales. Par exemple, les chambres locales soumettent toutes les informations et suggestions relatives à l’aquaculture aux autorités locales ; elles soumettent à la chambre nationale toutes recommandations relatives aux actions, entreprises à l’échelon régional ou national, qui contribuent à la formation professionnelle dans le secteur aquacole. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10005">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">  Article 31- Decree No. 02-304, 28 September 2002</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10005.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Concernant la chambre nationale, elle soumet les propositions émises par le Ministre de la pêche et de l’aquaculture ; elle contribue à la réalisation et promotion d’actions et de programmes de promotion aquacole ; elle développe tous moyens de consultation, coopération entre ses membres et organise des évènements pour la promotion de l’aquaculture.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10006">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 7- Decree No. 02-304, 28 September 2002</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10006.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> <br/> 
+<br/> 
+
+
+Le conseil consultatif national, établi en vertu du décret n°04-18 de 2004, doit évaluer tous les aspects relatifs à l’aquaculture qui lui sont soumis. Le centre national de recherches pour la pêche et l’aquaculture, établi par le Décret n°08-128 de 2008, conduit les études nécessaires pour l’évaluation des ressources aquacoles, il est également chargé de développer des études économiques et sociales en matière d’aquaculture.
+<br/> 
+<br/> 
+L’autorité compétente pour les questions de pêche et d’aquaculture est le Ministère de la Pêche et des Ressources de la Pêche.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10007">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 1- Decree No. 2000-123,10 June 2000</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10007.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+
+ Sa compétence couvre toutes les activités liées à la protection, préservation, promotion, gestion de la pêche nationale et des ressources aquacoles. Les activités liées à la promotion et au développement de l’aquaculture<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10008">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No. 2000-123, 10 June 2000</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10008.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>; le Ministre de la pêche établit, en collaboration avec le Ministre responsable pour les ressources hydriques la politique pour l’usage et la promotion des ressources en eau utilisées par l’aquaculture.
+
+
+
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10009">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 1- Decree No.2000-124, 10 June 2000</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10009.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> <br/>
+
+Le Département de l’aquaculture relève du Ministère pour la pêche et les produits de la pêche ; il est responsable de l’identification et de la définition des activités relatives à l’aquaculture ; la promotion de l’industrie aquacole ; l’élaboration de programmes pour la préservation et la protection des zones aquacoles.
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10010">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree No.2000-124, 10 June 2000</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10010.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+<br/>
+<br/>
+
+Le décret n°03-439 de 2003, qui met en œuvre la loi relative à la pêche et à l’aquaculture, établit les conditions de l’élaboration et de l’approbation du schéma national pour le développement des activités de pêche et aquacoles ainsi que de leur mise en œuvre, en améliorant la sécurité alimentaire, les conditions de mise sur le marché des produits, la hausse de la production, la stimulation de l’emploi, la préservation des ressources biologiques et la promotion de l’investissement et de l’exportation. <br/>
+A cet égard, en 2007, le Gouvernement adopta son schéma pour le développement des activités de pêche et d’aquaculture à l’horizon 2025. Le schéma contient deux composantes : l’une relative à la pêche et l’autre spécifiquement à l’aquaculture. Par exemple, le pays a été divisé en 53 zones d’activités de pêche aux fins d’un cadre plus cohérent.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10011">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.mpeche.gov.dz/IMG/pdf/schema_directeur_peche_FR.pdf" target="_blank">www.mpeche.gov.dz</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10011.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+
+
+]]></fi:Text>
+			</fi:Legislation>
+			<fi:Glossary>
+				<fi:Text><![CDATA[Conformément à la loi relative à la pêche et à l’aquaculture de 2001, on étend par « aquaculture » « tout acte tendant à l’élevage ou la culture des ressources biologiques »; les « ressources biologiques » se définissent comme « les poissons,  les crustacés, les mollusques, les spongiaires, les échinodermes, le corail, les végétaux et tout autre corps organique dont l’eau constitue  le milieu de vie permanent ou le plus fréquent. » <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10012">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10012.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+<br/>
+
+
+De plus, selon le décret n°07-208, sont considérés comme établissements d’aquaculture les établissements où sont élevés :<ul><li>
+Les poissons de mer ou d’eau douce, les coquillages, crustacés, oursins de mer, poissons d’ornement.</li><li>
+Les algues.</li><li>
+Où les juvéniles sont capturés en eau douce à des fins de grossissement.</li><li>
+Toute structure exclusivement utilisée pour entreposer des poissons,  crustacés ou mollusques à l’état vivant.<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10013">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10013.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/></li></ul>
+
+
+
+
+
+]]></fi:Text>
+			</fi:Glossary>
+			<fi:CodeConduct>
+				<fi:Text><![CDATA[En vertu de son adhésion à l’Organisation pour  l’Alimentation et l’Agriculture (FAO), l’Algérie souscrit au Code de Conduite pour une Pêche Responsable (1995).]]></fi:Text>
+			</fi:CodeConduct>
+			<fi:Arrangements>
+				<fi:Text><![CDATA[
+				
+				Au niveau international, l’Algérie est partie à la Convention sur le Commerce International  des Espèces en voie d’extinction de la faune sauvage et de la flore (CITES), 
+				
+				<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10014">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.cites.org/eng/disc/parties/alphabet.shtml" target="_blank">www.cites.org/</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10014.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+à la Convention sur la diversité Biologique (CDB) 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10015">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.cbd.int/convention/parties/list/" target="_blank">http://www.cbd.int/</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10015.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+et l’Algérie est membre de l’Organisation Internationale de la Santé Animale (OIE). 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10016">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.oie.int/esp/OIE/PM/es_PM.htm?e1d1" target="_blank">http://www.oie.int/es/</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10016.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+				
+		L’Algérie a adhéré au protocole de Kyoto
+			
+			
+			<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10017">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://unfccc.int/kyoto_protocol/status_of_ratification/items/2613.php" target="_blank">http://unfccc.int/2860.php</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10017.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+et ratifié le protocole de Carthagène  sur la Sécurité Biologique. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10018">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.cbd.int/information/parties.shtml" target="_blank">http://www.cbd.int/</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10018.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+Cependant, l’Algérie n’est pas membre de l’Organisation Mondiale du Commerce (OMC) mais agit comme observateur.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10019">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.wto.org/english/thewto_e/whatis_e/tif_e/org6_e.htm" target="_blank">http://www.wto.org/index.htm</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10019.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+Au niveau régional, l’Algérie est partie à la Convention Africaine sur la Conservation de la Nature et des Ressources Naturelles.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10020">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.africa-union.org/root/au/Documents/Treaties/Text/Convention_Nature%20&amp;%20Natural_Resources.pdf" target="_blank">http://www.au.int/en/</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10020.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+				
+				]]></fi:Text>
+			</fi:Arrangements>
+		</fi:LegalFrameworkProfile>
+		<fi:LegalFrameworkFeature>
+			<fi:AuthorisationSystem>
+				<fi:Text><![CDATA[L’aquaculture est réalisée dans le cadre d’une concession qui est l’acte administratif à travers lequel l’administration accorde des propriétés publiques ou privées appartenant à l’Etat, telles que les territoires ou zones aquatiques, à une personne algérienne physique ou morale et est sujet au paiement de redevances annuelles.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10021">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No.07-408, 25 December 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10021.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+<br/>
+
+
+La demande d’une concession est adressée à l’administration de la pêche compétente. Dans chaque wilaya, une commission est chargée de délivrer les concessions pour la création de dispositifs aquacoles, qui est composée du directeur de la pêche et des produits de la pêche, du directeur des ressources aquatiques, du directeur des domaines appartenant à l’Etat et du directeur des travaux publics. A la fin de la procédure, la concession peut seulement être accordée avec l’accord du Ministre de la Pêche et des Ressources Halieutiques.<br/>
+<br/>
+Premièrement, en ce qui concerne l’octroi d’une concession, le décret n°04-373 de 2004, modifié et complété par le décret n°07-408 de 2007 et par le décret n°10-96 de 2010, sont les  textes législatifs pertinents. Il convient de noter que la concession est personnelle et non transférable, tenue au seul exercice des activités aquacoles.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10022">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree No.04-373, 21 November 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10022.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/> 
+
+
+La concession est accordée pour une période initiale maximum de vingt-cinq (25) ans, renouvelée par tacite reconduction.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10023">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 5- Decree No.04-373, 21 November 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10023.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+La surface accordée peut être augmentée, en fonction des objectifs atteints si le projet ne répond pas aux exigences techniques ou s’il n’est pas conforme au schéma national pour l’aquaculture.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10024">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 12- Decree No.04-373, 21 November 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10024.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+Dans le cas d’un refus, le candidat peut faire appel de la décision dans le délai de deux (2) mois après la date de notification du refus et avec de nouveaux éléments d’information.
+<br/><br/>
+De plus, l’arrêté du 23 mars 2005 précise les documents requis pour le dossier de demande de concession. Le dossier est composé d’un dossier administratif et d’un dossier technique. Par exemple, le dossier administratif doit consister en la demande par une personne  physique d’une concession respectant la forme standard fournie dans l’annexe I de la règlementation ci-dessus mentionnée, un certificat de nationalité, une copie de la carte nationale d’identité, une copie du casier judiciaire et le projet de spécifications dûment signé par le concessionnaire. Concernant la personne morale, la demande de concession relative au formulaire standard tel que fourni par l’annexe I des statuts ci-dessus mentionnés, les articles de l’association et le projet de spécifications dûment signé par le directeur de la compagnie sont requis. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10025">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Bylaw of 23 March 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10025.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+Le dossier technique consiste en une étude de faisabilité, une étude d’évaluation d’impact environnemental.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10026">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Bylaw of 23 March 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10026.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+<br/>
+<br/>
+
+
+Deuxièmement, une autorisation sanitaire est requise. A cet égard, le décret n°04-82 de 2004 fixant les conditions et modalités d'agrément sanitaire des établissements dont l'activité est liée aux animaux, produits animaux et d'origine animale ainsi que de leur transport , indique que les locaux dont l’activité est en relation avec la pêche et les produits aquacoles doivent être conduits de façon telle que les sources de contamination sont minimisées et que l’évacuation des déchets soit réalisée de manière appropriée. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10027">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree No. 04-82, 18 March 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10027.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+De tels locaux doivent également être construits et équipés de manière à assurer la protection de la pêche et des produits aquacoles.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10028">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 6- Decree No. 04-82, 18 March 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10028.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+Aussi, après la visite et le contrôle des locaux et de ses équipements, l’autorité vétérinaire peut accorder son agrément.
+<br/>
+<br/>
+
+Troisièmement, le décret n°07-208 de 2007 fixe les conditions d'exercice de l'activité d'élevage et de culture acquacoles, les différents types d'établissements, les conditions de leur création et les règles de leur exploitation . Par exemple, les locaux d’exploitation de poissons d’eau douce ou d’eau de mer, les locaux d’élevages de crustacés, les locaux d’élevage d’oursins, les étangs piscicoles et les bassins d’élevage sont considérés comme des locaux aquacoles. 
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10029">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10029.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+La création  et l’exploitation de locaux aquacoles est soumise à une autorisation accordée par l’administration de la pêche compétente. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10030">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10030.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+L’autorisation est accordée pour un période de vingt-cinq (25) ans, renouvelable.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10031">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 11- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10031.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+Le dossier de demande d’autorisation doit mentionner la place de l’établissement, les espèces qui seront élevées ou exploitées, la technique d’élevage ou d’exploitation. Si les locaux doivent être établis sur des zones  terrestres ou aquatiques relevant du domaine public, une copie de l’acte de concession est requise. Si les locaux doivent être établis sur un périmètre terrestre relevant de la propriété privée, un acte de propriété du terrain ou un justificatif du bail pour une durée maximum de vingt-cinq (25) ans est requis.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10032">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10032.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+Une fois que l’autorisation est accordée, le bénéficiaire devra élever ou exploiter seulement les espèces mentionnées dans l’autorisation.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10033">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 13- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10033.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+ L’extension à d’autres espèces doit être d’abord acceptée par l’autorité de pêche compétente.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10034">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 14- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10034.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+<br/>
+
+
+Finalement, en ce qui concerne particulièrement l’aquaculture en mer, une étude de gestion côtière est requise. Elle doit mentionner, entre autres, les activités actuelles qui s’y déroulent, les caractéristiques géologiques et plus particulièrement celles qui peuvent être endommagées en raison de construction ou d’occupation de terrain, l’état des ressources marines côtières.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10035">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10035.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+En ce qui concerne l’aquaculture en mer, la possibilité de réaliser de l’aquaculture en mer n’est pas ignorée en Algérie. Effectivement, le décret n010-31 de 2010 détermine les activités industrielles en mer. Ce décret spécifie que la liste des activités industrielles en mer sera consécutivement préparée par un arrêté conjoint des ministres de l’environnement, des mines et tout autre ministre concerné. Au moment de la rédaction du présent document, l’arrêté conjoint n’avait pas été publié.
+]]></fi:Text>
+			</fi:AuthorisationSystem>
+			<fi:Access>
+				<fi:Text><![CDATA[La loi n°05-12 de 2005 relative à l’eau, et telle que modifiée, contient les règles pour l’utilisation, la gestion et le développement durable des ressources en eau. La distribution de l’eau doit être faite en quantité suffisante et selon la qualité requise de sorte que les besoins de la population, l’agriculture, l’industrie et de toute autre activité économique et sociale soient satisfaits. L’utilisation des ressources en eau est soumise à une autorisation ou concession. Plus précisément, l’accès à l’eau aux fins de l’aquaculture est sujet à une concession. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10036">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 77- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10036.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+L’octroi d’une concession est sujet à la signature des spécifications de projet par l’administration et le bénéficiaire. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10037">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 78- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10037.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+Les spécifications spécifiques doivent être établies par les réglementations d’application.  Comme règles générales, le bénéficiaire de la concession pour l’usage des ressources en eau doit utiliser l’eau de manière rationnelle et économique ; observer les règles relatives aux conditions d’exploitation des travaux hydrauliques ; respecter les droits des autres utilisateurs ; et accepter les contrôles réalisés par les agents habilités à cet effet.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10038">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 89- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10038.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/><br/>
+
+
+En ce qui concerne l’accès à la terre,  la mesure législative principale est la loi n°90-30 portant loi domaniale de 1990, et modifiée en 2008 par la loi n°08-14. Les législations relatives aux concessions de terrain sont l’ordonnance n°08-04 de 2008 et le décret n°09-152 de 2009 qui établissent les termes et conditions pour la concession de terres relevant du domaine privé de l’Etat pour ce qui concerne les projets d’investissement. L’Ordonnance n°08-04 explique que le domaine public de l’Etat destiné à un projet d’investissement peut être l’objet d’une concession dont la durée sera comprise entre trente-trois (33) et quatre-vingt-dix-neuf (99) ans. Les terres appartenant au domaine privé de l’Etat peuvent être accordés sur la base des spécifications de projet par des ventes aux enchères publiques limitées ou ouvertes, ou encore au titre d’un accord mutuel. Le décret n°09-152 souligne que le bénéficiaire de la concession doit payer une redevance annuelle déterminée au moment où la concession est octroyée.
+<br/>
+<br/>
+
+L’eau et la terre forment un mécanisme complet à travers le schéma de 2007 pour le développement des activités de pêche et d’aquaculture au cours de la période allant jusque 2025. Conformément à la loi n°01-11 de 2001 relative aux pêches et à l’aquaculture et à la loi n°01-20 de 2001 relative à l’aménagement et au développement durable du territoire, fut adopté le schéma de 2007 pour le développement des activités de pêche et d’aquaculture couvrant la période jusque 2025. En fonction de ses composantes territoriales, le territoire a été divisé en différentes zones réglementées par le principe de cohérence. Un des objectifs du schéma est d’établir les zones de projets aquacoles susceptibles d’être développés sur le long terme et qui seraient compatibles avec d’autres projets sectoriels. Par exemple, le schéma de développement de la pêche et de l’aquaculture doit être intégré dans le schéma de planification de l’usage des terres, ce qui signifie que les cinquante-trois (53) « zones d’activité aquacole» deviennent un volet de l’aménagement spatial et que les concessions seront délimitées sur la base d’études techniques et économiques définissant les délimitations spatiales.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10039">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.mpeche.gov.dz/IMG/pdf/schema_directeur_peche_FR.pdf" target="_blank">www.mpeche.gov.dz</a> (IV- Identification des espaces aquacoles, page 27)
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10039.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+
+
+
+]]></fi:Text>
+			</fi:Access>
+			<fi:EnvironAssessment>
+				<fi:Text><![CDATA[La loi n°03-10 de 2003 relative à la protection de l’environnement dans le cadre du développement durable, ainsi que modifiée, spécifie que les projets de développement, les dispositifs, les usines et autres installations, les programmes de construction, qui peuvent avoir un impact direct ou indirect sur l’environnement, en particulier sur les ressources et les espèces, peuvent être préalablement soumis à une étude d’impact environnementale (EIE).
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10040">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 15- Law No.03-10 relating to the protection of the environment in the context of sustainable development, 19 July 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10040.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+L’aquaculture est une activité qui, sous certaines conditions, requiert une notification d’impact environnemental alors que dans d’autres, elle nécessite une étude d’impact environnemental. A cet égard, le décret n°07-144 de 2007 portant nomenclature des installations classées pour la protection de l’environnement, spécifie dans son annexe que l’EIE est requise quand la capacité aquacole est égale ou supérieure à 1&#160;000 tonnes. En deça de cette capacité, une notification est considérée comme suffisante.
+<br/><br/>
+De plus, ce décret souligne que chaque fois qu’une EIE est requise, elle doit être accompagnée d’une évaluation des risques. Le décret n°06-198 de 2006 définissant la réglementation applicable aux installations classées pour la protection de l’environnement et complété par le décret n°07-144 de 2007 fut le premier à instituer la notion d’évaluation des risques.<br/>
+Cette évaluation des risques doit spécifier les mesures techniques qui permettent de limiter l’impact de ces risques, la prévention et la gestion de ceux-ci et doit prévoir les mesures de sécurité pour ces installations. A travers l’évaluation, sont prises en compte les caractéristiques physiques, socio-économiques et culturelles de la zone.
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10041">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 14- Decree No. 06-198, 31 May 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10041.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/><br/>
+De plus, c’est le décret n°07-145 de 2007 déterminant la portée, le contenu et les termes d’agrément de l’étude ou la notification de l’impact sur l’environnement qui déclare l’information requise pour l’EIE. Elle doit inclure le nom du porteur de projet, la présentation du bureau d’évaluation qui doit être approuvé par le Ministère de l’Environnement, la délimitation de la zone d’évaluation ; la description de la condition initiale de la zone et de son environnement, incluant l’état des ressources naturelles et de la biodiversité ; la description détaillée des différentes étapes du projet de l’exploitation à l’après exploitation ; l’évaluation des impacts directs et indirects prévisibles à long et court terme ; un plan de gestion de l’environnement qui peut inclure les mesures de limitation susceptibles d’être adoptées.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10042">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 6- Decree No. 07-145, 19 May 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10042.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+ ]]></fi:Text>
+			</fi:EnvironAssessment>
+			<fi:WaterQuality>
+				<fi:Text><![CDATA[
+				
+				
+				Les règles générales sont posées par la loi n°03-10 de 2003 relative à la protection de l’environnement dans le contexte du développement durable. Certaines règles concernent la protection de l’eau douce, 				
+				
+				<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10043">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Title III, Chapter 3, Section 1- Law No.03-10 relating to the protection of the environment in the context of sustainable development, 19 July 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10043.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+d’autres concernent la protection des eaux marines.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10044">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Title III, Chapter 3, Section 2- Law No.03-10 relating to the protection of the environment in the context of sustainable development, 19 July 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10044.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+Par exemple, en ce qui concerne la protection de l’eau douce, des eaux de surface ou souterraines, des lacs et des étangs, des eaux côtières, elles sont soumises à un inventaire qui établit leur degré de pollution. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10045">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 49- Law No.03-10 relating to the protection of the environment in the context of sustainable development, 19 July 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10045.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+En ce qui concerne la protection de l’environnement marin, une disposition spécifique mentionne que, dans les zones marines relevant de la juridiction algérienne, le déversement ou l’immersion de substances et de produits potentiellement préjudiciables aux activités aquacoles sont interdits.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10046">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 52- Law No.03-10 relating to the protection of the environment in the context of sustainable development, 19 July 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10046.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+De plus, la loi 05-12 de 2005 relative à l’eau prévoit des dispositions pour la prévention de la pollution. Il y est dit que les écosystèmes aquatiques doivent être protégés contre toutes formes de pollution susceptible d’être préjudiciables à la qualité des eaux. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10047">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Title III,  Chapter 4- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10047.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+ILes déversements de déchet, de produits qui ne présentent pas un risque de toxicité et de nuisance font l’objet d’une autorisation. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10048">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 44- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10048.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+L’autorisation est refusée quand les déchets, les produits peuvent être nuisibles à l’usage de l’eau, la santé publique, la protection des écosystèmes aquatiques et le flux normal de l’eau.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10049">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 45- Law No.05-12 relating to Water, 4 August 2005</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10049.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+En vertu du décret n°06-104 de 2006, les déchets issus de l’aquaculture sont considérés comme domestiques et comparable aux déchets mentionnés dans l’annexe II du décret.
+<br/><br/>
+Par la suite, le décret n°06-141 de 2006 définit le seuil des effluents liquides industriels. En vertu de ce décret, « le rejet d’effluents liquides industriels» s’entend de tout déversement, flux, jet d’un liquide direct ou indirect provenant d’une activité industrielle. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10050">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No. 06-141, 19 April 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10050.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Toute installation générant le déversement d’effluent  liquide industriel doit être construite et exploitée de telle façon que les limites fixées par le décret soient respectées et que la quantité de pollution déversée soit limitée. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10051">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree No. 06-141, 19 April 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10051.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Il sera procédé à des contrôles spontanés des caractéristiques physiques, chimiques et biologiques des eaux usées industrielles afin d’assurer que les eaux usées respectent les seuils établis pat le décret.
+<br/><br/>
+De plus, le décret n°10-23 de 2010 établit les caractéristiques techniques pour le traitement des eaux. La méthode utilisée pour le traitement de l’eau dépend de la destination finale de l’eau purifiée.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10052">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 5- Decree No. 10-23, 12 January 2010</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10052.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+ ]]></fi:Text>
+			</fi:WaterQuality>
+			<fi:FishMovement>
+				<fi:Text><![CDATA[La loi n°88-08 de 1988 relative aux activités vétérinaires et à la protection delà santé animale fournit les premiers éléments généraux concernant le mouvement des poissons. A cet égard, l’autorité nationale vétérinaire peut interdire ou limiter le mouvement ou le transport des animaux et des produits animaux qui font l’objet d’inspections vétérinaires. L’autorité peut ordonner l’isolation ou le confinement des animaux au besoin.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10053">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 9- Law No. 88-08 relating to veterinary activities and to the protection of animal health , 26 January 1988</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10053.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/><br/> 
+
+
+
+Par la suite, en 2001, la loi relative à la pêche et à l’aquaculture mentionne que les mesures d’hygiène et de salubrité  liées à l’achat, la vente, la conservation, le stockage, le traitement, la manipulation, le transport, le débarquement et l’exposition des différents produits de la pêche et de l’aquaculture sont définies par voie réglementaire.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10054">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 59- Law r No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10054.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+A cet égard, le décret n°04-188 de 2004 fixant les  modalités de capture, transport,  commercialisation, introduction dans les milieux aquatiques de géniteurs, larves, alevins et naissains ainsi que les modalités de capture, transport,  entreposage, importation, commercialisation des produits de la pêche et de l’aquaculture n’ayant pas atteint la taille minimale règlementaire, destinés à l’élevage, la culture ou la recherche scientifique déclare que toutes opérations d’entreposage, importation, exportation, transport et commercialisation sont soumises au contrôle et à l’inspection de l’autorité vétérinaire nationale.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10055">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 16- Decree No.04-188, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10055.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+A cet égard, il est interdit de transporter les géniteurs ainsi que les poissons et produits aquacoles qui n’ont pas atteint la taille minimale règlementaire, avec d’autres produits susceptibles de les contaminer.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10056">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 13- Decree No.04-188, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10056.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+L’importation de géniteurs ou de poissons et produits aquacoles qui n’ont pas atteint la taille minimale règlementaire est soumise à la délivrance d’un certificat de conformité par le pays d’origine. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10057">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 10- Decree No.04-188, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10057.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+L’exportation de géniteurs ou de poissons et produits aquacoles qui n’ont pas atteint la taille minimale règlementaire est soumise à la délivrance d’un certificat par l’autorité responsable de la santé animale.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10058">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 12- Decree No.04-188, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10058.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>]]></fi:Text>
+			</fi:FishMovement>
+			<fi:DiseaseControl>
+				<fi:Text><![CDATA[Les textes législatifs pertinents en la matière sont la loi n°88-08 de 1988 relative aux activités vétérinaires et à la protection de la santé animale et ses réglementations. L’autorité nationale vétérinaire est en charge des inspections des animaux domestiques et sauvages, y compris les poissons qui peuvent transmettre les maladies à l’homme ou aux autres animaux ; des produits animaux ; des produits d’origine animale ; des locaux ; des installations ; des équipements fermiers et des marchés au poisson. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10059">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 7- Law No. 88-08 relating to veterinary activities and to the protection of animal health , 26 January 1988</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10059.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+L’autorité nationale vétérinaire conduit des contrôles à l’intérieur du pays ainsi qu’aux frontières dans le but de prévenir l’introduction de maladies en provenance de l’étranger, en particulier les maladies contagieuses et celles pour lesquelles une déclaration est obligatoire.  Ces contrôles préviennent également la diffusion des maladies à l’intérieur du pays et assurent qu’elles puissent être immédiatement détectées.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10060">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 8- Law No. 88-08 relating to veterinary activities and to the protection of animal health , 26 January 1988</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10060.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+En ce sens, le décret n°07-208 de 2007 établit que quand la personne en charge des installations aquacoles remarque tout préjudice dans l’exploitation et l’installation, en particulier avec l’apparition d’agents pathogènes, parasites, contaminants, cette personne est dans l’obligation d’informer les autorités vétérinaires et l’administration compétente pour la pêche.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10061">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 17- Decree 07-208, 30 June 2007</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10061.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/><br/>
+
+De plus, le décret n°95-363 de 1995 établit les modalités de l’inspection vétérinaire des animaux vivants et des denrées animales ou d’origine animale destinées à la consommation humaine. Il spécifie que les animaux dont la chair est destinée à la consommation humaine, y compris les produits issus de la mer ou de l’eau douce ; les denrées d’origine animale ou les denrées animales destinées à être transformées ; les moyens de transport des animaux, des denrées animales ou d’origine animale sont sujettes à l’inspection vétérinaire. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10062">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No. 95-363, 11 November 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10062.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+Le décret n°06-119 de 2006, modifiant le décret n°95-66 de 1995, spécifie les maladies animales devant être notifiées et les mesures générales qui leur sont applicables.]]></fi:Text>
+			</fi:DiseaseControl>
+			<fi:DrugsAndChemicals>
+				<fi:Text><![CDATA[En premier lieu, le décret n°90-240 de 1990 établit les conditions de fabrication, de vente et de contrôle des médicaments vétérinaires. Il précise qu’avant la fabrication et la vente des médicaments vétérinaires, une autorisation doit être délivrée par le Ministère de l’Agriculture. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10063">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree No. 90-240, 4 August 1990</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10063.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Le médecin vétérinaire responsable ou le pharmacien doivent organiser et contrôler la qualité de la fabrication, l’emballage, l’entreposage et la livraison des médicaments. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10064">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 10- Decree No. 90-240, 4 August 1990</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10064.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Le décret requiert également que l’emballage soit détaillé suffisamment en spécifiant le nom du médicament vétérinaire, sa composition chimique, les animaux pour lesquels il est destiné, ses possibles effets secondaires et la référence de l’autorisation de vente.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10065">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 37- Decree No. 90-240, 4 August 1990</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10065.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+ Ultérieurement, le décret n°03-451 de 2003 et ainsi qu’amendé en 2010, mentionne que l’achat produits chimiques et de substances dangereuses sur le marché extérieur est soumis à l’octroi d’un certificat préalable. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10066">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 12- Decree No. 03-451, 1 December 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10066.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+De plus, l’achat sur le marché national de fertilisants, de produits phytosanitaires, à des fins agricoles, de produits paramédicaux, de substances toxiques ou manifestant un risque particulier doit être régi par des règlements particuliers
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10067">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 12- Decree No. 03-451, 1 December 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10067.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+A cet égard, le règlement du 1<sup>er</sup> aout 2004 pose les conditions d’achat des substances dangereuses et des produits chimiques sur le marché extérieur ainsi que les conditions d’octroi du certificat.
+<br/><br/>
+Finalement, le décret n°09-102 de 2009 établissant les mesures applicables à l’importation et à l’exportation des médicaments vétérinaires prévoit que l’importation de médicaments vétérinaires est mise en œuvre par des importateurs qui ont reçu l’agrément du ministre en charge de l’autorité vétérinaire. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10068">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No.09-102, 10 March 2009</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10068.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+L’importateur doit recevoir ses médicaments vétérinaires d’un laboratoire autorisé par les autorités sanitaires du pays d’origine.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10069">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree No.09-102, 10 March 2009</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10069.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+De plus, tout médicament importé doit avoir préalablement été commercialisé dans le pays d’origine. 
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10070">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 4- Decree No.09-102, 10 March 2009</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10070.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+Tout médicament vétérinaire importé ou exporté fait l’objet de contrôle de conformité par l’autorité nationale vétérinaire.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10071">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 5- Decree No.09-102, 10 March 2009</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10071.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>]]></fi:Text>
+			</fi:DrugsAndChemicals>
+			<fi:FeedRestrictions>
+				<fi:Text><![CDATA[L’arrêté du 28 mars 2006 spécifie les dispositions relatives aux conditions de délivrance de l’agrément sanitaire des établissements de production, de conditionnement et d’entreposage des produits alimentaires animaux. Tout établissement destiné à la production, au conditionnement et à l’entreposage des produits alimentaires animaux doivent avoir des lieux distincts pour l’entreposage, par exemple, des matières premières ; une pièce distincte pour les produits alimentaires ; une autre pour les produits alimentaires emballés ; ou pour les aliments médicamenteux.
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10072">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Bylaw of 28 March 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10072.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+De plus, le décret n°10-90 de 2010 complétant le décret 04-82  fixant les conditions et modalités  de l’agrément sanitaire des établissements dont l’activité est liée aux animaux, produits animaux, et produits d’origine animale, de même que leur transport prévoit le HACCP (Hazard Analysis Critical Control Point): cela comprend toutes les actions et les procédures écrites à mettre en place au niveau des établissements dont l’activité est en relation avec les produits animaux et les produits d’origine animale afin d’évaluer les dangers qui peuvent menacer l’hygiène et la sécurité des produits alimentaires.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10073">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree No. 10-90, 10 March 2010</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10073.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>]]></fi:Text>
+			</fi:FeedRestrictions>
+			<fi:FoodSafety>
+				<fi:Text><![CDATA[Ainsi que mentionné dans la loi de 2001 relative à la pêche et l’aquaculture, les mesures d’hygiène et de salubrité relative à l’achat, la vente, la conservation, au stockage, au traitement, à la manipulation, au transport, au débarquement et à l’exposition des divers produits de pêche et d’aquaculture sont définis par voie réglementaire.
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10074">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 59- Law No. 01-11 relating to Fisheries and Aquaculture, 03 July 2001</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10074.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+Par voie de conséquence, le décret n°04-189 de 2004 établit les mesures d’hygiène pour les produits de la pêche et de l’aquaculture. Par exemple, le décret déclare que les opérations de découpage et  de décorticage interviendront dans des emplacements différents de ceux où l’éviscération est réalisée; 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10075">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 9- Decree No. 04-189 setting down the health measures for fishing and aquaculture products, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10075.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+Par voie de conséquence, le décret n°04-189 de 2004 établit les mesures d’hygiène pour les produits de la pêche et de l’aquaculture. Par exemple, le décret déclare que les opérations de découpage et  de décorticage interviendront dans des emplacements le débarquement doit être réalisé rapidement.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10076">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 10- Decree No. 04-189 setting down the health measures for fishing and aquaculture products, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10076.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Alors, les navires de pêche ou tout autre établissement de traitement des produits de la pêche et de l’aquaculture, doivent être aménagés de façon à assurer les meilleures conditions de survie des animaux vivants, de même que les crustacés, les mollusques et les poissons, de sorte qu’aucune substance nocive pour la consommation humaine leur soit transmise. 
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10077">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 19- Decree No. 04-189 setting down the health measures for fishing and aquaculture products, 7 July 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10077.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/><br/>
+
+
+En application de ce décret, l’arrêté du 28 avril 2010 adoptant les réglementations techniques sur l’emballage pour l’entreposage et le transport des produits de la pêche et de l’aquaculture remplace les caisses de bois, dangereuses pour la santé humaine par le plastique alimentaire. Tout produit d’emballage plastique et tout produit susceptible d’être en contact avec les produits aquacoles, y compris les colorants et additifs, doivent être de nature alimentaire. De plus, les caisses destinées aux produits aquacoles doivent être nettoyées, lavées, séchées et rangées dans un lieu différent du lieu de production après chaque utilisation.
+<br/><br/>
+De plus, le décret n°04-319 de 2004 établissant les principes d’élaboration, d’ adoption et de mise en œuvre des mesures sanitaires et phytosanitaires, complété par le décret n°04-230 de 2004 relatif à la transparence des mesures sanitaires et phytosanitaires et des obstacles techniques au commerce, mentionne que « les mesures sanitaires et phytosanitaires » signifient toutes mesures réglementaires ou administratives qui visent à protéger la vie et la santé animales; à protéger la vie et la santé humaine et animale des risques issus des additifs, contaminants, toxines dans les produits alimentaires ; protéger la vie et la santé humaine des risques issus des maladies contractées par les animaux;
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10078">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 2- Decree No. 04-319 setting down the principles of development, adoption and implementation of sanitary and phytosanitary measures, 7 October 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10078.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+dans la mesure où ces mesures ne sont pas incompatibles avec les accords commerciaux.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN10079">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Article 3- Decree No. 04-319 setting down the principles of development, adoption and implementation of sanitary and phytosanitary measures, 7 October 2004</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN10079.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+Finalement, deux arrêtés du 8 juillet 2006 créent l’obligation de déterminer le niveau d’histamine et de nitrogène basic volatile dans les produits de la mer.
+]]></fi:Text>
+			</fi:FoodSafety>
+			<fi:AddInfo>
+				<fi:Text><![CDATA[Aucun élément particulier à mentionner.]]></fi:Text>
+			</fi:AddInfo>
+		</fi:LegalFrameworkFeature>
+		<fi:Bibliography>
+			<fi:BiblioEntry>
+				<dc:Title>Law No. 01-11 relating to Fisheries and Aquaculture </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC0323434&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 02-304 setting the organisation, functionning and missions of the national chamber of fisheries and aquaculture</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC044431&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 03-439 setting the conditions for the elaboration and approbation of the national scheme for the development of fisheries and aquaculture activities</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC041654&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-18 setting the organisation, functionning and missions of the national consultative council for fisheries and aquaculture</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC043342&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 08-128 modifying the National study and information center for fisheries and aquaculture into the National research and development center for fisheries and aquaculture</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC081210&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No.04-188 setting down the terms for the capture, transport, marketing and introduction of genitors, larva, young fish and spats in aquatic environment; as well as the terms for the capture, transport, storage, import and marketing of fishing and aquaculture products that have not reach the minimal required size, destined for breeding, farming or scientific research</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC045900&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-373 defining the conditions and terms for the granting of an aquaculture concession for the creation of an aquaculture premises</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC049266&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 10-93 du 14 mars 2010 modifying and completing Decree No. 04-373 defining the conditions and terms for the granting of an aquaculture concession for the creation of an aquaculture premises</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096337&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 07-408 modifying and completing Decree No. 04-373 defining the conditions and terms for the granting of an aquaculture concession for the creation of an aquaculture premises</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC080757&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 07-208 setting down the conditions for the exercice of the breeding and farming of aquaculture species, the different types of premises, the conditions of their creation and the rules of exploitation</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC0073512&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaw of 23 March 2005 specifying the documentary evidence in the request file of a concession for the establishment of an aquaculture premises</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC053246&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 2000-123 setting down the remit of the Minister for Fisheries and Fisheries Resources</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC046245&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 2000-124 setting down the organization of the central administration of the Ministry for Fisheries and Fisheries Resources</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC045878&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Law No.05-12 relating to Water</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC054287&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 10-23 setting down the technical characteristics for water treatment</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096371&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Law No. 90-30 relating to state-owned land</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC004602&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ordinance No. 08-04 of 2008 setting the terms and conditions for the concession of State private land meant for investment projects</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC085618&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 09-152 of 2009 setting the terms and conditions for the concession of State private land meant for investment projects</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC087931&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Law No. 01-20 relating to the planning and sustainable development of the territory</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC043214&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Law No.03-10 relating to the protection of the environment in the context of sustainable development</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC041657&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 06-104 setting down the waste nomenclature, included dangerous special waste</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC064259&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 06-141 defining the thresholds of industrial liquid effluents</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC064225&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 06-198 defining the regulations applying to classified installations for the protection of the environment</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC066072&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 07-144 of 2007 setting the nomenclature of the classified installations for the protection of the environment</dc:Title>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 07-145 of 2007 determining the scope, content and terms of approval of environmental impact assessment and review on the environment</dc:Title>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Law No. 88-08 relating to veterinary activities and to the protection of animal health</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC003595&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 90-240 setting down the conditions for the manufacturing, sale and control of veterinary drugs</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC086303&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 95-363 setting down the terms for the veterinary inspection of live animals and animal or animal origin commodities intended for human consumption</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC046224&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-82 setting down the terms and conditions for the sanitary approval for premises whose activity is in relation to animals, animal products and products from animal origin, as well as their transport</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC066048&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaw of 28 March 2006 precising the provisions relating to the conditions of issue of the health approval for the premises of production, packaging and storage of animal feedstuff</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC0660490&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 10-90 specifying Decree 04-82 setting down the terms and conditions for the sanitary approval for premises whose activity is in relation to animals, animal products and products from animal origin, as well as their transport</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096339&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 06-119 modifying Decree No. 95-66 of 1995 specifying the mandatory notifiable animal diseases and the general measures applicable thereof, 12 March 2006</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC064257&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No.09-102 setting down the applicable measures for the import and export of of veterinary drugs</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC087889&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-189 setting down the health measures for fishing and aquaculture products</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC045908&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaws of the 8 July 2006 creating the obligation to determine the level of histamine in fish products by using high performance liquid chromatography</dc:Title>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaw of the 8 July 2006 creating the obligation to determine the level of volatile basic nitrogen in fish products</dc:Title>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaw of 28 April 2010 adopting the technical regulations on packaging for the storage and transport of fisheries and aquaculture products</dc:Title>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-319 setting down the principles of development, adoption and implementation of sanitary and phytosanitary measures</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC049746&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 04-320 relating to the transparency of sanitary and phytosanitary measures and technical obstacles to trade</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC049747&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 03-451 defining the safety rules applicable to activities in relation to dangerous material and chemical products, as well as to under pressure gas container</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC049268&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Bylaw of 1 August 2004 sets down the terms and conditions for the purchase of dangerous material and chemical products on the foreign market</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC049269&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No. 07-206 setting the terms and conditions for the construction and occupation of coastal ground, of the occupation of natural parts bordering beaches and the extension of the 
+non-aedificandi area</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC073029&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Decree No.10-31 setting the extension terms for the protection of inshore seabed and determining the offshore industrial activities</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096368&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+		</fi:Bibliography>
+		<fi:RelatedResources Label="">
+			<fi:FAOLex country="DZA" Keywords="aquaculture;mariculture">Algeria</fi:FAOLex>
+			<fi:BiblioEntry>
+				<dc:Title>African Convention on the Conservation of Nature and Natural Resources</dc:Title>
+				<dc:Identifier Type="URI">http://www.africa-union.org/root/au/documents/treaties/treaties.htm</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Convention on Biological Diversity </dc:Title>
+				<dc:Identifier Type="URI">http://www.cbd.int/biosafety/signinglist.shtml</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) </dc:Title>
+				<dc:Identifier Type="URI">http://www.cites.org/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Kyoto Protocol</dc:Title>
+				<dc:Identifier Type="URI">http://www.unfccc.int/kyoto_protocol/items/2830.php</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry for Agriculture and Rural Development</dc:Title>
+				<dc:Identifier Type="URI">http://www.minagri.dz/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry for Country Planning and Environment</dc:Title>
+				<dc:Identifier Type="URI">http://www.mate.gov.dz/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry for Fisheries and Fishing Resources</dc:Title>
+				<dc:Identifier Type="URI">http://www.mpeche.gov.dz/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry of Trade</dc:Title>
+				<dc:Identifier Type="URI">http://www.mincommerce.gov.dz/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry for Water resources</dc:Title>
+				<dc:Identifier Type="URI">http://www.mre.gov.dz/</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>World Organization for Animal Health (OIE)</dc:Title>
+				<dc:Identifier Type="URI">http://www.oie.int/eng/en_index.htm</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>World Trade Organization (WTO)</dc:Title>
+				<dc:Identifier Type="URI">http://www.wto.org/</dc:Identifier>
+			</fi:BiblioEntry>
+		</fi:RelatedResources>
+	</fi:LegalFramework>
+</fi:FIGISDoc>

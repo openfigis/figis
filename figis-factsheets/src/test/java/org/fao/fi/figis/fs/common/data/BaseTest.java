@@ -11,8 +11,8 @@ public class BaseTest {
 
 	@Before
 	public void before() throws Exception {
-		File ctrlFile = new File("../figis-properties/properties/common/SearchTerms.xml");
-		FiConstants.setPropertiesDir("../figis-properties/properties");
+		File ctrlFile = new File("../../figis-properties/properties/common/SearchTerms.xml");
+		FiConstants.setPropertiesDir("../../figis-properties/properties");
 		FiConstants.setDbProperties(FiKeywordScannerTest.DATABASE_SCAN_PROPERTIES);
 	}
 

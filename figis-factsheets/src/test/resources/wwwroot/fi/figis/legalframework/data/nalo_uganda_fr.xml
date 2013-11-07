@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/fi.xsd" xml:lang="fr">
+	<fi:DataEntry>
+		<fi:Editor>Gentiloni, P.</fi:Editor>
+		<dcterms:Created>2013-06-24</dcterms:Created>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:ForeignID CodeSystem="acronym" Code="NALO"/>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:ForeignID CodeSystem="acronym" Code="NALO_FS_CP"/>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<ags:CreatorPersonal>DOffay, B.</ags:CreatorPersonal>
+			<dcterms:Created>2011-09-16</dcterms:Created>
+			<dc:Description>This file contains an overview of aquaculture-related legislation of Uganda.</dc:Description>
+			<dc:Subject>aquaculture</dc:Subject>
+			<dc:Subject>law and legislation</dc:Subject>
+			<dc:Subject Type="Lcsh">sh20.5-sh191</dc:Subject>
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:LegalFramework>
+		<fi:LegalFrameworkIdent Status="3">
+			<dc:Title>National Aquaculture Legislation Overview - Uganda</dc:Title>
+			<dc:Identifier Type="FAOLEX">UKRAINE</dc:Identifier>
+			<fi:LandAreaRef Type="Political">
+				<fi:ForeignID Code="UG" CodeSystem="iso2"/>
+			</fi:LandAreaRef>
+			<fi:LegalDate>
+				<fi:ConsolidatedDate>if any</fi:ConsolidatedDate>
+				<fi:OfficialDate>if any</fi:OfficialDate>
+			</fi:LegalDate>
+		</fi:LegalFrameworkIdent>
+		<fi:LegalFrameworkProfile>
+			<fi:Legislation>
+				<fi:Text><![CDATA[La loi du 1er avril 1951 sur la pêche (Fish Act-Cap.197) est actuellement la principale législation relative à la pêche en Ouganda. Cette loi qui n’est plus adaptée aux changements récents intervenus au niveau national et international en matière de pêche, est actuellement en cours de révision. En outre, une nouvelle loi sur la pêche est en cours d’élaboration mais n’était pas encore adoptée au moment de la rédaction de ce document.
+<br/><br/>
+Le cadre juridique régissant le secteur aquacole en Ouganda est composé des décrets relatifs à la pêche et l’aquaculture du 19 mai 2003 (n°81) qui sont des décrets d’application de la loi. Ces règles établissent différents permis requis pour entreprendre des activités aquacoles. Les modalités de délivrance de permis, les infractions et peines sont également prévues. Elles spécifient les prérogatives des inspecteurs en matière d’aquaculture, promeuvent des activités aquacoles responsables, prescrivent les conditions pour la production de semences de poissons, transferts de poisson, ainsi que l’importation et l’exportation de poissons vivants.
+<br/><br/>
+Le département des ressources halieutiques (DFR), rattaché au Ministère de l’Agriculture, de l’Industrie Animale et des Pêches (MAAIF), est, à ce jour
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1001B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">The National Fisheries Policy for Uganda (2004) proposed the creation of the Uganda Fisheries Authority (UFA) which will represent a new vision for the fisheries governance and fisheries management in Uganda:  “The UFA is proposed to address the concerns and will offer broad capacities and responsibilities required of a fisheries management institution outlined above. The proposed UFA is to be an autonomous institution under its parent Ministry and has a competitively appointed Chief Executive, with a governing board appointed by the Minister”. (National Fisheries Policy, May 2004, p.49).
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1001B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>l’autorité responsable de l’inspection, la certification et l’approbation des installations aquacoles et des pratiques y afférentes. L’objectif principal en termes de gestion des pêches est d’assurer une production et utilisation durable et accrue des ressources halieutiques par la gestion appropriée de la pêche traditionnelle et la promotion de l’aquaculture.<br/>
+
+Le Département est responsable de:<ul><li>
+la promotion du conseil et du soutien des partenaires publics et privés en matière de pêche et d’aquaculture, dans le cadre du développement durable et ; </li><li>
+de l’édiction ou élaboration et de la mise en œuvre de normes et réglementations pour les pratiques relatives à la pêche et à l’aquaculture.</li></ul>
+L’exploitation ou la gestion de toute entreprise aquacole doit avoir pour fondement le principe de précaution et le recours aux « meilleures pratiques » (best practices). Les services du DFR interviennent à différents niveaux: :<ul><li>
+Soutien technique en matière de pêche ; </li><li>
+Renforcement des capacités pour les gouvernements locaux ; </li><li>
+Information à tous les groupes de parties prenantes ; </li><li>
+Création de stratégies de financement destinées au développement du secteur ; </li><li>
+Assurance d’un usage durable des ressources à travers une politique de bonnes pêches et assurent la base légale appropriée et équitable en matière de gestion durable de la pêche et de l’aquaculture.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1002B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.foodtech-international.com/suppliers/ugandafish/ugandafish.htm" target="_blank">Department of Fisheries Resources (DFR) Uganda</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1002B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/></li></ul>
+
+
+
+Les règles de la pêche (Aquaculture) prévoient que le DFR travaille en collaboration avec d’autres organes, tels que l’Autorité Nationale de Gestion de l’Environnement (NEMA), l’Autorité Nationale du Médicament (NDA) et le Bureau National des Normes (NBS) afin d’assurer que les pratiques aquacoles se conforment à la législation et aux normes nationales et internationales. <br/><br/>
+
+De plus, le Plan National de Développement 2010/11-2014/15<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1003B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.finance.go.ug/docs/NDP_April_2010-Prot.pdf" target="_blank">National Development Plan</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1003B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> et le Plan 2010-2014/15 pour l’Investissement et la Stratégie de Développement du secteur Agricole<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1004B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.caadp.net/pdf/Investment%20Plan-uganda.pdf" target="_blank">Ministry of Agriculture, Animal Industry &amp; Fisheries</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1004B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> se réfèrent à plusieurs objectifs contribuant à l’amélioration du secteur de la pêche et des stratégies visant à atteindre ces objectifs. Par exemple, un de ces objectifs consiste à créer un environnement contribuant à l’investissement compétitif en matière d’agriculture; par ailleurs, les plans stratégiques pour promouvoir les capacités en matière d’assurance qualité, de réglementation et de normes alimentaires et de sécurité applicables à la pêche visent également à assurer une gestion durable des ressources environnementales et à minimiser la dégradation à travers la promotion du respect des lois et réglementations en matière environnementale. ]]></fi:Text>
+			</fi:Legislation>
+			<fi:Glossary>
+				<fi:Text><![CDATA[Aux termes de la loi sur la Pêche (Aquaculture), le terme «poisson» renvoie à « tout vertébré et invertébré à sang froid aquatique, vivant ou mort, y compris ses jeunes œufs » et le terme « aquaculture » signifie « l’élevage de poisson dans des conditions contrôlées et dans le cadre d’une propriété transparente ».<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1005B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 2- Interpretation, Fish (Aquaculture) Rules (No.81 of 2003), 19 May 2003
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1005B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.]]></fi:Text>
+			</fi:Glossary>
+			<fi:CodeConduct>
+				<fi:Text><![CDATA[Eu égard à son adhésion à l’Organisation pour l’Alimentation et l’Agriculture (FAO), l’Ouganda souscrit au Code de Conduite pour une Pêche responsable de la FAO (1995). La Politique Nationale de la Pêche, et dans une plus large mesure, la nouvelle loi sur la pêche doivent intégrer les principes inscrits dans le Code de Conduite pour une Pêche Responsable.]]></fi:Text>
+			</fi:CodeConduct>
+			<fi:Arrangements>
+				<fi:Text><![CDATA[Au niveau international, l’Ouganda est partie à la Convention sur le commerce international des espèces en voie d’extinction de la faune sauvage et de la flore (CITES)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1006B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.cites.org/eng/disc/parties/alphabet.shtml" target="_blank">Convention on International Trade in Endangered Species of Wild Fauna and Flora - List of Contracting Parties</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1006B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>ainsi qu’à la Convention sur la Diversité Biologique (CBD)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1007B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.cbd.int/convention/parties/list/" target="_blank">Convention on Biological Diversity - List of Parties</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1007B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. L’Ouganda est membre de l’Organisation Internationale pour la Santé Animale (OIE)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1008B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.oie.int/en/about-us/our-members/member-countries/" target="_blank">World Organisation for Animal Health - Members</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1008B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> et de l’Organisation Internationale du Commerce (OMC).<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1009B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.wto.org/english/thewto_e/whatis_e/tif_e/org6_e.htm" target="_blank">World Trade Organization - Members and Observers</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1009B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. <br/>
+L’Ouganda a ratifié le Protocole de Kyoto<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1010B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://unfccc.int/kyoto_protocol/status_of_ratification/items/2613.php" target="_blank">Status of Ratification of the Kyoto Protocol</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1010B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> et le Protocole de Carthagène sur la Biosécurité.<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1011B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://bch.cbd.int/protocol/" target="_blank">Cartagena Protocol on Biosafety to the Convention on Biological Diversity</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1011B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+Au niveau régional, l’Ouganda est partie à la Convention Africaine sur la Conservation de la nature et des ressources naturelles. <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1012B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.africa-union.org/root/au/Documents/Treaties/Text/Convention_Nature%20&amp;%20Natural_Resources.pdf" target="_blank">African Convention on the Conservation of Nature and Natural Resources</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1012B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+Comme les activités aquacoles se sont développées dans le bassin du Lac Victoria et le bassin du Nil, des arrangements ont été mis en place dans ces régions.<br/>
+
+
+
+En ce qui concerne le lac Victoria, les trois Etats riverains, l’Ouganda, la Tanzanie et le Kenya ont adopté la Convention pour  la création de l’Organisation de la Pêche pour le lac Victoria, en 1994, dont l’objectif principal est de promouvoir la conservation et l’utilisation durable des ressources vivantes du Lac. L’Organisation a développé une stratégie pour la recherche aquacole et le développement dans le bassin du lac victoria.<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1013B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.lvfo.org/" target="_blank">Lake Victoria Fisheries Organization</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1013B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+Concernant le fleuve Nil, il existe un projet (l’Initiative pour le Bassin du Nil) qui est un partenariat initié et conduit par les Etats riverains du fleuve Nil à travers le Conseil des Ministres de l’eau des Etats Parties à cette Initiative. L’Initiative pour le Bassin du Nil vise à développer le Nil dans un esprit de coopération, de partage des bénéfices substantiels socioéconomiques et à la promotion de la paix et la sécurité régionales.<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1014B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.nilebasin.org/newsite/index.php?option=com_content&amp;view=article&amp;id=71%3Aabout-the-nbi&amp;catid=34%3Anbi-background-facts&amp;Itemid=74&amp;lang=en" target="_blank">Nile Basin Initiative</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1014B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+ 
+
+
+				
+				
+				]]></fi:Text>
+			</fi:Arrangements>
+		</fi:LegalFrameworkProfile>
+		<fi:LegalFrameworkFeature>
+			<fi:AuthorisationSystem>
+				<fi:Text><![CDATA[Avant d’entreprendre des activités aquacoles, plusieurs certificats sont requis, comme mentionné dans les programmes et des règles sur la pêche (Aquaculture). <br/>
+En premier lieu, un certificat pour l’établissement aquacole est requis<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1015B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 6- Approval of aquaculture establishments, Fish (Aquaculture) Rules (No.81 of 2003),19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1015B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. L’officier, responsable des Pêches, est l’autorité chargée d’assurer le suivi régulier et l’inspection des installations aquacoles<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1016B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 10- Regular monitoring and inspection of aquaculture establishment, Fish (Aquaculture) Rules (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1016B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. Le propriétaire d’une installation aquacole de production intensive ou semi intensive doit, avant la construction ou la reconstruction de l’installation, soumettre à l’Officier chargé de la Pêche, un plan de construction et une liste des activités devant être menées par et dans l’établissement aquacole pour l’obtention agrément. Un établissement doit conduire seulement les activités pour lesquelles il a reçu l’agrément. L’Officier chargé de la Pêche peut refuser d’agréer un établissement aquacole si l’agrément ne correspond pas à l’intérêt public. Toute personne victime d’un refus d’agrément de la part de l’officier responsable de la Pêche peut interjeter appel devant le Ministre responsable de la pêche dans les trente (30) jours de la date du refus à travers une pétition déclarant les faits et les raisons de l’appel<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1017B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 9- Refusal to approve an of aquaculture establishment, Fish (Aquaculture) Rules, (No.81 of 2003),19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1017B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. Un permis d’élevage de poissons est requis pour s’engager dans l’élevage de poissons<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1018B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 14- Engagement in fish breeding, Fish (Aquaculture Rules) (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1018B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. La personne ou l’établissement qui prévoit d’élever des poissons doit adresser sa demande auprès de l’Officier responsable de la pêche. 
+<br/><br/>
+Un certificat pour la production de semences de poisson délivré par l’Inspecteur Aquacole est requis pour produire, distribuer ou vendre des semences de poissons aux exploitants aquacoles<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1019B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 11- Aquaculture certificates, Fish (Aquaculture) Rules (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1019B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+Une personne ou un établissement impliqué dans la production aquacole doit conserver les registres et compiler régulièrement les données dans le format établi dans le 11<sup>e</sup> chapitre des règles sur la pêche et l’aquaculture. Les données enregistrées doivent être soumises à l’officier responsable des pêches à la fin de chaque année fiscale. Celui-ci peut révoquer ou retirer l’autorisation ou l’agrément de l’établissement pour cause de défaillante ou incapacité à fournir ou à mettre à la disposition de l’Administration chargée des pêches des données précises des productions aquacoles.<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1020B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 25- Aquaculture record keeping, Fish (Aquaculture) Rules (No.81 of 2003),19 May 2003 </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1020B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+]]></fi:Text>
+			</fi:AuthorisationSystem>
+			<fi:Access>
+				<fi:Text><![CDATA[En ce qui concerne l’accès à la terre, la loi Foncière (Cap. 227) du 2 juillet 1998 déclare que toute terre ougandaise doit être détenue sous le régime coutumier, le régime de la pleine propriété, le système « Mailo » (équivalent de la propriété libre à perpétuité)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1021B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">“Mailo” means the holding of registered land in perpetuity and having roots in the allotment of land pursuant to the 1900 Uganda Agreement.</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1021B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> et le système d'affermage<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1022B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 3- Land ownership, Land Act (Cap. 227), 2 July 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1022B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+En 2009, fut préparée la Politique foncière nationale (document préparatoire 4) du Ministère du Développement Foncier, de l’Habitat et de l’Urbanisme, qui est en cours de validation. La multiplicité des régimes de propriété, la superposition de multiples droits et intérêts en présence sur une même terre,  et les conflits fonciers ont rendu la gestion foncière difficile. Le projet de politique foncière cherche à réorienter le secteur, à promouvoir un usage productif et durable pour réaliser les objectifs de développement foncier<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1023B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://allafrica.com/stories/200912160781.html" target="_blank">allAfrica.com</a></td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1023B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. Au moment de la rédaction du présent document, aucune politique nationale foncière n’avait été adoptée. <br/><br/>
+ 
+Concernant l’accès à l’eau, un Comité pour la politique de l’eau fut créé conformément au Code de l’Eau de 1995 (n°9 de 1995)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1024B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 9- Water Policy Committee, Water Statute (No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1024B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+Ses fonctions consiste à:<ul><li>
+
+ Coordonner la préparation, la mise en œuvre et l’amendement du plan d’action pour l’eau ;</li><li>
+Recommander le plan d’action pour l’eau au Ministre responsable de l’eau et des ressources naturelles ; </li><li>
+Conseiller tout autre Ministre, qui peut demander conseil sur des questions de politique relative à l’investigation, l’usage, le contrôle, la protection, la gestion ou l’utilisation de l’eau; </li><li>
+Conseiller le Ministre sur tout amendement ou révision qui peut être nécessaire pour l’amélioration ou une meilleure application de cette loi.
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1025B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 10- Functions of Water Policy Committee, Water Statute (Statute No. 9 of 1995),  14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1025B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+Aux termes de la loi relative à l’Agence nationale de l’eau et de l'assainissement de 1995 (Cap. 317), les fonctions de l’Agence nationale de l’eau et de l'assainissement consistent à :<ul><li>
+gérer les ressources en eau selon des moyens les plus bénéfiques pour la population de l'Ouganda; </li><li>
+fournir  l'approvisionnement en eau à usage domestique, horticole, industriel, commercial, récréatif, environnemental, et réserves ou stockage et autres utilisations bénéfiques; </li></ul>
+ (ii) les services d'assainissement, dans n'importe quel domaine dans lequel elle est habilitée  à exercer conformément à la présente loi ou à la loi sur l’eau.
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1026B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 4- Objects and functions of the corporation, National Water and Sewerage Corporation Act 1995 (Cap. 317), 22 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1026B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+
+
+
+Un permis d’approvisionnement en eau est nécessaire pour quiconque occupe ou a l'intention d'occuper tout terrain; envisage construire, posséder, occuper ou contrôler tous les travaux sur ou à proximité de ce terrain<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1027B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 3- Application for water permit, Water Resources Regulations (S.I  No. 33 of 1998), 7 April 1997</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1027B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+
+
+
+
+L'intéressé doit soumettre une demande d’approvisionnement en eau au Directeur du Développement de l'eau. Lors de l'examen d'une telle demande, le Directeur doit tenir compte des facteurs suivants: <ul><li>
+La disponibilité quantitative actuelle et future de l'eau dans la région ; </li><li>
+La disponibilité qualitative actuelle et future de l'eau dans la région ; </li><li>
+Tout effet néfaste que l'installation, l'attribution ou de l'utilisation de l'eau est susceptible d’engendrer sur les utilisations autorisées de l’eau déjà existantes, la nappe aquifère ou cours d'eau navigable, l'environnement suite à l’exploitation du permis ; </li><li>
+La disponibilité de toute autre source d'approvisionnement en eau ; </li><li>
+La nécessité de protéger l'environnement ; </li><li>
+La politique de conservation des ressources naturelles du gouvernement<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1028B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 6- Factors to be taken into account when considering an application, Water Resources Regulations (S.I  No. 33 of 1998), 7 April 1997</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1028B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+
+Le titulaire d'un permis d’approvisionnement en eau doit respecter certaines conditions précisées à la fois dans le code l'eau (n ° 9 de 1995) et le Règlement relatif à l’eau (SI n ° 33 de 1998). Conformément au code, le titulaire d'un permis ne doit pas causer ou permettre la pollution des cours d’eau; doit empêcher toute atteinte aux sources d’eau à partir desquelles l'eau est prélevée ou dans lesquelles l'eau est évacuée après utilisation; doit prendre toutes les précautions utiles garantissant que l’exploitation de l’installation aquacole n’entraine pas l'accumulation de substances pouvant  nuire considérablement à la qualité de l’eau et la rendre impropre à sa finalité première ou l'usage attendu<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1029B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 20- Standard conditions, Water Statute (No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1029B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. <br/><br/>
+
+Selon le code de l’eau, le directeur peut fixer d'autres conditions: <ul><li>
+Le permis peut être accordé pour une période n'excédant pas cinq (5) ans ; </li><li>
+Le permis doit être accordé sous réserve des dispositions  pertinentes pour les différents types d'utilisations définies ; </li><li>
+Les conditions relatives au futur entretien et à l’exécution des travaux ; </li><li>
+Le but pour lequel l'eau peut être utilisée ; </li><li>
+La quantité maximale d'eau qui peut être prélevée  à une période donnée ou dans des circonstances précises ; </li><li>
+Le paiement pour l’exploitation ou l’utilisation de l’eau
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1030B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 7- Conditions attached to and transfer of water permits, Water Resources Regulations (S.I  No. 33 of 1998), 7 April 1997</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1030B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+Selon l'avis du Directeur, lorsque l’eau disponible dans une région est insuffisante ou est susceptible de devenir insuffisante tant en quantité  qu’en qualité pour répondre aux besoins des personnes qui l’utilisent ou envisagent de l'utiliser, celui-ci peut, par avis écrit adressé au titulaire du permis, le suspendre ou le modifier<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1031B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 22- Suspension or variation of a water permit, Water Statute (No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1031B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+
+Une personne envisageant construire des installations aquacoles, prélever et utiliser de l'eau peut soumettre une demande de permis au  Directeur. Pour l'octroi de ce permis, le Directeur peut tenir compte des conditions suivantes, par exemple, le paiement des droits ou frais; la façon dont le terrain doit être drainé conformément au permis d’approvisionnement en eau<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1032B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 18- Construction of works, Water Statute (No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1032B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+
+
+En règle général, le directeur, une personne autorisée ou une autorité publique peut avoir accès et demeurer sur les installations ou le terrain dans l'exercice de ses fonctions conférées par la loi; et il peut prendre des mesures, notamment construire ou opérer des travaux qui peuvent être nécessaires pour l'enquête, l'utilisation, le contrôle, la protection, la gestion ou l'administration de l'eau<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1033B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 14 (1)- Power to enter land and investigate water resources, Water Statute (No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1033B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+En ce qui concerne l'aquaculture dans les zones humides définies comme «zones permanemment ou saisonnièrement  inondées par l'eau, où les plantes et les animaux se sont adaptées, y compris les marécages, les Dambos, des étendues de marais, de tourbières, de marais de montagne, bords des rivières, la végétation, les zones de drainage entravé ou sel noirâtre »<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1034B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 2- Interpretation, National Environment (Wetlands, River Banks and Lake Shores Management) Regulations, (No. 3 of 2000), 23 December 2000 </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1034B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>, un régime spécifique a été mis en place par la règlementation nationale sur l’environnement (zones humides, les rives de la rivière et la gestion de lac gestion) n° 3 de 2000<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1035B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 8 (2) and 8 (4)- National Environment (Wetlands, River Banks and Lake Shores Management) Regulations, (No. 3 of 2000), 23 December 2000 </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1035B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. À cet égard, alors que l'aquaculture est interdite dans les zones humides pleinement protégées, elle est autorisée dans les zones humides partiellement protégées. Afin de gérer et de préserver les ressources des zones humides, un comité technique sur la conservation de la biodiversité a été créé par le code national de l'environnement de 1995 (Loi n ° 4 de 1995)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1036B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 11 (2) (c)- Technical Committees, National Environment Statute (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1036B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.  <br/><br/>
+
+Le comité est chargé de conseiller le Conseil d'Administration et le Directeur exécutif de l'Autorité nationale de gestion de l'environnement portant l'utilisation rationnelle, la gestion et la conservation des ressources des zones humides.  Les fonctions du comité technique consistent à :<ul><li>
+Examiner les procédures  mise en œuvre pour la gestion des zones humides, </li><li>
+Faire des recommandations nécessaires au Conseil d'Administration et au Directeur Général ; </li><li>
+vérifier, examiner l’évaluation d’impact environnemental, l’audit et le monitoring ; </li><li>
+Proposer des solutions à d’éventuels conflits qui pourraient découler des exigences de l’utilisation rationnelle et des multiples exploitations des ressources des zones humides<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1037B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 6 (2)- The Technical Committee on Biodiversity Conservation, National Environment (Wetlands, River Banks and Lake Shores Management) Regulations, (No. 3 of 2000), 23 December 2000 </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1037B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+Une personne qui envisage d’effectuer des activités aquacoles dans une zone humide devra faire une demande de permis afin d'exercer cette activité conformément à la législation<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1038B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 11 (1)- Uses of wetlands, National Environment (Wetlands, River Banks and Lake Shores Management) Regulations, (No. 3 of 2000), 23 December 2000  </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1038B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+
+
+Toute personne désirant réaliser un projet aquacole susceptible d’avoir un impact significatif sur une zone humide est tenu de procéder à une évaluation de l'impact environnemental tel que mentionnée ci-dessous<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1039B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 34 (1)- Environmental Impact Assessment, National Environment (Wetlands, River Banks and Lake Shores Management) Regulations, (No. 3 of 2000), 23 December 2000  </td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1039B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+
+
+ ]]></fi:Text>
+			</fi:Access>
+			<fi:EnvironAssessment>
+				<fi:Text><![CDATA[La législation portant étude d’impact environnemental (EIE) est composée du code de l’Environnement de 1995 (National Environment Statute No. 4 of 1995) et de ses décrets d’application  de 1998 (n°13). <br/><br/>
+				
+				
+				
+Le code de l’Environnement de 1995 crée l’Autorité Nationale pour la Gestion de l’Environnement (National Environment Management Authority, NEMA) qui est la principale agence chargée de gérer, coordonner, surveiller et superviser toutes les activités dans le domaine de l’environnement en Ouganda<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1040B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 6- Powers of the Authority, National Environment Statute (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1040B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+Ses fonctions consistent à: <ul><li>
+assurer l’intégration des préoccupations environnementales dans le plan général national à travers la coordination des ministères, départements et agences concernés du Gouvernement;</li><li>
+revoir et d’approuver les études d’impact environnementales et les déclarations d’impacts environnementaux;</li><li>
+promouvoir la conscience environnementale publique à travers des programmes d’éducation formels, et informels en matière des questions environnementales;</li><li>
+ entreprendre des programmes de recherche et de divulguer l’information sur l’environnement
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1041B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 7- Functions of the Authority and relationship with lead agencies and delegation, National Environment Statute, (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1041B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+Le Conseil d’Administration de l’Autorité (NEMA) nomme un Comité technique pour l’étude d’impact environnemental<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1042B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 11 (2) (d)- Technical Committees, National Environment Statute, (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1042B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+Ce Comité assiste à la fois le Conseil d’Administration et le Directeur Exécutif de l’Autorité sur les questions techniques relatives à la conduite des études d’impact environnemental, plus spécifiquement, il doit: <ul><li>
+revoir et conseiller sur les procédures de mise en œuvre de l’EIE et adresser des recommandations au conseil et au Directeur exécutif;</li><li>
+arbitrer considérer des conflits potentiels qui peuvent survenir en raison de la redondance de certaines conditions environnementales;</li><li>
+conseiller sur l’harmonisation de la politique d’impact environnemental avec des politiques sectorielles sur les ressources naturelles et l’environnement ;</li><li>
+conseiller et recommander des mécanismes destinés à assurer la communication effective des préoccupations environnementales associées aux projets de développement afin de promouvoir une participation publique et multisectorielle dans la mise en œuvre de la politique environnementale
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1043B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 4- Functions of the Technical Committee, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1043B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+Tout promoteur d’entreprises de transformation de poissons doit soumettre un bref projet (constitutif de la première étape de l’EIE) et le soumettre au Directeur Exécutif de la NEMA qui, alors, le transmettra à l’organisme chef de file pour tous analyses et commentaires. Par « organisme chef de file », on entend tout ministère, département, agence paraétatique, autorité du gouvernement local ou officier public investis par la loi des fonctions de contrôle ou de gestion de tout segment de l’environnement<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1044B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 2- Interpretation, National Environment Statute, (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1044B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+
+Dans un premier temps, le document de projet doit présenter: <ul><li>
+
+la nature du projet, </li><li>
+le site, de l’air et de l’eau susceptible d’être affectée, </li><li>
+les activités susceptibles d’être entreprises pendant et après le développement du projet, </li><li>
+le concept du projet, </li><li>
+les matériaux qui seront utilisés par le projet, y compris les matériaux et les éléments de construction, </li><li>
+les éventuels produits et produits dérivés y compris la production de déchets par le projet, </li><li>
+le nombre de personnes employées pour le projet, les bénéfices économiques et sociaux attendus pour la communauté locale et le pays en général, </li><li>
+les effets environnementaux des matériaux, méthodes, produits et produits dérivés du projet, et les moyens d’élimination ou d’atténuation de ceux-ci.
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1045B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 5 (1)- Preparation of the project brief, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1045B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+Si le Directeur Exécutif considère que le projet n’aura pas d’effet significatif sur l’environnement, ou que le document de projet prévoit des mesures d’atténuation suffisantes pour compenser les impacts prévus, il approuve le projet et délivre alors un certificat d’approbation au nom de l’Autorité. <br/><br/>
+
+Au contraire, si le directeur exécutif considère que le projet aura un impact significatif sur l’environnement et que le document de projet ne contient pas de mesures d’atténuation suffisantes pour compenser les impacts prévus, il pourra demander au promoteur du projet d’entreprendre une EIE<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1046B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 9- Approval of the project brief, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1046B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+Cette étude doit être conduite conformément aux directives adoptées par l’Autorité en collaboration avec l’organisme responsable de l’aquaculture. <br/><br/>
+
+
+Si le Directeur Exécutif décide de la nécessité d’une EIE, le promoteur devra procéder à une déclaration d’impact environnemental complétant l’étude<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1047B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 13 (1)- Environmental impact statement, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1047B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+
+
+En procédant à une déclaration d’impact environnemental, le promoteur devra être tenir compte des préoccupations suivantes:<ul><li>
+les considérations écologiques (diversité biologique, usage durable, entretien de l’écosystème); </li><li>
+les considérations sociales (cohésion sociale ou perturbations, immigration ou émigration, économie locale); </li><li>
+le paysage (impacts visuels); </li><li>
+l’utilisation foncière (possibilité de multiples usages)
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1048B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 13 (2)- Environmental impact statement, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1048B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+La déclaration d’impact environnemental devra également prévoir la description: <ul><li>
+
+du projet et des activités probablement générées; </li><li>
+du site proposé et les raisons de rejet ou refus des sites alternatifs; </li><li>
+La description d’un environnement potentiellement affecté y compris les informations spécifiques nécessaires pour identifier et évaluer les effets environnementaux du projet; </li><li>
+Les éléments matériels du projet et leurs effets environnementaux potentiels; </li><li>
+Une analyse économique du projet; </li><li>
+La technologie et les processus qui doivent être utilisés; </li><li>
+Les produits et produits dérivés du projet; </li><li>
+ Les effets environnementaux du projet notamment les effets directs, indirects, cumulatifs, de court terme et de long terme et les alternatives possibles; </li><li>
+les mesures proposées pour éliminer, minimiser ou atténuer les impacts adverses; </li><li>
+une identification des divergences entre les informations et des incertitudes qui furent rencontrées en rassemblant les données requises
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1049B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 14 (1)- Contents of the environmental impact statement, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1049B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+En ce qui concerne le processus de révision de la déclaration d’impact environnemental, le Directeur Exécutif devra transmettre la déclaration d’impact environnemental à l’organisme responsable de l’aquaculture et requérir que celui-ci communique ses commentaires à ce sujet. Cet organisme devra transmettre ses commentaires au Directeur Exécutif dans les trente (30) jours de la réception de la déclaration d’impact environnemental. A défaut des commentaires de l’organisme chef de file dans cette période, le directeur exécutif peut alors prendre la décision<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1050B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 18- Comments of the lead agency, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1050B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+<br/><br/>
+Comme principe général, il convient de noter que le promoteur, durant la conduite de l’étude,  doit prendre toutes les mesures nécessaires pour consulter communautés locales qui peuvent être affectées par le projet. Sur demande écrite du Directeur exécutif, l’organisme chef responsable ou chef de file devra tenir une audience publique sur la déclaration d’impact environnemental si le directeur exécutif considère qu’une audience publique lui permettra de prendre une décision juste et équitable nécessaire pour la protection de l’environnement et la promotion de la bonne gouvernance<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1051B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 22- The public hearing, Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1051B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+Les conclusions et les recommandations de l’audience publique devront être prises en compte par le Directeur Exécutif dans sa décision finale. <br/><br/>
+
+
+
+Si le directeur exécutif approuve le projet, il devra délivrer un certificat d’agrément de l’étude d’impact environnemental<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1052B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 26 (c)- Conditions of approval of a project, , Environmental Impact Assessment Regulations, (No. 13 of 1998), 1 May 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1052B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. S’il décide de rejeter le projet, il devra déclarer les raisons par écrit.
+
+
+]]></fi:Text>
+			</fi:EnvironAssessment>
+			<fi:WaterQuality>
+				<fi:Text><![CDATA[Les principaux objectifs du code de l’eau de décembre 1995  (Water Statute n°9 of December 1995) visent à:<ul><li> 
+Promouvoir une gestion et un usage rationnels des eaux; </li><li>
+Autoriser l’utilisation rationnelle des ressources hydriques à des fins,  autre que l’usage domestique, notamment la mise en eau de réserve ou stock, l’irrigation et l’agriculture, les usages industriels, commerciaux et miniers, la génération d’énergie hydroélectrique et thermale, la navigation, la pêche , la préservation de la faune et de la flore et les divertissement de façon à minimiser les effets nuisibles pour l’environnement; </li><li> 
+Contrôler, la pollution; </li><li>
+Promouvoir la sécurité de l’entreposage, du traitement, du rejet et de l’évacuation des déchets susceptibles de polluer l’eau ou de causer préjudice à l’environnement et à la santé humaine par toute voie
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1053B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 4- Objectives, Water Statute, (Statute No. 9 of 1995), 14 December 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1053B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+
+
+La réglementation d’application du code de l’eau n°32 de 1998 relative à l’évacuation de l’eau (Water discharge regulations) prévoit que personne ne peut rejeter des effluents ou déchets dans l’environnement aquatique ou foncier sans permis d’évacuation des déchets. Le titulaire d’un tel permis doit s’assurer que l’effluent ou le déchet évacué est conforme aux limites permissibles maximum établies et est sujet au paiement d’une redevance annuelle pour l’évacuation des déchets. Le montant de la redevance peut varier selon le volume, les caractéristiques et les composantes du déchet à évacuer et est censé refléter le principe selon lequel les coûts totaux et réels de la pollution environnementale devraient être supportés par le polluant<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1054B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 18- Waste discharge fee, Water (Waste Discharge) Regulations, (No. 32 of 1998), 21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1054B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+
+
+
+Est tenu d’adresser une demande au Directeur des Ressources hydriques<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1055B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 5- Waste discharge permit, Water (Waste Discharge) Regulations (No. 32 of 1998), 21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1055B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>, tout titulaire d’un agrément de travaux ou toute personne qui envisage être:
+<ul><li>
+
+
+
+
+
+
+le propriétaire ou l’opérateur de toute industrie ou commerce qui rejette ou qui rejettera des effluents ou déchets dans l’environnement aquatique ou sur terre; </li><li>
+le responsable de la production, du rangement, de l’évacuation ou du rejet de tout déchet ou de tout déchet contenant une substance spécifiée dans le second chapitre des réglementations (l’arsenic, le cadmium, les dioxines, le plomb, le mercure, le nickel); </li><li>
+Engagé dans une exploitation commerciale de poissons, dans une usine de transformation du poisson; </li><li>
+Le propriétaire ou l’occupant de tout local (ou de telles fermes ou usines) à l’origine duquel les déchets peuvent venir en contact avec l’eau, directement ou indirectement
+
+</li></ul>
+Pour analyser une telle demande, le Directeur doit prendre en compte différents facteurs suivants:<ul><li>
+la disponibilité qualitative et quantitative de l’eau, telle qu’autorisée par zone et en aval de celle-ci;</li><li>
+tout effet néfaste sur  les usages autorisés et existant de l’eau, d’un aquifère ou cours d’eau ou de l’environnement susceptible de provenir du rejet des déchets;</li><li>
+le besoin de protéger l’environnement;</li><li>
+la politique du gouvernement en matière de gestion et de conservation de l’environnement.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1056B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 9- Consideration of application, Water (Waste Discharge) Regulations (No. 32 of 1998), 21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1056B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+Après avoir vérifié que la réglementation sur l’eau (Water discharge régulations) est respectée et qu’aucune autorité publique ou autre personne physique ou morale n’a soumis de rapport écrit opposé au permis au motif que la santé publique est probablement menacée par le permis d’évacuation. <br/>
+
+
+Si le Directeur peut, par décision motivée, rejeter une demande. Toute personne lésée par une telle décision peut interjeter appel auprès du Ministère de l’eau et des ressources naturelles tout apportant les raisons de l’objection. Le Ministère doit, dans les vingt et un (21) jours de la réception de l’appel, analyser l’appel ou se référer au Comité  de la Politique de l’Eau (établi en vertu du code de l’eau) pour prendre une décision.
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1057B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 12- Appeal to the Minister, Water (Waste Discharge) Regulations (No. 32 of 1998),  21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1057B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+<br/><br/>
+
+Le Directeur peut, à tout moment, amender, modifier les termes d’un permis d’évacuation d’eau ou en suspendre l’opération, ou l’annuler, dans un souci de protection de l’environnement ou de prévention de pollution de l’eau. Il est important de noter que la réglementation relative à l’eau, selon laquelle toute industrie, tout établissement ou titulaire d’un permis d’évacuation des déchets peut installer un équipement anti-pollution pour le traitement de l’évacuation des effluents et déchets provenant de cette industrie, reconnait aussi l’obligation générale d’atténuer ou de réduire la pollution<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1058B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 15- General obligation to mitigate pollution, Water (Waste Discharge) Regulations (No. 32 of 1998), 21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1058B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+<br/><br/>
+
+
+
+
+
+Un Inspecteur pour l’Environnement désigné par le code de l’Environnement peut, à tout moment, avoir accès aux locaux et prélever des échantillons, analyser et examiner les matériaux utilisés pour l’activité pour laquelle un permis d’évacuer a été accordé<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1059B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Regulation 17 (1)- Sampling of effluent and waste water analysis, Water (Waste Discharge) Regulations (No. 32 of 1998), 21 August 1998</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1059B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+<br/><br/>
+En outre, conformément au code de l’Environnement de mai 1995, le NEMA doit, en consultation avec l’organisme chef de file, établir:<ul><li>
+les critères et procédures pour la mesure de la qualité de l’eau, </li><li>
+les normes minimales pour la qualité de l’eau applicables à toutes les eaux ougandaises, </li><li>
+les normes minimales en matière de qualité de l’eau pour différents usages, notamment pour la pêche
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1060B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 26- Water quality standards, National Environment Statute (Statute No. 4 of 1995), 17 May 1995</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1060B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+Cela a été fait en conformité avec la réglementation de 1999 relative l’Environnement (Normes d’Evacuation des effluents dans l’eau ou sur la terre - Standards for Discharge of Effluent into Water or on Land, S.I n°4 of 1999). Cette réglementation prévoit les normes pour les effluents ou les eaux usées avant leur rejet dans les cours d’eau ou dans la nature.
+]]></fi:Text>
+			</fi:WaterQuality>
+			<fi:FishMovement>
+				<fi:Text><![CDATA[L’importation ou l’exportation de poisson est soumis à l’obtention un permis<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1061B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 16 (6)- Transfer of fish, Fish (Aquaculture) Rules (No.81 of 2003),  19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1061B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+
+
+
+Les espèces de poisson vivant qui peuvent être exportées ou importées sont définies dans les huit chapitres de la loi sur la pêche (Aquaculture). Toute personne qui adresse une demande de permis pour import/export de poisson vivant doit expressément indiquer:<ul><li>
+les espèces, la souche et le sexe du lot de poisson destiné à l’importation ou à l’exportation;</li><li> 
+le nombre, l’âge et la source du poisson;</li><li>
+le rapport de santé et le formulaire de demande du pays d’origine;</li><li>
+le but destiné de l’importation ou de l’exportation;</li><li>
+le mode de traitement et de transport du poisson
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1062B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Manual of Standard Operating Procedures for Inspection of Aquaculture Establishments and Aquaculture Production Practices,  Ministry of Agriculture, Animal Industry and Fisheries- Department of Fisheries Resources, June 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1062B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. </li></ul>
+
+
+
+Si une personne physique ou morale prévoit de transférer du poisson à l’intérieur de l’Ouganda aux fins d’aquaculture, celle-ci doit demander un permis de transfert de poisson<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1063B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 16 (5)- Transfer of fish, Fish  (Aquaculture Rules) (No.81 of 2003),  19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1063B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+
+
+Le candidat, dans demande d’obtention du permis de transfert de poisson, doit fournir des informations suivantes:<ul><li>
+ 
+les espèces et les souches du poisson à transférer;</li><li>
+la source et la destination du poisson à transférer;</li><li>
+l’usage prévu du poisson;</li><li>
+l’état de santé du poisson;</li><li>
+les mesures de quarantaine et les garanties dans le cas où les espèces n’existent pas dans les plans d’eau auxquels les poissons sont destinés
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1064B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Manual of Standard Operating Procedures for Inspection of Aquaculture Establishments and Aquaculture Production Practices,  Ministry of Agriculture, Animal Industry and Fisheries- Department of Fisheries Resources, June 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1064B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. </li></ul>
+
+
+
+
+
+
+En règle générale, l’officier chargé de la pêche peut refuser d’accorder le permis de transférer tout poisson, si celui présente un danger de contamination génétique, ou de dégradation, ou encore un danger de perte des espèces autochtones ou de changement dans la composition des espèces
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1065B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 16 (7)- Transfer of fish, Fish  (Aquaculture) Rules (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1065B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+ ]]></fi:Text>
+			</fi:FishMovement>
+			<fi:DiseaseControl>
+				<fi:Text><![CDATA[Le cadre juridique relatif au contrôle des maladies est constitué, d’une part, de la loi sur les maladies animales (Animal Diseases Act (Cap.38) of 1 January 1918), et d’autre part, de sa réglementation d’application. Aux termes de cette loi, on entend par « animal », « tout bétail, chameau et autres ruminants, chats et chiens, à l’exclusion de tout autre animal, sauf ceux déclarés tels par le Ministère en vertu d’un instrument statutaire et à inclure, pour les fins de cette loi, dans la définition du terme « animal ». <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1066B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 1- Interpretation, Animal Diseases Act (Cap.38), 1 January 1918</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1066B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+Cependant, tout instrument statutaire incluant spécifiquement les poissons et se référant aux maladies de poisson peut être trouvé. Enfin, la Stratégie de développement du Secteur Agricole et le Plan d’Investissement pour 2010/11-2014/15 se réfèrent au contrôle des maladies et vecteurs dans le sous-secteur de la pêche.
+]]></fi:Text>
+			</fi:DiseaseControl>
+			<fi:DrugsAndChemicals>
+				<fi:Text><![CDATA[En matière d’utilisation des produits chimiques, c’est la loi sur le contrôle des produits chimiques agricoles (Cap. 29) de 1989 (the Control of Agricultural Chemicals Act (Cap. 29) of 1989) qui régit la fabrication, l’entreposage, le commerce et la distribution, ainsi que l’usage, l’importation et l’exportation des produits chimiques agricoles. Conformément à cette loi, les « produits chimiques » sont tout pesticide, fongicide chimique, insecticide nématoïde, herbicide, acaricide, bactéricide, rodenticide, avicide, molluscicide, fertilisant, régulateur de croissance ou tout autre produit chimique ou matériel utilisé à des fins agricoles. Cette loi précise que « personne ne pourra fabriquer, emballer, entreposer, disposer, distribuer, transporter en connaissance de cause, être en possession , utiliser ou faire la publicité  de tout produit chimique qu’en conformité avec les réglementations prises en vertu de cette loi. Personne ne doit procéder à l’emballage, l’étiquetage ou faire la publicité d’aucun produit chimique agricole de manière erronée, trompeuse ou mensongère ou encore susceptible de créer une impression erronée concernant son caractère, sa valeur, sa qualité, sa composition, son mérite ou sa sécurité » <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1067B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 2- Control of manufacture, etc. of agricultural chemicals, Control of Agricultural Chemicals Act (Cap. 29), 22 September 1989</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1067B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+« Personne ne doit importer ou vendre en Ouganda aucun produit chimique agricole à moins que celui-ci soit enregistré, emballé, et étiqueté conformément aux normes spécifiées dans loi et ses réglementations. Personne ne doit exporter ou réexporter en dehors de l’Ouganda un produit chimique s’il ne respecte pas les conditions spécifiées dans les réglementations prévues par la Loi » <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1068B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 3- Import, export, etc. of agricultural chemicals, Control of Agricultural Chemicals Act (Cap. 29), 22 September 1989</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1068B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+
+
+
+Un Conseil des produits chimiques agricoles est établi par la loi pour: <ul><li>
+assurer que les produits chimiques sont dument enregistrés et que ceux-ci sont utilisés de manière cohérente avec l’étiquetage et en conformité avec les réglementations d’application de la loi; </li><li>
+réglementer la qualité et l’importation des produits chimiques agricoles dans le pays ainsi que leur distribution
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1069B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 5- Functions of the Board, Control of Agricultural Chemicals Act (Cap. 29), 22 September 1989</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1069B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.</li></ul>
+
+
+
+qui est chargée de la mise en œuvre de la politique nationale des médicaments et en particulier de:<ul><li>
+contrôler l’importation, l’exportation et la vente des produits pharmaceutiques;</li><li>
+contrôler la qualité des médicaments.</li></ul>
+Elle est compétente pour autoriser les importations, la fabrication, l’utilisation et destructions de tous médicaments, vaccins et produits biologiques en Ouganda. Le département des ressources halieutiques, organisme chargé pour le développement aquacole, travaille en coopération avec l’Autorité Nationale du Médicament pour réglementer l’usage des produits chimiques dans les établissements aquacoles.<br/><br/>
+La Politique Nationale des Médicaments Vétérinaires de 2002 prévoit:<ul><li>
+L’approvisionnement en médicaments vétérinaires;</li><li>
+ La réglementation et l’inspection de médicaments vétérinaires;</li><li>
+Les autorisations de vétérinaires;</li><li>
+Le suivi des résidus médicamenteux dans les aliments d’origine animale, le contrôle qualité des médicaments vétérinaires;</li><li>
+L’utilisation correcte et sûre des médicaments vétérinaires.</li></ul>
+
+Le Ministère de l'Agriculture, de l'Industrie Animale et de la Pêche (MAAIF) est responsable de la mise en œuvre de la politique nationale du médicament vétérinaire, des stratégies appropriées et de l’application du cadre législatif y afférent pour atteindre les objectifs prévus. A cet égard, les réglementations sur la pêche (Aquaculture) exigent que toute personne physique ou morale qui prévoit de s’engager dans la production destinée à la vente et à la distribution d’éléments incluant des fertilisants aquacoles, des hormones, des antibiotiques et autres pour un usage aquacole, doit les faire certifier auprès du département responsable des ressources halieutiques
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1071B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 20- Aquaculture inputs, Fish  (Aquaculture) Rules (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1071B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+ ]]></fi:Text>
+			</fi:DrugsAndChemicals>
+			<fi:FeedRestrictions>
+				<fi:Text><![CDATA[Le Département de Production Animale et de Marketing est l’agence de réglementation de la fabrication, la distribution et l’usage des aliments destinés aux animaux, y compris les poissons. Conjointement avec le Département des ressources halieutiques, il réglemente la production et l’usage des aliments aquacoles. En vertu des Réglementations sur la Pêche (Aquaculture), toute personne physique ou morale qui prévoit de s’engager dans la production destinée à la vente et à la distribution d’éléments incluant des fertilisants aquacoles, des hormones, des antibiotiques et autres pour un usage aquacole doit les faire certifier auprès du Département Responsable des ressources halieutiques<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1072B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Rule 20- Aquaculture inputs, Fish (Aquaculture) Rules (No.81 of 2003), 19 May 2003</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1072B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/><br/>
+
+Les règlementations sur la Pêche (Aquaculture) prévoient des règles spécifiques pour les établissements produisant des semences de poisson. A cet égard, un certificat de production de semences de poisson, délivré par un inspecteur aquacole, est requis pour produire et distribuer ou vendre des semences de poisson aux exploitants aquacoles. Dans sa demande de certification, le candidat doit mentionner le nom et le lieu de l’établissement, le type de semences de poisson à produire et vendre, les espèces de poisson, le type d’autres éléments (aliments, médicaments, produits chimiques)<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1073B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Manual of Standard Operating Procedures for Inspection of Aquaculture Establishments and Aquaculture Production Practices, Ministry of Agriculture, Animal Industry and Fisheries- Department of Fisheries Resources, June 2006</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1073B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+]]></fi:Text>
+			</fi:FeedRestrictions>
+			<fi:FoodSafety>
+				<fi:Text><![CDATA[La loi sur l’alimentation et les médicaments du 18 juin 1959 (Cap. 278) (Food and Drugs Act) est le principal instrument juridique en matière de sécurité alimentaire en Ouganda. Cette loi régit la prévention de l’altération des aliments. La définition légale des aliments inclut les boissons, le chewing gum et autres produits d’usage ou de nature semblable ainsi que des articles et substances utilisés comme des ingrédients dans la préparation des aliments/boissons. Sont exclus de cette liste d’aliments, l’eau, les animaux vivants ou les oiseaux, l’alimentation animale et le fourrage ainsi que les substances utilisées seulement comme des médicaments<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1074B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 1- Interpretation, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1074B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+La loi du 18 juin 1958 proscrit l’usage de tout ingrédient dans la préparation des aliments vendus pour la consommation humaine qui rendrait l’alimentation dangereuse pour la santé humaine<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1075B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 2- Offences in connection with preparation and sale of injurious foods and adulterated drugs, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1075B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> et interdit l’étiquetage erroné ou la publicité alimentaire<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1076B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 5- False labelling or advertisement of food or drug, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1076B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.<br/>
+
+
+
+Commet une infraction, toute personne qui vend, offre ou expose à la vente, ou possède aux fins de vente ou en préparation de la vente; ou dépose ou consigne à toute personne aux fins de vente ou de préparation à la vente, tout aliment destiné, bien qu’inapproprié, à la vente<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1077B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 6- Offence to sell, etc. food unfit for human consumption, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1077B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>.
+
+
+
+ Un agent habilité peut, à tout moment raisonnable, examiner tout aliment destiné à la consommation humaine qui a été vendu ou offert ou exposé à la vente ou dans la possession, ou a été déposé ou consigné à toute personne aux fins de vente ou de préparation à la vente. Si cet aliment lui apparaît inapproprié à la consommation humaine, il peut le saisir, le retirer et le soumettre à un magistrat<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1078B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 7- Examination and seizure of suspected food, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1078B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>. 
+
+
+
+Enfin, les produits alimentaires en transit en Ouganda peuvent être examinés par un officier habilité <div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1079B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Section 9- Power to examine food in course of transit, Food and Drugs Act (Cap.278), 18 June 1959</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1079B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+
+
+par le Ministère de la Santé ou une autorité locale avec l’agrément du Ministre. <br/>
+
+
+
+Le Comité consultatif pour l’hygiène alimentaire est mis en place par la loi pour conseiller le Ministre sur toutes questions en la matière. En outre, la loi sur le Bureau National des Normes de l’Ouganda (Uganda National Bureau of Standards-UNBS-Act (Cap. 327), de 1983 concerne  la sécurité alimentaire en ce qu’elle établit l’UNBS sous la supervision générale du Ministère responsable du Commerce. Les fonctions de l’UNBS 
+
+
+
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1080B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.unbs.go.ug/" target="_blank">Uganda National Bureau of Standards</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1080B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/>
+
+
+
+incluent la formulation de normes nationales et de spécifications pour les matières premières, incluant l’alimentation, de même que les normes de mise en vigueur pour protéger les consommateurs contre les ingrédients nuisibles et les composantes dangereuses des matières premières. Par exemple, la Norme Ougandaise FDUS 814 prescrit les conditions pour les aliments de poisson et la norme FDUS EAS 97 prescrit les conditions pour les repas des poissons aux fins d’usage dans la composition des aliments pour le bétail.<br/><br/>
+
+La loi relative à la Santé Publique de 1935 (Public Health Act-Cap.281) intervient également dans ce secteur dans la mesure où elle prévoit des règles relatives, entre autres choses, à la prévention et la suppression de maladies, dont certaines maladies animales, la construction et la réglementation d’immeubles utilisés pour l’entreposage des denrées alimentaires, le traitement des aliments par des personnes malades. Ces lois prévoient également des prérogatives de l’Officier médical pour l’inspection des locaux et des personnes.<br/><br/>
+
+Plus récemment, les normes sur les poissons (Fish Rules-Quality Assurance) de 1998 précisent l’autorité des inspecteurs de poissons, décrivent le processus de certification sanitaire et prévoient les conditions en matière d’hygiène, y compris le HACCP, qui doit présent sur les lieux de débarquement au cours du transport et de la transformation. Le Manuel des Procédures Standard pour l’inspection de poissons et l’assurance qualité 
+<div onmouseout="this.style.display='none'" onmouseover="this.style.display=''" style="display:none;position:absolute; left:200px; top:?px; width:400px; height:?px; z-index:1;" id="popN1081B">
+<table border="1" cellspacing="0" cellpadding="1">
+<tr>
+<td style="font-weight:normal" class="backLight">Copie disponible sur: <a href="http://www.ufpea.co.ug/downloads/sop_manual.pdf" target="_blank">Uganda Fish Processors and Exporters Association</a>
+</td>
+</tr>
+</table>
+</div>
+<img onmouseover="popN1081B.style.display=''" style="cursor: pointer;" src="/fi/figis/assets/images/addinfo.gif"/> 
+
+sert de guide aux inspecteurs pour la vérification de la qualité et de la sécurité du poisson et des produits de poisson tandis que le Manuel de 2006 sur les procédures standard pour l’inspection des établissements aquacoles et les pratiques de production aquacole mentionne que toutes les personnes physiques ou morales impliquées dans l’aquaculture commerciale doivent démontrer un système permettant la traçabilité des produits exploités en dehors de leurs pratiques de production tel que requis par les marchés respectifs visés, et leurs produits doivent être traçables à partir des points de transformation et de mise sur le marché.
+
+
+]]></fi:Text>
+			</fi:FoodSafety>
+			<!--<fi:AidOrInvestments>
+				<fi:Text><![CDATA[At the time of drafting the current NALO, many legislations in Uganda were under review process.<br/>
+<br/>]]></fi:Text>
+			</fi:AidOrInvestments>-->
+			<fi:AddInfo Label="">
+				<fi:Text><![CDATA[Au moment de la rédaction de ce NALO, de nombreuses législations étaient en cours de révision.]]></fi:Text>
+			</fi:AddInfo>
+		</fi:LegalFrameworkFeature>
+		<fi:Bibliography>
+			<fi:BiblioEntry>
+				<dc:Title>FAOLEX</dc:Title>
+				<dc:Identifier Type="URI">http://faolex.fao.org/faolex/index.htm</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Fish Act (Cap. 197) (1 April 1951)</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096142&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>Fish (Amendment) Bill (4 May 2010)</fi:BiblioEntry>
+			<fi:BiblioEntry>The Fish (Aquaculture) Rules (No.81 of 2003) (19 May 2003)</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Environment Statute (Statute No. 4 of 1995) (17 May 1995) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC008957&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Environmental Impact Assessment Regulations (No. 13 of 1998) (1 May 1998) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC014383&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Environment (Standards for Discharge of Effluent into Water or on Land) Regulations (S.I. No. 4 of 1999) (12 February 1999)</dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC040868&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Environment (Wetlands, River Banks and Lake Shores Management) Regulations (No. 3 of 2000) (23 December 2000) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC036500&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Water Statute (No. 9 of 1995) (14 December 1995) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC005251&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Water (Resources) Regulations (S.I No. 33 of 1998) (7 April 1997) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC014414&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Water (Waste Discharge) Regulations (No. 32 of 1998) (21 August 1998) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC014390&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Water and Sewerage Corporation Act 1995 (Cap. 317), 22 December 1995 </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096402&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Land Act (Cap. 227) (2 July 1998) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096350&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Animal Diseases Act (Cap.38) (1 January 1918) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC095975&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Control of Agricultural Chemicals Act (Cap. 29) (22 September 1989) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096021&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>National Drug Policy and Authority Act (Cap.206) (1993)</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Food and Drugs Act (Cap.278) (18 June 1959) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096144&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Uganda National Bureau of Standards Act (Cap. 327) (14 October 1983) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096723&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Public Health Act (Cap. 281) (1935) </dc:Title>
+				<dc:Identifier Type="URI">http://www.fao.org/fi/shared/faolextrans.jsp?xp_FAOLEX=LEX-FAOC096450&amp;xp_faoLexLang=E&amp;xp_lang=en</dc:Identifier>
+			</fi:BiblioEntry>
+		</fi:Bibliography>
+		<fi:RelatedResources Label="">
+			<!--	<fi:FAOLex country="UGA" Keywords="aquaculture;mariculture">Uganda</fi:FAOLex>-->
+			<fi:BiblioEntry>	Manual of Standard Operating Procedures for Inspection of Aquaculture Establishments and Aquaculture Production Practices,  Ministry of Agriculture, Animal Industry and Fisheries- Department of Fisheries Resources, June 2006
+				</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>African Convention on the Conservation of Nature and Natural Resources </dc:Title>
+				<dc:Identifier Type="URI">http://www.africa-union.org/root/au/documents/treaties/treaties.htm </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>allAfrica</dc:Title>
+				<dc:Identifier Type="URI">http://www.allafrica.com </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Convention on Biological Diversity </dc:Title>
+				<dc:Identifier Type="URI">http://www.cbd.int/biosafety/signinglist.shtml </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) </dc:Title>
+				<dc:Identifier Type="URI">http://www.cites.org/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Kyoto Protocol </dc:Title>
+				<dc:Identifier Type="URI">http://www.unfccc.int/kyoto_protocol/items/2830.php </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Lake Victoria Fisheries Organization </dc:Title>
+				<dc:Identifier Type="URI">http://www.lvfo.org/index.php </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>The Fish Site </dc:Title>
+				<dc:Identifier Type="URI">http://www.thefishsite.com/fishnews/vars/country/ug </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry of Agriculture, Animal Industry and Fisheries (MAAIF)    (under construction) </dc:Title>
+				<dc:Identifier Type="URI">http://www.agriculture.go.ug/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry of Health </dc:Title>
+				<dc:Identifier Type="URI">http://www.health.go.ug/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Ministry of Water and Environment </dc:Title>
+				<dc:Identifier Type="URI">http://www.mwe.go.ug/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Drugs Authority (NDA) </dc:Title>
+				<dc:Identifier Type="URI">http://www.nda.or.ug/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Drug Policy, October 2002 </dc:Title>
+				<dc:Identifier Type="URI">http://apps.who.int/medicinedocs/documents/s16463e/s16463e.pdf </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Fisheries Policy for Uganda, May 2004 </dc:Title>
+				<dc:Identifier Type="URI">http://www.p15166578.pureserver.info/ilm/docs/policy/National%20Fisheries%20Policy.pdf </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>National Environmental Action Plan </dc:Title>
+				<dc:Identifier Type="URI">http://www.nemaug.org/index.php </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Nile Basin Initiative </dc:Title>
+				<dc:Identifier Type="URI">http://www.nilebasin.org/newsite/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1&amp;lang=en </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Uganda Legal Information Institute </dc:Title>
+				<dc:Identifier Type="URI">http://www.ulii.org/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>Uganda National Bureau of Standards (UNBS) </dc:Title>
+				<dc:Identifier Type="URI">http://www.unbs.go.ug/ </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>World Organization for Animal Health (OIE) </dc:Title>
+				<dc:Identifier Type="URI">http://www.oie.int/eng/en_index.htm </dc:Identifier>
+			</fi:BiblioEntry>
+			<fi:BiblioEntry>
+				<dc:Title>World Trade Organization (WTO) </dc:Title>
+				<dc:Identifier Type="URI">http://www.wto.org/ </dc:Identifier>
+			</fi:BiblioEntry>
+		</fi:RelatedResources>
+	</fi:LegalFramework>
+</fi:FIGISDoc>
