@@ -43,52 +43,52 @@
 		<link>
 			<name>FiNavigation</name>
 			<type>2</type>
-			<location>G:/development/modules/FiNavigation/src/java</location>
+			<location>//HQFILE1/figis/development/modules/FiNavigation/src/java</location>
 		</link>
 		<link>
 			<name>FigisFactsheets</name>
 			<type>2</type>
-			<location>G:/development/modules/FigisFactsheets/src/java</location>
+			<location>//HQFILE1/figis/development/modules/FigisFactsheets/src/java</location>
 		</link>
 		<link>
 			<name>FigisFactsheetsProperties</name>
 			<type>2</type>
-			<location>G:/development/modules/FigisFactsheets/src/properties</location>
+			<location>//HQFILE1/figis/development/modules/FigisFactsheets/src/properties</location>
 		</link>
 		<link>
 			<name>FigisSelector</name>
 			<type>2</type>
-			<location>G:/development/modules/FigisSelector/src/java</location>
+			<location>//HQFILE1/figis/development/modules/FigisSelector/src/java</location>
 		</link>
 		<link>
 			<name>FigisUtil</name>
 			<type>2</type>
-			<location>G:/development/modules/FigisUtil/src/java</location>
+			<location>//HQFILE1/figis/development/modules/FigisUtil/src/java</location>
 		</link>
 		<link>
 			<name>RefGUI</name>
 			<type>2</type>
-			<location>G:/development/modules/RefGUI/src/java</location>
+			<location>//HQFILE1/figis/development/modules/RefGUI/src/java</location>
 		</link>
 		<link>
 			<name>RefSelector</name>
 			<type>2</type>
-			<location>G:/development/modules/RefSelector/src/java</location>
+			<location>//HQFILE1/figis/development/modules/RefSelector/src/java</location>
 		</link>
 		<link>
 			<name>RefService</name>
 			<type>2</type>
-			<location>G:/development/modules/RefService/src/java</location>
+			<location>//HQFILE1/figis/development/modules/RefService/src/java</location>
 		</link>
 		<link>
 			<name>ResourceBundle</name>
 			<type>2</type>
-			<location>G:/development/modules/ResourceBundle/src/java</location>
+			<location>//HQFILE1/figis/development/modules/ResourceBundle/src/java</location>
 		</link>
 		<link>
 			<name>StatQuery</name>
 			<type>2</type>
-			<location>G:/development/modules/StatQuery/src/java</location>
+			<location>//HQFILE1/figis/development/modules/StatQuery/src/java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
