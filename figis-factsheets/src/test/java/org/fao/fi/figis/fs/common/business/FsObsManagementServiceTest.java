@@ -240,8 +240,15 @@ public class FsObsManagementServiceTest extends BaseTest {
 			}
 		}
 		return c;
+
 	}
 
+	/**
+	 * Oracle12C test
+	 * 
+	 * 
+	 * @throws Exception
+	 */
 	@Test
 	public final void testNotAbleToObtainConnection() throws Exception {
 

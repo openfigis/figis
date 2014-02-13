@@ -4,6 +4,14 @@
 	<groupId>org.fao.figis</groupId>
 	<artifactId>figis-util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!-- added this one because of the missing artifact javax.transaction:jta:jar:1.0.1B -->
+	<repositories>
+		<repository>
+			<id>java.net</id>
+			<url>http://download.java.net/maven/2/</url>
+		</repository>
+
+	</repositories>
 	<dependencies>
 
 		<dependency>
