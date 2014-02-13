@@ -1,0 +1,18 @@
+- Oracle Database 11g Release 2 JDBC Drivers
+- Thank you for accepting the OTN License Agreement; you may now download this software.
+- Oracle Database 11g Release 2 (11.2.0.4) JDBC Drivers
+- Download	ojdbc5.jar (2,091,135 bytes) - Classes for use with JDK 1.5.
+ It contains the JDBC driver classes, except classes for NLS support in Oracle Object and Collection types.
+ 
+ 13 February 2014 Erik van Ingen
+ 
+Used initially version 6 but that one works only for Java 6. Oracle 12C does not come with a version for Java 5, therefore I am testing 
+with the Oracle 11g version, because that one has a version for Oracle 5.
+
+  
+See also  
+http://km.fao.org/FIGISwiki/index.php/Oracle_migration_version_10_to_12C
+the ojdbc14.jar is the one originally found in /usr/local/tomcat/5.5.23/common/lib/ojdbc14.jar and will be replaced with the ojdbc5.jar. 
+
+  
+  

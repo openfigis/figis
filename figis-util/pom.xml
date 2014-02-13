@@ -15,6 +15,12 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>ojdbc</groupId>
+			<artifactId>ojdbc</artifactId>
+			<version>5</version>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.fao</groupId>
 			<artifactId>FigisMaven</artifactId>
 			<version>0.1.0</version>
