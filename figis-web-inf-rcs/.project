@@ -30,7 +30,7 @@
 		<link>
 			<name>WEB-INF</name>
 			<type>2</type>
-			<location>//hqldvfigis1.hq.un.fao.org/work/FIGIS/fi/webapps/figis/WEB-INF</location>
+			<location>//HQFILE1/figis/development/modules/WEB-INF/src</location>
 		</link>
 	</linkedResources>
 </projectDescription>
