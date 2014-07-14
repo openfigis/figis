@@ -45,5 +45,10 @@
 			<type>2</type>
 			<location>//HQFILE1/figis/development/modules/CommonBuild/src/java</location>
 		</link>
+		<link>
+			<name>CommonBuildAnt</name>
+			<type>2</type>
+			<location>//HQFILE1/figis/development/modules/CommonBuild/src/ant</location>
+		</link>
 	</linkedResources>
 </projectDescription>
