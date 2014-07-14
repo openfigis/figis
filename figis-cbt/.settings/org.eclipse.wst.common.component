@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="figis-shared">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/" source-path="/CommonBuild"/>
+        <property name="context-root" value="figis-shared"/>
+    </wb-module>
+</project-modules>
