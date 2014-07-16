@@ -5,6 +5,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.fao.fi.figis.fs.common.data.BaseTest;
+import org.junit.Test;
 
 public class WebResourceGeneratorTest extends BaseTest {
 
@@ -17,7 +18,7 @@ public class WebResourceGeneratorTest extends BaseTest {
 	 * 
 	 *
 	 */
-	// @Test
+	@Test
 	public void testGenerateWebResourceList4Resource() {
 		String oneResource = "firms/resource/11843/en";
 

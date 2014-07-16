@@ -6,11 +6,12 @@ import java.util.List;
 
 import org.fao.fi.figis.fs.common.data.BaseTest;
 import org.fao.fi.figis.fs.sitemap.FigisSiteDomain;
+import org.fao.fi.figis.fs.sitemap.SitemapDaoImpl;
 import org.junit.Test;
 
 public class SitemapDaoTest extends BaseTest {
 
-	SitemapDao dao = new SitemapDao();
+	SitemapDao dao = new SitemapDaoImpl();
 	FigisSiteDomain figisSiteDomain = new FigisSiteDomain();
 
 	// @Test
