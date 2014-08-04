@@ -14,5 +14,5 @@ See also
 http://km.fao.org/FIGISwiki/index.php/Oracle_migration_version_10_to_12C
 the ojdbc14.jar is the one originally found in /usr/local/tomcat/5.5.23/common/lib/ojdbc14.jar and will be replaced with the ojdbc5.jar. 
 
-  
+The ojdbc7.jar in this directory is yet only used for the new Geoserver 8 installation, which is running on Tomcat 8 and Java 7.   
   
