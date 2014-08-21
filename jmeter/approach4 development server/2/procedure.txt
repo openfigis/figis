@@ -1,0 +1,22 @@
+Test are taking too long to run. 
+And now that I can filter out the errors, I see that the number of correct samples is just 64!
+I will use this in a new test, record a new test, take it from there. 
+
+
+Results all samples 
+Samples , AVG , ERROR %
+934		2063	78
+
+
+Report created with Excell
+Results Good Samples
+Samples , AVG , ERROR %
+61		194		0
+
+
+Java 8
+Results all samples 
+Samples , AVG , ERROR %
+
+Results Good Samples
+Samples , AVG , ERROR %
