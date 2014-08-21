@@ -1,0 +1,13 @@
+So it makes not sense to filter out the errors. So back to the original /jmeter/monitor.csv
+We run the test with that one. Export them in Excel, filter out the errors and AVG the results
+
+It also makes sense to do faulty requests because that is done also in reality. The only thing what could be done is to delete the 
+session ids. There are 56 matches for ;jsessionid= 
+
+Results with session id
+Samples 934, AVG 84, ERROR 38%
+
+Results without session id
+Samples 934, AVG 95, ERROR 38%
+
+This means that it does not make significant difference to add or to remove session id. 

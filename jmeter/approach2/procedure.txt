@@ -1,0 +1,16 @@
+Load /jmeter/figis-jmeter.jmx in Jmeter
+Run the batch
+Save results in csv
+Exclude the URL which were giving an error
+Remove ;jsessionid= from URLS
+Load urls in FireFix Flem
+Record the requests in Jmeter
+
+
+
+Conclusion
+Cleaning the requests does not make much sense because certain requests cause always again new requests and they maybe wrong. 
+  
+
+
+
