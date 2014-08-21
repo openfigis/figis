@@ -13,4 +13,4 @@ Alle requests from (2) minus the failed requests
 
 
 4)figis-jmeter-8080.jmx on http://hqldvfigis1:8080/fishery
-
+26 samples, AVG 12131ms, ERROR 46%

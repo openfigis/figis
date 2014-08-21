@@ -1,93 +1,68 @@
-2014/08/20 15:28:06 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_GB 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Loading user properties from: C:\ErikProgramFiles\apache-jmeter-2.11\bin\user.properties 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Loading system properties from: C:\ErikProgramFiles\apache-jmeter-2.11\bin\system.properties 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Version 2.11 r1554548 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: java.version=1.8.0_05 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: os.name=Windows 7 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: os.arch=amd64 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: os.version=6.1 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: file.encoding=Cp1252 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Default Locale=English (United Kingdom) 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: JMeter  Locale=English (United Kingdom) 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: JMeterHome=C:\ErikProgramFiles\apache-jmeter-2.11 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: user.dir  =C:\Users\vaningen\git\figis\jmeter 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: PWD       =C:\Users\vaningen\git\figis\jmeter 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: IP: 168.202.54.196 Name: PC008581 FullName: PC008581.hq.un.fao.org 
-2014/08/20 15:28:06 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2014/08/20 15:28:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2014/08/20 15:28:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2014/08/20 15:28:07 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
-2014/08/20 15:28:07 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2014/08/20 15:28:07 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2014/08/20 15:28:07 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
-2014/08/20 15:28:07 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
-2014/08/20 15:28:08 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre8\bin\keytool' 
-2014/08/20 15:28:08 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\ErikProgramFiles\apache-jmeter-2.11\bin\proxyserver.jks 
-2014/08/20 15:28:08 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2014/08/20 15:28:08 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2014/08/20 15:28:08 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2014/08/20 15:28:08 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2014/08/20 15:28:22 INFO  - jmeter.services.FileServer: Default base='C:\Users\vaningen\git\figis\jmeter' 
-2014/08/20 15:28:22 INFO  - jmeter.services.FileServer: Set new base='C:\Users\vaningen\git\figis\jmeter' 
-2014/08/20 15:28:22 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2014/08/20 15:28:22 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2014/08/20 15:28:22 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.6 
-2014/08/20 15:28:22 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1554411 
-2014/08/20 15:28:22 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2014/08/20 15:32:14 WARN  - jmeter.protocol.http.proxy.ProxyControl: Problem reading key store: NotAfter: Thu Aug 21 11:44:25 CEST 2014 
-2014/08/20 15:32:14 INFO  - jmeter.protocol.http.proxy.ProxyControl: Creating Proxy CA in C:\ErikProgramFiles\apache-jmeter-2.11\bin\proxyserver.jks 
-2014/08/20 15:32:16 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not initialise key store java.io.FileNotFoundException: Source 'ApacheJMeterTemporaryRootCA.crt' does not exist
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1074)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
-	at org.apache.jorphan.exec.KeyToolUtils.generateProxyCA(KeyToolUtils.java:250)
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1281)
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1208)
-	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:434)
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:485)
-	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:370)
-	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
-	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
-	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
-	at java.awt.Component.processMouseEvent(Unknown Source)
-	at javax.swing.JComponent.processMouseEvent(Unknown Source)
-	at java.awt.Component.processEvent(Unknown Source)
-	at java.awt.Container.processEvent(Unknown Source)
-	at java.awt.Component.dispatchEventImpl(Unknown Source)
-	at java.awt.Container.dispatchEventImpl(Unknown Source)
-	at java.awt.Component.dispatchEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
-	at java.awt.Container.dispatchEventImpl(Unknown Source)
-	at java.awt.Window.dispatchEventImpl(Unknown Source)
-	at java.awt.Component.dispatchEvent(Unknown Source)
-	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
-	at java.awt.EventQueue.access$400(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
-	at java.awt.EventQueue$4.run(Unknown Source)
-	at java.awt.EventQueue$4.run(Unknown Source)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
-	at java.awt.EventQueue.dispatchEvent(Unknown Source)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
-	at java.awt.EventDispatchThread.run(Unknown Source)
-
-2014/08/20 15:33:38 INFO  - jmeter.gui.action.What: TestElement:org.apache.jmeter.protocol.http.proxy.ProxyControl, guiClassName:org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui 
-2014/08/20 15:33:39 INFO  - jmeter.gui.action.What: TestElement:org.apache.jmeter.protocol.http.proxy.ProxyControl, guiClassName:org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui 
+2014/08/20 17:27:22 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_GB 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Loading user properties from: C:\ErikProgramFiles\apache-jmeter-2.11\bin\user.properties 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Loading system properties from: C:\ErikProgramFiles\apache-jmeter-2.11\bin\system.properties 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Version 2.11 r1554548 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: java.version=1.8.0_05 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: os.name=Windows 7 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: os.arch=amd64 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: os.version=6.1 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Default Locale=English (United Kingdom) 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: JMeter  Locale=English (United Kingdom) 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: JMeterHome=C:\ErikProgramFiles\apache-jmeter-2.11 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: user.dir  =C:\Users\vaningen\git\figis\jmeter 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: PWD       =C:\Users\vaningen\git\figis\jmeter 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: IP: 168.202.54.196 Name: PC008581 FullName: PC008581.hq.un.fao.org 
+2014/08/20 17:27:22 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/08/20 17:27:22 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/08/20 17:27:22 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/08/20 17:27:22 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2014/08/20 17:27:23 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2014/08/20 17:27:23 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
+2014/08/20 17:27:23 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2014/08/20 17:27:23 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre8\bin\keytool' 
+2014/08/20 17:27:23 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\ErikProgramFiles\apache-jmeter-2.11\bin\proxyserver.jks 
+2014/08/20 17:27:23 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/08/20 17:27:23 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/08/20 17:27:23 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/08/20 17:27:23 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/08/20 17:27:27 INFO  - jmeter.services.FileServer: Default base='C:\Users\vaningen\git\figis\jmeter' 
+2014/08/20 17:27:27 INFO  - jmeter.gui.action.Load: Loading file: C:\Users\vaningen\git\figis\jmeter\figis-jmeter-8080.jmx 
+2014/08/20 17:27:27 INFO  - jmeter.services.FileServer: Set new base='C:\Users\vaningen\git\figis\jmeter' 
+2014/08/20 17:27:27 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/08/20 17:27:27 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/08/20 17:27:27 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.6 
+2014/08/20 17:27:27 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1554411 
+2014/08/20 17:27:27 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/08/20 17:27:28 INFO  - jmeter.services.FileServer: Set new base='C:\Users\vaningen\git\figis\jmeter' 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/08/20 17:27:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2014/08/20 17:27:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2014/08/20 17:27:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group figis 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group figis. 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/08/20 17:27:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2014/08/20 17:27:35 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2014/08/20 17:27:35 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2014/08/20 17:27:35 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/08/20 17:27:35 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/08/20 17:27:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group figis 1-1 
+2014/08/20 17:27:35 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = PC008581 
+2014/08/20 17:27:35 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2014/08/20 17:27:35 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2014/08/20 17:27:35 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2014/08/20 17:27:35 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2014/08/21 03:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group figis 1-1 
+2014/08/21 03:46:54 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/08/21 03:46:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
