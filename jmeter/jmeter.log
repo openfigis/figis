@@ -66,3 +66,22 @@
 2014/08/21 03:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group figis 1-1 
 2014/08/21 03:46:54 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
 2014/08/21 03:46:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2014/08/21 10:27:51 INFO  - jmeter.gui.action.Load: Loading file: C:\Users\vaningen\git\figis\jmeter\figis-jmeter.jmx 
+2014/08/21 10:27:51 INFO  - jmeter.services.FileServer: Set new base='C:\Users\vaningen\git\figis\jmeter' 
+2014/08/21 10:27:52 INFO  - jmeter.services.FileServer: Set new base='C:\Users\vaningen\git\figis\jmeter' 
+2014/08/21 10:28:02 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/08/21 10:28:02 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2014/08/21 10:28:02 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2014/08/21 10:28:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group figis 
+2014/08/21 10:28:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group figis. 
+2014/08/21 10:28:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/08/21 10:28:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2014/08/21 10:28:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/08/21 10:28:03 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/08/21 10:28:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group figis 1-1 
+2014/08/21 10:29:21 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2014/08/21 10:29:21 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2014/08/21 10:29:21 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2014/08/21 10:29:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group figis 1-1 
+2014/08/21 10:29:26 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2014/08/21 10:29:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
