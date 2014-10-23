@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://193.43.36.85/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:ags="http://www.fao.org/agris/agmes/" xmlns:cds="http://193.43.36.85/fi/figis/devcon/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc-ed="http://dublincore.org/documents/2000/10/05/education-namespace/" xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+   <fi:DataEntry>
+		
+      <fi:Editor>Valérie FAURE</fi:Editor>
+		
+      <dc:Date>April 2002</dc:Date>
+	
+   </fi:DataEntry>
+	
+   <fi:ObjectSource>
+		
+      <fi:Owner>
+			
+         <fi:CollectionRef CodeSystem="Acronym">
+				
+            <dc:Title>Fisheries Country Profile</dc:Title>
+				
+            <fi:ProgrammeRef Code="" CodeSystem="None">
+					
+               <fi:Name>CountryProfile</fi:Name>
+					
+               <fi:ParentInstitution>
+						
+                  <fi:InstitutionRef Code="FIPP" CodeSystem="Acronym">
+							
+                     <fi:Name>Fishery Policy and Planning Division</fi:Name>
+							
+                     <fi:LandPoliticalRef Code="IT" CodeSystem="ISO2"/>
+						
+                  </fi:InstitutionRef>
+					
+               </fi:ParentInstitution>
+					
+               <fi:IdentifyingInstitution>
+						
+                  <fi:InstitutionRef Code="FAO" CodeSystem="Acronym">
+							
+                     <fi:LandPoliticalRef Code="IT" CodeSystem="ISO2"/>
+						
+                  </fi:InstitutionRef>
+					
+               </fi:IdentifyingInstitution>
+				
+            </fi:ProgrammeRef>
+			
+            <fi:ForeignID xmlns:fi="http://www.fao.org/fi/figis/devcon/" Code="" CodeSystem="Acronym"/>
+         </fi:CollectionRef>
+		
+      </fi:Owner>
+		
+      <fi:CoverPage>
+			
+         <dc:Title>Fishery countryprofile of Central African Republic</dc:Title>
+			
+         <dc:Creator>
+				
+            <ags:CorporateAuthor>FIPP</ags:CorporateAuthor>
+			
+         </dc:Creator>
+			
+         <dc:Date>2001</dc:Date>
+
+		
+      </fi:CoverPage>
+	
+   </fi:ObjectSource>
+	
+   <fi:Country>
+		
+      <fi:CountryIdent Alias="CF" Status="Unvalidated">
+			
+         <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2">
+				
+            <fi:Name>Central African Republic</fi:Name>
+			
+         </fi:LandPoliticalRef>
+		
+      </fi:CountryIdent>
+		
+      <fi:CountryFeature>
+			
+         <fi:SectorStruct>
+				
+            <fi:OverallSector>
+					
+               <fi:CountryText>La République Centrafricaine est un pays sans façade maritime, étendu sur 622980 km2 au coeur du continent africain. On y pratique une pêche purement continentale caractérisée par deux volets à  savoir : <br clear="none"/>la pêche de capture exercée dans des <fi:L_WaterArea>rivières</fi:L_WaterArea>, <fi:L_WaterArea>marigots</fi:L_WaterArea>, <fi:L_WaterArea>mares</fi:L_WaterArea>, <fi:L_WaterArea>lacs</fi:L_WaterArea> et <fi:L_WaterArea>plaines d'inondation</fi:L_WaterArea> avec des efforts de pêche et des techniques limités, produisant 10000 à  15000 tonnes de poisson par an, et <br clear="none"/>l'<fi:L_Sector>aquaculture</fi:L_Sector> basée sur une pisciculture en <fi:L_WaterArea>étangs</fi:L_WaterArea>, principalement familiale qui a pu atteindre par le passé 8500 familles propriétaires de 10000 étangs en 1985. En matière de pisciculture, la relance des activités des années 70 jusqu'à  1985, a concerné environ 10000 familles. Rares sont les institutions qui ont pratiqué la pisciculture. Les Ecoles de promotion collective ont installé de petites fermes intégrées combinant jardins, volailles et pisciculture mais l'expérience n'a pas pu se maintenir longtemps. Les Eglises catholiques tentent actuellement avec succès cette expérience de pisciculture intégrée.<br clear="none"/>
+						
+                  <br clear="none"/>Si la pisciculture est un volet suffisamment organisé qui a connu un développement soutenu dans le temps, la pêche de capture, elle, demeure de nos jours un secteur quasiment informel, inorganisé, non encadré sur toute sa filière, donc pas (ou très peu) maítrisée par l'Administration.<br clear="none"/>
+					
+               </fi:CountryText>
+				
+            </fi:OverallSector>
+				
+            <fi:InlandSubsector>
+					
+               <fi:LandingSites>
+						
+                  <fi:CountryText>Les deux bassins versants qui se partagent le territoire centrafricain disposent chacun de nombreux cours d'eau, mares, lacs et plaines d'inondation dans lesquels s'effectue la pêche. La plupart des villes et des villages sont riverains de ces cours d'eau et constituent généralement des points de débarquements des pêcheurs pour faciliter l'écoulement des produits. Les principaux sites de débarquement sont surtout les grands centres à  fort pouvoirs d'achat ou des villes à  partir desquelles il est aisé de trouver les moyens de transport et de déplacement. A noter que la plupart de la production du pays est convoyée sur <fi:L_LandArea>Bangui</fi:L_LandArea>, la capitale. <br clear="none"/>Parmi les villes servant de points débarquement on peut citer :<br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:CountryText>
+						
+                  <fi:LandingSiteEntry>Pour le bassin versant de l'Oubangui : <br clear="none"/>. Sur le fleuve Oubangui et le Mbomou : <fi:L_LandArea>Zémio</fi:L_LandArea>, <fi:L_LandArea>Bangassou</fi:L_LandArea>, <fi:L_LandArea>Ouango</fi:L_LandArea>, <fi:L_LandArea>Mobaye,</fi:L_LandArea>, <fi:L_LandArea>Kouango </fi:L_LandArea>, <fi:L_LandArea>Djoukou</fi:L_LandArea>, <fi:L_LandArea>Possel</fi:L_LandArea>, <fi:L_LandArea>Bangui</fi:L_LandArea>, <fi:L_LandArea>Bimbo</fi:L_LandArea>, <fi:L_LandArea>Mongomba</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Ouara : <fi:L_LandArea>Djéma</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Chinko : <fi:L_LandArea>Rafaà¯</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Mbari à  Bangassou :<fi:L_LandArea>Yalinga </fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Ouaka : <fi:L_LandArea>Bambari</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur la Kotto : <fi:L_LandArea>Kembé</fi:L_LandArea>, <fi:L_LandArea>Mingala</fi:L_LandArea>, <fi:L_LandArea>Ira - banda</fi:L_LandArea>, <fi:L_LandArea> Bria</fi:L_LandArea>, <fi:L_LandArea>Ouada</fi:L_LandArea>, <fi:L_LandArea>Kouadja .</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur Bangui-kété : <fi:L_LandArea>Alindao</fi:L_LandArea>, <fi:L_LandArea>Kongbo.</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur Tomi : <fi:L_LandArea>Sibut</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur Mbali : <fi:L_LandArea>Boali</fi:L_LandArea> et les villages riverains du lac <br clear="none"/>Á Sur la Lobaye : <fi:L_LandArea>Mbata</fi:L_LandArea>, <fi:L_LandArea>Mbaà¯ki </fi:L_LandArea>, <fi:L_LandArea>Moloukou</fi:L_LandArea>, <fi:L_LandArea>Gadzi</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur la Mbaéré : <fi:L_LandArea>Bambio</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur la Sangha :<fi:L_LandArea>Bayanga</fi:L_LandArea>, <fi:L_LandArea>Salo</fi:L_LandArea>, <fi:L_LandArea>Nola</fi:L_LandArea>, <fi:L_LandArea>Bania</fi:L_LandArea>, <fi:L_LandArea>Carnot</fi:L_LandArea>
+							
+                     <br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:LandingSiteEntry>
+						
+                  <fi:LandingSiteEntry>Pour le bassin du Chari - Logone : <br clear="none"/>. Sur Nana Barya : <fi:L_LandArea>Markounda</fi:L_LandArea>, <fi:L_LandArea>Sabo</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur la Grande Sido : <fi:L_LandArea>Kabo</fi:L_LandArea>, <fi:L_LandArea> Maikouma</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur l'Ouham :<fi:L_LandArea> Batangafo</fi:L_LandArea>, <fi:L_LandArea> Bossangoa</fi:L_LandArea>, <fi:L_LandArea>Bozoum</fi:L_LandArea>, <fi:L_LandArea>Bouca</fi:L_LandArea>
+							
+                     <br clear="none"/>. Sur le Gribinguin : <fi:L_LandArea>Kaga Bandoro </fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Bamingui : <fi:L_LandArea>Bamingui</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Koutourou :<fi:L_LandArea>Koutourou</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Bangoran : <fi:L_LandArea> Awakaba </fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Bahr - Aouk : <fi:L_LandArea>Miaméré</fi:L_LandArea>
+							
+                     <br clear="none"/>Á Sur le Bahr - Kameur : <fi:L_LandArea>Mélé</fi:L_LandArea>
+							
+                     <br clear="none"/> Á Sur le Bahr - Oulou : <fi:L_LandArea>Birao</fi:L_LandArea>
+							
+                     <br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:LandingSiteEntry>
+						
+                  <fi:CountryText>Les données statistiques sur le débarquement des poissons ne sont pas disponibles pour permettre de classer les sites selon leur importance.</fi:CountryText>
+					
+               </fi:LandingSites>
+				
+            </fi:InlandSubsector>
+			
+         </fi:SectorStruct>
+			
+         <fi:FishUtilisation>
+				
+            <fi:FishMarket>
+					
+               <fi:EconomicText>On sait seulement que les grandes villes riveraines (Bangui la première) reçoivent plus de poissons venant directement des campements installés le long du fleuve <fi:L_WaterArea>Oubangui / Mbomou</fi:L_WaterArea>. Par ailleurs la production issue des cours d'eau des préfectures de Vakaga et de Bamingui - Bangoran à  l'extrême - Nord est écoulée en partie vers le Tchad ou bien transite par le Tchad pour revenir sur le territoire centrafricain. </fi:EconomicText>
+				
+            </fi:FishMarket>
+			
+         </fi:FishUtilisation>
+			
+         <fi:SectorDevelopment>
+				
+            <fi:CountryText>La volonté politique qui, depuis l'indépendance, est toujours perçue dans les discours de politique générale de développement agricole (sens large) ne se concrétise pas encore en actes palpables dans le secteur pêche proprement dit. Toutefois, quelques expériences ont été observées vers les années 70 dans le Nord où ont eu lieu de brèves tentatives d'organisation des pêcheurs en coopératives. Par ailleurs plusieurs missions d'études de courtes durées ont été conduites par des organismes internationaux (en particulier la FAO) dans le pays mais les conclusions n'ont jamais abouti à  un programme de développement concret du secteur.<br clear="none"/>Cette situation a comme conséquence, la méconnaissance de ce secteur (à  la fois sur le plan qualitatif et quantitatif) qui ne facilite guère l'élaboration du cadre d'orientation stratégique en la matière.</fi:CountryText>
+			
+         </fi:SectorDevelopment>
+			
+         <fi:SectorEconRole>
+				
+            <fi:Employment>
+					
+               <fi:EconomicText>Acteurs.<br clear="none"/>Les principaux acteurs du secteur peuvent être regroupés dans des maillons classiques de la filière. Il s'agit, des producteurs ou commerçants d'intrants, des producteurs de poisson, des transformateurs, des commerçants et des consommateurs.<br clear="none"/>Au nombre des producteurs il faut citer les patrons de pêche. Dans ce cas ils lient un contrat avec un ''patron'' qui leur fournit ce dont ils ont besoin. Le paiement va se faire non pas en monnaie mais en poisson. Au nord, la quasi totalité des ''patrons'' sont des commerçants musulmans. La production de poisson est une affaire des hommes, des femmes et des enfants suivant que la pêche est du niveau de l'autoconsommation ou de commercialisation (pêche artisanale et pêche familiale).<br clear="none"/>Les transformateurs / transformatrices : Ce sont les pêcheurs eux - mêmes, leurs femmes et parfois leurs enfants qui assurent la transformation du poisson directement dans les campements de pêche.<br clear="none"/>Les commerçants / commerçantes : La commercialisation de poisson fait intervenir plusieurs catégories de clients : les grossistes ; les demi-grossistes, les intermédiaires (appelés en RCA des démarcheurs), les détaillants, les petits détaillants et enfin les consommateurs. Dans les grandes villes, la commercialisation du poisson est principalement l'oeuvre des femmes qui s'organisent avec diverses ''tontines'' (cotisation) pour s'approvisionner en poisson. A Bangui et sur toute l'étendue du territoire, les grossistes, les demi-grossistes achétent les produits à  crédit et les remboursent à  la fin des opérations de vente (sources des conflits dus à  l'incrédibilité de certains clients).<br clear="none"/>Les consommateurs : Le poisson est un met très prisé surtout fumé, séché ou salé, car dans cet état, il se vend en petits tas de brisures ou de petits morceaux à  un prix bien majoré mais en réalité très accessible à  toutes les bourses. <br clear="none"/> Les transporteurs : Il s'agit parfois des patrons de pêche. Souvent il ne s'agit pas uniquement de transporteurs de poissons mais également d'autres marchandises ainsi que de transport en commun. Sur l'Oubangui les moyens de transport les plus utilisés sont les transports nautiques (pirogues, pinasses à  moteur). Au Nord ce sont surtout de gros véhicules.<br clear="none"/>Les commerçants d'intrants : principalement des filets et embarcations. Il n'y a pas de circuits de commercialisation des filets fiables dans le pays. Ceux qui existent fixent des prix exorbitants ; ce qui oblige les pêcheurs à  se ravitailler à  partir des pays plus ou moins limitrophes. Quant aux embarcations (les pirogues essentiellement) c'est l'affaire des artisans de la République Démocratique du Congo sur l'autre rive du fleuve Oubangui. Une pirogue pouvant contenir 4 à  6 personnes coûte 100 000 à  200 000 F CFA suivant la qualité du bois utilisé et le lieu d'achat.</fi:EconomicText>
+				
+            </fi:Employment>
+			
+         </fi:SectorEconRole>
+			
+         <fi:SectorGenManage>
+				
+            <fi:SectorOverallStrategies>
+					
+               <fi:SubsectorOverallStrategies Sector="Inland_fisheries">
+						
+                  <fi:ManageText>Objectifs de développement des pêches et aquaculture<br clear="none"/>
+							
+                     <br clear="none"/>Objectifs globaux:<br clear="none"/>Le secteur pêche et aquaculture doit contribuer efficacement à  la réalisation des objectifs socioéconomiques du gouvernement dont les priorités sont la sécurité alimentaire des populations et la réduction sensible de la pauvreté par une augmentation soutenue et durable du revenu de ces populations. Les ressources halieutiques et le potentiel du développement (en termes de réseau hydrographique et d'icthyofaune suffisamment disponibles) sont prometteurs de nos jours. Les deux bassins versants totalisent environ 1.077.040 km2 de superficie aux points de jaugeage et 195 à  260 espèces de poisson selon Welcommes en 1990. <br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:ManageText>
+						
+                  <fi:ManageText>Objectifs Spécifiques:<br clear="none"/>Les objectifs à  long terme sont : </fi:ManageText>
+						
+                  <fi:ManageObjectiveEntry>Etablir un niveau de gestion équilibré des ressources halieutiques de l'ensemble du pays. Le niveau des captures doit se rapprocher du potentiel maximum de production</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Satisfaire la demande en poisson de l'ensemble de la population;</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Réduire les importations de poisson;</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Accroítre le revenu national par le développement de la filière.</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageText>Les objectifs à  court terme sont :</fi:ManageText>
+						
+                  <fi:ManageObjectiveEntry>Améliorer les conditions de vie de la population dépendante de la pêche;</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Améliorer la qualité et la quantité de poisson disponible;</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Contribuer à  limiter l'exode de la population rurale vers les centres urbains en créant de nouveaux emplois tout au long de la filière;</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageObjectiveEntry>Etablir un système de taxation juste et efficace dont les retombées permettent le développement de l'ensemble de la filière.</fi:ManageObjectiveEntry>
+						
+                  <fi:ManageText>Stratégie de développement:<br clear="none"/>La stratégie de développement du secteur pêche-aquaculture s'inscrit dans la stratégie générale de développement vue par le gouvernement, qui se veut fondée sur une orientation générale de type horizontale et sur des thématiques verticales ou sectorielles spécifiques aux productions (plan Direction Agricole de la RCA 1998). La pêche et l'aquaculture sont à  l'origine de nombreux emplois (100000 familles de la filière pêche et 10000 de la filière pisciculture) dans l'ensemble du pays. La stratégie vise donc :</fi:ManageText>
+						
+                  <fi:ManageStrategyEntry>La réforme des institutions en vue de rendre les services du ministère opérationnels et améliorer la gestion des ressources humaines;</fi:ManageStrategyEntry>
+						
+                  <fi:ManageStrategyEntry>L'amélioration des techniques de production, de transformation et de conservation de poisson;</fi:ManageStrategyEntry>
+						
+                  <fi:ManageStrategyEntry>La formation du personnel d'encadrement et des acteurs;</fi:ManageStrategyEntry>
+						
+                  <fi:ManageStrategyEntry>L'organisation professionnelle des acteurs de la filière;</fi:ManageStrategyEntry>
+						
+                  <fi:ManageStrategyEntry>La mise en oeuvre d'un code de pêche national qui prendra en compte les principes (adaptables aux réalités locales) du code de conduite pour une pêche responsable.</fi:ManageStrategyEntry>
+					
+               </fi:SubsectorOverallStrategies>
+				
+            </fi:SectorOverallStrategies>
+				
+            <fi:SectorOverallMethods>
+					
+               <fi:SubsectorOverallMethods Sector="Inland_fisheries">
+						
+                  <fi:ManageText>Pratiques traditionnelles de gestion des pêcheries<br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:ManageText>
+						
+                  <fi:ManageMethodEntry>Traditionnellement, en RCA l'accès aux ressources naturelles (terre, forêts, eau) repose sur le principe de l'appartenance du droit de propriété à  la collectivité, incarnée par un chef. Le chef de clan administre la portion de territoire placée sous son autorité, et veille à  ce qu'aucun étranger ne viole impunément cet espace.Pour la pêche, et contrairement à  la législation qui ne reconnaít que le libre accès, on peut distinguer en pratique plusieurs <fi:Name> régimes d'accès aux pêcheries</fi:Name>: <br clear="none"/>
+							
+                     <br clear="none"/>Les <fi:ManageUnit>zones libres</fi:ManageUnit> sur les cours d'eau principaux, qui sont effectivement accessibles à  toute personne désirant pratiquer la pêche autour des centres urbains (ex. zones pré-urbaines) ; <br clear="none"/>
+							
+                     <br clear="none"/>Les <fi:ManageUnit>zones héritées</fi:ManageUnit> (Ndoumé ou Karas, sur l'Oubangui), correspondant le plus souvent à  des trous d'eau qui apparaissent pendant la décrûe sur les cours d'eau principaux, et dont l'exploitation est gérée par leurs détenteurs ;<br clear="none"/>
+							
+                     <br clear="none"/>Les <fi:ManageUnit>zones situées sur les cours d'eau importants en bordure des villages</fi:ManageUnit>, dont l'accès pour les pêcheurs migrants implique le paiement de droits d'usage territoriaux (DUTs), en nature le plus souvent, aux chefferies traditionnelles, aux notables du village, voire à  des confréries religieuses ; <br clear="none"/>
+							
+                     <br clear="none"/>Les <fi:ManageUnit>zones villageoises</fi:ManageUnit>, qui se situent généralement dans les zones enclavées, sur des portions de cours d'eau secondaires, et qui sont gérées par les autorités coutumières, soit dans le cadre de pêches collectives organisées pendant la saison sèche, soit dans le cadre de concessions accordées à  des villageois.<br clear="none"/>
+							
+                     <br clear="none"/>On peut par ailleurs mentionner que, pour les cours d'eau frontaliers, il existe une limite territoriale juridiquement reconnue qui correspond généralement à  une ligne de partage au milieu de la rivière. Cette ligne de partage est assez bien respectée dans la mesure où, sur une zone donnée, les pêcheurs sont souvent issus de la même ethnie, et que les (DUTs) sont bien acceptées de chaque côté du cours d'eau, indépendamment du critère de nationalité.<br clear="none"/>
+							
+                     <br clear="none"/>Les pratiques traditionnelles concernant <fi:Name> l'accès aux pêcheries</fi:Name> sont bien respectées par les pêcheurs. Cependant, compte tenu du caractère contraignant que celles-ci sous-entendent, en particulier lors des migrations saisonnières, une catégorie de pêcheurs conteste ce frein au développement de leur activité, en invoquant la liberté de pêcher en RCA en vertu de la loi.<br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:ManageMethodEntry>
+						
+                  <fi:ManageMethodEntry>Des pratiques traditionnelles régissant l'exercice de la pêche peuvent exister par ailleurs, en particulier pour l'<fi:Name>utilisation de certains engins</fi:Name>. Les diverses restrictions qui en résultent portent le plus souvent sur la protection de la ressource halieutique du point de vue écologique. Elles s'inscrivent rarement dans le cadre de la recherche d'une gestion " rationnelle " de la ressource halieutique, du point de vue bio-économique (ex.maillage, périodes de fermetureâ_¦). On peut cependant rencontrer, au cas par cas, des groupements de pêcheurs désireux de voir s'établir des règles 'modernes " telles que l'augmentation du maillage pour certains types de pêche qui portent préjudices à  leurs activités.<br clear="none"/>L'exercice de la pêche accorde par ailleurs une large place au fétichisme (croyance en des esprits et divinités) et à  la superstition (rêves prémonitoires, mauvais présage en cas de la présence de femmes au bord de l'eau, nécessité de pêcher certaines zones en silenceâ_¦). Mais les comportements des pêcheurs qui en résultent, ne constituent pas en soi des pratiques d'aménagement des pêcheries.<br clear="none"/>
+							
+                     <br clear="none"/>
+						
+                  </fi:ManageMethodEntry>
+						
+                  <fi:ManageMethodEntry>Les conflits entre pêcheurs sont relativement rares en RCA. De manière générale, <fi:Name> litiges et différents se règlent</fi:Name> au niveau des groupements des pêcheurs ou des chefferies des villages ou de quartier, sans que les autorités territoriales ne soient associées aux procédures de règlement. Les conflits, en dehors des vols, ont généralement pour origine les problèmes de territorialité lors des migrations de pêcheurs.</fi:ManageMethodEntry>
+					
+               </fi:SubsectorOverallMethods>
+				
+            </fi:SectorOverallMethods>
+				
+            <fi:SectorOverallInstitutions>
+					
+               <fi:InstitutionOverview>Le <fi:InstitutionLink>Ministère des Eaux et Forêts : <fi:InstitutionRef Code="" CodeSystem="None" Type="Ministry">
+								
+                        <fi:Name>Ministère des eaux et forêts</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>L'organisation du Ministère en charge du secteur pêche et pisciculture n'a jamais été stable. Elle change presque à  chaque fois qu'un gouvernement se met en place. Sur le plan technique, le secteur de la pêche et de la pisciculture relève de la compétence du Ministère des Eaux, Forêts, Chasses et Pêches dont l'organigramme a été plusieurs fois modifié du fait de sa fusion répétitive avec d'autres Ministères (soit avec le ministère en charge de l'agriculture et de l'élevage, soit avec celui du tourisme). <br clear="none"/>A ce jour l'organigramme appliqué est le reflet du Ministère des Eaux, Forêts, Chasses et Pêches créé par le <fi:L_LegalFramework>Décret nno 95.273 le 2 Octobre 1995</fi:L_LegalFramework> et d'une partie du Ministère de l'Environnement, des Eaux, Forêts, Chasses et Pêches (MEEFCP) créé, lui, par le <fi:L_LegalFramework>Décret 98.023 du 12 Février 1998</fi:L_LegalFramework>. Selon cet organigramme, apparemment virtuel, la pêche et la pisciculture sont administrées par un service de ressources halieutiques placé sous la direction de la Faune qui est chargée (selon le <fi:L_LegalFramework>Décret 95.273</fi:L_LegalFramework>) entre autres, d'organiser et de surveiller la pêche fluviale et lacustre, de soutenir techniquement les coopératives de pêche, de sensibiliser et vulgariser les techniques modernes de pêche et de pisciculture et de lutter contre la pollution des eaux. <br clear="none"/>L'organigramme se présente de la manière suivante : <br clear="none"/>Ministre <br clear="none"/>Á Cabinet <br clear="none"/>Á Secrétariat Général <br clear="none"/>Á Organismes et projets sous - tutelle. (ex. Centre Piscicole National) <br clear="none"/>
+						
+                  <br clear="none"/>Cabinet <br clear="none"/>Á Chef de Cabinet <br clear="none"/>Á Chargé de Mission<br clear="none"/>Á Secrétariat particulier<br clear="none"/>
+						
+                  <br clear="none"/>Secrétariat Général<br clear="none"/>Á Direction Générale des Services Centraux <br clear="none"/>Á Direction Générale des Services Régionaux<br clear="none"/>Á Direction Générale de l'Environnement<br clear="none"/>
+						
+                  <br clear="none"/>Secrétariat Général des Services Centraux <br clear="none"/>Á Direction des Forêts <br clear="none"/>Á Direction de la Faune qui comprend : <br clear="none"/>le Service d'Aménagement et de la Conservation de la Faune <br clear="none"/>le Service de l'Exploitation de la Faune <br clear="none"/>le Service des Ressources Halieutiques.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:InstitutionOverview>
+					
+               <fi:CountryText>Les organismes d'exécution sont : <br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:InstitutionOverview>Le <fi:InstitutionLink>Centre Piscicole National<fi:InstitutionRef Code="" CodeSystem="None">
+								
+                        <fi:Name>Centre Piscicole National</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+								
+                        <fi:ParentInstitution>
+									
+                           <fi:InstitutionRef Code="" CodeSystem="None">
+										
+                              <fi:Name> Ministère des Eaux, Forêts, Chasses et Pêches</fi:Name>
+										
+                              <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+									
+                           </fi:InstitutionRef>
+								
+                        </fi:ParentInstitution>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>qui est un établissement public de personnalité civile, rattaché au cabinet du <fi:L_Institution>Ministre des Eaux, Forêts, Chasses et Pêches</fi:L_Institution> et jouissant d'une autonomie financière de gestion.<fi:Mission>
+							
+                     <fi:MissionObjective>Ce Centre Piscicole a pour objet de promouvoir le développement de la pisciculture dans le cadre d'exécution de la politique du gouvernement en la matière.</fi:MissionObjective>
+						
+                  </fi:Mission>A la fin des financements extérieurs, le Centre a progressivement perdu ses capacités et depuis fin 1996, sous les effets des mutineries, toutes les structures de production, de recherche et les logements de la station de la Landjia à  Bangui ont été complètement détruites.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:InstitutionOverview>
+					
+               <fi:InstitutionOverview>L'<fi:InstitutionLink>Institut Supérieur de Développement Rural<fi:InstitutionRef Code="ISDR" CodeSystem="Acronym">
+								
+                        <fi:Name>Institut Supérieur de Développement Rural</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+								
+                        <fi:ParentInstitution>
+									
+                           <fi:InstitutionRef Code="" CodeSystem="None" Type="Ministry">
+										
+                              <fi:Name>Ministère de la Promotion du Monde Rural</fi:Name>
+										
+                              <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+									
+                           </fi:InstitutionRef>
+								
+                        </fi:ParentInstitution>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>placé sous tutelle du Ministère de la Promotion du Monde Rural.</fi:InstitutionOverview>
+					
+               <fi:CountryText>et </fi:CountryText>
+					
+               <fi:InstitutionOverview>L'<fi:InstitutionLink>Ecole d'Agriculture de Grimari <fi:InstitutionRef Code="" CodeSystem="None">
+								
+                        <fi:Name>Ecole d'Agriculture de Grimari</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+								
+                        <fi:ParentInstitution>
+									
+                           <fi:InstitutionRef Code="" CodeSystem="None" Type="Ministry">
+										
+                              <fi:Name>Ministère de la Promotion du Monde Rural</fi:Name>
+										
+                              <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+									
+                           </fi:InstitutionRef>
+								
+                        </fi:ParentInstitution>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>
+						
+                  <br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:InstitutionOverview>
+					
+               <fi:CountryText>Ces deux derniers établissements sont chargés de la formation des cadres dans le domaine agricole au sens large du terme.</fi:CountryText>
+					
+               <fi:CountryText>
+						
+                  <br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:InstitutionOverview>L'<fi:InstitutionLink>Institut Centrafricain de Recherche Agronomique <fi:InstitutionRef Code="ICRA" CodeSystem="Acronym">
+								
+                        <fi:Name>Institut Centrafricain de Recherche Agronomique</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>regroupe tous les volets recherches depuis sa création il y a une vingtaine d'années.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:InstitutionOverview>
+					
+               <fi:InstitutionOverview>L'<fi:InstitutionLink>Agence Centrafricaine de Développement Agricole <fi:InstitutionRef Code="ACDA" CodeSystem="Acronym">
+								
+                        <fi:Name>Agence Centrafricaine de Développement Agricole</fi:Name>
+								
+                        <fi:LandPoliticalRef Code="CF" CodeSystem="ISO2"/>
+							
+                     </fi:InstitutionRef>
+						
+                  </fi:InstitutionLink>assure, en milieu rural, l'encadrement (formation, vulgarisation, conseil) des producteurs villageois dans un système d'intervention intégré. Il a inscrit dans son programme, à  mi-chemin de son exécution, le volet pisciculture mais sur le terrain c'était toute autre chose.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:InstitutionOverview>
+					
+               <fi:ProjectOverview>Le <fi:Name>projet d'Appui à  la Production Agricole et à  l'Autopromotion villageoise (PAPAAV)</fi:Name> a fait ses preuves dans la pêche (études, encadrement des pêcheurs) dans sa zone d'intervention au Centre - Sud du pays.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:ProjectOverview>
+					
+               <fi:CountryText>Le projet de <fi:L_Project>développement de la Région Nord (PDRN)</fi:L_Project>, l'<fi:L_Project>Ecosystème Forestier en Afrique Centrale (ECOFAC)</fi:L_Project> et l'ONG Américaine (<fi:L_Institution>Word Wide Fund WWF</fi:L_Institution>) ont canalisé la pêche et formé des pisciculteurs dans le cadre d'intégration de leurs activités liées à  la conservation et l'utilisation rationnelle des ressources. Le PDRN et l'ECOFAC viennent de fusionner pour poursuivre les mêmes objectifs. <br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:ProgrammeOverview>Le Programme <fi:Name>Gestion Participative des Ressources Naturelles (PGPRN)</fi:Name> finance des micro-projets initiés par des groupes cibles.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:ProgrammeOverview>
+					
+               <fi:CountryText>Ces projets et Agences sont placés sous l'autorité du <fi:L_Institution>Ministère de la Promotion du Monde Rural</fi:L_Institution>. Ils n'ont plus de financements comme la plupart des organismes et projets de développement en Centrafrique. <br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+				
+            </fi:SectorOverallInstitutions>
+				
+            <fi:GenLegalFramework>
+					
+               <fi:CountryText>Cadre législatif.<br clear="none"/>
+						
+                  <br clear="none"/>Les textes juridiques concernant la pêche et la pisciculture sont limités. Pour l'instant il n'existe pas de législation cohérente d'ensemble. Le secteur est régi pas des Lois, des Ordonnances, des Décrets et des Arrêtés ci - dessous qui sont vieux de 11 à  40 ans sans application. Monsieur Christophe BREUIL, Consultant FAO en Economie et Planification des pêches, a fait une remarquable et pertinente analyse dans la revue du secteur des pêches et de l'agriculture, qui peut être retenue, compte tenu de la situation inchangée des données. De manière générale, la pêche fluviale en RCA n'est soumise dans les faits à  aucune réglementation particulière sur les engins et techniques de pêche.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:LegalFramework>
+						
+                  <fi:LegalFrameworkText>La <fi:Name>Loi nno 61/283 du 22 décembre 1961</fi:Name>réglementant l'exercice de la pêche consacre le principe de la liberté de pêcher dans tous les cours d'eau, étangs permanents, ou temporaires. Selon ce principe, les ressources halieutiques n'appartiennent à  personne, et peuvent être capturées par tous (régime de libre accès). La pêche dans les biefs du domaine public ou privé ayant fait l'objet d'une interdiction par voie réglementaire, ou la pêche dans les eaux situées sur un fond privé, échappent néanmoins au champ d'application de la loi. <br clear="none"/>Cette loi de 1961 constitue le texte de base du cadre juridique actuel. C'est un texte à  caractère répressif, dont l'objectif principal est de définir les différents types d'infraction. La loi prévoit aussi que des textes d'application devront réglementer l'utilisation des engins et procédés de pêche. Mais à  l'heure actuelle, seul un Arrêté ministériel, non appliqué, précise un maillage minimal pour les filets maillants en fibres synthétiques (35-40 mm maille étirée). <fi:Regulations>
+								
+                        <fi:RegulationEntry>
+									
+                           <fi:LegalFrameworkText>La Loi de 1961 a été modifiée par l'<fi:Name>Ordonnance Nno 71/090 du 06 Août 1971</fi:Name> réglementant l'exercice de la pêche et la salubrité des eaux en RCA. Il s'agit en réalité d'une retouche du texte de 1961 visant à  interdire la pêche traditionnelle à  l'aide de substances d'origine végétale, et à  élargir le champ d'application du texte précédent au problème de la pollution des eaux.</fi:LegalFrameworkText>
+								
+                        </fi:RegulationEntry>
+							
+                     </fi:Regulations>
+						
+                  </fi:LegalFrameworkText>
+					
+               </fi:LegalFramework>
+					
+               <fi:CountryText>
+						
+                  <br clear="none"/>En ce qui concerne la pisciculture, aucune disposition juridique particulière n'a été prise pour le moment en RCA. Cependant, de par sa nature, l'exercice de la pisciculture fait notamment appel à  des règles de droits régissant, d'une part, l'accès à  la terre (droit foncier) et, d'autre part, l'utilisation des ressources en eau (régime juridique de l'eau).<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:LegalFramework>
+						
+                  <fi:LegalFrameworkText>Les règles de droit sur le foncier sont définies par la <fi:Name>Loi Nno 63.41 du 09 Janvier 1964</fi:Name> relative au domaine national. Le texte reconnaít notamment le principe de concession des terrains du domaine public au profit des personnes physiques ou morales. Les règles de droit sur l'utilisation des eaux sont pour leur part inexistantes. Par conséquent, aucune hiérarchie entre les différentes utilisations de l'eau (usage domestique, élevage, irrigation, pêche, pisciculture â_¦) n'a été établie, en dépit du fait qu'un éventuel classement pourrait faciliter la résolution des différents opposant parfois différents utilisateurs de l'eau.</fi:LegalFrameworkText>
+					
+               </fi:LegalFramework>
+					
+               <fi:CountryText>
+						
+                  <br clear="none"/>De l'analyse des textes juridiques règlementant la pêche et la pisciculture en RCA, il ressort notamment qu'il n'existe pas de cadre juridique global qui poserait les bases d'un cadre général à  l'intérieur duquel les activités du secteur pourraient se développer, et qui répondrait à  un objectif de politique sectorielle. L'édifice juridique correspond plutôt à  un catalogue de textes circonstanciels sans véritable lien les uns avec les autres (Cacaud, 1994). Le cadre juridique présente également d'autres lacunes et insuffisances, dont le manque de publicité des textes de loi et des règlements, ainsi que le manque de sensibilisation des populations au contenu des règles de droit, ce qui ne facilite pas leur bonne exécution sur le terrain. Les textes ne font par ailleurs aucunement mention de l'existence de pratiques traditionnelles de gestion des pêcheries, notamment en ce qui concerne l'accès aux zones de pêche. Or dans certains cas, la gestion se base sur les règles de gestion cohésion sociale dans des régions enclavées, ou frontalières, où l'administration ne dispose pas suffisamment de moyens pour faire appliquer les règles de droit. Dans un contexte général de flou juridique, l'administration répond de manière ad hoc lorsque surgissent des problèmes liés à  l'exploitation de la ressource halieutique. Enfin, il convient de mentionner que, en raison de la prédominance des pêcheries fluviales partagées en RCA, et du manque d'harmonisation des législations entre les pays concernés, les pêcheurs opérant en zone frontalière sont fréquemment confrontés à  des contraintes administratives (''tracasseries'') avec les agents des pays voisins.<br clear="none"/>En ce qui concerne plus spécifiquement la pisciculture, la faiblesse du cadre juridique se traduit notamment par des problèmes relatifs au foncier. Les procédures pour l'accès au foncier reposent en effet essentiellement sur des règles issues du droit coutumier, ce qui ne permet pas une bonne sécurisation des investissements. Il en est de même pour la question du règlement des litiges entres différents utilisateurs de l'eau sur le même terroir. Lorsque l'administration était présente sur le terrain à  travers les projets de développement, ces problèmes étaient facilement résolus avec les notables des villages. Aujourd'hui, les problèmes du foncier préoccupent de plus en plus les pisciculteurs.<br clear="none"/>Les questions juridiques ont été abordées au cours de la dernière session du séminaire national sur la pêche et la pisciculture, tenu à  Bangui en Octobre 1995. Un projet de loi sur les pêches et la pisciculture a notamment été présenté pour discussion. Sur la base de ces discussions, une version amendée du projet de loi a été élaborée avec l'appui de la FAO. Par ailleurs, on peut mentionner qu'un projet de loi portant code sur la protection et la mise en valeur de l'environnement en RCA est pour le moment à  l'étude, dans le cadre d'un projet d'appui du PNUE. Le projet de loi intègre les objectifs environnementaux adoptés lors de la convention de Rio en juin 1992, dont l'utilisation rationnelle des ressources naturelles, la lutte contre toute forme de pollution portant atteinte à  l'environnement, et l'harmonisation du développement économique avec la conservation du milieu naturel. L'adoption de ce projet de loi pourrait avoir une incidence sur la libre entreprise des établissements des pêches et de pisciculture.<br clear="none"/>
+						
+                  <br clear="none"/>
+					
+               </fi:CountryText>
+					
+               <fi:CountryText>Fiscalité.<br clear="none"/>
+						
+                  <br clear="none"/>Le système de taxation en vigueur ne concerne pas directement les pêcheurs, qui ne sont soumis à  aucune contrainte fiscale particulière. Le commerce du poisson fait en revanche l'objet d'une taxation importante, officielle et officieuse.<br clear="none"/>Parmi les taxes officielles, ont peut notamment mentionner les patentes prélevées par le Ministère du Commerce, taxes de marché municipales, les ''laissez-passer'' qui sont des autorisations administratives délivrées par les agents des Eaux et Forêts pour transporter le produits sur de longues distances, les taxes prélevées par les services vétérinaires, et parfois les certificats médicaux renouvelables tous les six mois comme à  Mobaye.A cela s'ajoute les diverses formes de taxation officieuse, dont l'évaluation est difficile à  faire, mais qui, selon de nombreux témoignages de commerçants, pourraient être conséquentes. En ce qui concerne les taxes sur les importations de poisson, on peut par ailleurs souligner que celles-ci représentent environ 30% de la valeur CAF des produits, dans la mesure ou le poison est un produit considéré comme un produit de luxe (3ieme catégorie) selon les barèmes de la Direction générale des douanes.</fi:CountryText>
+				
+            </fi:GenLegalFramework>
+			
+         </fi:SectorGenManage>
+		
+      </fi:CountryFeature>
+		
+      <fi:Bibliography>
+			
+         <fi:BiblioEntry/>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Revue du secteur pêche et de l'Aquaculture en République Centrafriciane</dc:Title>
+				
+            <dc:Date>1990</dc:Date>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>FAO - Rome</ags:CorporateAuthor>
+					
+               <ags:PersonalAuthor>Breuil, L.C.</ags:PersonalAuthor>
+				
+            </dc:Creator>
+			
+         </fi:BiblioEntry>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Contribution à  la formulation des axes stratégiques de développement du secteur des pêches et de la pisciculture en République Centrafricaine</dc:Title>
+				
+            <dc:Date>1995</dc:Date>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>FAO - Rome</ags:CorporateAuthor>
+					
+               <ags:PersonalAuthor>Breuil, C., Cacaus P. et C. Nugent</ags:PersonalAuthor>
+				
+            </dc:Creator>
+				
+            <fi:Series>FAO/TCP/CAF/4451</fi:Series>
+			
+         </fi:BiblioEntry>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Etat actuel de la pisciculture. Projet CAF/85/004 "Développement de la pisciculture artisanale".</dc:Title>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>FAO - Rome</ags:CorporateAuthor>
+					
+               <ags:PersonalAuthor>Janssen, J.</ags:PersonalAuthor>
+				
+            </dc:Creator>
+				
+            <fi:Series>FAo/CAF/85/004</fi:Series>
+			
+         </fi:BiblioEntry>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Etude du secteur de la pêche fluviale dans la région nord.</dc:Title>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>CIRAD</ags:CorporateAuthor>
+					
+               <ags:PersonalAuthor>Lazard, J.</ags:PersonalAuthor>
+				
+            </dc:Creator>
+				
+            <fi:Series>COSSOCIM/CTFT</fi:Series>
+			
+         </fi:BiblioEntry>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Rapport de mission à  Bambari sur la pisciculture. Service des ressources halieutiques</dc:Title>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>MEFCPTE, Bangui</ags:CorporateAuthor>
+					
+               <ags:PersonalAuthor>Ndodet, B.</ags:PersonalAuthor>
+				
+            </dc:Creator>
+				
+            <fi:Series>COSSOCIM/CTFT</fi:Series>
+			
+         </fi:BiblioEntry>
+			
+         <fi:BiblioEntry>
+				
+            <dc:Title>Enquête prioritaire sur les conditions de vie des ménages en République Centrafricaine. Projet Dimension sociale e l'ajustement et du développement. </dc:Title>
+				
+            <dc:Creator>
+					
+               <ags:CorporateAuthor>Ministère des finances, du Plan et de la Coopération internationale, Bangui</ags:CorporateAuthor>
+				
+            </dc:Creator>
+				
+            <dc:Date>1994</dc:Date>
+			
+         </fi:BiblioEntry>
+		
+      </fi:Bibliography>
+	
+   </fi:Country>
+
+</fi:FIGISDoc>

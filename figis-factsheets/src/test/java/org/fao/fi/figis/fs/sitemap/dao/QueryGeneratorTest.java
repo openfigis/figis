@@ -11,6 +11,42 @@ public class QueryGeneratorTest {
 	QueryGenerator qg = new QueryGenerator();
 
 	@Test
+	public void testComposeQueryNansen() {
+
+		String site = "nansen";
+		String domain = "topic";
+		String domainSqlName = "marine_fishery";
+		String sql = qg.composeQuery(site, domain);
+		assertTrue(sql.contains("169000"));
+
+	}
+
+	@Test
+	public void testComposeQueryFishery() {
+
+		String site = "firms";
+		String domain = "fishery";
+		String domainSqlName = "marine_fishery";
+		String sql = qg.composeQuery(site, domain);
+		assertTrue(sql.contains("205000"));
+		assertTrue(sql.contains(domainSqlName));
+
+	}
+
+	@Test
+	public void testComposeQueryGeartype() {
+
+		String site = "fi";
+		String domain = "geartype";
+		String domainSqlName = "gear";
+		String sql = qg.composeQuery(site, domain);
+		assertTrue(sql.contains("54000"));
+		assertTrue(sql.contains("54001"));
+		assertTrue(sql.contains(domainSqlName));
+
+	}
+
+	@Test
 	public void testComposeQuery() {
 		assertNotNull(qg);
 
