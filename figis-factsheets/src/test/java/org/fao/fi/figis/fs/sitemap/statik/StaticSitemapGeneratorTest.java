@@ -14,7 +14,7 @@ public class StaticSitemapGeneratorTest {
 	@Test
 	public void testGenerateSitemapIndex() {
 		String site = "fi";
-		String domain = "aquaculture";
+		String domain = "culturedspecies";
 
 		List<String> l = g.generateWebResourceList(site, domain);
 		assertEquals(4, l.size());

@@ -13,11 +13,11 @@ public class StaticWebResourceGeneratorTest {
 	@Test
 	public void testGenerateWebResourceList() {
 		String site = "fi";
-		String domain = "aquaculture";
+		String domain = "culturedspecies";
 
 		List<String> list = swrg.generateWebResourceList(site, domain);
 		assertEquals(4, list.size());
-		assertEquals("aquaculture/ARG_6/es", list.get(0));
-		assertEquals("aquaculture/fims_cf", list.get(2));
+		assertEquals("culturedspecies/ARG_6/es", list.get(0));
+		assertEquals("culturedspecies/fims_cf", list.get(2));
 	}
 }

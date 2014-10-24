@@ -11,6 +11,6 @@ public class FigisStaticSiteDomainTest {
 	@Test
 	public void testGetDomainsPer() {
 		assertEquals(8, fssd.getDomainsPer("fi").size());
-		assertEquals("aquaculture", fssd.getDomainsPer("fi").get(0));
+		assertEquals("culturedspecies", fssd.getDomainsPer("fi").get(0));
 	}
 }
