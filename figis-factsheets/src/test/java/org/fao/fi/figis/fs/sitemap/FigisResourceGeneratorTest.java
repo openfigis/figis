@@ -1,6 +1,9 @@
 package org.fao.fi.figis.fs.sitemap;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+
+import java.util.List;
 
 import org.junit.Test;
 
@@ -24,4 +27,13 @@ public class FigisResourceGeneratorTest {
 		String domain = "facp";
 		assertTrue(g.generateWebResourceList(site, domain).get(0).contains(AreaServiceMock.GERMANY));
 	}
+
+	@Test
+	public void testTopic() {
+		String site = "fi";
+		String domain = "topic";
+		List<String> l = g.generateWebResourceList(site, domain);
+		assertEquals(2, l.size());
+	}
+
 }

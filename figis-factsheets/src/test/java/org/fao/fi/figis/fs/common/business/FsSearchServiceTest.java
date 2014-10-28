@@ -48,14 +48,6 @@ public class FsSearchServiceTest {
 
 	}
 
-	@Test
-	public void testPerformSitemapSearch() throws Exception {
-		List<String> dslist = new ArrayList<String>();
-		dslist.add("introsp/en");
-		Document document = fsSearchService.performSitemapSearch(dslist);
-		assertNotNull(document);
-	}
-
 	/**
 	 * 
 	 * [dslist=., nolimit=., kw0=., kv0=trawl., kl0=., logop=., lang=., xsl=.,

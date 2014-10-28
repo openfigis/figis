@@ -15,7 +15,7 @@ public class FigisSiteDomainTest {
 	@Test
 	public void testGetSites() {
 
-		assertEquals(5, f.getSites().size());
+		assertEquals(4, f.getSites().size());
 	}
 
 	@Test
@@ -34,7 +34,6 @@ public class FigisSiteDomainTest {
 		assertNotNull(f.getDomainsPer("fi").size());
 		assertEquals(8, f.getDomainsPer("fi").size());
 		assertEquals(3, f.getDomainsPer("firms").size());
-		assertEquals(1, f.getDomainsPer("eaf-net").size());
 	}
 
 	@Test

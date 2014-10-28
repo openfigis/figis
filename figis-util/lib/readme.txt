@@ -1,3 +1,8 @@
+Update 20 August 2014
+See also vme/vme-service-integrationtest/lib/readme.txt
+Starting to use ojdbc7.jar now also for VME
+
+
 - Oracle Database 11g Release 2 JDBC Drivers
 - Thank you for accepting the OTN License Agreement; you may now download this software.
 - Oracle Database 11g Release 2 (11.2.0.4) JDBC Drivers

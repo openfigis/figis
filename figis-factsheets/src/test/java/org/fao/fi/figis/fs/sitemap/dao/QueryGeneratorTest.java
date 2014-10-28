@@ -11,13 +11,13 @@ public class QueryGeneratorTest {
 	QueryGenerator qg = new QueryGenerator();
 
 	@Test
-	public void testComposeQueryNansen() {
+	public void testComposeQueryEafnet() {
 
-		String site = "nansen";
-		String domain = "topic";
-		String domainSqlName = "marine_fishery";
+		String site = "fi";
+		String domain = "eaf-net";
 		String sql = qg.composeQuery(site, domain);
-		assertTrue(sql.contains("169000"));
+		System.out.println(sql);
+		assertFalse(sql.contains("net"));
 
 	}
 
