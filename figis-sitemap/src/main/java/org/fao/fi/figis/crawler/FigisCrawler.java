@@ -44,9 +44,9 @@ public class FigisCrawler {
 
 	public FigisCrawler() {
 		try {
-			prod = new PrintWriter("target/prod.csv");
-			dev = new PrintWriter("target/dev.csv");
-			qa = new PrintWriter("target/qa.csv");
+			prod = new PrintWriter("../jmeter/sitemapBased/prod.csv");
+			dev = new PrintWriter("../jmeter/sitemapBased/dev.csv");
+			qa = new PrintWriter("../jmeter/sitemapBased/qa.csv");
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
