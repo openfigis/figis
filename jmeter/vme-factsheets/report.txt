@@ -1,0 +1,40 @@
+Script with 1565 URLs. 
+
+Java 7
+users	AVG		TP		CPU		ERROR	Comments
+1		760		1.3		56%		0%
+10		1905	4.7		85%		0.28							5
+100		15158	4.3		86%		3.6%	rampup 100 seconds
+100										without ramp up, crash
+
+Java 5
+users	AVG		TP		CPU		ERROR	Comments
+1		504		2		35		0
+10		2300	4.1		83%		0
+100		3308	2.1		60%		0
+
+Java 7
+users	AVG		TP		CPU		ERROR	Comments
+1		440		2.3		36		0
+10		1815	5.4		87		0	
+100		22839	4.8		88		3.7
+100	
+
+Java 5
+users	AVG		TP		CPU		ERROR	Comments
+100		22842	1.8		?		7.48%	1 round
+100		16783	3.2		88%		3.13	2 round	
+
+Java 7
+users	AVG		TP		CPU		ERROR	Comments
+100		44984	1.3		88%		4.41%	1 round
+100		52250	1.4		85%		5.18%	2 round
+I have my doubts here, did I really restart the server?
+
+
+
+
+
+
+
+
