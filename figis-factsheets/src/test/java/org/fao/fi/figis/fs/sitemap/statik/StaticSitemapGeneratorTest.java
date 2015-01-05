@@ -19,4 +19,5 @@ public class StaticSitemapGeneratorTest {
 		List<String> l = g.generateWebResourceList(site, domain);
 		assertEquals(4, l.size());
 	}
+
 }

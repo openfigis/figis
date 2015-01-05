@@ -22,6 +22,13 @@ public class FigisResourceGeneratorTest {
 	FigisResourceGenerator g = new FigisResourceGenerator(m, as);
 
 	@Test
+	public void testGenerateWebResourceListVme() {
+		String site = "fi";
+		String domain = "vme";
+		assertTrue(g.generateWebResourceList(site, domain).get(0).contains(AreaServiceMock.GERMANY));
+	}
+
+	@Test
 	public void testGenerateWebResourceList() {
 		String site = "fi";
 		String domain = "facp";

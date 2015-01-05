@@ -64,11 +64,15 @@ public class FigisCrawler {
 					SiteMap map = (SiteMap) pe.parseSiteMap(sitemap.getUrl());
 					Collection<SiteMapURL> mapList = map.getSiteMapUrls();
 					System.out.println(mapList.size());
+					boolean doFirst = true;
 					for (SiteMapURL siteMapURL : mapList) {
 						String line = siteMapURL.getUrl().toExternalForm();
-						prod.write(line + "\n");
-						dev.write(manipulate4Dev(line) + "\n");
-						qa.write(manipulate4Qa(line) + "\n");
+						if (doFirst) {
+							prod.write(line + "\n");
+							dev.write(manipulate4Dev(line) + "\n");
+							qa.write(manipulate4Qa(line) + "\n");
+						}
+						doFirst = false;
 					}
 				}
 			}

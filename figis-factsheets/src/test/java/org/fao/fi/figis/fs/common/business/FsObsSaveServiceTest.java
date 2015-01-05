@@ -14,7 +14,7 @@ public class FsObsSaveServiceTest extends BaseTest {
 
 	@Test
 	public final void testCreateTransactionable() throws Exception {
-		File xmlFile = new File("src/test/resources/luca/12356_DeepSeaEcosystems_en.xml");
+		File xmlFile = new File("src/test/resources/upload/facp_chile_es.xml");
 		Integer id = null;
 		String lang = null;
 		Transactionable t = FsObsSaveService.createTransactionable(id, lang, xmlFile);

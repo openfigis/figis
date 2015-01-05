@@ -18,6 +18,6 @@ public class StaticWebResourceGeneratorTest {
 		List<String> list = swrg.generateWebResourceList(site, domain);
 		assertEquals(4, list.size());
 		assertEquals("culturedspecies/ARG_6/es", list.get(0));
-		assertEquals("culturedspecies/fims_cf", list.get(2));
+		assertEquals("culturedspecies/fims_cf/en", list.get(2));
 	}
 }

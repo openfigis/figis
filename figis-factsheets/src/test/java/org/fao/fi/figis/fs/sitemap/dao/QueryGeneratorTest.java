@@ -11,6 +11,16 @@ public class QueryGeneratorTest {
 	QueryGenerator qg = new QueryGenerator();
 
 	@Test
+	public void testComposeQueryVme() {
+		String site = "fi";
+		String domain = "vme";
+		String sql = qg.composeQuery(site, domain);
+		System.out.println(sql);
+		assertTrue(sql.contains("172000"));
+		assertTrue(sql.contains("cd_vme"));
+	}
+
+	@Test
 	public void testComposeQueryEafnet() {
 
 		String site = "fi";

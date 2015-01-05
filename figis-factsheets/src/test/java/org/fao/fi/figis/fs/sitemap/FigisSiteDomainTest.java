@@ -32,7 +32,7 @@ public class FigisSiteDomainTest {
 
 		}
 		assertNotNull(f.getDomainsPer("fi").size());
-		assertEquals(8, f.getDomainsPer("fi").size());
+		assertEquals(9, f.getDomainsPer("fi").size());
 		assertEquals(3, f.getDomainsPer("firms").size());
 	}
 
