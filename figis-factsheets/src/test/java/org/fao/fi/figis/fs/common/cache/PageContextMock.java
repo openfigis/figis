@@ -19,16 +19,16 @@ import javax.servlet.jsp.el.VariableResolver;
 
 public class PageContextMock extends PageContext {
 
-	String TRANS_RESULT = "content string with HTML";
+	public static final String TRANS_RESULT = "content string with HTML";
 
 	PageContextMock(String requestParams) {
 		instanceData.put(CachJspLogic.QUERY_CACHE, "");
 		instanceData.put(CachJspLogic.TRANS_RESULT, TRANS_RESULT);
 
-		RequestParmParser p = new RequestParmParser(requestParams);
+		RequestParmsParser p = new RequestParmsParser();
 
 		HtmlCacheLogic htmlCacheLogic = new HtmlCacheLogic();
-		String cacheKey = htmlCacheLogic.makeCacheKey(p.getDomain(), p.getFid(), p.getLang());
+		String cacheKey = htmlCacheLogic.makeCacheKey(p.parse(requestParams));
 		instanceData.put(CachJspLogic.CACHE_FILE, htmlCacheLogic.makeFilePath(cacheKey));
 	}
 
@@ -130,7 +130,7 @@ public class PageContextMock extends PageContext {
 	}
 
 	@Override
-	public Enumeration getAttributeNamesInScope(int arg0) {
+	public Enumeration<?> getAttributeNamesInScope(int arg0) {
 
 		return null;
 	}

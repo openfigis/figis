@@ -10,7 +10,9 @@ public class RequestParmParserTest {
 	public void testRequestUrlParser() {
 		String requestUrl = "?dom=topic&fid=18127&oid=159828&lang=en";
 
-		RequestParmParser p = new RequestParmParser(requestUrl);
+		RequestParmsParser parser = new RequestParmsParser();
+		RequestParms p = parser.parse(requestUrl);
+
 		assertEquals(p.getDomain(), "topic");
 		assertEquals(p.getFid(), "18127");
 		assertEquals(p.getOid(), "159828");

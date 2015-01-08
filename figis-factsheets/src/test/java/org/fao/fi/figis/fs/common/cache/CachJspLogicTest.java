@@ -1,5 +1,6 @@
 package org.fao.fi.figis.fs.common.cache;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 
@@ -21,8 +22,12 @@ import org.junit.Test;
 
 public class CachJspLogicTest {
 
-	String requestU = "/fiweb/website/FIFacp.do?dom=facp&fid=21&lang=en";
-	String requestParams = "?dom=facp&fid=21&lang=en";
+	// String requestU = "/fiweb/website/FIFacp.do?dom=facp&fid=21&lang=en";
+	// String requestParams = "?dom=facp&fid=21&lang=en";
+	String requestU = "/fiweb/website/Vme.do?dom=vme&fid=23591&lang=en";
+	String requestParams = "?dom=vme&fid=23591&lang=en";
+
+	// http://hqldvfigis1:8080/fishery/vme/23591/167677
 
 	@Before
 	public void before() {
@@ -50,25 +55,14 @@ public class CachJspLogicTest {
 
 	@Test
 	public void testRead() {
-
-		PageContext pageContext = new PageContextMock(requestU);
-
-		// pageContext.setAttribute(CachJspLogic.QUERY_CACHE, "");
-
-		CachJspLogic l1 = new CachJspLogic();
-
-		// the first read should not find anything. The next
-		// l1.read(pageContext, requestParams, requestU);
-		// assertNull(pageContext.getAttribute(CachJspLogic.CACHE_FILE, PageContext.REQUEST_SCOPE));
-		// assertNull(pageContext.getAttribute(CachJspLogic.TRANS_RESULT, PageContext.REQUEST_SCOPE));
-
 		CachJspLogic l2 = new CachJspLogic();
-		PageContext pageContext2 = new PageContextMock(requestU);
-		l2.write(pageContext2, requestU);
+		PageContext pageContext2 = new PageContextMock(requestParams);
+		l2.write(pageContext2, requestParams);
 		l2.read(pageContext2, requestParams, requestU);
 		assertNotNull(pageContext2.getAttribute(CachJspLogic.CACHE_FILE, PageContext.REQUEST_SCOPE));
 		assertNotNull(pageContext2.getAttribute(CachJspLogic.TRANS_RESULT, PageContext.REQUEST_SCOPE));
-		// assertEquals("", pageContext2.getAttribute(CachJspLogic.TRANS_RESULT, PageContext.REQUEST_SCOPE));
+		assertEquals(PageContextMock.TRANS_RESULT,
+				pageContext2.getAttribute(CachJspLogic.TRANS_RESULT, PageContext.REQUEST_SCOPE));
 
 	}
 }

@@ -24,6 +24,16 @@ public class HtmlCacheLogicTest {
 	}
 
 	@Test
+	public void testMakeCacheKeyParams() {
+		RequestParms p = new RequestParms();
+		p.setDomain(domain);
+		p.setFid("123");
+		p.setOid("456");
+		p.setLang("es");
+		assertEquals("hulk_123_es_456", l.makeCacheKey(p));
+	}
+
+	@Test
 	public void testMakeCacheKeyStringStringStringString() {
 		String fid = "18127";
 		String key = l.makeCacheKey(domain, fid, lang);
