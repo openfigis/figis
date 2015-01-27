@@ -36,7 +36,6 @@ public class CachJspLogicTest {
 	}
 
 	@Test
-	// @Ignore
 	public void testWrite() throws IOException {
 
 		PageContext pageContext = new PageContextMock(requestParams);

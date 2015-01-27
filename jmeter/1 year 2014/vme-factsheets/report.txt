@@ -31,7 +31,11 @@ users	AVG		TP		CPU		ERROR	Comments
 100		13016	4.9		85%		1.41%	2 round
 
 
-
+Java 7 - cache fix
+users	AVG		TP		CPU		ERROR	Comments
+100		8910	6.9		90		6.7%	1 round
+100		12071	5.6		90		6.93%	1 round
+	
 
 
 
