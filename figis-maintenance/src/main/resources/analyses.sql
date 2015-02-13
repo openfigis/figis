@@ -17,9 +17,6 @@ and reporting_year != '0000R'
 -- prod 50
 
 
-
-
-
 select count(*) 
 from fs_resource_observation ro, fs_observation_xml x
 where ro.cd_observation = x.cd_observation 
@@ -42,7 +39,7 @@ and reporting_year = '0000R'
 
 
 
-
+-- This query may have touched too many factsheets
 UPDATE fs_observation_xml x
 SET x.xml = 
 (
