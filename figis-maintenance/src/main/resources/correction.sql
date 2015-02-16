@@ -1,9 +1,5 @@
 -- xb = xml backup 
 
-select x.cd_language from fs_observation_xml x
-
-
-
 
 select count(*) from fs_resource_observation ro, fs_observation_xml x, fs_observation_xml xb
 where ro.cd_observation = x.cd_observation 
@@ -138,6 +134,9 @@ and ro.reporting_year != b.reporting_year
 -- In analyses.sql, 997 xmls had been wrongly affected. With the above update statement, the table should now be correct. 
 -- Those pieces of XML wrongly touched can now be correced by the CIO backup table ( FIGIS_JAN_BCK.FS_OBSERVATION_XML). 
 -- See therefore correctionXML.sql
+-- The above has not taken into account those with a reporting year equals to 000R
+
+
 
 
 

@@ -37,8 +37,6 @@ and reporting_year = '0000R'
 -- prod 0
 
 
-
-
 -- This query may have touched too many factsheets
 UPDATE fs_observation_xml x
 SET x.xml = 
@@ -85,8 +83,6 @@ and x.xml like  '%<fi:ReportingYear>%'
 
 
 -- only necessary for resource: 35 cases
-
-
 select x.xml, substr(x.xml, 0, INSTR(x.xml, '</fi:ReferenceYear>') + 19) ||  '<fi:ReportingYear>0000R</fi:ReportingYear>' || substr(x.xml, INSTR(x.xml, '</fi:ReferenceYear>') + 19)
 from fs_resource_observation ro, fs_observation_xml x
 where ro.cd_observation = x.cd_observation 
