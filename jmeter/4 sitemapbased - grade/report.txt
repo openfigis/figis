@@ -10,7 +10,32 @@ users	loops	AVG		TP	ERROR	CPU		Comments
 users	loops	AVG		ERROR%	TP				CPU		Comments
 1		220		2549	1.96	23.5/min		78%		Server was corrupted
 1		135		865		0.74	1.1				?		Restart, firt run
-1		135		396		.74		2.5				30		2 round		
-1												30		3 round, corrected csv script
+1		135		396		0.74	2.5				30		2 round		
+1		438		603		0		1.6				30		3 round, corrected csv script. It is not clear why the script does not stop at 214
+1		217		1489	0.46	40.3/min		88%		4 round
+1		51		6567	1.96	9.1/min			?
+1		315		870		0.32	1.1/s			?
+1		274		745		0		1.3				?
+10		198		15108	3.03	37.2/min		?
+5		100		7503	0		35.5/min		90%		Looks like the instance became instable
+1		250		561		0.4		1.8/s			?		Restarted the server
+1		253		484		0.4		2.1				30%		second round
+5		443		1176	1.13	2.3				?		Restart
+5		249		864		2.01	2.5				?		Restart
+
+
+
+-- Grade Fuseki process running, high work load
+users	loops	AVG		ERROR%	TP				CPU		Comments
+1		319		582		0.31	1.7				70%		Restarted the server
+5		436		1553	1.15	2.2				92%		Restarted the server
+
+-- Grade Fuseki process running, ddos load
+users	loops	AVG		ERROR%	TP				CPU		Comments
+1	
+5	
+
+
+
 
 
