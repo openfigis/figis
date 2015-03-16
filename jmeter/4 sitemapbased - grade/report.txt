@@ -1,0 +1,16 @@
+
+
+-- No Grade Fuseki process running
+users	loops	AVG		TP	ERROR	CPU		Comments
+1		220		
+
+
+
+-- No Grade Fuseki process running
+users	loops	AVG		ERROR%	TP				CPU		Comments
+1		220		2549	1.96	23.5/min		78%		Server was corrupted
+1		135		865		0.74	1.1				?		Restart, firt run
+1		135		396		.74		2.5				30		2 round		
+1												30		3 round, corrected csv script
+
+
