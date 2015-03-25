@@ -53,7 +53,7 @@
 	<classpathentry kind="lib" path="endorsedlib/xalan.jar"/>
 	<classpathentry kind="lib" path="endorsedlib/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="endorsedlib/xml-apis.jar"/>
-	<classpathentry kind="lib" path="extralib/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="extralib/javax.servlet-api-3.0.1.jar" sourcepath="C:/Users/vaningen/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar"/>
 	<classpathentry kind="lib" path="extralib/junit-4.10.jar"/>
 	<classpathentry kind="lib" path="extralib/mail-1.4.4.jar"/>
 	<classpathentry kind="lib" path="lib/Tidy.jar"/>
