@@ -29,7 +29,7 @@
 	<classpathentry kind="lib" path="lib/jta-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.11.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api-2.4.jar"/>
-	<classpathentry kind="lib" path="lib/spring-2.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring-2.0.0.jar" sourcepath="C:/Users/vaningen/.m2/repository/org/springframework/spring/2.0/spring-2.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-mock-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/standard-1.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/xercesImpl-2.9.0.jar"/>
@@ -42,9 +42,6 @@
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
-	</classpathentry>	
-	
-	
-	
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

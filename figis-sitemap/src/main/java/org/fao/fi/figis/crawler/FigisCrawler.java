@@ -18,6 +18,7 @@ public class FigisCrawler {
 	private static final String URL_FIRMS = "http://firms.fao.org/firms/sitemapnew/firms/sitemapindex.xml";
 	private static final String URL_GFCM = "http://www.gfcm.org/gfcm/sitemapnew/gfcm/sitemapindex.xml";
 	// private static final String URL_NANSEN = "http://www.eaf-nansen.org/nansen/sitemapnew/nansen/sitemapindex.xml";
+	boolean doOnlyFirst = true;
 
 	private static final String DEV[][] = {//
 	{ "http://www.fao.org/fishery", "http://hqldvfigis1:8080/fishery" },//
@@ -44,9 +45,9 @@ public class FigisCrawler {
 
 	public FigisCrawler() {
 		try {
-			prod = new PrintWriter("../jmeter/sitemapBased/prod.csv");
-			dev = new PrintWriter("../jmeter/sitemapBased/dev.csv");
-			qa = new PrintWriter("../jmeter/sitemapBased/qa.csv");
+			prod = new PrintWriter("../jmeter/5sitemapbased-404/prod.csv");
+			dev = new PrintWriter("../jmeter/5sitemapbased-404/dev.csv");
+			qa = new PrintWriter("../jmeter/5sitemapbased-404/qa.csv");
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
@@ -64,15 +65,16 @@ public class FigisCrawler {
 					SiteMap map = (SiteMap) pe.parseSiteMap(sitemap.getUrl());
 					Collection<SiteMapURL> mapList = map.getSiteMapUrls();
 					System.out.println(mapList.size());
-					// boolean doFirst = true;
+					boolean firstDone = false;
 					for (SiteMapURL siteMapURL : mapList) {
 						String line = siteMapURL.getUrl().toExternalForm();
-						// if (doFirst) {
-						prod.write(line + "\n");
-						dev.write(manipulate4Dev(line) + "\n");
-						qa.write(manipulate4Qa(line) + "\n");
-						// }
-						// doFirst = false;
+						if (!doOnlyFirst || doOnlyFirst && !firstDone) {
+							prod.write(line + "\n");
+							dev.write(manipulate4Dev(line) + "\n");
+							qa.write(manipulate4Qa(line) + "\n");
+							firstDone = true;
+						}
+
 					}
 				}
 			}

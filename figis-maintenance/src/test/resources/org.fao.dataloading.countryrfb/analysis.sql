@@ -1,10 +1,4 @@
 
-select distinct owner from all_constraints
-
-select * from all_constraints
-where owner = 'FIGIS'
-and table_name = 'ref_institute_full'
-
 <fi:FigisID>22090</fi:FigisID>
 <fi:OrgRef>
 <fi:FigisID MetaID="104000">22090</fi:FigisID>
