@@ -22,17 +22,20 @@ public class CountryRfbProcess {
 	@Inject
 	EntityManager em;
 
-	static String QUERY = " select xml from  fs_organization_observation o, fs_observation obs, fs_observation_xml xml"
-			+ "where o.cd_observation = obs.cd_observation                                                "
-			+ "and cd_collection = 2290                                                                   "
-			+ "and obs.cd_observation = xml.cd_observation                                                "
-			+ "and cd_language = 1                                                                        "
-			+ "and fg_status = 2 ;";
+	static String QUERY = " select xml.* from  figis.fs_organization_observation o, figis.fs_observation obs, figis.fs_observation_xml xml "
+			+ " where o.cd_observation = obs.cd_observation                                                "
+			+ " and cd_collection = 2290                                                                   "
+			+ " and obs.cd_observation = xml.cd_observation                                                "
+			+ " and cd_language = 1                                                                        "
+			+ " and fg_status = 2 ";
 
 	void run() {
-		@SuppressWarnings("unused")
-		List<ObservationXml> list = em.createNativeQuery(QUERY, ObservationXml.class).getResultList();
+
+		@SuppressWarnings("unchecked")
+		List<ObservationXml> list = (List<ObservationXml>) em.createNativeQuery(QUERY, ObservationXml.class)
+				.getResultList();
 		System.out.println(list.size());
+
 	}
 
 }
