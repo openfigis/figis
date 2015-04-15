@@ -9,7 +9,6 @@ import javax.persistence.EntityManager;
 
 import org.fao.dataloading.countryrfb.jaxb.JaxbUnmarshal;
 import org.fao.fi.figis.devcon.FIGISDoc;
-import org.fao.fi.figis.devcon.LandAreaList;
 import org.fao.figis.db.FigisDB;
 
 import com.opencsv.CSVWriter;
@@ -33,7 +32,7 @@ public class CountryRfbProcess {
 	JaxbUnmarshal jaxbUnmarshal;
 
 	@Inject
-	FIGISDocDigger digger;
+	RfmoCountry rfmoCountry;
 
 	static String CVS = "src/test/resources/org.fao.dataloading.countryrfb/RfbCountry.csv";
 
@@ -53,8 +52,10 @@ public class CountryRfbProcess {
 			CSVWriter writer = new CSVWriter(new FileWriter(CVS), ',');
 			for (ObservationXml observationXml : list) {
 				FIGISDoc doc = jaxbUnmarshal.parse(observationXml.getXml());
-				String[] entries = getRfmoCountry(doc);
-				writer.writeNext(entries);
+				String[][] entries = rfmoCountry.getRfmoCountry(doc);
+				for (String[] record : entries) {
+					writer.writeNext(record);
+				}
 			}
 			writer.close();
 		} catch (IOException e) {
@@ -63,13 +64,4 @@ public class CountryRfbProcess {
 
 	}
 
-	private String[] getRfmoCountry(FIGISDoc doc) {
-
-		String[] record = { "", "" };
-
-		LandAreaList landAreaList = (LandAreaList) digger.findObject(doc.getOrg(), LandAreaList.class);
-		landAreaList.getTitlesAndLandAreaReves();
-
-		return record;
-	}
 }

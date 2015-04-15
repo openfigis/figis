@@ -4,11 +4,24 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.fao.fi.figis.devcon.Org;
-import org.fao.fi.figis.devcon.OrgsInvolved;
-
+/**
+ * Utility to dig into the FigisDoc
+ * 
+ * 
+ * 
+ * @author Erik van Ingen
+ *
+ */
 public class FIGISDocDigger {
 
+	/**
+	 * Find the first object, corresponding to the type
+	 * 
+	 * 
+	 * @param object
+	 * @param type
+	 * @return
+	 */
 	public Object findObject(Object object, Class<?> type) {
 		Object found = null;
 		if (object.getClass().equals(type)) {
@@ -16,13 +29,9 @@ public class FIGISDocDigger {
 		} else {
 			Method[] methods = object.getClass().getDeclaredMethods();
 			for (Method method : methods) {
+
 				if (method.getName().startsWith("get") && method.getParameterCount() == 0 && found == null) {
 					try {
-						if (method.getName().equals("getMissionsAndGeoCoveragesAndTopicCoverages")) {
-							System.out.println(method.getName());
-						}
-
-						System.out.println(method.getName());
 						Object result = method.invoke(object);
 						if (result != null && found == null) {
 							FIGISDocDigger d = new FIGISDocDigger();
@@ -33,10 +42,6 @@ public class FIGISDocDigger {
 									@SuppressWarnings("unchecked")
 									List<Object> list = (List<Object>) result;
 									for (Object element : list) {
-										System.out.println(element.getClass().getSimpleName());
-										if (element instanceof Org || element instanceof OrgsInvolved) {
-											System.out.println(element.getClass().getSimpleName());
-										}
 										if (found == null) {
 											found = d.findObject(element, type);
 										}
