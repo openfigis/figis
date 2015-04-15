@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fi:FIGISDoc xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
+	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xml:lang="en" xsi:schemaLocation="http://www.fao.org/fi/figis/devcon/ http://www.fao.org/fi/figis/devcon/schema/3_6/fi.xsd">
+	<fi:DataEntry>
+		<fi:Editor>FIGIS Team</fi:Editor>
+		<dcterms:Created>2010-07-15</dcterms:Created>
+	</fi:DataEntry>
+	<fi:ObjectSource>
+		<fi:Owner>
+			<fi:CollectionRef>
+				<fi:FigisID MetaID="264000">2290</fi:FigisID>
+			</fi:CollectionRef>
+		</fi:Owner>
+		<fi:CorporateCoverPage>
+			<fi:FigisID MetaID="280000">310</fi:FigisID>
+		</fi:CorporateCoverPage>
+		<fi:CoverPage>
+			<dcterms:Created>2001-01-01</dcterms:Created>
+			<dcterms:Modified>2013-08-06</dcterms:Modified>
+
+		</fi:CoverPage>
+	</fi:ObjectSource>
+	<fi:Org>
+		<fi:OrgIdent>
+			<fi:FigisID>9967</fi:FigisID>
+			<fi:OrgRef>
+				<fi:FigisID MetaID="104000">9967</fi:FigisID>
+			</fi:OrgRef>
+			<dc:Title>Inter-American Tropical Tuna Commission (IATTC)</dc:Title>
+			<fi:Image IID="19541" Src="iattc_logo.jpg" Title="IATTC Logo" Use="Normal" />
+			<fi:StateOfActivity Type="Ongoing" />
+		</fi:OrgIdent>
+		<fi:Mission Label="Objectives">
+			<fi:Objectives Label=" ">
+				<fi:Text><![CDATA[The objective of the Inter-American Tropical Tuna Commission (IATTC) is to ensure the long-term conservation and sustainable use of tuna and tuna-like species and other species of fish taken by vessels fishing for tunas and tuna like species in the Eastern Pacific Ocean, in accordance with the relevant rules of international law. ]]></fi:Text>
+			</fi:Objectives>
+		</fi:Mission>
+
+
+		<fi:GeoCoverage Type="RFB_CompetenceArea">
+			<fi:MaritimeArea Value="High_Seas" />
+			<fi:Text><![CDATA[
+       <p>The IATTC area of application comprises the area of the Pacific Ocean bounded by the coastline  of North, Central, and South America and by the following lines: the 50°N  parallel from the coast of North America to its intersection with the 150°W meridian; the 150°W meridian to its intersection with the 50°S parallel; and the 50°S parallel to its intersection with the coast of South America. </p>
+      ]]></fi:Text>
+			<fi:WaterAreaRef>
+				<fi:FigisID MetaID="24031">4001</fi:FigisID>
+			</fi:WaterAreaRef>
+			<fi:Text><![CDATA[
+        <br />
+      ]]></fi:Text>
+		</fi:GeoCoverage>
+
+
+		<fi:TopicCoverage Label="Species and stocks coverage">
+			<fi:Text><![CDATA[Tuna and tuna-like species and other species of fish taken by vessels fishing for tunas and tuna-like species. ]]></fi:Text>
+		</fi:TopicCoverage>
+
+
+		<fi:OrgsInvolved Label="Members">
+			<fi:OrgsInvolvedEntry RelationshipType="Member">
+
+
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">23</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">33</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">41</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">214</fi:FigisID>
+				</fi:LandAreaRef>
+
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">44</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">48</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">58</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">60</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">380</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">68</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">89</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">83</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">110</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">138</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">157</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">166</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">170</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">117</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">231</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">155</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">236</fi:FigisID>
+				</fi:LandAreaRef>
+			</fi:OrgsInvolvedEntry>
+			<fi:OrgsInvolvedEntry FreeValue="Cooperating Non-Members" RelationshipType="Member">
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">19</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">95</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">101</fi:FigisID>
+				</fi:LandAreaRef>
+				<fi:LandAreaRef>
+					<fi:FigisID MetaID="13001">47</fi:FigisID>
+				</fi:LandAreaRef>
+			</fi:OrgsInvolvedEntry>
+		</fi:OrgsInvolved>
+
+		<fi:Contacts Label="Further information">
+			<fi:ContactEntry Label=" ">
+				<fi:Website>http://www.iattc.org</fi:Website>
+			</fi:ContactEntry>
+		</fi:Contacts>
+	</fi:Org>
+</fi:FIGISDoc>

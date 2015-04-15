@@ -7,34 +7,27 @@ import java.util.List;
 public class FIGISDocDigger {
 
 	public Object findObject(Object object, Class<?> type) {
-		Object pulled = pull(object, type);
-		Object found = null;
-		if (pulled.getClass().equals(type)) {
-			found = pulled;
-		}
-		if (pulled.getClass().equals(List.class)) {
-			@SuppressWarnings("unchecked")
-			List<Object> list = (List<Object>) pulled;
-			for (Object element : list) {
-				FIGISDocDigger d = new FIGISDocDigger();
-				found = d.findObject(element, type);
-			}
-
-		}
-		return found;
-	}
-
-	private Object pull(Object object, Class<?> clazz) {
 		Method[] methods = object.getClass().getDeclaredMethods();
 		Object found = null;
-
 		for (Method method : methods) {
-			if (method.getName().startsWith("get")) {
+			if (method.getName().startsWith("get") && method.getParameterCount() == 0) {
 				try {
 					Object result = method.invoke(object);
-					if (result.getClass().equals(clazz) || result.getClass().equals(List.class)) {
-						found = result;
+					if (result != null) {
+						System.out.println(result.getClass().getSimpleName());
+						if (result.getClass().equals(type)) {
+							found = result;
+						}
+						if (result instanceof List) {
+							@SuppressWarnings("unchecked")
+							List<Object> list = (List<Object>) result;
+							for (Object element : list) {
+								FIGISDocDigger d = new FIGISDocDigger();
+								found = d.findObject(element, type);
+							}
+						}
 					}
+
 				} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 					throw new RuntimeException(e);
 				}
@@ -42,4 +35,5 @@ public class FIGISDocDigger {
 		}
 		return found;
 	}
+
 }
