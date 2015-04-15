@@ -4,6 +4,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import javassist.Modifier;
+
 /**
  * Utility to dig into the FigisDoc
  * 
@@ -29,12 +31,11 @@ public class FIGISDocDigger {
 		} else {
 			Method[] methods = object.getClass().getDeclaredMethods();
 			for (Method method : methods) {
-
-				if (method.getName().startsWith("get") && method.getParameterCount() == 0 && found == null) {
+				if (method.getModifiers() == Modifier.PUBLIC && method.getName().startsWith("get")
+						&& method.getParameterCount() == 0 && found == null) {
 					try {
 						Object result = method.invoke(object);
 						if (result != null && found == null) {
-							FIGISDocDigger d = new FIGISDocDigger();
 							if (result.getClass().equals(type)) {
 								found = result;
 							} else {
@@ -43,10 +44,12 @@ public class FIGISDocDigger {
 									List<Object> list = (List<Object>) result;
 									for (Object element : list) {
 										if (found == null) {
+											FIGISDocDigger d = new FIGISDocDigger();
 											found = d.findObject(element, type);
 										}
 									}
 								} else {
+									FIGISDocDigger d = new FIGISDocDigger();
 									found = d.findObject(result, type);
 								}
 							}

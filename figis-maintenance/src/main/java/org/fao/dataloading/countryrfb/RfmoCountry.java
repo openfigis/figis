@@ -21,18 +21,25 @@ public class RfmoCountry {
 
 		OrgsInvolvedEntry orgsInvolvedEntry = (OrgsInvolvedEntry) d.findObject(doc.getOrg(), OrgsInvolvedEntry.class);
 
-		String[][] bunch = new String[orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts().size()][2];
+		String[][] bunch = null;
 
-		String rfmo = ((FigisID) orgRef.getForeignIDsAndFigisIDsAndTitles().get(0)).getContent();
+		if (orgsInvolvedEntry != null && orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts() != null) {
 
-		List<Object> list = orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts();
-		for (int record = 0; record < bunch.length; record++) {
-			System.out.println(bunch[record]);
-			LandAreaRef landAreaRef = (LandAreaRef) list.get(record);
-			FigisID id = (FigisID) landAreaRef.getFigisIDsAndForeignIDs().get(0);
-			bunch[record][rfmoColumn] = rfmo;
-			bunch[record][countryColumn] = id.getContent();
-			System.out.println(bunch[record]);
+			bunch = new String[orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts().size()][2];
+
+			String rfmo = ((FigisID) orgRef.getForeignIDsAndFigisIDsAndTitles().get(0)).getContent();
+
+			List<Object> list = orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts();
+			for (int record = 0; record < bunch.length; record++) {
+				if (list.get(record) instanceof LandAreaRef) {
+					LandAreaRef landAreaRef = (LandAreaRef) list.get(record);
+					FigisID id = (FigisID) landAreaRef.getFigisIDsAndForeignIDs().get(0);
+					bunch[record][rfmoColumn] = rfmo;
+					bunch[record][countryColumn] = id.getContent();
+				}
+			}
+		} else {
+			bunch = new String[0][0];
 
 		}
 

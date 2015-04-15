@@ -49,8 +49,10 @@ public class CountryRfbProcess {
 				.getResultList();
 
 		try {
-			CSVWriter writer = new CSVWriter(new FileWriter(CVS), ',');
+			CSVWriter writer = new CSVWriter(new FileWriter(CVS), ',', CSVWriter.NO_QUOTE_CHARACTER);
+
 			for (ObservationXml observationXml : list) {
+				// System.out.println(observationXml.getXml());
 				FIGISDoc doc = jaxbUnmarshal.parse(observationXml.getXml());
 				String[][] entries = rfmoCountry.getRfmoCountry(doc);
 				for (String[] record : entries) {
@@ -63,5 +65,4 @@ public class CountryRfbProcess {
 		}
 
 	}
-
 }
