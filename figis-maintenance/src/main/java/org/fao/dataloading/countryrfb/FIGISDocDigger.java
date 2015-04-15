@@ -4,40 +4,52 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.fao.fi.figis.devcon.OrgRef;
+import org.fao.fi.figis.devcon.Org;
+import org.fao.fi.figis.devcon.OrgsInvolved;
 
 public class FIGISDocDigger {
 
 	public Object findObject(Object object, Class<?> type) {
-		Method[] methods = object.getClass().getDeclaredMethods();
 		Object found = null;
-		for (Method method : methods) {
-			if (method.getName().startsWith("get") && method.getParameterCount() == 0) {
-				try {
-					Object result = method.invoke(object);
-					if (result != null) {
-
-						if (result instanceof OrgRef) {
-							System.out.println(result.getClass().getSimpleName());
+		if (object.getClass().equals(type)) {
+			found = object;
+		} else {
+			Method[] methods = object.getClass().getDeclaredMethods();
+			for (Method method : methods) {
+				if (method.getName().startsWith("get") && method.getParameterCount() == 0 && found == null) {
+					try {
+						if (method.getName().equals("getMissionsAndGeoCoveragesAndTopicCoverages")) {
+							System.out.println(method.getName());
 						}
-						FIGISDocDigger d = new FIGISDocDigger();
-						if (result.getClass().equals(type)) {
-							found = result;
-						} else {
-							if (result instanceof List) {
-								@SuppressWarnings("unchecked")
-								List<Object> list = (List<Object>) result;
-								for (Object element : list) {
-									found = d.findObject(element, type);
-								}
+
+						System.out.println(method.getName());
+						Object result = method.invoke(object);
+						if (result != null && found == null) {
+							FIGISDocDigger d = new FIGISDocDigger();
+							if (result.getClass().equals(type)) {
+								found = result;
 							} else {
-								found = d.findObject(result, type);
+								if (result instanceof List && found == null) {
+									@SuppressWarnings("unchecked")
+									List<Object> list = (List<Object>) result;
+									for (Object element : list) {
+										System.out.println(element.getClass().getSimpleName());
+										if (element instanceof Org || element instanceof OrgsInvolved) {
+											System.out.println(element.getClass().getSimpleName());
+										}
+										if (found == null) {
+											found = d.findObject(element, type);
+										}
+									}
+								} else {
+									found = d.findObject(result, type);
+								}
 							}
 						}
-					}
 
-				} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-					throw new RuntimeException(e);
+					} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
+						throw new RuntimeException(e);
+					}
 				}
 			}
 		}

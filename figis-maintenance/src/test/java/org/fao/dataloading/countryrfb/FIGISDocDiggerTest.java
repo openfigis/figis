@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 
 import org.fao.dataloading.countryrfb.jaxb.JaxbUnmarshal;
 import org.fao.fi.figis.devcon.FIGISDoc;
+import org.fao.fi.figis.devcon.Org;
 import org.fao.fi.figis.devcon.OrgsInvolved;
 import org.junit.Test;
 
@@ -22,10 +23,13 @@ public class FIGISDocDiggerTest {
 		String rfb = String.join("\n",
 				Files.readAllLines(Paths.get("src/test/resources/org.fao.dataloading.countryrfb/IATTTC_inputxml.xml")));
 		FIGISDoc doc = u.parse(rfb);
+
+		Org org = doc.getOrg();
+
 		OrgsInvolved found = (OrgsInvolved) d.findObject(doc.getOrg(), OrgsInvolved.class);
 
 		assertNotNull(found);
-		assertEquals(3, found.getTextsAndImagesAndTables().size());
+		assertEquals(2, found.getTextsAndImagesAndTables().size());
 
 	}
 }
