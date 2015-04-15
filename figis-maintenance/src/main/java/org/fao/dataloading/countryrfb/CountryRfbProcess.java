@@ -9,9 +9,7 @@ import javax.persistence.EntityManager;
 
 import org.fao.dataloading.countryrfb.jaxb.JaxbUnmarshal;
 import org.fao.fi.figis.devcon.FIGISDoc;
-import org.fao.fi.figis.devcon.LandArea;
-import org.fao.fi.figis.devcon.OrgsInvolved;
-import org.fao.fi.figis.devcon.OrgsInvolvedEntry;
+import org.fao.fi.figis.devcon.LandAreaList;
 import org.fao.figis.db.FigisDB;
 
 import com.opencsv.CSVWriter;
@@ -33,6 +31,9 @@ public class CountryRfbProcess {
 
 	@Inject
 	JaxbUnmarshal jaxbUnmarshal;
+
+	@Inject
+	FIGISDocDigger digger;
 
 	static String CVS = "src/test/resources/org.fao.dataloading.countryrfb/RfbCountry.csv";
 
@@ -66,28 +67,9 @@ public class CountryRfbProcess {
 
 		String[] record = { "", "" };
 
-		List<Object> list1 = doc.getOrg().getMissionsAndGeoCoveragesAndTopicCoverages();
-		for (Object object1 : list1) {
-			if (object1 instanceof OrgsInvolved) {
-				OrgsInvolved orgsInvolved = (OrgsInvolved) object1;
-				List<Object> list2 = orgsInvolved.getTextsAndImagesAndTables();
-				for (Object object2 : list2) {
-					if (object2 instanceof OrgsInvolvedEntry) {
-						OrgsInvolvedEntry orgsInvolvedEntry = (org.fao.fi.figis.devcon.OrgsInvolvedEntry) object2;
-						List<Object> list3 = orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts();
-						for (Object object3 : list3) {
-							if (object3 instanceof LandArea) {
-								LandArea landArea = (LandArea) object3;
-								List<Object> list4 = landArea.getTextsAndImagesAndTables();
-								for (Object object4 : list4) {
-									System.out.println(object4.getClass().getSimpleName());
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		LandAreaList landAreaList = (LandAreaList) digger.findObject(doc.getOrg(), LandAreaList.class);
+		landAreaList.getTitlesAndLandAreaReves();
+
 		return record;
 	}
 }
