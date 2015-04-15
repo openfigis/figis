@@ -4,6 +4,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import org.fao.fi.figis.devcon.OrgRef;
+
 public class FIGISDocDigger {
 
 	public Object findObject(Object object, Class<?> type) {
@@ -14,16 +16,22 @@ public class FIGISDocDigger {
 				try {
 					Object result = method.invoke(object);
 					if (result != null) {
-						System.out.println(result.getClass().getSimpleName());
+
+						if (result instanceof OrgRef) {
+							System.out.println(result.getClass().getSimpleName());
+						}
+						FIGISDocDigger d = new FIGISDocDigger();
 						if (result.getClass().equals(type)) {
 							found = result;
-						}
-						if (result instanceof List) {
-							@SuppressWarnings("unchecked")
-							List<Object> list = (List<Object>) result;
-							for (Object element : list) {
-								FIGISDocDigger d = new FIGISDocDigger();
-								found = d.findObject(element, type);
+						} else {
+							if (result instanceof List) {
+								@SuppressWarnings("unchecked")
+								List<Object> list = (List<Object>) result;
+								for (Object element : list) {
+									found = d.findObject(element, type);
+								}
+							} else {
+								found = d.findObject(result, type);
 							}
 						}
 					}
@@ -35,5 +43,4 @@ public class FIGISDocDigger {
 		}
 		return found;
 	}
-
 }

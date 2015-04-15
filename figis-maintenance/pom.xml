@@ -48,11 +48,6 @@
 			<artifactId>hibernate-hikaricp</artifactId>
 			<version>4.3.8.Final</version>
 		</dependency>
-		<dependency>
-			<groupId>org.jboss.weld.se</groupId>
-			<artifactId>weld-se</artifactId>
-			<version>2.2.10.Final</version>
-		</dependency>
 
 
 
@@ -73,9 +68,9 @@
 			<version>3.1.2</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vme</groupId>
-			<artifactId>vme-fimes-jaxb</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.fao</groupId>
+			<artifactId>fimes-jaxb</artifactId>
+			<version>0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.opencsv</groupId>
@@ -83,5 +78,10 @@
 			<version>3.3</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.jboss.weld</groupId>
+			<artifactId>weld-core</artifactId>
+			<version>2.2.10.Final</version>
+		</dependency>
 	</dependencies>
 </project>
