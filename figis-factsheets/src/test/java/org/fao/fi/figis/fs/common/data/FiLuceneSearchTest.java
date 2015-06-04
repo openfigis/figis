@@ -22,6 +22,8 @@ import org.w3c.dom.Node;
 public class FiLuceneSearchTest {
 
 	FiLuceneSearch fiLuceneSearch = new FiLuceneSearch();
+	File ctrlFile = new File("../figis-properties/properties/common/SearchTerms.xml");
+
 	String storeDir = "target/";
 	XmlSearchEngine xmlSearchEngine;
 	Vector<FiSearchTerm> buildVector;
@@ -32,7 +34,6 @@ public class FiLuceneSearchTest {
 
 	@Before
 	public void before() throws Exception {
-		File ctrlFile = new File("../figis-properties/properties/common/SearchTerms.xml");
 		FiConstants.setPropertiesDir("../figis-properties/properties");
 		FiConstants.setDbProperties(FiKeywordScannerTest.DATABASE_SCAN_PROPERTIES);
 
@@ -70,10 +71,22 @@ public class FiLuceneSearchTest {
 	}
 
 	@Test
-	public void testStoreResults() throws Exception {
+	public void vme() throws Exception {
+		String ot = "vme";
+		xmlSearchEngine = new XmlSearchEngine(ctrlFile, ot);
+	}
+
+	@Test
+	public void storeResultsTopic() throws Exception {
 		int meta = 165000;
 		boolean reset = false;
+		fiLuceneSearch.storeResults(buildVector, meta, reset);
+	}
 
+	@Test
+	public void storeResultsVme() throws Exception {
+		int meta = 172000;
+		boolean reset = false;
 		fiLuceneSearch.storeResults(buildVector, meta, reset);
 	}
 
