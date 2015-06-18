@@ -31,6 +31,7 @@ public class FiKeywordScannerTest {
 	public void vme() {
 		String dataset = "vme";
 		String id = "23582";
+		// String id = null;
 
 		String[] arguments = { "-o", storeDir, "-c", FIGIS_PROPERTIES_DIR + "/common/SearchTerms.xml", "-r", "../",
 				"-p", FIGIS_PROPERTIES_DIR, "-db", DATABASE_SCAN_PROPERTIES, "-d", dataset, id };

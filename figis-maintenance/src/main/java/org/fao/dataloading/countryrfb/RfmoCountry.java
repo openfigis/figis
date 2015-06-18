@@ -1,5 +1,6 @@
 package org.fao.dataloading.countryrfb;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.fao.fi.figis.devcon.FIGISDoc;
@@ -29,7 +30,7 @@ public class RfmoCountry {
 
 			String rfmo = ((FigisID) orgRef.getForeignIDsAndFigisIDsAndTitles().get(0)).getContent();
 
-			List<Object> list = orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts();
+			List<Serializable> list = orgsInvolvedEntry.getOrgRevesAndLandAreaRevesAndTexts();
 			for (int record = 0; record < bunch.length; record++) {
 				if (list.get(record) instanceof LandAreaRef) {
 					LandAreaRef landAreaRef = (LandAreaRef) list.get(record);
