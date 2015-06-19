@@ -1,3 +1,15 @@
+update 19 juni 2015
+Downloaded the latest Oracle Database 12.1.0.2 JDBC Driver & UCP Downloads driver, in order to be sure:
+Download	ojdbc7.jar (3,698,857 bytes) - (SHA1 Checksum: 7c9b5984b2c1e32e7c8cf3331df77f31e89e24c2) 
+For use with JDK 7; It contains the JDBC driver classes except classes for NLS support in Oracle Object and Collection types.
+
+vme				ojdbc60.jar
+Geoserver 		ojdbc62.jar
+Geoserver dev	ojdbc7.jar
+figis			ojdbc5.jar	because by then, figis was on Java 5, now can be upgraded to ojdbc7.jar
+
+
+
 Update 20 August 2014
 See also vme/vme-service-integrationtest/lib/readme.txt
 Starting to use ojdbc7.jar now also for VME
