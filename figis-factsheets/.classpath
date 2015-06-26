@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="lib" path="/FigisLegacy/endorsedlib/serializer.jar"/>
+	<classpathentry kind="lib" path="/FigisLegacy/endorsedlib/xalan.jar"/>
+	<classpathentry kind="lib" path="/FigisLegacy/endorsedlib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="/FigisLegacy/endorsedlib/xml-apis.jar"/>
 	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
