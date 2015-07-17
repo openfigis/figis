@@ -1,10 +1,13 @@
-<fint:FsSearchResult xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1"
-	xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd"
-	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:fi="http://www.fao.org/fi/figis/devcon/"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<fint:SearchCrit JoinOp="or">
-		<fint:SearchParam NAME="kv">trawl</fint:SearchParam>
-		<fint:SearchParam NAME="dslist">all</fint:SearchParam>
-		<fint:RequestParam NAME="kv0">trawl</fint:RequestParam>
-	</fint:SearchCrit>
+<fint:FsSearchResult xmlns:fint="http://www.fao.org/fi/figis/internal/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.1" xmlns:ags="http://www.purl.org/agmes/1.1/" xmlns:aida="http://www.idmlinitiative.org/resources/dtds/AIDA22.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dwc="http://rs.tdwg.org/dwc/terms" xmlns:fi="http://www.fao.org/fi/figis/devcon/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rowcount="3" time="7477">
+<fint:SearchCrit JoinOp="or">
+<fint:SearchParam KEYWORDVALUE="georeference" NAME="kv">myanmar</fint:SearchParam>
+<fint:SearchParam NAME="dslist">fishery</fint:SearchParam>
+<fint:RequestParam NAME="dslist">fishery</fint:RequestParam>
+<fint:RequestParam NAME="kw0">georeference</fint:RequestParam>
+<fint:RequestParam NAME="kv0">myanmar</fint:RequestParam>
+<fint:RequestParam NAME="refxml">false</fint:RequestParam>
+<fint:RequestParam NAME="lixsl">webapps/figis/firms/format/searchfsfirmslist.xsl</fint:RequestParam>
+</fint:SearchCrit>
+<fint:ResultItem context="Status and trends of sharks fisheries in SouthEast Asia" ds="fishery" fid="363" mid="205000" name="Shark Fisheries : 2004" rating="0" status="2" type="weblink" url="/figis/website/FIRMSRetrieveAction.do?dom=fishery&amp;fid=363&amp;lang=en"/>
+<fint:ResultItem context="Fishery Resources Reports" ds="fishery" fid="929" mid="205000" name="Hilsa shad fisheries : 2013" rating="0" status="1" type="weblink" url="/figis/website/FIRMSRetrieveAction.do?dom=fishery&amp;fid=929&amp;lang=en"/>
 </fint:FsSearchResult>

@@ -1,5 +1,6 @@
 package org.fao.fi.figis.fs.common.business;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -17,6 +18,17 @@ import org.junit.Test;
 public class FsObsRetrievalServiceTest extends BaseTest {
 
 	FsObsRetrievalService service = FsObsRetrievalService.getService();
+
+	@Test
+	public void testGetWebLinkTitle() throws Exception {
+		int meta = 205000;
+		int fid = 363;
+		String lang = "en";
+		FiWebLink wl = service.getWebLink(meta, fid, lang);
+		assertNotNull(wl);
+		assertEquals("Myanmar Shark Fisheries : 2004", wl.getName());
+
+	}
 
 	@Test
 	public void testGetWebLink1() throws Exception {

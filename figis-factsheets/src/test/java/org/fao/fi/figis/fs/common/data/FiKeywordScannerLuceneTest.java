@@ -8,6 +8,19 @@ import org.junit.Test;
 public class FiKeywordScannerLuceneTest extends BaseTest {
 
 	@Test
+	public final void scanObjectsResourceFishery() throws Exception {
+		FiKeywordScannerLucene scanner = FiKeywordScanner.getInstance();
+		scanner.setDatasetName("fishery");
+		scanner.setStoreDir(storeDir);
+		
+
+		int[] ids = { 363 };
+		Locale locl = null;
+		scanner.scanObjects(ids, locl);
+
+	}
+
+	@Test
 	public final void scanObjectsResourceVme() throws Exception {
 		FiKeywordScannerLucene scanner = FiKeywordScanner.getInstance();
 		scanner.setDatasetName("vme");
