@@ -63,6 +63,30 @@ public class FiLuceneSearchTest {
 
 	}
 
+	@Test
+	public void testFindMyanMar() throws Exception {
+		Set<Integer> metas = new HashSet<Integer>();
+		metas.add(new Integer(205000));
+
+		List<FiQueryTerm> terms = new ArrayList<FiQueryTerm>();
+		String[] vList = { "georeference/(myanmar)" };
+		String useANDop = "true";
+
+		// [georeference/(myanmar)]
+		FiQueryTerm term = new FiQueryTerm(null, vList, null, useANDop);
+		terms.add(term);
+
+		boolean useAnd = false;
+		boolean useSynonyms = false;
+		boolean noLimit = false;
+
+		FiRatedListEntry[] results = fiLuceneSearch.find(metas, terms, useAnd, useSynonyms, noLimit);
+		assertEquals(2, results.length);
+		assertEquals(2, results[0].getStatus());
+		assertEquals("myanmar", results[0].getGeoReference());
+
+	}
+
 	private void process(String lang, Document document, Vector<FiSearchTerm> buildVector) throws Exception {
 		Node dataRoot = document.getDocumentElement();
 		int objectStatusLevel = 0;

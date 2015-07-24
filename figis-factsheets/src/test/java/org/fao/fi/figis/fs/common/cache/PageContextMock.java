@@ -19,11 +19,11 @@ import javax.servlet.jsp.el.VariableResolver;
 
 public class PageContextMock extends PageContext {
 
-	public static final String TRANS_RESULT = "content string with HTML";
+	public static final String TRANS_RESULT = "Jacques Chirac";
 
 	PageContextMock(String requestParams) {
 		instanceData.put(CachJspLogic.QUERY_CACHE, "");
-		instanceData.put(CachJspLogic.TRANS_RESULT, TRANS_RESULT);
+		// instanceData.put(CachJspLogic.TRANS_RESULT, TRANS_RESULT);
 
 		RequestParmsParser p = new RequestParmsParser();
 
@@ -102,8 +102,8 @@ public class PageContextMock extends PageContext {
 	}
 
 	@Override
-	public void initialize(Servlet arg0, ServletRequest arg1, ServletResponse arg2, String arg3, boolean arg4,
-			int arg5, boolean arg6) throws IOException, IllegalStateException, IllegalArgumentException {
+	public void initialize(Servlet arg0, ServletRequest arg1, ServletResponse arg2, String arg3, boolean arg4, int arg5,
+			boolean arg6) throws IOException, IllegalStateException, IllegalArgumentException {
 
 	}
 

@@ -7,12 +7,17 @@ import org.junit.Test;
 
 public class FiRatedListEntryTest {
 
+	
+	String geoReference = "Afghanistan";
+	
+	
 	@Test
-	public final void erik() {
-		int l = 4;
-		int nt = Math.max(1, (l / 10));
-
-		System.out.println(nt);
+	public final void FiRatedListEntryConstructor() {
+		new FiRatedListEntry(0, 0, 0, null, null, null, 0, null);
+		new FiRatedListEntry(0, 0, 0, null, null, null, 0, "");
+		new FiRatedListEntry(0, 0, 0, null, null, null, 0, " ");
+		new FiRatedListEntry(0, 0, 0, null, null, null, 0, "  ");
+		
 	}
 
 	@Test
@@ -28,8 +33,8 @@ public class FiRatedListEntryTest {
 		String urlFr = "/fi/website/FIRetrieveAction.do?dom=topic&fid=2888&lang=fr";
 		int pct = 100;
 
-		FiRatedListEntry o1 = new FiRatedListEntry(meta, fid, status, context, nameEs, urlEs, pct);
-		FiRatedListEntry o2 = new FiRatedListEntry(meta, fid, status, context, nameFr, urlFr, pct);
+		FiRatedListEntry o1 = new FiRatedListEntry(meta, fid, status, context, nameEs, urlEs, pct, geoReference);
+		FiRatedListEntry o2 = new FiRatedListEntry(meta, fid, status, context, nameFr, urlFr, pct, geoReference);
 		assertTrue(o1.equals(o1));
 		assertFalse(o1.equals(o2));
 	}
@@ -46,8 +51,8 @@ public class FiRatedListEntryTest {
 		String urlEs = "/fi/website/FIRetrieveAction.do?dom=topic&fid=2888&lang=es";
 		int pct = 100;
 
-		FiRatedListEntry o1 = new FiRatedListEntry(meta, fid, status1, context, nameEs, urlEs, pct);
-		FiRatedListEntry o2 = new FiRatedListEntry(meta, fid, status2, context, nameEs, nameEs, pct);
+		FiRatedListEntry o1 = new FiRatedListEntry(meta, fid, status1, context, nameEs, urlEs, pct, geoReference);
+		FiRatedListEntry o2 = new FiRatedListEntry(meta, fid, status2, context, nameEs, nameEs, pct, geoReference);
 		assertFalse(o1.equals(o2));
 	}
 
