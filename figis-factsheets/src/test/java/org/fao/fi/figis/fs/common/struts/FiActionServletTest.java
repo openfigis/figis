@@ -11,7 +11,7 @@ public class FiActionServletTest {
 	@Test
 	public void testProcess() throws ClassNotFoundException, IllegalAccessException, InstantiationException {
 
-		// protected Action createAction(ActionContext context, String type)
+		// . protected Action createAction(ActionContext context, String type)
 		// throws Exception {
 		// log.info("Initialize action of type: " + type);
 
