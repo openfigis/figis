@@ -165,16 +165,6 @@ public class CommonBuildToolJava7 extends JFrame {
 
 	private JCheckBox productionCheckBox;
 
-	private JCheckBox junitCheckBox;
-
-	private JCheckBox jdependCheckBox;
-
-	private JCheckBox checkStyleCheckBox;
-
-	private JCheckBox java2htmlCheckBox;
-
-	private JCheckBox javadocCheckBox;
-
 	private JCheckBox bundleCheckBox;
 
 	private JCheckBox jarCheckBox;
@@ -590,11 +580,13 @@ public class CommonBuildToolJava7 extends JFrame {
 				project.setProperty("build.build.enabled", "true");
 				project.setProperty("build.bundle.enabled", bundleCheckBox.isSelected() ? "true" : "false");
 				project.setProperty("build.jars.enabled", jarCheckBox.isSelected() ? "true" : "false");
-				project.setProperty("build.api.enabled", javadocCheckBox.isSelected() ? "true" : "false");
-				project.setProperty("build.java2html.enabled", java2htmlCheckBox.isSelected() ? "true" : "false");
-				project.setProperty("build.checkstyle.enabled", checkStyleCheckBox.isSelected() ? "true" : "false");
-				project.setProperty("build.jdepend.enabled", jdependCheckBox.isSelected() ? "true" : "false");
-				project.setProperty("build.junit.enabled", junitCheckBox.isSelected() ? "true" : "false");
+
+				project.setProperty("build.api.enabled", "false");
+				project.setProperty("build.java2html.enabled", "false");
+				project.setProperty("build.checkstyle.enabled", "false");
+				project.setProperty("build.jdepend.enabled", "false");
+				project.setProperty("build.junit.enabled", "false");
+
 			} else {
 				project.setProperty("build.build.enabled", "false");
 			}
@@ -1307,31 +1299,6 @@ public class CommonBuildToolJava7 extends JFrame {
 				jarCheckBox.setSelected(true);
 				panel.add(jarCheckBox);
 				jarCheckBox.setText("Jar");
-				javadocCheckBox = new JCheckBox();
-				javadocCheckBox.setBounds(255, 195, 170, 25);
-				javadocCheckBox.setSelected(true);
-				panel.add(javadocCheckBox);
-				javadocCheckBox.setText("Javadoc");
-				java2htmlCheckBox = new JCheckBox();
-				java2htmlCheckBox.setBounds(255, 215, 180, 25);
-				java2htmlCheckBox.setSelected(true);
-				panel.add(java2htmlCheckBox);
-				java2htmlCheckBox.setText("Java-To-Html");
-				checkStyleCheckBox = new JCheckBox();
-				checkStyleCheckBox.setBounds(255, 235, 170, 25);
-				checkStyleCheckBox.setSelected(true);
-				panel.add(checkStyleCheckBox);
-				checkStyleCheckBox.setText("CheckStyle");
-				jdependCheckBox = new JCheckBox();
-				jdependCheckBox.setBounds(255, 255, 170, 25);
-				jdependCheckBox.setSelected(true);
-				panel.add(jdependCheckBox);
-				jdependCheckBox.setText("JDepend");
-				junitCheckBox = new JCheckBox();
-				junitCheckBox.setBounds(255, 275, 170, 25);
-				junitCheckBox.setSelected(true);
-				panel.add(junitCheckBox);
-				junitCheckBox.setText("JUnit");
 				buildCheckBox = new JCheckBox();
 				buildCheckBox.addItemListener(new ItemListener() {
 
@@ -1339,19 +1306,9 @@ public class CommonBuildToolJava7 extends JFrame {
 						if (e.getStateChange() == ItemEvent.SELECTED) {
 							bundleCheckBox.setEnabled(true);
 							jarCheckBox.setEnabled(true);
-							javadocCheckBox.setEnabled(true);
-							java2htmlCheckBox.setEnabled(true);
-							checkStyleCheckBox.setEnabled(true);
-							jdependCheckBox.setEnabled(true);
-							junitCheckBox.setEnabled(true);
 						} else {
 							bundleCheckBox.setEnabled(false);
 							jarCheckBox.setEnabled(false);
-							javadocCheckBox.setEnabled(false);
-							java2htmlCheckBox.setEnabled(false);
-							checkStyleCheckBox.setEnabled(false);
-							jdependCheckBox.setEnabled(false);
-							junitCheckBox.setEnabled(false);
 						}
 					}
 				});
