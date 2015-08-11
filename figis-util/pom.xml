@@ -14,11 +14,7 @@
 	</repositories>
 	<dependencies>
 
-		<dependency>
-			<groupId>ojdbc</groupId>
-			<artifactId>ojdbc</artifactId>
-			<version>5</version>
-		</dependency>
+
 		
 		<dependency>
 			<groupId>org.fao</groupId>
