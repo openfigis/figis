@@ -16,24 +16,26 @@ public class FigisCrawler {
 
 	private static final String URL_FI = "http://www.fao.org/fishery/sitemapnew/fi/sitemapindex.xml";
 	private static final String URL_FIRMS = "http://firms.fao.org/firms/sitemapnew/firms/sitemapindex.xml";
-	private static final String URL_GFCM = "http://www.gfcm.org/gfcm/sitemapnew/gfcm/sitemapindex.xml";
-	// private static final String URL_NANSEN = "http://www.eaf-nansen.org/nansen/sitemapnew/nansen/sitemapindex.xml";
+	// private static final String URL_GFCM =
+	// "http://www.gfcm.org/gfcm/sitemapnew/gfcm/sitemapindex.xml";
+	// private static final String URL_NANSEN =
+	// "http://www.eaf-nansen.org/nansen/sitemapnew/nansen/sitemapindex.xml";
 	boolean doOnlyFirst = true;
 
-	private static final String DEV[][] = {//
-	{ "http://www.fao.org/fishery", "http://hqldvfigis1:8080/fishery" },//
-			{ "http://firms.fao.org/firms", "http://hqldvfigis1:8080/firms" },//
-			{ "http://www.gfcm.org/gfcm", "http://hqldvfigis1:8080/gfcm" },//
+	private static final String DEV[][] = { //
+			{ "http://www.fao.org/fishery", "http://hqldvfigis1:8080/fishery" }, //
+			{ "http://firms.fao.org/firms", "http://hqldvfigis1:8080/firms" }, //
+			{ "http://www.gfcm.org/gfcm", "http://hqldvfigis1:8080/gfcm" }, //
 			{ "http://www.eaf-nansen.org/nansen", "http://hqldvfigis1:8080/nansen" },//
 	};
 
-	private static final String QA[][] = {//
-	{ "http://www.fao.org/fishery", "http://hqldvfigis1:8282/fishery" },//
-			{ "http://www.gfcm.org/gfcm", "http://hqldvfigis1:8282/gfcm" },//
+	private static final String QA[][] = { //
+			{ "http://www.fao.org/fishery", "http://hqldvfigis1:8282/fishery" }, //
+			{ "http://www.gfcm.org/gfcm", "http://hqldvfigis1:8282/gfcm" }, //
 			{ "http://www.eaf-nansen.org/nansen", "http://hqldvfigis1:8282/nansen" },//
 	};
 
-	private static String URLS[] = { URL_FI, URL_FIRMS, URL_GFCM };
+	private static String URLS[] = { URL_FI, URL_FIRMS };
 	// private static String URLS[] = { URL_FI, URL_FIRMS, URL_GFCM, URL_NANSEN
 	// };
 
