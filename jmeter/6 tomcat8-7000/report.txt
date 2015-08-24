@@ -13,3 +13,16 @@ users	samples	AVG		ERROR%	TP		CPU		Comments
 5		66		1098	7		4.4		70		crashes
 1		93		1400	0		46/min	50
 2 		40		730		0		2.7		80		does not crash
+
+
+-- Starting with 3 users
+users	samples	AVG		ERROR%	TP		CPU		Comments
+3		507		1395	1		2.1		?		crashes (after 507 samples)
+3		131		871		2		3.4		?		crashes
+
+-- starting with a warmed up server
+users	samples	AVG		ERROR%	TP		CPU		Comments
+1		684		542		0		1.9		30		does not crash	
+
+
+
