@@ -1,0 +1,15 @@
+
+-- Tomcat 8 Java 8 going down from 100 users
+users	samples	AVG		ERROR%	TP		CPU		Comments
+5		263		1113	1.9		4.4		76%		crashes
+4		99		842		4		4.7		75		crashes
+3		35		1228	8		2.4		75		crashes	
+
+-- Tomcat 8 Java 8 going up from 1 user
+users	samples	AVG		ERROR%	TP		CPU		Comments
+3		35		900		0		2.4		78		does not crash	
+2		400		835		1		2.8		50		crashes
+1		120		526		0		1.9		30		does not crash
+5		66		1098	7		4.4		70		crashes
+1		93		1400	0		46/min	50
+2 		40		730		0		2.7		80		does not crash
